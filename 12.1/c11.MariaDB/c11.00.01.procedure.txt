@@ -1,0 +1,175 @@
+A. Preparation
+
+  A.01. ( Assumming LfS is already running )
+
+      ###
+
+      rm -v /sources
+
+      ###
+
+      # (a) VM
+
+            mkdir -v /mnt/src/blfs.{src,log}
+
+            chmod -v a+wt /mnt/src/blfs.{src,log}
+
+            ln -sfv /mnt/src/blfs.src /sources
+
+            ln -sfv /mnt/src/blfs.log /var/log/blfs
+
+      # (b) PC
+
+            mkdir -pv /usr/src/blfs
+
+            mkdir -pv /var/log/blfs
+
+            chmod -v a+wt /usr/src/blfs
+
+            chmod -v a+wt /var/log/blfs
+
+            ln -sfv /usr/src/blfs /sources
+
+        ###
+
+        cd /sources
+
+        ###
+
+  A.02. Copy all script files
+
+        copy all script files from the following to /sources
+
+            1. b00.common.to.All
+            2. b10.common.Xorg.and.servers
+            3. b11.common.Xorg.MariaDB
+            4. b15.common.Xorg.MariaDB.Apache
+            5. c11.MariaDB
+
+  A.03. Download packages
+
+        ###
+
+        wget --input-file=b00.00.09.wget-list-sysv.common.to.All.txt                --continue --directory-prefix=/sources
+        wget --input-file=b10.00.09.wget-list-sysv.common.Xorg.and.servers.txt      --continue --directory-prefix=/sources
+        wget --input-file=b11.00.09.wget-list-sysv.common.Xorg.MariaDB.txt          --continue --directory-prefix=/sources
+        wget --input-file=b15.00.09.wget-list-sysv.common.Xorg.MariaDB.Apache.txt   --continue --directory-prefix=/sources
+        wget --input-file=c11.00.09.wget-list-sysv.MariaDB.txt                      --continue --directory-prefix=/sources
+
+        ###
+
+  A.04. Setting Up the Environment
+        ( Note: change the MAKEFLAGS & NPROC based on the number of threads )
+
+        ###
+
+        export LFSLOG=/var/log/blfs
+
+        export MAKEFLAGS="-j$(nproc)"
+
+        ###
+
+B.  Generate BLFS - Support Files
+
+  B.01. Checking Environment
+
+        ###
+
+        echo $LFSLOG          # /var/log/blfs
+        echo $MAKEFLAGS       # -j$(nproc)
+        echo $nproc           # $(nproc)
+
+        echo $SHELL           # /bin/bash
+        ls -l /bin/sh         # bash
+        ls -l /usr/bin/awk    # gawk
+
+        cd /sources
+
+        ###
+
+        ( display )
+        root [ /sources ]#
+
+  B.02. Support Applications - Linux-PAM
+
+        ###
+
+        bash c11.03.90.all.support.apps.Part1.sh
+
+        reboot
+
+  B.03. ReSetting Up the Environment
+        ( Note: change the MAKEFLAGS & NPROC based on the number of threads )
+
+        ###
+
+        export LFSLOG=/var/log/blfs
+
+        export MAKEFLAGS="-j8"
+        export NPROC="8"
+
+        ###
+
+        echo $LFSLOG          # /var/log/blfs
+        echo $MAKEFLAGS       # -j$(nproc)
+        echo $nproc           # $(nproc)
+
+        echo $SHELL           # /bin/bash
+        ls -l /bin/sh         # bash
+        ls -l /usr/bin/awk    # gawk
+
+        cd /sources
+
+        ###
+
+        ( display )
+        root [ /sources ]#
+
+  B.04. Support Applications - others
+
+        ###
+
+        bash c11.03.90.all.support.apps.Part2.sh
+
+
+C.  Generate BLFS
+
+  C.01. MariaDB Compile/Install
+
+        ###
+
+        bash c11.22.00.sh
+
+  C.02. MariaDB set root password
+
+        mysqld_safe --user=mysql 2>&1 >/dev/null &
+
+        mysqladmin -u root password
+            (Assumming "MariaDB" as password)
+
+        mysqladmin -p shutdown
+
+  C.03. MariaDB/MySQL bootscript
+
+        VM: cd /mnt/src/lfs.src/blfs-bootscripts-20231119
+        PC: cd /usr/src/lfs/blfs-bootscripts-20231119
+
+        make install-mysql
+
+        reboot
+
+        ###
+
+  C.04. Configuration for Remote Access
+
+        # https://mariadb.com/kb/en/configuring-mariadb-for-remote-client-access/
+
+        /etc/mysql/my.cnf
+
+            #skip-networking
+
+        mariadb -u root -pMariaDB
+
+            CREATE USER 'root'@'ip-address' identified by 'MariaDB';
+            GRANT ALL PRIVILEGES ON *.* TO 'root'@'ip-address';
+            exit;

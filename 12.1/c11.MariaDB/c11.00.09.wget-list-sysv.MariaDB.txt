@@ -1,0 +1,8 @@
+# 09.05 Boost-1.84.0
+https://github.com/boostorg/boost/releases/download/boost-1.84.0/boost-1.84.0.tar.xz
+
+# 17.07 libevent-2.1.12
+https://github.com/libevent/libevent/releases/download/release-2.1.12-stable/libevent-2.1.12-stable.tar.gz
+
+# 22.03 MariaDB-10.11.7
+https://downloads.mariadb.org/interstitial/mariadb-10.11.7/source/mariadb-10.11.7.tar.gz
