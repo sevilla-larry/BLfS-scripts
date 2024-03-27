@@ -1,16 +1,21 @@
 # BLfS-scripts
+# Continuation of LfS-Scripts
 #
 # Author: Sevilla, Larry
-#  eMail: sevilla.larry.oss@gmail.com
+#  eMail: sevilla.larry.prg@gmail.com
+#
+# Current BLfS version: 12.1
+# Started: 2024/Mar/27
+# arch: x64, UEFI (same with LfS-Scripts)
 #
 #
-# Current BLfS version: 12.0
+# Stopped BLfS version: 12.0
 # Started: 2023/Sept/08
 # arch: x64, UEFI
+# Stopped: 2024/Feb
 #
 # based on: https://www.linuxfromscratch.org/blfs/
 #
-# Continuation of LfS-Scripts
 #
 #
 #
