@@ -4,10 +4,17 @@
 # Author: Sevilla, Larry
 #  eMail: sevilla.larry.prg@gmail.com
 #
-# Current BLfS version: 12.1
+#
+# BLfS version: 12.2
+# Started: 2024/Sept/04
+# arch: x64, UEFI (same with LfS-Scripts)
+# Status: current
+#
+#
+# BLfS version: 12.1
 # Started: 2024/Mar/27
 # arch: x64, UEFI (same with LfS-Scripts)
-#
+# Status: Stopped, NOT working, busy
 #
 # Stopped BLfS version: 12.0
 # Started: 2023/Sept/08
@@ -19,12 +26,10 @@
 #
 #
 #
-# Group a - LfS / status: OK, working
+# Group a - LfS / status: ???
 #
 #
 # Group b - Common apps & Libraries
-#
-#       b00 - Common to all
 #
 #       b10 - Common to XOrg & servers
 #       b11 - Common to XOrg & MariaDB
@@ -94,6 +99,7 @@
 # BLfS ver: 11.3
 # Started: 2023/Apr/15
 # arch: x64, UEFI
+# Stopped: before 2023/Sept
 #
 # Group a - LfS / status: OK, working
 # Group b - XOrg only / status: root ok, user ok

@@ -1,0 +1,9 @@
+# 09.07 noost-1.86.0
+https://github.com/boostorg/boost/releases/download/boost-1.86.0/boost-1.86.0-b2-nodocs.tar.xz
+https://www.linuxfromscratch.org/patches/blfs/12.2/boost-1.86.0-upstream_fixes-1.patch
+
+# 17.07 libevent-2.1.12
+https://github.com/libevent/libevent/releases/download/release-2.1.12-stable/libevent-2.1.12-stable.tar.gz
+
+# 22.04 MariaDB-10.11.6
+https://downloads.mariadb.org/interstitial/mariadb-10.11.8/source/mariadb-10.11.8.tar.gz
