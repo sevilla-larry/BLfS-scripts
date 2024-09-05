@@ -13,7 +13,7 @@
 #
 # Optional ( but needed during compile by ):
 #
-#               ???.22.05 PostgreSQL-16.1       ???
+#               c12.22.04 PostgreSQL-16.4
 #
 
 export PKG="icu4c-75_1-src"

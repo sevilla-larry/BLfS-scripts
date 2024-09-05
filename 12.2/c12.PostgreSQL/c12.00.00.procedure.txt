@@ -22,13 +22,13 @@ A. Preparation
 
             mkdir -pv /usr/src/blfs
 
-            mkdir -pv /var/log/blfs
-
             chmod -v a+wt /usr/src/blfs
 
-            chmod -v a+wt /var/log/blfs
-
             ln -sfv /usr/src/blfs /sources
+
+            mkdir -pv /var/log/blfs
+
+            chmod -v a+wt /var/log/blfs
 
         ###
 
@@ -41,28 +41,22 @@ A. Preparation
         copy all script files from the following to /sources
 
             1. b10.common.Xorg.and.servers
-            2. b11.common.Xorg.MariaDB
-            3. b15.common.Xorg.MariaDB.Apache
-            4. c11.MariaDB
+            2. c12.PostgreSQL
 
   A.03. Download packages
 
         ###
 
         wget --input-file=b10.00.01.wget-list-sysv.common.Xorg.and.servers.txt      --continue --directory-prefix=/sources
-        wget --input-file=b11.00.01.wget-list-sysv.common.Xorg.MariaDB.txt          --continue --directory-prefix=/sources
-        wget --input-file=b15.00.01.wget-list-sysv.common.Xorg.MariaDB.Apache.txt   --continue --directory-prefix=/sources
-        wget --input-file=c11.00.01.wget-list-sysv.MariaDB.txt                      --continue --directory-prefix=/sources
+        wget --input-file=c12.00.01.wget-list-sysv.PostgreSQL.txt                   --continue --directory-prefix=/sources
 
         md5sum -c b10.00.02.md5sums.common.Xorg.and.servers.txt
-        md5sum -c b11.00.02.md5sums.common.Xorg.MariaDB
-        md5sum -c b15.00.02.md5sums.common.Xorg.MariaDB.Apache
-        md5sum -c c11.00.02.md5sums.MariaDB
+        md5sum -c c12.00.02.md5sums.PostgreSQL.txt
 
         ###
 
   A.04. Setting Up the Environment
-        ( Note: change the MAKEFLAGS & NPROC based on the number of threads )
+        ( Note: change the MAKEFLAGS based on the number of threads )
 
         ###
 
@@ -101,58 +95,50 @@ B.  Generate BLFS - Support Files
 
         ###
 
-        bash c11.00.90.all.support.apps.sh
+        bash c12.00.90.all.support.apps.sh
 
         ###
 
 C.  Generate BLFS
 
-  C.01. MariaDB Compile/Install
+  C.01. PostgreSQL Compile/Install
 
         ###
 
-        bash c11.22.00.sh
+        bash c12.22.00.sh
 
         ###
 
-  C.02. MariaDB set root password
+            msgs:
+
+            initdb: warning: enabling "trust" authentication for local connections
+            initdb: hint: You can change this by editing pg_hba.conf or using the option -A, or --auth-local and --auth-host, the next time you run initdb.
+
+            Success. You can now start the database server using:
+
+                /usr/bin/pg_ctl -D /srv/pgsql/data -l logfile start
 
         ###
 
-        mysqld_safe --user=mysql 2>&1 >/dev/null &
-
-        mysqladmin -u root password
-            (Assumming "MariaDB" as password)
-
-        mysqladmin -p shutdown
+  C.02. PostgreSQL bootscript
 
         ###
 
-  C.03. MariaDB/MySQL bootscript
+        VM: cd /mnt/src/lfs.src/blfs-bootscripts-20231119
+        PC: cd /usr/src/lfs/blfs-bootscripts-20231119
 
-        ###
-
-        VM: cd /mnt/src/lfs.src/blfs-bootscripts-20240416
-        PC: cd /usr/src/lfs/blfs-bootscripts-20240416
-
-        make install-mysql
+        make install-postgresql
 
         reboot
 
         ###
 
-  C.04. Configuration for Remote Access
+  C.03. Starting PostgreSQL & Sample Database
+  
+        ###
 
-        # https://mariadb.com/kb/en/configuring-mariadb-for-remote-client-access/
-        #
-        # /etc/mysql/my.cnf
-        #
-        #    #skip-networking
+        https://www.linuxfromscratch.org/blfs/view/12.2/server/postgresql.html
 
-        mariadb -u root -pMariaDB
-
-            CREATE USER 'root'@'ip-address' identified by 'MariaDB';
-            GRANT ALL PRIVILEGES ON *.* TO 'root'@'ip-address';
-            exit;
+        Execute: Starting the PostgreSQL Server and Creating a Sample Database
 
         ###

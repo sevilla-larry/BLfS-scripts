@@ -25,7 +25,8 @@
 #
 # Optional by:
 #
-#               c11.22.04 MariaDB-10.11.8
+#               c11.22.03 MariaDB-10.11.8
+#               c12.22.04 PostgreSQL-16.4
 #               ???.10.05 Fontconfig-2.14.2     ???
 #
 
