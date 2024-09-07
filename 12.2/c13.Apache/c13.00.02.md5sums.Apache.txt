@@ -1,0 +1,4 @@
+f8a62f3984898ba0ea8b6f26b851cb99 apr-1.7.4.tar.bz2
+b6e8c9b31d938fe5797ceb0d1ff2eb69 apr-util-1.6.3.tar.bz2
+cded7afa23c13c4854008d95a69ce016 httpd-2.4.62.tar.bz2
+# httpd-2.4.62-blfs_layout-1.patch

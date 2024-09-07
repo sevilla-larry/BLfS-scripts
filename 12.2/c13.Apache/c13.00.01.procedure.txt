@@ -1,0 +1,117 @@
+A. Preparation
+
+  A.01. ( Assumming LfS is already running )
+
+        ###
+
+        rm -v /sources
+
+        ###
+
+        # (a) VM & VB
+
+            mkdir -v /mnt/src/blfs.{src,log}
+
+            chmod -v a+wt /mnt/src/blfs.{src,log}
+
+            ln -sfv /mnt/src/blfs.src /sources
+
+            ln -sfv /mnt/src/blfs.log /var/log/blfs
+
+        # (b) PC
+
+            mkdir -pv /usr/src/blfs
+
+            mkdir -pv /var/log/blfs
+
+            chmod -v a+wt /usr/src/blfs
+
+            chmod -v a+wt /var/log/blfs
+
+            ln -sfv /usr/src/blfs /sources
+
+        ###
+
+        cd /sources
+
+        ###
+
+  A.02. Install a Database
+
+        either MariaDB & PostgreSQL, option of Apr-Util
+
+  A.03. Copy all script files
+
+        copy all script files from the following to /sources
+
+            1. c13.Apache
+
+  A.04. Download packages
+
+        ###
+
+        wget --input-file=c13.00.09.wget-list-sysv.Apache.txt                 --continue --directory-prefix=/sources
+
+        ###
+
+  A.04. Setting Up the Environment
+        ( Note: change the MAKEFLAGS based on the number of threads )
+
+        ###
+
+        export LFSLOG=/var/log/blfs
+
+        export MAKEFLAGS="-j8"
+
+        ###
+
+B.  Generate BLFS - Support Files
+
+  B.01. Checking Environment
+
+        ###
+
+        echo $LFSLOG          # /var/log/blfs
+        echo $MAKEFLAGS       # -j8
+
+        echo $SHELL           # /bin/bash
+        ls -l /bin/sh         # bash
+        ls -l /usr/bin/awk    # gawk
+
+        cd /sources
+
+        ###
+
+        ( display )
+        root [ /sources ]#
+
+  B.03. Support Applications
+
+        ###
+
+        bash c13.03.90.all.support.apps.sh
+
+        reboot
+
+C.  Generate BLFS
+
+  C.01. Apache Compile/Install
+
+        ###
+
+        bash c13.20.00.sh
+
+        ###
+
+  C.02. Apache bootscript
+
+        ###
+
+        VM: cd /mnt/src/lfs.src/blfs-bootscripts-20231119
+        PC: cd /usr/src/lfs/blfs-bootscripts-20231119
+
+        make install-httpd
+
+        reboot
+
+        ###

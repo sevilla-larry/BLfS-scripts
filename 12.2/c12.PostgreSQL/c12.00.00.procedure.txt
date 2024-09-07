@@ -22,13 +22,13 @@ A. Preparation
 
             mkdir -pv /usr/src/blfs
 
-            chmod -v a+wt /usr/src/blfs
-
-            ln -sfv /usr/src/blfs /sources
-
             mkdir -pv /var/log/blfs
 
+            chmod -v a+wt /usr/src/blfs
+
             chmod -v a+wt /var/log/blfs
+
+            ln -sfv /usr/src/blfs /sources
 
         ###
 
