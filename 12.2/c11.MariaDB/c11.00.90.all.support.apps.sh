@@ -6,14 +6,14 @@
 # ICU & libxml2
 bash b10.09.00.sh
 
+# Which
+bash b11.12.00.sh
+
 # cURL
 bash b11.17.00.sh
 
 # CMake
 bash b11.13.00.sh
-
-# Which
-bash b11.12.00.sh
 
 # PCRE2
 bash b15.09.00.sh
