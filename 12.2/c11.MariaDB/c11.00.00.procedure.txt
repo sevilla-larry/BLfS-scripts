@@ -82,7 +82,6 @@ B.  Generate BLFS - Support Files
         echo $LFSLOG          # /var/log/blfs
         echo $MAKEFLAGS       # -j$(nproc)
         echo $NPROC           # $(nproc)
-        echo $nproc           # $(nproc)
 
         echo $SHELL           # /bin/bash
         ls -l /bin/sh         # bash
