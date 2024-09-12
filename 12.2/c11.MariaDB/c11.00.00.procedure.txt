@@ -10,13 +10,13 @@ A. Preparation
 
         # (a) VM & VB
 
-            mkdir -v /mnt/src/blfs.{src,log}
+            mkdir -v /mnt/Src/blfs.{src,log}
 
-            chmod -v a+wt /mnt/src/blfs.{src,log}
+            chmod -v a+wt /mnt/Src/blfs.{src,log}
 
-            ln -sfv /mnt/src/blfs.src /sources
+            ln -sfv /mnt/Src/blfs.src /sources
 
-            ln -sfv /mnt/src/blfs.log /var/log/blfs
+            ln -sfv /mnt/Src/blfs.log /var/log/blfs
 
         # (b) PC
 
