@@ -131,7 +131,7 @@ C.  Generate BLFS
 
         ###
 
-        VM: cd /mnt/Src/lfs.src/blfs-bootscripts-20240416
+        VM/VB: cd /mnt/Src/lfs.src/blfs-bootscripts-20240416
         PC: cd /usr/src/lfs/blfs-bootscripts-20240416
 
         make install-mysql
