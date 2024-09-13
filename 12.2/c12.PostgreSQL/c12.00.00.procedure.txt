@@ -10,13 +10,13 @@ A. Preparation
 
         # (a) VM & VB
 
-            mkdir -v /mnt/src/blfs.{src,log}
+            mkdir -v /mnt/Src/blfs.{src,log}
 
-            chmod -v a+wt /mnt/src/blfs.{src,log}
+            chmod -v a+wt /mnt/Src/blfs.{src,log}
 
-            ln -sfv /mnt/src/blfs.src /sources
+            ln -sfv /mnt/Src/blfs.src /sources
 
-            ln -sfv /mnt/src/blfs.log /var/log/blfs
+            ln -sfv /mnt/Src/blfs.log /var/log/blfs
 
         # (b) PC
 
@@ -76,7 +76,6 @@ B.  Generate BLFS - Support Files
         echo $LFSLOG          # /var/log/blfs
         echo $MAKEFLAGS       # -j$(nproc)
         echo $NPROC           # $(nproc)
-        echo $nproc           # $(nproc)
 
         echo $SHELL           # /bin/bash
         ls -l /bin/sh         # bash
@@ -108,24 +107,24 @@ C.  Generate BLFS
         bash c12.22.00.sh
 
         ###
-
-            msgs:
-
-            initdb: warning: enabling "trust" authentication for local connections
-            initdb: hint: You can change this by editing pg_hba.conf or using the option -A, or --auth-local and --auth-host, the next time you run initdb.
-
-            Success. You can now start the database server using:
-
-                /usr/bin/pg_ctl -D /srv/pgsql/data -l logfile start
-
+        #
+        #    msgs:
+        #
+        #    initdb: warning: enabling "trust" authentication for local connections
+        #    initdb: hint: You can change this by editing pg_hba.conf or using the option -A, or --auth-local and --auth-host, the next time you run initdb.
+        #
+        #    Success. You can now start the database server using:
+        #
+        #        /usr/bin/pg_ctl -D /srv/pgsql/data -l logfile start
+        #
         ###
 
   C.02. PostgreSQL bootscript
 
         ###
 
-        VM: cd /mnt/src/lfs.src/blfs-bootscripts-20231119
-        PC: cd /usr/src/lfs/blfs-bootscripts-20231119
+        VM/VB: cd /mnt/Src/lfs.src/blfs-bootscripts-20240416
+        PC: cd /usr/src/lfs/blfs-bootscripts-20240416
 
         make install-postgresql
 
