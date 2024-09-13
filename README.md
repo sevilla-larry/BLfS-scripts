@@ -9,6 +9,8 @@
 # Started: 2024/Sept/04
 # arch: x64, UEFI (same with LfS-Scripts)
 # Status: current
+# 
+# c11: Maria DB - working
 #
 #
 # BLfS version: 12.1
