@@ -148,8 +148,10 @@ C.  Generate BLFS
 
         pg_isready
 
+        export PGDATA=/srv/pgsql/data
+
         #
-        # /srv/pgsql/data/pg_hba.conf
+        # $PGDATA/pg_hba.conf
         #
         # add:
         #
@@ -158,8 +160,10 @@ C.  Generate BLFS
 
         reboot
 
+   C.05. Setup/Install a PostgreSQL FrontEnd client (no server) on a Remote PC
+
         #
-        # to connect remotely, at client, assuming postgresql (can be client-only) is installed:
+        # on remote client
         #
 
         # psql -h <REMOTE HOST> -p <REMOTE PORT>/5432 -U <DB_USER> <DB_NAME> 

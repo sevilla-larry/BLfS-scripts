@@ -161,5 +161,8 @@ C.  Generate BLFS
    C.05. Setup/Install a MariaDB FrontEnd client (no server) on a Remote PC
 
         # on remote client
+        #
+        # mariadb -h <remote-ip-address> -u <user> -p<password>
+        #
 
         mariadb -h <remote-ip-address> -u root -pMariaDB

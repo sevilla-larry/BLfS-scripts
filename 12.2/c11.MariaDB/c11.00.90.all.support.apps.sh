@@ -6,8 +6,8 @@
 # ICU & libxml2
 bash b10.09.00.sh
 
-# Which
-bash b11.12.00.sh
+# Which: to LfS misc
+# bash b11.12.00.sh
 
 # cURL
 bash b11.17.00.sh
