@@ -140,4 +140,30 @@ C.  Generate BLFS
 
         Execute: Starting the PostgreSQL Server and Creating a Sample Database
 
+  C.04. Configuration for Remote Access
+
+        #
+        # to check if PostgreSQL is running, at server, as root:
+        #
+
+        pg_isready
+
+        #
+        # /srv/pgsql/data/pg_hba.conf
+        #
+        # add:
+        #
+        #   host  all all samenet trust
+        #
+
+        reboot
+
+        #
+        # to connect remotely, at client, assuming postgresql (can be client-only) is installed:
+        #
+
+        # psql -h <REMOTE HOST> -p <REMOTE PORT>/5432 -U <DB_USER> <DB_NAME> 
+
+        psql -h <ipAddr> -p 5432 -U postgres postgres
+
         ###
