@@ -8,6 +8,12 @@
 #
 #               c13.09.04 Apr-1.7.4
 #
+#       Optional:
+#
+#               c11.22.03 MariaDB-10.11.8
+#           or
+#               c12.22.04 PostgreSQL-16.4
+#
 
 #
 # Required by:

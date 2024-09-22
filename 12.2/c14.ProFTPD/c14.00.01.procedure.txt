@@ -1,0 +1,113 @@
+A. Preparation
+
+  A.01. ( Assumming LfS is already running )
+
+        ###
+
+        rm -v /sources
+
+        ###
+
+        # (a) VM & VB
+
+            mkdir -v /mnt/src/blfs.{src,log}
+
+            chmod -v a+wt /mnt/src/blfs.{src,log}
+
+            ln -sfv /mnt/src/blfs.src /sources
+
+            ln -sfv /mnt/src/blfs.log /var/log/blfs
+
+        # (b) PC
+
+            mkdir -pv /usr/src/blfs
+
+            mkdir -pv /var/log/blfs
+
+            chmod -v a+wt /usr/src/blfs
+
+            chmod -v a+wt /var/log/blfs
+
+            ln -sfv /usr/src/blfs /sources
+
+        ###
+
+        cd /sources
+
+        ###
+
+  A.02. Install a Database
+
+        either MariaDB & PostgreSQL, as option
+
+  A.03. Copy all script files
+
+        copy all script files from the following to /sources
+
+            1. c14.ProFTPD
+
+  A.04. Download packages
+
+        ###
+
+        wget --input-file=c14.00.01.wget-list-sysv.ProFTPD.txt                 --continue --directory-prefix=/sources
+
+        md5sum -c c14.00.02.md5sums.ProFTPD.txt
+
+        ###
+
+  A.04. Setting Up the Environment
+        ( Note: change the MAKEFLAGS based on the number of threads )
+
+        ###
+
+        export LFSLOG=/var/log/blfs
+
+        export MAKEFLAGS="-j$(nproc)"
+        export NPROC="$(nproc)"
+
+        ###
+
+B.  Generate BLFS - Support Files
+
+  B.01. Checking Environment
+
+        ###
+
+        echo $LFSLOG          # /var/log/blfs
+        echo $MAKEFLAGS       # -j$(nproc)
+        echo $NPROC           # $(nproc)
+
+        echo $SHELL           # /bin/bash
+        ls -l /bin/sh         # bash
+        ls -l /usr/bin/awk    # gawk
+
+        cd /sources
+
+        ###
+
+        ( display )
+        root [ /sources ]#
+
+C.  Generate BLFS
+
+  C.01. ProFTPD Compile/Install
+
+        ###
+
+        bash c14.20.00.sh
+
+        ###
+
+  C.02. ProFTPD bootscript
+
+        ###
+
+        VM/VB: cd /mnt/Src/lfs.src/blfs-bootscripts-20240416
+        PC: cd /usr/src/lfs/blfs-bootscripts-20240416
+
+        make install-proftpd
+
+        reboot
+
+        ###
