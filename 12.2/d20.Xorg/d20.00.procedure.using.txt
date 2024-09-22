@@ -1,0 +1,165 @@
+A. Preparation
+
+  A.01. ( Assumming LfS is already running )
+
+        ###
+
+        rm -v /sources
+
+        ###
+
+        # (a) VM & VB
+
+            mkdir -v /mnt/src/blfs.{src,log}
+
+            chmod -v a+wt /mnt/src/blfs.{src,log}
+
+            ln -sfv /mnt/src/blfs.src /sources
+
+            ln -sfv /mnt/src/blfs.log /var/log/blfs
+
+        # (b) PC
+
+            mkdir -pv /usr/src/blfs
+
+            mkdir -pv /var/log/blfs
+
+            chmod -v a+wt /usr/src/blfs
+
+            chmod -v a+wt /var/log/blfs
+
+            ln -sfv /usr/src/blfs /sources
+
+        ###
+
+        cd /sources
+
+        ###
+
+  A.02. Copy all script files
+
+        copy all script files from the following to /sources
+
+            1. d20.Xorg
+
+  A.03. Download packages
+
+        ###
+
+        wget --input-file=d10.01.wget-list-sysv.Xorg.support.txt --continue --directory-prefix=/sources
+        wget --input-file=d20.01.wget-list-sysv.Xorg.txt         --continue --directory-prefix=/sources
+
+        md5sum -c d10.00.02.md5sums.Xorg.support.txt
+        md5sum -c d20.00.02.md5sums.Xorg.txt
+
+        execute the download portions:
+
+        https://www.linuxfromscratch.org/blfs/view/12.2/x/x7lib.html
+        https://www.linuxfromscratch.org/blfs/view/12.2/x/x7app.html
+        https://www.linuxfromscratch.org/blfs/view/12.2/x/x7font.html
+
+        Errata/SVN Update:
+
+        #https://www.linuxfromscratch.org/blfs/view/svn/x/x7lib.html
+        #1b9bc39366eab2cc7b018907df715f34  libX11-1.8.7.tar.xz           Errata
+        #05b5667aadd476d77e9b5ba1a1de213e  libXpm-3.5.17.tar.xz          Errata
+        #24e0b72abe16efce9bf10579beaffc27  libXrandr-1.5.4.tar.xz        SVN
+        #bdd3ec17c6181fd7b26f6775886c730d  libXpresent-1.0.1.tar.xz      SVN
+
+        #https://www.linuxfromscratch.org/blfs/view/svn/x/x7font.html
+        #a6541d12ceba004c0c1e3df900324642  font-util-1.4.1.tar.xz        SVN
+
+        ###
+
+  A.04. Setting Up the Environment
+        ( Note: change the MAKEFLAGS based on the number of threads )
+
+        ###
+
+        export LFSLOG=/var/log/blfs
+
+        export MAKEFLAGS="-j$(nproc)"
+        export NPROC="$(nproc)"
+
+        ###
+
+B.  Generate BLFS - Support Files
+
+  B.01. Checking Environment
+
+        ###
+
+        echo $LFSLOG          # /var/log/blfs
+        echo $MAKEFLAGS       # -j$(nproc)
+        echo $NPROC           # $(nproc)
+
+        echo $SHELL           # /bin/bash
+        ls -l /bin/sh         # bash
+        ls -l /usr/bin/awk    # gawk
+
+        cd /sources
+
+        ###
+
+        ( display )
+        root [ /sources ]#
+
+  B.03. Support Applications
+
+        ###
+
+        bash b.03.90.all.support.apps.1.sh
+
+  B.04. Install dbus scripts
+
+        cd /usr/src/lfs/blfs-bootscripts-20230824
+        make install-dbus
+
+        reboot
+
+  B.05. Support Applications ( continue )
+
+        export LFSLOG=/var/log/blfs
+        export MAKEFLAGS="-j8"
+        cd /sources
+
+        bash b.03.90.all.support.apps.2.sh
+
+        ###
+
+C.  Generate BLFS - Graphical Components / Environments
+
+  C.01. [BLFS 24] Graphical Environments - Xorg
+
+        ###
+
+        export XORG_PREFIX="/usr"
+
+        export XORG_CONFIG="--prefix=$XORG_PREFIX --sysconfdir=/etc \
+                            --localstatedir=/var --disable-static"
+
+        cat > /etc/profile.d/xorg.sh << EOF
+        XORG_PREFIX="$XORG_PREFIX"
+        XORG_CONFIG="--prefix=\$XORG_PREFIX --sysconfdir=/etc --localstatedir=/var --disable-static"
+        export XORG_PREFIX XORG_CONFIG
+        EOF
+
+        chmod 644 /etc/profile.d/xorg.sh
+
+        #
+
+        bash b.24.00.all.2.PC.sh
+
+        ###
+        #   Note: for startx as user
+        ###
+
+        /etc/X11/Xwrapper.config
+            allowed_users=anybody
+            needs_root_rights=yes
+
+        reboot
+
+        startx
+
+        ###

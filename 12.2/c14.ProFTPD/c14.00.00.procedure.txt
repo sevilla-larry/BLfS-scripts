@@ -50,7 +50,7 @@ A. Preparation
 
         ###
 
-        wget --input-file=c14.00.01.wget-list-sysv.ProFTPD.txt                 --continue --directory-prefix=/sources
+        wget --input-file=c14.00.01.wget-list-sysv.ProFTPD.txt --continue --directory-prefix=/sources
 
         md5sum -c c14.00.02.md5sums.ProFTPD.txt
 

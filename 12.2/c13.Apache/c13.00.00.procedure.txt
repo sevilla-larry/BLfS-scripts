@@ -50,7 +50,7 @@ A. Preparation
 
         ###
 
-        wget --input-file=c13.00.01.wget-list-sysv.Apache.txt                 --continue --directory-prefix=/sources
+        wget --input-file=c13.00.01.wget-list-sysv.Apache.txt --continue --directory-prefix=/sources
 
         md5sum -c c13.00.02.md5sums.Apache.txt
 

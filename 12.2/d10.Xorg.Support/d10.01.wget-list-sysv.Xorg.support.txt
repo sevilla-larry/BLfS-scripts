@@ -1,0 +1,123 @@
+# 04.20 Polkit-123
+https://gitlab.freedesktop.org/polkit/polkit/-/archive/123/polkit-123.tar.gz
+
+# 09.09 duktape-2.7.0
+https://duktape.org/duktape-2.7.0.tar.xz
+# 09.13 GLib-2.76.4
+https://download.gnome.org/sources/glib/2.76/glib-2.76.4.tar.xz
+https://www.linuxfromscratch.org/patches/blfs/12.0/glib-skip_warnings-1.patch
+# 09.16 gobject-introspection-1.76.1
+https://download.gnome.org/sources/gobject-introspection/1.76/gobject-introspection-1.76.1.tar.xz
+## 09.68 libxml2 - required to run test by 24.06 xcb-proto-1.16.1
+#https://download.gnome.org/sources/libxml2/2.10/libxml2-2.10.4.tar.xz
+#https://www.w3.org/XML/Test/xmlts20130923.tar.gz
+# 09.75 mtdev-1.1.6 - required by mtdev-1.1.6
+https://bitmath.org/code/mtdev/mtdev-1.1.6.tar.bz2
+# 09.88 & 89 Wayland *
+https://gitlab.freedesktop.org/wayland/wayland/-/releases/1.22.0/downloads/wayland-1.22.0.tar.xz
+https://gitlab.freedesktop.org/wayland/wayland-protocols/-/releases/1.32/downloads/wayland-protocols-1.32.tar.xz
+
+# 10.04 FreeType-2.13.0 - required by 10.05 Fontconfig
+https://downloads.sourceforge.net/freetype/freetype-2.13.1.tar.xz
+https://downloads.sourceforge.net/freetype/freetype-doc-2.13.1.tar.xz
+# 10.05 Fontconfig-2.14.2 - required by 24.08 Xorg Libraries
+https://www.freedesktop.org/software/fontconfig/release/fontconfig-2.14.2.tar.xz
+# 10.11 HarfBuzz - recommended by 10.04 FreeType
+https://github.com/harfbuzz/harfbuzz/releases/download/8.1.1/harfbuzz-8.1.1.tar.xz
+# 10.21 libpng-1.6.40 - required by 24.18 Xorg Applications, recommended by 10.04 FreeType
+https://downloads.sourceforge.net/libpng/libpng-1.6.40.tar.xz
+https://downloads.sourceforge.net/sourceforge/libpng-apng/libpng-1.6.40-apng.patch.gz
+# 10.31 Pixman-0.42.2
+https://www.cairographics.org/releases/pixman-0.42.2.tar.gz
+
+# 11.04 desktop-file-utils-0.26
+https://www.freedesktop.org/software/desktop-file-utils/releases/desktop-file-utils-0.26.tar.xz
+https://www.linuxfromscratch.org/patches/blfs/12.0/desktop-file-utils-0.26-update_standard-1.patch
+# 11.17 shared-mime-info-2.2
+https://gitlab.freedesktop.org/xdg/shared-mime-info/-/archive/2.2/shared-mime-info-2.2.tar.gz
+https://anduin.linuxfromscratch.org/BLFS/xdgmime/xdgmime.tar.xz
+
+# 12.10 dbus-1.14.8
+https://dbus.freedesktop.org/releases/dbus/dbus-1.14.8.tar.xz
+# 12.11 elogind-252.9 - recommended by 24.23 Xorg-Server-21.1.8
+https://github.com/elogind/elogind/archive/v252.9/elogind-252.9.tar.gz
+# 12.36 Which-2.21 - recommended by 10.04 FreeType
+https://ftp.gnu.org/gnu/which/which-2.21.tar.gz
+
+# 13.04 CMake-3.27.2  - required by Graphite2
+https://cmake.org/files/v3.27/cmake-3.27.2.tar.gz
+# 13.13 LLVM-16.0.5
+https://github.com/llvm/llvm-project/releases/download/llvmorg-16.0.5/llvm-16.0.5.src.tar.xz
+https://anduin.linuxfromscratch.org/BLFS/llvm/llvm-cmake.src.tar.xz
+https://anduin.linuxfromscratch.org/BLFS/llvm/llvm-third-party.src.tar.xz
+https://github.com/llvm/llvm-project/releases/download/llvmorg-16.0.5/clang-16.0.5.src.tar.xz
+https://www.linuxfromscratch.org/patches/blfs/12.0/clang-16.0.5-enable_default_ssp-1.patch
+https://github.com/llvm/llvm-project/releases/download/llvmorg-16.0.5/compiler-rt-16.0.5.src.tar.xz
+# 13.24    Python Modules
+# 13.24.13 Mako-1.2.4
+https://files.pythonhosted.org/packages/source/M/Mako/Mako-1.2.4.tar.gz
+
+# 17.02 cURL-8.4.0 errata
+#https://curl.se/download/curl-8.2.1.tar.xz
+#https://curl.se/download/curl-8.4.0.tar.xz
+https://curl.se/download/curl-8.5.0.tar.xz
+
+# 24.02 ---> .07
+https://www.x.org/pub/individual/util/util-macros-1.20.0.tar.xz
+https://xorg.freedesktop.org/archive/individual/proto/xorgproto-2023.2.tar.xz
+https://www.x.org/pub/individual/lib/libXau-1.0.11.tar.xz
+https://www.x.org/pub/individual/lib/libXdmcp-1.1.4.tar.xz
+https://xorg.freedesktop.org/archive/individual/proto/xcb-proto-1.16.0.tar.xz
+https://xorg.freedesktop.org/archive/individual/lib/libxcb-1.16.tar.xz
+# 24.08 Xorg Libraries
+# 24.09 ---> .16
+https://www.x.org/pub/individual/lib/libxcvt-0.1.2.tar.xz
+https://xcb.freedesktop.org/dist/xcb-util-0.4.1.tar.xz
+https://xcb.freedesktop.org/dist/xcb-util-image-0.4.1.tar.xz
+https://xcb.freedesktop.org/dist/xcb-util-keysyms-0.4.1.tar.xz
+https://xcb.freedesktop.org/dist/xcb-util-renderutil-0.3.10.tar.xz
+https://xcb.freedesktop.org/dist/xcb-util-wm-0.4.2.tar.xz
+https://xcb.freedesktop.org/dist/xcb-util-cursor-0.1.4.tar.xz
+https://mesa.freedesktop.org/archive/mesa-23.1.6.tar.xz
+https://www.linuxfromscratch.org/patches/blfs/12.0/mesa-add_xdemos-2.patch
+https://www.x.org/pub/individual/data/xbitmaps-1.1.3.tar.xz
+# 24.18 Xorg Applications
+# 24.19
+https://www.x.org/pub/individual/data/xcursor-themes-1.0.7.tar.xz
+# 24.20 Xorg Fonts
+# 24.21 ---> .23
+https://www.x.org/pub/individual/data/xkeyboard-config/xkeyboard-config-2.39.tar.xz
+#https://www.x.org/pub/individual/xserver/xwayland-23.2.0.tar.xz    errata
+https://www.x.org/pub/individual/xserver/xwayland-23.2.3.tar.xz
+#https://www.x.org/pub/individual/xserver/xorg-server-21.1.8.tar.xz errata
+https://www.x.org/pub/individual/xserver/xorg-server-21.1.10.tar.xz
+#### 24.23 additional download - not needed with Wayland
+###https://www.linuxfromscratch.org/patches/blfs/12.0/xorg-server-21.1.8-tearfree_backport-1.patch
+# 24.24.1.1, .3 & .4
+https://www.freedesktop.org/software/libevdev/libevdev-1.13.1.tar.xz
+###https://www.x.org/pub/individual/driver/xf86-input-evdev-2.10.6.tar.bz2
+https://gitlab.freedesktop.org/libinput/libinput/-/archive/1.23.0/libinput-1.23.0.tar.gz
+https://www.x.org/pub/individual/driver/xf86-input-libinput-1.3.0.tar.xz
+# 24.25 ---> .28
+https://www.x.org/pub/individual/app/twm-1.0.12.tar.xz
+https://invisible-mirror.net/archives/xterm/xterm-384.tgz
+https://www.x.org/pub/individual/app/xclock-1.1.1.tar.xz
+https://www.x.org/pub/individual/app/xinit-1.4.2.tar.xz
+# 24.31.4 DejaVu fonts
+https://nchc.dl.sourceforge.net/project/dejavu/dejavu/2.37/dejavu-fonts-ttf-2.37.tar.bz2
+# 24.31.9 Noto fonts failed on downloads
+# https://github.com/notofonts/noto-fonts/archive/refs/tags/v20201206-phase3.tar.gz
+
+# 25.37 Libdrm-2.4.115
+https://dri.freedesktop.org/libdrm/libdrm-2.4.115.tar.xz
+# 25.38 libepoxy-1.5.10
+https://download.gnome.org/sources/libepoxy/1.5/libepoxy-1.5.10.tar.xz
+
+# 44.24 intel-vaapi-driver-2.4.1.sh / CPU/iGPU i7-4790
+https://github.com/intel/intel-vaapi-driver/releases/download/2.4.1/intel-vaapi-driver-2.4.1.tar.bz2
+# 44.45 libva-2.19.0
+https://github.com/intel/libva/releases/download/2.19.0/libva-2.19.0.tar.bz2
+# 44.46 libvdpau-1.5
+https://gitlab.freedesktop.org/vdpau/libvdpau/-/archive/1.5/libvdpau-1.5.tar.bz2
+# 44.47 libvdpau-va-gl-0.4.0
+https://github.com/i-rinat/libvdpau-va-gl/archive/v0.4.0/libvdpau-va-gl-0.4.0.tar.gz
