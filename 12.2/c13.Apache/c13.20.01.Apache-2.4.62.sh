@@ -5,15 +5,14 @@
 #       Required:
 #
 #               c13.09.05 Apr-Util-1.6.3
-#               c15.09.83 pcre2-10.42
+#               b15.09.83 pcre2-10.42
 #
 # Dependencies Optional:
 #
-#               09.68 libxml2-2.12-3
-#               04.12 Linux-PAM-1.5.3
+#               b10.09.72 libxml2-2.13.3
 #
 
-export PKG="httpd-2.4.58"
+export PKG="httpd-2.4.62"
 export PKGLOG_DIR=$LFSLOG/20.01
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
@@ -38,17 +37,21 @@ groupadd -g 25 apache
 useradd -c "Apache Server" -d /srv/www -g apache \
         -s /bin/false -u 25 apache
 
-patch -Np1 -i ../httpd-2.4.58-blfs_layout-1.patch
+patch -Np1 -i ../httpd-2.4.62-blfs_layout-1.patch   \
+    >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
 
-sed '/dir.*CFG_PREFIX/s@^@#@' -i support/apxs.in
+sed '/dir.*CFG_PREFIX/s@^@#@' -i support/apxs.in    \
+    >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
 
-sed -e '/HTTPD_ROOT/s:${ap_prefix}:/etc/httpd:'       \
-    -e '/SERVER_CONFIG_FILE/s:${rel_sysconfdir}/::'   \
-    -e '/AP_TYPES_CONFIG_FILE/s:${rel_sysconfdir}/::' \
-    -i configure
+sed -e '/HTTPD_ROOT/s:${ap_prefix}:/etc/httpd:'         \
+    -e '/SERVER_CONFIG_FILE/s:${rel_sysconfdir}/::'     \
+    -e '/AP_TYPES_CONFIG_FILE/s:${rel_sysconfdir}/::'   \
+    -i configure                                        \
+    >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
 
-sed -e '/encoding.h/a # include <libxml/xmlstring.h>' \
+sed -e '/encoding.h/a # include <libxml/xmlstring.h>'   \
     -i modules/filters/mod_xml2enc.c
+    >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
 
 echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
@@ -77,13 +80,16 @@ echo "4. Make Install ..."
 echo "4. Make Install ..." >> $LFSLOG_PROCESS
 echo "4. Make Install ..." >> $PKGLOG_ERROR
 make install         > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
-make install-docs   >> $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
+#make install-docs   >> $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
-mv /usr/sbin/suexec /usr/lib/httpd/suexec
-chgrp apache        /usr/lib/httpd/suexec
-chmod 4754          /usr/lib/httpd/suexec
-
-chown -R apache:apache /srv/www
+mv -v /usr/sbin/suexec /usr/lib/httpd/suexec    \
+    >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
+chgrp -v apache        /usr/lib/httpd/suexec    \
+    >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
+chmod -v 4754          /usr/lib/httpd/suexec    \
+    >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
+chown -v -R apache:apache /srv/www              \
+    >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
 
 
 cd ..

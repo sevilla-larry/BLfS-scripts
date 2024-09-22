@@ -50,7 +50,9 @@ A. Preparation
 
         ###
 
-        wget --input-file=c13.00.09.wget-list-sysv.Apache.txt                 --continue --directory-prefix=/sources
+        wget --input-file=c13.00.01.wget-list-sysv.Apache.txt                 --continue --directory-prefix=/sources
+
+        md5sum -c c13.00.02.md5sums.Apache.txt
 
         ###
 
@@ -61,7 +63,8 @@ A. Preparation
 
         export LFSLOG=/var/log/blfs
 
-        export MAKEFLAGS="-j8"
+        export MAKEFLAGS="-j$(nproc)"
+        export NPROC="$(nproc)"
 
         ###
 
@@ -72,7 +75,8 @@ B.  Generate BLFS - Support Files
         ###
 
         echo $LFSLOG          # /var/log/blfs
-        echo $MAKEFLAGS       # -j8
+        echo $MAKEFLAGS       # -j$(nproc)
+        echo $NPROC           # $(nproc)
 
         echo $SHELL           # /bin/bash
         ls -l /bin/sh         # bash
@@ -107,8 +111,8 @@ C.  Generate BLFS
 
         ###
 
-        VM: cd /mnt/src/lfs.src/blfs-bootscripts-20231119
-        PC: cd /usr/src/lfs/blfs-bootscripts-20231119
+        VM/VB: cd /mnt/Src/lfs.src/blfs-bootscripts-20240416
+        PC: cd /usr/src/lfs/blfs-bootscripts-20240416
 
         make install-httpd
 
