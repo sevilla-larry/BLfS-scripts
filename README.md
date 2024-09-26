@@ -10,7 +10,9 @@
 # arch: x64, UEFI (same with LfS-Scripts)
 # Status: current
 # 
-# c11: Maria DB - working
+# c11: Maria DB		- working
+# c12: PostgreSQL	- working
+# c13: Apache		- working
 #
 #
 # BLfS version: 12.1
