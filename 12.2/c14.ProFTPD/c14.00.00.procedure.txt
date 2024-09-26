@@ -1,12 +1,62 @@
 A. Preparation
 
-  A.01. Assuming either MariaDB or PostgreSQL is already installed and running
+  A.01.
+  
+        #
+        # Option #1
+        #
+        # Assumming LfS is already running
+        # Neither MariaDB nor PostgreSQL was installed
+        #
+
+        ###
+
+        rm -v /sources
+
+        ###
+
+        # (a) VM & VB
+
+            mkdir -v /mnt/Src/blfs.{src,log}
+
+            chmod -v a+wt /mnt/Src/blfs.{src,log}
+
+            ln -sfv /mnt/Src/blfs.src /sources
+
+            ln -sfv /mnt/Src/blfs.log /var/log/blfs
+
+        # (b) PC
+
+            mkdir -pv /usr/src/blfs
+
+            mkdir -pv /var/log/blfs
+
+            chmod -v a+wt /usr/src/blfs
+
+            chmod -v a+wt /var/log/blfs
+
+            ln -sfv /usr/src/blfs /sources
 
         ###
 
         cd /sources
 
         ###
+
+  A.01.
+
+        #
+        # Option #2
+        #
+        # Assuming either MariaDB or PostgreSQL is already installed and running
+        #
+
+        ###
+
+        cd /sources
+
+        ###
+
 
   A.02. Copy all script files
 
