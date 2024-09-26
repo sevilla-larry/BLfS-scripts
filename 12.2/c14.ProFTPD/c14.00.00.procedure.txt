@@ -1,34 +1,6 @@
 A. Preparation
 
-  A.01. ( Assumming LfS is already running )
-
-        ###
-
-        rm -v /sources
-
-        ###
-
-        # (a) VM & VB
-
-            mkdir -v /mnt/src/blfs.{src,log}
-
-            chmod -v a+wt /mnt/src/blfs.{src,log}
-
-            ln -sfv /mnt/src/blfs.src /sources
-
-            ln -sfv /mnt/src/blfs.log /var/log/blfs
-
-        # (b) PC
-
-            mkdir -pv /usr/src/blfs
-
-            mkdir -pv /var/log/blfs
-
-            chmod -v a+wt /usr/src/blfs
-
-            chmod -v a+wt /var/log/blfs
-
-            ln -sfv /usr/src/blfs /sources
+  A.01. Assuming either MariaDB or PostgreSQL is already installed and running
 
         ###
 
@@ -36,17 +8,13 @@ A. Preparation
 
         ###
 
-  A.02. Install a Database
-
-        either MariaDB & PostgreSQL, as option
-
-  A.03. Copy all script files
+  A.02. Copy all script files
 
         copy all script files from the following to /sources
 
             1. c14.ProFTPD
 
-  A.04. Download packages
+  A.03. Download packages
 
         ###
 
@@ -108,6 +76,13 @@ C.  Generate BLFS
 
         make install-proftpd
 
+        #
+        # update:
+        #   /etc/hosts
+        #
+        #         www.xxx.yyy.zzz   <serverName>
+        #
+        
         reboot
 
         ###
