@@ -120,8 +120,8 @@ C.  Generate BLFS
 
         mysqld_safe --user=mysql 2>&1 >/dev/null &
 
-        mysqladmin -u root password
-            (Assumming "MariaDB" as password)
+        # mysqladmin -u root password
+        #    (Assumming "MariaDB" as password)
 
         mysqladmin -p shutdown
 
@@ -131,8 +131,8 @@ C.  Generate BLFS
 
         ###
 
-        VM/VB: cd /mnt/Src/lfs.src/blfs-bootscripts-20240416
-        PC: cd /usr/src/lfs/blfs-bootscripts-20240416
+        cd /mnt/Src/lfs.src/blfs-bootscripts-20240416       # VM/VB
+        cd /usr/src/lfs/blfs-bootscripts-20240416           # PC
 
         make install-mysql
 
