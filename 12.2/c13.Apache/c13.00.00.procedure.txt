@@ -63,8 +63,6 @@ B.  Generate BLFS - Support Files
 
         bash c13.03.90.all.support.apps.sh
 
-        reboot
-
 C.  Generate BLFS
 
   C.01. Apache Compile/Install
