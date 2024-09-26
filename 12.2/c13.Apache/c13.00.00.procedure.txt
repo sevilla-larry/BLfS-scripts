@@ -85,3 +85,16 @@ C.  Generate BLFS
         reboot
 
         ###
+
+   C.03. From client browser on a Remote PC
+
+        #
+        # on remote client
+        #
+
+        http://<host/ip address>/
+
+        #
+        # Should display "It works!"
+        #
+        
