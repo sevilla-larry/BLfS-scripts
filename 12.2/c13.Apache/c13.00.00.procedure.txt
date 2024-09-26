@@ -1,9 +1,13 @@
 A. Preparation
 
-  A.01. Option #1
+  A.01.
   
-        Assumming LfS is already running
-        Neither MariaDB nor PostgreSQL was installed
+        #
+        # Option #1
+        #
+        # Assumming LfS is already running
+        # Neither MariaDB nor PostgreSQL was installed
+        #
 
         ###
 
@@ -39,10 +43,14 @@ A. Preparation
 
         ###
 
-  A.01. Option #2
+  A.01.
 
-        Assuming either MariaDB or PostgreSQL is already installed and running
-
+        #
+        # Option #2
+        #
+        # Assuming either MariaDB or PostgreSQL is already installed and running
+        #
+        
         ###
 
         cd /sources
