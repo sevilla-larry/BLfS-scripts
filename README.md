@@ -15,6 +15,8 @@
 # c13: Apache		- working
 #
 #
+#
+#
 # BLfS version: 12.1
 # Started: 2024/Mar/27
 # arch: x64, UEFI (same with LfS-Scripts)
@@ -58,8 +60,7 @@
 #       c19 - QEmu/KVM
 # 
 #
-# (currently reGrouping/reOrganizing)
-# Group d - XOrg ( includes dbus, elogind, Linux-PAM, ... )
+# Group d - XOrg ( includes dbus, elogind, ... )
 #           status: root ok, user NOT
 #
 #       d00 - Common to XOrg, DE & DM
@@ -70,7 +71,9 @@
 #       d04	- Common to Xorg & Gnome
 #       d05	- Common to Xorg & KDE
 #
-#       d20	- Xorg & Xwayland
+#		d10 - Xorg & Xwayland - Support
+#
+#		d20	- Xorg & Xwayland
 #
 #       d30	- Common to DE's
 #
@@ -85,7 +88,7 @@
 #       d61	- LXDM (from 11.3)
 #       d62	- LightDM
 #       d63	- SDDM
-
+#
 
 
 # (old groupings, to be deleted)
