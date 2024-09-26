@@ -14,13 +14,22 @@ A. Preparation
 
             1. c13.Apache
 
+            # for PostgreSQL installation / no MariaDB
+            2. b15.common.Xorg.MariaDB.Apache
+
   A.03. Download packages
 
         ###
 
         wget --input-file=c13.00.01.wget-list-sysv.Apache.txt --continue --directory-prefix=/sources
 
+        # for PostgreSQL installation / no MariaDB
+        wget --input-file=b15.00.01.wget-list-sysv.common.Xorg.MariaDB.Apache.txt   --continue --directory-prefix=/sources
+
         md5sum -c c13.00.02.md5sums.Apache.txt
+
+        # for PostgreSQL installation / no MariaDB
+        md5sum -c b15.00.02.md5sums.common.Xorg.MariaDB.Apache.txt
 
         ###
 
@@ -61,10 +70,13 @@ B.  Generate BLFS - Support Files
 
         ###
 
-        bash c13.03.90.all.support.apps.sh
+        bash c13.03.90.all.support.apps.1.sh
+
+        # for PostgreSQL installation / no MariaDB
+        bash c13.03.90.all.support.apps.2.sh
 
         ###
-        
+
 C.  Generate BLFS
 
   C.01. Apache Compile/Install
