@@ -119,9 +119,9 @@ Group                           proftpd
   DisplayChdir                  .message
 
   # Limit WRITE everywhere in the anonymous chroot
-  <Limit WRITE>
-    DenyAll
-  </Limit>
+  # <Limit WRITE>
+  #  DenyAll
+  # </Limit>
 </Anonymous>
 EOF
 
