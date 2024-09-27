@@ -5,8 +5,6 @@ https://www.x.org/pub/individual/lib/libXau-1.0.11.tar.xz
 https://www.x.org/pub/individual/lib/libXdmcp-1.1.5.tar.xz
 https://xorg.freedesktop.org/archive/individual/proto/xcb-proto-1.17.0.tar.xz
 https://xorg.freedesktop.org/archive/individual/lib/libxcb-1.17.0.tar.xz
-
-
 # 24.08 Xorg Libraries
 # 24.09 ---> .16
 https://www.x.org/pub/individual/lib/libxcvt-0.1.2.tar.xz
@@ -16,6 +14,8 @@ https://xcb.freedesktop.org/dist/xcb-util-keysyms-0.4.1.tar.xz
 https://xcb.freedesktop.org/dist/xcb-util-renderutil-0.3.10.tar.xz
 https://xcb.freedesktop.org/dist/xcb-util-wm-0.4.2.tar.xz
 https://xcb.freedesktop.org/dist/xcb-util-cursor-0.1.4.tar.xz
+
+
 https://mesa.freedesktop.org/archive/mesa-23.1.6.tar.xz
 https://www.linuxfromscratch.org/patches/blfs/12.0/mesa-add_xdemos-2.patch
 https://www.x.org/pub/individual/data/xbitmaps-1.1.3.tar.xz

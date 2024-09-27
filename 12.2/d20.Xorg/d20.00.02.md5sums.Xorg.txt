@@ -5,3 +5,12 @@
 ce0af51de211e4c99a111e64ae1df290 libXdmcp-1.1.5.tar.xz
 c415553d2ee1a8cea43c3234a079b53f xcb-proto-1.17.0.tar.xz
 96565523e9f9b701fcb35d31f1d4086e libxcb-1.17.0.tar.xz
+# 24.08 Xorg Libraries
+# 24.09 ---> .16
+b553fdb6024c5a137ff925bf4c337724 libxcvt-0.1.2.tar.xz
+34d749eab0fd0ffd519ac64798d79847 xcb-util-0.4.1.tar.xz
+a67bfac2eff696170259ef1f5ce1b611 xcb-util-image-0.4.1.tar.xz
+fbdc05f86f72f287ed71b162f1a9725a xcb-util-keysyms-0.4.1.tar.xz
+193b890e2a89a53c31e2ece3afcbd55f xcb-util-renderutil-0.3.10.tar.xz
+581b3a092e3c0c1b4de6416d90b969c3 xcb-util-wm-0.4.2.tar.xz
+0d244518ad54b886413fe782235d6210 xcb-util-cursor-0.1.4.tar.xz
