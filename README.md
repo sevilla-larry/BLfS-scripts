@@ -25,7 +25,9 @@
 #
 #
 #
-# Group a - LfS / status: 
+# Groupings
+#
+# Group a - LfS
 #
 #
 # Group b - Common apps & Libraries
@@ -54,7 +56,6 @@
 # 
 #
 # Group d - XOrg ( includes dbus, elogind, ... )
-#           status: root ok, user NOT
 #
 #       d00 - Common to XOrg, DE & DM
 #
@@ -64,9 +65,9 @@
 #       d04	- Common to Xorg & Gnome
 #       d05	- Common to Xorg & KDE
 #
-#		d10 - Xorg & Xwayland - Support
+#		d10 - Xorg ( & Xwayland ) Support
 #
-#		d20	- Xorg & Xwayland
+#		d20	- Xorg ( & Xwayland )
 #
 #       d30	- Common to DE's
 #
