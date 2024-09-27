@@ -1,1 +1,34 @@
-778cdeeac86e1d26451112bb7d4662af proftpd-1.3.8b.tar.gz
+# 09.17 GLib-2.80.4
+4334211338220a165350d1c4a1597b0e glib-2.80.4.tar.xz
+ef1496a7a7abfcd31d25b3459ea86ebb gobject-introspection-1.80.1.tar.xz
+
+# 09.74 libxslt-1.1.42
+56bc5d89aa39d62002961c150fec08a0 libxslt-1.1.42.tar.xz
+
+# 10.04 FreeType-2.13.3
+f3b4432c4212064c00500e1ad63fbc64 freetype-2.13.3.tar.xz
+6affe0d431939398cc3c7cdd58d824f8 freetype-doc-2.13.3.tar.xz
+# 10.05 Fontconfig-2.15.0
+5bb3a2829aecb22ae553c39099bd0d6a fontconfig-2.15.0.tar.xz
+# 10.12 harfBuzz-9.0.0
+0035c129cb1646ab1cff65e5ef7153db harfbuzz-9.0.0.tar.xz
+# 10.22 libpng-1.6.43
+22b8362d16c3724eba9c1fb8d187320a libpng-1.6.43.tar.xz
+fc21268c9c583c5d2e7ead8a9ec17240 libpng-1.6.43-apng.patch.gz
+
+# 11.04 desktop-file-utils-0.27
+fdf9215aea91acb6aebc43f770537f2c desktop-file-utils-0.27.tar.xz
+# 11.16 shared-mime-info-2.4
+aac56db912b7b12a04fb0018e28f2f36 shared-mime-info-2.4.tar.gz
+7dfb4446705d345d3acd672024049e86 xdgmime.tar.xz
+
+# 12.10 dbus-1.14.10
+46070a3487817ff690981f8cd2ba9376 dbus-1.14.10.tar.xz
+# 12.36 UnZip-6.0
+62b490407489521db863b523a7f86375 unzip60.tar.gz
+
+# 13.23    Python Modules
+# 13.23.13 Mako-1.3.5
+0cf9ef37c1f8ffd453ef2b2a3a5573b3 Mako-1.3.5.tar.gz
+# 13.23.15 Packaging-24.1
+99b97d1f30017a62a2aae777a14782d0 packaging-24.1.tar.gz

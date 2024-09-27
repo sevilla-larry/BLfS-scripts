@@ -146,7 +146,10 @@ C.  Generate BLFS - Graphical Components / Environments
 
         cat > /etc/profile.d/xorg.sh << EOF
         XORG_PREFIX="$XORG_PREFIX"
-        XORG_CONFIG="--prefix=\$XORG_PREFIX --sysconfdir=/etc --localstatedir=/var --disable-static"
+        XORG_CONFIG="--prefix=\$XORG_PREFIX \
+                     --sysconfdir=/etc      \
+                     --localstatedir=/var   \
+                     --disable-static"
         export XORG_PREFIX XORG_CONFIG
         EOF
 

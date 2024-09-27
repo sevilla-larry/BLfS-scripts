@@ -1,30 +1,30 @@
-# d10.09.74.libxslt-1.1.42.sh
+# d10.10.22.libpng-1.6.43.sh
 #
 
 #
-# Dependencies Required:
+# Required by:
 #
-#               b10.09.72 libxml2-2.13.3
+#               24.18 Xorg Applications     ???
+#               25.12 gdk-pixbuf-2.42.10    ???
+#
+# Recommended by:
+#
+#               d10.10.04 FreeType-2.13.3
+#
+# Optional by:
+#
+#               10.31 Pixman-0.42.2         ???
 #
 
-#
-#   Recommended but needed by:
-#
-#               09.13 GLib-2.74.5   ????
-#
-#   Optional by:
-#
-#               d20.24.03 xorgproto-2024.1
-#
-
-export PKG="libxslt-1.1.42"
-export PKGLOG_DIR=$LFSLOG/09.74
+export PKG="libpng-1.6.43"
+export PKGLOG_DIR=$LFSLOG/10.22
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
 export PKGLOG_CHECK=$PKGLOG_DIR/check.log
 export PKGLOG_INSTALL=$PKGLOG_DIR/install.log
 export PKGLOG_ERROR=$PKGLOG_DIR/error.log
+export PKGLOG_OTHERS=$PKGLOG_DIR/others.log
 export LFSLOG_PROCESS=$LFSLOG/process.log
 
 rm -r $PKGLOG_DIR 2> /dev/null
@@ -37,14 +37,15 @@ tar xvf $PKG.tar.xz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
 
 
+gzip -cd ../libpng-1.6.43-apng.patch.gz | patch -p1 \
+        > $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
+
 echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
 echo "2. Configure ..." >> $PKGLOG_ERROR
-./configure --prefix=/usr                          \
-            --disable-static                       \
-            --docdir=/usr/share/doc/libxslt-1.1.42 \
+./configure --prefix=/usr    \
+            --disable-static \
           > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
-#            PYTHON=/usr/bin/python3                \
 
 echo "3. Make Build ..."
 echo "3. Make Build ..." >> $LFSLOG_PROCESS
@@ -61,10 +62,16 @@ echo "5. Make Install ..." >> $LFSLOG_PROCESS
 echo "5. Make Install ..." >> $PKGLOG_ERROR
 make install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
+mkdir -v /usr/share/doc/libpng-1.6.43   \
+        >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
+cp -v README libpng-manual.txt /usr/share/doc/libpng-1.6.43 \
+        >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
+
 
 cd ..
 rm -rf $PKG
 unset LFSLOG_PROCESS
+unset PKGLOG_OTHERS
 unset PKGLOG_INSTALL PKGLOG_BUILD PKGLOG_CONFIG
 unset PKGLOG_CHECK
 unset PKGLOG_ERROR PKGLOG_TAR

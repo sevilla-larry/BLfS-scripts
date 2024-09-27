@@ -1,28 +1,31 @@
-# d10.09.74.libxslt-1.1.42.sh
+# b.24.07.libxcb-1.17.0.sh
 #
 
 #
 # Dependencies Required:
 #
-#               b10.09.72 libxml2-2.13.3
+#               d20.24.04 libXau-1.0.11
+#               d20.24.06 xcb-proto-1.17.0
+#
+# Dependencies Recommended:
+#
+#               d20.24.05 libXdmcp-1.1.5
 #
 
 #
-#   Recommended but needed by:
+# Required by:
 #
-#               09.13 GLib-2.74.5   ????
-#
-#   Optional by:
-#
-#               d20.24.03 xorgproto-2024.1
+#               d20.24.08 Xorg Libraries
+#               d20.24.xx xcb-util-*        ???
 #
 
-export PKG="libxslt-1.1.42"
-export PKGLOG_DIR=$LFSLOG/09.74
+export PKG="libxcb-1.17.0"
+export PKGLOG_DIR=$LFSLOG/24.07
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
 export PKGLOG_CHECK=$PKGLOG_DIR/check.log
+#export PKGLOG_OTHERS=$PKGLOG_DIR/others.log
 export PKGLOG_INSTALL=$PKGLOG_DIR/install.log
 export PKGLOG_ERROR=$PKGLOG_DIR/error.log
 export LFSLOG_PROCESS=$LFSLOG/process.log
@@ -40,16 +43,16 @@ cd $PKG
 echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
 echo "2. Configure ..." >> $PKGLOG_ERROR
-./configure --prefix=/usr                          \
-            --disable-static                       \
-            --docdir=/usr/share/doc/libxslt-1.1.42 \
-          > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
-#            PYTHON=/usr/bin/python3                \
+./configure $XORG_CONFIG        \
+            --without-doxygen   \
+            --docdir='${datadir}'/doc/libxcb-1.17.0 \
+    > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+#PYTHON=python3                          \
 
 echo "3. Make Build ..."
 echo "3. Make Build ..." >> $LFSLOG_PROCESS
 echo "3. Make Build ..." >> $PKGLOG_ERROR
-make > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
+LC_ALL=en_US.UTF-8 make > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 
 echo "4. Make Check ..."
 echo "4. Make Check ..." >> $LFSLOG_PROCESS
@@ -65,7 +68,8 @@ make install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 cd ..
 rm -rf $PKG
 unset LFSLOG_PROCESS
-unset PKGLOG_INSTALL PKGLOG_BUILD PKGLOG_CONFIG
+#unset PKGLOG_OTHERS
 unset PKGLOG_CHECK
+unset PKGLOG_INSTALL PKGLOG_BUILD PKGLOG_CONFIG
 unset PKGLOG_ERROR PKGLOG_TAR
 unset PKGLOG_DIR PKG
