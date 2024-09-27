@@ -5,34 +5,27 @@
 #  eMail: sevilla.larry.prg@gmail.com
 #
 #
+# based on: https://www.linuxfromscratch.org/blfs/
+#
 # BLfS version: 12.2
 # Started: 2024/Sept/04
 # arch: x64, UEFI (same with LfS-Scripts)
 # Status: current
 # 
+# a: LfS			- working
+# 
 # c11: Maria DB		- working
 # c12: PostgreSQL	- working
 # c13: Apache		- working
+# c14: ProFTPD		- working
+#
+# d20: Xorg			- on going
 #
 #
 #
 #
-# BLfS version: 12.1
-# Started: 2024/Mar/27
-# arch: x64, UEFI (same with LfS-Scripts)
-# Status: Stopped, NOT working, busy
 #
-# Stopped BLfS version: 12.0
-# Started: 2023/Sept/08
-# arch: x64, UEFI
-# Stopped: 2024/Feb
-#
-# based on: https://www.linuxfromscratch.org/blfs/
-#
-#
-#
-#
-# Group a - LfS / status: ???
+# Group a - LfS / status: 
 #
 #
 # Group b - Common apps & Libraries
@@ -101,6 +94,15 @@
 
 
 
+# BLfS version: 12.1
+# Started: 2024/Mar/27
+# arch: x64, UEFI (same with LfS-Scripts)
+# Status: Stopped, NOT working, busy
+#
+# Stopped BLfS version: 12.0
+# Started: 2023/Sept/08
+# arch: x64, UEFI
+# Stopped: 2024/Feb
 
 
 # BLfS ver: 11.3
