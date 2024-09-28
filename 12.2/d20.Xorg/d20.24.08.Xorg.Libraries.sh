@@ -11,7 +11,7 @@
 #
 # Required by:
 #
-#               24.16 Mesa-23.1.6                   ???
+#               d20.24.16 Mesa-24.1.5
 #               24.21 XKeyboardConfig-2.39          ???
 #               24.27 xclock-1.1.1                  ???
 #               24.28 xinit-1.4.2                   ???
@@ -20,8 +20,8 @@
 #
 # Recommended by:
 #
-#               25.37 Libdrm-2.4.115                ???
-#               12.10 dbus-1.14.8 ( dbus-launch )   ???
+#               d10.25.35 Libdrm-2.4.122
+#               d10.12.10 dbus-1.14.10 ( dbus-launch )
 #               25.43 Pango-1.50.14                 ???
 #
 #
