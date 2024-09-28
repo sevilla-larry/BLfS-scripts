@@ -11,7 +11,7 @@
 # Required by:
 #
 #               d20.24.03 xorgproto-2024.1
-#               d20.24.17 xbitmaps-1.1.2    ???
+#               d20.24.17 xbitmaps-1.1.3
 #
 
 export PKG="util-macros-1.20.1"

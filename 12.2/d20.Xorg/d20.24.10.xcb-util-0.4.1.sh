@@ -10,8 +10,8 @@
 #
 # Required by:
 #
-#               24.11 xcb-util-image-0.4.1  ???
-#               24.18 Xorg Applications     ???
+#               d20.24.11 xcb-util-image-0.4.1
+#               d20.24.18 Xorg Applications
 #
 
 export PKG="xcb-util-0.4.1"

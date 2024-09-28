@@ -20,18 +20,25 @@ https://www.x.org/pub/individual/data/xbitmaps-1.1.3.tar.xz
 # 24.18 Xorg Applications
 # 24.19 ---> .20
 https://invisible-mirror.net/archives/luit/luit-20240102.tgz
-
-
 https://www.x.org/pub/individual/data/xcursor-themes-1.0.7.tar.xz
 # 24.21 Xorg Fonts
 # 24.22 ---> .24
-https://www.x.org/pub/individual/data/xkeyboard-config/xkeyboard-config-2.39.tar.xz
-#https://www.x.org/pub/individual/xserver/xwayland-23.2.0.tar.xz    errata
-https://www.x.org/pub/individual/xserver/xwayland-23.2.3.tar.xz
-#https://www.x.org/pub/individual/xserver/xorg-server-21.1.8.tar.xz errata
-https://www.x.org/pub/individual/xserver/xorg-server-21.1.10.tar.xz
-#### 24.23 additional download - not needed with Wayland
-###https://www.linuxfromscratch.org/patches/blfs/12.0/xorg-server-21.1.8-tearfree_backport-1.patch
+https://www.x.org/pub/individual/data/xkeyboard-config/xkeyboard-config-2.42.tar.xz
+https://www.x.org/pub/individual/xserver/xwayland-24.1.2.tar.xz
+https://www.x.org/pub/individual/xserver/xorg-server-21.1.13.tar.xz
+### No TearFree will be installed
+###https://www.linuxfromscratch.org/patches/blfs/12.2/xorg-server-21.1.13-tearfree_backport-2.patch
+
+# 25.34 Libdrm-2.4.122
+https://dri.freedesktop.org/libdrm/libdrm-2.4.122.tar.xz
+# 25.35 libepoxy-1.5.10
+https://download.gnome.org/sources/libepoxy/1.5/libepoxy-1.5.10.tar.xz
+
+
+
+
+
+
 # 24.24.1.1, .3 & .4
 https://www.freedesktop.org/software/libevdev/libevdev-1.13.1.tar.xz
 ###https://www.x.org/pub/individual/driver/xf86-input-evdev-2.10.6.tar.bz2

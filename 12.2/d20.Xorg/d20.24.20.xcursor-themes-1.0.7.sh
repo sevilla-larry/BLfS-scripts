@@ -10,7 +10,7 @@
 #
 # Required by:
 #
-#               d20.24.?? Xorg Fonts
+#               d20.24.21 Xorg Fonts
 #
 
 export PKG="xcursor-themes-1.0.7"

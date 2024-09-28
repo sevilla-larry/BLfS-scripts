@@ -6,6 +6,10 @@
 #
 #               d20.24.03 xorgproto-2024.1
 #
+# Optional:
+#
+#               d10.09.74 libxslt-1.1.42
+#
 
 #
 # Recommended by:
@@ -14,7 +18,7 @@
 #
 # Required ( hidden by )
 #
-#               d20.24.23 Xorg-Server-21.1.8    ???
+#               d20.24.24 Xorg-Server-21.1.13
 #
 
 export PKG="libXdmcp-1.1.5"

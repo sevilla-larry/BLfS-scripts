@@ -10,7 +10,7 @@
 #
 # Optional by:
 #
-#               24.23 Xorg-Server-21.1.8
+#               d20.24.24 Xorg-Server-21.1.13
 #
 
 export PKG="xcb-util-wm-0.4.2"

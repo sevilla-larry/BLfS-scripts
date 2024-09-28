@@ -12,7 +12,7 @@
 # Required by:
 #
 #               d20.24.16 Mesa-24.1.5
-#               24.21 XKeyboardConfig-2.39          ???
+#               d20.24.22 XKeyboardConfig-2.42
 #               24.27 xclock-1.1.1                  ???
 #               24.28 xinit-1.4.2                   ???
 #               25.02 at-spi2-core-2.48.3           ???
@@ -24,6 +24,7 @@
 #               d10.12.10 dbus-1.14.10 ( dbus-launch )
 #               25.43 Pango-1.50.14                 ???
 #
+
 #
 # based on: https://www.linuxfromscratch.org/blfs/view/12.2/x/x7lib.html
 #

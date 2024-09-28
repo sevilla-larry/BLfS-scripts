@@ -13,31 +13,31 @@
 # Dependencies Required:
 #
 #               d20.24.08 Xorg Libraries
-#               d10.25.34 Libdrm-2.4.122
+#               d20.25.34 Libdrm-2.4.122
 #               d10.13.23.13 Python Modules - Mako-1.3.5
 #
 # Dependencies Recommended:
 #
-#               d10.09.98 Wayland-Protocols-1.36    ???
-#               44.45 libva-2.19.0 for PCs
-#               44.46 libvdpau-1.5
-#               13.13 LLVM-16.0.5
+#               d10.09.98 Wayland-Protocols-1.36
+#               d10.42.41 libva                     for PCs
+#               d10.42.42 libvdpau-1.5              for PCs
+#               d10.13.12 LLVM-18.1.7
 #
 
 #
 # Required by:
 #
-#               24.18 Xorg Applications ???
-#               25.38 libepoxy-1.5.10   ???
+#               d20.24.18 Xorg Applications
+#               d20.25.35 libepoxy-1.5.10
 #
 # Recommended by:
 #
-#               24.22 Xwayland-23.2.0   ???
+#               d20.24.23 Xwayland-24.1.2
 #
 # Recommended Runtime by:
 #
-#               44.xx libva             PCs
-#               44.xx libvdpau-1.5      PCs
+#               d10.42.41 libva                     for PCs
+#               d10.42.42 libvdpau-1.5              for PCs
 #
 
 #

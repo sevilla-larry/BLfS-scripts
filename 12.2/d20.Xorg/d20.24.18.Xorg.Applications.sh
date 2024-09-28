@@ -18,7 +18,7 @@
 #
 # Runtime Required by:
 #
-#               d20.24.22 Xwayland-23.2.0       ???
+#               d20.24.23 Xwayland-24.1.2
 #
 #
 # based on: https://www.linuxfromscratch.org/blfs/view/12.2/x/x7app.html

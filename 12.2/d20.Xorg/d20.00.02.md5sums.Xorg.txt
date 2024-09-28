@@ -19,3 +19,14 @@ fbdc05f86f72f287ed71b162f1a9725a xcb-util-keysyms-0.4.1.tar.xz
 # 24.18 Xorg Applications
 # 24.19 ---> .20
 b69a0819905ad8dc4bf82d25f24037a4 luit-20240102.tgz
+070993be1f010b09447ea24bab2c9846 xcursor-themes-1.0.7.tar.xz
+# 24.21 Xorg Fonts
+# 24.22 ---> .24
+2d3b7e43e597f4c607ad6261e2b3d77f xkeyboard-config-2.42.tar.xz
+312c5cf17d1b147df1b787fd170958e1 xwayland-24.1.2.tar.xz
+69dbed93746d0af6b46de76d711614e4 xorg-server-21.1.13.tar.xz
+
+# 25.34 Libdrm-2.4.122
+143c8df50e09cd1eeb1fb53f05ecb64a libdrm-2.4.122.tar.xz
+# 25.35 libepoxy-1.5.10
+10c635557904aed5239a4885a7c4efb7 libepoxy-1.5.10.tar.xz

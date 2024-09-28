@@ -11,12 +11,16 @@
 #
 #               d20.24.05 libXdmcp-1.1.5
 #
+# Optional:
+#
+#               d10.09.74 libxslt-1.1.42
+#
 
 #
 # Required by:
 #
 #               d20.24.08 Xorg Libraries
-#               d20.24.xx xcb-util-*        ???
+#               d20.24.xx xcb-util-*
 #
 
 export PKG="libxcb-1.17.0"

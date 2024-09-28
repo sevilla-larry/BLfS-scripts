@@ -10,12 +10,12 @@
 #
 # Required by:
 #
-#               24.15 xcb-util-cursor-0.1.4 ???
+#               d20.24.15 xcb-util-cursor-0.1.4
 #
 #
 # Optional by:
 #
-#               24.23 Xorg-Server-21.1.8    ???
+#               d20.24.24 Xorg-Server-21.1.13
 #
 
 export PKG="xcb-util-image-0.4.1"

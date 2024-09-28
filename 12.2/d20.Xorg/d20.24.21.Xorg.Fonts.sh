@@ -10,9 +10,10 @@
 #
 # Required by:
 #
-#               d20.24.xx Xwayland-23.2.0    ( font-util )  ???
-#               d20.24.xx Xorg-Server-21.1.8 ( font-util )  ???
+#               d20.24.23 Xwayland-24.1.2     ( font-util )
+#               d20.24.24 Xorg-Server-21.1.13 ( font-util )
 #
+
 #
 # based on: https://www.linuxfromscratch.org/blfs/view/12.2/x/x7font.html
 #
