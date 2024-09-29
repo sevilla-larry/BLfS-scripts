@@ -10,8 +10,8 @@
 #
 # Required by:
 #
-#               24.23 Xwayland-24.1.2
-#               24.24 Xorg-Server-21.1.13
+#               d20.24.23 Xwayland-24.1.2
+#               d20.24.24 Xorg-Server-21.1.13
 #
 
 export PKG="libxcvt-0.1.2"

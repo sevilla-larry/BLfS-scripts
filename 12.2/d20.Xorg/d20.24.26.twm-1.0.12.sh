@@ -1,25 +1,26 @@
-# d20.24.19.luit-20240102.sh
+# d20.24.26.twm-1.0.12.sh
 #
 
 #
 # Dependencies Required:
 #
-#               d20.24.18 Xorg Applications
+#               d20.24.24 Xorg-Server-21.1.13
 #
 
 #
-# Required by:
+# Runtime Recommended by:
 #
-#               d20.24.27 xterm-393
+#               d20.24.29 xinit-1.4.2
 #
 
-export PKG="luit-20240102"
-export PKGLOG_DIR=$LFSLOG/24.19
+export PKG="twm-1.0.12"
+export PKGLOG_DIR=$LFSLOG/24.26
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
-#export PKGLOG_BUILD=$PKGLOG_DIR/build.log
+export PKGLOG_BUILD=$PKGLOG_DIR/build.log
 export PKGLOG_INSTALL=$PKGLOG_DIR/install.log
 export PKGLOG_ERROR=$PKGLOG_DIR/error.log
+export PKGLOG_OTHERS=$PKGLOG_DIR/others.log
 export LFSLOG_PROCESS=$LFSLOG/process.log
 
 rm -r $PKGLOG_DIR 2> /dev/null
@@ -31,6 +32,10 @@ echo "1. Extract tar..." >> $PKGLOG_ERROR
 tar xvf $PKG.tar.xz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
 
+
+sed -i -e '/^rcdir =/s,^\(rcdir = \).*,\1/etc/X11/app-defaults,'    \
+            src/Makefile.in                                         \
+            > $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
 
 echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
@@ -52,7 +57,7 @@ make install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 cd ..
 rm -rf $PKG
 unset LFSLOG_PROCESS
-unset PKGLOG_INSTALL PKGLOG_CONFIG
-# PKGLOG_BUILD
+unset PKGLOG_OTHERS
+unset PKGLOG_INSTALL PKGLOG_BUILD PKGLOG_CONFIG
 unset PKGLOG_ERROR PKGLOG_TAR
 unset PKGLOG_DIR PKG

@@ -25,12 +25,16 @@ b69a0819905ad8dc4bf82d25f24037a4 luit-20240102.tgz
 2d3b7e43e597f4c607ad6261e2b3d77f xkeyboard-config-2.42.tar.xz
 312c5cf17d1b147df1b787fd170958e1 xwayland-24.1.2.tar.xz
 69dbed93746d0af6b46de76d711614e4 xorg-server-21.1.13.tar.xz
-
 # 24.25.1 .1 ---> 4 Xorg Input Drivers
 ddb1d798e0f2b4d0bd17c892b7d4aed3 libevdev-1.13.2.tar.xz
 e8bd1edc6751f92e425cae7eba3c61eb xf86-input-evdev-2.10.6.tar.bz2
 aae34911d662f77c1cd9be60c8502664 libinput-1.26.1.tar.gz
 b52a1fc7456cf6595a9a1004287551a3 xf86-input-libinput-1.4.0.tar.xz
+# 24.26 ---> .29
+805ee08b5a87e1103dfe2eb925b613b4 twm-1.0.12.tar.xz
+1ac5147362addade51c4e627d8cb328f xterm-393.tgz
+1273e3f4c85f1801be11a5247c382d07 xclock-1.1.1.tar.xz
+0e9a1b9a82b84ab229c709c0f939c113 xinit-1.4.2.tar.xz
 
 # 25.34 Libdrm-2.4.122
 143c8df50e09cd1eeb1fb53f05ecb64a libdrm-2.4.122.tar.xz

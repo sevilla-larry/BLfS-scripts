@@ -13,8 +13,8 @@
 #
 #               d20.24.16 Mesa-24.1.5
 #               d20.24.22 XKeyboardConfig-2.42
-#               24.27 xclock-1.1.1                  ???
-#               24.28 xinit-1.4.2                   ???
+#               d20.24.28 xclock-1.1.1
+#               d20.24.29 xinit-1.4.2
 #               25.02 at-spi2-core-2.48.3           ???
 #               25.13 gdk-pixbuf-xlib-2.40.2        ???
 #

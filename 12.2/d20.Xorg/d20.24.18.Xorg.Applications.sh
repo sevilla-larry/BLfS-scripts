@@ -14,7 +14,6 @@
 # Required by:
 #
 #               d20.24.20 xcursor-themes-1.0.7
-#               d20.24.xx xterm-384             ???
 #
 # Runtime Required by:
 #
