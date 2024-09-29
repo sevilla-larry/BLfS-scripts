@@ -26,6 +26,12 @@ b69a0819905ad8dc4bf82d25f24037a4 luit-20240102.tgz
 312c5cf17d1b147df1b787fd170958e1 xwayland-24.1.2.tar.xz
 69dbed93746d0af6b46de76d711614e4 xorg-server-21.1.13.tar.xz
 
+# 24.25.1 .1 ---> 4 Xorg Input Drivers
+ddb1d798e0f2b4d0bd17c892b7d4aed3 libevdev-1.13.2.tar.xz
+e8bd1edc6751f92e425cae7eba3c61eb xf86-input-evdev-2.10.6.tar.bz2
+aae34911d662f77c1cd9be60c8502664 libinput-1.26.1.tar.gz
+b52a1fc7456cf6595a9a1004287551a3 xf86-input-libinput-1.4.0.tar.xz
+
 # 25.34 Libdrm-2.4.122
 143c8df50e09cd1eeb1fb53f05ecb64a libdrm-2.4.122.tar.xz
 # 25.35 libepoxy-1.5.10

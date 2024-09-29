@@ -20,7 +20,7 @@
 # Dependencies Runtime Recommended:
 #
 #               d10.12.11 elogind-255.5
-#               d20.24.25.1.4 Xorg Libinput Driver 1.3.0    ???
+#               d20.24.25.1.4 Xorg Libinput Driver 1.4.0
 #
 # Dependencies Optional:
 #
@@ -30,9 +30,9 @@
 #
 # Required by:
 #
-#               24.24.1.2 Xorg Evdev Driver 2.10.6          ???
-#               24.24.1.4 Xorg Libinput Driver 1.3.0        ???
-#               24.25 twm-1.0.12                            ???
+#               d20.24.25.1.2 Xorg Evdev Driver 2.10.6
+#               d20.24.25.1.4 Xorg Libinput Driver 1.4.0
+#               d20.24.25 twm-1.0.12                            ???
 #
 
 #

@@ -29,6 +29,12 @@ https://www.x.org/pub/individual/xserver/xorg-server-21.1.13.tar.xz
 ### No TearFree will be installed
 ###https://www.linuxfromscratch.org/patches/blfs/12.2/xorg-server-21.1.13-tearfree_backport-2.patch
 
+# 24.25.1 .1 ---> 4 Xorg Input Drivers
+https://www.freedesktop.org/software/libevdev/libevdev-1.13.2.tar.xz
+https://www.x.org/pub/individual/driver/xf86-input-evdev-2.10.6.tar.bz2
+https://gitlab.freedesktop.org/libinput/libinput/-/archive/1.26.1/libinput-1.26.1.tar.gz
+https://www.x.org/pub/individual/driver/xf86-input-libinput-1.4.0.tar.xz
+
 # 25.34 Libdrm-2.4.122
 https://dri.freedesktop.org/libdrm/libdrm-2.4.122.tar.xz
 # 25.35 libepoxy-1.5.10

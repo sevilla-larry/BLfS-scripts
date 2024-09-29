@@ -33,7 +33,7 @@ do
 
   strI=$(echo $I | awk '{printf("%02d",$1)}')
 
-  export PKGLOG_DIR=$LFSLOG/24.20/$strI
+  export PKGLOG_DIR=$LFSLOG/24.21/$strI
   export PKGLOG_TAR=$PKGLOG_DIR/tar.log
   export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
   export PKGLOG_BUILD=$PKGLOG_DIR/build.log

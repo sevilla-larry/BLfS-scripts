@@ -9,6 +9,8 @@ https://download.gnome.org/sources/gobject-introspection/1.80/gobject-introspect
 https://www.linuxfromscratch.org/patches/blfs/12.2/glib-skip_warnings-1.patch
 # 09.74 libxslt-1.1.42
 https://download.gnome.org/sources/libxslt/1.1/libxslt-1.1.42.tar.xz
+# 09.79 mtdev-1.1.7
+https://bitmath.org/code/mtdev/mtdev-1.1.7.tar.bz2
 # 09.98 & 97 Wayland
 https://gitlab.freedesktop.org/wayland/wayland/-/releases/1.23.0/downloads/wayland-1.23.0.tar.xz
 https://gitlab.freedesktop.org/wayland/wayland-protocols/-/releases/1.36/downloads/wayland-protocols-1.36.tar.xz
@@ -64,8 +66,6 @@ https://download.gnome.org/sources/glib/2.76/glib-2.76.4.tar.xz
 https://www.linuxfromscratch.org/patches/blfs/12.0/glib-skip_warnings-1.patch
 # 09.16 gobject-introspection-1.76.1
 https://download.gnome.org/sources/gobject-introspection/1.76/gobject-introspection-1.76.1.tar.xz
-# 09.75 mtdev-1.1.6 - required by mtdev-1.1.6
-https://bitmath.org/code/mtdev/mtdev-1.1.6.tar.bz2
 # 09.88 & 89 Wayland *
 https://gitlab.freedesktop.org/wayland/wayland/-/releases/1.22.0/downloads/wayland-1.22.0.tar.xz
 https://gitlab.freedesktop.org/wayland/wayland-protocols/-/releases/1.32/downloads/wayland-protocols-1.32.tar.xz
