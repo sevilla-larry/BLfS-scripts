@@ -22,6 +22,10 @@
 #
 #               b11.13.04 CMake-3.30.2
 #
+# Optional by:
+#
+#               d10.10.05 Fontconfig-2.15.0
+#
 
 export PKG="curl-8.10.1"
 export PKGLOG_DIR=$LFSLOG/17.02
