@@ -1,4 +1,4 @@
-# d20.24.00.Part08.19-20.sh
+# d20.24.Part08.19-20.sh
 #
 # Graphical Environments
 #

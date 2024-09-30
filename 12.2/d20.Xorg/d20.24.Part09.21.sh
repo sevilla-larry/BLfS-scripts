@@ -1,8 +1,8 @@
-# d20.24.00.Part05.16.1.VM.sh
+# d20.24.Part09.21.sh
 #
 # Graphical Environments
 #
-#   d20.24.16 Mesa	- for VM
+#   24.21 Xorg Fonts
 #
 
 export LFSLOG_PROCESS=$LFSLOG/process.log
@@ -12,10 +12,10 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
 #####
 
-echo "d20.24.16.Mesa-24.1.5"
-echo "d20.24.16.Mesa-24.1.5" >> $LFSLOG_PROCESS
+echo "d20.24.21.Xorg.Fonts"
+echo "d20.24.21.Xorg.Fonts" >> $LFSLOG_PROCESS
 
-time { bash d20.24.16.Mesa-24.1.5-1.VM.sh ; }
+time { bash d20.24.21.Xorg.Fonts.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

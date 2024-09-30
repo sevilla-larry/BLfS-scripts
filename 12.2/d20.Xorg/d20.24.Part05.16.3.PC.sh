@@ -1,4 +1,4 @@
-# d20.24.00.Part05.16.3.PC.sh
+# d20.24.Part05.16.3.PC.sh
 #
 # Graphical Environments
 #
