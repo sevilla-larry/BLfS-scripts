@@ -6,7 +6,7 @@
 #
 #       Recommended:
 #
-#               b11.17.02 cURL-8.9.1
+#               b11.17.02 cURL-8.10.1 (errata)
 #
 #               ???.09.28 libarchive-3.6.2  ( not yet compiled/installed )
 #               ???.09.65 libuv-1.44.2      ( not yet compiled/installed )

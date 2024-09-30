@@ -1,5 +1,5 @@
 # b11.13.03 CMake-3.30.2
 https://cmake.org/files/v3.30/cmake-3.30.2.tar.gz
 
-# b11.17.02 cURL-8.9.1
-https://curl.se/download/curl-8.9.1.tar.xz
+# b11.17.02 cURL-8.10.1
+https://curl.se/download/curl-8.10.1.tar.xz

@@ -1,4 +1,5 @@
-# b11.17.02.cURL-8.9.1.sh
+# b11.17.02.cURL-8.10.1.sh
+# errata
 #
 
 #
@@ -22,7 +23,7 @@
 #               b11.13.04 CMake-3.30.2
 #
 
-export PKG="curl-8.9.1"
+export PKG="curl-8.10.1"
 export PKGLOG_DIR=$LFSLOG/17.02
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
@@ -51,9 +52,9 @@ echo "2. Configure ..." >> $PKGLOG_ERROR
 ./configure --prefix=/usr                   \
             --disable-static                \
             --with-openssl                  \
-            --enable-threaded-resolver      \
             --with-ca-path=/etc/ssl/certs   \
             > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+#            --enable-threaded-resolver      \
 
 echo "3. Make Build ..."
 echo "3. Make Build ..." >> $LFSLOG_PROCESS
@@ -79,7 +80,7 @@ find docs \( -name Makefile\* -o        \
              -name CMakeLists.txt \) -delete    \
     >> $PKGLOG_OTHERS   2>> $PKGLOG_ERROR
 
-cp -v -R docs -T /usr/share/doc/curl-8.9.1      \
+cp -v -R docs -T /usr/share/doc/curl-8.10.1     \
     >> $PKGLOG_OTHERS   2>> $PKGLOG_ERROR
 
 
