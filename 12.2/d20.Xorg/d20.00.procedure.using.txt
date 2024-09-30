@@ -113,8 +113,11 @@ B.  Generate BLFS - Support Files
   B.03. Support Applications
 
         ###
+        #
+        #   dbus
+        #
 
-        bash b.03.90.all.support.apps.1.sh
+        bash d20.03.all.support.apps.1.sh
 
   B.04. Install dbus scripts
 
@@ -129,7 +132,7 @@ B.  Generate BLFS - Support Files
         export MAKEFLAGS="-j8"
         cd /sources
 
-        bash b.03.90.all.support.apps.2.sh
+        bash d20.03.all.support.apps.2.sh
 
         ###
 

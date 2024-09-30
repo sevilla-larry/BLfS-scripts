@@ -1,4 +1,4 @@
-# d10.10.00.sh
+# d10.03.Group09.sh
 #
 # Graphics and Font Libraries
 #
@@ -10,7 +10,6 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
 #####
 
-# compile libpng ahead of FreeType
 echo "d10.10.22.libpng-1.6.43"
 echo "d10.10.22.libpng-1.6.43" >> $LFSLOG_PROCESS
 
@@ -85,17 +84,17 @@ echo "."
 
 ###
 
-#echo "10.31.Pixman-0.42.2"
-#echo "10.31.Pixman-0.42.2" >> $LFSLOG_PROCESS
+echo "d10.10.32.Pixman-0.43.4"
+echo "d10.10.32.Pixman-0.43.4" >> $LFSLOG_PROCESS
 
-#time { bash b.10.31.Pixman-0.42.2.sh ; }
+time { bash d10.10.32.Pixman-0.43.4.sh ; }
 
-#date +"%Y/%b/%d %H:%M"
-#date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
-#echo "." >> $LFSLOG_PROCESS
-#echo "."
-#echo "."
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
 
 #####
 

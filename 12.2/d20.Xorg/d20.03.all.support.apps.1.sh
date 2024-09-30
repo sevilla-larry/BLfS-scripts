@@ -1,10 +1,11 @@
-# b.03.90.all.support.apps.1.sh
+# b.03.all.support.apps.1.sh
 #
 # Support Applications
 #
 
 # dbus
-bash d10.12.00.Part1.sh
+bash d10.01.01.Group1.sh
 
-# "make install-dbus" from blfs-bootscripts
+#
+# then, "make install-dbus" from blfs-bootscripts
 # then reboot

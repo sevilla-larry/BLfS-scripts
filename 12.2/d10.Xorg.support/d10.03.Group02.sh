@@ -1,6 +1,6 @@
-# d10.12.00.Part2.sh
+# d10.03.Group02.sh
 #
-# System Utilities
+# elogind
 #
 
 export LFSLOG_PROCESS=$LFSLOG/process.log
@@ -10,10 +10,10 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
 #####
 
-echo "d10.12.36.UnZip-6.0"
-echo "d10.12.36.UnZip-6.0" >> $LFSLOG_PROCESS
+echo "d10.12.11.elogind-255.5"
+echo "d10.12.11.elogind-255.5" >> $LFSLOG_PROCESS
 
-time { bash d10.12.36.UnZip-6.0.sh ; }
+time { bash d10.12.11.elogind-255.5.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

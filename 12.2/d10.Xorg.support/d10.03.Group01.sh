@@ -1,6 +1,6 @@
-# d10.12.00.Part3.sh
+# d10.03.Group01.sh
 #
-# System Utilities
+# dbus only
 #
 
 export LFSLOG_PROCESS=$LFSLOG/process.log
@@ -10,10 +10,10 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
 #####
 
-echo "12.11.elogind-252.9"
-echo "12.11.elogind-252.9" >> $LFSLOG_PROCESS
+echo "d10.12.10.dbus-1.14.10"
+echo "d10.12.10.dbus-1.14.10" >> $LFSLOG_PROCESS
 
-time { bash b.12.11.elogind-252.9.sh ; }
+time { bash d10.12.10.dbus-1.14.10.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
