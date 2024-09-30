@@ -9,7 +9,10 @@ bash b10.09.00.sh
 # Which: to LfS misc
 # bash b11.12.00.sh
 
-# cURL
+# libunistring & libidn2
+bash b11.09.00.sh
+
+# libpsl & cURL
 bash b11.17.00.sh
 
 # CMake
