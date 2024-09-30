@@ -1,4 +1,5 @@
-# c13.09.04.Apr-1.7.4.sh
+# c13.09.04.Apr-1.7.5.sh
+# errata
 #
 
 #
@@ -8,7 +9,7 @@
 #
 
 
-export PKG="apr-1.7.4"
+export PKG="apr-1.7.5"
 export PKGLOG_DIR=$LFSLOG/09.04
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log

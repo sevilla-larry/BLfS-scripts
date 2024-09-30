@@ -1,5 +1,6 @@
-# 09.04 Apr-1.7.4
-https://archive.apache.org/dist/apr/apr-1.7.4.tar.bz2
+# 09.04 Apr-1.7.5 errata
+https://archive.apache.org/dist/apr/apr-1.7.5.tar.bz2
+
 # 09.05 Apr-Util-1.6.3
 https://archive.apache.org/dist/apr/apr-util-1.6.3.tar.bz2
 

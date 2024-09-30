@@ -6,7 +6,7 @@
 #
 #       Required:
 #
-#               c13.09.04 Apr-1.7.4
+#               c13.09.04 Apr-1.7.5 (errata)
 #
 #       Optional:
 #
