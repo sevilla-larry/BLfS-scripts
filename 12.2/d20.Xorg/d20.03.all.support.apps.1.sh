@@ -4,7 +4,7 @@
 #
 
 # dbus
-bash d10.01.01.Group1.sh
+bash d10.03.Group01.sh
 
 #
 # then, "make install-dbus" from blfs-bootscripts
