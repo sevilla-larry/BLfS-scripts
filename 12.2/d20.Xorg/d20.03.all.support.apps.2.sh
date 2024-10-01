@@ -38,8 +38,12 @@ bash d10.03.Group05.sh
 
 #####
 
-# cURL & CMake
+
+# libunistring & libidn2
+bash b11.09.00.sh
+# libpsl & cURL
 bash b11.17.00.sh
+# CMake
 bash b11.13.00.sh
 
 # LLVM
