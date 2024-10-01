@@ -97,14 +97,14 @@ cd    build
 echo "2. Meson Setup ..."
 echo "2. Meson Setup ..." >> $LFSLOG_PROCESS
 echo "2. Meson Setup ..." >> $PKGLOG_ERROR
-meson setup ..                 \
-      --prefix=$XORG_PREFIX    \
-      --buildtype=release      \
-      -D platforms=x11,wayland \
-      -D gallium-drivers=virgl \
-      -D vulkan-drivers=auto   \
-      -D valgrind=disabled     \
-      -D libunwind=disabled    \
+meson setup ..                          \
+      --prefix=$XORG_PREFIX             \
+      --buildtype=release               \
+      -D platforms=x11,wayland          \
+      -D gallium-drivers=llvmpipe       \
+      -D vulkan-drivers=auto            \
+      -D valgrind=disabled              \
+      -D libunwind=disabled             \
       > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 #      -D gallium-drivers=svga  \ VBs
 #      -D gallium-drivers=auto  \ PCs
