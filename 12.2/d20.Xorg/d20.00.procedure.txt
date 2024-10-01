@@ -40,7 +40,8 @@ A. Preparation
 
         copy all script files from the following to /sources
 
-            1. d20.Xorg
+            1. d10.Xorg.support
+            2. d20.Xorg
 
   A.03. Download packages
 
