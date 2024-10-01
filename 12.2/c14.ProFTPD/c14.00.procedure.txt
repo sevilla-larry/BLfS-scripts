@@ -57,28 +57,20 @@ A. Preparation
 
         ###
 
+
   A.02. Copy all script files
 
         copy all script files from the following to /sources
 
-            1. c13.Apache
-
-            # for Option #1 or PostgreSQL installation / no MariaDB
-            2. b15.common.Xorg.MariaDB.Apache
+            1. c14.ProFTPD
 
   A.03. Download packages
 
         ###
 
-        wget --input-file=c13.00.01.wget-list-sysv.Apache.txt --continue --directory-prefix=/sources
+        wget --input-file=c14.01.wget-list-sysv.ProFTPD.txt --continue --directory-prefix=/sources
 
-        # for Option #1 or PostgreSQL installation / no MariaDB
-        wget --input-file=b15.00.01.wget-list-sysv.common.Xorg.MariaDB.Apache.txt   --continue --directory-prefix=/sources
-
-        md5sum -c c13.00.02.md5sums.Apache.txt
-
-        # for Option #1 or PostgreSQL installation / no MariaDB
-        md5sum -c b15.00.02.md5sums.common.Xorg.MariaDB.Apache.txt
+        md5sum -c c14.02.md5sums.ProFTPD.txt
 
         ###
 
@@ -115,48 +107,32 @@ B.  Generate BLFS - Support Files
         ( display )
         root [ /sources ]#
 
-  B.03. Support Applications
-
-        ###
-
-        bash c13.03.90.all.support.apps.1.sh
-
-        # for Option #1 or PostgreSQL installation / no MariaDB
-        bash c13.03.90.all.support.apps.2.sh
-
-        ###
-
 C.  Generate BLFS
 
-  C.01. Apache Compile/Install
+  C.01. ProFTPD Compile/Install
 
         ###
 
-        bash c13.20.00.sh
+        bash c14.20.00.sh
 
         ###
 
-  C.02. Apache bootscript
+  C.02. ProFTPD bootscript
 
         ###
 
         cd /mnt/Src/lfs.src/blfs-bootscripts-20240416       # VM/VB
         cd /usr/src/lfs/blfs-bootscripts-20240416           # PC
 
-        make install-httpd
+        make install-proftpd
 
+        #
+        # update:
+        #   /etc/hosts
+        #
+        #         www.xxx.yyy.zzz   <serverName>
+        #
+        
         reboot
 
         ###
-
-   C.03. From client browser on a Remote PC
-
-        #
-        # on remote client
-        #
-
-        http://<host/ip address>/
-
-        #
-        # Should display "It works!"
-        #

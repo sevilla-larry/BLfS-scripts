@@ -47,11 +47,11 @@ A. Preparation
 
         ###
 
-        wget --input-file=b10.00.01.wget-list-sysv.common.Xorg.and.servers.txt --continue --directory-prefix=/sources
-        wget --input-file=c12.00.01.wget-list-sysv.PostgreSQL.txt              --continue --directory-prefix=/sources
+        wget --input-file=b10.01.wget-list-sysv.common.Xorg.and.servers.txt --continue --directory-prefix=/sources
+        wget --input-file=c12.01.wget-list-sysv.PostgreSQL.txt              --continue --directory-prefix=/sources
 
-        md5sum -c b10.00.02.md5sums.common.Xorg.and.servers.txt
-        md5sum -c c12.00.02.md5sums.PostgreSQL.txt
+        md5sum -c b10.02.md5sums.common.Xorg.and.servers.txt
+        md5sum -c c12.02.md5sums.PostgreSQL.txt
 
         ###
 
@@ -94,7 +94,7 @@ B.  Generate BLFS - Support Files
 
         ###
 
-        bash c12.00.90.all.support.apps.sh
+        bash c12.03.all.support.apps.sh
 
         ###
 
