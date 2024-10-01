@@ -68,13 +68,8 @@ A. Preparation
         Errata/SVN Update:
 
         #https://www.linuxfromscratch.org/blfs/view/svn/x/x7lib.html
-        #1b9bc39366eab2cc7b018907df715f34  libX11-1.8.7.tar.xz           Errata
         #05b5667aadd476d77e9b5ba1a1de213e  libXpm-3.5.17.tar.xz          Errata
         #24e0b72abe16efce9bf10579beaffc27  libXrandr-1.5.4.tar.xz        SVN
-        #bdd3ec17c6181fd7b26f6775886c730d  libXpresent-1.0.1.tar.xz      SVN
-
-        #https://www.linuxfromscratch.org/blfs/view/svn/x/x7font.html
-        #a6541d12ceba004c0c1e3df900324642  font-util-1.4.1.tar.xz        SVN
 
         ###
 
