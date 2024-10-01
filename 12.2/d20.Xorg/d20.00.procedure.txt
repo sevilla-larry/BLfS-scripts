@@ -117,7 +117,9 @@ B.  Generate BLFS - Support Files
 
   B.04. Install dbus scripts
 
-        cd /usr/src/lfs/blfs-bootscripts-20230824
+        cd /mnt/Src/lfs.src/blfs-bootscripts-20240416       # VM/VB
+        cd /usr/src/lfs/blfs-bootscripts-20240416           # PC
+
         make install-dbus
 
         reboot
@@ -125,7 +127,10 @@ B.  Generate BLFS - Support Files
   B.05. Support Applications ( continue )
 
         export LFSLOG=/var/log/blfs
-        export MAKEFLAGS="-j8"
+
+        export MAKEFLAGS="-j$(nproc)"
+        export NPROC="$(nproc)"
+
         cd /sources
 
         bash d20.03.all.support.apps.2.sh
