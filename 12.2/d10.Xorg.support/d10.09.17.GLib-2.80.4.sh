@@ -2,6 +2,10 @@
 #
 
 #
+# Dependencies Required (hidden)
+#
+#               d10.13.09.Git-2.46.0.sh
+#
 # Dependencies Recommended:
 #
 #               d10.09.74 libxslt-1.1.42
@@ -9,16 +13,16 @@
 #
 # Dependencies Runtime:
 #
-#               11.04 desktop-file-utils-0.26       ???
-#               11.17 shared-mime-info-2.2          ???
-#               12.10 dbus-1.14.8                   ???
+#               d10.11.04 desktop-file-utils-0.27
+#               d10.11.16 shared-mime-info-2.4
+#               d10.12.10 dbus-1.14.10
 #
 #
 # Required by:
 #
-#               04.20 Polkit-123                    ???
-#               11.04 desktop-file-utils-0.26       ???
-#               11.17 shared-mime-info-2.2          ???
+#               d10.04.20 Polkit-125
+#               d10.11.04 desktop-file-utils-0.27
+#               d10.11.16 shared-mime-info-2.4
 #               37.02 libfm-extra-1.3.2             ???
 #               25.02 at-spi2-core-2.48.3           ???
 #               25.12 gdk-pixbuf-2.42.10            ???
@@ -28,7 +32,7 @@
 #
 # Recommended by:
 #
-#               10.11 HarfBuzz-8.1.1
+#               d10.10.12 harfBuzz-9.0.0
 #
 
 export PKG="glib-2.80.4"
@@ -65,8 +69,9 @@ meson setup ..                  \
       --prefix=/usr             \
       --buildtype=release       \
       -D introspection=disabled \
-      -D man-pages=enabled      \
+      -D man-pages=disabled     \
         > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+#      -D man-pages=enabled      \
 
 echo "1.3. Ninja Build ..."
 echo "1.3. Ninja Build ..." >> $LFSLOG_PROCESS

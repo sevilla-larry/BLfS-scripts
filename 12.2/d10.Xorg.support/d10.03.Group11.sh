@@ -1,6 +1,6 @@
-# d10.03.Group06.sh
+# d10.03.Group11.sh
 #
-# duktape & libxslt
+# Wayland support
 #
 
 export LFSLOG_PROCESS=$LFSLOG/process.log
@@ -10,10 +10,10 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
 #####
 
-echo "d10.09.12.duktape-2.7.0"
-echo "d10.09.12.duktape-2.7.0.sh" >> $LFSLOG_PROCESS
+echo "d10.09.97.Wayland-1.23.0"
+echo "d10.09.97.Wayland-1.23.0" >> $LFSLOG_PROCESS
 
-time { bash d10.09.12.duktape-2.7.0.sh ; }
+time { bash d10.09.97.Wayland-1.23.0.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
@@ -24,10 +24,10 @@ echo "."
 
 ###
 
-echo "d10.09.74.libxslt-1.1.42"
-echo "d10.09.74.libxslt-1.1.42" >> $LFSLOG_PROCESS
+echo "d10.09.98.Wayland-Protocols-1.36"
+echo "d10.09.98.Wayland-Protocols-1.36" >> $LFSLOG_PROCESS
 
-time { bash d10.09.74.libxslt-1.1.42.sh ; }
+time { bash d10.09.98.Wayland-Protocols-1.36.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

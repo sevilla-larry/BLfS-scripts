@@ -41,6 +41,11 @@ https://downloads.sourceforge.net/infozip/unzip60.tar.gz
 https://www.linuxfromscratch.org/patches/blfs/12.2/unzip-6.0-consolidated_fixes-1.patch
 https://www.linuxfromscratch.org/patches/blfs/12.2/unzip-6.0-gcc14-1.patch
 
+# 13.09 Git-2.46.0
+https://www.kernel.org/pub/software/scm/git/git-2.46.0.tar.xz
+https://www.kernel.org/pub/software/scm/git/git-manpages-2.46.0.tar.xz
+https://www.kernel.org/pub/software/scm/git/git-htmldocs-2.46.0.tar.xz
+
 # 13.12 LLVM-18.1.7
 https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.7/llvm-18.1.7.src.tar.xz
 https://anduin.linuxfromscratch.org/BLFS/llvm/llvm-cmake-18.src.tar.xz

@@ -13,31 +13,35 @@
 
 # .2
 
-#####
+###
 
-# elogind
+# Git
 bash d10.03.Group02.sh
 
-#####
+###
 
-# UnZip
+# elogind
 bash d10.03.Group03.sh
 
-#####
+###
 
-# Python modules
+# UnZip
 bash d10.03.Group04.sh
 
-#####
+###
+
+# Python modules
+bash d10.03.Group05.sh
+
+###
 
 # icu & libxml
 bash b10.09.00.sh
 
 # duktape & libxslt
-bash d10.03.Group05.sh
+bash d10.03.Group06.sh
 
-#####
-
+###
 
 # libunistring & libidn2
 bash b11.09.00.sh
@@ -47,29 +51,29 @@ bash b11.17.00.sh
 bash b11.13.00.sh
 
 # LLVM
-bash d10.03.Group06.sh
+bash d10.03.Group07.sh
 
-#####
+###
 
 # PCRE2
 bash b15.09.00.sh
 
 # GLib
-bash d10.03.Group07.sh
-
-#####
-
-# Polkit
 bash d10.03.Group08.sh
 
-#####
+###
 
-# Graphics
+# Polkit
 bash d10.03.Group09.sh
 
-#####
+###
+
+# Graphics
+bash d10.03.Group10.sh
+
+###
 
 # Wayland support
-bash d10.03.Group10.sh
+bash d10.03.Group11.sh
 
 #####

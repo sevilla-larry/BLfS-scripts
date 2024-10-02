@@ -1,24 +1,24 @@
-# d10.09.74.libxslt-1.1.42.sh
+# d10.13.09.Git-2.46.0.sh
 #
 
 #
-# Dependencies Required:
+# Dependencies Recommended:
 #
-#               b10.09.72 libxml2-2.13.3
+#               b11.17.02 cURL-8.10.1 (errata)
+#
+# Dependencies Optional:
+#
+#               b15.09.83 PCRE2-10.44
 #
 
 #
-#   Recommended but needed by:
+#   Required but hidden by:
 #
 #               b10.09.17 GLib-2.80.4
 #
-#   Optional by:
-#
-#               d20.24.03 xorgproto-2024.1
-#
 
-export PKG="libxslt-1.1.42"
-export PKGLOG_DIR=$LFSLOG/09.74
+export PKG="git-2.46.0"
+export PKGLOG_DIR=$LFSLOG/13.09
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
@@ -40,26 +40,28 @@ cd $PKG
 echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
 echo "2. Configure ..." >> $PKGLOG_ERROR
-./configure --prefix=/usr                          \
-            --disable-static                       \
-            --docdir=/usr/share/doc/libxslt-1.1.42 \
-          > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
-#            PYTHON=/usr/bin/python3                \
+./configure --prefix=/usr                   \
+            --with-gitconfig=/etc/gitconfig \
+            --with-python=python3           \
+            > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Make Build ..."
 echo "3. Make Build ..." >> $LFSLOG_PROCESS
 echo "3. Make Build ..." >> $PKGLOG_ERROR
 make > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 
-echo "4. Make Check ..."
-echo "4. Make Check ..." >> $LFSLOG_PROCESS
-echo "4. Make Check ..." >> $PKGLOG_ERROR
-make check > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
+echo "4. Make Test ..."
+echo "4. Make Test ..." >> $LFSLOG_PROCESS
+echo "4. Make Test ..." >> $PKGLOG_ERROR
+make test -k > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
 
 echo "5. Make Install ..."
 echo "5. Make Install ..." >> $LFSLOG_PROCESS
 echo "5. Make Install ..." >> $PKGLOG_ERROR
-make install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
+make perllibdir=/usr/lib/perl5/5.40/site_perl install   \
+        > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
+
+# documentation NOT installed
 
 
 cd ..
