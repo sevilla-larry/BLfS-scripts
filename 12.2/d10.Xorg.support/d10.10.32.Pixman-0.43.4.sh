@@ -12,7 +12,7 @@
 # Required by:
 #
 #               d20.24.23 Xwayland-24.1.2
-#               d20.24.24 Xorg-Server-21.1.8    ???
+#               d20.24.24 Xorg-Server-21.1.13
 #
 
 export PKG="pixman-0.43.4"

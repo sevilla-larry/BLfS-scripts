@@ -24,6 +24,8 @@ f3b4432c4212064c00500e1ad63fbc64 freetype-2.13.3.tar.xz
 # 10.22 libpng-1.6.43
 22b8362d16c3724eba9c1fb8d187320a libpng-1.6.43.tar.xz
 fc21268c9c583c5d2e7ead8a9ec17240 libpng-1.6.43-apng.patch.gz
+# 10.32 Pixman-0.43.4
+21b18058dea39ad48f32d3199b8ffe40 pixman-0.43.4.tar.gz
 
 # 11.04 desktop-file-utils-0.27
 fdf9215aea91acb6aebc43f770537f2c desktop-file-utils-0.27.tar.xz

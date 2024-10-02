@@ -25,6 +25,8 @@ https://github.com/harfbuzz/harfbuzz/releases/download/9.0.0/harfbuzz-9.0.0.tar.
 # 10.22 libpng-1.6.43
 https://downloads.sourceforge.net/libpng/libpng-1.6.43.tar.xz
 https://downloads.sourceforge.net/sourceforge/libpng-apng/libpng-1.6.43-apng.patch.gz
+# 10.32 Pixman-0.43.4
+https://www.cairographics.org/releases/pixman-0.43.4.tar.gz
 
 # 11.04 desktop-file-utils-0.27
 https://www.freedesktop.org/software/desktop-file-utils/releases/desktop-file-utils-0.27.tar.xz
