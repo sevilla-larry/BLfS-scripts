@@ -171,9 +171,9 @@ C.  Generate BLFS - Graphical Components / Environments
 
         #
 
-        bash d20.24.all.1.VM.sh     # VMs
-        bash d20.04.all.2.VB.sh     # VBs
-        bash d20.04.all.3.PC.sh     # PCs
+        bash d20.all.1.VM.sh     # VMs
+        bash d20.all.2.VB.sh     # VBs
+        bash d20.all.3.PC.sh     # PCs
 
         ###
         #   Note: for startx as user
