@@ -101,7 +101,7 @@ meson setup ..                 \
       --prefix=$XORG_PREFIX    \
       --buildtype=release      \
       -D platforms=x11,wayland \
-      -D gallium-drivers=svga  \ 
+      -D gallium-drivers=svga,swrast    \
       -D vulkan-drivers=swrast \
       -D valgrind=disabled     \
       -D libunwind=disabled    \
