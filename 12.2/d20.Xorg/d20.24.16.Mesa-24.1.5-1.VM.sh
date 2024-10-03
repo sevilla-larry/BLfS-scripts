@@ -101,7 +101,7 @@ meson setup ..                          \
       --prefix=$XORG_PREFIX             \
       --buildtype=release               \
       -D platforms=x11,wayland          \
-      -D gallium-drivers=virgl,llvmpipe \
+      -D gallium-drivers=virgl          \
       -D vulkan-drivers=auto            \
       -D valgrind=disabled              \
       -D libunwind=disabled             \
