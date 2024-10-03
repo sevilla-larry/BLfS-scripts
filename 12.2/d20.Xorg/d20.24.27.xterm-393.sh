@@ -1,7 +1,7 @@
 # d20.24.27.xterm-393.sh
 #
 
-$
+#
 # Dependencies Required:
 #
 #               d20.24.18 Xorg Applications

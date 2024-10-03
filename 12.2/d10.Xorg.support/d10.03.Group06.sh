@@ -36,6 +36,20 @@ echo "." >> $LFSLOG_PROCESS
 echo "."
 echo "."
 
+###
+
+echo "d10.09.79.mtdev-1.1.7"
+echo "d10.09.79.mtdev-1.1.7" >> $LFSLOG_PROCESS
+
+time { bash d10.09.79.mtdev-1.1.7.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
 #####
 
 unset LFSLOG_PROCESS

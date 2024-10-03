@@ -182,7 +182,7 @@ echo "."
 echo "d20.24.32.04.DejaVu-fonts-ttf-2.37"
 echo "d20.24.32.04.DejaVu-fonts-ttf-2.37" >> $LFSLOG_PROCESS
 
-time { bash d20.24.32.04.dejavu-fonts-ttf-2.37.sh ; }
+time { bash d20.24.32.04.DejaVu-fonts-ttf-2.37.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

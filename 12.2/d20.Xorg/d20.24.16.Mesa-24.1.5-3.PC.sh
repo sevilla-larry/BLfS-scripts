@@ -95,14 +95,15 @@ cd    build
 echo "2. Meson Setup ..."
 echo "2. Meson Setup ..." >> $LFSLOG_PROCESS
 echo "2. Meson Setup ..." >> $PKGLOG_ERROR
-meson setup ..                 \
-      --prefix=$XORG_PREFIX    \
-      --buildtype=release      \
-      -D platforms=x11,wayland \
-      -D gallium-drivers=auto  \
-      -D vulkan-drivers=auto   \
-      -D valgrind=disabled     \
-      -D libunwind=disabled    \
+# Intel i7-1790
+meson setup ..                  \
+      --prefix=$XORG_PREFIX     \
+      --buildtype=release       \
+      -D platforms=x11,wayland  \
+      -D gallium-drivers=crocus \
+      -D vulkan-drivers=intel_hasvk \
+      -D valgrind=disabled      \
+      -D libunwind=disabled     \
       > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 #      -D gallium-drivers=virgl \ VMs
 #      -D gallium-drivers=svga  \ VBs

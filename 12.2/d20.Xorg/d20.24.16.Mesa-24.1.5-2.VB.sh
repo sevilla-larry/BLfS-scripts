@@ -102,12 +102,13 @@ meson setup ..                 \
       --buildtype=release      \
       -D platforms=x11,wayland \
       -D gallium-drivers=svga  \ 
-      -D vulkan-drivers=auto   \
+      -D vulkan-drivers=swrast \
       -D valgrind=disabled     \
       -D libunwind=disabled    \
       > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 #      -D gallium-drivers=virgl \ VMs
 #      -D gallium-drivers=auto  \ PCs
+#      -D vulkan-drivers=auto   \
 
 echo "3. Ninja Build ..."
 echo "3. Ninja Build ..." >> $LFSLOG_PROCESS
