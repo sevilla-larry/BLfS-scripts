@@ -46,7 +46,7 @@ echo "."
 echo "d20.42.43.libvdpau-va-gl-0.4.2"
 echo "d20.42.43.libvdpau-va-gl-0.4.2" >> $LFSLOG_PROCESS
 
-time { d20.42.43.libvdpau-va-gl-0.4.2.sh ; }
+time { bash d20.42.43.libvdpau-va-gl-0.4.2.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
