@@ -43,10 +43,10 @@ echo "."
 
 ###
 
-echo "d20.42.42.libvdpau-1.5"
-echo "d20.42.42.libvdpau-1.5" >> $LFSLOG_PROCESS
+echo "d20.42.43.libvdpau-va-gl-0.4.2"
+echo "d20.42.43.libvdpau-va-gl-0.4.2" >> $LFSLOG_PROCESS
 
-time { bash d20.42.42.libvdpau-1.5.sh ; }
+time { d20.42.43.libvdpau-va-gl-0.4.2.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

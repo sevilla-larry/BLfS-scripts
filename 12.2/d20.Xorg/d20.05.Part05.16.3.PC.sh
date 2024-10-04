@@ -24,8 +24,6 @@ echo "." >> $LFSLOG_PROCESS
 echo "."
 echo "."
 
-###
-
 #####
 
 unset LFSLOG_PROCESS
