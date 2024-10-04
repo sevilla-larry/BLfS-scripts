@@ -49,12 +49,11 @@ https://dri.freedesktop.org/libdrm/libdrm-2.4.122.tar.xz
 # 25.35 libepoxy-1.5.10
 https://download.gnome.org/sources/libepoxy/1.5/libepoxy-1.5.10.tar.xz
 
-
-# 44.24 intel-vaapi-driver-2.4.1.sh / CPU/iGPU i7-4790
-# https://github.com/intel/intel-vaapi-driver/releases/download/2.4.1/intel-vaapi-driver-2.4.1.tar.bz2
-# 44.45 libva-2.19.0
-# https://github.com/intel/libva/releases/download/2.19.0/libva-2.19.0.tar.bz2
-# 44.46 libvdpau-1.5
-# https://gitlab.freedesktop.org/vdpau/libvdpau/-/archive/1.5/libvdpau-1.5.tar.bz2
-# 44.47 libvdpau-va-gl-0.4.0
-# https://github.com/i-rinat/libvdpau-va-gl/archive/v0.4.0/libvdpau-va-gl-0.4.0.tar.gz
+# 42.22 intel-vaapi-driver-2.4.1.sh / CPU/iGPU i7-4790
+https://github.com/intel/intel-vaapi-driver/releases/download/2.4.1/intel-vaapi-driver-2.4.1.tar.bz2
+# 42.41 libva-2.22.0
+https://github.com/intel/libva/archive/2.22.0/libva-2.22.0.tar.gz
+# 42.42 libvdpau-1.5
+https://gitlab.freedesktop.org/vdpau/libvdpau/-/archive/1.5/libvdpau-1.5.tar.bz2
+# 42.43 libvdpau-va-gl-0.4.2
+https://github.com/i-rinat/libvdpau-va-gl/archive/v0.4.2/libvdpau-va-gl-0.4.2.tar.gz
