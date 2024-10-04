@@ -13,8 +13,8 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
 #####
 
-echo "d20.42.41.libva-2.22.0"
-echo "d20.42.41.libva-2.22.0" >> $LFSLOG_PROCESS
+echo "d20.42.41.libva-2.22.0 - before Mesa"
+echo "d20.42.41.libva-2.22.0 - before Mesa" >> $LFSLOG_PROCESS
 
 export PKGPASS=1
 time { bash d20.42.41.libva-2.22.0.sh ; }
