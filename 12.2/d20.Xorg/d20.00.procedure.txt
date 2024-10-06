@@ -185,6 +185,10 @@ C.  Generate BLFS - Graphical Components / Environments
 
         reboot
 
+  C.02. [BLFS 24] Graphical Environments - Xorg - Runtime
+
+        # login as user
+
         startx
 
         ###

@@ -1,0 +1,83 @@
+A. Preparation
+
+  A.01. ( Assumming XOrg is already running )
+
+        cd /sources
+
+  A.02. Copy all script files
+
+        copy all script files from the following to /sources
+
+            1. e11.common.Xfce.Gnome
+            2. e21.Xfce.support
+            3. e23.Xfce
+
+        copy all script files to /sources
+
+  A.03. Download packages
+
+        ###
+
+        wget --input-file=c.00.09.wget-list-sysv.txt --continue --directory-prefix=/sources
+
+        ###
+
+  A.04. Setting Up the Environment
+        ( Note: change the MAKEFLAGS based on the number of threads )
+
+        ###
+        #   same as XOrg Environment
+        ###
+        export XORG_PREFIX="/usr"
+
+        export XORG_CONFIG="--prefix=$XORG_PREFIX --sysconfdir=/etc \
+                            --localstatedir=/var --disable-static"
+
+B.  Generate BLFS - Support Files
+
+  B.01. Setup / Checking Environment - Part 1
+
+        ###
+
+        echo $LFSLOG          /var/log/blfs
+        echo $MAKEFLAGS       -j8
+
+        echo $SHELL           /bin/bash
+        ls -l /bin/sh         bash
+        ls -l /usr/bin/awk    gawk
+
+        cd /sources
+
+        ###
+
+        ( display )
+        root [ /sources ]#
+
+  B.03. Support Applications
+
+        ###
+
+        bash e23.03.all.support.apps.sh
+
+C.  Generate BLFS - Xfce
+
+  C.01. [BLFS 35] Xfce Desktop
+
+        ###
+
+        bash e23.04.all.sh
+
+        reboot
+
+
+  C.02. [BLFS 35] Xfce Desktop - runtime without DM
+
+        cat > ~/.xinitrc << "EOF"
+        dbus-launch --exit-with-x11 startxfce4
+        EOF
+
+        startx
+
+        # Note: delete if using DM
+
+        ###

@@ -52,8 +52,14 @@ echo "3. Ninja Build ..." >> $PKGLOG_ERROR
 ninja > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 
 #
-# test needs GTK+-2.24.33
+# test needs GTK+-3.24.43
 #	which is NOT installed
+#   since it will be circular
+#
+# GTK+-3.24.43 requires Pango-1.54.0
+# Pango-1.54.0 recommends Cairo-1.18.2, Xorg
+# Cairo-1.18.2 requires Pixman-0.43.4, Xorg
+#
 #
 #echo "4. Ninja Test ..."
 #echo "4. Ninja Test ..." >> $LFSLOG_PROCESS
