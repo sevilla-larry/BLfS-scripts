@@ -4,7 +4,7 @@
 #
 # Dependencies Recommended:
 #
-#               d20.24.08 Xorg Libraries ( dbus-launch )
+#               d20.24.08 Xorg Libraries ( dbus-launch, ?runtime? )
 #
 
 #

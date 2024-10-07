@@ -16,7 +16,7 @@
 # Required by:
 #
 #               d20.24.16 Mesa-24.1.5
-#               d10.42.41 libva-2.19.0  ???
+#               d10.42.41 libva-2.22.0
 #
 
 export PKG="libdrm-2.4.122"

@@ -20,8 +20,13 @@
 #               c11.22.04 MariaDB-10.11.8
 #
 #               d10.13.12 LLVM-18.1.7
+#               d20.42.43 libvdpau-va-gl-0.4.2
 #               ???.10.18 libjpeg-turbo-3.0.0   ???
 #               ???.10.10 Graphite2-1.3.14      ???
+#
+# Optional by:
+#
+#               d20.25.34 Libdrm-2.4.122
 #
 
 export PKG="cmake-3.30.2"

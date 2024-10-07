@@ -36,6 +36,7 @@
 #
 #               d20.24.18 Xorg Applications
 #               d20.25.35 libepoxy-1.5.10
+#               d20.42.43 libvdpau-va-gl-0.4.2      for PCs
 #
 # Recommended by:
 #

@@ -14,6 +14,10 @@
 #
 
 #
+# Required by:
+#
+#               d20.42.43 libvdpau-va-gl-0.4.2
+#
 # Recommended by:
 #
 #               d20.24.16 Mesa-24.1.5

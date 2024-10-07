@@ -26,6 +26,7 @@
 # Required by:
 #
 #               d20.42.22 intel-vaapi-driver-2.4.1
+#               d20.42.43 libvdpau-va-gl-0.4.2
 #
 # Recommended by:
 #

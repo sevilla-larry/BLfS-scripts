@@ -15,13 +15,14 @@
 #               d20.24.22 XKeyboardConfig-2.42
 #               d20.24.28 xclock-1.1.1
 #               d20.24.29 xinit-1.4.2
+#               d20.42.42 libvdpau-1.5
 #               25.02 at-spi2-core-2.48.3           ???
 #               25.13 gdk-pixbuf-xlib-2.40.2        ???
 #
 # Recommended by:
 #
-#               d20.25.35 Libdrm-2.4.122
-#               d10.12.10 dbus-1.14.10 ( dbus-launch )
+#               d20.25.34 Libdrm-2.4.122
+#               d10.12.10 dbus-1.14.10 ( dbus-launch, runtime? )
 #               25.43 Pango-1.50.14                 ???
 #
 

@@ -26,7 +26,7 @@
 # Dependencies Recommended:
 #
 #               d10.09.98 Wayland-Protocols-1.36
-#               d20.42.41 libva                     for PCs
+#               d20.42.41 libva-2.22.0              for PCs
 #               d20.42.42 libvdpau-1.5              for PCs
 #               d10.13.12 LLVM-18.1.7
 #
@@ -36,6 +36,7 @@
 #
 #               d20.24.18 Xorg Applications
 #               d20.25.35 libepoxy-1.5.10
+#               d20.42.43 libvdpau-va-gl-0.4.2      for PCs
 #
 # Recommended by:
 #
@@ -43,7 +44,7 @@
 #
 # Recommended Runtime by:
 #
-#               d20.42.41 libva                     for PCs
+#               d20.42.41 libva-2.22.0              for PCs
 #               d20.42.42 libvdpau-1.5              for PCs
 #
 
