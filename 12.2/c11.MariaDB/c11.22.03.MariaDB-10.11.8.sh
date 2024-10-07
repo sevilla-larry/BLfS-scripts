@@ -2,19 +2,16 @@
 #
 
 #
-# Dependencies
-#
-#       Required:
+# Dependencies Required:
 #
 #               b11.13.03 CMake-3.30.2
-#
 #               libfmt ( downloaded by MariaDB )
 #
-#       Recommended:
+# Dependencies Recommended:
 #
 #               c11.17.07 libevent-2.1.12
 #
-#       Optional:
+# Dependencies Optional:
 #
 #               b10.09.72 libxml2-2.13-3
 #               b15.09.83 PCRE2-10.44
@@ -22,6 +19,13 @@
 #
 #                     ( deferred )
 #               09.94 Snappy-1.1.10 ( from GitHub )
+#
+
+#
+# Optional by:
+#
+#               c13.09.05 Apr-Util-1.6.3    (Apache)
+#               c14.20.04 ProFTPD-1.3.8b
 #
 
 export PKG="mariadb-10.11.8"

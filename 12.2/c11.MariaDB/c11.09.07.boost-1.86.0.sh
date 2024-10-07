@@ -2,15 +2,15 @@
 #
 
 #
-# Dependencies
-#
-#       Recommended:
-#
-#               b11.12.39 Which-2.21
-#
-#       Optional:
+# Dependencies Optional:
 #
 #               b10.09.24 icu-75.1
+#
+
+#
+# Optional by:
+#
+#               c11.22.03 MariaDB-10.11.8
 #
 
 export PKG="boost-1.86.0"

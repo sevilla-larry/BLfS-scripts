@@ -18,7 +18,6 @@
 # Required by:
 #
 #               c11.22.04 MariaDB-10.11.8
-#
 #               d10.13.12 LLVM-18.1.7
 #               d20.42.43 libvdpau-va-gl-0.4.2
 #               ???.10.18 libjpeg-turbo-3.0.0   ???

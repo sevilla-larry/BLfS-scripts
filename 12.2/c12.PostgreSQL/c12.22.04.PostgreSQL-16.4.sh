@@ -2,12 +2,17 @@
 #
 
 #
-# Dependencies
+# Dependencies Optional:
 #
-#       Optional:
-#
-#               b10.09.24 ICU-75.1
+#               b10.09.24 icu-75.1
 #               b10.09.72 libxml2-2.13-3
+#
+
+#
+# Optional by:
+#
+#               c13.09.05 Apr-Util-1.6.3    (Apache)
+#               c14.20.04 ProFTPD-1.3.8b
 #
 
 export PKG="postgresql-16.4"
