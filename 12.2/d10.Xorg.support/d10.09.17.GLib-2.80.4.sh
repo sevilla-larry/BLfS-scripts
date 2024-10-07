@@ -4,6 +4,10 @@
 #
 # Dependencies Required (hidden)
 #
+#               d10.13.23.15 Packaging-12.1
+#
+# Dependencies Required (hidden)
+#
 #               d10.13.09.Git-2.46.0.sh
 #
 # Dependencies Recommended:
@@ -16,6 +20,12 @@
 #               d10.11.04 desktop-file-utils-0.27
 #               d10.11.16 shared-mime-info-2.4
 #               d10.12.10 dbus-1.14.10
+#
+# Dependencies Optional:
+#
+#               e21.25.04 Cairo-1.18.0 (at this point, not yet compiled)
+#               d10.12.10 dbus-1.14.10
+#               d10.13.23.13 Mako-1.3.5
 #
 
 #

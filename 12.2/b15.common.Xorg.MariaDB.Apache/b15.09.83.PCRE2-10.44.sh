@@ -4,7 +4,7 @@
 #
 # Required by:
 #
-#               ???.20.01 Apache-2.4.58     ???
+#               c13.20.01 Apache-2.4.62
 #
 # Optional ( but compile required by ):
 #
@@ -12,7 +12,11 @@
 #
 # Recommended but needed by:
 #
-#               ???.09.13 GLib-2.74.5       ???
+#               d10.09.17 GLib-2.80.4
+#
+# Recommended by:
+#
+#               d10.13.09.Git-2.46.0
 #
 
 export PKG="pcre2-10.44"

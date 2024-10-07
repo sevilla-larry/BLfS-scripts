@@ -4,19 +4,19 @@
 #
 # Dependencies Recommended:
 #
-#               ???.09.13 GLib-2.76.4   ???
+#               d10.09.17 GLib-2.80.4
 #               b10.09.24 icu-75.1
 #               d10.10.04 FreeType-2.13.3
 #                   ( after HarfBuzz is installed,
 #                   reinstall Freetype-2.13.1 )
 #
-#               later ... 10.10 Graphite2-1.3.14              ???
+#               ??? 10.10 Graphite2-1.3.14  ??? for LibreOffice
 #
 
 #
 # Required by:
 #
-#               25.43.Pango-1.50.14
+#               e21.25.38 Pango-1.54.0
 #
 # Recommended by:
 #

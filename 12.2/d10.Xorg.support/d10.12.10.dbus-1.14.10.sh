@@ -18,13 +18,15 @@
 #               d20.24.24 Xorg-Server-21.1.13
 #               d10.12.11 elogind-255.5
 #
-# Runtime needed for test by :
+# Runtime needed by:
 #
 #               d10.09.17 GLib-2.80.4
 #
 # Optional by:
 #
-#               27.03 openbox-3.6.1         ???
+#               ???.27.03 openbox-3.6.1      ???
+#
+
 #
 # Note: initially tests are EXcluded due to complications
 #

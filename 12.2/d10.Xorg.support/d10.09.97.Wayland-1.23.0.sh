@@ -14,7 +14,7 @@
 #
 # Optionally by:
 #
-#               d10.44.xx libva-2.19.0              ???
+#               d20.42.41.libva-2.22.0
 #
 
 export PKG="wayland-1.23.0"

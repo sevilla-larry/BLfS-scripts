@@ -5,7 +5,7 @@
 # Recommended by:
 #
 #               b10.09.72 libxml2-2.13.3
-#               ???.10.04 HarfBuzz-7.0.0        ???
+#               d10.10.12.HarfBuzz-9.0.0
 #
 # Optionally by:
 #

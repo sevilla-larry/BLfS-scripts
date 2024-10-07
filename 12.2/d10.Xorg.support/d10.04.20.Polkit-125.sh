@@ -16,7 +16,7 @@
 #
 # Required by:
 #
-#               ???.37.09 LXSession-0.5.5
+#               ???.??.?? LXSession
 #
 # Runtime Recommended by:
 #

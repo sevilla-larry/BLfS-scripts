@@ -5,7 +5,7 @@
 # Dependencies Optional:
 #
 #               d10.10.22 libpng-1.6.43
-#						  GTK+-2.24.33		( NOT installed )
+#						  GTK+-2.24.33	( NOT installed )
 #
 
 #
@@ -13,7 +13,7 @@
 #
 #               d20.24.23 Xwayland-24.1.2
 #               d20.24.24 Xorg-Server-21.1.13
-#				e21.25.04.Cairo-1.18.0.sh
+#				e21.25.04 Cairo-1.18.0.sh
 #
 
 export PKG="pixman-0.43.4"

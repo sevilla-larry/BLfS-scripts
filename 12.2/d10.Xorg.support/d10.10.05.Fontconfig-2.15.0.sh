@@ -9,7 +9,7 @@
 # Dependencies Optional:
 #
 #               b11.17.02 cURL-8.9.1
-#                           UnZip-6.0
+#               d10.12.36.UnZip-6.0
 #               b10.09.72 libxml2-2.13.3
 #
 
@@ -17,7 +17,7 @@
 # Required by:
 #
 #               d20.24.08 Xorg.Libraries
-#               d10.25.43 Pango-1.50.14     ???
+#               e21.25.38 Pango-1.54.0
 #
 
 export PKG="fontconfig-2.15.0"

@@ -17,6 +17,10 @@
 #
 #               d20.42.22 intel-vaapi-driver-2.4.1
 #
+# Dependencies Optional:
+#
+#               d10.09.97 Wayland-1.23.0
+#
 
 #
 # Required by:

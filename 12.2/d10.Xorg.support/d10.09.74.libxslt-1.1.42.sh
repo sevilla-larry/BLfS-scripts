@@ -10,7 +10,11 @@
 #
 #   Recommended but needed by:
 #
-#               b10.09.17 GLib-2.80.4
+#               d10.09.17 GLib-2.80.4
+#
+#   Recommended by:
+#
+#               d10.04.20 Polkit-125
 #
 #   Optional by:
 #

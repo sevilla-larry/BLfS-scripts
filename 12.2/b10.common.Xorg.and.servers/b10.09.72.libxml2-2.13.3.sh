@@ -13,8 +13,8 @@
 # Required by:
 #
 #               d10.09.74 libxslt-1.1.42
-#               ???.09.88 Wayland-1.22.0        ???
-#               ???.11.17 shared-mime-info-2.2  ???
+#               d10.09.97 Wayland-1.23.0
+#               d10.11.16 shared-mime-info-2.4
 #
 # Recommended by:
 #
@@ -28,7 +28,8 @@
 #
 #               c11.22.03 MariaDB-10.11.8
 #               c12.22.04 PostgreSQL-16.4
-#               ???.10.05 Fontconfig-2.14.2     ???
+#               d10.10.05 Fontconfig-2.15.0
+#               d10.13.12 LLVM-18.1.7
 #
 
 export PKG="libxml2-2.13.3"

@@ -5,14 +5,17 @@
 # Dependencies Recommended:
 #
 #               d10.12.10 dbus-1.14.10  ( runtime )
-#               04.20 Polkit-123        ( runtime )
+#               d10.04.20 Polkit-125    ( runtime )
 #
 
 #
 # Runtime Recommended by:
 #
 #               d20.24.24 Xorg-Server-21.1.13
-#               04.20 Polkit-123
+#
+# Recommended by:
+#
+#               d10.04.20 Polkit-125
 #
 
 #
@@ -33,7 +36,7 @@
 #
 
 #
-#   read NOTES at: https://www.linuxfromscratch.org/blfs/view/12.3/general/elogind.html
+#   read NOTES at: https://www.linuxfromscratch.org/blfs/view/12.2/general/elogind.html
 #
 
 export PKG="elogind-255.5"

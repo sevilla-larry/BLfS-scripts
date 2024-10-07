@@ -12,7 +12,7 @@
 #
 
 #
-#   Required but hidden by:
+#   Required (but hidden) by:
 #
 #               b10.09.17 GLib-2.80.4
 #

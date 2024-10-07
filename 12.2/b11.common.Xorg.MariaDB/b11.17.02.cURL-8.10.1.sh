@@ -3,15 +3,14 @@
 #
 
 #
-# Dependencies
-#
-#       Recommended at runtime:
+# Dependencies Recommended at runtime:
 #
 #               04.02 make-ca-1.14  already installed during LFS as     a.08.91C make-ca-1.14
 #
-#       Optional if Running the Test Suite
+# Dependencies Optional if Running the Test Suite:
 #
 #               04.18 OpenSSH-9.8p1 already installed during LFS as     a.08.92C OpenSSH-9.8p1
+#
 
 #
 # Required by:
@@ -21,6 +20,7 @@
 # Recommended by:
 #
 #               b11.13.04 CMake-3.30.2
+#               d10.13.09 Git-2.46.0
 #
 # Optional by:
 #

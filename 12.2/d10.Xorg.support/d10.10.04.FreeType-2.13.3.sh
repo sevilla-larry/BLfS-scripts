@@ -4,22 +4,22 @@
 #
 # Dependencies Recommended:
 #
-#               10.11 HarfBuzz-8.1.1                    ???
+#               d10.10.12 harfBuzz-9.0.0
 #                   ( first, install FreeType,
 #                       after HarfBuzz is installed,
 #                       reinstall FreeType )
-#               10.21 libpng-1.6.40                     ???
+#               d10.10.22 libpng-1.6.43
 #
 
 #
 # Required by:
 #
 #               d10.10.05 Fontconfig-2.15.0
-#               25.43 Pango-1.50.14                     ???
+#               e21.25.38 Pango-1.54.0
 #
 # Recommended by:
 #
-#               10.11 HarfBuzz-8.1.1                    ???
+#               d10.10.12 harfBuzz-9.0.0
 #                   ( first, install FreeType,
 #                       after HarfBuzz is installed,
 #                       reinstall FreeType )
