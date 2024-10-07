@@ -3,6 +3,10 @@
 #
 
 #
+# Dependencies Recommended (but Required):
+#
+#               b11.17.14 libpsl-0.21.5
+#
 # Dependencies Recommended at runtime:
 #
 #               04.02 make-ca-1.14  already installed during LFS as     a.08.91C make-ca-1.14

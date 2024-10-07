@@ -2,9 +2,7 @@
 #
 
 #
-# Dependencies:
-#
-#       Optional:
+# Dependencies optional:
 #
 #               c11.22.03 MariaDB-10.11.8
 #           or

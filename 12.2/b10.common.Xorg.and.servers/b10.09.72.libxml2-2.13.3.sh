@@ -2,9 +2,7 @@
 #
 
 #
-# Dependencies
-#
-#       Recommended:
+# Dependencies Recommended:
 #
 #               b10.09.24 icu-75.1
 #

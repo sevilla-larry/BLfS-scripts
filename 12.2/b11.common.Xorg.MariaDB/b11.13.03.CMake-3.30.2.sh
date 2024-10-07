@@ -2,9 +2,7 @@
 #
 
 #
-# Dependencies
-#
-#       Recommended:
+# Dependencies Recommended:
 #
 #               b11.17.02 cURL-8.10.1 (errata)
 #

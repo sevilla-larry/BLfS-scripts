@@ -18,7 +18,7 @@
 #               c11.09.07 boost-1.86.0
 #
 #                     ( deferred )
-#               09.94 Snappy-1.1.10 ( from GitHub )
+#               ???       Snappy-1.1.10 ( from GitHub )
 #
 
 #
