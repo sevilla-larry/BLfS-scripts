@@ -4,8 +4,9 @@
 #
 # Required by:
 #
-#               24.18 Xorg Applications     ???
-#               25.12 gdk-pixbuf-2.42.10    ???
+#               d20.24.18 Xorg Applications     ???
+#				e21.25.04 Cairo-1.18.0
+#               ???.25.12 gdk-pixbuf-2.42.10    ???
 #
 # Recommended by:
 #
@@ -13,7 +14,7 @@
 #
 # Optional by:
 #
-#               10.31 Pixman-0.42.2         ???
+#               d10.10.32 Pixman-0.43.4
 #
 
 export PKG="libpng-1.6.43"

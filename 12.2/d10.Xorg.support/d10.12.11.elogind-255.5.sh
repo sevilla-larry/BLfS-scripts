@@ -4,15 +4,14 @@
 #
 # Dependencies Recommended:
 #
-#               12.10 dbus-1.14.8       ( runtime )
-#               04.12 Linux-PAM-1.5.3   ( required for Xorg )
+#               d10.12.10 dbus-1.14.10  ( runtime )
 #               04.20 Polkit-123        ( runtime )
 #
 
 #
 # Runtime Recommended by:
 #
-#               24.23 Xorg-Server-21.1.8
+#               d20.24.24 Xorg-Server-21.1.13
 #               04.20 Polkit-123
 #
 

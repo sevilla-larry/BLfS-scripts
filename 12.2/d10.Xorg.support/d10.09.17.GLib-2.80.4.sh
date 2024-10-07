@@ -17,12 +17,14 @@
 #               d10.11.16 shared-mime-info-2.4
 #               d10.12.10 dbus-1.14.10
 #
+
 #
 # Required by:
 #
 #               d10.04.20 Polkit-125
 #               d10.11.04 desktop-file-utils-0.27
 #               d10.11.16 shared-mime-info-2.4
+#				e23.35.01.libxfce4util-4.18.2.sh
 #               37.02 libfm-extra-1.3.2             ???
 #               25.02 at-spi2-core-2.48.3           ???
 #               25.12 gdk-pixbuf-2.42.10            ???

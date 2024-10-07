@@ -1,6 +1,8 @@
 # d20.24.32.09.Noto-fonts-ttf-v20201206-phase3.sh
 # Noto fonts is the default of fontconfig-2.14
 #
+##### Note: NOT yet installed
+#
 
 #
 # Required at Runtime by:

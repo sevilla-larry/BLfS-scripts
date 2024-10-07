@@ -1,6 +1,9 @@
 # 13.37 yasm-1.3.0
 https://www.tortall.net/projects/yasm/releases/yasm-1.3.0.tar.gz
 
+# 25.04 Cairo-1.18.0
+https://www.cairographics.org/releases/cairo-1.18.0.tar.xz
+
 
 # 09.40 libgudev-238
 https://download.gnome.org/sources/libgudev/238/libgudev-238.tar.xz
@@ -12,8 +15,6 @@ https://github.com/fribidi/fribidi/releases/download/v1.0.12/fribidi-1.0.12.tar.
 
 # 25.03 at-spi2-core-2.46.0
 https://download.gnome.org/sources/at-spi2-core/2.46/at-spi2-core-2.46.0.tar.xz
-# 25.04 Cairo-1.17.6
-https://download.gnome.org/sources/cairo/1.17/cairo-1.17.6.tar.xz
 # 25.13 gdk-pixbuf-2.42.10
 https://download.gnome.org/sources/gdk-pixbuf/2.42/gdk-pixbuf-2.42.10.tar.xz
 # 25.20 GTK+-3.24.38

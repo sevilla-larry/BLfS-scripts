@@ -13,6 +13,7 @@
 #
 #               d20.24.23 Xwayland-24.1.2
 #               d20.24.24 Xorg-Server-21.1.13
+#				e21.25.04.Cairo-1.18.0.sh
 #
 
 export PKG="pixman-0.43.4"

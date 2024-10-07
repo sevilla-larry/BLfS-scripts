@@ -20,7 +20,7 @@
 #
 # Recommended by:
 #
-#               d10.25.35 Libdrm-2.4.122
+#               d20.25.35 Libdrm-2.4.122
 #               d10.12.10 dbus-1.14.10 ( dbus-launch )
 #               25.43 Pango-1.50.14                 ???
 #

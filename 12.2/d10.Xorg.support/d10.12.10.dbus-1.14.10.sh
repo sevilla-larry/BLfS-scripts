@@ -15,7 +15,8 @@
 #
 # Recommended by:
 #
-#               12.11 elogind-252.9         ???
+#               d20.24.24 Xorg-Server-21.1.13
+#               d10.12.11 elogind-255.5
 #
 # Runtime needed for test by :
 #

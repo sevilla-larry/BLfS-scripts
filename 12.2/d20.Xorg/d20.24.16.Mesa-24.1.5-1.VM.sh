@@ -4,9 +4,16 @@
 #
 #   gallium drivers:
 #
-#       VirtIO      - virgl, try swrast
-#       Virtualbox  - svga
-#       PCs         - auto
+#       VirtIO      - swrast
+#       Virtualbox  - svga, swrast
+#       PCs         - crocus		Intel i7-4790
+#
+#
+#   vulkan drivers:
+#
+#       VirtIO      - swrast
+#       Virtualbox  - swrast
+#       PCs         - intel_hasvk	Intel i7-4790
 #
 
 #
@@ -19,8 +26,8 @@
 # Dependencies Recommended:
 #
 #               d10.09.98 Wayland-Protocols-1.36
-#               d10.42.41 libva                     for PCs
-#               d10.42.42 libvdpau-1.5              for PCs
+#               d20.42.41 libva                     for PCs
+#               d20.42.42 libvdpau-1.5              for PCs
 #               d10.13.12 LLVM-18.1.7
 #
 
@@ -36,8 +43,8 @@
 #
 # Recommended Runtime by:
 #
-#               d10.42.41 libva                     for PCs
-#               d10.42.42 libvdpau-1.5              for PCs
+#               d20.42.41 libva                     for PCs
+#               d20.42.42 libvdpau-1.5              for PCs
 #
 
 #

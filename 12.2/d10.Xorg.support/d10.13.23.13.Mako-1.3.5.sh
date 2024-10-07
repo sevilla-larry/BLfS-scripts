@@ -4,7 +4,7 @@
 #
 # Required by:
 #
-#               24.16 Mesa-23.1.6   ???
+#               d20.24.16.Mesa-24.1.5
 #
 # Optional by:
 #

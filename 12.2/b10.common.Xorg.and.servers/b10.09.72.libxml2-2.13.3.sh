@@ -10,10 +10,6 @@
 #
 
 #
-# Required to run tests by:
-#
-#               d20.24.06 xcb-proto-1.17.0
-#
 # Required by:
 #
 #               d10.09.74 libxslt-1.1.42
@@ -23,6 +19,10 @@
 # Recommended by:
 #
 #               ???.37.07 LXPanel-0.10.1        ???
+#
+# Required to run tests by:
+#
+#               d20.24.06 xcb-proto-1.17.0
 #
 # Optional by:
 #

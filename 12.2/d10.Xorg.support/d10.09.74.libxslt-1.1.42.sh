@@ -15,6 +15,8 @@
 #   Optional by:
 #
 #               d20.24.03 xorgproto-2024.1
+#				d20.24.05 libXdmcp-1.1.5
+#				d20.24.07 libxcb-1.17.0
 #
 
 export PKG="libxslt-1.1.42"

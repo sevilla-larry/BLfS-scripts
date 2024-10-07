@@ -1,2 +1,5 @@
 # 13.37 yasm-1.3.0
 fc9e586751ff789b34b1f21d572d96af yasm-1.3.0.tar.gz
+
+# 25.04 Cairo-1.18.0
+3f0685fbadc530606f965b9645bb51d9 cairo-1.18.0.tar.xz
