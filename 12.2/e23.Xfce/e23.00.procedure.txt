@@ -18,12 +18,27 @@ A. Preparation
 
         ###
 
-        wget --input-file=c.00.09.wget-list-sysv.txt --continue --directory-prefix=/sources
+        wget --input-file=e11.01.wget-list-sysv.common.Xfce.Gnome.txt --continue --directory-prefix=/sources
+        wget --input-file=e21.01.wget-list-sysv.Xfce.support.txt      --continue --directory-prefix=/sources
+        wget --input-file=ee23.01.wget-list-sysv.Xfce.txt             --continue --directory-prefix=/sources
+
+        ###
+
+        md5sum -c e11.02.md5sums.common.Xfce.Gnome.txt
+        md5sum -c e21.02.md5sums.Xfce.support.txt
+        md5sum -c e23.02.md5sums.Xfce.txt
 
         ###
 
   A.04. Setting Up the Environment
         ( Note: change the MAKEFLAGS based on the number of threads )
+
+        ###
+
+        export LFSLOG=/var/log/blfs
+
+        export MAKEFLAGS="-j$(nproc)"
+        export NPROC="$(nproc)"
 
         ###
         #   same as XOrg Environment
@@ -39,12 +54,15 @@ B.  Generate BLFS - Support Files
 
         ###
 
-        echo $LFSLOG          /var/log/blfs
-        echo $MAKEFLAGS       -j8
+        echo $XORG_PREFIX     # /usr
+        echo $XORG_CONFIG     # --prefix=/usr --sysconfdir=/etc --localstatedir=/var --disable-static
+        echo $LFSLOG          # /var/log/blfs
+        echo $MAKEFLAGS       # -j$(nproc)
+        echo $NPROC           # $(nproc)
 
-        echo $SHELL           /bin/bash
-        ls -l /bin/sh         bash
-        ls -l /usr/bin/awk    gawk
+        echo $SHELL           # /bin/bash
+        ls -l /bin/sh         # bash
+        ls -l /usr/bin/awk    # gawk
 
         cd /sources
 
@@ -66,9 +84,6 @@ C.  Generate BLFS - Xfce
         ###
 
         bash e23.04.all.sh
-
-        reboot
-
 
   C.02. [BLFS 35] Xfce Desktop - runtime without DM
 
