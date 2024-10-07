@@ -1,0 +1,2 @@
+# 33.03 gsettings-desktop-schemas-46.1
+https://download.gnome.org/sources/gsettings-desktop-schemas/46/gsettings-desktop-schemas-46.1.tar.xz
