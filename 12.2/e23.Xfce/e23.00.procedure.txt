@@ -20,7 +20,7 @@ A. Preparation
 
         wget --input-file=e11.01.wget-list-sysv.common.Xfce.Gnome.txt --continue --directory-prefix=/sources
         wget --input-file=e21.01.wget-list-sysv.Xfce.support.txt      --continue --directory-prefix=/sources
-        wget --input-file=ee23.01.wget-list-sysv.Xfce.txt             --continue --directory-prefix=/sources
+        wget --input-file=e23.01.wget-list-sysv.Xfce.txt              --continue --directory-prefix=/sources
 
         ###
 
