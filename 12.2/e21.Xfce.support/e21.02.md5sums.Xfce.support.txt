@@ -1,5 +1,7 @@
 # 09.45 libgudev-238
 46da30a1c69101c3a13fa660d9ab7b73 libgudev-238.tar.xz
+# 09.71 libxkbcommon-1.7.0
+b05b1a0d473189efb2dd995dd944f152 libxkbcommon-1.7.0.tar.xz
 
 # 10.06 FriBidi-1.0.12
 ccf2b019162b4e5e6569875d0641bc5f fribidi-1.0.15.tar.xz
