@@ -87,12 +87,31 @@ C.  Generate BLFS - Xfce
 
   C.02. [BLFS 35] Xfce Desktop - runtime without DM
 
+        ### so far NOT working, try with DM
+        #
+        # cat > ~/.xinitrc << "EOF"
+        # dbus-launch --exit-with-x11 startxfce4
+        # EOF
+        #
+        # startx
+
+        ### Option 1: so far working, but withOUT ShutDown nor ReStart, try with DM
+
         cat > ~/.xinitrc << "EOF"
-        dbus-launch --exit-with-x11 startxfce4
+        dbus-launch startxfce4
         EOF
 
         startx
 
-        # Note: delete if using DM
+        ### Option 2:
+        #
+        # as user
+        #
+
+        startxfce4
+
+        #
+        # working
+        #
 
         ###
