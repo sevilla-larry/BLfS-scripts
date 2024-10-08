@@ -53,9 +53,10 @@ echo "2. Meson Setup ..." >> $PKGLOG_ERROR
 meson setup ..                  \
       --prefix=/usr             \
       --buildtype=release       \
-      -D man=true               \
+      -D man=false              \
       -D broadway_backend=true  \
             > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+#      -D man=true               \
 
 echo "3. Ninja Build ..."
 echo "3. Ninja Build ..." >> $LFSLOG_PROCESS
