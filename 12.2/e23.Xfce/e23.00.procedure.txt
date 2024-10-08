@@ -85,6 +85,8 @@ C.  Generate BLFS - Xfce
 
         bash e23.04.all.sh
 
+        ###
+
   C.02. [BLFS 35] Xfce Desktop - runtime without DM
 
         ### so far NOT working, try with DM
