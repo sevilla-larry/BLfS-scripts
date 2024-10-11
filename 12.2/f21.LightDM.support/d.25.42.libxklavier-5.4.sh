@@ -1,31 +1,33 @@
-# e23.35.04.Exo-4.18.0.sh
-#
-
+# d.25.42.libxklavier-5.4.sh
 #
 # Dependencies Required:
 #
-#               e21.25.17 GTK+-3.24.43
-#               e23.35.03 libxfce4ui-4.18.6
-#               e23.35.01 libxfce4util-4.18.2
+#               09.13 GLib-2.76.4
+#               11.11 ISO Codes-4.15.0
+#               09.68 libxml2-2.10.4
+#               24.08 Xorg Libraries
+#
+# Dependencies Recommended:
+#
+#               09.16 gobject-introspection-1.76.1
+#
+#
+# Dependencies Optional:
+#
+#               13.36 Vala-0.56.11
+#
+#
+# Recommended by:
+#
+#       26.02 lightdm-1.32.0
 #
 
-#
-# Required by:
-#
-#               e23.35.07 xfce4-panel-4.18.6
-#               e23.35.08 thunar-4.18.11
-#               e23.35.09 thunar-volman-4.18.0
-#               e23.35.13 xfce4-settings-4.18.6
-#               e23.35.14 Xfdesktop-4.18.1
-#               f22.26.02 lightdm-1.32.0
-#
-
-export PKG="exo-4.18.0"
-export PKGLOG_DIR=$LFSLOG/35.04
+export PKG="libxklavier-5.4"
+export PKGLOG_DIR=$LFSLOG/25.42
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
-export PKGLOG_CHECK=$PKGLOG_DIR/check.log
+#export PKGLOG_CHECK=$PKGLOG_DIR/check.log
 export PKGLOG_INSTALL=$PKGLOG_DIR/install.log
 export PKGLOG_ERROR=$PKGLOG_DIR/error.log
 export LFSLOG_PROCESS=$LFSLOG/process.log
@@ -44,22 +46,17 @@ echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
 echo "2. Configure ..." >> $PKGLOG_ERROR
 ./configure --prefix=/usr       \
-            --sysconfdir=/etc   \
-            > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+            --disable-static    \
+          > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Make Build ..."
 echo "3. Make Build ..." >> $LFSLOG_PROCESS
 echo "3. Make Build ..." >> $PKGLOG_ERROR
 make > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 
-echo "4. Make Check ..."
-echo "4. Make Check ..." >> $LFSLOG_PROCESS
-echo "4. Make Check ..." >> $PKGLOG_ERROR
-make check > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
-
-echo "5. Make Install ..."
-echo "5. Make Install ..." >> $LFSLOG_PROCESS
-echo "5. Make Install ..." >> $PKGLOG_ERROR
+echo "4. Make Install ..."
+echo "4. Make Install ..." >> $LFSLOG_PROCESS
+echo "4. Make Install ..." >> $PKGLOG_ERROR
 make install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 
@@ -67,6 +64,6 @@ cd ..
 rm -rf $PKG
 unset LFSLOG_PROCESS
 unset PKGLOG_INSTALL PKGLOG_BUILD PKGLOG_CONFIG
-unset PKGLOG_CHECK
+#unset PKGLOG_CHECK
 unset PKGLOG_ERROR PKGLOG_TAR
 unset PKGLOG_DIR PKG

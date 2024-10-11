@@ -19,6 +19,10 @@
 #               ???       GTK+-2.24.33  ???
 #               e21.25.17 GTK+-3.24.43
 #
+# Optional by:
+#
+#               f22.26.02 lightdm-1.32.0
+#
 
 export PKG="at-spi2-core-2.52.0"
 export PKGLOG_DIR=$LFSLOG/25.03

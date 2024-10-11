@@ -10,12 +10,15 @@
 #
 # Required by:
 #
-#               25.02 at-spi2-core-2.48.3   ???
+#               e21.25.03 at-spi2-core-2.52.0
 #               09.07 dbus-glib-0.112       ???
 #
 # Recommended by:
 #
 #               d20.24.24 Xorg-Server-21.1.13
+#
+# Recommended (runtime):
+#
 #               d10.12.11 elogind-255.5
 #
 # Runtime needed by:

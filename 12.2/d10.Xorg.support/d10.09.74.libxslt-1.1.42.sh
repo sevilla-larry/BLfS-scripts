@@ -6,6 +6,15 @@
 #
 #               b10.09.72 libxml2-2.13.3
 #
+# Dependencies Recommended (at runtime):
+#
+#               d10.49.01 docbook-xml-4.5
+#               d10.49.04 docbook-xsl-nons-1.79.2
+#
+# Dependencies Optional:
+#
+#               d10.09.42 libgcrypt-1.11.0
+#
 
 #
 #   Recommended but needed by:

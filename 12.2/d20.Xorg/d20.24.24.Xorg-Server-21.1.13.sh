@@ -33,6 +33,7 @@
 #               d20.24.25.1.2 Xorg Evdev Driver 2.10.6
 #               d20.24.25.1.4 Xorg Libinput Driver 1.4.0
 #               d20.24.26 twm-1.0.12
+#               f22.26.02 lightdm-1.32.0
 #
 
 #

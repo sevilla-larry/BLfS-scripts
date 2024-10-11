@@ -1,0 +1,121 @@
+A. Preparation
+
+  A.01. ( Assumming XOrg is already running )
+
+        cd /sources
+
+  A.02. Copy all script files
+
+        copy all script files from the following to /sources
+
+            1. e11.common.Xfce.Gnome
+            2. e21.Xfce.support
+            3. e23.Xfce
+
+        copy all script files to /sources
+
+  A.03. Download packages
+
+        ###
+
+        wget --input-file=e11.01.wget-list-sysv.common.Xfce.Gnome.txt --continue --directory-prefix=/sources
+        wget --input-file=e21.01.wget-list-sysv.Xfce.support.txt      --continue --directory-prefix=/sources
+        wget --input-file=e23.01.wget-list-sysv.Xfce.txt              --continue --directory-prefix=/sources
+
+        ###
+
+        md5sum -c e11.02.md5sums.common.Xfce.Gnome.txt
+        md5sum -c e21.02.md5sums.Xfce.support.txt
+        md5sum -c e23.02.md5sums.Xfce.txt
+
+        ###
+
+  A.04. Setting Up the Environment
+        ( Note: change the MAKEFLAGS based on the number of threads )
+
+        ###
+
+        export LFSLOG=/var/log/blfs
+
+        export MAKEFLAGS="-j$(nproc)"
+        export NPROC="$(nproc)"
+
+        ###
+        #   same as XOrg Environment
+        ###
+        export XORG_PREFIX="/usr"
+
+        export XORG_CONFIG="--prefix=$XORG_PREFIX --sysconfdir=/etc \
+                            --localstatedir=/var --disable-static"
+
+B.  Generate BLFS - Support Files
+
+  B.01. Setup / Checking Environment - Part 1
+
+        ###
+
+        echo $XORG_PREFIX     # /usr
+        echo $XORG_CONFIG     # --prefix=/usr --sysconfdir=/etc --localstatedir=/var --disable-static
+        echo $LFSLOG          # /var/log/blfs
+        echo $MAKEFLAGS       # -j$(nproc)
+        echo $NPROC           # $(nproc)
+
+        echo $SHELL           # /bin/bash
+        ls -l /bin/sh         # bash
+        ls -l /usr/bin/awk    # gawk
+
+        cd /sources
+
+        ###
+
+        ( display )
+        root [ /sources ]#
+
+  B.03. Support Applications
+
+        ###
+
+        bash e23.03.all.support.apps.sh
+
+        ###
+
+C.  Generate BLFS - Xfce
+
+  C.01. [BLFS 35] Xfce Desktop
+
+        ###
+
+        bash e23.04.all.sh
+
+        ###
+
+  C.02. [BLFS 35] Xfce Desktop - runtime without DM
+
+        ### so far NOT working, try with DM
+        #
+        # cat > ~/.xinitrc << "EOF"
+        # dbus-launch --exit-with-x11 startxfce4
+        # EOF
+        #
+        # startx
+
+        ### Option 1: so far working, but withOUT ShutDown nor ReStart, try with DM
+
+        cat > ~/.xinitrc << "EOF"
+        dbus-launch startxfce4
+        EOF
+
+        startx
+
+        ### Option 2: so far working also, but withOUT ShutDown nor ReStart, try with DM
+        #
+        # as user
+        #
+
+        startxfce4
+
+        ###
+
+
+
+        BOOTSCRIPTS

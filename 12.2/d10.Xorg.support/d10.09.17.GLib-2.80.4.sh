@@ -45,6 +45,7 @@
 # Recommended by:
 #
 #               d10.10.12 harfBuzz-9.0.0
+#               f22.26.02 lightdm-1.32.0
 #
 
 export PKG="glib-2.80.4"
