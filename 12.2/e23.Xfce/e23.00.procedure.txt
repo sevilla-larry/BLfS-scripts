@@ -77,6 +77,8 @@ B.  Generate BLFS - Support Files
 
         bash e23.03.all.support.apps.sh
 
+        ###
+
 C.  Generate BLFS - Xfce
 
   C.01. [BLFS 35] Xfce Desktop
