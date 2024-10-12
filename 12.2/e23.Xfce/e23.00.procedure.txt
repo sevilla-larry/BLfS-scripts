@@ -49,7 +49,7 @@ A. Preparation
                             --localstatedir=/var --disable-static"
 
         ###
-        
+
 B.  Generate BLFS - Support Files
 
   B.01. Setup / Checking Environment - Part 1
@@ -101,17 +101,20 @@ C.  Generate BLFS - Xfce
         #
         # startx
 
-        ### Option 1: so far working, but withOUT ShutDown nor ReStart, try with DM
-
-        cat > ~/.xinitrc << "EOF"
-        dbus-launch startxfce4
-        EOF
-
-        startx
-
-        ### Option 2: so far working also, but withOUT ShutDown nor ReStart, try with DM
+        ### user working withOUT ShutDown nor ReStart, try with DM
+        # but getting GDBuss error
         #
-        # as user
+        # cat > ~/.xinitrc << "EOF"
+        # dbus-launch startxfce4
+        # EOF
+        #
+        # startx
+
+        ### Last Option: so far working
+        # for user: withOUT ShutDown nor ReStart, try with DM
+        # for root: with ShutDown
+        #
+        # as user or root
         #
 
         startxfce4
