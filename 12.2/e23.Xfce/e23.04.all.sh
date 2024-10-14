@@ -1,4 +1,4 @@
-# e23.04.all
+# e23.04.all.sh
 #
 # Xfce Desktop
 #

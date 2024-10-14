@@ -88,7 +88,7 @@ A. Preparation
 
         ###
 
-B.  Generate BLFS - Support Files
+B.  Generate BLFS - Support Apps
 
   B.01. Checking Environment
 
