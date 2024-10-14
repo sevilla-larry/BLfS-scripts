@@ -14,7 +14,7 @@
 # 
 # a: LfS			- working
 # 
-# c11: Maria DB		- working
+# c11: MariaDB		- working
 # c12: PostgreSQL	- working
 # c13: Apache		- working
 # c14: ProFTPD		- working
