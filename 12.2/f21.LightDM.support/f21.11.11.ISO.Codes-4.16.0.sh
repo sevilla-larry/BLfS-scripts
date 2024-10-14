@@ -11,8 +11,8 @@
 #export PKG="iso-codes?4.16.0"
 export PKG1="iso-codes"
 export PKG2="4.16.0"
-export PKGtar=$PKG1+"_"+$PKG2
-export PKGdir=$PKG1+"-"+$PKG2
+export PKGtar=$PKG1"_"$PKG2
+export PKGdir=$PKG1"-"$PKG2
 export PKGLOG_DIR=$LFSLOG/11.11
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
