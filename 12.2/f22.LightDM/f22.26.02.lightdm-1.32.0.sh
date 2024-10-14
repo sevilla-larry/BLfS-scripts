@@ -6,13 +6,13 @@
 #
 #               e23.35.04 Exo-4.18.0
 #               d10.09.42 libgcrypt-1.11.0
-#               f21.49.05.itstool-2.0.7.sh
+#               f21.49.05 itstool-2.0.7
 #               d20.24.24 Xorg-Server-21.1.13
 #
 # Dependencies Recommended:
 #
 #               d10.09.17 GLib-2.80.4
-#               ???.25.42 libxklavier-5.4   ???
+#               f21.25.37 libxklavier-5.4
 #               ???.13.36 Vala-0.56.11      ???
 #
 # Dependencies Optional:
