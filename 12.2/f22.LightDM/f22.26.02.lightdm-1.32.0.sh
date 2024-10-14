@@ -109,6 +109,7 @@ cd lightdm-gtk-greeter-2.0.9
                 --libexecdir=/usr/lib/lightdm \
                 --sbindir=/usr/bin            \
                 --sysconfdir=/etc             \
+                --with-libxklavier            \
                 --enable-kill-on-sigterm      \
                 --disable-libido              \
                 --disable-libindicator        \
@@ -116,7 +117,6 @@ cd lightdm-gtk-greeter-2.0.9
                 --disable-maintainer-mode     \
                 --docdir=/usr/share/doc/lightdm-gtk-greeter-2.0.9   \
                 >> $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
-#                --with-libxklavier            \
 
     echo "6. Make Build greeter ..."
     echo "6. Make Build greeter ..." >> $LFSLOG_PROCESS
