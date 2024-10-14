@@ -1,29 +1,27 @@
-# d.25.42.libxklavier-5.4.sh
+# f21.25.37.libxklavier-5.4.sh
+#
+
 #
 # Dependencies Required:
 #
-#               09.13 GLib-2.76.4
-#               11.11 ISO Codes-4.15.0
-#               09.68 libxml2-2.10.4
-#               24.08 Xorg Libraries
-#
-# Dependencies Recommended:
-#
-#               09.16 gobject-introspection-1.76.1
-#
+#               d10.09.17 GLib-2.80.4
+#   ISO Codes
+#               b10.09.72 libxml2-2.13.3
+#               d20.24.08 Xorg Libraries
 #
 # Dependencies Optional:
 #
-#               13.36 Vala-0.56.11
+#               ???.13.36 Vala-0.56.11      ???
 #
+
 #
-# Recommended by:
+# Recommended (but needed) by:
 #
-#       26.02 lightdm-1.32.0
+#               f22.26.02 lightdm-1.32.0
 #
 
 export PKG="libxklavier-5.4"
-export PKGLOG_DIR=$LFSLOG/25.42
+export PKGLOG_DIR=$LFSLOG/25.37
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
