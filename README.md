@@ -19,7 +19,11 @@
 # c13: Apache		- working
 # c14: ProFTPD		- working
 #
-# d20: Xorg			- on going
+# d20: Xorg			- working
+#
+# e23: Xfce			- working
+#
+# f22: LightDM		- NOT working
 #
 #
 #
@@ -35,6 +39,7 @@
 #       b10 - Common to XOrg & servers
 #       b11 - Common to XOrg & MariaDB
 #       ...
+#		b15 - Common to XOrg, MariaDB & Apache
 #
 #       b20 - Common to DEs & servers
 #       ...
@@ -57,41 +62,58 @@
 #
 # Group d - XOrg ( includes dbus, elogind, ... )
 #
-#       d00 - Common to XOrg, DE & DM
-#
-#       d01	- Common to Xorg & LXDE
-#       d02	- Common to Xorg & XFCE
-#       d03	- Common to Xorg & LXQt
-#       d04	- Common to Xorg & Gnome
-#       d05	- Common to Xorg & KDE
-#
 #		d10 - Xorg ( & Xwayland ) Support
 #
 #		d20	- Xorg ( & Xwayland )
 #
-#       d30	- Common to DE's
 #
-#       d41	- LXDE
-#       d42	- XFCE
-#       d43	- LXQT
-#       d44	- Gnome
-#       d45	- KDE
+# Group e - Desktop Environment
 #
-#       d50	- Common to DM's
+#       e00	- Common to DE's & DMs
 #
-#       d61	- LXDM (from 11.3)
-#       d62	- LightDM
-#       d63	- SDDM
+#		e10 - Common to all DE's
+#		e11 - Common to Xfce & Gnome
 #
+#		e21	- Xfce other Support
+#		e23 - Xfce Desktop
+#		e24 - Xfce Applications
+#
+#		e31	- LXQt other Support
+#		e32 - KF5, Plasma, & Misc Dependecies
+#		e33	- LXQt Desktop Components
+#		e34 - LXQt Applications
+#
+#       e41	- Gnome other Support
+#		e42	- Gnome Libraries
+#		e43	- Gnome Desktop Components
+#		e44 - Gnome Applications
+#
+#       e51	- KDE other Support
+#		e52 - KDE Preliminaries
+#		e53 - KDE Frameworks 6
+#		e54	- KDE Frameworks 6 Applications
+#		e55 - KDE Plasma
+#
+#		e61 - LXDE Support
+#		e63 - LXDE Desktop	???	from 12.0	???
+#		e64 - LXDE Applications
+#
+#
+# Group f - Display Manager
+#
+#       f00	- Common to DM's
+#
+#		f11	- GDM Support
+#		f12	- GDM
+#
+#		f21	- LightDM Support
+#       f22	- LightDM
+#
+#       f3x	- SDDM
+#
+#       f4x	- LXDM			??? (from 11.3)	???
 
 
-# (old groupings, to be deleted)
-# Group c.0 - common Desktop Environment support apps
-# Group c.1 - LXDE  / status: root ok, user NOT
-# Group c.2 - Xfce  / status: encoded, wait for Group b.3 XOrg with Others
-# Group c.3 - LXQt  / status: encoded, wait for Group b.3 XOrg with Others
-# Group c.4 - KDE   / status: plan
-# Group c.5 - Gnome / status: plan
 
 
 
