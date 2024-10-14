@@ -8,7 +8,11 @@
 #               ???.26.?? lxdm-0.5.3        ( based on BLfS 11.3 Chapter 26 Section 3, [note: .04 was used for de-confliction])
 #
 
-export PKG="iso-codes-4.16.0"
+#export PKG="iso-codes?4.16.0"
+export PKG1="iso-codes"
+export PKG2="4.16.0"
+export PKGtar=$PKG1+"_"+$PKG2
+export PKGdir=$PKG1+"-"+$PKG2
 export PKGLOG_DIR=$LFSLOG/11.11
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
@@ -24,8 +28,8 @@ mkdir $PKGLOG_DIR
 echo "1. Extract tar..."
 echo "1. Extract tar..." >> $LFSLOG_PROCESS
 echo "1. Extract tar..." >> $PKGLOG_ERROR
-tar xvf $PKG.orig.tar.xz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
-cd $PKG
+tar xvf $PKGtar.orig.tar.xz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
+cd $PKGdir
  
 
 echo "2. Configure ..."
@@ -56,4 +60,6 @@ unset LFSLOG_PROCESS
 unset PKGLOG_INSTALL PKGLOG_BUILD PKGLOG_CONFIG
 unset PKGLOG_CHECK
 unset PKGLOG_ERROR PKGLOG_TAR
-unset PKGLOG_DIR PKG
+unset PKGLOG_DIR
+# PKG
+unset PKG1 PKG2 PKGtar PKGdir
