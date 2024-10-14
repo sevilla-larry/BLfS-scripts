@@ -4,7 +4,7 @@
 #
 # Dependencies Required:
 #
-#              f21.49.01 docbook-xml-4.5
+#              d10.49.01 docbook-xml-4.5
 #
 
 #
