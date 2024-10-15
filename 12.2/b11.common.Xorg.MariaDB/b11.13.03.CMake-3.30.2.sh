@@ -16,9 +16,12 @@
 # Required by:
 #
 #               c11.22.04 MariaDB-10.11.8
+#               d10.09.90 SPIRV-Headers-1.3.290.0
+#               d10.09.91 SPIRV-Tools-1.3.290.0
 #               d10.13.12 LLVM-18.1.7
+#               d10.25.12 Glslang-14.3.0
 #               d20.42.43 libvdpau-va-gl-0.4.2
-#               ???.10.18 libjpeg-turbo-3.0.0   ???
+#               e21.10.18 libjpeg-turbo-3.0.1
 #               ???.10.10 Graphite2-1.3.14      ???
 #
 # Optional by:

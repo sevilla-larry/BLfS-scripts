@@ -76,4 +76,7 @@ bash d10.03.Group10.sh
 # Wayland support
 bash d10.03.Group11.sh
 
+# Glslang, SPIRV
+bash d10.03.Group11.sh
+
 #####
