@@ -12,6 +12,10 @@
 #
 #               d10.09.98 Wayland-Protocols-1.36
 #
+# Recommended by:
+#
+#               e12.25.42 Qt-6.7.2
+#
 # Optionally by:
 #
 #               d20.42.41.libva-2.22.0

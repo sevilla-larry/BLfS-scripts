@@ -13,6 +13,10 @@
 #
 #               d20.24.25.1.4 Xorg Libinput Driver 1.4.0
 #
+# Recommended by:
+#
+#               e12.25.42 Qt-6.7.2
+#
 
 #
 # Kernel config

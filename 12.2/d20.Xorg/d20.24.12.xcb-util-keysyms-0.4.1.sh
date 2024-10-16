@@ -8,6 +8,10 @@
 #
 
 #
+# Recommended by:
+#
+#               e12.25.42 Qt-6.7.2
+#
 # Optional by:
 #
 #               d20.24.24 Xorg-Server-21.1.13

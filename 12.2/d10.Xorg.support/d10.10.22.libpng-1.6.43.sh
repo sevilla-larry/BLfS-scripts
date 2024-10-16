@@ -11,6 +11,7 @@
 # Recommended by:
 #
 #               d10.10.04 FreeType-2.13.3
+#               e12.25.42 Qt-6.7.2
 #
 # Optional by:
 #

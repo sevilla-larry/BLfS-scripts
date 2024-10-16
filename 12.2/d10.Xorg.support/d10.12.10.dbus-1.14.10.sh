@@ -16,6 +16,7 @@
 # Recommended by:
 #
 #               d20.24.24 Xorg-Server-21.1.13
+#               e12.25.42 Qt-6.7.2
 #
 # Recommended (runtime):
 #

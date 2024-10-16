@@ -7,7 +7,10 @@
 #               d20.24.25.1.2 Evdev Driver-2.10.6
 #               d20.24.25.1.3 libinput-1.26.1
 #
-
+# Recommended by:
+#
+#               e12.25.42 Qt-6.7.2
+#
 export PKG="mtdev-1.1.7"
 export PKGLOG_DIR=$LFSLOG/09.79
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
