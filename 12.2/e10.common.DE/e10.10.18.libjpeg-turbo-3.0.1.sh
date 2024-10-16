@@ -15,10 +15,18 @@
 # Required by:
 #
 #               e21.25.10 gdk-pixbuf-2.42.12
+#               e12.10.20 libmng-2.0.3
 #
 # Recommended by:
 #
 #               e12.25.42 Qt-6.7.2
+#               e12.10.13 JasPer-4.2.4
+#               e12.10.27 libwebp-1.4.0
+#
+# Optional by:
+#
+#               e12.10.14 Little CMS-2.1.6
+#               e12.10.26 libtiff-4.6.0
 #
 
 export PKG="libjpeg-turbo-3.0.1"

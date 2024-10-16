@@ -12,6 +12,7 @@
 #
 #               d10.10.04 FreeType-2.13.3
 #               e12.25.42 Qt-6.7.2
+#               e12.10.27 libwebp-1.4.0
 #
 # Optional by:
 #

@@ -21,7 +21,10 @@
 #               d10.13.12 LLVM-18.1.7
 #               d10.25.12 Glslang-14.3.0
 #               d20.42.43 libvdpau-va-gl-0.4.2
-#               e21.10.18 libjpeg-turbo-3.0.1
+#               e10.10.18 libjpeg-turbo-3.0.1
+#               e12.09.11 double-conversion-3.3.0
+#               e12.10.13 JasPer-4.2.4
+#               e12.10.26 libtiff-4.6.0
 #               ???.10.10 Graphite2-1.3.14      ???
 #
 # Optional by:
