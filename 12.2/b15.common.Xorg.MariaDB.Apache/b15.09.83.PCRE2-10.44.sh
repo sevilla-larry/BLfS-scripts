@@ -8,7 +8,7 @@
 #
 # Optional ( but compile required by ):
 #
-#               c11.22.04 MariaDB-10.11.8
+#               c11.22.03 MariaDB-10.11.8
 #
 # Recommended (but needed) by:
 #

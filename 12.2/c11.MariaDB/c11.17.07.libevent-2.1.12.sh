@@ -4,7 +4,7 @@
 #
 # Recommended by:
 #
-#               c11.22.04 MariaDB-10.11.8
+#               c11.22.03 MariaDB-10.11.8
 #
 
 export PKG="libevent-2.1.12-stable"

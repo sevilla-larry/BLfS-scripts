@@ -15,7 +15,7 @@
 #
 # Required by:
 #
-#               c11.22.04 MariaDB-10.11.8
+#               c11.22.03 MariaDB-10.11.8
 #               d10.09.90 SPIRV-Headers-1.3.290.0
 #               d10.09.91 SPIRV-Tools-1.3.290.0
 #               d10.13.12 LLVM-18.1.7
