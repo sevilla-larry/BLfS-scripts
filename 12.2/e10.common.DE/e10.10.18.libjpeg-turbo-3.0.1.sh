@@ -16,6 +16,10 @@
 #
 #               e21.25.10 gdk-pixbuf-2.42.12
 #
+# Recommended by:
+#
+#               e12.25.42 Qt-6.7.2
+#
 
 export PKG="libjpeg-turbo-3.0.1"
 export PKGLOG_DIR=$LFSLOG/10.18

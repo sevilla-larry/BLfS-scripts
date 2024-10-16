@@ -8,6 +8,12 @@
 #               d20.24.13 xcb-util-renderutil-0.3.10
 #
 
+#
+# Recommended by:
+#
+#               e12.25.42 Qt-6.7.2
+#
+
 export PKG="xcb-util-cursor-0.1.4"
 export PKGLOG_DIR=$LFSLOG/24.15
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log

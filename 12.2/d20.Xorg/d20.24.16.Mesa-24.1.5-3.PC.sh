@@ -41,6 +41,7 @@
 # Recommended by:
 #
 #               d20.24.23 Xwayland-24.1.2
+#               e12.25.42 Qt-6.7.2
 #
 # Recommended Runtime by:
 #

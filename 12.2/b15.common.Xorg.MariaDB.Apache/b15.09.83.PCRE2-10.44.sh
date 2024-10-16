@@ -10,13 +10,14 @@
 #
 #               c11.22.04 MariaDB-10.11.8
 #
-# Recommended but needed by:
+# Recommended (but needed) by:
 #
 #               d10.09.17 GLib-2.80.4
 #
 # Recommended by:
 #
 #               d10.13.09.Git-2.46.0
+#               e12.25.42 Qt-6.7.2
 #
 
 export PKG="pcre2-10.44"

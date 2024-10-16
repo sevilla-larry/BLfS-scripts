@@ -6,6 +6,7 @@
 #
 #               b10.09.72 libxml2-2.13.3
 #               d10.10.12.HarfBuzz-9.0.0
+#               e12.25.42 Qt-6.7.2
 #
 # Optionally by:
 #

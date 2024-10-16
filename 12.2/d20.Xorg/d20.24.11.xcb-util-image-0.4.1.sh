@@ -12,6 +12,9 @@
 #
 #               d20.24.15 xcb-util-cursor-0.1.4
 #
+# Recommended by:
+#
+#               e12.25.42 Qt-6.7.2
 #
 # Optional by:
 #

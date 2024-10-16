@@ -25,6 +25,10 @@
 #
 #               e21.25.17 GTK+-3.24.43
 #
+# Recommended by:
+#
+#               e12.25.42 Qt-6.7.2
+#
 
 export PKG="libxkbcommon-1.7.0"
 export PKGLOG_DIR=$LFSLOG/09.71
