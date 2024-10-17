@@ -1,8 +1,14 @@
-# b.10.18.llibmng-2.0.3.sh
+# e12.22.05.SQLite-3.46.1.sh
 #
 
-export PKG="llibmng-2.0.3"
-export PKGLOG_DIR=$LFSLOG/10.18
+#
+# Recommended by:
+#
+#               e12.25.42 Qt-6.7.2
+#
+
+export PKG="sqlite-autoconf-3460100"
+export PKGLOG_DIR=$LFSLOG/22.05
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
@@ -17,33 +23,31 @@ mkdir $PKGLOG_DIR
 echo "1. Extract tar..."
 echo "1. Extract tar..." >> $LFSLOG_PROCESS
 echo "1. Extract tar..." >> $PKGLOG_ERROR
-tar xvf $PKG.tar.xz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
+tar xvf $PKG.tar.gz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
-
+ 
 
 echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
 echo "2. Configure ..." >> $PKGLOG_ERROR
-./configure --prefix=/usr --disable-static \
-          > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+./configure --prefix=/usr     \
+            --disable-static  \
+            --enable-fts{4,5} \
+            CPPFLAGS="-D SQLITE_ENABLE_COLUMN_METADATA=1    \
+                      -D SQLITE_ENABLE_UNLOCK_NOTIFY=1      \
+                      -D SQLITE_ENABLE_DBSTAT_VTAB=1        \
+                      -D SQLITE_SECURE_DELETE=1"            \
+                      > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Make Build ..."
 echo "3. Make Build ..." >> $LFSLOG_PROCESS
 echo "3. Make Build ..." >> $PKGLOG_ERROR
 make > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 
-echo "4. Make Check ..."
-echo "4. Make Check ..." >> $LFSLOG_PROCESS
-echo "4. Make Check ..." >> $PKGLOG_ERROR
-make test > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
-
-echo "5. Make Install ..."
-echo "5. Make Install ..." >> $LFSLOG_PROCESS
-echo "5. Make Install ..." >> $PKGLOG_ERROR
+echo "4. Make Install ..."
+echo "4. Make Install ..." >> $LFSLOG_PROCESS
+echo "4. Make Install ..." >> $PKGLOG_ERROR
 make install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
-
-install -v -m755 -d        /usr/share/doc/libmng-2.0.3 \
-install -v -m644 doc/*.txt /usr/share/doc/libmng-2.0.3
 
 
 cd ..

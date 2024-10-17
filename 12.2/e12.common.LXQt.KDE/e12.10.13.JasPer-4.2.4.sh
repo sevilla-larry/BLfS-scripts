@@ -1,8 +1,24 @@
-# b.10.12.JasPer-4.0.0.sh
+# e12.10.13.JasPer-4.2.4.sh
 #
 
-export PKG="JasPer-4.0.0"
-export PKGLOG_DIR=$LFSLOG/10.12
+#
+# Dependencies Required:
+#
+#               b11.13.03 CMake-3.30.2
+#
+# Dependencies Recommended:
+#
+#               e10.10.18 libjpeg-turbo-3.0.1
+#
+
+#
+# Recommended by:
+#
+#               e12.25.42 Qt-6.7.2
+#
+
+export PKG="jasper-4.2.4"
+export PKGLOG_DIR=$LFSLOG/10.13
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
@@ -17,7 +33,7 @@ mkdir $PKGLOG_DIR
 echo "1. Extract tar..."
 echo "1. Extract tar..." >> $LFSLOG_PROCESS
 echo "1. Extract tar..." >> $PKGLOG_ERROR
-tar xvf $PKG.tar.xz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
+tar xvf $PKG.tar.gz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
 
 
@@ -27,21 +43,23 @@ cd    build
 echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
 echo "2. Configure ..." >> $PKGLOG_ERROR
-cmake -DCMAKE_INSTALL_PREFIX=/usr    \
-      -DCMAKE_BUILD_TYPE=Release     \
-      -DCMAKE_SKIP_INSTALL_RPATH=YES \
-      -DJAS_ENABLE_DOC=NO            \
-      -DCMAKE_INSTALL_DOCDIR=/usr/share/doc/jasper-4.0.0 \
-          > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+cmake -D CMAKE_INSTALL_PREFIX=/usr      \
+      -D CMAKE_BUILD_TYPE=Release       \
+      -D CMAKE_SKIP_INSTALL_RPATH=ON    \
+      -D JAS_ENABLE_DOC=NO              \
+      -D ALLOW_IN_SOURCE_BUILD=YES      \
+      -D CMAKE_INSTALL_DOCDIR=/usr/share/doc/jasper-4.2.4   \
+      ..                                                    \
+      > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Make Build ..."
 echo "3. Make Build ..." >> $LFSLOG_PROCESS
 echo "3. Make Build ..." >> $PKGLOG_ERROR
 make > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 
-echo "4. Make Check ..."
-echo "4. Make Check ..." >> $LFSLOG_PROCESS
-echo "4. Make Check ..." >> $PKGLOG_ERROR
+echo "4. Make Test ..."
+echo "4. Make Test ..." >> $LFSLOG_PROCESS
+echo "4. Make Test ..." >> $PKGLOG_ERROR
 make test > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
 
 echo "5. Make Install ..."

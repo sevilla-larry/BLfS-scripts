@@ -1,0 +1,19 @@
+# 09.11 Double-conversion-3.3.0
+b344abb64084a4a1d98a43e67752989b double-conversion-3.3.0.tar.gz
+
+# 10.13 JasPer-4.2.4
+aa4df693b90223fe6848b34cf1208624 jasper-4.2.4.tar.gz
+# 10.14 Little CMS-2.16
+f219d87c247957c97020a3859d8d6fa8 lcms2-2.16.tar.gz
+# 10.20 libmng-2.0.3
+e9e899adb1b681b17f14d91e261878c5 libmng-2.0.3.tar.xz
+# 10.26 libtiff-4.7.0
+3a0fa4a270a4a192b08913f88d0cfbdd tiff-4.7.0.tar.gz
+# 10.27 libwebp-1.4.0
+07daaa13bef03b7be07f11977b159cb8 libwebp-1.4.0.tar.gz
+
+# 22.05 SQLite-3.46.1
+bde7df8c2a4bce82dbf42f7e4dda0e21 sqlite-autoconf-3460100.tar.gz
+
+# 25.42 Qt-6.7.2
+06d35b47349c7c0a45710daad359e07b qt-everywhere-src-6.7.2.tar.xz

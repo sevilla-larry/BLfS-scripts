@@ -1,8 +1,21 @@
-# b.09.44.libidn2-2.3.4.sh
+# e12.10.20.libmng-2.0.3.sh
 #
 
-export PKG="libidn2-2.3.4"
-export PKGLOG_DIR=$LFSLOG/09.44
+#
+# Dependencies Required:
+#
+#               e10.10.18 libjpeg-turbo-3.0.1
+#               e12.10.14 Little CMS-2.1.6
+#
+
+#
+# Recommended by:
+#
+#               e12.25.42 Qt-6.7.2
+#
+
+export PKG="libmng-2.0.3"
+export PKGLOG_DIR=$LFSLOG/10.20
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
@@ -33,13 +46,17 @@ echo "3. Make Build ..." >> $LFSLOG_PROCESS
 echo "3. Make Build ..." >> $PKGLOG_ERROR
 make > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 
-echo "4. Make Install ..."
-echo "4. Make Install ..." >> $LFSLOG_PROCESS
-echo "4. Make Install ..." >> $PKGLOG_ERROR
+echo "5. Make Install ..."
+echo "5. Make Install ..." >> $LFSLOG_PROCESS
+echo "5. Make Install ..." >> $PKGLOG_ERROR
 make install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
+install -v -m755 -d        /usr/share/doc/libmng-2.0.3  \
+        >> $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
+install -v -m644 doc/*.txt /usr/share/doc/libmng-2.0.3  \
+        >> $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
-cd ..
+
 cd ..
 rm -rf $PKG
 unset LFSLOG_PROCESS
