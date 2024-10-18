@@ -24,7 +24,5 @@ f986fdbba5ec6233c96f8b6535811780 gdk-pixbuf-2.42.12.tar.xz
 
 # 28.01 adwaita-icon-theme-46.2
 6829461ddc1dd0a9b7d115ccc0c186ac adwaita-icon-theme-46.2.tar.xz
-# 28.07 hicolor-icon-theme-0.18
-ef14f3af03bcde9ed134aad626bdbaad hicolor-icon-theme-0.18.tar.xz
 # 28.09 lxde-icon-theme-0.5.1
 7467133275edbbcc79349379235d4411 lxde-icon-theme-0.5.1.tar.xz

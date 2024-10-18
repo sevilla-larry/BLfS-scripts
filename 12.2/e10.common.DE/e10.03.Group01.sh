@@ -48,6 +48,20 @@ echo "." >> $LFSLOG_PROCESS
 echo "."
 echo "."
 
+###
+
+echo "e10.28.07.hicolor-icon-theme-0.18"
+echo "e10.28.07.hicolor-icon-theme-0.18" >> $LFSLOG_PROCESS
+
+time { bash e10.28.07.hicolor-icon-theme-0.18.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
 #####
 
 unset LFSLOG_PROCESS

@@ -6,20 +6,6 @@ export LFSLOG_PROCESS=$LFSLOG/process.log
 
 #####
 
-echo "e21.28.07.hicolor-icon-theme-0.18"
-echo "e21.28.07.hicolor-icon-theme-0.18" >> $LFSLOG_PROCESS
-
-time { bash e21.28.07.hicolor-icon-theme-0.18.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
-
-###
-
 echo "e21.25.17.GTK+-3.24.43"
 echo "e21.25.17.GTK+-3.24.43" >> $LFSLOG_PROCESS
 

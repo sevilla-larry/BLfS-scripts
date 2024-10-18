@@ -20,5 +20,7 @@ bde7df8c2a4bce82dbf42f7e4dda0e21 sqlite-autoconf-3460100.tar.gz
 
 # 29.02 extra-cmake-modules-6.5.0
 bceea430e534852558b54f4bd3354474 extra-cmake-modules-6.5.0.tar.xz
+# 29.05 Polkit-Qt-0.200.0
+6f23bc987ea9c49b4ef21983b9d1dc15 polkit-qt-1-0.200.0.tar.xz
 # 29.06 plasma-wayland-protocols-1.13.0
 5d30de6367ab1ff92b2ece7b159b3c8b plasma-wayland-protocols-1.13.0.tar.xz

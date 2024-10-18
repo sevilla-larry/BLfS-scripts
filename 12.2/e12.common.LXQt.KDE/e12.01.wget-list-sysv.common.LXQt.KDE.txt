@@ -20,5 +20,7 @@ https://download.qt.io/archive/qt/6.7/6.7.2/single/qt-everywhere-src-6.7.2.tar.x
 
 # 29.02 extra-cmake-modules-6.5.0
 https://download.kde.org/stable/frameworks/6.5/extra-cmake-modules-6.5.0.tar.xz
+# 29.05 Polkit-Qt-0.200.0
+https://download.kde.org/stable/polkit-qt-1/polkit-qt-1-0.200.0.tar.xz
 # 29.06 plasma-wayland-protocols-1.13.0
 https://download.kde.org/stable/plasma-wayland-protocols/plasma-wayland-protocols-1.13.0.tar.xz
