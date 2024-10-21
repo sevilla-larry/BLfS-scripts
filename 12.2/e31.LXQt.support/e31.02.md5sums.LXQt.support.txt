@@ -1,0 +1,8 @@
+# 10.16 libexif-0.6.24
+00ea6e7ff62d3fd41ea9b2139746703c libexif-0.6.24.tar.bz2
+
+# 11.23 Xdg-user-dirs-0.18
+dc7decea7ffb58cd067eff1fe1798cae xdg-user-dirs-0.18.tar.gz
+
+# 27.03 openbox-3.6.1
+b72794996c6a3ad94634727b95f9d204 openbox-3.6.1.tar.gz
