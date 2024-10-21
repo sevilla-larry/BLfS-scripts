@@ -1,15 +1,28 @@
-# e21.10.06.FriBidi-1.0.15.sh
+# e10.25.38.Pango-1.54.0.sh
+#
+
+#
+# Dependencies Required:
+#
+#               d10.10.05 Fontconfig-2.15.0
+#               e10.10.06 FriBidi-1.0.15
+#               d10.09.17 GLib-2.80.4
+#
+# Dependencies Recommended:
+#
+#               e10.25.04 Cairo-1.18.0 ( needed )
+#               d20.24.08 Xorg Libraries
 #
 
 #
 # Required by:
 #
-#               e21.25.38 Pango-1.54.0
-#               ??? 37.?? PCManFM       ???
+#               e21.25.17 GTK+-3.24.43
+#               e31.27.03 openbox-3.6.1
 #
 
-export PKG="fribidi-1.0.15"
-export PKGLOG_DIR=$LFSLOG/10.06
+export PKG="pango-1.54.0"
+export PKGLOG_DIR=$LFSLOG/25.38
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
@@ -28,15 +41,16 @@ tar xvf $PKG.tar.xz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
 
 
-mkdir build 
-cd    build 
+mkdir build
+cd    build
 
 echo "2. Meson Setup ..."
 echo "2. Meson Setup ..." >> $LFSLOG_PROCESS
 echo "2. Meson Setup ..." >> $PKGLOG_ERROR
-meson setup     --prefix=/usr       \
-                --buildtype=release \
-                ..                  \
+meson setup     --prefix=/usr           \
+                --buildtype=release     \
+                --wrap-mode=nofallback  \
+                ..                      \
         > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Ninja Build ..."
