@@ -13,10 +13,10 @@
 #
 # Required by:
 #
-#               ???       GTK+-2.24.33  ???
 #               e21.25.17 GTK+-3.24.43
-#               ??? 25.13 gdk-pixbuf-xlib-2.40.2    ???
 #               e10.25.48 xdg-desktop-portal-1.18.2
+#               ???       GTK+-2.24.33  ???
+#               ??? 25.13 gdk-pixbuf-xlib-2.40.2    ???
 #
 
 export PKG="gdk-pixbuf-2.42.12"
