@@ -1,11 +1,11 @@
-# e21.25.10.gdk-pixbuf-2.42.12.sh
+# e10.25.10.gdk-pixbuf-2.42.12.sh
 #
 
 #
 # Dependencies Required:
 #
 #               d10.09.17 GLib-2.80.4
-#               e21.10.18 libjpeg-turbo-3.0.1
+#               e10.10.18 libjpeg-turbo-3.0.1
 #               d10.10.22 libpng-1.6.43
 #               d10.11.16 shared-mime-info-2.4
 #
@@ -16,6 +16,7 @@
 #               ???       GTK+-2.24.33  ???
 #               e21.25.17 GTK+-3.24.43
 #               ??? 25.13 gdk-pixbuf-xlib-2.40.2    ???
+#               e10.25.48 xdg-desktop-portal-1.18.2
 #
 
 export PKG="gdk-pixbuf-2.42.12"
