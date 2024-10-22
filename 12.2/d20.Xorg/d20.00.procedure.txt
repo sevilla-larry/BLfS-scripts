@@ -111,25 +111,9 @@ B.  Generate BLFS - Support Apps
 
   B.03. Support Applications
 
-        bash d20.03.all.support.apps.sh
-
         ###
-        #
-        #   dbus
-        #
 
-
-
-  B.05. Support Applications ( continue )
-
-        export LFSLOG=/var/log/blfs
-
-        export MAKEFLAGS="-j$(nproc)"
-        export NPROC="$(nproc)"
-
-        cd /sources
-
-        bash d20.03.all.support.apps.2.sh
+        bash d20.03.all.support.apps.sh
 
         ###
 
@@ -162,10 +146,14 @@ C.  Generate BLFS - Graphical Components / Environments
         Defaults env_keep += XORG_CONFIG
         EOF
 
+        ###
+        #
         # includes DBus
-
+        #
         bash d20.04.all.Group1.sh
 
+        ###
+  
   C.02. Install dbus scripts
 
         cd /mnt/Src/lfs.src/blfs-bootscripts-20240416       # VM/VB
@@ -188,6 +176,7 @@ C.  Generate BLFS - Graphical Components / Environments
         export XORG_CONFIG="--prefix=$XORG_PREFIX --sysconfdir=/etc \
                             --localstatedir=/var --disable-static"
 
+        cd /sources
 
         bash d20.04.all.Group2.sh
 
