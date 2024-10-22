@@ -28,7 +28,7 @@
 #
 # Optional by:
 #
-#               ???.27.03 openbox-3.6.1      ???
+#               e31.27.03 openbox-3.6.1
 #
 
 #
