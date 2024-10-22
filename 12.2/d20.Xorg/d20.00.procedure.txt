@@ -111,21 +111,14 @@ B.  Generate BLFS - Support Apps
 
   B.03. Support Applications
 
+        bash d20.03.all.support.apps.sh
+
         ###
         #
         #   dbus
         #
 
-        bash d20.03.all.support.apps.1.sh
 
-  B.04. Install dbus scripts
-
-        cd /mnt/Src/lfs.src/blfs-bootscripts-20240416       # VM/VB
-        cd /usr/src/lfs/blfs-bootscripts-20240416           # PC
-
-        make install-dbus
-
-        reboot
 
   B.05. Support Applications ( continue )
 
@@ -142,7 +135,7 @@ B.  Generate BLFS - Support Apps
 
 C.  Generate BLFS - Graphical Components / Environments
 
-  C.01. [BLFS 24] Graphical Environments - Xorg
+  C.01. [BLFS 24] Graphical Environments - Xorg - Part 1
 
         ###
 
@@ -169,11 +162,40 @@ C.  Generate BLFS - Graphical Components / Environments
         Defaults env_keep += XORG_CONFIG
         EOF
 
-        #
+        # includes DBus
 
-        bash d20.04.all.1.VM.sh     # VMs
-        bash d20.04.all.2.VB.sh     # VBs
-        bash d20.04.all.3.PC.sh     # PCs
+        bash d20.04.all.Group1.sh
+
+  C.02. Install dbus scripts
+
+        cd /mnt/Src/lfs.src/blfs-bootscripts-20240416       # VM/VB
+        cd /usr/src/lfs/blfs-bootscripts-20240416           # PC
+
+        make install-dbus
+
+        reboot
+
+  C.03. [BLFS 24] Graphical Environments - Xorg - Part 2
+
+
+        export LFSLOG=/var/log/blfs
+
+        export MAKEFLAGS="-j$(nproc)"
+        export NPROC="$(nproc)"
+
+        export XORG_PREFIX="/usr"
+
+        export XORG_CONFIG="--prefix=$XORG_PREFIX --sysconfdir=/etc \
+                            --localstatedir=/var --disable-static"
+
+
+        bash d20.04.all.Group2.sh
+
+        bash d20.04.all.Group3.1.VM.sh  # VMs
+        bash d20.04.all.Group3.2.VB.sh  # VBs
+        bash d20.04.all.Group3.3.PC.sh  # PCs
+
+        bash d20.04.all.Group4.sh
 
         ###
         #   Note: for startx as user
@@ -185,7 +207,7 @@ C.  Generate BLFS - Graphical Components / Environments
 
         reboot
 
-  C.02. [BLFS 24] Graphical Environments - Xorg - Runtime
+  C.04. [BLFS 24] Graphical Environments - Xorg - Runtime
 
         # login as user
 

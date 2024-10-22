@@ -1,8 +1,8 @@
-# d20.24.Part06.17.sh
+# d20.05.Part06.16.2.VB.sh
 #
 # Graphical Environments
 #
-#   d20.24.17
+#   d20.24.16 Mesa	- for VB
 #
 
 export LFSLOG_PROCESS=$LFSLOG/process.log
@@ -12,10 +12,10 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
 #####
 
-echo "d20.24.17.xbitmaps-1.1.3"
-echo "d20.24.17.xbitmaps-1.1.3" >> $LFSLOG_PROCESS
+echo "d20.24.16.Mesa-24.1.5"
+echo "d20.24.16.Mesa-24.1.5" >> $LFSLOG_PROCESS
 
-time { bash d20.24.17.xbitmaps-1.1.3.sh ; }
+time { bash d20.24.16.Mesa-24.1.5-2.VB.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

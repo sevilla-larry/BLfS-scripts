@@ -1,3 +1,6 @@
+# 12.10 dbus-1.14.10
+https://dbus.freedesktop.org/releases/dbus/dbus-1.14.10.tar.xz
+
 # 24.02 ---> .07
 https://www.x.org/pub/individual/util/util-macros-1.20.1.tar.xz
 https://xorg.freedesktop.org/archive/individual/proto/xorgproto-2024.1.tar.xz

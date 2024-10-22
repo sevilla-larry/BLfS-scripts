@@ -1,3 +1,6 @@
+# 12.10 dbus-1.14.10
+46070a3487817ff690981f8cd2ba9376 dbus-1.14.10.tar.xz
+
 # 24.02 ---> .07
 35a4f264a9852be4ae66f07d4100356e util-macros-1.20.1.tar.xz
 12374d29fb5ae642cfa872035e401640 xorgproto-2024.1.tar.xz

@@ -1,31 +1,16 @@
-# d10.03.Group08.sh
+# d10.03.Group09.sh
 #
-# GLib
-# desktop-file-utils & share-mime-info
+# Polkit
 #
 
 export LFSLOG_PROCESS=$LFSLOG/process.log
 
 #####
 
-echo "d10.09.17.GLib-2.80.4"
-echo "d10.09.17.GLib-2.80.4" >> $LFSLOG_PROCESS
+echo "d10.04.20.Polkit-125"
+echo "d10.04.20.Polkit-125" >> $LFSLOG_PROCESS
 
-time { bash d10.09.17.GLib-2.80.4.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
-
-###
-
-echo "d10.11.04.desktop-file-utils-0.27"
-echo "d10.11.04.desktop-file-utils-0.27" >> $LFSLOG_PROCESS
-
-time { bash d10.11.04.desktop-file-utils-0.27.sh ; }
+time { bash d10.04.20.Polkit-125.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
@@ -33,21 +18,6 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 echo "." >> $LFSLOG_PROCESS
 echo "."
 echo "."
-
-###
-
-echo "d10.11.16.shared-mime-info-2.4"
-echo "d10.11.16.shared-mime-info-2.4" >> $LFSLOG_PROCESS
-
-time { bash d10.11.16.shared-mime-info-2.4.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
-
 
 #####
 

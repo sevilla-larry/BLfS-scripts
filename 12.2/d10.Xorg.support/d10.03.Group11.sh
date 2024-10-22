@@ -1,6 +1,6 @@
-# d10.03.Group11.sh
+# d10.03.Group12.sh
 #
-# Wayland support
+# Glslang, SPIRV
 #
 
 export LFSLOG_PROCESS=$LFSLOG/process.log
@@ -10,10 +10,10 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
 #####
 
-echo "d10.09.97.Wayland-1.23.0"
-echo "d10.09.97.Wayland-1.23.0" >> $LFSLOG_PROCESS
+echo "d10.09.90.SPIRV-Headers-1.3.290.0"
+echo "d10.09.90.SPIRV-Headers-1.3.290.0" >> $LFSLOG_PROCESS
 
-time { bash d10.09.97.Wayland-1.23.0.sh ; }
+time { bash d10.09.90.SPIRV-Headers-1.3.290.0.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
@@ -24,10 +24,24 @@ echo "."
 
 ###
 
-echo "d10.09.98.Wayland-Protocols-1.36"
-echo "d10.09.98.Wayland-Protocols-1.36" >> $LFSLOG_PROCESS
+echo "d10.09.91.SPIRV-Tools-1.3.290.0"
+echo "d10.09.91.SPIRV-Tools-1.3.290.0" >> $LFSLOG_PROCESS
 
-time { bash d10.09.98.Wayland-Protocols-1.36.sh ; }
+time { bash d10.09.91.SPIRV-Tools-1.3.290.0.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "d10.25.12.Glslang-14.3.0"
+echo "d10.25.12.Glslang-14.3.0" >> $LFSLOG_PROCESS
+
+time { bash d10.25.12.Glslang-14.3.0.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

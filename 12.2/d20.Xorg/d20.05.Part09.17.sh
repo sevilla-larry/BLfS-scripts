@@ -1,8 +1,8 @@
-# d20.24.Part05.16.3.PC.sh
+# d20.05.Part07.17.sh
 #
 # Graphical Environments
 #
-#   d20.24.16 Mesa	- for PC
+#   d20.24.17
 #
 
 export LFSLOG_PROCESS=$LFSLOG/process.log
@@ -12,10 +12,10 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
 #####
 
-echo "d20.24.16.Mesa-24.1.5"
-echo "d20.24.16.Mesa-24.1.5" >> $LFSLOG_PROCESS
+echo "d20.24.17.xbitmaps-1.1.3"
+echo "d20.24.17.xbitmaps-1.1.3" >> $LFSLOG_PROCESS
 
-time { bash d20.24.16.Mesa-24.1.5-3.PC.sh ; }
+time { bash d20.24.17.xbitmaps-1.1.3.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
