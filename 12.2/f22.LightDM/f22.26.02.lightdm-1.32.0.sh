@@ -27,6 +27,7 @@ export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
 export PKGLOG_INSTALL=$PKGLOG_DIR/install.log
 export PKGLOG_ERROR=$PKGLOG_DIR/error.log
+export PKGLOG_OTHERS=$PKGLOG_DIR/others.log
 export LFSLOG_PROCESS=$LFSLOG/process.log
 
 rm -r $PKGLOG_DIR 2> /dev/null
@@ -47,7 +48,8 @@ useradd  -c "Lightdm Daemon"    \
          -s /bin/false          \
          lightdm
 
-sed -i s/systemd/elogind/ data/pam/*
+sed -i s/systemd/elogind/ data/pam/*    \
+            > $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
 
 echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
@@ -128,13 +130,14 @@ cd lightdm-gtk-greeter-2.0.9
     echo "7. Make Install greeter ..." >> $PKGLOG_ERROR
     make install >> $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
-cd ..
-
 echo "Note: need to add lightdm bootscript"
 
+
+cd ..
 cd ..
 rm -rf $PKG
 unset LFSLOG_PROCESS
+unset PKGLOG_OTHERS
 unset PKGLOG_INSTALL PKGLOG_BUILD PKGLOG_CONFIG
 unset PKGLOG_ERROR PKGLOG_TAR
 unset PKGLOG_DIR PKG
