@@ -93,4 +93,7 @@ C.  Generate BLFS - LightDM
 
         make install-lightdm
 
+        cp -v /etc/inittab{,-orig}
+        sed -i '/initdefault/ s/3/5/' /etc/inittab
+
         reboot
