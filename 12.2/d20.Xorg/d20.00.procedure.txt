@@ -165,6 +165,7 @@ C.  Generate BLFS - Graphical Components / Environments
 
   C.03. [BLFS 24] Graphical Environments - Xorg - Part 2
 
+        ###
 
         export LFSLOG=/var/log/blfs
 
