@@ -1,10 +1,11 @@
-# e31.10.16.libexif-0.6.24.sh
+# e10.10.16.libexif-0.6.24.sh
 #
 
 #
 # Required by:
 #
 #               e33.37.18 libfm-qt-2.0.2
+#               g62.36.04 Ristretto-0.13.2 ???
 #
 
 export PKG="libexif-0.6.24"

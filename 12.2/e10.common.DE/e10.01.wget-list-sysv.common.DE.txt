@@ -3,6 +3,8 @@ https://xkbcommon.org/download/libxkbcommon-1.7.0.tar.xz
 
 # 10.06 FriBidi-1.0.12
 https://github.com/fribidi/fribidi/releases/download/v1.0.15/fribidi-1.0.15.tar.xz
+# 10.16 libexif-0.6.24
+https://github.com/libexif/libexif/releases/download/v0.6.24/libexif-0.6.24.tar.bz2
 # 10.18 libjpeg-turbo-3.0.1
 https://downloads.sourceforge.net/libjpeg-turbo/libjpeg-turbo-3.0.1.tar.gz
 

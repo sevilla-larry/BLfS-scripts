@@ -1,6 +1,3 @@
-# 10.16 libexif-0.6.24
-00ea6e7ff62d3fd41ea9b2139746703c libexif-0.6.24.tar.bz2
-
 # 11.23 Xdg-user-dirs-0.18
 dc7decea7ffb58cd067eff1fe1798cae xdg-user-dirs-0.18.tar.gz
 

@@ -3,6 +3,8 @@ b05b1a0d473189efb2dd995dd944f152 libxkbcommon-1.7.0.tar.xz
 
 # 10.06 FriBidi-1.0.12
 ccf2b019162b4e5e6569875d0641bc5f fribidi-1.0.15.tar.xz
+# 10.16 libexif-0.6.24
+00ea6e7ff62d3fd41ea9b2139746703c libexif-0.6.24.tar.bz2
 # 10.18 libjpeg-turbo-3.0.1
 1fdc6494521a8724f5f7cf39b0f6aff3 libjpeg-turbo-3.0.1.tar.gz
 
