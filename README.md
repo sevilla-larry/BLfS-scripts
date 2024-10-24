@@ -23,7 +23,7 @@
 #
 # e23: Xfce			- working
 #
-# f22: LightDM		- NOT working
+# f22: LightDM		- working
 #
 #
 #
@@ -73,10 +73,11 @@
 #
 #		e10 - Common to all DE's
 #		e11 - Common to Xfce & Gnome
+#		e12 - Common to LXQt & KDE
+#		e13 - Common to Gnome, LXQt & KDE
 #
 #		e21	- Xfce other Support
 #		e23 - Xfce Desktop
-#		e24 - Xfce Applications
 #
 #		e31	- LXQt other Support
 #		e32 - KF5, Plasma, & Misc Dependecies
@@ -109,9 +110,17 @@
 #		f21	- LightDM Support
 #       f22	- LightDM
 #
-#       f3x	- SDDM
+#       f32	- SDDM
 #
 #       f4x	- LXDM			??? (from 11.3)	???
+#
+#
+# Group g - Xorg Applications
+#
+#		g61 - Xfce Applications support
+#		g62 - Xfce Applications
+#		g63 - Xfce Applications other
+#
 
 
 

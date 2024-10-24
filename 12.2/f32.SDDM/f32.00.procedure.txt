@@ -1,0 +1,96 @@
+A. Preparation
+
+  A.01. ( Assumming XOrg is already running )
+
+        cd /sources
+
+  A.02. Copy all script files
+
+        copy all script files from the following to /sources
+
+            1. f21.LightDM.support
+            2. f22.LightDM
+
+        copy all script files to /sources
+
+  A.03. Download packages
+
+        ###
+
+        wget --input-file=f21.01.wget-list-sysv.LightDM.support.txt --continue --directory-prefix=/sources
+        wget --input-file=f22.01.wget-list-sysv.LightDM.txt         --continue --directory-prefix=/sources
+
+        ###
+
+        md5sum -c f21.02.md5sums.LightDM.support.txt
+        md5sum -c f22.02.md5sums.LightDM.txt
+
+        ###
+
+  A.04. Setting Up the Environment
+        ( Note: change the MAKEFLAGS based on the number of threads )
+
+        ###
+
+        export LFSLOG=/var/log/blfs
+
+        export MAKEFLAGS="-j$(nproc)"
+        export NPROC="$(nproc)"
+
+        ###
+        #   same as XOrg Environment
+        ###
+        export XORG_PREFIX="/usr"
+
+        export XORG_CONFIG="--prefix=$XORG_PREFIX --sysconfdir=/etc \
+                            --localstatedir=/var --disable-static"
+
+B.  Generate BLFS - LightDM Support Apps
+
+  B.01. Setup / Checking Environment - Part 1
+
+        ###
+
+        echo $XORG_PREFIX     # /usr
+        echo $XORG_CONFIG     # --prefix=/usr --sysconfdir=/etc --localstatedir=/var --disable-static
+        echo $LFSLOG          # /var/log/blfs
+        echo $MAKEFLAGS       # -j$(nproc)
+        echo $NPROC           # $(nproc)
+
+        echo $SHELL           # /bin/bash
+        ls -l /bin/sh         # bash
+        ls -l /usr/bin/awk    # gawk
+
+        cd /sources
+
+        ###
+
+        ( display )
+        root [ /sources ]#
+
+  B.03. Support Applications
+
+        ###
+
+        bash f22.03.all.support.apps.sh
+
+        ###
+
+C.  Generate BLFS - LightDM
+
+  C.01. [BLFS 26] LightDM display manager
+
+        ###
+
+        bash f22.04.all.sh
+
+        ###
+
+  C.02. [BLFS 26] LightDM bootscripts
+
+        cd /mnt/Src/lfs.src/blfs-bootscripts-20240416       # VM/VB
+        cd /usr/src/lfs/blfs-bootscripts-20240416           # PC
+
+        make install-lightdm
+
+        reboot
