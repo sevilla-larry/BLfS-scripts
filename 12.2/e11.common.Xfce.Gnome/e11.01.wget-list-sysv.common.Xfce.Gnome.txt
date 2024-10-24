@@ -1,2 +1,4 @@
 # 33.03 gsettings-desktop-schemas-46.1
 https://download.gnome.org/sources/gsettings-desktop-schemas/46/gsettings-desktop-schemas-46.1.tar.xz
+# 33.07 VTE-0.76.4
+https://gitlab.gnome.org/GNOME/vte/-/archive/0.76.4/vte-0.76.4.tar.gz

@@ -1,19 +1,19 @@
-# e21.25.17.GTK+-3.24.43.sh
+# e11.25.17.GTK+-3.24.43.sh
 #
 #
 
 #
 # Dependencies Required:
 #
-#               e21.25.03 at-spi2-core-2.52.0
-#               e21.25.10 gdk-pixbuf-2.42.12
+#               e11.25.03 at-spi2-core-2.52.0
+#               e10.25.10 gdk-pixbuf-2.42.12
 #               d20.25.35 libepoxy-1.5.10
-#               e21.25.38 Pango-1.54.0
+#               e10.25.38 Pango-1.54.0
 #
 # Dependencies Recommended:
 #
 #               e21.28.01 adwaita-icon-theme-46.2   (runtime)
-#               e21.28.07 hicolor-icon-theme-0.18   (test)
+#               e10.28.07 hicolor-icon-theme-0.18   (test)
 #               d10.09.74 libxslt-1.1.42
 #               d10.09.97 Wayland-1.23.0
 #               d10.09.98 Wayland-Protocols-1.36

@@ -1,2 +1,4 @@
 # 33.03 gsettings-desktop-schemas-46.1
 f1fe79211639016c94df811e8ea6abe6 gsettings-desktop-schemas-46.1.tar.xz
+# 33.07 VTE-0.76.4
+5d1a548ad131664e8a638da24fbfd3e9 vte-0.76.4.tar.gz
