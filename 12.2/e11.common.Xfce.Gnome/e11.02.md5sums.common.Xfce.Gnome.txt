@@ -1,3 +1,8 @@
+# 04.07 GnuTLS-3.8.7.1
+46777802233eb7203d47a8b8880c8c90 gnutls-3.8.7.1.tar.xz
+# 04.16 Nettle-3.10
+c61453139d5fb44e9cdcc5b684b26e55 nettle-3.10.tar.gz
+
 # 33.03 gsettings-desktop-schemas-46.1
 f1fe79211639016c94df811e8ea6abe6 gsettings-desktop-schemas-46.1.tar.xz
 # 33.07 VTE-0.76.4

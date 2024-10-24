@@ -1,3 +1,8 @@
+# 04.07 GnuTLS-3.8.7.1
+https://www.gnupg.org/ftp/gcrypt/gnutls/v3.8/gnutls-3.8.7.1.tar.xz
+# 04.16 Nettle-3.10
+https://ftp.gnu.org/gnu/nettle/nettle-3.10.tar.gz
+
 # 33.03 gsettings-desktop-schemas-46.1
 https://download.gnome.org/sources/gsettings-desktop-schemas/46/gsettings-desktop-schemas-46.1.tar.xz
 # 33.07 VTE-0.76.4

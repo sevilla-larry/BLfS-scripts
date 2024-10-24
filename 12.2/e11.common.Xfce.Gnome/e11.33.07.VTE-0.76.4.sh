@@ -13,6 +13,10 @@
 #               b10.09.24 icu-75.1
 #               d10.09.17 GLib-2.80.4
 #
+# Dependencies Recommended ( but Required ):
+#
+#               e11.04.07 GnuTLS-3.8.7.1
+#
 
 #
 # Required Runtime by:

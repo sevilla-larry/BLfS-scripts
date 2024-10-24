@@ -52,6 +52,34 @@ echo "."
 
 ###
 
+echo "e11.04.16.Nettle-3.10"
+echo "e11.04.16.Nettle-3.10" >> $LFSLOG_PROCESS
+
+time { bash e11.04.16.Nettle-3.10.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "e11.04.07.GnuTLS-3.8.7.1"
+echo "e11.04.07.GnuTLS-3.8.7.1" >> $LFSLOG_PROCESS
+
+time { bash e11.04.07.GnuTLS-3.8.7.1.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
 echo "e11.33.07.VTE-0.76.4"
 echo "e11.33.07.VTE-0.76.4" >> $LFSLOG_PROCESS
 

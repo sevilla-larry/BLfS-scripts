@@ -10,7 +10,7 @@
 #
 # Required by:
 #
-#               b11.17.14.libpsl-0.21.5
+#               b11.17.14 libpsl-0.21.5
 #
 
 export PKG="libidn2-2.3.7"
