@@ -22,17 +22,17 @@ echo "."
 
 ###
 
-echo "e10.22.05.SQLite-3.46.1"
-echo "e10.22.05.SQLite-3.46.1" >> $LFSLOG_PROCESS
+# echo "e10.22.05.SQLite-3.46.1"
+# echo "e10.22.05.SQLite-3.46.1" >> $LFSLOG_PROCESS
 
-time { bash e10.22.05.SQLite-3.46.1.sh ; }
+# time { bash e10.22.05.SQLite-3.46.1.sh ; }
 
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+# date +"%Y/%b/%d %H:%M"
+# date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
+# echo "." >> $LFSLOG_PROCESS
+# echo "."
+# echo "."
 
 ###
 
