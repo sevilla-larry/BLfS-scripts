@@ -11,7 +11,7 @@
 #
 # Dependencies Optional:
 #
-#               ???.13.36 Vala-0.56.11      ???
+#               e11.13.35 Vala-0.56.17
 #
 
 #

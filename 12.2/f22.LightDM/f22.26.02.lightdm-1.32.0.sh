@@ -13,7 +13,7 @@
 #
 #               d10.09.17 GLib-2.80.4
 #               f21.25.37 libxklavier-5.4
-#               ???.13.36 Vala-0.56.11      ???
+#               e11.13.35 Vala-0.56.17
 #
 # Dependencies Optional:
 #
