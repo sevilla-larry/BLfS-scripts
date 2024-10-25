@@ -38,3 +38,9 @@ e6591545b2bf204fe9a58f777bd0b78a at-spi2-core-2.52.0.tar.xz
 f1fe79211639016c94df811e8ea6abe6 gsettings-desktop-schemas-46.1.tar.xz
 # 33.07 VTE-0.76.4
 5d1a548ad131664e8a638da24fbfd3e9 vte-0.76.4.tar.gz
+
+# 42.14->.17 gstreamer & gst-plugins
+5abf79978005ae14a8bc7db1ac3ce4ba gstreamer-1.24.7.tar.xz
+8a7f8668418d0c8c917bb92218047f9f gst-plugins-base-1.24.7.tar.xz
+48477b1fe91522b6a0b733c22a780d78 gst-plugins-good-1.24.7.tar.xz
+a0a2771d1ae1203004d58d80bc6fcd16 gst-plugins-bad-1.24.7.tar.xz
