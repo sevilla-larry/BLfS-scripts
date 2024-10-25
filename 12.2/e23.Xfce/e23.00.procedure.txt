@@ -93,7 +93,7 @@ C.  Generate BLFS - Xfce
 
         ###
 
-        logout    # as root
+        logout    # as root, login as user
 
         # as user
 
