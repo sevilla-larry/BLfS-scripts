@@ -3,6 +3,9 @@
 # 04.16 Nettle-3.10
 c61453139d5fb44e9cdcc5b684b26e55 nettle-3.10.tar.gz
 
+# 09.45 libgudev-238
+46da30a1c69101c3a13fa660d9ab7b73 libgudev-238.tar.xz
+
 ## 10.24 librsvg-2.58.3
 #8f954b5c25ffff602b4e62813c98c8c9 librsvg-2.58.3.tar.xz
 
@@ -28,6 +31,8 @@ e6591545b2bf204fe9a58f777bd0b78a at-spi2-core-2.52.0.tar.xz
 
 # 28.01 adwaita-icon-theme-46.2
 6829461ddc1dd0a9b7d115ccc0c186ac adwaita-icon-theme-46.2.tar.xz
+# 28.09 lxde-icon-theme-0.5.1
+7467133275edbbcc79349379235d4411 lxde-icon-theme-0.5.1.tar.xz
 
 # 33.03 gsettings-desktop-schemas-46.1
 f1fe79211639016c94df811e8ea6abe6 gsettings-desktop-schemas-46.1.tar.xz

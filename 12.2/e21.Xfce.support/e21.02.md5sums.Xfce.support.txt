@@ -1,5 +1,0 @@
-# 09.45 libgudev-238
-46da30a1c69101c3a13fa660d9ab7b73 libgudev-238.tar.xz
-
-# 28.09 lxde-icon-theme-0.5.1
-7467133275edbbcc79349379235d4411 lxde-icon-theme-0.5.1.tar.xz

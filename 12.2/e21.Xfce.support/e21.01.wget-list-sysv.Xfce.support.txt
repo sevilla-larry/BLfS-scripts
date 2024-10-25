@@ -1,5 +1,0 @@
-# 09.45 libgudev-238
-https://download.gnome.org/sources/libgudev/238/libgudev-238.tar.xz
-
-# 28.09 lxde-icon-theme-0.5.1
-https://downloads.sourceforge.net/lxde/lxde-icon-theme-0.5.1.tar.xz

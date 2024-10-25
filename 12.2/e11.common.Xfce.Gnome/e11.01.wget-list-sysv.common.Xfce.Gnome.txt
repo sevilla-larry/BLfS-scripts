@@ -3,6 +3,9 @@ https://www.gnupg.org/ftp/gcrypt/gnutls/v3.8/gnutls-3.8.7.1.tar.xz
 # 04.16 Nettle-3.10
 https://ftp.gnu.org/gnu/nettle/nettle-3.10.tar.gz
 
+# 09.45 libgudev-238
+https://download.gnome.org/sources/libgudev/238/libgudev-238.tar.xz
+
 # 10.24 librsvg-2.58.3
 #https://download.gnome.org/sources/librsvg/2.58/librsvg-2.58.3.tar.xz
 
@@ -29,6 +32,8 @@ https://download.gnome.org/sources/gtk/4.14/gtk-4.14.5.tar.xz
 
 # 28.01 adwaita-icon-theme-46.2
 https://download.gnome.org/sources/adwaita-icon-theme/46/adwaita-icon-theme-46.2.tar.xz
+# 28.09 lxde-icon-theme-0.5.1
+https://downloads.sourceforge.net/lxde/lxde-icon-theme-0.5.1.tar.xz
 
 # 33.03 gsettings-desktop-schemas-46.1
 https://download.gnome.org/sources/gsettings-desktop-schemas/46/gsettings-desktop-schemas-46.1.tar.xz
