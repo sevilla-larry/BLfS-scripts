@@ -5,10 +5,10 @@ export LFSLOG_PROCESS=$LFSLOG/process.log
 
 #####
 
-echo "e11.09.29.JSON-GLib-1.8.0"
-echo "e11.09.29.JSON-GLib-1.8.0" >> $LFSLOG_PROCESS
+echo "e10.09.29.JSON-GLib-1.8.0"
+echo "e10.09.29.JSON-GLib-1.8.0" >> $LFSLOG_PROCESS
 
-time { bash e11.09.29.JSON-GLib-1.8.0.sh ; }
+time { bash e10.09.29.JSON-GLib-1.8.0.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
