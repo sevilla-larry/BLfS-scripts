@@ -1,4 +1,4 @@
-# e11.09.29.JSON-GLib-1.10.0.sh
+# e10.09.29.JSON-GLib-1.10.0.sh
 # svn due to errata of e10.25.48 xdg-desktop-portal-1.18.4
 #
 
