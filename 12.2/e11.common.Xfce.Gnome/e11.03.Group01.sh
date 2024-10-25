@@ -10,6 +10,20 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
 #####
 
+echo "e11.13.35.Vala-0.56.17"
+echo "e11.13.35.Vala-0.56.17" >> $LFSLOG_PROCESS
+
+time { bash e11.13.35.Vala-0.56.17.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
 echo "e11.04.16.Nettle-3.10"
 echo "e11.04.16.Nettle-3.10" >> $LFSLOG_PROCESS
 
