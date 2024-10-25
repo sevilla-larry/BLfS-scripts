@@ -54,6 +54,9 @@ echo "2. Meson Setup ..." >> $PKGLOG_ERROR
 meson setup --prefix=/usr       \
             --buildtype=release \
             -D _systemd=false   \
+            -D gnutls=false     \
+            -D vapi=false       \
+            -D gtk4=false       \
     > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Ninja Build ..."
