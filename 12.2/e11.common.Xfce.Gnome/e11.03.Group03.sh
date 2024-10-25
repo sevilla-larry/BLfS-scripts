@@ -10,17 +10,17 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
 #####
 
-echo "e11.25.18.GTK-4.14.5"
-echo "e11.25.18.GTK-4.14.5" >> $LFSLOG_PROCESS
+# echo "e11.25.18.GTK-4.14.5"
+# echo "e11.25.18.GTK-4.14.5" >> $LFSLOG_PROCESS
 
-time { bash e11.25.18.GTK-4.14.5.sh ; }
+# time { bash e11.25.18.GTK-4.14.5.sh ; }
 
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+# date +"%Y/%b/%d %H:%M"
+# date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
+# echo "." >> $LFSLOG_PROCESS
+# echo "."
+# echo "."
 
 ###
 
@@ -52,17 +52,17 @@ echo "."
 
 ###
 
-echo "e11.04.07.GnuTLS-3.8.7.1"
-echo "e11.04.07.GnuTLS-3.8.7.1" >> $LFSLOG_PROCESS
+# echo "e11.04.07.GnuTLS-3.8.7.1"
+# echo "e11.04.07.GnuTLS-3.8.7.1" >> $LFSLOG_PROCESS
 
-time { bash e11.04.07.GnuTLS-3.8.7.1.sh ; }
+# time { bash e11.04.07.GnuTLS-3.8.7.1.sh ; }
 
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+# date +"%Y/%b/%d %H:%M"
+# date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
+# echo "." >> $LFSLOG_PROCESS
+# echo "."
+# echo "."
 
 ###
 

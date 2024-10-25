@@ -9,7 +9,7 @@ bash e10.03.Group02.sh
 
 # common apps to Xfce & Gnome
 bash e11.03.Group01.sh
-bash e11.03.Group02.sh
+# bash e11.03.Group02.sh    NONE
 bash e11.03.Group03.sh
 
 # Xfce support apps
