@@ -11,6 +11,9 @@ ccf2b019162b4e5e6569875d0641bc5f fribidi-1.0.15.tar.xz
 # 13.37 yasm-1.3.0
 fc9e586751ff789b34b1f21d572d96af yasm-1.3.0.tar.gz
 
+# 22.05 SQLite-3.46.1
+bde7df8c2a4bce82dbf42f7e4dda0e21 sqlite-autoconf-3460100.tar.gz
+
 # 25.04 Cairo-1.18.0
 3f0685fbadc530606f965b9645bb51d9 cairo-1.18.0.tar.xz
 # 25.10 gdk-pixbuf-2.42.12

@@ -28,7 +28,7 @@
 #               d20.24.16 Mesa-24.1.5
 #               d10.09.79 mtdev-1.1-7
 #               b15.09.83 PCRE2-10.44
-#               e12.22.05 SQLite-3.46.1
+#               e10.22.05 SQLite-3.46.1
 #               d10.09.97 Wayland-1.23.0
 #               d20.24.15 xcb-util-cursor-0.1.4
 #               d20.24.11 xcb-util-image-0.4.1

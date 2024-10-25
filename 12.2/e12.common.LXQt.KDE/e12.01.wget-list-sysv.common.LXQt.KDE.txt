@@ -12,9 +12,6 @@ https://download.osgeo.org/libtiff/tiff-4.7.0.tar.gz
 # 10.27 libwebp-1.4.0
 https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.4.0.tar.gz
 
-# 22.05 SQLite-3.46.1
-https://sqlite.org/2024/sqlite-autoconf-3460100.tar.gz
-
 # 25.42 Qt-6.7.2
 https://download.qt.io/archive/qt/6.7/6.7.2/single/qt-everywhere-src-6.7.2.tar.xz
 

@@ -4,7 +4,11 @@
 #
 # Dependencies Required:
 #
-#               e21.25.17 GTK+-3.24.43
+#               e11.25.17 GTK+-3.24.43
+#       or
+#               e11.25.18 GTK-4.14.5
+#
+#               e11.10.24 librsvg-2.58.3 ???
 #
 # Dependencies Optional:
 #
@@ -14,7 +18,8 @@
 #
 # Runtime needed by:
 #
-#               e21.25.17 GTK+-3.24.43
+#               e11.25.17 GTK+-3.24.43
+#               e11.25.18 GTK-4.14.5
 #
 
 export PKG="adwaita-icon-theme-46.2"

@@ -1,10 +1,11 @@
-# e12.22.05.SQLite-3.46.1.sh
+# e10.22.05.SQLite-3.46.1.sh
 #
 
 #
 # Recommended by:
 #
 #               e12.25.42 Qt-6.7.2
+#               e11.13.26 Rustc-1.80.1
 #
 
 export PKG="sqlite-autoconf-3460100"

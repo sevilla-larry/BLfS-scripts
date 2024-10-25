@@ -3,6 +3,33 @@ https://www.gnupg.org/ftp/gcrypt/gnutls/v3.8/gnutls-3.8.7.1.tar.xz
 # 04.16 Nettle-3.10
 https://ftp.gnu.org/gnu/nettle/nettle-3.10.tar.gz
 
+# 10.24 librsvg-2.58.3
+#https://download.gnome.org/sources/librsvg/2.58/librsvg-2.58.3.tar.xz
+
+# 11.11 ISO Codes-4.16.0
+# https://ftp.debian.org/debian/pool/main/i/iso-codes/iso-codes_4.16.0.orig.tar.xz
+https://ftp2.osuosl.org/pub/blfs/conglomeration/iso-codes/iso-codes_4.16.0.orig.tar.xz
+
+# 13.23    Python Modules
+# 13.23.20 PyCairo-1.26.1
+https://github.com/pygobject/pycairo/releases/download/v1.26.1/pycairo-1.26.1.tar.gz
+# 13.23.23 PyGObject-3.48.2
+https://download.gnome.org/sources/pygobject/3.48/pygobject-3.48.2.tar.xz
+# 13.26 Rustc-1.80.1
+#https://static.rust-lang.org/dist/rustc-1.80.1-src.tar.xz
+
+# 25.03 at-spi2-core-2.52.0
+https://download.gnome.org/sources/at-spi2-core/2.52/at-spi2-core-2.52.0.tar.xz
+# 25.16 Graphene-1.10.8
+https://download.gnome.org/sources/graphene/1.10/graphene-1.10.8.tar.xz
+# 25.17 GTK+-3.24.43
+https://download.gnome.org/sources/gtk+/3.24/gtk+-3.24.43.tar.xz
+# 25.18 GTK-4.14.5
+https://download.gnome.org/sources/gtk/4.14/gtk-4.14.5.tar.xz
+
+# 28.01 adwaita-icon-theme-46.2
+https://download.gnome.org/sources/adwaita-icon-theme/46/adwaita-icon-theme-46.2.tar.xz
+
 # 33.03 gsettings-desktop-schemas-46.1
 https://download.gnome.org/sources/gsettings-desktop-schemas/46/gsettings-desktop-schemas-46.1.tar.xz
 # 33.07 VTE-0.76.4

@@ -1,12 +1,5 @@
 # 09.45 libgudev-238
 46da30a1c69101c3a13fa660d9ab7b73 libgudev-238.tar.xz
 
-# 25.03 at-spi2-core-2.52.0
-e6591545b2bf204fe9a58f777bd0b78a at-spi2-core-2.52.0.tar.xz
-# 25.17 GTK+-3.24.43
-226e372664a7fae749a50a04983ecd8d gtk+-3.24.43.tar.xz
-
-# 28.01 adwaita-icon-theme-46.2
-6829461ddc1dd0a9b7d115ccc0c186ac adwaita-icon-theme-46.2.tar.xz
 # 28.09 lxde-icon-theme-0.5.1
 7467133275edbbcc79349379235d4411 lxde-icon-theme-0.5.1.tar.xz
