@@ -1,4 +1,4 @@
-# e13.03.Group01.sh
+# e13.03.sh
 #
 
 export LFSLOG_PROCESS=$LFSLOG/process.log

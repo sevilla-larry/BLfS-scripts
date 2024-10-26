@@ -76,7 +76,7 @@ B.  Generate BLFS - Xfce Support Apps
 
         ###
 
-        bash e23.03.all.support.apps.sh
+        e23.03.8.all.support.apps.sh
 
         ###
 
@@ -86,7 +86,7 @@ C.  Generate BLFS - Xfce
 
         ###
 
-        bash e23.04.all.sh
+        bash e23.03.9.all.main.apps.sh
 
         ###
 

@@ -1,4 +1,4 @@
-# e11.03.Group02.sh
+# e11.03.2.sh
 #
 # gstreamer
 #

@@ -1,4 +1,4 @@
-# g62.36.02.xfce4-terminal-1.1.3.sh
+# e23.36.02.xfce4-terminal-1.1.3.sh
 #
 
 #
