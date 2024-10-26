@@ -11,8 +11,6 @@ A. Preparation
             1. f21.LightDM.support
             2. f22.LightDM
 
-        copy all script files to /sources
-
   A.03. Download packages
 
         ###

@@ -12,8 +12,6 @@ A. Preparation
             2. e11.common.Xfce.Gnome
             3. e23.Xfce
 
-        copy all script files to /sources
-
   A.03. Download packages
 
         ###

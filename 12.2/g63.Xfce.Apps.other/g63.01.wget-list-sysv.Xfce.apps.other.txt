@@ -1,0 +1,5 @@
+# 06.07 Mousepad-0.6.2
+https://archive.xfce.org/src/apps/mousepad/0.6/mousepad-0.6.2.tar.bz2
+
+# 41.12 xarchiver-0.5.4.23
+https://github.com/ib/xarchiver/archive/0.5.4.23/xarchiver-0.5.4.23.tar.gz
