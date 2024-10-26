@@ -1,0 +1,72 @@
+A. Preparation
+
+  A.01. ( Assumming XOrg is already running )
+
+        cd /sources
+
+  A.02. Copy all script files
+
+        copy all script files from the following to /sources
+
+            1. g62.Xfce.Apps
+
+        copy all script files to /sources
+
+  A.03. Download packages
+
+        ###
+
+        wget --input-file=g62.01.wget-list-sysv.Xfce.Apps.txt --continue --directory-prefix=/sources
+
+        ###
+
+        md5sum -c g62.02.md5sums.Xfce.Apps.txt
+
+        ###
+
+  A.04. Setting Up the Environment
+        ( Note: change the MAKEFLAGS based on the number of threads )
+
+        ###
+
+        export LFSLOG=/var/log/blfs
+
+        export MAKEFLAGS="-j$(nproc)"
+        export NPROC="$(nproc)"
+
+        ###
+        #   same as XOrg Environment
+        ###
+        export XORG_PREFIX="/usr"
+
+        export XORG_CONFIG="--prefix=$XORG_PREFIX --sysconfdir=/etc \
+                            --localstatedir=/var --disable-static"
+
+B.  Generate BLFS - Xfce Apps
+
+  B.01. Setup / Checking Environment - Part 1
+
+        ###
+
+        echo $XORG_PREFIX     # /usr
+        echo $XORG_CONFIG     # --prefix=/usr --sysconfdir=/etc --localstatedir=/var --disable-static
+        echo $LFSLOG          # /var/log/blfs
+        echo $MAKEFLAGS       # -j$(nproc)
+        echo $NPROC           # $(nproc)
+
+        echo $SHELL           # /bin/bash
+        ls -l /bin/sh         # bash
+        ls -l /usr/bin/awk    # gawk
+
+        cd /sources
+
+        ###
+
+        ( display )
+        root [ /sources ]#
+
+        ###
+
+        bash g62.04.all.sh
+
+        ###
