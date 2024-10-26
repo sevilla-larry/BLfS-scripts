@@ -94,20 +94,6 @@ echo "."
 
 ###
 
-echo "e11.09.45.libgudev-238"
-echo "e11.09.45.libgudev-238" >> $LFSLOG_PROCESS
-
-time { bash e11.09.45.libgudev-238.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
-
-###
-
 # echo "e11.10.24.librsvg-2.58.3"
 # echo "e11.10.24.librsvg-2.58.3" >> $LFSLOG_PROCESS
 

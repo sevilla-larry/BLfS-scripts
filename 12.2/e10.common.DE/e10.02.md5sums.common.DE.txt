@@ -1,5 +1,9 @@
 # 09.29 JSON-GLib-1.10.0
 4cff0304873cdc4064da2c8881e72b1b json-glib-1.10.0.tar.xz
+# 09.45 libgudev-238
+46da30a1c69101c3a13fa660d9ab7b73 libgudev-238.tar.xz
+# 09.69 libusb-1.0.27
+1fb61afe370e94f902a67e03eb39c51f libusb-1.0.27.tar.bz2
 # 09.71 libxkbcommon-1.7.0
 b05b1a0d473189efb2dd995dd944f152 libxkbcommon-1.7.0.tar.xz
 
@@ -15,6 +19,9 @@ f219d87c247957c97020a3859d8d6fa8 lcms2-2.16.tar.gz
 3a0fa4a270a4a192b08913f88d0cfbdd tiff-4.7.0.tar.gz
 # 10.27 libwebp-1.4.0
 07daaa13bef03b7be07f11977b159cb8 libwebp-1.4.0.tar.gz
+
+# 12.36 UPower-1.90.4
+2399845217a9c6e4510f66033fcd7cf6 upower-v1.90.4.tar.bz2
 
 # 13.37 yasm-1.3.0
 fc9e586751ff789b34b1f21d572d96af yasm-1.3.0.tar.gz

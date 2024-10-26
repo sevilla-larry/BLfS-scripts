@@ -13,4 +13,4 @@ bash e11.03.Group01.sh
 bash e11.03.Group03.sh
 
 # Xfce support apps
-# bash e21.03.Group01.sh	NONE
+ bash e21.03.Group01.sh

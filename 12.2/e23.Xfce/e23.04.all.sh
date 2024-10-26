@@ -163,7 +163,19 @@ echo "."
 echo "."
 
 ###
-#   xfce4-power-manager currently SKIPped
+
+echo "e23.35.12.xfce4-power-manager-4.18.4"
+echo "e23.35.12.xfce4-power-manager-4.18.4" >> $LFSLOG_PROCESS
+
+time { bash e23.35.12.xfce4-power-manager-4.18.4.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
 ###
 
 echo "e23.35.13.xfce4-settings-4.18.6"

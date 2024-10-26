@@ -10,7 +10,7 @@ caddd05c820f0fbae9d2acc5218fc7ed xfce4-panel-4.18.6.tar.bz2
 ### a0965931e78fe662ad134e63b1ab33b9 thunar-volman-4.18.0.tar.bz2
 576ff73eb77530b001e36d565544a7f6 tumbler-4.18.2.tar.bz2
 621d811f93b3edaac4a0205bc18ef5c5 xfce4-appfinder-4.18.1.tar.bz2
-# 35.11 xfce4-power-management initially eXcluded
+da60844080b55d3a9192e650f564c644 xfce4-power-manager-4.18.4.tar.bz2
 37a5f463b2b81ac74a09edbda8ed4fb0 xfce4-settings-4.18.6.tar.bz2
 e675c2989436dc724fef402d1db0125d xfdesktop-4.18.1.tar.bz2
 181415e457c86124fa5f8aa5d715b967 xfwm4-4.18.0.tar.bz2

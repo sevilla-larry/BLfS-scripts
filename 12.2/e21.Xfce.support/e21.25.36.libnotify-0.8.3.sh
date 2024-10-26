@@ -1,31 +1,36 @@
-# e11.25.03.at-spi2-core-2.52.0.sh
+# e21.25.36.libnotify-0.8.3.sh
 #
 
 #
 # Dependencies Required:
 #
-#               d10.12.10 dbus-1.14.10
+#               e11.25.17 GTK+-3.24.43
+#
+# Dependencies Optional:
+#
 #               d10.09.17 GLib-2.80.4
 #               d20.24.08 Xorg Libraries
 #
 # Dependencies Required Runtime:
 #
-#               e11.33.03 gsettings-desktop-schemas-46.1
+#               ???.36.06 xfce4-notifyd-0.9.6
 #
 
 #
 # Required by:
 #
-#               ???       GTK+-2.24.33  ???
-#               e11.25.17 GTK+-3.24.43
+#               e23.35.12 xfce4-power-manager-4.18.4
 #
-# Optional by:
+# Recommended by:
 #
-#               f22.26.02 lightdm-1.32.0
+#               e23.35.08 thunar-4.18.11
+#               e23.35.09 thunar-volman-4.18.0  ???
+#               e23.35.13 xfce4-settings-4.18.6
+#               e23.35.14 Xfdesktop-4.18.1
 #
 
-export PKG="at-spi2-core-2.52.0"
-export PKGLOG_DIR=$LFSLOG/25.03
+export PKG="libnotify-0.8.3"
+export PKGLOG_DIR=$LFSLOG/25.36
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
@@ -50,11 +55,12 @@ cd    build
 echo "2. Meson ..."
 echo "2. Meson ..." >> $LFSLOG_PROCESS
 echo "2. Meson ..." >> $PKGLOG_ERROR
-meson setup ..                  \
-      --prefix=/usr             \
-      --buildtype=release       \
-      -D systemd_user_dir=/tmp  \
-        > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+meson setup --prefix=/usr       \
+            --buildtype=release \
+            -D gtk_doc=false    \
+            -D man=false        \
+            ..                  \
+            > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Ninja Build ..."
 echo "3. Ninja Build ..." >> $LFSLOG_PROCESS
@@ -66,14 +72,10 @@ echo "4. Ninja Install ..." >> $LFSLOG_PROCESS
 echo "4. Ninja Install ..." >> $PKGLOG_ERROR
 ninja install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
-rm /tmp/at-spi-dbus-bus.service
-
-#Test needs to run in a graphical environment
-#
-#echo "5. Ninja Test ..."
-#echo "5. Ninja Test ..." >> $LFSLOG_PROCESS
-#echo "5. Ninja Test ..." >> $PKGLOG_ERROR
-#dbus-run-session ninja test > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
+if [ -e /usr/share/doc/libnotify ]; then
+  rm -vrf /usr/share/doc/libnotify-0.8.3
+  mv -v   /usr/share/doc/libnotify{,-0.8.3}
+fi
 
 
 cd ..

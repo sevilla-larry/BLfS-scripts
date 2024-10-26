@@ -5,48 +5,6 @@ export LFSLOG_PROCESS=$LFSLOG/process.log
 
 #####
 
-echo "e10.09.29.JSON-GLib-1.10.0"
-echo "e10.09.29.JSON-GLib-1.10.0" >> $LFSLOG_PROCESS
-
-time { bash e10.09.29.JSON-GLib-1.10.0.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
-
-###
-
-echo "e10.10.06.FriBidi-1.0.15"
-echo "e10.10.06.FriBidi-1.0.15" >> $LFSLOG_PROCESS
-
-time { bash e10.10.06.FriBidi-1.0.15.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
-
-###
-
-echo "e10.10.18.libjpeg-turbo-3.0.1"
-echo "e10.10.18.libjpeg-turbo-3.0.1" >> $LFSLOG_PROCESS
-
-time { bash e10.10.18.libjpeg-turbo-3.0.1.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
-
-###
-
 # echo "e10.10.26.libtiff-4.7.0"
 # echo "e10.10.26.libtiff-4.7.0" >> $LFSLOG_PROCESS
 
@@ -121,6 +79,20 @@ echo "e10.25.38.Pango-1.54.0"
 echo "e10.25.38.Pango-1.54.0" >> $LFSLOG_PROCESS
 
 time { bash e10.25.38.Pango-1.54.0.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "e10.12.36.UPower-1.90.4"
+echo "e10.12.36.UPower-1.90.4" >> $LFSLOG_PROCESS
+
+time { bash e10.12.36.UPower-1.90.4.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

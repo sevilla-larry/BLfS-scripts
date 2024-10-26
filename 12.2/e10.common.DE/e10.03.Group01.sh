@@ -22,17 +22,59 @@ echo "."
 
 ###
 
-# echo "e10.22.05.SQLite-3.46.1"
-# echo "e10.22.05.SQLite-3.46.1" >> $LFSLOG_PROCESS
+echo "e10.22.05.SQLite-3.46.1"
+echo "e10.22.05.SQLite-3.46.1" >> $LFSLOG_PROCESS
 
-# time { bash e10.22.05.SQLite-3.46.1.sh ; }
+time { bash e10.22.05.SQLite-3.46.1.sh ; }
 
-# date +"%Y/%b/%d %H:%M"
-# date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
-# echo "." >> $LFSLOG_PROCESS
-# echo "."
-# echo "."
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "e10.09.29.JSON-GLib-1.10.0"
+echo "e10.09.29.JSON-GLib-1.10.0" >> $LFSLOG_PROCESS
+
+time { bash e10.09.29.JSON-GLib-1.10.0.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "e10.09.45.libgudev-238"
+echo "e10.09.45.libgudev-238" >> $LFSLOG_PROCESS
+
+time { bash e10.09.45.libgudev-238.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "e10.09.69.libusb-1.0.27"
+echo "e10.09.69.libusb-1.0.27" >> $LFSLOG_PROCESS
+
+time { bash e10.09.69.libusb-1.0.27.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
 
 ###
 
@@ -50,10 +92,38 @@ echo "."
 
 ###
 
+echo "e10.10.06.FriBidi-1.0.15"
+echo "e10.10.06.FriBidi-1.0.15" >> $LFSLOG_PROCESS
+
+time { bash e10.10.06.FriBidi-1.0.15.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
 echo "e10.10.16.libexif-0.6.24"
 echo "e10.10.16.libexif-0.6.24" >> $LFSLOG_PROCESS
 
 time { bash e10.10.16.libexif-0.6.24.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "e10.10.18.libjpeg-turbo-3.0.1"
+echo "e10.10.18.libjpeg-turbo-3.0.1" >> $LFSLOG_PROCESS
+
+time { bash e10.10.18.libjpeg-turbo-3.0.1.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
