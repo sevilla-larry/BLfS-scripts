@@ -1,6 +1,4 @@
-# b13.09.00.sh
-#
-# General Libraries
+# c13.03.1.support.sh
 #
 
 export LFSLOG_PROCESS=$LFSLOG/process.log

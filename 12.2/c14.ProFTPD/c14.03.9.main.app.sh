@@ -1,6 +1,6 @@
-# c12.22.00.sh
+# c14.03.9.main.app.sh
 #
-# Databases
+# Major Servers
 #
 
 export LFSLOG_PROCESS=$LFSLOG/process.log
@@ -10,10 +10,10 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
 #####
 
-echo "c12.22.04.PostgreSQL-16.4"
-echo "c12.22.04.PostgreSQL-16.4" >> $LFSLOG_PROCESS
+echo "20.04.ProFTPD-1.3.8b"
+echo "20.04.ProFTPD-1.3.8b" >> $LFSLOG_PROCESS
 
-time { bash c12.22.04.PostgreSQL-16.4.sh ; }
+time { bash c14.20.04.ProFTPD-1.3.8b.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

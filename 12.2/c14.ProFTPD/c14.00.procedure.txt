@@ -113,7 +113,7 @@ C.  Generate BLFS
 
         ###
 
-        bash c14.20.00.sh
+        bash c14.03.9.main.app.sh
 
         ###
 

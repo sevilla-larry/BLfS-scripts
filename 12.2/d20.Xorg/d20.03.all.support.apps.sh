@@ -26,7 +26,7 @@ bash d10.03.Group04.sh
 ###
 
 # icu & libxml
-bash b10.09.00.sh
+bash b10.03.sh
 
 # duktape & libxslt
 bash d10.03.Group05.sh
@@ -34,11 +34,9 @@ bash d10.03.Group05.sh
 ###
 
 # libunistring & libidn2
-bash b11.09.00.sh
 # libpsl & cURL
-bash b11.17.00.sh
 # CMake
-bash b11.13.00.sh
+bash b11.03.sh
 
 # LLVM
 bash d10.03.Group06.sh
@@ -46,7 +44,7 @@ bash d10.03.Group06.sh
 ###
 
 # PCRE2
-bash b15.09.00.sh
+bash b15.03.sh
 
 # GLib
 bash d10.03.Group07.sh

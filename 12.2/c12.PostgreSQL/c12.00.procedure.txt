@@ -94,7 +94,7 @@ B.  Generate BLFS - Support Files
 
         ###
 
-        bash c12.03.all.support.apps.sh
+        bash c12.03.8.all.support.apps.sh
 
         ###
 
@@ -104,7 +104,7 @@ C.  Generate BLFS
 
         ###
 
-        bash c12.22.00.sh
+        bash c12.03.9.main.app.sh
 
         ###
         #
