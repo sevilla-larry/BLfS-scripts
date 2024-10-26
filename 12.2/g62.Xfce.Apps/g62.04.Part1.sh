@@ -1,4 +1,4 @@
-# g62.04.all.sh
+# g62.04.Part1.sh
 #
 # Xfce Applications
 #

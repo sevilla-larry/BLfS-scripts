@@ -74,6 +74,8 @@ B.  Generate BLFS - Xfce Apps
 
         ###
 
-        bash g62.04.all.sh
+        bash g62.04.Part1.sh    # basic Apps
+        #bash g62.04.Part2.sh    # Firefox
+        #bash g62.04.Part3.sh    # LibreOffice
 
         ###
