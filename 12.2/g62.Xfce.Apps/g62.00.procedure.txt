@@ -27,7 +27,7 @@ A. Preparation
         md5sum -c g11.02.md5sums.common.Xfce.Gnome.apps.support.txt
         md5sum -c g12.02.md5sums.common.Xfce.Gnome.Apps.txt
         md5sum -c g62.02.md5sums.Xfce.Apps.txt
-        md5sum -c g62.02.md5sums.Xfce.Apps.txt
+        md5sum -c g63.02.md5sums.Xfce.apps.other.txt
 
         ###
 
