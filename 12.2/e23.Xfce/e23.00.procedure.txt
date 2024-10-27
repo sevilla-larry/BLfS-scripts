@@ -12,6 +12,7 @@ A. Preparation
             2. e11.common.Xfce.Gnome
             3. e21.Xfce.support
             4. e23.Xfce
+            5. f21.LightDM
 
   A.03. Download packages
 
@@ -21,6 +22,7 @@ A. Preparation
         wget --input-file=e11.01.wget-list-sysv.common.Xfce.Gnome.txt   --continue --directory-prefix=/sources
         wget --input-file=e21.01.wget-list-sysv.Xfce.support.txt        --continue --directory-prefix=/sources
         wget --input-file=e23.01.wget-list-sysv.Xfce.txt                --continue --directory-prefix=/sources
+        wget --input-file=f21.01.wget-list-sysv.LightDM.txt             --continue --directory-prefix=/sources
 
         ###
 
@@ -28,6 +30,7 @@ A. Preparation
         md5sum -c e11.02.md5sums.common.Xfce.Gnome.txt
         md5sum -c e21.02.md5sums.Xfce.support.txt
         md5sum -c e23.02.md5sums.Xfce.txt
+        md5sum -c f21.02.md5sums.LightDM.txt
 
         ###
 
