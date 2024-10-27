@@ -1,3 +1,0 @@
-# 26.02 lightdm-1.32.0
-e62a5da6c35f612e4d9575eda5c8d467 lightdm-1.32.0.tar.xz
-35752d730f39293c2bbe884ef6963830 lightdm-gtk-greeter-2.0.9.tar.gz

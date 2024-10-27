@@ -18,3 +18,7 @@ e675c2989436dc724fef402d1db0125d xfdesktop-4.18.1.tar.bz2
 
 # 36.03 xfce4-terminal-1.1.3
 8c986841d70c7480e8bd928466b8cdc2 xfce4-terminal-1.1.3.tar.bz2
+# 36.05 xfce4-dev-tools-4.18.1
+69b4cd255a0b8f12bbdc9b10c433b223 xfce4-dev-tools-4.18.1.tar.bz2
+# 36.06 xfce4-notifyd-0.9.6
+1640c56ec1062dc46b5691eab12db9b6 xfce4-notifyd-0.9.6.tar.bz2

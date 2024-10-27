@@ -90,7 +90,21 @@ C.  Generate BLFS - Xfce
 
         ###
 
-  C.02. [BLFS 35] Xfce Desktop - runtime without DM
+  C.02. [BLFS 26] LightDM bootscripts
+
+        ###
+
+        cd /mnt/Src/lfs.src/blfs-bootscripts-20240416       # VM/VB
+        cd /usr/src/lfs/blfs-bootscripts-20240416           # PC
+
+        make install-lightdm
+
+        cp -v /etc/inittab{,-orig}
+        sed -i '/initdefault/ s/3/5/' /etc/inittab
+
+        ###
+
+  C.03. [BLFS] Xfce Desktop - startup
 
         ###
 
@@ -103,23 +117,5 @@ C.  Generate BLFS - Xfce
         EOF
 
         sudo reboot
-
-        ###
-
-        startx
-
-        # in case of error
-        #
-        # cat > ~/.xinitrc << "EOF"
-        # dbus-launch startxfce4
-        # EOF
-        #
-        # startx
-
-        ### Last Option: so far working
-        #
-        # as user or root
-        #
-        # startxfce4
 
         ###

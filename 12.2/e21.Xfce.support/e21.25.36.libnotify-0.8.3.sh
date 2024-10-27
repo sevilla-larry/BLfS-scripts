@@ -13,7 +13,7 @@
 #
 # Dependencies Required Runtime:
 #
-#               ???.36.06 xfce4-notifyd-0.9.6
+#               e23.36.06 xfce4-notifyd-0.9.6
 #
 
 #
