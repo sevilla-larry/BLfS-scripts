@@ -41,7 +41,7 @@ echo "."
 echo "e23.36.06.xfce4-notifyd-0.9.6"
 echo "e23.36.06.xfce4-notifyd-0.9.6" >> $LFSLOG_PROCESS
 
-time { bash e23e23.36.06.xfce4-notifyd-0.9.6.sh ; }
+time { bash e23.36.06.xfce4-notifyd-0.9.6.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
