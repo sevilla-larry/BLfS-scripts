@@ -112,7 +112,7 @@
 #		g11 - Common Xfce & Gnome Applications Support
 #		g12 - Common Xfce & Gnome Applications
 #
-#		g62 - Xfce Applications
+#	(	g62 - Xfce Applications	) included in e23.Xfce
 #
 
 
