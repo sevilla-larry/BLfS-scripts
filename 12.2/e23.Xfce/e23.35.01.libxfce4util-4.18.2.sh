@@ -6,6 +6,10 @@
 #
 #               d10.09.17 GLib-2.80.4
 #
+# Dependencies Recommended:
+#
+#               e11.13.35 Vala-0.56.17
+#
 
 #
 # Required by:

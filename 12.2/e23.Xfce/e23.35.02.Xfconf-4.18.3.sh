@@ -6,6 +6,10 @@
 #
 #               e23.35.01 libxfce4util-4.18.2
 #
+# Dependencies Optional:
+#
+#               e11.13.35 Vala-0.56.17
+#
 
 #
 # Required by:

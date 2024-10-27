@@ -11,6 +11,10 @@
 #               d10.09.17 GLib-2.80.4
 #               b10.09.72 libxml2-2.13.3
 #
+# Dependencies Optional (but Required):
+#
+#               e11.13.35 Vala-0.56.17
+#
 # Dependencies Optional:
 #
 #               f21.49.05 itstool-2.0.7

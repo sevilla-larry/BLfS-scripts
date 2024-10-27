@@ -6,6 +6,11 @@
 #
 #               e21.25.17 GTK+-3.24.43
 #
+# Dependencies Recommended:
+#
+#               e11.13.35 Vala-0.56.17
+#
+
 #
 # Required by:
 #

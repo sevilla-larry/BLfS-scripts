@@ -1,4 +1,4 @@
-# g11.03.Group1.sh
+# g11.03.1.sh
 #
 
 export LFSLOG_PROCESS=$LFSLOG/process.log
