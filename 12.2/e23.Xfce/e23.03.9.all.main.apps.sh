@@ -8,4 +8,4 @@ bash e23.03.1.Part1.Xfce.DE.sh
 bash e23.03.1.Part2.Xfce.Apps.sh
 
 # Display Manager / lightDM
-bash f21.03.sh
+bash f2.03.sh

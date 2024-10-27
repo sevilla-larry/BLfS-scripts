@@ -21,9 +21,7 @@
 #
 # d20: Xorg			- working
 #
-# e23: Xfce			- working
-#
-# f22: LightDM		- working
+# e23: Xfce	with LightDM	- working
 #
 #
 #
@@ -102,17 +100,11 @@
 #
 # Group f - Display Manager
 #
-#       f00	- Common to DM's
-#
-#		f11	- GDM Support
-#		f12	- GDM
-#
-#		f21	- LightDM Support
-#       f22	- LightDM
-#
-#       f32	- SDDM
-#
-#       f4x	- LXDM			??? (from 11.3)	???
+#       f0	- Common to DM's
+#		f1	- GDM
+#		f2	- LightDM			built in e23.Xfce
+#       f3	- SDDM
+#       f4	- LXDM			??? (from 11.3)	???
 #
 #
 # Group g - Xorg Applications
