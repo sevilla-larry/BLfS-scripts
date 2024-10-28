@@ -8,6 +8,20 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
 #####
 
+echo "b11.17.07.libevent-2.1.12"
+echo "b11.17.07.libevent-2.1.12" >> $LFSLOG_PROCESS
+
+time { bash b11.17.07.libevent-2.1.12.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
 echo "b11.09.66.libunistring-1.2"
 echo "b11.09.66.libunistring-1.2" >> $LFSLOG_PROCESS
 

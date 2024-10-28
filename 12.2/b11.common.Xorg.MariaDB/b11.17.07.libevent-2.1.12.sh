@@ -1,10 +1,11 @@
-# c11.17.07.libevent-2.1.12.sh
+# b11.17.07.libevent-2.1.12.sh
 #
 
 #
 # Recommended by:
 #
 #               c11.22.03 MariaDB-10.11.8
+#               g63.40.03 Firefox-128.1.0esr
 #
 
 export PKG="libevent-2.1.12-stable"
