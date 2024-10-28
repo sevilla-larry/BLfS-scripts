@@ -60,9 +60,9 @@ echo "2. Configure ..." >> $PKGLOG_ERROR
 ./configure --prefix=/usr                   \
             --disable-static                \
             --with-openssl                  \
+            --enable-threaded-resolver      \
             --with-ca-path=/etc/ssl/certs   \
             > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
-#            --enable-threaded-resolver      \
 
 echo "3. Make Build ..."
 echo "3. Make Build ..." >> $LFSLOG_PROCESS
