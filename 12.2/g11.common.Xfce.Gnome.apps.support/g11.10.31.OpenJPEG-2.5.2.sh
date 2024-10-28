@@ -12,6 +12,12 @@
 #               d10.10.22 libpng-1.6.43
 #
 
+#
+# Required by:
+#
+#               g12.34.04 Evince-46.3.1
+#
+
 export PKG="openjpeg-2.5.2"
 export PKGLOG_DIR=$LFSLOG/10.31
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log

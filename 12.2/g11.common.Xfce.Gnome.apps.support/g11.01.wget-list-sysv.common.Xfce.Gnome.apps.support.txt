@@ -1,5 +1,8 @@
 # 10.31 OpenJPEG-2.5.2
 https://github.com/uclouvain/openjpeg/archive/v2.5.2/openjpeg-2.5.2.tar.gz
+# 10.33 Poppler-24.08.0
+https://poppler.freedesktop.org/poppler-24.08.0.tar.xz
+https://poppler.freedesktop.org/poppler-data-0.4.12.tar.gz
 
 # 25.23 gtksourceview4-4.8.4
 https://download.gnome.org/sources/gtksourceview/4.8/gtksourceview-4.8.4.tar.xz

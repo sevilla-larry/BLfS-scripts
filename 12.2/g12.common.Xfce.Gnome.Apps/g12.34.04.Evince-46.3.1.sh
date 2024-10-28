@@ -16,6 +16,10 @@
 #
 #               d10.09.17 GLib-2.80.4
 #
+# Dependencies Recommended ( but needed ):
+#
+#               e11.10.33 Poppler-24.08.0
+#
 
 export PKG="evince-46.3.1"
 export PKGLOG_DIR=$LFSLOG/34.04

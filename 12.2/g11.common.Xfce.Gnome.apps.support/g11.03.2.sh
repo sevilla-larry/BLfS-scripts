@@ -34,6 +34,20 @@ echo "." >> $LFSLOG_PROCESS
 echo "."
 echo "."
 
+###
+
+echo "g11.10.33.Poppler-24.08.0"
+echo "g11.10.33.Poppler-24.08.0" >> $LFSLOG_PROCESS
+
+time { bash g11.10.33.Poppler-24.08.0.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
 #####
 
 unset LFSLOG_PROCESS
