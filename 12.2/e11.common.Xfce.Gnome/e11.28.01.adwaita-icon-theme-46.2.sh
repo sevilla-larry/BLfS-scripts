@@ -65,6 +65,7 @@ ninja install   >> $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 
 cd ..
+cd ..
 rm -rf $PKG
 unset LFSLOG_PROCESS
 unset PKGLOG_INSTALL PKGLOG_BUILD PKGLOG_CONFIG

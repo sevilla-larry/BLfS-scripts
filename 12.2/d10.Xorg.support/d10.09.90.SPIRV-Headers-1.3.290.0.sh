@@ -58,7 +58,8 @@ ninja install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 cd ..
 cd ..
-rm -rf $PKG
+rm -rf SPIRV-Headers-vulkan-sdk-1.3.290.0
+#rm -rf $PKG
 unset LFSLOG_PROCESS
 #unset PKGLOG_OTHERS
 unset PKGLOG_INSTALL PKGLOG_BUILD PKGLOG_CONFIG

@@ -66,6 +66,7 @@ cp -rv ../doc/man -T /usr/share/man \
 
 
 cd ..
+cd ..
 rm -rf $PKG
 unset LFSLOG_PROCESS
 unset PKGLOG_INSTALL PKGLOG_BUILD PKGLOG_CONFIG

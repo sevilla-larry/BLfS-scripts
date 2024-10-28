@@ -55,7 +55,7 @@ make install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 
 cd ..
-rm -rf $PKG
+rm -rf $PKGdir
 unset LFSLOG_PROCESS
 unset PKGLOG_INSTALL PKGLOG_BUILD PKGLOG_CONFIG
 unset PKGLOG_CHECK

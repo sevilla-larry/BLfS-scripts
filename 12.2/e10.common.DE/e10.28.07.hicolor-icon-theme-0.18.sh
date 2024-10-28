@@ -61,7 +61,7 @@ echo "4. Ninja Install ..." >> $PKGLOG_ERROR
 ninja install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 
-
+cd ..
 cd ..
 rm -rf $PKG
 unset LFSLOG_PROCESS
