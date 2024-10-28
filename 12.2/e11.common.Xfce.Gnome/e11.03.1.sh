@@ -24,6 +24,34 @@ echo "."
 
 ###
 
+echo "e11.09.63.libssh2-1.11.0"
+echo "e11.09.63.libssh2-1.11.0" >> $LFSLOG_PROCESS
+
+time { bash e11.09.63.libssh2-1.11.0.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "e11.13.26.Rustc-1.80.1"
+echo "e11.13.26.Rustc-1.80.1" >> $LFSLOG_PROCESS
+
+time { bash e11.13.26.Rustc-1.80.1.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
 # echo "e11.04.16.Nettle-3.10"
 # echo "e11.04.16.Nettle-3.10" >> $LFSLOG_PROCESS
 

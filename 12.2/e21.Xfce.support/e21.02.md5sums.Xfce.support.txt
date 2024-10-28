@@ -1,2 +1,4 @@
 # 25.36 libnotify-0.8.3
 952e55f45067b6a5b9eab4310c9cd658 libnotify-0.8.3.tar.xz
+# 25.44 startup-notification-0.12
+2cd77326d4dcaed9a5a23a1232fb38e9 startup-notification-0.12.tar.gz

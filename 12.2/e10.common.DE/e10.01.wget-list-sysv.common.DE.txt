@@ -23,6 +23,9 @@ https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1
 # 12.36 UPower-1.90.4
 https://gitlab.freedesktop.org/upower/upower/-/archive/v1.90.4/upower-v1.90.4.tar.bz2
 
+# 13.16 NASM-2.16.03
+https://www.nasm.us/pub/nasm/releasebuilds/2.16.03/nasm-2.16.03.tar.xz
+https://www.nasm.us/pub/nasm/releasebuilds/2.16.03/nasm-2.16.03-xdoc.tar.xz
 # 13.37 yasm-1.3.0
 https://www.tortall.net/projects/yasm/releases/yasm-1.3.0.tar.gz
 
