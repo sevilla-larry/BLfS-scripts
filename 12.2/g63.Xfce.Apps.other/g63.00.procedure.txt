@@ -10,8 +10,7 @@ A. Preparation
 
             1. g11.common.Xfce.Gnome.apps.support
             2. g12.common.Xfce.Gnome.Apps
-            3. g62.Xfce.Apps
-            4. g63.Xfce.Apps.other
+            3. g63.Xfce.Apps.other
 
   A.03. Download packages
 
@@ -19,14 +18,12 @@ A. Preparation
 
         wget --input-file=g11.01.wget-list-sysv.common.Xfce.Gnome.apps.support.txt  --continue --directory-prefix=/sources
         wget --input-file=g12.01.wget-list-sysv.common.Xfce.Gnome.Apps.txt          --continue --directory-prefix=/sources
-        wget --input-file=g62.01.wget-list-sysv.Xfce.Apps.txt                       --continue --directory-prefix=/sources
         wget --input-file=g63.01.wget-list-sysv.Xfce.apps.other.txt                 --continue --directory-prefix=/sources
 
         ###
 
         md5sum -c g11.02.md5sums.common.Xfce.Gnome.apps.support.txt
         md5sum -c g12.02.md5sums.common.Xfce.Gnome.Apps.txt
-        md5sum -c g62.02.md5sums.Xfce.Apps.txt
         md5sum -c g63.02.md5sums.Xfce.apps.other.txt
 
         ###
@@ -74,8 +71,9 @@ B.  Generate BLFS - Xfce Apps
 
         ###
 
-        bash g62.04.Part1.sh    # basic Apps
-        #bash g62.04.Part2.sh    # Firefox
-        #bash g62.04.Part3.sh    # LibreOffice
+        bash g63.03.8.all.support.apps.sh
+        bash g63.03.9.1.main.apps.sh      # basic Apps
+        #bash g63.03.9.2.main.apps.sh      # Firefox
+        #bash g63.03.9.3.main.apps.sh      # LibreOffice
 
         ###
