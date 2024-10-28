@@ -29,6 +29,7 @@
 # Optional by:
 #
 #               d10.10.05 Fontconfig-2.15.0
+#               g12.40.03 Firefox-128.3.1esr
 #
 
 export PKG="curl-8.10.1"

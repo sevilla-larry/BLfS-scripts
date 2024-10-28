@@ -13,6 +13,7 @@
 # Recommended by:
 #
 #               e12.25.42 Qt-6.7.2
+#               g12.40.03 Firefox-128.3.1esr
 #
 
 export PKG="libwebp-1.4.0"

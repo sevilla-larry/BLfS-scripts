@@ -12,6 +12,10 @@
 #
 
 #
+# Required by:
+#
+#               g12.40.03 Firefox-128.3.1esr
+#
 # Recommended ( but needed ) by:
 #
 #               d20.24.16 Mesa-24.1.5 ( PC )

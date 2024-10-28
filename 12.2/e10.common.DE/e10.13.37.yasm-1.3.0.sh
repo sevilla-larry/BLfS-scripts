@@ -6,6 +6,10 @@
 #
 #               e21.10.18 libjpeg-turbo-3.0.1
 #
+# Optionally by:
+#
+#               g12.40.03 Firefox-128.3.1esr
+#
 
 export PKG="yasm-1.3.0"
 export PKGLOG_DIR=$LFSLOG/13.37

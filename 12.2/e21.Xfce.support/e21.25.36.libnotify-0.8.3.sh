@@ -20,6 +20,7 @@
 # Required by:
 #
 #               e23.35.12 xfce4-power-manager-4.18.4
+#               g12.40.03 Firefox-128.3.1esr
 #
 # Recommended by:
 #
