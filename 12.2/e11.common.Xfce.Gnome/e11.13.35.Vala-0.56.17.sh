@@ -15,16 +15,23 @@
 #
 # Recommended by:
 #
+#               e23.35.01 libxfce4util-4.18.2
+#               f2.26.02 lightdm-1.32.0
+#               g11.25.33 libhandy-1.8.3
 #               ???.37.04 libfm-1.3.2
-#               ???.26.02 lightdm-1.32.0
 #
 # Recommended ( but needed ) by:
 #
 #               e11.33.07 VTE-0.76.4
 #
+# Optionally ( but needed ) by:
+#
+#               e23.35.02 Xfconf-4.18.3
+#               g11.25.23 gtksourceview4-4.8.4
+#
 # Optionally by:
 #
-#               ???.25.42 libxklavier-5.4
+#               f2.25.37 libxklavier-5.4
 #
 
 export PKG="vala-0.56.17"
