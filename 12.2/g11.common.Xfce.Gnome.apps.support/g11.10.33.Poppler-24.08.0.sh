@@ -63,7 +63,7 @@ echo "4. Ninja Build ..." >> $PKGLOG_ERROR
 ninja > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 
 echo "5. Ninja Install ..."
-echo "5. Ninja Install ..." >> $LFSLOG_PROCESSs
+echo "5. Ninja Install ..." >> $LFSLOG_PROCESS
 echo "5. Ninja Install ..." >> $PKGLOG_ERROR
 ninja install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
