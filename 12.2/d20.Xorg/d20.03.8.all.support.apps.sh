@@ -5,6 +5,23 @@
 
 ###
 
+# icu & libxml
+bash b10.03.sh
+
+###
+
+# libunistring & libidn2
+# libpsl & cURL
+# CMake
+bash b11.03.sh
+
+###
+
+# PCRE2
+bash b15.03.sh
+
+###
+
 # Git
 # elogind
 # UnZip
@@ -18,30 +35,13 @@ bash d10.03.02.sh
 
 ###
 
-# icu & libxml
-bash b10.03.sh
-
-###
-
 # libxslt
 bash d10.03.03.sh
 
 ###
 
-# libunistring & libidn2
-# libpsl & cURL
-# CMake
-bash b11.03.sh
-
-###
-
 # LLVM
 bash d10.03.04.sh
-
-###
-
-# PCRE2
-bash b15.03.sh
 
 ###
 
