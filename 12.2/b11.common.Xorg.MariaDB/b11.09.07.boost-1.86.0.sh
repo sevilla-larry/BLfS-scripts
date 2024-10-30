@@ -53,6 +53,9 @@ echo "3. B2 Build ..." >> $PKGLOG_ERROR
 ./b2 stage $MAKEFLAGS threading=multi link=shared   \
          > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 
+#
+# Note this test hangs on VMs
+# VB so far working
 echo "4. Regression Tests ..."
 echo "4. Regression Tests ..." >> $LFSLOG_PROCESS
 echo "4. Regression Tests ..." >> $PKGLOG_ERROR
