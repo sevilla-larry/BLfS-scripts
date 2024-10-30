@@ -19,7 +19,7 @@
 #
 # Required by:
 #
-#               ???.13.27 Rustc-1.71.1  ???
+#               e11.13.26 Rustc-1.80.1
 #
 # Recommended by:
 #
