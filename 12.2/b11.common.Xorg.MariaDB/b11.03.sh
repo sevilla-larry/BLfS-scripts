@@ -8,10 +8,10 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
 #####
 
-echo "c11.09.07.boost-1.86.0"
-echo "c11.09.07.boost-1.86.0" >> $LFSLOG_PROCESS
+echo "b11.09.07.boost-1.86.0"
+echo "b11.09.07.boost-1.86.0" >> $LFSLOG_PROCESS
 
-time { bash c11.09.07.boost-1.86.0.sh ; }
+time { bash b11.09.07.boost-1.86.0.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
