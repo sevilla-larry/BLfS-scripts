@@ -1,14 +1,14 @@
-# b11.09.49 libidn2-2.3.7
+# 09.49 libidn2-2.3.7
 https://ftp.gnu.org/gnu/libidn/libidn2-2.3.7.tar.gz
-
-# b11.09.66 libunistring-1.2
+# 09.66 libunistring-1.2
 https://ftp.gnu.org/gnu/libunistring/libunistring-1.2.tar.xz
 
-# b11.13.03 CMake-3.30.2
+# 13.03 CMake-3.30.2
 https://cmake.org/files/v3.30/cmake-3.30.2.tar.gz
 
-# b11.17.02 cURL-8.10.1
+# 17.02 cURL-8.10.1
 https://curl.se/download/curl-8.10.1.tar.xz
-
-# b11.17.14 libpsl-0.21.5
+# 17.07 libevent-2.1.12
+https://github.com/libevent/libevent/releases/download/release-2.1.12-stable/libevent-2.1.12-stable.tar.gz
+# 17.14 libpsl-0.21.5
 https://github.com/rockdaboot/libpsl/releases/download/0.21.5/libpsl-0.21.5.tar.gz

@@ -1,5 +1,7 @@
 # g11.03.1.sh
 #
+# Mousepad support apps
+#
 
 export LFSLOG_PROCESS=$LFSLOG/process.log
 

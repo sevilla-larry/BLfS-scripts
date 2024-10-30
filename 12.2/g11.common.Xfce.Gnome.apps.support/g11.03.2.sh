@@ -1,5 +1,7 @@
 # g11.03.2.sh
 #
+# Evince support apps
+#
 
 export LFSLOG_PROCESS=$LFSLOG/process.log
 

@@ -6,3 +6,4 @@
 # common support of other apps of Xfce & Gnome
 bash g11.03.1.sh
 bash g11.03.2.sh
+bash g11.03.3.sh
