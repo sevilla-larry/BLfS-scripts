@@ -1,2 +1,5 @@
 # 34.04 Evince-46.3.1
 https://download.gnome.org/sources/evince/46/evince-46.3.1.tar.xz
+
+# 40.03 Firefox-128.3.1esr
+https://archive.mozilla.org/pub/firefox/releases/128.3.1esr/source/firefox-128.3.1esr.source.tar.xz

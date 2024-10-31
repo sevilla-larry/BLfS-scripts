@@ -1,4 +1,4 @@
-# g12.03.sh
+# g12.03.3.sh
 #
 
 export LFSLOG_PROCESS=$LFSLOG/process.log
@@ -8,10 +8,10 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
 #####
 
-echo "g12.34.04.Evince-46.3.1"
-echo "g12.34.04.Evince-46.3.1" >> $LFSLOG_PROCESS
+echo "g12.40.03.Firefox-128.3.1esr"
+echo "g12.40.03.Firefox-128.3.1esr" >> $LFSLOG_PROCESS
 
-time { bash g12.34.04.Evince-46.3.1.sh ; }
+time { bash g12.40.03.Firefox-128.3.1esr.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

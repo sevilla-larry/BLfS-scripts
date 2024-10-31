@@ -1,2 +1,5 @@
 # 34.04 Evince-46.3.1
 e017e3544751c2442020f4d10a39e24d evince-46.3.1.tar.xz
+
+# 40.03 Firefox-128.3.1esr
+8d2e8b9115580dcbdeafeee60699ec81 firefox-128.3.1esr.source.tar.xz

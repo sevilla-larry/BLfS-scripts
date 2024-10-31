@@ -1,5 +1,5 @@
-# g11.13.21.Python-3.12.7.sh
-# svn due to errata of Firefox
+# g11.13.21.Python-3.13.0.sh
+# errata
 #
 # re-compile Python after SQLite
 # as required by Firefox
@@ -18,7 +18,7 @@
 #
 
 
-export PKG="Python-3.12.7"
+export PKG="Python-3.13.0"
 export PKGLOG_DIR=$LFSLOG/13.21
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
@@ -75,20 +75,15 @@ make install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 echo "   Install the documentation..."
 echo "   Install the documentation..." >> $LFSLOG_PROCESS
 echo "   Install the documentation..." >> $PKGLOG_ERROR
-install -v -dm755 /usr/share/doc/python-3.12.7/html \
+install -v -dm755 /usr/share/doc/python-3.13.0/html \
     >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
 
 tar --strip-components=1                            \
     --no-same-owner                                 \
     --no-same-permissions                           \
-    -C /usr/share/doc/python-3.12.7/html            \
-    -xvf ../python-3.12.7-docs-html.tar.bz2         \
+    -C /usr/share/doc/python-3.13.0/html            \
+    -xvf ../python-3.13.0-docs-html.tar.bz2         \
     >> $PKGLOG_TAR 2>> $PKGLOG_ERROR
-
-ln -svfn python-3.12.7 /usr/share/doc/python-3      \
-    >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
-
-export PYTHONDOCS=/usr/share/doc/python-3/html
 
 
 cd ..
