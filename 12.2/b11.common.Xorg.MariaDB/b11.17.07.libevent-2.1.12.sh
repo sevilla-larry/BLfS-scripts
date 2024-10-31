@@ -7,6 +7,10 @@
 #               c11.22.03 MariaDB-10.11.8
 #               g63.40.03 Firefox-128.1.0esr
 #
+# Optionally by:
+#
+#               g11.17.20 nghttp2-1.64.0
+#
 
 export PKG="libevent-2.1.12-stable"
 export PKGLOG_DIR=$LFSLOG/17.07

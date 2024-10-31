@@ -1,7 +1,6 @@
-# 04.01 c-ares-1.34.2
-ec8bf334616de82f740e01cfb7176c23 c-ares-1.34.2.tar.gz
 # 04.17 NSS-3.106
 5beed92d43d33b03faf0ec5efd44d1b0 nss-3.106.tar.gz
+#patch
 
 # 09.08 brotli-1.1.0
 3a6a3dba82a3604792d3cb0bd41bca60 brotli-1.1.0.tar.gz
@@ -21,6 +20,11 @@ f9ee64845881a15109ed0aa73a12202f openjpeg-2.5.2.tar.gz
 # 13.21 Python-3.12.7
 c6c933c1a0db52597cb45a7910490f93 Python-3.12.7.tar.xz
 dc8310645d00143661062779196e551e python-3.12.7-docs-html.tar.bz2
+
+# 17.01 c-ares-1.34.2
+ec8bf334616de82f740e01cfb7176c23 c-ares-1.34.2.tar.gz
+# 17.20 nghttp2-1.64.0
+0cf8f819f4b717de7dde9f8164d0b466 nghttp2-1.64.0.tar.xz
 
 # 25.23 gtksourceview4-4.8.4
 2bf056caaae27654ec3a5930dd5597d3 gtksourceview-4.8.4.tar.xz

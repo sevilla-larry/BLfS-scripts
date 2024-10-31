@@ -1,5 +1,17 @@
-# g11.09.70.libuv-1.49.2.sh
+# g11.17.20.nghttp2-1.64.0.sh
 # svn due to errata of Firefox
+#
+
+#
+# Dependencies Required:
+#
+#               b10.09.72 libxml2-2.13.3
+#
+# Dependencies Optional:
+#
+#               b11.09.07 boost-1.86.0
+#               g11.17.01 c-ares-1.34.2
+#               b11.17.07 libevent-2.1.12
 #
 
 #
@@ -8,8 +20,8 @@
 #               g11.09.80 Node.js-20.18.0 (svn)
 #
 
-export PKG="libuv-v1.49.2"
-export PKGLOG_DIR=$LFSLOG/09.70
+export PKG="nghttp2-1.64.0"
+export PKGLOG_DIR=$LFSLOG/17.20
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
@@ -24,17 +36,18 @@ mkdir $PKGLOG_DIR
 echo "1. Extract tar..."
 echo "1. Extract tar..." >> $LFSLOG_PROCESS
 echo "1. Extract tar..." >> $PKGLOG_ERROR
-tar xvf $PKG.tar.gz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
+tar xvf $PKG.tar.xz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
 
 
 echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
 echo "2. Configure ..." >> $PKGLOG_ERROR
-sh autogen.sh > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 ./configure --prefix=/usr       \
             --disable-static    \
-            >> $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+            --enable-lib-only   \
+            --docdir=/usr/share/doc/nghttp2-1.64.0  \
+            > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Make Build ..."
 echo "3. Make Build ..." >> $LFSLOG_PROCESS
