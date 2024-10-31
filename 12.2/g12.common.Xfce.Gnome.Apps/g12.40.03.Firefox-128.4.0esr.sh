@@ -1,4 +1,4 @@
-# g12.40.03.Firefox-128.3.1esr.sh
+# g12.40.03.Firefox-128.4.0esr.sh
 #
 
 #
@@ -29,7 +29,7 @@
 #               e10.13.37 yasm-1.3.0
 #
 
-export PKG="firefox-128.3.1"
+export PKG="firefox-128.4.0"
 export PKG0=$PKG"esr.source"
 export PKGLOG_DIR=$LFSLOG/40.03
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
@@ -142,8 +142,11 @@ EOF
 # ICU was installed
 for i in {43..47}; do
    sed -i '/ZWJ/s/}/,CLASS_CHARACTER&/' intl/lwbrk/LineBreaker.cpp  \
-        > $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
+        >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
 done
+
+sed -i 's/icu-i18n/icu-uc &/' js/moz.configure  \
+        >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
 
 # if GLS was installed
 # echo "AIzaSyDxKL42zsPjbke5O8_rPVpVrLrJ8aeE9rQ" > google-key

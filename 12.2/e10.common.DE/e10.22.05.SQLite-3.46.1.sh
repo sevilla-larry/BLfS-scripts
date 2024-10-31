@@ -2,6 +2,11 @@
 #
 
 #
+# Required by:
+#
+#               g11.13.21 Python-3.13.0     (errata)
+#                   for building Firefox
+#
 # Recommended by:
 #
 #               e12.25.42 Qt-6.7.2
