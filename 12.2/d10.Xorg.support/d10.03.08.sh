@@ -24,10 +24,10 @@ echo "."
 
 ###
 
-echo "d10.09.98.Wayland-Protocols-1.36"
-echo "d10.09.98.Wayland-Protocols-1.36" >> $LFSLOG_PROCESS
+echo "d10.09.98.Wayland-Protocols-1.38"
+echo "d10.09.98.Wayland-Protocols-1.38" >> $LFSLOG_PROCESS
 
-time { bash d10.09.98.Wayland-Protocols-1.36.sh ; }
+time { bash d10.09.98.Wayland-Protocols-1.38.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

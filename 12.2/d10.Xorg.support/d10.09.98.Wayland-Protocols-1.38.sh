@@ -1,4 +1,5 @@
-# d10.09.98.Wayland-Protocols-1.36.sh
+# d10.09.98.Wayland-Protocols-1.38.sh
+# svn due to errata of Xwayland
 #
 
 #
@@ -10,14 +11,14 @@
 #
 # Required by:
 #
-#               d20.24.23 Xwayland-24.1.2
+#               d20.24.23 Xwayland-24.1.4   (errata)
 #
 # Recommended by:
 #
 #               d20.24.16 Mesa-24.1.5
 #
 
-export PKG="wayland-protocols-1.36"
+export PKG="wayland-protocols-1.38"
 export PKGLOG_DIR=$LFSLOG/09.98
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log

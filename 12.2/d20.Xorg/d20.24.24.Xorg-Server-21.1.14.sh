@@ -1,4 +1,5 @@
-# d20.24.24.Xorg-Server-21.1.13.sh
+# d20.24.24.Xorg-Server-21.1.14.sh
+# errata
 #
 
 #
@@ -64,7 +65,7 @@
 #   read NOTES at: https://www.linuxfromscratch.org/blfs/view/12.2/x/xorg-server.html
 #
 
-export PKG="xorg-server-21.1.13"
+export PKG="xorg-server-21.1.14"
 export PKGLOG_DIR=$LFSLOG/24.24
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
@@ -127,13 +128,6 @@ cat >> /etc/sysconfig/createfiles << "EOF"  2>> $PKGLOG_ERROR
 /tmp/.ICE-unix dir 1777 root root
 # /tmp/.X11-unix dir 1777 root root - already created in Xwayland
 EOF
-
-# Note: existing in .8, but omitted in .10
-#
-# cat >> /etc/sysconfig/createfiles << "EOF"
-# /tmp/.ICE-unix dir 1777 root root
-# # /tmp/.X11-unix dir 1777 root root - already created in Xwayland
-# EOF
 
 
 cd ..

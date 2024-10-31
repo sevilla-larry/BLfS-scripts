@@ -24,10 +24,12 @@ fbdc05f86f72f287ed71b162f1a9725a xcb-util-keysyms-0.4.1.tar.xz
 b69a0819905ad8dc4bf82d25f24037a4 luit-20240102.tgz
 070993be1f010b09447ea24bab2c9846 xcursor-themes-1.0.7.tar.xz
 # 24.21 Xorg Fonts
-# 24.22 ---> .24
+# 24.22
 2d3b7e43e597f4c607ad6261e2b3d77f xkeyboard-config-2.42.tar.xz
-312c5cf17d1b147df1b787fd170958e1 xwayland-24.1.2.tar.xz
-69dbed93746d0af6b46de76d711614e4 xorg-server-21.1.13.tar.xz
+# 24.23 Xwayland-24.1.4 (errata)
+c0d6f4a2c16844c7af70e30e330ace3c xwayland-24.1.4.tar.xz
+# 24.24 Xorg-Server-21.1.14 (errata)
+79c7a0058e247fe7b94b8159d4a6f4f5 xorg-server-21.1.14.tar.xz
 # 24.25.1 .1 ---> 4 Xorg Input Drivers
 ddb1d798e0f2b4d0bd17c892b7d4aed3 libevdev-1.13.2.tar.xz
 e8bd1edc6751f92e425cae7eba3c61eb xf86-input-evdev-2.10.6.tar.bz2

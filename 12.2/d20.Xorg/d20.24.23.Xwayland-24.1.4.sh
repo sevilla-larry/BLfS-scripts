@@ -1,4 +1,5 @@
-# d20.24.23.Xwayland-24.1.2.sh
+# d20.24.23.Xwayland-24.1.4.sh
+# errata
 #
 
 #
@@ -6,7 +7,7 @@
 #
 #               d20.24.09 libxcvt-0.1.2
 #               d10.10.32 Pixman-0.43.4
-#               d10.09.98 Wayland-Protocols-1.36
+#               d10.09.98 Wayland-Protocols-1.38    (svn)
 #               d20.24.21 Xorg Fonts - font-util
 #
 # Dependencies Recommended:
@@ -23,7 +24,7 @@
 #   read NOTES at: https://www.linuxfromscratch.org/blfs/view/12.2/x/xwayland.html
 #
 
-export PKG="xwayland-24.1.2"
+export PKG="xwayland-24.1.4"
 export PKGLOG_DIR=$LFSLOG/24.23
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
@@ -74,12 +75,6 @@ ninja install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 cat >> /etc/sysconfig/createfiles << "EOF"  2>> $PKGLOG_ERROR
 /tmp/.X11-unix dir 1777 root root
 EOF
-
-# Note: exisintg in .0, but omitted in .3
-#
-# cat >> /etc/sysconfig/createfiles << "EOF"
-# /tmp/.X11-unix dir 1777 root root
-# EOF
 
 
 cd ..

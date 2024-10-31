@@ -39,10 +39,10 @@ echo "."
 
 ###
 
-echo "d20.24.23.Xwayland-24.1.2"
-echo "d20.24.23.Xwayland-24.1.2" >> $LFSLOG_PROCESS
+echo "d20.24.23.Xwayland-24.1.4"
+echo "d20.24.23.Xwayland-24.1.4" >> $LFSLOG_PROCESS
 
-time { bash d20.24.23.Xwayland-24.1.2.sh ; }
+time { bash d20.24.23.Xwayland-24.1.4.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
@@ -53,10 +53,10 @@ echo "."
 
 ###
 
-echo "d20.24.24.Xorg-Server-21.1.13"
-echo "d20.24.24.Xorg-Server-21.1.13" >> $LFSLOG_PROCESS
+echo "d20.24.24.Xorg-Server-21.1.14"
+echo "d20.24.24.Xorg-Server-21.1.14" >> $LFSLOG_PROCESS
 
-time { bash d20.24.24.Xorg-Server-21.1.13.sh ; }
+time { bash d20.24.24.Xorg-Server-21.1.14.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
