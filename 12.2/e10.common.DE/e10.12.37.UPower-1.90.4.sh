@@ -1,4 +1,4 @@
-# e10.12.36.UPower-1.90.4.sh
+# e10.12.37.UPower-1.90.4.sh
 #
 
 #
@@ -20,7 +20,7 @@
 #
 
 export PKG="upower-v1.90.4"
-export PKGLOG_DIR=$LFSLOG/12.36
+export PKGLOG_DIR=$LFSLOG/12.37
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log

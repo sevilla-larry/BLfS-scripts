@@ -1,5 +1,10 @@
 # b10.03.1.sh
 #
+# Dependencies of
+#   MariaDB
+#    mostly
+#   CMake
+#
 
 export LFSLOG_PROCESS=$LFSLOG/process.log
 

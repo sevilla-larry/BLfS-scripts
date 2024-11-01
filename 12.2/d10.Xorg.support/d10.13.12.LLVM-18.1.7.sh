@@ -4,7 +4,7 @@
 #
 # Dependencies Required:
 #
-#               b11.13.03 CMake-3.30.2
+#               b10.13.03 CMake-3.30.2
 #
 # Dependencies Optional:
 #

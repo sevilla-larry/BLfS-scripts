@@ -47,8 +47,6 @@ aac56db912b7b12a04fb0018e28f2f36 shared-mime-info-2.4.tar.gz
 
 # 12.11 elogind-255.5
 8653d1959c25b649c398a932ce56b396 elogind-255.5.tar.gz
-# 12.36 UnZip-6.0
-62b490407489521db863b523a7f86375 unzip60.tar.gz
 
 # 13.12 LLVM-18.1.7
 ad39785449a878df1eed590339c3a8c4 llvm-18.1.7.src.tar.xz

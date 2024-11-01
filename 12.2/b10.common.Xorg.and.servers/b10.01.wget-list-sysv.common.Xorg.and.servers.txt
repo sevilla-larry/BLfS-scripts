@@ -24,6 +24,15 @@ https://github.com/PCRE2Project/pcre2/releases/download/pcre2-10.44/pcre2-10.44.
 # 11.21 unixODBC-2.3.12
 https://github.com/lurcher/unixODBC/releases/download/2.3.12/unixODBC-2.3.12.tar.gz
 
+# 12.36 UnZip-6.0
+https://downloads.sourceforge.net/infozip/unzip60.tar.gz
+https://www.linuxfromscratch.org/patches/blfs/12.2/unzip-6.0-consolidated_fixes-1.patch
+https://www.linuxfromscratch.org/patches/blfs/12.2/unzip-6.0-gcc14-1.patch
+# 12.41 Zip-3.0
+https://downloads.sourceforge.net/infozip/zip30.tar.gz
+
+# 13.03 CMake-3.30.2
+https://cmake.org/files/v3.30/cmake-3.30.2.tar.gz
 # 13.09 Git-2.46.0
 https://www.kernel.org/pub/software/scm/git/git-2.46.0.tar.xz
 https://www.kernel.org/pub/software/scm/git/git-manpages-2.46.0.tar.xz
@@ -37,8 +46,3 @@ https://github.com/libevent/libevent/releases/download/release-2.1.12-stable/lib
 https://github.com/rockdaboot/libpsl/releases/download/0.21.5/libpsl-0.21.5.tar.gz
 # 17.20 nghttp2-1.62.1
 https://github.com/nghttp2/nghttp2/releases/download/v1.62.1/nghttp2-1.62.1.tar.xz
-
-
-# 13.03 CMake-3.30.2
-https://cmake.org/files/v3.30/cmake-3.30.2.tar.gz
-

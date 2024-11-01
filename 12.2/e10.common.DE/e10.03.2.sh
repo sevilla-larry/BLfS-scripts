@@ -89,10 +89,10 @@ echo "."
 
 ###
 
-echo "e10.12.36.UPower-1.90.4"
-echo "e10.12.36.UPower-1.90.4" >> $LFSLOG_PROCESS
+echo "e10.12.37.UPower-1.90.4"
+echo "e10.12.37.UPower-1.90.4" >> $LFSLOG_PROCESS
 
-time { bash e10.12.36.UPower-1.90.4.sh ; }
+time { bash e10.12.37.UPower-1.90.4.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

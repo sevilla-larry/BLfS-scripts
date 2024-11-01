@@ -46,11 +46,6 @@ https://anduin.linuxfromscratch.org/BLFS/xdgmime/xdgmime.tar.xz
 
 # 12.11 elogind-255.5
 https://github.com/elogind/elogind/archive/v255.5/elogind-255.5.tar.gz
-# 12.36 UnZip-6.0
-https://downloads.sourceforge.net/infozip/unzip60.tar.gz
-https://www.linuxfromscratch.org/patches/blfs/12.2/unzip-6.0-consolidated_fixes-1.patch
-https://www.linuxfromscratch.org/patches/blfs/12.2/unzip-6.0-gcc14-1.patch
-
 
 # 13.12 LLVM-18.1.7
 https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.7/llvm-18.1.7.src.tar.xz

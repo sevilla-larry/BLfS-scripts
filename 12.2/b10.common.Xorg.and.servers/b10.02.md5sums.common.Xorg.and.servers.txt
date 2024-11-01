@@ -24,6 +24,15 @@ aeb92dc58cea91c95a10751327193a11 libxml2-2.13.3.tar.xz
 # 11.21 unixODBC-2.3.12
 d62167d85bcb459c200c0e4b5a63ee48 unixODBC-2.3.12.tar.gz
 
+# 12.36 UnZip-6.0
+62b490407489521db863b523a7f86375 unzip60.tar.gz
+#
+#
+# 12.41 Zip-3.0
+7b74551e63f8ee6aab6fbc86676c0d37 zip30.tar.gz
+
+# 13.03 CMake-3.30.2
+506cada2fe0c12dc6b3f282b8f72d325 cmake-3.30.2.tar.gz
 # 13.09 Git-2.46.0
 2309cd803a02378380f24c50667d9bfb git-2.46.0.tar.xz
 # manpages
@@ -37,7 +46,3 @@ b5333f021f880fe76490d8a799cd79f4 libevent-2.1.12-stable.tar.gz
 870a798ee9860b6e77896548428dba7b libpsl-0.21.5.tar.gz
 # 17.20 nghttp2-1.62.1
 965f9a9e0f0eef12d8976fb33e9312ef nghttp2-1.62.1.tar.xz
-
-
-# 13.03 CMake-3.30.2
-506cada2fe0c12dc6b3f282b8f72d325 cmake-3.30.2.tar.gz
