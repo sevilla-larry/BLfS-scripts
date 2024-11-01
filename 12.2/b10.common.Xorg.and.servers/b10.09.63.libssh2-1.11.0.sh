@@ -1,16 +1,20 @@
-# e11.09.63.libssh2-1.11.0.sh
+# b10.09.63.libssh2-1.11.0.sh
 #
 
 #
 # Dependencies Optional:
 #
-#               d10.09.42 libgcrypt-1.11.0
+#               b10.09.42 libgcrypt-1.11.0
 #
 
 #
 # Recommended by:
 #
 #               e11.13.26 Rustc-1.80.1
+#
+# Optionally by:
+#
+#               b10.17.02 cURL-8.10.1
 #
 
 export PKG="libssh2-1.11.0"

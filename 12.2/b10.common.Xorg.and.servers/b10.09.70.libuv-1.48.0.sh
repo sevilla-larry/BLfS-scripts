@@ -1,10 +1,10 @@
-# g11.09.70.libuv-1.49.2.sh
-# svn due to errata of Firefox
+# b10.09.70.libuv-1.48.0.sh
 #
 
 #
 # Recommended by:
 #
+#               b10.13.03 CMake-3.30.2
 #               g11.09.80 Node.js-20.18.0 (svn)
 #
 

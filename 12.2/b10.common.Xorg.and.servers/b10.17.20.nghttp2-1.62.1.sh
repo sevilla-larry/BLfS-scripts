@@ -1,20 +1,26 @@
-# b11.09.49.libidn2-2.3.7.sh
+# b10.17.20.nghttp2-1.62.1.sh
 #
 
 #
 # Dependencies Recommended:
 #
-#               b11.09.66 libunistring-1.2
+#               b10.09.72 libxml2-2.13.3
+#
+# Dependencies Optional:
+#
+#               b10.09.07 boost-1.86.0
+#               ???.17.01 c-ares-1.34.2     (circular)
+#               b10.17.07 libevent-2.1.12
 #
 
 #
-# Required by:
+# Recommended by:
 #
-#               b11.17.14 libpsl-0.21.5
+#               g11.09.80 Node.js-20.18.0 (svn)
 #
 
-export PKG="libidn2-2.3.7"
-export PKGLOG_DIR=$LFSLOG/09.49
+export PKG="nghttp2-1.62.1"
+export PKGLOG_DIR=$LFSLOG/17.20
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
@@ -29,7 +35,7 @@ mkdir $PKGLOG_DIR
 echo "1. Extract tar..."
 echo "1. Extract tar..." >> $LFSLOG_PROCESS
 echo "1. Extract tar..." >> $PKGLOG_ERROR
-tar xvf $PKG.tar.gz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
+tar xvf $PKG.tar.xz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
 
 
@@ -38,7 +44,9 @@ echo "2. Configure ..." >> $LFSLOG_PROCESS
 echo "2. Configure ..." >> $PKGLOG_ERROR
 ./configure --prefix=/usr       \
             --disable-static    \
-        > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+            --enable-lib-only   \
+            --docdir=/usr/share/doc/nghttp2-1.64.0  \
+            > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Make Build ..."
 echo "3. Make Build ..." >> $LFSLOG_PROCESS

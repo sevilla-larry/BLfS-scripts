@@ -1,20 +1,20 @@
-# d10.13.09.Git-2.46.0.sh
+# b10.13.09.Git-2.46.0.sh
 #
 
 #
 # Dependencies Recommended:
 #
-#               b11.17.02 cURL-8.10.1 (errata)
+#               b10.17.02 cURL-8.10.1 (errata)
 #
 # Dependencies Optional:
 #
-#               b15.09.83 PCRE2-10.44
+#               b10.09.83 PCRE2-10.44
 #
 
 #
 #   Required (but hidden) by:
 #
-#               b10.09.17 GLib-2.80.4
+#               d10.09.17 GLib-2.80.4
 #
 
 export PKG="git-2.46.0"

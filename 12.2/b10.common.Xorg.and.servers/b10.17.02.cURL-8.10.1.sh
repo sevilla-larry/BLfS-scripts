@@ -1,4 +1,4 @@
-# b11.17.02.cURL-8.10.1.sh
+# b10.17.02.cURL-8.10.1.sh
 # errata
 #
 
@@ -9,11 +9,16 @@
 #
 # Dependencies Recommended at runtime:
 #
-#               04.02 make-ca-1.14  already installed during LFS as     a.08.91C make-ca-1.14
+#               a.08.91C make-ca-1.14
+#
+# Dependencies Optional:
+#
+#               b10.09.49 libidn2-2.3.7
+#               b10.17.20 nghttp2-1.62.1
 #
 # Dependencies Optional if Running the Test Suite:
 #
-#               04.18 OpenSSH-9.8p1 already installed during LFS as     a.08.92C OpenSSH-9.8p1
+#               a.08.92C OpenSSH-9.8p1
 #
 
 #

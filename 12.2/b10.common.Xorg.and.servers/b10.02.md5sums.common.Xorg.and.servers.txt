@@ -1,4 +1,43 @@
+# 09.07 boost-1.86.0
+7ad40a9d9d1db59ee2ed62e8fa7134ed boost-1.86.0-b2-nodocs.tar.xz
+# boost-1.86.0-upstream_fixes-1.patch
+# 09.24 icu-75.1
 a83c1499e508f73ddbc60002f84ea42a icu4c-75_1-src.tgz
+# 09.32 libarchive-3.7.4
+1bab4c1b443ecf4f23ff9881665e680a libarchive-3.7.4.tar.xz
+# 09.49 libidn2-2.3.7
+de2818c7dea718a4f264f463f595596b libidn2-2.3.7.tar.gz
+# 09.63 libssh2-1.11.0
+# a01d543fd891ca48fe47726540d50b17 libssh2-1.11.0.tar.gz
+# libssh2-1.11.0-security_fixes-1.patch
+# 09.66 libunistring-1.2
+6b4ea63617bf09d76e5234379e75e7f9 libunistring-1.2.tar.xz
+# 09.70 libuv-1.48.0
+a808517c32ebd07c561bf21a4e30aeab libuv-v1.48.0.tar.gz
+# 09.72 libxml2-2.13.3
 aeb92dc58cea91c95a10751327193a11 libxml2-2.13.3.tar.xz
 #libxml2-2.13.3-upstream_fix-2.patch
 #xmlts20130923.tar.gz
+# 09.83 PCRE2-10.44
+9d1fe11e2e919c7b395e3e8f0a5c3eec pcre2-10.44.tar.bz2
+
+# 11.21 unixODBC-2.3.12
+d62167d85bcb459c200c0e4b5a63ee48 unixODBC-2.3.12.tar.gz
+
+# 13.09 Git-2.46.0
+2309cd803a02378380f24c50667d9bfb git-2.46.0.tar.xz
+# manpages
+# htmldocs
+
+# 17.02 cURL-8.10.1
+48adc57e11f543adbbbe86bdea98ca1f curl-8.10.1.tar.xz
+# 17.07 libevent-2.1.12
+b5333f021f880fe76490d8a799cd79f4 libevent-2.1.12-stable.tar.gz
+# 17.14 libpsl-0.21.5
+870a798ee9860b6e77896548428dba7b libpsl-0.21.5.tar.gz
+# 17.20 nghttp2-1.62.1
+965f9a9e0f0eef12d8976fb33e9312ef nghttp2-1.62.1.tar.xz
+
+
+# 13.03 CMake-3.30.2
+506cada2fe0c12dc6b3f282b8f72d325 cmake-3.30.2.tar.gz

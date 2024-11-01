@@ -1,7 +1,44 @@
-# b10.09.24 icu-75.1
+# 09.07 boost-1.86.0
+https://github.com/boostorg/boost/releases/download/boost-1.86.0/boost-1.86.0-b2-nodocs.tar.xz
+https://www.linuxfromscratch.org/patches/blfs/12.2/boost-1.86.0-upstream_fixes-1.patch
+# 09.24 icu-75.1
 https://github.com/unicode-org/icu/releases/download/release-75-1/icu4c-75_1-src.tgz
-
-# b10.09.72 libxml2-2.13.3
+# 09.32 libarchive-3.7.4
+https://github.com/libarchive/libarchive/releases/download/v3.7.4/libarchive-3.7.4.tar.xz
+# 09.49 libidn2-2.3.7
+https://ftp.gnu.org/gnu/libidn/libidn2-2.3.7.tar.gz
+# 09.63 libssh2-1.11.0
+# https://www.libssh2.org/download/libssh2-1.11.0.tar.gz
+# https://www.linuxfromscratch.org/patches/blfs/12.2/libssh2-1.11.0-security_fixes-1.patch
+# 09.66 libunistring-1.2
+https://ftp.gnu.org/gnu/libunistring/libunistring-1.2.tar.xz
+# 09.70 libuv-1.48.0
+https://dist.libuv.org/dist/v1.48.0/libuv-v1.48.0.tar.gz
+# 09.72 libxml2-2.13.3
 https://download.gnome.org/sources/libxml2/2.13/libxml2-2.13.3.tar.xz
 https://www.linuxfromscratch.org/patches/blfs/12.2/libxml2-2.13.3-upstream_fix-2.patch
 https://www.w3.org/XML/Test/xmlts20130923.tar.gz
+# 09.83 PCRE2-10.44
+https://github.com/PCRE2Project/pcre2/releases/download/pcre2-10.44/pcre2-10.44.tar.bz2
+
+# 11.21 unixODBC-2.3.12
+https://github.com/lurcher/unixODBC/releases/download/2.3.12/unixODBC-2.3.12.tar.gz
+
+# 13.09 Git-2.46.0
+https://www.kernel.org/pub/software/scm/git/git-2.46.0.tar.xz
+https://www.kernel.org/pub/software/scm/git/git-manpages-2.46.0.tar.xz
+https://www.kernel.org/pub/software/scm/git/git-htmldocs-2.46.0.tar.xz
+
+# 17.02 cURL-8.10.1
+https://curl.se/download/curl-8.10.1.tar.xz
+# 17.07 libevent-2.1.12
+https://github.com/libevent/libevent/releases/download/release-2.1.12-stable/libevent-2.1.12-stable.tar.gz
+# 17.14 libpsl-0.21.5
+https://github.com/rockdaboot/libpsl/releases/download/0.21.5/libpsl-0.21.5.tar.gz
+# 17.20 nghttp2-1.62.1
+https://github.com/nghttp2/nghttp2/releases/download/v1.62.1/nghttp2-1.62.1.tar.xz
+
+
+# 13.03 CMake-3.30.2
+https://cmake.org/files/v3.30/cmake-3.30.2.tar.gz
+

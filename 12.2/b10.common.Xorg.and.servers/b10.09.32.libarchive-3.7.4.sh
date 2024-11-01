@@ -1,27 +1,25 @@
-# g11.17.20.nghttp2-1.64.0.sh
-# svn due to errata of Firefox
+# b10.09.32.libarchive-3.7.4.sh
 #
 
 #
-# Dependencies Required:
+# Dependencies Recommended:
 #
 #               b10.09.72 libxml2-2.13.3
 #
 # Dependencies Optional:
 #
-#               b11.09.07 boost-1.86.0
-#               g11.17.01 c-ares-1.34.2
-#               b11.17.07 libevent-2.1.12
+#               b10.04.16 Nettle-3.10
+#               b10.09.83 PCRE2-10.44
 #
 
 #
 # Recommended by:
 #
-#               g11.09.80 Node.js-20.18.0 (svn)
+#               b10.13.03 CMake-3.30.2
 #
 
-export PKG="nghttp2-1.64.0"
-export PKGLOG_DIR=$LFSLOG/17.20
+export PKG="libarchive-3.7.4"
+export PKGLOG_DIR=$LFSLOG/09.32
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
@@ -45,8 +43,7 @@ echo "2. Configure ..." >> $LFSLOG_PROCESS
 echo "2. Configure ..." >> $PKGLOG_ERROR
 ./configure --prefix=/usr       \
             --disable-static    \
-            --enable-lib-only   \
-            --docdir=/usr/share/doc/nghttp2-1.64.0  \
+            --without-expat     \
             > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Make Build ..."
@@ -57,7 +54,7 @@ make > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 echo "4. Make Check ..."
 echo "4. Make Check ..." >> $LFSLOG_PROCESS
 echo "4. Make Check ..." >> $PKGLOG_ERROR
-make check > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
+LC_ALL=C.UTF-8 make check > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
 
 echo "5. Make Install ..."
 echo "5. Make Install ..." >> $LFSLOG_PROCESS

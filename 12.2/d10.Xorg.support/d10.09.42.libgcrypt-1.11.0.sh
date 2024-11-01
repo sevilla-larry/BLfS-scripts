@@ -12,6 +12,11 @@
 #
 #               f22.26.02 lightdm-1.32.0
 #
+# Optionally by:
+#
+#               d10.09.74 libxslt-1.1.42
+#
+#
 
 export PKG="libgcrypt-1.11.0"
 export PKGLOG_DIR=$LFSLOG/09.42

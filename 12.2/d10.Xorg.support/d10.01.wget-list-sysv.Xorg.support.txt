@@ -11,7 +11,6 @@ https://www.linuxfromscratch.org/patches/blfs/12.2/glib-skip_warnings-1.patch
 https://www.gnupg.org/ftp/gcrypt/libgcrypt/libgcrypt-1.11.0.tar.bz2
 # 09.43 libgpg-error-1.50
 https://www.gnupg.org/ftp/gcrypt/libgpg-error/libgpg-error-1.50.tar.bz2
-
 # 09.74 libxslt-1.1.42
 https://download.gnome.org/sources/libxslt/1.1/libxslt-1.1.42.tar.xz
 # 09.79 mtdev-1.1.7
@@ -52,10 +51,6 @@ https://downloads.sourceforge.net/infozip/unzip60.tar.gz
 https://www.linuxfromscratch.org/patches/blfs/12.2/unzip-6.0-consolidated_fixes-1.patch
 https://www.linuxfromscratch.org/patches/blfs/12.2/unzip-6.0-gcc14-1.patch
 
-# 13.09 Git-2.46.0
-https://www.kernel.org/pub/software/scm/git/git-2.46.0.tar.xz
-https://www.kernel.org/pub/software/scm/git/git-manpages-2.46.0.tar.xz
-https://www.kernel.org/pub/software/scm/git/git-htmldocs-2.46.0.tar.xz
 
 # 13.12 LLVM-18.1.7
 https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.7/llvm-18.1.7.src.tar.xz

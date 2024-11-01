@@ -68,34 +68,6 @@ echo "."
 
 ###
 
-echo "g11.09.70.libuv-1.49.2"
-echo "g11.09.70.libuv-1.49.2" >> $LFSLOG_PROCESS
-
-time { bash g11.09.70.libuv-1.49.2.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
-
-###
-
-echo "g11.17.20.nghttp2-1.64.0"
-echo "g11.17.20.nghttp2-1.64.0" >> $LFSLOG_PROCESS
-
-time { bash g11.17.20.nghttp2-1.64.0.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
-
-###
-
 echo "g11.09.80.Node.js-20.18.0"
 echo "g11.09.80.Node.js-20.18.0" >> $LFSLOG_PROCESS
 

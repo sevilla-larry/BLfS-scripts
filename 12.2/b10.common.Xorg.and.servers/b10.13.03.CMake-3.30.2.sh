@@ -1,14 +1,13 @@
-# b11.13.03.CMake-3.30.2.sh
+# b10.13.03.CMake-3.30.2.sh
 #
 
 #
 # Dependencies Recommended:
 #
-#               b11.17.02 cURL-8.10.1 (errata)
-#
-#               ???.09.28 libarchive-3.6.2  ( not yet compiled/installed )
-#               ???.09.65 libuv-1.44.2      ( not yet compiled/installed )
-#               ???.17.20 nghttp2-1.52.0    ( not yet compiled/installed )
+#               b10.17.02 cURL-8.10.1 (errata)
+#               b10.09.32 libarchive-3.7.4
+#               b10.09.70 libuv-1.48.0
+#               b10.17.20 nghttp2-1.62.1
 #
 #
 

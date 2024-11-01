@@ -3,9 +3,6 @@
 # 04.16 Nettle-3.10
 c61453139d5fb44e9cdcc5b684b26e55 nettle-3.10.tar.gz
 
-# 09.63 libssh2-1.11.0
-a01d543fd891ca48fe47726540d50b17 libssh2-1.11.0.tar.gz
-#libssh2-1.11.0-security_fixes-1.patch
 
 ## 10.24 librsvg-2.58.3
 #8f954b5c25ffff602b4e62813c98c8c9 librsvg-2.58.3.tar.xz

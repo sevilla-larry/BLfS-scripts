@@ -1,10 +1,15 @@
-# e11.04.16.Nettle-3.10.sh
+# b10.04.16.Nettle-3.10.sh
 #
 
 #
 # Required by:
 #
 #               e11.04.07 GnuTLS-3.8.7.1
+#
+#
+# Recommended by:
+#
+#               b10.09.32 libarchive-3.7.4
 #
 
 export PKG="nettle-3.10"
