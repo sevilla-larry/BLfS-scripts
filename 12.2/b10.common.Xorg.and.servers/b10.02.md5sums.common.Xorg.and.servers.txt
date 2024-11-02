@@ -12,8 +12,8 @@ a83c1499e508f73ddbc60002f84ea42a icu4c-75_1-src.tgz
 # 09.49 libidn2-2.3.7
 de2818c7dea718a4f264f463f595596b libidn2-2.3.7.tar.gz
 # 09.63 libssh2-1.11.0
-# a01d543fd891ca48fe47726540d50b17 libssh2-1.11.0.tar.gz
-# libssh2-1.11.0-security_fixes-1.patch
+a01d543fd891ca48fe47726540d50b17 libssh2-1.11.0.tar.gz
+#libssh2-1.11.0-security_fixes-1.patch
 # 09.66 libunistring-1.2
 6b4ea63617bf09d76e5234379e75e7f9 libunistring-1.2.tar.xz
 # 09.70 libuv-1.48.0

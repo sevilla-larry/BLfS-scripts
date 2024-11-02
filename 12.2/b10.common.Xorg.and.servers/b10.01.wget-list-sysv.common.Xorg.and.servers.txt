@@ -12,8 +12,8 @@ https://www.gnupg.org/ftp/gcrypt/libgpg-error/libgpg-error-1.50.tar.bz2
 # 09.49 libidn2-2.3.7
 https://ftp.gnu.org/gnu/libidn/libidn2-2.3.7.tar.gz
 # 09.63 libssh2-1.11.0
-# https://www.libssh2.org/download/libssh2-1.11.0.tar.gz
-# https://www.linuxfromscratch.org/patches/blfs/12.2/libssh2-1.11.0-security_fixes-1.patch
+https://www.libssh2.org/download/libssh2-1.11.0.tar.gz
+https://www.linuxfromscratch.org/patches/blfs/12.2/libssh2-1.11.0-security_fixes-1.patch
 # 09.66 libunistring-1.2
 https://ftp.gnu.org/gnu/libunistring/libunistring-1.2.tar.xz
 # 09.70 libuv-1.48.0
