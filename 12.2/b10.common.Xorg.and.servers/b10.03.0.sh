@@ -16,6 +16,10 @@ time { bash b10.12.36.UnZip-6.0.sh ; }
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
 ###
 
 echo "b10.12.41.Zip-3.0"

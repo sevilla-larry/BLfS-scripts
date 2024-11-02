@@ -8,7 +8,7 @@
 #               g11.09.80 Node.js-20.18.0 (svn)
 #
 
-export PKG="libuv-v1.49.2"
+export PKG="libuv-v1.48.0"
 export PKGLOG_DIR=$LFSLOG/09.70
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log

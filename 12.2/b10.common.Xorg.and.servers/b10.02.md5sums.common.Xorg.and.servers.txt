@@ -1,3 +1,6 @@
+# 04.07 GnuTLS-3.8.7.1
+46777802233eb7203d47a8b8880c8c90 gnutls-3.8.7.1.tar.xz
+
 # 09.07 boost-1.86.0
 7ad40a9d9d1db59ee2ed62e8fa7134ed boost-1.86.0-b2-nodocs.tar.xz
 # boost-1.86.0-upstream_fixes-1.patch

@@ -1,3 +1,6 @@
+# 04.16 Nettle-3.10
+https://ftp.gnu.org/gnu/nettle/nettle-3.10.tar.gz
+
 # 09.07 boost-1.86.0
 https://github.com/boostorg/boost/releases/download/boost-1.86.0/boost-1.86.0-b2-nodocs.tar.xz
 https://www.linuxfromscratch.org/patches/blfs/12.2/boost-1.86.0-upstream_fixes-1.patch

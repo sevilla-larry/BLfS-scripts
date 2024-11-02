@@ -1,8 +1,5 @@
 # 04.07 GnuTLS-3.8.7.1
 https://www.gnupg.org/ftp/gcrypt/gnutls/v3.8/gnutls-3.8.7.1.tar.xz
-# 04.16 Nettle-3.10
-https://ftp.gnu.org/gnu/nettle/nettle-3.10.tar.gz
-
 
 # 10.24 librsvg-2.58.3
 #https://download.gnome.org/sources/librsvg/2.58/librsvg-2.58.3.tar.xz
