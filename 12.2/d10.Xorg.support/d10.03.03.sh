@@ -1,16 +1,16 @@
-# d10.03.05.sh
+# d10.03.03.sh
 #
-# Polkit
+# LLVM
 #
 
 export LFSLOG_PROCESS=$LFSLOG/process.log
 
 #####
 
-echo "d10.04.20.Polkit-125"
-echo "d10.04.20.Polkit-125" >> $LFSLOG_PROCESS
+echo "d10.13.12.LLVM-18.1.7"
+echo "d10.13.12.LLVM-18.1.7" >> $LFSLOG_PROCESS
 
-time { bash d10.04.20.Polkit-125.sh ; }
+time { bash d10.13.12.LLVM-18.1.7.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

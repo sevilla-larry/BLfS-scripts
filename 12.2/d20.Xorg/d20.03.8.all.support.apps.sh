@@ -5,27 +5,29 @@
 
 ###
 
-# icu & libxml
-bash b10.03.sh
+# common to all
+bash b10.03.0.sh
+
+# common with MariaDB
+bash b10.03.1.sh
+
+# common with PostgreSQL & ProFTPD
+bash b10.03.5.sh
+
+# common with PostgreSQL
+bash b10.03.2.sh
+
+# common with Apache
+bash b10.03.3.sh
+
+# common with ProFTPD
+bash b10.03.4.sh
 
 ###
 
-# libunistring & libidn2
-# libpsl & cURL
-# CMake
-bash b11.03.sh
-
-###
-
-# PCRE2
-bash b15.03.sh
-
-###
-
-# Git
 # elogind
-# UnZip
 # duktape
+# mtdev
 bash d10.03.01.sh
 
 ###
@@ -35,35 +37,30 @@ bash d10.03.02.sh
 
 ###
 
-# libxslt
+# LLVM
 bash d10.03.03.sh
 
 ###
 
-# LLVM
+# GLib
 bash d10.03.04.sh
 
 ###
 
-# GLib
+# Polkit
 bash d10.03.05.sh
 
 ###
 
-# Polkit
+# Graphics
 bash d10.03.06.sh
 
 ###
 
-# Graphics
+# Wayland support
 bash d10.03.07.sh
 
-###
-
-# Wayland support
-bash d10.03.08.sh
-
 # Glslang, SPIRV
-bash d10.03.09.sh
+bash d10.03.08.sh
 
 #####
