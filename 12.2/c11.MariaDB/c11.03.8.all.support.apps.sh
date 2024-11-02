@@ -3,14 +3,8 @@
 # Support Applications
 #
 
-# ICU & libxml2
-bash b10.03.sh
+# Common to all
+bash b10.03.0.sh
 
-# boost & libevent
-# libunistring & libidn2
-# libpsl & cURL
-# CMake
-bash b11.03.sh
-
-# PCRE2
-bash b15.03.sh
+# Maria DB support
+bash b10.03.1.sh

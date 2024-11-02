@@ -41,22 +41,16 @@ A. Preparation
         copy all script files from the following to /sources
 
             1. b10.common.Xorg.and.servers
-            2. b11.common.Xorg.MariaDB
-            3. b15.common.Xorg.MariaDB.Apache
-            4. c11.MariaDB
+            2. c11.MariaDB
 
   A.03. Download packages
 
         ###
 
         wget --input-file=b10.01.wget-list-sysv.common.Xorg.and.servers.txt      --continue --directory-prefix=/sources
-        wget --input-file=b11.01.wget-list-sysv.common.Xorg.MariaDB.txt          --continue --directory-prefix=/sources
-        wget --input-file=b15.01.wget-list-sysv.common.Xorg.MariaDB.Apache.txt   --continue --directory-prefix=/sources
         wget --input-file=c11.01.wget-list-sysv.MariaDB.txt                      --continue --directory-prefix=/sources
 
         md5sum -c b10.02.md5sums.common.Xorg.and.servers.txt
-        md5sum -c b11.02.md5sums.common.Xorg.MariaDB.txt
-        md5sum -c b15.02.md5sums.common.Xorg.MariaDB.Apache.txt
         md5sum -c c11.02.md5sums.MariaDB.txt
 
         ###
