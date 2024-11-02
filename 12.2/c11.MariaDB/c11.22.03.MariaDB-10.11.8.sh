@@ -15,8 +15,9 @@
 #
 #               c11.09.07 boost-1.86.0
 #               b10.09.72 libxml2-2.13-3
+#               a.08.94B  Linux-PAM-1.6.1
 #               b15.09.83 PCRE2-10.44
-#               unixODBC
+#               b10.11.21 unixODBC-2.3.12
 #
 #                     ( deferred )
 #               ???       Snappy-1.1.10 ( from GitHub )
