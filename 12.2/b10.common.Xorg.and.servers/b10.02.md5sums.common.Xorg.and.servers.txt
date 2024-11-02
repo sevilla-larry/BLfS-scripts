@@ -5,6 +5,10 @@
 a83c1499e508f73ddbc60002f84ea42a icu4c-75_1-src.tgz
 # 09.32 libarchive-3.7.4
 1bab4c1b443ecf4f23ff9881665e680a libarchive-3.7.4.tar.xz
+# 09.42 libgcrypt-1.11.0
+321c4975cfd6a496f0530b65a673f9a4 libgcrypt-1.11.0.tar.bz2
+# 09.43 libgpg-error-1.50
+80e905ce798553c766e3384467dc55ea libgpg-error-1.50.tar.bz2
 # 09.49 libidn2-2.3.7
 de2818c7dea718a4f264f463f595596b libidn2-2.3.7.tar.gz
 # 09.63 libssh2-1.11.0
@@ -18,6 +22,8 @@ a808517c32ebd07c561bf21a4e30aeab libuv-v1.48.0.tar.gz
 aeb92dc58cea91c95a10751327193a11 libxml2-2.13.3.tar.xz
 #libxml2-2.13.3-upstream_fix-2.patch
 #xmlts20130923.tar.gz
+# 09.74 libxslt-1.1.42
+56bc5d89aa39d62002961c150fec08a0 libxslt-1.1.42.tar.xz
 # 09.83 PCRE2-10.44
 9d1fe11e2e919c7b395e3e8f0a5c3eec pcre2-10.44.tar.bz2
 
@@ -46,3 +52,13 @@ b5333f021f880fe76490d8a799cd79f4 libevent-2.1.12-stable.tar.gz
 870a798ee9860b6e77896548428dba7b libpsl-0.21.5.tar.gz
 # 17.20 nghttp2-1.62.1
 965f9a9e0f0eef12d8976fb33e9312ef nghttp2-1.62.1.tar.xz
+
+# 22.05 SQLite-3.46.1
+bde7df8c2a4bce82dbf42f7e4dda0e21 sqlite-autoconf-3460100.tar.gz
+
+# 49.01 docbook-xml-4.5
+03083e288e87a7e829e437358da7ef9e docbook-xml-4.5.zip
+# 49.04 docbook-xsl-nons-1.79.2
+2666d1488d6ced1551d15f31d7ed8c38 docbook-xsl-nons-1.79.2.tar.bz2
+62375ca864fc198cb2b17d98209d0b8c docbook-xsl-doc-1.79.2.tar.bz2
+#

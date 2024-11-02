@@ -22,16 +22,6 @@ echo "."
 
 ###
 
-echo "d10.12.36.UnZip-6.0"
-echo "d10.12.36.UnZip-6.0" >> $LFSLOG_PROCESS
-
-time { bash d10.12.36.UnZip-6.0.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-###
-
 echo "." >> $LFSLOG_PROCESS
 echo "."
 echo "."

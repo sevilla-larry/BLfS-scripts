@@ -6,12 +6,6 @@ b3200b02ab80125b694bae887d7c1ca6 duktape-2.7.0.tar.xz
 # 09.17 GLib-2.80.4
 4334211338220a165350d1c4a1597b0e glib-2.80.4.tar.xz
 ef1496a7a7abfcd31d25b3459ea86ebb gobject-introspection-1.80.1.tar.xz
-# 09.42 libgcrypt-1.11.0
-321c4975cfd6a496f0530b65a673f9a4 libgcrypt-1.11.0.tar.bz2
-# 09.43 libgpg-error-1.50
-80e905ce798553c766e3384467dc55ea libgpg-error-1.50.tar.bz2
-# 09.74 libxslt-1.1.42
-56bc5d89aa39d62002961c150fec08a0 libxslt-1.1.42.tar.xz
 # 09.79 mtdev-1.1.7
 483ed7fdf7c1e7b7375c05a62848cce7 mtdev-1.1.7.tar.bz2
 
@@ -62,9 +56,3 @@ bf2ad617d47ce40fe77c0e5c26b1fe43 llvm-cmake-18.src.tar.xz
 
 # 25.12 Glslang-14.3.0
 90eec8d14a8d1002389e00ab449c7ca8 glslang-14.3.0.tar.gz
-
-# 49.01 docbook-xml-4.5
-03083e288e87a7e829e437358da7ef9e docbook-xml-4.5.zip
-# 49.04 docbook-xsl-nons-1.79.2
-2666d1488d6ced1551d15f31d7ed8c38 docbook-xsl-nons-1.79.2.tar.bz2
-62375ca864fc198cb2b17d98209d0b8c docbook-xsl-doc-1.79.2.tar.bz2

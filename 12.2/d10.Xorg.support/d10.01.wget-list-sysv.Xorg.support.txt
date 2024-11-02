@@ -7,12 +7,6 @@ https://duktape.org/duktape-2.7.0.tar.xz
 https://download.gnome.org/sources/glib/2.80/glib-2.80.4.tar.xz
 https://download.gnome.org/sources/gobject-introspection/1.80/gobject-introspection-1.80.1.tar.xz
 https://www.linuxfromscratch.org/patches/blfs/12.2/glib-skip_warnings-1.patch
-# 09.42 libgcrypt-1.11.0
-https://www.gnupg.org/ftp/gcrypt/libgcrypt/libgcrypt-1.11.0.tar.bz2
-# 09.43 libgpg-error-1.50
-https://www.gnupg.org/ftp/gcrypt/libgpg-error/libgpg-error-1.50.tar.bz2
-# 09.74 libxslt-1.1.42
-https://download.gnome.org/sources/libxslt/1.1/libxslt-1.1.42.tar.xz
 # 09.79 mtdev-1.1.7
 https://bitmath.org/code/mtdev/mtdev-1.1.7.tar.bz2
 
@@ -62,10 +56,3 @@ https://files.pythonhosted.org/packages/source/p/packaging/packaging-24.1.tar.gz
 
 # 25.12 Glslang-14.3.0
 https://github.com/KhronosGroup/glslang/archive/14.3.0/glslang-14.3.0.tar.gz
-
-# 49.01 docbook-xml-4.5
-https://www.docbook.org/xml/4.5/docbook-xml-4.5.zip
-# 49.04 docbook-xsl-nons-1.79.2
-https://github.com/docbook/xslt10-stylesheets/releases/download/release/1.79.2/docbook-xsl-nons-1.79.2.tar.bz2
-https://www.linuxfromscratch.org/patches/blfs/12.2/docbook-xsl-nons-1.79.2-stack_fix-1.patch
-https://github.com/docbook/xslt10-stylesheets/releases/download/release/1.79.2/docbook-xsl-doc-1.79.2.tar.bz2
