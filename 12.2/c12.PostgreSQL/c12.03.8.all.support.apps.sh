@@ -3,5 +3,9 @@
 # Support Applications
 #
 
-# ICU & libxml2
-bash b10.03.sh
+# Common to all
+bash b10.03.0.sh
+
+# PostgreSQL support
+bash b10.03.5.sh
+bash b10.03.2.sh

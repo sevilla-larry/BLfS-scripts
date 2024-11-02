@@ -61,26 +61,20 @@ A. Preparation
 
         copy all script files from the following to /sources
 
-            1. c13.Apache
-
-            # if MariaDB is NOT installed
-            2. b15.common.Xorg.MariaDB.Apache
+            1. b10.common.Xorg.and.servers
+            2. c13.Apache
 
   A.03. Download packages
 
         ###
 
-        wget --input-file=c13.01.wget-list-sysv.Apache.txt --continue --directory-prefix=/sources
-
-        # if MariaDB is NOT installed
-        wget --input-file=b15.01.wget-list-sysv.common.Xorg.MariaDB.Apache.txt   --continue --directory-prefix=/sources
+        wget --input-file=b10.01.wget-list-sysv.common.Xorg.and.servers.txt --continue --directory-prefix=/sources
+        wget --input-file=c13.01.wget-list-sysv.Apache.txt                  --continue --directory-prefix=/sources
 
         ###
 
+        md5sum -c b10.02.md5sums.common.Xorg.and.servers.txt
         md5sum -c c13.02.md5sums.Apache.txt
-
-        # if MariaDB is NOT installed
-        md5sum -c b15.02.md5sums.common.Xorg.MariaDB.Apache.txt
 
         ###
 
@@ -117,14 +111,17 @@ B.  Generate BLFS - Support Files
         ( display )
         root [ /sources ]#
 
-  B.03. Support Applications
+  B.02. Support Applications
 
         ###
 
-        bash c13.03.1.support.sh
+        # for Option #1
+        bash b10.03.0.sh
 
-        # for Option #1 or PostgreSQL installation / no MariaDB
-        bash b15.03.sh
+        ###
+
+        bash b10.03.3.sh
+        bash c13.03.sh
 
         ###
 

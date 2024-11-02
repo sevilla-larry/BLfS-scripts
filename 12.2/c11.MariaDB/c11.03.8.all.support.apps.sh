@@ -6,5 +6,5 @@
 # Common to all
 bash b10.03.0.sh
 
-# Maria DB support
+# MariaDB support
 bash b10.03.1.sh
