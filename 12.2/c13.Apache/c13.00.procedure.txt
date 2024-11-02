@@ -116,12 +116,11 @@ B.  Generate BLFS - Support Files
         ###
 
         # for Option #1
-        bash b10.03.0.sh
+        bash c13.03.8.1.common.support.apps.sh
 
         ###
 
-        bash b10.03.3.sh
-        bash c13.03.sh
+        bash c13.03.8.2.apache.support.apps.sh
 
         ###
 

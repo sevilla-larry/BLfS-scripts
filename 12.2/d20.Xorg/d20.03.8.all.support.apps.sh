@@ -8,6 +8,9 @@
 # common to all
 bash b10.03.0.sh
 
+# common with MariaDB & Apache
+bash b10.03.6.sh
+
 # common with MariaDB
 bash b10.03.1.sh
 
