@@ -6,6 +6,10 @@ export LFSLOG_PROCESS=$LFSLOG/process.log
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
 #####
 
 echo "d10.12.11.elogind-255.5"
@@ -21,10 +25,6 @@ echo "."
 echo "."
 
 ###
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
 
 echo "d10.09.12.duktape-2.7.0"
 echo "d10.09.12.duktape-2.7.0.sh" >> $LFSLOG_PROCESS
