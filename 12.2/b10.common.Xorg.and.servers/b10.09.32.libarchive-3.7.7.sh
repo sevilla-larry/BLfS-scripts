@@ -1,4 +1,5 @@
-# b10.09.32.libarchive-3.7.4.sh
+# b10.09.32.libarchive-3.7.7.sh
+# errata update
 #
 
 #
@@ -18,7 +19,7 @@
 #               b10.13.03 CMake-3.30.2
 #
 
-export PKG="libarchive-3.7.4"
+export PKG="libarchive-3.7.7"
 export PKGLOG_DIR=$LFSLOG/09.32
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log

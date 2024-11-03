@@ -6,8 +6,8 @@ c61453139d5fb44e9cdcc5b684b26e55 nettle-3.10.tar.gz
 # boost-1.86.0-upstream_fixes-1.patch
 # 09.24 icu-75.1
 a83c1499e508f73ddbc60002f84ea42a icu4c-75_1-src.tgz
-# 09.32 libarchive-3.7.4
-1bab4c1b443ecf4f23ff9881665e680a libarchive-3.7.4.tar.xz
+# 09.32 libarchive-3.7.7 (errata)
+50c4dea9eba9a0add25ac1cfc9ba2cdb libarchive-3.7.7.tar.xz
 # 09.42 libgcrypt-1.11.0
 321c4975cfd6a496f0530b65a673f9a4 libgcrypt-1.11.0.tar.bz2
 # 09.43 libgpg-error-1.50

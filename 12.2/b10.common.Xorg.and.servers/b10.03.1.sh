@@ -27,10 +27,10 @@ echo "."
 
 ###
 
-echo "b10.09.32.libarchive-3.7.4"
-echo "b10.09.32.libarchive-3.7.4" >> $LFSLOG_PROCESS
+echo "b10.09.32.libarchive-3.7.7"
+echo "b10.09.32.libarchive-3.7.7" >> $LFSLOG_PROCESS
 
-time { bash b10.09.32.libarchive-3.7.4.sh ; }
+time { bash b10.09.32.libarchive-3.7.7.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
