@@ -11,6 +11,10 @@
 #
 
 #
+# Recommended by:
+#
+#               g12.39.03 LibreOffice-24.8.0
+#
 # Optional by:
 #
 #               c13.09.05 Apr-Util-1.6.3    (Apache)

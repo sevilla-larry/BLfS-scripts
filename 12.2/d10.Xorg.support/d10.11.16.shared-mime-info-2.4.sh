@@ -17,6 +17,10 @@
 #
 #               d10.09.17 GLib-2.80.4
 #
+# Optionally by:
+#
+#               g12.39.03 LibreOffice-24.8.0
+#
 
 export PKG="shared-mime-info-2.4"
 export PKGLOG_DIR=$LFSLOG/11.16

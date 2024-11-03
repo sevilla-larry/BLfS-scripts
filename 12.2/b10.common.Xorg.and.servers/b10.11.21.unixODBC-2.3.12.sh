@@ -2,10 +2,13 @@
 #
 
 #
+# Recommended by:
+#
+#               g12.39.03 LibreOffice-24.8.0
+#
 # Optionally by:
 #
 #               c11.22.03 MariaDB-10.11.8
-#               ??? libreoffice
 #
 
 export PKG="unixODBC-2.3.12"

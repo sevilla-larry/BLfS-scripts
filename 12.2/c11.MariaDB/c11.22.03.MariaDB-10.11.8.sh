@@ -28,6 +28,7 @@
 #
 #               c13.09.05 Apr-Util-1.6.3    (Apache)
 #               c14.20.04 ProFTPD-1.3.8b
+#               g12.39.03 LibreOffice-24.8.0
 #
 
 export PKG="mariadb-10.11.8"

@@ -22,6 +22,10 @@
 #
 # Required by: various
 #
+# Recommended by:
+#
+#               g12.39.03 LibreOffice-24.8.0
+#
 
 export PKG="gtk+-3.24.43"
 export PKGLOG_DIR=$LFSLOG/25.17

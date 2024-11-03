@@ -16,6 +16,7 @@
 # Recommended by:
 #
 #               g12.40.03 Firefox-128.3.1esr (errata)
+#               g12.39.03 LibreOffice-24.8.0
 #
 
 export PKG="nss-3.106"

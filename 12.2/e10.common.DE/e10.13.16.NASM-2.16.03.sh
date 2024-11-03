@@ -6,6 +6,10 @@
 #
 #               g12.40.03 Firefox-128.3.1esr
 #
+# Optionally by:
+#
+#               g12.39.03 LibreOffice-24.8.0
+#
 
 export PKG="nasm-2.16.03"
 export PKGLOG_DIR=$LFSLOG/13.16

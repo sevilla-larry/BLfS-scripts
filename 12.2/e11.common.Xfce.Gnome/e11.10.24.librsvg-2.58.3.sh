@@ -18,6 +18,12 @@
 #               d20.24.21 Xorg Fonts
 #
 
+#
+# Recommended by:
+#
+#               g12.39.03 LibreOffice-24.8.0
+#
+
 export PKG="librsvg-2.58.3"
 export PKGLOG_DIR=$LFSLOG/10.24
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log

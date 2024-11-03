@@ -16,6 +16,10 @@
 #
 #               g12.40.03 Firefox-128.3.1esr
 #
+# Recommended by:
+#
+#               g12.39.03 LibreOffice-24.8.0
+#
 # Recommended ( but needed ) by:
 #
 #               d20.24.16 Mesa-24.1.5 ( PC )

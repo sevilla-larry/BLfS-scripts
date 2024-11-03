@@ -2,6 +2,10 @@
 #
 
 #
+# Recommended by:
+#
+#               g12.39.03 LibreOffice-24.8.0
+#
 # Recommended ( but needed ) by:
 #
 #               g12.34.04 Evince-46.3.1

@@ -17,6 +17,7 @@
 # Recommended by:
 #
 #               ???.37.07 LXPanel-0.10.1        ???
+#               g12.39.03 LibreOffice-24.8.0
 #
 # Required to run tests by:
 #

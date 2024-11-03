@@ -24,6 +24,7 @@
 #   Recommended by:
 #
 #               d10.04.20 Polkit-125
+#               g12.39.03 LibreOffice-24.8.0
 #
 #   Optional by:
 #

@@ -17,6 +17,7 @@
 # Recommended by:
 #
 #               e12.25.42 Qt-6.7.2
+#               g12.39.03 LibreOffice-24.8.0
 #
 # Optionally by:
 #

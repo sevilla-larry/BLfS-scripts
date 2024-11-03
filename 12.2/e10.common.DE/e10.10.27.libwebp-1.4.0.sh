@@ -14,6 +14,7 @@
 #
 #               e12.25.42 Qt-6.7.2
 #               g12.40.03 Firefox-128.3.1esr
+#               g12.39.03 LibreOffice-24.8.0
 #
 
 export PKG="libwebp-1.4.0"

@@ -8,6 +8,7 @@
 #               d10.10.12.HarfBuzz-9.0.0
 #               g12.40.03 Firefox-128.3.1esr
 #               e12.25.42 Qt-6.7.2
+#               g12.39.03 LibreOffice-24.8.0
 #
 # Optionally by:
 #

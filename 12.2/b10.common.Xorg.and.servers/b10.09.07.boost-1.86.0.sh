@@ -8,6 +8,10 @@
 #
 
 #
+# Recommended by:
+#
+#               g12.39.03 LibreOffice-24.8.0
+#
 # Optional by:
 #
 #               c11.22.03 MariaDB-10.11.8

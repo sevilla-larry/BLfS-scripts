@@ -42,6 +42,7 @@
 #
 #               d20.24.23 Xwayland-24.1.2
 #               e12.25.42 Qt-6.7.2
+#               g12.39.03 LibreOffice-24.8.0
 #
 # Recommended Runtime by:
 #
@@ -115,9 +116,6 @@ meson setup ..                          \
       -D valgrind=disabled              \
       -D libunwind=disabled             \
       > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
-#      -D gallium-drivers=svga  \ VBs
-#      -D gallium-drivers=auto  \ PCs
-#      -D vulkan-drivers=auto   \ VBs & PCs
 
 echo "3. Ninja Build ..."
 echo "3. Ninja Build ..." >> $LFSLOG_PROCESS

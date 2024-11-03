@@ -22,6 +22,7 @@
 #               e12.25.42 Qt-6.7.2
 #               e12.10.13 JasPer-4.2.4
 #               e12.10.27 libwebp-1.4.0
+#               g12.39.03 LibreOffice-24.8.0
 #
 # Optional by:
 #

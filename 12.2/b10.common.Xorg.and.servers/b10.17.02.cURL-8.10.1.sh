@@ -30,6 +30,7 @@
 #
 #               b11.13.04 CMake-3.30.2
 #               d10.13.09 Git-2.46.0
+#               g12.39.03 LibreOffice-24.8.0
 #
 # Optional by:
 #
