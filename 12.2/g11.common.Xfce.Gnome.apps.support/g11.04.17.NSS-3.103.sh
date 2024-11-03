@@ -1,15 +1,18 @@
-# g11.04.17.NSS-3.106.sh
-# svn due to errata of Firefox
+# g11.04.17.NSS-3.103.sh
 #
 
 #
 # Dependencies Required
 #
-#               g11.09.82 NSPR-4.36     (svn)
+#               g11.09.82 NSPR-4.35
 #
 # Dependencies Recommended:
 #
 #               e10.22.05 SQLite-3.46.1
+#
+# Dependencies Recommended (runtime):
+#
+#               a.08.91B p11-kit-0.25.5
 #
 
 #
@@ -19,7 +22,7 @@
 #               g12.39.03 LibreOffice-24.8.0
 #
 
-export PKG="nss-3.106"
+export PKG="nss-3.103"
 export PKGLOG_DIR=$LFSLOG/04.17
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 #export PKGLOG_CONFIG=$PKGLOG_DIR/config.log

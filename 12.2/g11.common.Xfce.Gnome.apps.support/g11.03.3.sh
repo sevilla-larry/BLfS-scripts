@@ -130,10 +130,10 @@ echo "."
 
 ###
 
-echo "g11.04.17.NSS-3.106"
-echo "g11.04.17.NSS-3.106" >> $LFSLOG_PROCESS
+echo "g11.04.17.NSS-3.103"
+echo "g11.04.17.NSS-3.103" >> $LFSLOG_PROCESS
 
-time { bash g11.04.17.NSS-3.106.sh ; }
+time { bash g11.04.17.NSS-3.103.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

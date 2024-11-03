@@ -1,13 +1,13 @@
-# 04.17 NSS-3.106
-5beed92d43d33b03faf0ec5efd44d1b0 nss-3.106.tar.gz
+# 04.17 NSS-3.103
+2823082a44b9dd71d6281108e0bab03f nss-3.103.tar.gz
 #patch
 
 # 09.08 brotli-1.1.0
 3a6a3dba82a3604792d3cb0bd41bca60 brotli-1.1.0.tar.gz
 # 09.80 Node.js-20.18.0
 2e59511d65c64338b1cf5504c9e18d53 node-v20.18.0.tar.xz
-# 09.82 NSPR-4.36
-87a41a0773ab2a5f5c8f01aec16df24c nspr-4.36.tar.gz
+# 09.82 NSPR-4.35
+5e0acf9fbdde85181bddd510f4624841 nspr-4.35.tar.gz
 
 # 10.31 OpenJPEG-2.5.2
 f9ee64845881a15109ed0aa73a12202f openjpeg-2.5.2.tar.gz

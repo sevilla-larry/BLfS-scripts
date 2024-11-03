@@ -1,14 +1,13 @@
-# g11.09.82.NSPR-4.36.sh
-# svn due to errata of Firefox
+# g11.09.82.NSPR-4.35.sh
 #
 
 #
 # Required by:
 #
-#               g11.04.17 NSS-3.106 (svn)
+#               g11.04.17 NSS-3.103
 #
 
-export PKG="nspr-4.36"
+export PKG="nspr-4.35"
 export PKGLOG_DIR=$LFSLOG/09.82
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log

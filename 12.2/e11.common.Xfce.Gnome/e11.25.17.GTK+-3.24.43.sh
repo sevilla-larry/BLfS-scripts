@@ -20,11 +20,27 @@
 #
 
 #
-# Required by: various
+# Required by:
+#
+#               e11.28.01 adwaita-icon-theme-46.2
+#               e21.25.36 libnotify-0.8.3
+#               e23.35.03 libxfce4ui-4.18.6
+#               e23.35.04 Exo-4.18.0
+#               e23.35.05 Garcon-4.18.2
+#               e23.35.06 libwnck-43.0
 #
 # Recommended by:
 #
+#               e11.42.27 libcanberra-0.30
 #               g12.39.03 LibreOffice-24.8.0
+#
+# Optionally by:
+#
+#               e11.28.09 lxde-icon-theme-0.5.1
+#               e11.42.14 gstreamer-1.24.7
+#               e11.42.15 gst-plugins-base-1.24.7
+#               e11.42.16 gst-plugins-good-1.24.7
+#               e11.42.17 gst-plugins-bad-1.24.7
 #
 
 export PKG="gtk+-3.24.43"
