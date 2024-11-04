@@ -2,14 +2,22 @@
 #
 
 #
+# Dependencies Recommended (required for Xorg):
+#
+#               a.08.94B Linux-PAM-1.6.1
+#
 # Dependencies Recommended:
 #
 #               d10.12.10 dbus-1.14.10  ( runtime )
 #               d10.04.20 Polkit-125    ( runtime )
 #
+# Dependencies Optional:
+#
+#               d10.13.23.12 lxml-5.3.0
+#
 
 #
-# Runtime Recommended by:
+# Recommended (runtime) by:
 #
 #               d20.24.24 Xorg-Server-21.1.13
 #
