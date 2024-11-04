@@ -16,7 +16,7 @@ https://github.com/pygobject/pycairo/releases/download/v1.26.1/pycairo-1.26.1.ta
 # 13.23.23 PyGObject-3.48.2
 https://download.gnome.org/sources/pygobject/3.48/pygobject-3.48.2.tar.xz
 # 13.26 Rustc-1.80.1
-https://static.rust-lang.org/dist/rustc-1.80.1-src.tar.xz
+# https://static.rust-lang.org/dist/rustc-1.80.1-src.tar.xz
 # 13.35 Vala-0.56.17
 https://download.gnome.org/sources/vala/0.56/vala-0.56.17.tar.xz
 

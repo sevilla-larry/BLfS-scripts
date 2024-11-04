@@ -15,7 +15,7 @@
 # 13.23.23 PyGObject-3.48.2
 fe1cb825adc8a49d1629b97b7d26dffc pygobject-3.48.2.tar.xz
 # 13.26 Rustc-1.80.1
-0b00381728b6c005e95194f7e44cff33 rustc-1.80.1-src.tar.xz
+#0b00381728b6c005e95194f7e44cff33 rustc-1.80.1-src.tar.xz
 # 13.35 Vala-0.56.17
 134075855867fdd9c51ca7555c4951bb vala-0.56.17.tar.xz
 
