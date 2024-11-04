@@ -8,10 +8,10 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
 #####
 
-echo "e10.13.37.yasm-1.3.0"
-echo "e10.13.37.yasm-1.3.0" >> $LFSLOG_PROCESS
+echo "e10.13.16.NASM-2.16.03"
+echo "e10.13.16.NASM-2.16.03" >> $LFSLOG_PROCESS
 
-time { bash e10.13.37.yasm-1.3.0.sh ; }
+time { bash e10.13.16.NASM-2.16.03.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
@@ -22,10 +22,10 @@ echo "."
 
 ###
 
-echo "e10.22.05.SQLite-3.46.1"
-echo "e10.22.05.SQLite-3.46.1" >> $LFSLOG_PROCESS
+echo "e10.13.37.yasm-1.3.0"
+echo "e10.13.37.yasm-1.3.0" >> $LFSLOG_PROCESS
 
-time { bash e10.22.05.SQLite-3.46.1.sh ; }
+time { bash e10.13.37.yasm-1.3.0.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

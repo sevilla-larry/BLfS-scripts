@@ -18,7 +18,7 @@
 #
 # Recommended ( but Required ) by:
 #
-#               e11.33.07 VTE-0.76.4
+#               e11.33.07 VTE-0.76.4 ??? turned OFF
 #
 
 export PKG="gnutls-3.8.7"

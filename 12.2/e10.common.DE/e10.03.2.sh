@@ -33,17 +33,17 @@ echo "."
 
 ###
 
-# echo "e10.10.14.LittleCMS-2.16"
-# echo "e10.10.14.LittleCMS-2.16" >> $LFSLOG_PROCESS
+echo "e10.10.14.LittleCMS-2.16"
+echo "e10.10.14.LittleCMS-2.16" >> $LFSLOG_PROCESS
 
-# time { bash e10.10.14.LittleCMS-2.16.sh ; }
+time { bash e10.10.14.LittleCMS-2.16.sh ; }
 
-# date +"%Y/%b/%d %H:%M"
-# date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
-# echo "." >> $LFSLOG_PROCESS
-# echo "."
-# echo "."
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
 
 ###
 

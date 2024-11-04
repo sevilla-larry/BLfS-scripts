@@ -55,7 +55,6 @@ meson setup --prefix=/usr       \
             --buildtype=release \
             -D _systemd=false   \
             -D gnutls=false     \
-            -D vapi=false       \
             -D gtk4=false       \
     > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 

@@ -17,6 +17,7 @@
 # Required by:
 #
 #               e23.35.12 xfce4-power-manager-4.18.4
+#                         lxqt-powermanagement
 #
 
 export PKG="upower-v1.90.4"
