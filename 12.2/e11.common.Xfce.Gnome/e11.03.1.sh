@@ -24,17 +24,17 @@ echo "."
 
 ###
 
-echo "e11.13.26.Rustc-1.80.1"
-echo "e11.13.26.Rustc-1.80.1" >> $LFSLOG_PROCESS
+# echo "e11.13.26.Rustc-1.80.1"
+# echo "e11.13.26.Rustc-1.80.1" >> $LFSLOG_PROCESS
 
-time { bash e11.13.26.Rustc-1.80.1.sh ; }
+# time { bash e11.13.26.Rustc-1.80.1.sh ; }
 
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+# date +"%Y/%b/%d %H:%M"
+# date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
+# echo "." >> $LFSLOG_PROCESS
+# echo "."
+# echo "."
 
 ###
 
