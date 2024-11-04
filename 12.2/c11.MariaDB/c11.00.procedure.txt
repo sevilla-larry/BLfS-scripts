@@ -142,7 +142,7 @@ C.  Generate BLFS
         #
         #    #skip-networking
 
-        # on server
+        # on server as root
 
         mariadb -u root -pMariaDB
 
