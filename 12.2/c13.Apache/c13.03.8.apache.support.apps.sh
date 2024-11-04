@@ -3,6 +3,9 @@
 # Support Applications
 #
 
+# Common to MariaDB & Apache
+bash b10.03.6.sh
+
 # Apache support (SQLite)
 bash b10.03.3.sh
 

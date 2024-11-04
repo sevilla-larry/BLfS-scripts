@@ -116,11 +116,12 @@ B.  Generate BLFS - Support Files
         ###
 
         # for Option #1
+        # Common to all
         bash b10.03.0.sh
 
         ###
 
-        bash b10.03.4.sh
+        bash c14.03.8.proftpd.support.apps.sh
 
         ###
 
