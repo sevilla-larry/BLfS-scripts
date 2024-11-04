@@ -6,7 +6,7 @@
 # Common to all
 bash b10.03.0.sh
 
-# Commont to MariaDB & Apache
+# Common to MariaDB & Apache
 bash b10.03.6.sh
 
 # MariaDB support
