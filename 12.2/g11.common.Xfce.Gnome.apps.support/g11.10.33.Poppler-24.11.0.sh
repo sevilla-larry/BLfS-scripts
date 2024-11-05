@@ -72,6 +72,7 @@ cmake -D CMAKE_BUILD_TYPE=Release           \
       -D TESTDATADIR=$PWD/testfiles         \
       -D ENABLE_QT5=OFF                     \
       -D ENABLE_UNSTABLE_API_ABI_HEADERS=ON \
+      -D ENABLE_GPGME=OFF                   \
       -G Ninja                              \
       ..                                    \
       > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
