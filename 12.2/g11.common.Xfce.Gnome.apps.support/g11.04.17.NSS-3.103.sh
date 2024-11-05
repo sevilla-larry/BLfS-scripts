@@ -43,10 +43,10 @@ tar xvf $PKG.tar.gz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
 
 
-patch -Np1 -i ../nss-standalone-1.patch \
+patch -Np1 -i ../nss-3.103-standalone-1.patch   \
             > $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
 
-cd mss
+cd nss
 
 echo "3. Make Build ..."
 echo "3. Make Build ..." >> $LFSLOG_PROCESS
@@ -66,7 +66,8 @@ echo "4. Test ..." >> $PKGLOG_ERROR
 cd tests
 HOST=localhost DOMSUF=localdomain ./all.sh  \
             > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
-cp ../../test_results/security/localhost.1/results.html $PKGLOG_DIR
+cp -v ../../test_results/security/localhost.1/results.html $PKGLOG_DIR
+            >> $PKGLOG_CHECK 2>> $PKGLOG_ERROR
 cd ../
 
 echo "5. Dist Install ..."
