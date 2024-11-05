@@ -71,6 +71,7 @@ cmake -D CMAKE_BUILD_TYPE=Release           \
       -D CMAKE_INSTALL_PREFIX=/usr          \
       -D TESTDATADIR=$PWD/testfiles         \
       -D ENABLE_QT5=OFF                     \
+      -D ENABLE_QT6=OFF                     \
       -D ENABLE_UNSTABLE_API_ABI_HEADERS=ON \
       -D ENABLE_GPGME=OFF                   \
       -G Ninja                              \
