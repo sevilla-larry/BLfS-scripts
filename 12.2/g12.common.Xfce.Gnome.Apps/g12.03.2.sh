@@ -1,4 +1,4 @@
-# g12.03.1.sh
+# g12.03.2.sh
 #
 
 export LFSLOG_PROCESS=$LFSLOG/process.log

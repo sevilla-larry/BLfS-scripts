@@ -4,7 +4,7 @@ https://www.linuxfromscratch.org/patches/blfs/12.2/nss-3.103-standalone-1.patch
 
 # 09.80 Node.js-20.18.0
 https://nodejs.org/dist/v20.18.0/node-v20.18.0.tar.xz
-# 09.82 NSPR-4.36
+# 09.82 NSPR-4.35
 https://archive.mozilla.org/pub/nspr/releases/v4.35/src/nspr-4.35.tar.gz
 
 # 10.31 OpenJPEG-2.5.2

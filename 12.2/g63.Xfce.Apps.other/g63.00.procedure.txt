@@ -73,7 +73,7 @@ B.  Generate BLFS - Xfce Apps
 
         bash g63.03.9.1.small.apps.sh   # basic Apps
         bash g63.03.9.2.Evince.sh       # Evince
-        bash g63.03.9.3.Firefox.sh      # Firefox
+        #bash g63.03.9.3.Firefox.sh      # Firefox
         #bash g63.03.9.4.LibreOffice.sh  # LibreOffice
 
         ###

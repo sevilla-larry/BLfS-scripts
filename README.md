@@ -35,30 +35,18 @@
 # Group b - Common apps & Libraries
 #
 #       b10 - Common to XOrg & servers
-#       b11 - Common to XOrg & MariaDB
-#       ...
-#		b15 - Common to XOrg, MariaDB & Apache
-#
-#       b20 - Common to DEs & servers
-#       ...
-# 
 #
 # Group c - Servers
-#
-#       c00 - Common to servers
-#
-#       c01 - Common to MariaDB & PostgreSQL
-#       ...
 #
 #       c11 - MariaDB
 #       c12 - PostgreSQL
 #       c13 - Apache
 #       c14 - ProFTPD
 #
-#       c19 - QEmu/KVM
+#       c19 - QEmu/KVM			- pending
 # 
 #
-# Group d - XOrg ( includes dbus, elogind, ... )
+# Group d - XOrg
 #
 #		d10 - Xorg ( & Xwayland ) Support
 #
@@ -102,7 +90,7 @@
 #
 #       f0	- Common to DM's
 #		f1	- GDM
-#		f2	- LightDM			built in e23.Xfce
+#		f2	- LightDM			compiled in e23.Xfce
 #       f3	- SDDM
 #       f4	- LXDM			??? (from 11.3)	???
 #
@@ -110,9 +98,10 @@
 # Group g - Xorg Applications
 #
 #		g11 - Common Xfce & Gnome Applications Support
-#		g12 - Common Xfce & Gnome Applications
+#		g12 - Common Xfce & Gnome Applications				Evince, Firefox, LibreOffice
 #
 #	(	g62 - Xfce Applications	) included in e23.Xfce
+#		g63 - Xfce Applications Other						Mousepad, xarchiver
 #
 
 
