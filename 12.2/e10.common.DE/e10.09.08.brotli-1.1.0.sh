@@ -4,13 +4,17 @@
 #
 # Dependencies Required:
 #
-#               b11.13.03 CMake-3.30.2
+#               b10.13.03 CMake-3.30.2
 #
 
 #
 # Recommended by:
 #
 #               g11.09.80 Node.js-20.18.0 (svn)
+#
+# Optionally by:
+#
+#               e10.04.07 GnuTLS-3.8.7.1
 #
 
 export PKG="brotli-1.1.0"

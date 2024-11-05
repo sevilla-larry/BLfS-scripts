@@ -1,7 +1,14 @@
+# 04.07 GnuTLS-3.8.7.1
+https://www.gnupg.org/ftp/gcrypt/gnutls/v3.8/gnutls-3.8.7.1.tar.xz
+
+# 09.08 brotli-1.1.0
+https://github.com/google/brotli/archive/v1.1.0/brotli-1.1.0.tar.gz
 # 09.29 JSON-GLib-1.10.0
 https://download.gnome.org/sources/json-glib/1.10/json-glib-1.10.0.tar.xz
 # 09.45 libgudev-238
 https://download.gnome.org/sources/libgudev/238/libgudev-238.tar.xz
+# 09.65 libtasn1-4.19.0
+https://ftp.gnu.org/gnu/libtasn1/libtasn1-4.19.0.tar.gz
 # 09.69 libusb-1.0.27
 https://github.com/libusb/libusb/releases/download/v1.0.27/libusb-1.0.27.tar.bz2
 # 09.71 libxkbcommon-1.7.0

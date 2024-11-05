@@ -12,9 +12,6 @@
 #
 #               b10.09.24 icu-75.1
 #               d10.09.17 GLib-2.80.4
-#
-# Dependencies Recommended ( but Required ):
-#
 #               e11.04.07 GnuTLS-3.8.7.1
 #
 
@@ -54,9 +51,9 @@ echo "2. Meson Setup ..." >> $PKGLOG_ERROR
 meson setup --prefix=/usr       \
             --buildtype=release \
             -D _systemd=false   \
-            -D gnutls=false     \
             -D gtk4=false       \
     > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+#            -D gnutls=false     \
 
 echo "3. Ninja Build ..."
 echo "3. Ninja Build ..." >> $LFSLOG_PROCESS

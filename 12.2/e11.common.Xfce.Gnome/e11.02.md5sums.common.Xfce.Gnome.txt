@@ -1,6 +1,3 @@
-# 04.07 GnuTLS-3.8.7.1
-46777802233eb7203d47a8b8880c8c90 gnutls-3.8.7.1.tar.xz
-
 ## 10.24 librsvg-2.58.3
 #8f954b5c25ffff602b4e62813c98c8c9 librsvg-2.58.3.tar.xz
 
