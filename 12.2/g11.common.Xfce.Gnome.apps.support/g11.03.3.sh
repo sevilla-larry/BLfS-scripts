@@ -40,10 +40,24 @@ echo "."
 #    Node.js group
 ###
 
-echo "g11.09.08.brotli-1.1.0"
-echo "g11.09.08.brotli-1.1.0" >> $LFSLOG_PROCESS
+echo "g11.09.82.NSPR-4.35"
+echo "g11.09.82.NSPR-4.35" >> $LFSLOG_PROCESS
 
-time { bash g11.09.08.brotli-1.1.0.sh ; }
+time { bash g11.09.82.NSPR-4.35.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "g11.04.17.NSS-3.103"
+echo "g11.04.17.NSS-3.103" >> $LFSLOG_PROCESS
+
+time { bash g11.04.17.NSS-3.103.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

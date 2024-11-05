@@ -2,6 +2,35 @@
 #
 
 #
+# Dependencies Required:
+#
+#               b10.13.03 CMake-3.30.2
+#               d10.10.05 Fontconfig-2.15.0
+#               d10.09.17 GLib-2.80.4
+#
+# Dependencies Recommended:
+#
+#               b10.09.07 boost-1.86.0
+#               e10.25.04 Cairo-1.18.0
+#               ??? GPGME
+#               e10.10.14 Little CMS-2.16
+#               e10.10.18 libjpeg-turbo-3.0.1
+#               d10.10.22 libpng-1.6.43
+#               e10.10.26 libtiff-4.7.0         (errata)
+#               g11.04.17 NSS-3.103         ??? Poppler detected lower version
+#               g11.10.31 OpenJPEG-2.5.2
+#               ??? Qt6
+#
+# Dependencies Optional:
+#
+#               b10.17.02 cURL-8.10.1
+#               e10.25.10 gdk-pixbuf-2.42.12
+#               d10.13.09 Git-2.46.0
+#               e11.25.17 GTK+-3.24.43
+#               ??? Qt5
+#
+
+#
 # Recommended by:
 #
 #               g12.39.03 LibreOffice-24.8.0
@@ -43,9 +72,11 @@ cmake -D CMAKE_BUILD_TYPE=Release           \
       -D TESTDATADIR=$PWD/testfiles         \
       -D ENABLE_QT5=OFF                     \
       -D ENABLE_UNSTABLE_API_ABI_HEADERS=ON \
+      -D ENABLE_NSS3=OFF                    \
       -G Ninja                              \
       ..                                    \
       > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+# Note: Poppler detected that NSS3 has lower version
 
 echo "3. Ninja Build ..."
 echo "3. Ninja Build ..." >> $LFSLOG_PROCESS
