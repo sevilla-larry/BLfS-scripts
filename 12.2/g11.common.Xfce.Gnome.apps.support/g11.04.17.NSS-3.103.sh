@@ -66,7 +66,7 @@ echo "4. Test ..." >> $PKGLOG_ERROR
 cd tests
 HOST=localhost DOMSUF=localdomain ./all.sh  \
             > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
-cp -v ../../test_results/security/localhost.1/results.html $PKGLOG_DIR
+cp -v ../test_results/security/localhost.1/results.html $PKGLOG_DIR
             >> $PKGLOG_CHECK 2>> $PKGLOG_ERROR
 cd ../
 

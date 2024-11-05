@@ -121,6 +121,7 @@ echo "6.2. Install Encoding Data ..." >> $PKGLOG_ERROR
 make prefix=/usr install    \
         >> $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
+cd ..
 
 cd ..
 cd ..
