@@ -83,21 +83,19 @@ echo "3. Ninja Build ..." >> $LFSLOG_PROCESS
 echo "3. Ninja Build ..." >> $PKGLOG_ERROR 
 ninja > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 
-# Test TOO long
-#
-#echo "4.1 Git some Test ..."
-#echo "4.1 Git some Test ..." >> $LFSLOG_PROCESS
-#echo "4.1 Git some Test ..." >> $PKGLOG_ERROR
-# git clone --depth 1    \
-#        https://gitlab.freedesktop.org/poppler/test.git \
-#        testfiles       \
-#      > $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
-#
-#echo "4.2 Ninja Test ..."
-#echo "4.2 Ninja Test ..." >> $LFSLOG_PROCESS
-#echo "4.2 Ninja Test ..." >> $PKGLOG_ERROR
-#LC_ALL=en_US.UTF-8 ninja test   \
-#      > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
+echo "4.1 Git some Test ..."
+echo "4.1 Git some Test ..." >> $LFSLOG_PROCESS
+echo "4.1 Git some Test ..." >> $PKGLOG_ERROR
+ git clone --depth 1    \
+        https://gitlab.freedesktop.org/poppler/test.git \
+        testfiles       \
+      > $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
+
+echo "4.2 Ninja Test ..."
+echo "4.2 Ninja Test ..." >> $LFSLOG_PROCESS
+echo "4.2 Ninja Test ..." >> $PKGLOG_ERROR
+LC_ALL=en_US.UTF-8 ninja test   \
+      > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
 
 echo "5. Ninja Install ..."
 echo "5. Ninja Install ..." >> $LFSLOG_PROCESS

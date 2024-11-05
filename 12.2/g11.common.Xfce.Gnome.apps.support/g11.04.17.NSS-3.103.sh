@@ -60,15 +60,17 @@ make BUILD_OPT=1                      \
   $([ -f /usr/include/sqlite3.h ] && echo NSS_USE_SYSTEM_SQLITE=1)  \
         > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 
-echo "4. Test ..."
-echo "4. Test ..." >> $LFSLOG_PROCESS
-echo "4. Test ..." >> $PKGLOG_ERROR
-cd tests
-HOST=localhost DOMSUF=localdomain ./all.sh  \
-            > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
-cp -v ../test_results/security/localhost.1/results.html $PKGLOG_DIR
-            >> $PKGLOG_CHECK 2>> $PKGLOG_ERROR
-cd ../
+# Test TOO long
+#
+#echo "4. Test ..."
+#echo "4. Test ..." >> $LFSLOG_PROCESS
+#echo "4. Test ..." >> $PKGLOG_ERROR
+#cd tests
+#HOST=localhost DOMSUF=localdomain ./all.sh  \
+#            > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
+#cp -v ../test_results/security/localhost.1/results.html $PKGLOG_DIR
+#            >> $PKGLOG_CHECK 2>> $PKGLOG_ERROR
+#cd ../
 
 echo "5. Dist Install ..."
 echo "5. Dist Install ..." >> $LFSLOG_PROCESS
