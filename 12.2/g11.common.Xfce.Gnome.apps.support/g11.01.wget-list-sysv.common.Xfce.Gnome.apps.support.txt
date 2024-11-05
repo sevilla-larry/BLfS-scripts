@@ -10,8 +10,7 @@ https://archive.mozilla.org/pub/nspr/releases/v4.35/src/nspr-4.35.tar.gz
 # 10.31 OpenJPEG-2.5.2
 https://github.com/uclouvain/openjpeg/archive/v2.5.2/openjpeg-2.5.2.tar.gz
 # 10.33 Poppler-24.08.0 24-11.0
-#https://poppler.freedesktop.org/poppler-24.08.0.tar.xz
-https://poppler.freedesktop.org/poppler-24.11.0.tar.xz
+https://poppler.freedesktop.org/poppler-24.08.0.tar.xz
 https://poppler.freedesktop.org/poppler-data-0.4.12.tar.gz
 
 # 13.21 Python-3.13.0

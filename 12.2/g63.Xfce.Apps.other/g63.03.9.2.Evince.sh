@@ -3,5 +3,6 @@
 # Evince
 #
 
-bash g11.03.2.sh
-bash g12.03.2.sh
+bash g11.03.23.sh	# Evince & Firefox support
+bash g11.03.2.sh	# Evince support
+bash g12.03.2.sh	# Evince
