@@ -24,6 +24,20 @@ echo "."
 
 ###
 
+echo "e23.36.04.Ristretto-0.13.2"
+echo "e23.36.04.Ristretto-0.13.2" >> $LFSLOG_PROCESS
+
+time { bash e23.36.04.Ristretto-0.13.2.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
 echo "e23.36.05.xfce4-dev-tools-4.18.1"
 echo "e23.36.05.xfce4-dev-tools-4.18.1" >> $LFSLOG_PROCESS
 
