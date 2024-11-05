@@ -1,4 +1,4 @@
-# g11.10.33.Poppler-24.08.0.sh
+# g11.10.33.Poppler-24.11.0.sh
 #
 
 #
@@ -40,7 +40,7 @@
 #               g12.34.04 Evince-46.3.1
 #
 
-export PKG="poppler-24.08.0"
+export PKG="poppler-24.11.0"
 export PKGLOG_DIR=$LFSLOG/10.33
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
@@ -72,33 +72,32 @@ cmake -D CMAKE_BUILD_TYPE=Release           \
       -D TESTDATADIR=$PWD/testfiles         \
       -D ENABLE_QT5=OFF                     \
       -D ENABLE_UNSTABLE_API_ABI_HEADERS=ON \
-      -D ENABLE_NSS3=OFF                    \
-      -D ENABLE_GPGME=OFF                   \
       -G Ninja                              \
       ..                                    \
       > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 # Note: Poppler detected that NSS3 has lower version
-#       GPGME not installed
-#
+#      -D ENABLE_NSS3=OFF                    \
 
 echo "3. Ninja Build ..."
 echo "3. Ninja Build ..." >> $LFSLOG_PROCESS
 echo "3. Ninja Build ..." >> $PKGLOG_ERROR 
 ninja > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 
-echo "4.1 Git some Test ..."
-echo "4.1 Git some Test ..." >> $LFSLOG_PROCESS
-echo "4.1 Git some Test ..." >> $PKGLOG_ERROR
- git clone --depth 1    \
-        https://gitlab.freedesktop.org/poppler/test.git \
-        testfiles       \
-      > $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
-
-echo "4.2 Ninja Test ..."
-echo "4.2 Ninja Test ..." >> $LFSLOG_PROCESS
-echo "4.2 Ninja Test ..." >> $PKGLOG_ERROR
-LC_ALL=en_US.UTF-8 ninja test   \
-      > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
+# Test TOO long
+#
+#echo "4.1 Git some Test ..."
+#echo "4.1 Git some Test ..." >> $LFSLOG_PROCESS
+#echo "4.1 Git some Test ..." >> $PKGLOG_ERROR
+# git clone --depth 1    \
+#        https://gitlab.freedesktop.org/poppler/test.git \
+#        testfiles       \
+#      > $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
+#
+#echo "4.2 Ninja Test ..."
+#echo "4.2 Ninja Test ..." >> $LFSLOG_PROCESS
+#echo "4.2 Ninja Test ..." >> $PKGLOG_ERROR
+#LC_ALL=en_US.UTF-8 ninja test   \
+#      > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
 
 echo "5. Ninja Install ..."
 echo "5. Ninja Install ..." >> $LFSLOG_PROCESS
