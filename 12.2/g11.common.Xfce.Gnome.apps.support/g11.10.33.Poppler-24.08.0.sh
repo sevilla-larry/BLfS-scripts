@@ -17,7 +17,7 @@
 #               e10.10.18 libjpeg-turbo-3.0.1
 #               d10.10.22 libpng-1.6.43
 #               e10.10.26 libtiff-4.7.0         (errata)
-#               g11.04.17 NSS-3.103         ??? Poppler detected lower version
+#               g11.04.17 NSS-3.103
 #               g11.10.31 OpenJPEG-2.5.2
 #               ??? Qt6
 #
