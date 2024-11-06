@@ -3,6 +3,17 @@
 # Evince
 #
 
-bash g11.03.23.sh	# Evince & Firefox support
-bash g11.03.2.sh	# Evince support
-bash g12.03.2.sh	# Evince
+# Evince, Firefox & LibreOffice support
+# NSPR & NSS
+bash g11.03.234.sh
+
+# Evince & LibreOffice support
+# libassuan, GPGME & Poppler
+bash g11.03.24.sh
+
+# Evince support
+# libhandy & OpenJPEG
+bash g11.03.2.sh
+
+# Evince
+bash g12.03.2.sh
