@@ -20,6 +20,8 @@ f9ee64845881a15109ed0aa73a12202f openjpeg-2.5.2.tar.gz
 # 13.21 Python-3.13.0
 726e5b829fcf352326874c1ae599abaa Python-3.13.0.tar.xz
 afbf0a2319b7ac7561c52969bd0f5148 python-3.13.0-docs-html.tar.bz2
+# 13.26 Rustc-1.80.1
+0b00381728b6c005e95194f7e44cff33 rustc-1.80.1-src.tar.xz
 
 # 17.01 c-ares-1.34.2
 ec8bf334616de82f740e01cfb7176c23 c-ares-1.34.2.tar.gz
