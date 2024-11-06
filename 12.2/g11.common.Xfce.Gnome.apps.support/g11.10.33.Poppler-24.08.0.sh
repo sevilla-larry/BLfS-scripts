@@ -73,13 +73,12 @@ cmake -D CMAKE_BUILD_TYPE=Release           \
       -D ENABLE_QT5=OFF                     \
       -D ENABLE_QT6=OFF                     \
       -D ENABLE_UNSTABLE_API_ABI_HEADERS=ON \
-      -D ENABLE_GPGME=OFF                   \
       -G Ninja                              \
       ..                                    \
       > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 # Note: Poppler detected that NSS3 has lower version
 #      -D ENABLE_NSS3=OFF                    \
-#       GPGME not installed
+#      -D ENABLE_GPGME=OFF                   \
 #
 
 echo "3. Ninja Build ..."
