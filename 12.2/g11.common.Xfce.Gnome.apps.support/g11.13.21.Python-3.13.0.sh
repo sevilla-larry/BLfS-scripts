@@ -8,7 +8,7 @@
 #
 # Dependencies Required:
 #
-#               e10.22.05 SQLite-3.46.1
+#               b10.22.05 SQLite-3.46.1
 #
 
 #

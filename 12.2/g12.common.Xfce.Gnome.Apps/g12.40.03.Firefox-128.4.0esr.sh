@@ -7,7 +7,7 @@
 #               g11.13.01 Cbindgen-0.27.0
 #               e11.25.17 GTK+-3.24.43
 #               e21.25.36 libnotify-0.8.3
-#               d10.13.12.LLVM-18.1.7       ??? 19.1.0 svn
+#               d10.13.12 LLVM-18.1.7       ??? 19.1.0 svn
 #               g11.09.80 Node.js-20.18.0   (svn)
 #               g11.42.49 PulseAudio-17.0
 #               g11.13.21 Python-3.13.0     (errata)
@@ -21,7 +21,7 @@
 #               g11.42.45 libvpx-1.14.1
 #               e10.10.27 libwebp-1.4.0
 #               e10.13.16 NASM-2.16.03
-#               g11.04.17.nss-3.106         (svn)
+#               g11.04.17 nss-3.103
 #
 # Dependencies Optional:
 #
