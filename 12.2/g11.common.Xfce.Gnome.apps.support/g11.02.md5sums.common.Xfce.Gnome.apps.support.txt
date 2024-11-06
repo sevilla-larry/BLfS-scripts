@@ -1,7 +1,11 @@
+# 04.08 GPGME-1.23.2
+01a8c05b409847e87daf0543e91f8c37 gpgme-1.23.2.tar.bz2
 # 04.17 NSS-3.103
 2823082a44b9dd71d6281108e0bab03f nss-3.103.tar.gz
 #patch
 
+# 09.33 libassuan-3.0.1
+6f0d239302ae3b8d4aefcb499b137530 libassuan-3.0.1.tar.bz2
 # 09.80 Node.js-20.18.0
 2e59511d65c64338b1cf5504c9e18d53 node-v20.18.0.tar.xz
 # 09.82 NSPR-4.35

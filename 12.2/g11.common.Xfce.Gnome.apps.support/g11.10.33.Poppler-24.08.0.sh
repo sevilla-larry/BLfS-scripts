@@ -12,7 +12,7 @@
 #
 #               b10.09.07 boost-1.86.0
 #               e10.25.04 Cairo-1.18.0
-#               ??? GPGME
+#               g11.04.08 GPGME-1.23.2
 #               e10.10.14 Little CMS-2.16
 #               e10.10.18 libjpeg-turbo-3.0.1
 #               d10.10.22 libpng-1.6.43
