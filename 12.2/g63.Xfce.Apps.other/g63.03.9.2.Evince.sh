@@ -7,13 +7,13 @@
 # NSPR & NSS
 bash g11.03.234.sh
 
-# Evince support
-# libhandy & OpenJPEG
-bash g11.03.2.sh
-
 # Evince & LibreOffice support
-# libassuan, GPGME & Poppler
+# OpenJPEG, libassuan, GPGME & Poppler
 bash g11.03.24.sh
+
+# Evince support
+# libhandy 
+bash g11.03.2.sh
 
 # Evince
 bash g12.03.2.sh
