@@ -117,6 +117,7 @@ echo "2. Autogen Configure ..." >> $PKGLOG_ERROR
              --without-java                 \
              --without-junit                \
              --without-system-dicts         \
+             --disable-cups                 \
              --disable-dconf                \
              --disable-odk                  \
              --disable-skia                 \
