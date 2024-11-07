@@ -111,7 +111,7 @@ echo "2. Autogen Configure ..." >> $PKGLOG_ERROR
 ./autogen.sh --prefix=$LO_PREFIX            \
              --sysconfdir=/etc              \
              --with-vendor=BLFS             \
-             --with-lang='en en-US'         \
+             --with-lang='en-US'            \
              --with-help                    \
              --with-myspell-dicts           \
              --without-java                 \
