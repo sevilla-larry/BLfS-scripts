@@ -26,6 +26,11 @@ f9ee64845881a15109ed0aa73a12202f openjpeg-2.5.2.tar.gz
 5edd19a7ef270793374a3a5599bf872f poppler-24.08.0.tar.xz
 67ee4a40aa830b1f6e2560ce5f6471ba poppler-data-0.4.12.tar.gz
 
+# 12.28->30 Raptor-2.0.16 Rasqal-0.9.33 Redland-1.0.17
+0a71f13b6eaa0a04bf411083d89d7bc2 raptor2-2.0.16.tar.gz
+1f5def51ca0026cd192958ef07228b52 rasqal-0.9.33.tar.gz
+e5be03eda13ef68aabab6e42aa67715e redland-1.0.17.tar.gz
+
 # 13.18 Perl Modules
 # 13.18.01 Archive::Zip-1.68
 a33993309322164867c99e04a4000ee3 Archive-Zip-1.68.tar.gz

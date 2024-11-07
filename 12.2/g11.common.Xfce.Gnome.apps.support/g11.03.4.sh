@@ -92,6 +92,48 @@ echo "." >> $LFSLOG_PROCESS
 echo "."
 echo "."
 
+###
+
+echo "g11.12.28.Raptor-2.0.16"
+echo "g11.12.28.Raptor-2.0.16" >> $LFSLOG_PROCESS
+
+time { bash g11.12.28.Raptor-2.0.16.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "g11.12.29.Rasqal-0.9.33"
+echo "g11.12.29.Rasqal-0.9.33" >> $LFSLOG_PROCESS
+
+time { bash g11.12.29.Rasqal-0.9.33.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "g11.12.30.Redland-1.0.17"
+echo "g11.12.30.Redland-1.0.17" >> $LFSLOG_PROCESS
+
+time { g11.12.30.Redland-1.0.17.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
 #####
 
 unset LFSLOG_PROCESS
