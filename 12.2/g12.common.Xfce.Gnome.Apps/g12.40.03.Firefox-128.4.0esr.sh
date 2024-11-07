@@ -1,4 +1,5 @@
 # g12.40.03.Firefox-128.4.0esr.sh
+# errata
 #
 
 #

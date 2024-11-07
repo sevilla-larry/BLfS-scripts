@@ -9,6 +9,7 @@ bash g11.03.234.sh
 
 # Evince & LibreOffice support
 # OpenJPEG, libassuan, GPGME & Poppler
+# graphene, gst
 bash g11.03.24.sh
 
 # Evince support

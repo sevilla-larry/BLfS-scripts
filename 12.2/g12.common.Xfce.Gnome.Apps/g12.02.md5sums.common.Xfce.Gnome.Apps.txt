@@ -1,5 +1,12 @@
 # 34.04 Evince-46.3.1
 e017e3544751c2442020f4d10a39e24d evince-46.3.1.tar.xz
 
+# 39.03 LibreOffice-24.8.0
+230fb890c1fc32b8e7186a96d4e9c12a libreoffice-24.8.0.3.tar.xz
+aabc278e0393220c39cb72a98e56abec libreoffice-dictionaries-24.8.0.3.tar.xz
+f5b9ae5cc8572f01a6ae66704ce790bf libreoffice-help-24.8.0.3.tar.xz
+d86da685bce6182f77fc4002ad8d9f8f libreoffice-translations-24.8.0.3.tar.xz
+#patch
+
 # 40.03 Firefox-128.4.0esr
 b541a15be48b06c6fbbe665601587e15 firefox-128.4.0esr.source.tar.xz
