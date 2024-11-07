@@ -20,6 +20,11 @@
 #
 #               e11.10.33 Poppler-24.08.0
 #
+# Dependencies Optional:
+#
+#               g11.42.15 gst-plugins-base-1.24.7
+#               e10.10.26 libtiff-4.7.0
+#
 
 export PKG="evince-46.3.1"
 export PKGLOG_DIR=$LFSLOG/34.04

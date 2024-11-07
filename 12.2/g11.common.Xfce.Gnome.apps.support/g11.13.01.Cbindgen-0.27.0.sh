@@ -47,8 +47,9 @@ cargo test --release	\
 echo "4. Cargo Install ..."
 echo "4. Cargo Install ..." >> $LFSLOG_PROCESS
 echo "4. Cargo Install ..." >> $PKGLOG_ERROR
-install -Dm755 target/release/cbindgen /usr/bin/	\
-	> $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
+install -v -Dm755 target/release/cbindgen	\
+			/usr/bin/						\
+			> $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 
 cd ..

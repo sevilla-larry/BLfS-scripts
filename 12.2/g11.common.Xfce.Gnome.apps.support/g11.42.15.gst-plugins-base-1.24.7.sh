@@ -30,6 +30,14 @@
 #               e11.42.16 gst-plugins-good-1.24.7
 #               e11.42.17 gst-plugins-bad-1.24.7
 #
+# Recommended by:
+#
+#               g12.39.03 LibreOffice-24.8.0
+#
+# Optionally by:
+#
+#               g12.34.04 Evince-46.3.1
+#
 
 export PKG="gst-plugins-base-1.24.7"
 export PKGLOG_DIR=$LFSLOG/42.15

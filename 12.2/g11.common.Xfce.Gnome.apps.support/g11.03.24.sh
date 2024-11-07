@@ -64,6 +64,48 @@ echo "." >> $LFSLOG_PROCESS
 echo "."
 echo "."
 
+###
+
+echo "g11.25.16.Graphene-1.10.8"
+echo "g11.25.16.Graphene-1.10.8" >> $LFSLOG_PROCESS
+
+time { bash g11.25.16.Graphene-1.10.8.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "e11.42.14.gstreamer-1.24.7"
+echo "e11.42.14.gstreamer-1.24.7" >> $LFSLOG_PROCESS
+
+time { bash e11.42.14.gstreamer-1.24.7.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "e11.42.15.gst-plugins-base-1.24.7"
+echo "e11.42.15.gst-plugins-base-1.24.7" >> $LFSLOG_PROCESS
+
+time { bash e11.42.15.gst-plugins-base-1.24.7.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
 #####
 
 unset LFSLOG_PROCESS

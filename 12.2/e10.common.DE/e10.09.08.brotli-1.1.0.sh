@@ -15,6 +15,7 @@
 # Optionally by:
 #
 #               e10.04.07 GnuTLS-3.8.7.1
+#           ??? d10.10.04 FreeType-2.13.3 (not used)
 #
 
 export PKG="brotli-1.1.0"

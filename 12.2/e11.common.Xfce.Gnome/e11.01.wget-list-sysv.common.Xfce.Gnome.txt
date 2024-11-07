@@ -1,6 +1,3 @@
-# 10.24 librsvg-2.58.3
-#https://download.gnome.org/sources/librsvg/2.58/librsvg-2.58.3.tar.xz
-
 # 11.11 ISO Codes-4.16.0
 # https://ftp.debian.org/debian/pool/main/i/iso-codes/iso-codes_4.16.0.orig.tar.xz
 https://ftp2.osuosl.org/pub/blfs/conglomeration/iso-codes/iso-codes_4.16.0.orig.tar.xz

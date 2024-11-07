@@ -11,6 +11,7 @@
 # Recommended by:
 #
 #               g11.10.33 Poppler-24.08.0
+#               g12.39.03 LibreOffice-24.8.0
 #
 
 export PKG="gpgme-1.23.2"

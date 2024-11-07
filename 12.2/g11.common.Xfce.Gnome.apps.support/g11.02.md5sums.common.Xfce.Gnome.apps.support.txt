@@ -9,6 +9,8 @@
 #patch
 # 09.33 libassuan-3.0.1
 6f0d239302ae3b8d4aefcb499b137530 libassuan-3.0.1.tar.bz2
+# 09.35 libatomic_ops-7.8.2
+d07b3d8369d7f9efdca59f7501dd1117 libatomic_ops-7.8.2.tar.gz
 # 09.80 Node.js-20.18.0
 2e59511d65c64338b1cf5504c9e18d53 node-v20.18.0.tar.xz
 # 09.82 NSPR-4.35
@@ -16,6 +18,8 @@
 
 # 10.10 GLM-1.0.1
 f824ac50e16310a95279032f82cbd341 glm-1.0.1.tar.gz
+# 10.24 librsvg-2.58.3
+8f954b5c25ffff602b4e62813c98c8c9 librsvg-2.58.3.tar.xz
 # 10.31 OpenJPEG-2.5.2
 f9ee64845881a15109ed0aa73a12202f openjpeg-2.5.2.tar.gz
 # 10.33 Poppler-24.08.0

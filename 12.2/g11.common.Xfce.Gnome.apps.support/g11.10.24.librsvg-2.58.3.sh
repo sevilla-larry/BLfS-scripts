@@ -7,7 +7,7 @@
 #               e10.25.04 Cairo-1.18.0
 #               e10.25.10 gdk-pixbuf-2.42.12
 #               e10.25.38 Pango-1.54.0
-#               e11.13.26 Rustc-1.80.1
+#               g11.13.26 Rustc-1.80.1
 #
 # Dependencies Recommended:
 #
