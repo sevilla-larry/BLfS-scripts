@@ -4,6 +4,9 @@ https://www.gnupg.org/ftp/gcrypt/gpgme/gpgme-1.23.2.tar.bz2
 https://archive.mozilla.org/pub/security/nss/releases/NSS_3_103_RTM/src/nss-3.103.tar.gz
 https://www.linuxfromscratch.org/patches/blfs/12.2/nss-3.103-standalone-1.patch
 
+# 09.09 CLucene-2.3.3.4
+https://downloads.sourceforge.net/clucene/clucene-core-2.3.3.4.tar.gz
+https://www.linuxfromscratch.org/patches/blfs/12.2/clucene-2.3.3.4-contribs_lib-1.patch
 # 09.33 libassuan-3.0.1
 https://www.gnupg.org/ftp/gcrypt/libassuan/libassuan-3.0.1.tar.bz2
 # 09.80 Node.js-20.18.0
@@ -11,12 +14,17 @@ https://nodejs.org/dist/v20.18.0/node-v20.18.0.tar.xz
 # 09.82 NSPR-4.35
 https://archive.mozilla.org/pub/nspr/releases/v4.35/src/nspr-4.35.tar.gz
 
+# 10.10 GLM-1.0.1
+https://github.com/g-truc/glm/archive/1.0.1/glm-1.0.1.tar.gz
 # 10.31 OpenJPEG-2.5.2
 https://github.com/uclouvain/openjpeg/archive/v2.5.2/openjpeg-2.5.2.tar.gz
 # 10.33 Poppler-24.08.0 24-11.0
 https://poppler.freedesktop.org/poppler-24.08.0.tar.xz
 https://poppler.freedesktop.org/poppler-data-0.4.12.tar.gz
 
+# 13.18 Perl Modules
+# 13.18.01 Archive::Zip-1.68
+https://www.cpan.org/authors/id/P/PH/PHRED/Archive-Zip-1.68.tar.gz
 # 13.21 Python-3.13.0
 https://www.python.org/ftp/python/3.13.0/Python-3.13.0.tar.xz
 https://www.python.org/ftp/python/doc/3.13.0/python-3.13.0-docs-html.tar.bz2

@@ -4,6 +4,9 @@
 2823082a44b9dd71d6281108e0bab03f nss-3.103.tar.gz
 #patch
 
+# 09.09 CLucene-2.3.3.4
+48d647fbd8ef8889e5a7f422c1bfda94 clucene-core-2.3.3.4.tar.gz
+#patch
 # 09.33 libassuan-3.0.1
 6f0d239302ae3b8d4aefcb499b137530 libassuan-3.0.1.tar.bz2
 # 09.80 Node.js-20.18.0
@@ -11,12 +14,17 @@
 # 09.82 NSPR-4.35
 5e0acf9fbdde85181bddd510f4624841 nspr-4.35.tar.gz
 
+# 10.10 GLM-1.0.1
+f824ac50e16310a95279032f82cbd341 glm-1.0.1.tar.gz
 # 10.31 OpenJPEG-2.5.2
 f9ee64845881a15109ed0aa73a12202f openjpeg-2.5.2.tar.gz
 # 10.33 Poppler-24.08.0
 5edd19a7ef270793374a3a5599bf872f poppler-24.08.0.tar.xz
 67ee4a40aa830b1f6e2560ce5f6471ba poppler-data-0.4.12.tar.gz
 
+# 13.18 Perl Modules
+# 13.18.01 Archive::Zip-1.68
+a33993309322164867c99e04a4000ee3 Archive-Zip-1.68.tar.gz
 # 13.21 Python-3.13.0
 726e5b829fcf352326874c1ae599abaa Python-3.13.0.tar.xz
 afbf0a2319b7ac7561c52969bd0f5148 python-3.13.0-docs-html.tar.bz2

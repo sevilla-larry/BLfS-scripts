@@ -24,20 +24,6 @@ echo "."
 
 ###
 
-echo "g11.13.26.Rustc-1.80.1"
-echo "g11.13.26.Rustc-1.80.1" >> $LFSLOG_PROCESS
-
-time { bash g11.13.26.Rustc-1.80.1.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
-
-###
-
 echo "g11.13.01.Cbindgen-0.27.0"
 echo "g11.13.01.Cbindgen-0.27.0" >> $LFSLOG_PROCESS
 

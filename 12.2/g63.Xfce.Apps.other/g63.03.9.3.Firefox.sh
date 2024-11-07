@@ -7,6 +7,10 @@
 # NSPR & NSS
 # bash g11.03.234.sh
 
+# Firefox & LibreOffice support
+# Rustc
+bash g11.03.34.sh
+
 # Firefox support
 bash g11.03.3.sh
 
