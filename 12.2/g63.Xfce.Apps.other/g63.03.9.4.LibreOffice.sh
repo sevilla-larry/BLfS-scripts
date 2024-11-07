@@ -17,7 +17,7 @@
 # bash g11.03.34.sh
 
 # LibreOffice support
-bash g11.03.4.sh
+# bash g11.03.4.sh
 
 # LibreOffice
 bash g12.03.4.sh
