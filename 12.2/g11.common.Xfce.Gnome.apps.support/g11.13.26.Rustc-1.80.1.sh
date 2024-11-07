@@ -25,9 +25,7 @@
 #               e11.10.24 librsvg-2.58.3
 #
 
-#????? NOT yet finished
-
-export PKG="rustc-1.80.1"
+export PKG="rustc-1.80.1-src"
 export PKGLOG_DIR=$LFSLOG/13.26
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 #export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
@@ -44,7 +42,7 @@ mkdir $PKGLOG_DIR
 echo "1. Extract tar..."
 echo "1. Extract tar..." >> $LFSLOG_PROCESS
 echo "1. Extract tar..." >> $PKGLOG_ERROR
-tar xvf $PKG-src.tar.xz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
+tar xvf $PKG.tar.xz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
 
 
