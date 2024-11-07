@@ -125,7 +125,7 @@ echo "."
 echo "g11.12.30.Redland-1.0.17"
 echo "g11.12.30.Redland-1.0.17" >> $LFSLOG_PROCESS
 
-time { g11.12.30.Redland-1.0.17.sh ; }
+time { bash g11.12.30.Redland-1.0.17.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
