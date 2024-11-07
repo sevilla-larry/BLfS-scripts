@@ -57,9 +57,12 @@ make > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 echo "   Some tests are known to occasionally hang indefinitely ..."
 echo "   Some tests are known to occasionally hang indefinitely ..."    >> $LFSLOG_PROCESS
 echo "   Some tests are known to occasionally hang indefinitely ..."    >> $PKGLOG_ERROR
-echo "   So to test the results, run the test suite but set a 2-minute time limit for each test case ..."
-echo "   So to test the results, run the test suite but set a 2-minute time limit for each test case ..."   >> $LFSLOG_PROCESS
-echo "   So to test the results, run the test suite but set a 2-minute time limit for each test case ..."   >> $PKGLOG_ERROR
+echo "   So to test the results, run the test suite ..."
+echo "   So to test the results, run the test suite ..."                >> $LFSLOG_PROCESS
+echo "   So to test the results, run the test suite ..."                >> $PKGLOG_ERROR
+echo "   but set a 2-minute time limit for each test case ..."
+echo "   but set a 2-minute time limit for each test case ..."          >> $LFSLOG_PROCESS
+echo "   but set a 2-minute time limit for each test case ..."          >> $PKGLOG_ERROR
 
 echo "4. Make Test ..."
 echo "4. Make Test ..." >> $LFSLOG_PROCESS
