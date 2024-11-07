@@ -31,8 +31,15 @@ ec8bf334616de82f740e01cfb7176c23 c-ares-1.34.2.tar.gz
 # 25.33 libhandy-1.8.3
 af586a91ff6d4093a6e7e283dfab5f7f libhandy-1.8.3.tar.xz
 
+# 42.02 alsa-lib-1.2.12
+97bbf3cca911c1701fe9fe115c32b03d alsa-lib-1.2.12.tar.bz2
+#alsa-ucm-conf-1.2.12
+# 42.11 FLAC-1.4.3
+7cab20b46e0bc859234bf5ba7da81625 flac-1.4.3.tar.xz
 # 42.40 libsndfile-1.2.2
 04e2e6f726da7c5dc87f8cf72f250d04 libsndfile-1.2.2.tar.xz
+# 42.44 Opus-1.5.2
+c40b3a1fbdbb9a7aa178600b88200c76 opus-1.5.2.tar.gz
 # 42.45 libvpx-1.14.1
 1d2a1c594587ee1f26a4f017becddcd5 libvpx-1.14.1.tar.gz
 # 42.49 PulseAudio-17.0

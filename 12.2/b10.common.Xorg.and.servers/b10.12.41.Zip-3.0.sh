@@ -4,7 +4,7 @@
 #
 # Required by:
 #
-#               ???
+#               g12.39.03 LibreOffice-24.8.0
 #
 
 export PKG="zip30"

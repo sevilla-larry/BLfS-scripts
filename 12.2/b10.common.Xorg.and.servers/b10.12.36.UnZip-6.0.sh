@@ -5,8 +5,8 @@
 # Required by:
 #
 #               d10.10.05 Fontconfig-2.15.0
-#               g12.40.03 Firefox-128.3.1esr
-#               ???.49.01 docbook-xml-4.5   ???
+#               g12.40.03 Firefox-128.4.0esr (errata)
+#               b10.49.01 docbook-xml-4.5
 #
 
 export PKG="unzip60"

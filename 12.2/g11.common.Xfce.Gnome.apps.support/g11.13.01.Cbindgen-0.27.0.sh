@@ -9,7 +9,7 @@
 #
 # Required by:
 #
-#               g12.40.03 Firefox-128.3.1esr
+#               g12.40.03 Firefox-128.4.0esr (errata)
 #
 
 export PKG="cbindgen-0.27.0"

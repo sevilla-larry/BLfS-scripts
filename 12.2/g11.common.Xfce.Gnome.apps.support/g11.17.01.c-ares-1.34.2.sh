@@ -15,7 +15,7 @@
 #
 
 export PKG="c-ares-1.34.2"
-export PKGLOG_DIR=$LFSLOG/04.01
+export PKGLOG_DIR=$LFSLOG/17.01
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log

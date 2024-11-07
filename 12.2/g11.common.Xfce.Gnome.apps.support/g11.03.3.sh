@@ -82,8 +82,49 @@ echo "."
 
 ###
 #   PulseAudio group
-#	no alsalib for the meantime
 #
+###
+
+echo "g11.42.02.alsa-lib-1.2.12"
+echo "g11.42.02.alsa-lib-1.2.12" >> $LFSLOG_PROCESS
+
+time { bash g11.42.02.alsa-lib-1.2.12.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "g11.42.11.FLAC-1.4.3"
+echo "g11.42.11.FLAC-1.4.3" >> $LFSLOG_PROCESS
+
+time { bash g11.42.11.FLAC-1.4.3.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "g11.42.44.Opus-1.5.2"
+echo "g11.42.44.Opus-1.5.2" >> $LFSLOG_PROCESS
+
+time { bash g11.42.44.Opus-1.5.2.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
 ###
 
 echo "g11.42.40.libsndfile-1.2.2"

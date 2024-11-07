@@ -28,6 +28,7 @@
 #               e23.35.04 Exo-4.18.0
 #               e23.35.05 Garcon-4.18.2
 #               e23.35.06 libwnck-43.0
+#               g12.40.03 Firefox-128.4.0esr (errata)
 #
 # Recommended by:
 #
