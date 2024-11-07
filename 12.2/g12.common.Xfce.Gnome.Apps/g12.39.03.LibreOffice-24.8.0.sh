@@ -134,7 +134,6 @@ echo "2. Autogen Configure ..." >> $PKGLOG_ERROR
              --with-system-expat            \
              --with-system-glm              \
              --with-system-gpgmepp          \
-             --with-system-harfbuzz         \
              --with-system-jpeg             \
              --with-system-lcms2            \
              --with-system-libatomic_ops    \
@@ -152,6 +151,7 @@ echo "2. Autogen Configure ..." >> $PKGLOG_ERROR
             > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 #             --with-jdk-home=/opt/jdk    \ Java        NOT installed
 #             --with-system-graphite      \ Graphite    NOT installed
+#             --with-system-harfbuzz      \ needs Graphite
 #             --with-system-openldap      \ OpenLDAP    NOT installed
 #             --with-system-postgresql    \ PostgreSQL  NOT installed
 
