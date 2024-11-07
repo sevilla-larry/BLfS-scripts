@@ -17,7 +17,7 @@
 #               g12.39.03 LibreOffice-24.8.0
 #
 
-export PKG="CLucene-2.3.3.4"
+export PKG="clucene-core-2.3.3.4"
 export PKGLOG_DIR=$LFSLOG/09.09
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
