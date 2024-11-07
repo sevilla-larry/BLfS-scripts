@@ -34,6 +34,8 @@ afbf0a2319b7ac7561c52969bd0f5148 python-3.13.0-docs-html.tar.bz2
 # 17.01 c-ares-1.34.2
 ec8bf334616de82f740e01cfb7176c23 c-ares-1.34.2.tar.gz
 
+# 25.13 GLU-9.0.3
+06a4fff9179a98ea32ef41b6d83f6b19 glu-9.0.3.tar.xz
 # 25.23 gtksourceview4-4.8.4
 2bf056caaae27654ec3a5930dd5597d3 gtksourceview-4.8.4.tar.xz
 # 25.33 libhandy-1.8.3

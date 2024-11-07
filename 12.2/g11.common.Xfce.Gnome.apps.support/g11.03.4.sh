@@ -52,15 +52,10 @@ echo "."
 
 ###
 
+echo "g11.25.13.GLU-9.0.3"
+echo "g11.25.13.GLU-9.0.3" >> $LFSLOG_PROCESS
 
-
-
-
-
-echo "g11.10.33.Poppler-24.08.0"
-echo "g11.10.33.Poppler-24.08.0" >> $LFSLOG_PROCESS
-
-time { bash g11.10.33.Poppler-24.08.0.sh ; }
+time { bash g11.25.13.GLU-9.0.3.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
