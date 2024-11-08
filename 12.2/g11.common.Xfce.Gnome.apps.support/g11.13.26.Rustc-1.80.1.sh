@@ -169,8 +169,6 @@ pathprepend /opt/rustc/bin           PATH
 # End /etc/profile.d/rustc.sh
 EOF
 
-pathprepend /opt/rustc/bin           PATH
-
 source /etc/profile.d/rustc.sh
 
 
