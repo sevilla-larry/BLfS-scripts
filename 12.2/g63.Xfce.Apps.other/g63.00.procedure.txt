@@ -82,6 +82,8 @@ B.  Generate BLFS - Xfce Apps
 
         ###
 
+        source /etc/profile.d/rustc.sh
+
         export LFSLOG=/var/log/blfs
 
         export MAKEFLAGS="-j$(nproc)"
@@ -102,6 +104,7 @@ B.  Generate BLFS - Xfce Apps
         echo $LFSLOG          # /var/log/blfs
         echo $MAKEFLAGS       # -j$(nproc)
         echo $NPROC           # $(nproc)
+        echo $PATH            # /opt/rustc/bin (included)
 
         echo $SHELL           # /bin/bash
         ls -l /bin/sh         # bash
