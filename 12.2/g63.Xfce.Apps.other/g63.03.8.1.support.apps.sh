@@ -1,4 +1,4 @@
-# g63.03.1.all.support.apps.sh
+# g63.03.8.1.support.apps.sh
 #
 
 # Mousepad support
@@ -18,11 +18,5 @@ bash g11.03.24.sh
 bash g11.03.2.sh
 
 # Firefox & LibreOffice support
-# Rustc
+# Python, Rustc
 bash g11.03.34.sh
-
-# Firefox support
-bash g11.03.3.sh
-
-# LibreOffice support
-bash g11.03.4.sh

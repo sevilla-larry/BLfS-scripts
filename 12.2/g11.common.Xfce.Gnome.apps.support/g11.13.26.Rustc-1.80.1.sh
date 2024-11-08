@@ -161,8 +161,6 @@ ln -sfv /opt/rustc/share/zsh/site-functions/_cargo      \
 
 unset LIB{SSH2,SQLITE3}_SYS_USE_PKG_CONFIG
 
-pathprepend /opt/rustc/bin           PATH
-
 cat > /etc/profile.d/rustc.sh << "EOF"  2>> $PKGLOG_ERROR
 # Begin /etc/profile.d/rustc.sh
 
@@ -170,6 +168,8 @@ pathprepend /opt/rustc/bin           PATH
 
 # End /etc/profile.d/rustc.sh
 EOF
+
+pathprepend /opt/rustc/bin           PATH
 
 source /etc/profile.d/rustc.sh
 
