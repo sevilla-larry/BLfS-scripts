@@ -70,7 +70,7 @@ B.  Generate BLFS - Xfce Apps
 
         ###
 
-        bash g63.03.8.1.all.support.apps.sh
+        bash g63.03.8.1.support.apps.sh
 
         # after Rustc
 
@@ -116,7 +116,7 @@ B.  Generate BLFS - Xfce Apps
 
         ###
 
-        bash g63.03.8.2.all.support.apps.sh
+        bash g63.03.8.2.support.apps.sh
 
         bash g63.03.9.all.apps.sh
 
