@@ -32,8 +32,6 @@ B.  Generate BLFS - Xfce Apps
 
   B.01. Part 1 - up to Rustc
 
-        ( Note: change the MAKEFLAGS based on the number of threads )
-
         ###
 
         export LFSLOG=/var/log/blfs
