@@ -135,13 +135,11 @@ B.  Generate BLFS - Xfce Apps
 
         # (a) VM & VB
 
-            chmod -v a+wt /mnt/Src/blfs.{src,log}
+            chmod -vr a+wt /mnt/Src/blfs.{src,log}
 
         # (b) PC
 
-            chmod -v a+wt /usr/src/blfs
-
-            chmod -v a+wt /var/log/blfs
+            chmod -vr a+wt /usr/{src,log}/blfs
 
         ### Environment
 
