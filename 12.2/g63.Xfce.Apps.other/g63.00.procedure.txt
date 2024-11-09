@@ -1,6 +1,6 @@
 A. Preparation
 
-  A.01. ( Assumming XOrg is already running )
+  A.01. ( Assumming XOrg & Xfce are already running )
 
         cd /sources
 
