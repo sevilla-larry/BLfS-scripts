@@ -12,7 +12,7 @@ A. Preparation
 
             mkdir -v /mnt/Src/blfs.{src,log}
 
-            chmod -vr a+wt /mnt/Src/blfs.{src,log}
+            chmod -vR a+wt /mnt/Src/blfs.{src,log}
 
             ln -sfv /mnt/Src/blfs.src /sources
 
@@ -24,7 +24,7 @@ A. Preparation
 
             mkdir -pv /var/log/blfs
 
-            chmod -vr a+wt /usr/{src,log}/blfs
+            chmod -vR a+wt /usr/{src,log}/blfs
 
             ln -sfv /usr/src/blfs /sources
 
