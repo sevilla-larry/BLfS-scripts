@@ -122,10 +122,49 @@ B.  Generate BLFS - Xfce Apps
         bash g63.03.8.2.support.apps.sh
 
         bash g63.03.9.all.apps.sh
+        # LibreOffice excluded
 
         # bash g63.03.9.1.small.apps.sh   # basic Apps
         # bash g63.03.9.2.Evince.sh       # Evince
         # bash g63.03.9.3.Firefox.sh      # Firefox
         # bash g63.03.9.4.LibreOffice.sh  # LibreOffice
+
+        ###
+
+  B.03. Part 3 - LibreOffice - should be build as user
+
+        ### Ensure permission are correct
+
+        # (a) VM & VB
+
+            chmod -v a+wt /mnt/Src/blfs.{src,log}
+
+        # (b) PC
+
+            chmod -v a+wt /usr/src/blfs
+
+            chmod -v a+wt /var/log/blfs
+
+        ### Environment
+
+        su - user
+
+        ###
+
+        export LFSLOG=/var/log/blfs
+
+        export MAKEFLAGS="-j$(nproc)"
+        export NPROC="$(nproc)"
+
+        export XORG_PREFIX="/usr"
+
+        export XORG_CONFIG="--prefix=$XORG_PREFIX --sysconfdir=/etc \
+                            --localstatedir=/var --disable-static"
+
+        cd /sources
+
+        ###
+
+        bash g63.03.9.4.LibreOffice.sh
 
         ###
