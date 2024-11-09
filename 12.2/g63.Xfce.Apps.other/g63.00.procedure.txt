@@ -161,10 +161,18 @@ B.  Generate BLFS - Xfce Apps
         export XORG_CONFIG="--prefix=$XORG_PREFIX --sysconfdir=/etc \
                             --localstatedir=/var --disable-static"
 
+        export LO_PREFIX=/opt/libreoffice-24.8.0.3
+
         cd /sources
 
         ###
 
-        bash g63.03.9.4.LibreOffice.sh
+        bash g12.03.4.1.sh
+
+        exit    # logout as user, back to root
+
+        cd /sources
+
+        bash g12.03.4.2.sh
 
         ###

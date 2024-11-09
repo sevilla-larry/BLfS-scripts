@@ -1,4 +1,6 @@
-# g12.39.03.LibreOffice-24.8.0.sh
+# g12.39.03.LibreOffice-24.8.0.Part1.sh
+#
+# Part1 - as user, up to "build"
 #
 
 #
@@ -56,8 +58,8 @@ export PKGLOG_DIR=$LFSLOG/39.03
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
-export PKGLOG_CHECK=$PKGLOG_DIR/check.log
-export PKGLOG_INSTALL=$PKGLOG_DIR/install.log
+#export PKGLOG_CHECK=$PKGLOG_DIR/check.log
+#export PKGLOG_INSTALL=$PKGLOG_DIR/install.log
 export PKGLOG_ERROR=$PKGLOG_DIR/error.log
 export PKGLOG_OTHERS=$PKGLOG_DIR/others.log
 export LFSLOG_PROCESS=$LFSLOG/process.log
@@ -93,8 +95,6 @@ ln -sv src/libreoffice-dictionaries-24.8.0.3/dictionaries/	\
 			>> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
 ln -sv src/libreoffice-translations-24.8.0.3/translations/	\
 			>> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
-
-export LO_PREFIX=/opt/libreoffice-24.8.0.3
 
 sed -e "/gzip -f/d"   \
     -e "s|.1.gz|.1|g" \
@@ -160,53 +160,12 @@ echo "3. Make Build ..." >> $LFSLOG_PROCESS
 echo "3. Make Build ..." >> $PKGLOG_ERROR
 make build > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 
-echo "4. Make Install ..."
-echo "4. Make Install ..." >> $LFSLOG_PROCESS
-echo "4. Make Install ..." >> $PKGLOG_ERROR
-make distro-pack-install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
-
-if [ "$LO_PREFIX" != "/usr" ]; then
-
-  # This symlink is necessary for the desktop menu entries
-  ln -svf $LO_PREFIX/lib/libreoffice/program/soffice    \
-            /usr/bin/libreoffice                        \
-            >> $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
-  # Set up a generic location independent of version number
-  ln -sfv $LO_PREFIX /opt/libreoffice                   \
-            >> $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
-
-  # Icons
-  mkdir -vp /usr/share/pixmaps                          \
-            >> $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
-  for i in $LO_PREFIX/share/icons/hicolor/32x32/apps/*; do
-    ln -svf $i /usr/share/pixmaps                       \
-            >> $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
-  done
-
-  # Desktop menu entries
-  for i in $LO_PREFIX/lib/libreoffice/share/xdg/*; do
-    ln -svf $i /usr/share/applications/libreoffice-$(basename $i)   \
-            >> $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
-  done
-
-  # Man pages
-  for i in $LO_PREFIX/share/man/man1/*; do
-    ln -svf $i /usr/share/man/man1/         \
-            >> $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
-  done
-
-  unset i
-fi
-
-update-desktop-database \
-            >> $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
-
-
 cd ..
-rm -rf $PKG
+# rm -rf $PKG   Don't delete directory now
 unset LFSLOG_PROCESS
 unset PKGLOG_OTHERS
-unset PKGLOG_INSTALL PKGLOG_BUILD PKGLOG_CONFIG
-unset PKGLOG_CHECK
+#unset PKGLOG_INSTALL 
+unset PKGLOG_BUILD PKGLOG_CONFIG
+#unset PKGLOG_CHECK
 unset PKGLOG_ERROR PKGLOG_TAR
 unset PKGLOG_DIR PKG
