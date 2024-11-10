@@ -125,7 +125,6 @@ B.  Generate BLFS - Xfce Apps
         # bash g63.03.9.1.small.apps.sh   # basic Apps
         # bash g63.03.9.2.Evince.sh       # Evince
         # bash g63.03.9.3.Firefox.sh      # Firefox
-        # bash g63.03.9.4.LibreOffice.sh  # LibreOffice
 
         ###
 
@@ -143,6 +142,9 @@ B.  Generate BLFS - Xfce Apps
 
         ### Environment
 
+        # Install destination
+        export LO_PREFIX=/opt/libreoffice-24.8.0.3
+
         su - user
 
         ###
@@ -157,7 +159,7 @@ B.  Generate BLFS - Xfce Apps
         export XORG_CONFIG="--prefix=$XORG_PREFIX --sysconfdir=/etc \
                             --localstatedir=/var --disable-static"
 
-        export LO_PREFIX=/opt/libreoffice-24.8.0.3
+        # export LO_PREFIX=/opt/libreoffice-24.8.0.3
 
         cd /sources
 
@@ -169,7 +171,7 @@ B.  Generate BLFS - Xfce Apps
 
         cd /sources
 
-        export LO_PREFIX=/opt/libreoffice-24.8.0.3
+        # export LO_PREFIX=/opt/libreoffice-24.8.0.3
 
         bash g12.03.4.2.sh
 
