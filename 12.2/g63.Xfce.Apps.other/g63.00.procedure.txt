@@ -169,6 +169,8 @@ B.  Generate BLFS - Xfce Apps
 
         cd /sources
 
+        export LO_PREFIX=/opt/libreoffice-24.8.0.3
+
         bash g12.03.4.2.sh
 
         ###
