@@ -47,8 +47,8 @@ https://www.kernel.org/pub/software/scm/git/git-2.46.0.tar.xz
 https://www.kernel.org/pub/software/scm/git/git-manpages-2.46.0.tar.xz
 https://www.kernel.org/pub/software/scm/git/git-htmldocs-2.46.0.tar.xz
 
-# 17.02 cURL-8.10.1
-https://curl.se/download/curl-8.10.1.tar.xz
+# 17.02 cURL-8.11.0
+https://curl.se/download/curl-8.11.0.tar.xz
 # 17.07 libevent-2.1.12
 https://github.com/libevent/libevent/releases/download/release-2.1.12-stable/libevent-2.1.12-stable.tar.gz
 # 17.14 libpsl-0.21.5

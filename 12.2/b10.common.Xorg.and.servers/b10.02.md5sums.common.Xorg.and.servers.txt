@@ -48,7 +48,7 @@ d62167d85bcb459c200c0e4b5a63ee48 unixODBC-2.3.12.tar.gz
 # htmldocs
 
 # 17.02 cURL-8.10.1
-48adc57e11f543adbbbe86bdea98ca1f curl-8.10.1.tar.xz
+49dd886ac84ed3de693464f78f1ee926 curl-8.11.0.tar.xz
 # 17.07 libevent-2.1.12
 b5333f021f880fe76490d8a799cd79f4 libevent-2.1.12-stable.tar.gz
 # 17.14 libpsl-0.21.5
