@@ -2,7 +2,8 @@
 #
 # Dependencies of
 #   PostgreSQL
-# libxslt
+#		and
+#	RabbitMQ
 #
 
 export LFSLOG_PROCESS=$LFSLOG/process.log
@@ -13,6 +14,7 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 #####
 
 #
+# needs
 # b10.03.5.sh
 #   libgcrypt
 #   libgpg-error
@@ -52,6 +54,20 @@ echo "b10.49.04.docbook-xsl-nons-1.79.2"
 echo "b10.49.04.docbook-xsl-nons-1.79.2" >> $LFSLOG_PROCESS
 
 time { bash b10.49.04.docbook-xsl-nons-1.79.2.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "b10.49.06.xmlto-0.0.29"
+echo "b10.49.06.xmlto-0.0.29" >> $LFSLOG_PROCESS
+
+time { bash b10.49.06.xmlto-0.0.29.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

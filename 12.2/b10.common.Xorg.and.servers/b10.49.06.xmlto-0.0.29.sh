@@ -1,41 +1,22 @@
-# d10.09.74.libxslt-1.1.42.sh
+# b10.49.06.xmlto-0.0.29.sh
 #
 
 #
 # Dependencies Required:
 #
-#               b10.09.72 libxml2-2.13.3
-#
-# Dependencies Recommended (at runtime):
-#
+#               b10.09.74 libxslt-1.1.42
 #               b10.49.01 docbook-xml-4.5
 #               b10.49.04 docbook-xsl-nons-1.79.2
 #
-# Dependencies Optional:
-#
-#               b10.09.42 libgcrypt-1.11.0
-#
 
 #
-#   Recommended but needed by:
+#   Required by:
 #
-#               d10.09.17 GLib-2.80.4
-#
-#   Recommended by:
-#
-#               d10.04.20 Polkit-125
-#               g12.39.03 LibreOffice-24.8.0
-#
-#   Optional by:
-#
-#               d20.24.03 xorgproto-2024.1
-#				d20.24.05 libXdmcp-1.1.5
-#				d20.24.07 libxcb-1.17.0
-#               d20.25.34 Libdrm-2.4.122
+#               RabbitMQ
 #
 
-export PKG="libxslt-1.1.42"
-export PKGLOG_DIR=$LFSLOG/09.74
+export PKG="xmlto-0.0.29"
+export PKGLOG_DIR=$LFSLOG/49.06
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
@@ -50,18 +31,18 @@ mkdir $PKGLOG_DIR
 echo "1. Extract tar..."
 echo "1. Extract tar..." >> $LFSLOG_PROCESS
 echo "1. Extract tar..." >> $PKGLOG_ERROR
-tar xvf $PKG.tar.xz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
+tar xvf $PKG.tar.gz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
 
 
 echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
 echo "2. Configure ..." >> $PKGLOG_ERROR
-./configure --prefix=/usr                          \
-            --disable-static                       \
-            --docdir=/usr/share/doc/libxslt-1.1.42 \
-          > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
-#            PYTHON=/usr/bin/python3                \
+autoreconf -fiv                 \
+            > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+LINKS="/usr/bin/links"          \
+    ./configure --prefix=/usr   \
+           >> $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Make Build ..."
 echo "3. Make Build ..." >> $LFSLOG_PROCESS
