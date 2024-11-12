@@ -65,6 +65,5 @@ https://www.docbook.org/xml/4.5/docbook-xml-4.5.zip
 https://github.com/docbook/xslt10-stylesheets/releases/download/release/1.79.2/docbook-xsl-nons-1.79.2.tar.bz2
 https://www.linuxfromscratch.org/patches/blfs/12.2/docbook-xsl-nons-1.79.2-stack_fix-1.patch
 https://github.com/docbook/xslt10-stylesheets/releases/download/release/1.79.2/docbook-xsl-doc-1.79.2.tar.bz2
-
 # 49.06 xmlto-0.0.29
 https://pagure.io/xmlto/archive/0.0.29/xmlto-0.0.29.tar.gz
