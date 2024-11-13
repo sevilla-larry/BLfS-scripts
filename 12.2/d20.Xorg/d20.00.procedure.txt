@@ -25,7 +25,7 @@ A. Preparation
             mkdir -pv /var/log/blfs
 
             chmod -vR a+wt /usr/src/blfs
-            
+
             chmod -vR a+wt /var/log/blfs
 
             ln -sfv /usr/src/blfs /sources
