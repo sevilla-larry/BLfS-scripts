@@ -11,6 +11,7 @@
 # Recommended by:
 #
 #               e11.13.26 Rustc-1.80.1
+#               b01.16.05 Nmap-7.95
 #
 # Optionally by:
 #
