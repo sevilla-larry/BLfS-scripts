@@ -34,7 +34,7 @@
 #         [*]     Netfilter nf_tables netdev tables support     [NF_TABLES_NETDEV]
 #         {*/M}   Netfilter packet duplication support             [NF_DUP_NETDEV]
 #         <*/M>   Netfilter nf_tables netdev packet forwarding support
-                                                           ...  [NFT_FWD_NETDEV]
+#                                                           ...  [NFT_FWD_NETDEV]
 #     <*/M> 802.1d Ethernet Bridging                                      [BRIDGE]
 #     <*/M> 802.1Q/802.1ad VLAN Support                               [VLAN_8021Q]
 #     -*-   L3 Master device support                           [NET_L3_MASTER_DEV]
