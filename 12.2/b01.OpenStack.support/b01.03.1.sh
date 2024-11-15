@@ -25,7 +25,7 @@ echo "."
 echo "b01.17.10.libnl-3.10.0"
 echo "b01.17.10.libnl-3.10.0" >> $LFSLOG_PROCESS
 
-time { b01.17.10.libnl-3.10.0.sh ; }
+time { bash b01.17.10.libnl-3.10.0.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
