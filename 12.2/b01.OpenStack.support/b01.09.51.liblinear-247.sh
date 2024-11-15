@@ -30,7 +30,7 @@ cd $PKG
 
 echo "2. Make Build ..."
 echo "2. Make Build ..." >> $LFSLOG_PROCESS
-echo "2 Make Build ..." >> $PKGLOG_ERROR
+echo "2. Make Build ..." >> $PKGLOG_ERROR
 make lib > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 
 echo "3. Copy Install ..."
