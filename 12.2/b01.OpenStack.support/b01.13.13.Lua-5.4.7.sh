@@ -62,7 +62,7 @@ make linux  > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 echo "3. Make Test ..."
 echo "3. Make Test ..." >> $LFSLOG_PROCESS
 echo "3. Make Test ..." >> $PKGLOG_ERROR
-make check > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
+make test > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
 
 echo "4. Make Install ..."
 echo "4. Make Install ..." >> $LFSLOG_PROCESS
