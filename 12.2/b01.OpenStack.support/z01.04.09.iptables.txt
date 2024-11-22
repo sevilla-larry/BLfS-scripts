@@ -1,0 +1,23 @@
+[*] Networking support --->
+    Networking options --->
+        [*] Network packet filtering framework (Netfilter) --->
+            [*] Advanced netfilter configuration
+            Core Netfilter Configuration --->
+
+default         [*]     Netfilter ingress support
+default         [*]     Netfilter egress  support
+
+                <*/M>   Netfilter connection tracking support
+after                     LOG target support
+                -*-     Syslog packet logging
+
+after                   Netfilter connection tracking support
+default         [*]     DCCP protocol connection tracking support
+default         [*]     SCTP protocol connection tracking support
+default         [*]     UDP-Lite protocol connection tracking support
+
+                <*/M>   Netfilter Xtables support (required for ip_tables)
+                <*/M>     LOG target support
+
+            IP: Netfilter Configuration --->
+                <*/M>   IP tables support (required for filtering/masq/NAT)
