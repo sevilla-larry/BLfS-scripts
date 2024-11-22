@@ -21,3 +21,10 @@ default         [*]     UDP-Lite protocol connection tracking support
 
             IP: Netfilter Configuration --->
                 <*/M>   IP tables support (required for filtering/masq/NAT)
+
+
+
+
+
+
+Note: Use the default Networking Settings with the above settings
