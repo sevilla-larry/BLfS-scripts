@@ -12,6 +12,9 @@ https://www.lua.org/ftp/lua-5.4.7.tar.gz
 https://www.lua.org/tests/lua-5.4.7-tests.tar.gz
 https://www.linuxfromscratch.org/patches/blfs/12.2/lua-5.4.7-shared_library-1.patch
 
+# 15.04 Net-tools-2.10
+https://downloads.sourceforge.net/project/net-tools/net-tools-2.10.tar.xz
+
 # 16.05 Nmap-7.95
 https://nmap.org/dist/nmap-7.95.tar.bz2
 

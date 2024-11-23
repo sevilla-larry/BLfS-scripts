@@ -12,6 +12,9 @@ fc3f3291353bbe6ee6dec85ee61331e8 lua-5.4.7.tar.gz
 5fcf34336004f83de447c79958ea678e lua-5.4.7-tests.tar.gz
 #patch
 
+# 15.04 Net-tools-2.10
+78aae762c95e2d731faf88d482e4cde5 net-tools-2.10.tar.xz
+
 # 16.05 Nmap-7.95
 b481d293e53b20278d5370458da9a950 nmap-7.95.tar.bz2
 

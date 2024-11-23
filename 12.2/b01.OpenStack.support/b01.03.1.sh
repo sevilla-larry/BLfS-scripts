@@ -8,6 +8,20 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
 #####
 
+echo "b01.15.04.Net-tools-2.10"
+echo "b01.15.04.Net-tools-2.10" >> $LFSLOG_PROCESS
+
+time { bash b01.15.04.Net-tools-2.10.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
 echo "b01.09.51.liblinear-247"
 echo "b01.09.51.liblinear-247" >> $LFSLOG_PROCESS
 
