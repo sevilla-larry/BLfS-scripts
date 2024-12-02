@@ -26,6 +26,9 @@ bash b10.03.3.sh
 # common with ProFTPD
 bash b10.03.4.sh
 
+# common with OpenStack
+bash b10.03.9.sh
+
 ###
 
 # elogind

@@ -1,4 +1,4 @@
-# d10.13.23.13.Mako-1.3.5.sh
+# b10.13.23.13.Mako-1.3.5.sh
 #
 
 #
@@ -31,13 +31,13 @@ tar xvf $PKG.tar.gz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
 
 
-echo "2. pip3 wheel Build ..."
-echo "2. pip3 wheel Build ..." >> $LFSLOG_PROCESS
-echo "2. pip3 wheel Build ..." >> $PKGLOG_ERROR
+echo "2. pip3 Build ..."
+echo "2. pip3 Build ..." >> $LFSLOG_PROCESS
+echo "2. pip3 Build ..." >> $PKGLOG_ERROR
 pip3 wheel  -w dist                 \
+            --no-cache-dir          \
             --no-build-isolation    \
             --no-deps               \
-            --no-cache-dir          \
             $PWD                    \
             > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 
@@ -45,9 +45,9 @@ echo "3. pip3 Install ..."
 echo "3. pip3 Install ..." >> $LFSLOG_PROCESS
 echo "3. pip3 Install ..." >> $PKGLOG_ERROR
 pip3 install    --no-index              \
-                --find-links=dist       \
-                --no-cache-dir          \
                 --no-user               \
+                --find-links dist       \
+                --no-cache-dir          \
                 Mako                    \
                 > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
