@@ -12,6 +12,10 @@ https://www.lua.org/ftp/lua-5.4.7.tar.gz
 https://www.lua.org/tests/lua-5.4.7-tests.tar.gz
 https://www.linuxfromscratch.org/patches/blfs/12.2/lua-5.4.7-shared_library-1.patch
 
+# 13.23    Python Modules
+# 13.23.17 psutil-6.0.0
+https://files.pythonhosted.org/packages/source/p/psutil/psutil-6.0.0.tar.gz
+
 # 15.04 Net-tools-2.10
 https://downloads.sourceforge.net/project/net-tools/net-tools-2.10.tar.xz
 
