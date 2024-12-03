@@ -47,9 +47,12 @@ pip3 install    --no-index              \
                 > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 mkdir -v empty > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
-(cd empty;  \
-python3 -m psutil.tests >> $PKGLOG_CHECK 2>> $PKGLOG_ERROR  \
-)
+
+cd empty
+python3 -m psutil.tests >> $PKGLOG_CHECK 2>> $PKGLOG_ERROR
+cd ..
+
+# test_disk_usage & test_io_counters are known to fail.
 
 
 cd ..

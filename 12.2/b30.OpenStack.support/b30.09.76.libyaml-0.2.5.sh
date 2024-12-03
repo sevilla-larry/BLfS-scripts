@@ -7,7 +7,7 @@
 #               b30.13.23.28 PyYAML-6.0.2
 #
 
-export PKG="libyaml-0.2.5"
+export PKG="yaml-0.2.5"
 export PKGLOG_DIR=$LFSLOG/09.76
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
