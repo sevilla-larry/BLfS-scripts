@@ -3,6 +3,8 @@ https://www.netfilter.org/projects/iptables/files/iptables-1.8.10.tar.xz
 
 # 09.51 liblinear-247
 https://github.com/cjlin1/liblinear/archive/v247/liblinear-247.tar.gz
+# 09.76 libyaml-0.2.5
+https://github.com/yaml/libyaml/releases/download/0.2.5/yaml-0.2.5.tar.gz
 
 # 11.12 lsof-4.99.0
 https://github.com/lsof-org/lsof/releases/download/4.99.0/lsof-4.99.0.tar.gz
@@ -13,8 +15,25 @@ https://www.lua.org/tests/lua-5.4.7-tests.tar.gz
 https://www.linuxfromscratch.org/patches/blfs/12.2/lua-5.4.7-shared_library-1.patch
 
 # 13.23    Python Modules
+# 13.23.04 Cython-3.0.11
+https://github.com/cython/cython/releases/download/3.0.11-1/cython-3.0.11.tar.gz
 # 13.23.17 psutil-6.0.0
 https://files.pythonhosted.org/packages/source/p/psutil/psutil-6.0.0.tar.gz
+# 13.23.28 PyYAML-6.0.2
+https://files.pythonhosted.org/packages/source/P/PyYAML/pyyaml-6.0.2.tar.gz
+# 13.23.30 Requests-2.32.3
+https://files.pythonhosted.org/packages/source/r/requests/requests-2.32.3.tar.gz
+https://www.linuxfromscratch.org/patches/blfs/12.2/requests-2.32.3-use_system_certs-1.patch
+# 13.23.33 six-1.16.0
+https://files.pythonhosted.org/packages/source/s/six/six-1.16.0.tar.gz
+
+# 13.24    Python Dependencies
+# 13.24.06 Charset-normalizer-3.3.2
+https://files.pythonhosted.org/packages/source/c/charset-normalizer/charset-normalizer-3.3.2.tar.gz
+# 13.24.12 Idna-3.7
+https://files.pythonhosted.org/packages/source/i/idna/idna-3.7.tar.gz
+# 13.24.34 Urllib3-2.2.2
+https://files.pythonhosted.org/packages/source/u/urllib3/urllib3-2.2.2.tar.gz
 
 # 15.04 Net-tools-2.10
 https://downloads.sourceforge.net/project/net-tools/net-tools-2.10.tar.xz

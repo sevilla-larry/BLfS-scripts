@@ -3,6 +3,8 @@
 
 # 09.51 liblinear-247
 0c81dd2b2cabc4fba85f61b9dc51c4a3 liblinear-247.tar.gz
+# 09.76 libyaml-0.2.5
+bb15429d8fb787e7d3f1c83ae129a999 yaml-0.2.5.tar.gz
 
 # 11.12 lsof-4.99.0
 8c858675f6d6e137df9b4e26ad6c46e8 lsof-4.99.0.tar.gz
@@ -13,8 +15,25 @@ fc3f3291353bbe6ee6dec85ee61331e8 lua-5.4.7.tar.gz
 #patch
 
 # 13.23    Python Modules
+# 13.23.04 Cython-3.0.11
+388b85b7c23f501320d19d991b169f5d cython-3.0.11.tar.gz
 # 13.23.17 psutil-6.0.0
 5874bd773d2fe7da3c0817424f383033 psutil-6.0.0.tar.gz
+# 13.23.28 PyYAML-6.0.2
+9600ee49b2b4e1a0237cf4173b6dc594 pyyaml-6.0.2.tar.gz
+# 13.23.30 Requests-2.32.3
+fa3ee5ac3f1b3f4368bd74ab530d3f0f requests-2.32.3.tar.gz
+#patch
+# 13.23.33 six-1.16.0
+a7c927740e4964dd29b72cebfc1429bb six-1.16.0.tar.gz
+
+# 13.24    Python Dependencies
+# 13.24.06 Charset-normalizer-3.3.2
+0a4019908d9e50ff13138e8a794d9e2b charset-normalizer-3.3.2.tar.gz
+# 13.24.12 Idna-3.7
+31cc572cb7a6519159c927c998c64c79 idna-3.7.tar.gz
+# 13.24.34 Urllib3-2.2.2
+efb79cfdef7b811687afe02ccaf67433 urllib3-2.2.2.tar.gz
 
 # 15.04 Net-tools-2.10
 78aae762c95e2d731faf88d482e4cde5 net-tools-2.10.tar.xz

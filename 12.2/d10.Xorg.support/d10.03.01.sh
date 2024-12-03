@@ -23,32 +23,34 @@ echo "."
 echo "."
 
 ###
+#       b10.13.23.13.Mako-1.3.5
+###
+# echo "d10.13.23.13.Mako-1.3.5"
+# echo "d10.13.23.13.Mako-1.3.5" >> $LFSLOG_PROCESS
 
-echo "d10.13.23.13.Mako-1.3.5"
-echo "d10.13.23.13.Mako-1.3.5" >> $LFSLOG_PROCESS
+# time { bash d10.13.23.13.Mako-1.3.5.sh ; }
 
-time { bash d10.13.23.13.Mako-1.3.5.sh ; }
+# date +"%Y/%b/%d %H:%M"
+# date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
+# echo "." >> $LFSLOG_PROCESS
+# echo "."
+# echo "."
 
 ###
+#     b10.13.23.15.Packaging-12.1
+###
+# echo "d10.13.23.15.Packaging-12.1"
+# echo "d10.13.23.15.Packaging-12.1" >> $LFSLOG_PROCESS
 
-echo "d10.13.23.15.Packaging-12.1"
-echo "d10.13.23.15.Packaging-12.1" >> $LFSLOG_PROCESS
+# time { bash d10.13.23.15.Packaging-12.1.sh ; }
 
-time { bash d10.13.23.15.Packaging-12.1.sh ; }
+# date +"%Y/%b/%d %H:%M"
+# date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
+# echo "." >> $LFSLOG_PROCESS
+# echo "."
+# echo "."
 
 #####
 

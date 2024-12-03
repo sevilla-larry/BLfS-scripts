@@ -34,9 +34,9 @@
 #
 # Group b - Common apps & Libraries
 #
-#		b01 - OpenStack support
+#       b10 - Common to XOrg & servers, including OpenStack
 #
-#       b10 - Common to XOrg & servers
+#		b30 - OpenStack support
 #
 # Group c - Servers
 #

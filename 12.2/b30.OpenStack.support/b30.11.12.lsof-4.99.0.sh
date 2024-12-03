@@ -1,24 +1,29 @@
-# b01.17.13.libpcap-1.10.4.sh
+# b30.11.12.lsof-4.99.0.sh
 #
 
 #
-# Dependencies Optional:
+# Dependencies Required:
 #
-#               b01.17.10 libnl-3.10.0
+#               a.08.94A libtirpc-1.3.5
 #
-
+# Dependencies Recommended:
 #
-# Recommended by:
-#
-#               b01.16.05 Nmap-7.95
+#               b30.16.05 Nmap-7.95     (note: nc is a linked to ncat)
 #
 
-export PKG="libpcap-1.10.4"
-export PKGLOG_DIR=$LFSLOG/17.13
+#
+# Kernel Configuration
+#
+# General setup --->
+#   [*] POSIX Message Queues                                        [POSIX_MQUEUE]
+#
+
+export PKG="lsof-4.99.0"
+export PKGLOG_DIR=$LFSLOG/11.12
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
-#export PKGLOG_CHECK=$PKGLOG_DIR/check.log
+export PKGLOG_CHECK=$PKGLOG_DIR/check.log
 export PKGLOG_INSTALL=$PKGLOG_DIR/install.log
 export PKGLOG_ERROR=$PKGLOG_DIR/error.log
 export PKGLOG_OTHERS=$PKGLOG_DIR/others.log
@@ -37,7 +42,8 @@ cd $PKG
 echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
 echo "2. Configure ..." >> $PKGLOG_ERROR
-./configure --prefix=/usr               \
+./configure --prefix=/usr       \
+            --disable-static    \
             > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Make Build ..."
@@ -45,14 +51,14 @@ echo "3. Make Build ..." >> $LFSLOG_PROCESS
 echo "3. Make Build ..." >> $PKGLOG_ERROR
 make > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 
-# disable installing the static library
-sed -i '/INSTALL_DATA.*libpcap.a\|RANLIB.*libpcap.a/ s/^/#/'    \
-            Makefile    \
-            > $PKGLOG_OTHERS 2>> PKGLOG_ERROR
+echo "4. Make Check ..."
+echo "4. Make Check ..." >> $LFSLOG_PROCESS
+echo "4. Make Check ..." >> $PKGLOG_ERROR
+make check > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
 
-echo "4. Make Install ..."
-echo "4. Make Install ..." >> $LFSLOG_PROCESS
-echo "4. Make Install ..." >> $PKGLOG_ERROR
+echo "5. Make Install ..."
+echo "5. Make Install ..." >> $LFSLOG_PROCESS
+echo "5. Make Install ..." >> $PKGLOG_ERROR
 make install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 
@@ -61,6 +67,6 @@ rm -rf $PKG
 unset LFSLOG_PROCESS
 unset PKGLOG_OTHERS
 unset PKGLOG_INSTALL PKGLOG_BUILD PKGLOG_CONFIG
-#unset PKGLOG_CHECK
+unset PKGLOG_CHECK
 unset PKGLOG_ERROR PKGLOG_TAR
 unset PKGLOG_DIR PKG

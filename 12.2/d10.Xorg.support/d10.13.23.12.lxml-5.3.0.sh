@@ -20,7 +20,6 @@
 export PKG="lxml-5.3.0"
 export PKGLOG_DIR=$LFSLOG/13.23.12
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
-#export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
 export PKGLOG_CHECK=$PKGLOG_DIR/check.log
 export PKGLOG_INSTALL=$PKGLOG_DIR/install.log
@@ -62,7 +61,6 @@ cd ..
 rm -rf $PKG
 unset LFSLOG_PROCESS
 unset PKGLOG_INSTALL PKGLOG_BUILD
-# PKGLOG_CONFIG
 unset PKGLOG_CHECK
 unset PKGLOG_ERROR PKGLOG_TAR
 unset PKGLOG_DIR PKG

@@ -1,10 +1,10 @@
-# b01.13.13.Lua-5.4.7.sh
+# b30.13.13.Lua-5.4.7.sh
 #
 
 #
 # Recommended by:
 #
-#               b01.16.05 Nmap-7.95
+#               b30.16.05 Nmap-7.95
 #
 
 export PKG="lua-5.4.7"

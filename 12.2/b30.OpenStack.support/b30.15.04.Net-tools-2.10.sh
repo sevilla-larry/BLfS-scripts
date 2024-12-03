@@ -1,4 +1,4 @@
-# b01.15.04.Net-tools-2.10.sh
+# b30.15.04.Net-tools-2.10.sh
 #
 
 export PKG="net-tools-2.10"

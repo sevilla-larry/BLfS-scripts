@@ -1,19 +1,15 @@
-# b10.13.23.13.Mako-1.3.5.sh
+# b30.13.23.28.PyYAML-6.0.2.sh
 #
 
 #
-# Required by:
+# Dependencies Required:
 #
-#               d20.24.16.Mesa-24.1.5
-#               openstack
-#
-# Optional by:
-#
-#               d10.09.17 GLib-2.80.4
+#               b30.13.23.04 Cython-3.0.11
+#               b30.09.76    libyaml-0.2.5
 #
 
-export PKG="Mako-1.3.5"
-export PKGLOG_DIR=$LFSLOG/13.23.13
+export PKG="pyyaml-6.0.2"
+export PKGLOG_DIR=$LFSLOG/13.23.28
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
 export PKGLOG_CHECK=$PKGLOG_DIR/check.log
@@ -48,7 +44,7 @@ pip3 install    --no-index              \
                 --no-user               \
                 --find-links dist       \
                 --no-cache-dir          \
-                Mako                    \
+                PyYAML                  \
                 > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 echo "4. pyTest ..."

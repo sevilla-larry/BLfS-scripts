@@ -1,16 +1,17 @@
-# d10.13.23.15.Packaging-12.1.sh
+# b10.13.23.15.Packaging-12.1.sh
 #
 
 #
 # Required by:
 #
 #               d10.09.17 GLib-2.80.4
+#               b10.13.24.09 Hatchling-1.25.0
+#               b10.13.24.22 Setuptools_scm-8.1.0
 #
 
 export PKG="packaging-24.1"
 export PKGLOG_DIR=$LFSLOG/13.23.15
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
-#export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
 export PKGLOG_CHECK=$PKGLOG_DIR/check.log
 export PKGLOG_INSTALL=$PKGLOG_DIR/install.log
@@ -61,7 +62,6 @@ cd ..
 rm -rf $PKG
 unset LFSLOG_PROCESS
 unset PKGLOG_INSTALL PKGLOG_BUILD
-# PKGLOG_CONFIG
 unset PKGLOG_CHECK
 unset PKGLOG_ERROR PKGLOG_TAR
 unset PKGLOG_DIR PKG

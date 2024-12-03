@@ -1,10 +1,10 @@
-# b01.09.51.liblinear-247.sh
+# b30.09.51.liblinear-247.sh
 #
 
 #
 # Recommended by:
 #
-#               b01.16.05 Nmap-7.95
+#               b30.16.05 Nmap-7.95
 #
 
 export PKG="liblinear-247"

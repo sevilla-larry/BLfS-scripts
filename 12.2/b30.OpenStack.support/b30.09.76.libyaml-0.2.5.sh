@@ -1,32 +1,20 @@
-# b01.11.12.lsof-4.99.0.sh
+# b30.09.76.libyaml-0.2.5.sh
 #
 
 #
-# Dependencies Required:
+# Required by:
 #
-#               a.08.94A libtirpc-1.3.5
-#
-# Dependencies Recommended:
-#
-#               b01.16.05 Nmap-7.95     (note: nc is a linked to ncat)
+#               b30.13.23.28 PyYAML-6.0.2
 #
 
-#
-# Kernel Configuration
-#
-# General setup --->
-#   [*] POSIX Message Queues                                        [POSIX_MQUEUE]
-#
-
-export PKG="lsof-4.99.0"
-export PKGLOG_DIR=$LFSLOG/11.12
+export PKG="libyaml-0.2.5"
+export PKGLOG_DIR=$LFSLOG/09.76
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
 export PKGLOG_CHECK=$PKGLOG_DIR/check.log
 export PKGLOG_INSTALL=$PKGLOG_DIR/install.log
 export PKGLOG_ERROR=$PKGLOG_DIR/error.log
-export PKGLOG_OTHERS=$PKGLOG_DIR/others.log
 export LFSLOG_PROCESS=$LFSLOG/process.log
 
 rm -r $PKGLOG_DIR 2> /dev/null
@@ -42,9 +30,9 @@ cd $PKG
 echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
 echo "2. Configure ..." >> $PKGLOG_ERROR
-./configure --prefix=/usr       \
-            --disable-static    \
-            > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+./configure --prefix=/usr          \
+            --disable-static       \
+          > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Make Build ..."
 echo "3. Make Build ..." >> $LFSLOG_PROCESS
@@ -65,7 +53,6 @@ make install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 cd ..
 rm -rf $PKG
 unset LFSLOG_PROCESS
-unset PKGLOG_OTHERS
 unset PKGLOG_INSTALL PKGLOG_BUILD PKGLOG_CONFIG
 unset PKGLOG_CHECK
 unset PKGLOG_ERROR PKGLOG_TAR

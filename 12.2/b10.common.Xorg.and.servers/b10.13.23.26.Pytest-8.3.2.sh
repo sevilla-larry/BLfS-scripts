@@ -1,19 +1,20 @@
-# b10.13.23.13.Mako-1.3.5.sh
+# b10.13.23.26.Pytest-8.3.2.sh
 #
 
 #
-# Required by:
+# Dependencies Required:
 #
-#               d20.24.16.Mesa-24.1.5
-#               openstack
+#               b10.13.24.14 Iniconfig-2.0.0
+#               b10.13.23.15 Packaging-24.1
+#               b10.13.24.19 Pluggy-1.5.0
 #
-# Optional by:
+# Dependencies Recommended:
 #
-#               d10.09.17 GLib-2.80.4
+#               b10.13.24.22 Setuptools_scm-8.1.0
 #
 
-export PKG="Mako-1.3.5"
-export PKGLOG_DIR=$LFSLOG/13.23.13
+export PKG="pytest-8.3.2"
+export PKGLOG_DIR=$LFSLOG/13.23.26
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
 export PKGLOG_CHECK=$PKGLOG_DIR/check.log
@@ -48,13 +49,23 @@ pip3 install    --no-index              \
                 --no-user               \
                 --find-links dist       \
                 --no-cache-dir          \
-                Mako                    \
+                pytest                  \
                 > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
-echo "4. pyTest ..."
-echo "4. pyTest ..." >> $LFSLOG_PROCESS
-echo "4. pyTest ..." >> $PKGLOG_ERROR
-pytest >  $PKGLOG_CHECK 2>> $PKGLOG_ERROR
+echo "4. Tests ..."
+echo "4. Tests ..." >> $LFSLOG_PROCESS
+echo "4. Tests ..." >> $PKGLOG_ERROR
+
+python3 -m venv --system-site-packages testenv  \
+                >> $PKGLOG_CHECK 2>> $PKGLOG_ERROR
+source testenv/bin/activate                     \
+                >> $PKGLOG_CHECK 2>> $PKGLOG_ERROR
+pip3 install pytest[dev] xmlschema hypothesis   \
+                >> $PKGLOG_CHECK 2>> $PKGLOG_ERROR
+python3 /usr/bin/pytest                         \
+                >> $PKGLOG_CHECK 2>> $PKGLOG_ERROR
+deactivate                                      \
+                >> $PKGLOG_CHECK 2>> $PKGLOG_ERROR
 
 
 cd ..

@@ -1,24 +1,20 @@
-# b10.13.23.13.Mako-1.3.5.sh
+# b10.13.24.32.Trove-Classifiers-2024.7.2.sh
 #
 
 #
 # Required by:
 #
-#               d20.24.16.Mesa-24.1.5
-#               openstack
-#
-# Optional by:
-#
-#               d10.09.17 GLib-2.80.4
+#               b10.13.24.09 Hatchling-1.25.0
 #
 
-export PKG="Mako-1.3.5"
-export PKGLOG_DIR=$LFSLOG/13.23.13
+export PKG="trove_classifiers-2024.7.2"
+export PKGLOG_DIR=$LFSLOG/13.24.32
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
 export PKGLOG_CHECK=$PKGLOG_DIR/check.log
 export PKGLOG_INSTALL=$PKGLOG_DIR/install.log
 export PKGLOG_ERROR=$PKGLOG_DIR/error.log
+export PKGLOG_OTHERS=$PKGLOG_DIR/others.log
 export LFSLOG_PROCESS=$LFSLOG/process.log
 
 rm -r $PKGLOG_DIR 2> /dev/null
@@ -30,6 +26,9 @@ echo "1. Extract tar..." >> $PKGLOG_ERROR
 tar xvf $PKG.tar.gz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
 
+
+sed -i '/calver/s/^/#/;$iversion="2024.7.2"' setup.py   \
+            > $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
 
 echo "2. pip3 Build ..."
 echo "2. pip3 Build ..." >> $LFSLOG_PROCESS
@@ -48,18 +47,14 @@ pip3 install    --no-index              \
                 --no-user               \
                 --find-links dist       \
                 --no-cache-dir          \
-                Mako                    \
+                trove_classifiers       \
                 > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
-
-echo "4. pyTest ..."
-echo "4. pyTest ..." >> $LFSLOG_PROCESS
-echo "4. pyTest ..." >> $PKGLOG_ERROR
-pytest >  $PKGLOG_CHECK 2>> $PKGLOG_ERROR
 
 
 cd ..
 rm -rf $PKG
 unset LFSLOG_PROCESS
+unset PKGLOG_OTHERS
 unset PKGLOG_INSTALL PKGLOG_BUILD
 unset PKGLOG_CHECK
 unset PKGLOG_ERROR PKGLOG_TAR

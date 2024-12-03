@@ -1,19 +1,14 @@
-# b10.13.23.13.Mako-1.3.5.sh
+# b10.13.24.18.Pathspec-0.12.1.sh
 #
 
 #
 # Required by:
 #
-#               d20.24.16.Mesa-24.1.5
-#               openstack
-#
-# Optional by:
-#
-#               d10.09.17 GLib-2.80.4
+#               b10.13.24.09 Hatchling-1.25.0
 #
 
-export PKG="Mako-1.3.5"
-export PKGLOG_DIR=$LFSLOG/13.23.13
+export PKG="pathspec-0.12.1"
+export PKGLOG_DIR=$LFSLOG/13.24.18
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
 export PKGLOG_CHECK=$PKGLOG_DIR/check.log
@@ -48,13 +43,8 @@ pip3 install    --no-index              \
                 --no-user               \
                 --find-links dist       \
                 --no-cache-dir          \
-                Mako                    \
+                pathspec                \
                 > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
-
-echo "4. pyTest ..."
-echo "4. pyTest ..." >> $LFSLOG_PROCESS
-echo "4. pyTest ..." >> $PKGLOG_ERROR
-pytest >  $PKGLOG_CHECK 2>> $PKGLOG_ERROR
 
 
 cd ..

@@ -51,8 +51,6 @@ bf2ad617d47ce40fe77c0e5c26b1fe43 llvm-cmake-18.src.tar.xz
 # 13.23    Python Modules
 # 13.23.12 lxml-5.3.0
 d3e6f800f4b73f2756663cc4a76df5e0 lxml-5.3.0.tar.gz
-# 13.23.15 Packaging-24.1
-99b97d1f30017a62a2aae777a14782d0 packaging-24.1.tar.gz
 
 # 25.12 Glslang-14.3.0
 90eec8d14a8d1002389e00ab449c7ca8 glslang-14.3.0.tar.gz
