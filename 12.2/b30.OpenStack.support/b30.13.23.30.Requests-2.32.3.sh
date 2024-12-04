@@ -13,6 +13,11 @@
 #               a.08.91C.make-ca-1.14.sh
 #               a.08.91B.p11-kit-0.25.5.sh
 #
+#
+# Dependencies Optional:
+#
+#               b10.13.23.26 Pytest-8.3.2
+#
 
 export PKG="requests-2.32.3"
 export PKGLOG_DIR=$LFSLOG/13.23.30

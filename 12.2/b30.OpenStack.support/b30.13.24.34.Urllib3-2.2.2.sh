@@ -6,6 +6,11 @@
 #
 #               b10.13.24.09 Hatchling-1.25.0
 #
+#
+# Dependencies Optional:
+#
+#               b10.13.23.26 Pytest-8.3.2
+#
 
 #
 # Required by:
