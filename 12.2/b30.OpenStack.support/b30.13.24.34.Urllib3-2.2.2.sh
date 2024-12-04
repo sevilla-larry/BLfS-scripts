@@ -71,7 +71,7 @@ pip3 install trustme         \
              pysocks         \
              pytest-timeout  \
              trio            \
-             hypercom        \
+             hypercorn       \
              quart           \
              quart_trio      \
              httpx           \
