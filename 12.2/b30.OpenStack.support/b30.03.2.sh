@@ -121,6 +121,34 @@ echo "." >> $LFSLOG_PROCESS
 echo "."
 echo "."
 
+###
+
+echo "b30.13.24.10.Hatch-Fancy-Pypi-Readme-24.1.0"
+echo "b30.13.24.10.Hatch-Fancy-Pypi-Readme-24.1.0" >> $LFSLOG_PROCESS
+
+time { bash b30.13.24.10.Hatch-Fancy-Pypi-Readme-24.1.0.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "b30.13.24.02.Attrs-24.2.0"
+echo "b30.13.24.02.Attrs-24.2.0" >> $LFSLOG_PROCESS
+
+time { bash b30.13.24.02.Attrs-24.2.0.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
 #####
 
 unset LFSLOG_PROCESS

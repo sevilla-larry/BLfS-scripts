@@ -28,8 +28,12 @@ fa3ee5ac3f1b3f4368bd74ab530d3f0f requests-2.32.3.tar.gz
 a7c927740e4964dd29b72cebfc1429bb six-1.16.0.tar.gz
 
 # 13.24    Python Dependencies
+# 13.24.02 Attrs-24.2.0
+031a41b703d7fc47ec204d0369b68dcd attrs-24.2.0.tar.gz
 # 13.24.06 Charset-normalizer-3.3.2
 0a4019908d9e50ff13138e8a794d9e2b charset-normalizer-3.3.2.tar.gz
+# 13.24.10 Hatch-Fancy-Pypi-Readme-24.1.0
+f5f9e639f066c91f8e623ec6231beae9 hatch_fancy_pypi_readme-24.1.0.tar.gz
 # 13.24.12 Idna-3.7
 31cc572cb7a6519159c927c998c64c79 idna-3.7.tar.gz
 # 13.24.34 Urllib3-2.2.2
