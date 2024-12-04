@@ -2,6 +2,11 @@
 #
 
 #
+# Dependencies Required:
+#
+#               b10.13.24.09 Hatchling-1.25.0
+#               b30.13.24.10 Hatch-Fancy-Pypi-Readme-24.1.0
+#
 # Dependencies Optional:
 #
 #               b10.13.23.26 Pytest-8.3.2
@@ -10,7 +15,7 @@
 #
 # Required by:
 #
-#               b30.13.23.30 Requests-2.32.3
+#               cmd2
 #
 
 export PKG="attrs-24.2.0"

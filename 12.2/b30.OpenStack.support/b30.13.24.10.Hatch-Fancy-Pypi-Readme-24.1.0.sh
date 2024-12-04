@@ -2,6 +2,10 @@
 #
 
 #
+# Dependencies Required:
+#
+#               b10.13.24.09 Hatchling-1.25.0
+#
 # Dependencies Optional:
 #
 #               b10.13.23.26 Pytest-8.3.2
@@ -10,7 +14,7 @@
 #
 # Required by:
 #
-#               b30.13.23.30 Requests-2.32.3
+#               b30.13.24.02 Attrs-24.2.0
 #
 
 export PKG="hatch_fancy_pypi_readme-24.1.0"
