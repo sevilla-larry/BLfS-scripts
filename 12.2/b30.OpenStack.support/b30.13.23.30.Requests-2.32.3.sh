@@ -19,6 +19,18 @@
 #               b10.13.23.26 Pytest-8.3.2
 #
 
+#
+# Required by:
+#
+#               i010.9.19 keystoneauth1-5.8.0
+#               i010.9.40 osc-lib-3.1.0
+#               i010.9.45.oslo.config-9.6.0
+#               i010.9.60 python-keystoneclient-5.5.0
+#               i010.9.65 python-cinderclient-9.6.0
+#               i020.9.1  python-openstackclient-7.1.3
+#
+
+
 export PKG="requests-2.32.3"
 export PKGLOG_DIR=$LFSLOG/13.23.30
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log

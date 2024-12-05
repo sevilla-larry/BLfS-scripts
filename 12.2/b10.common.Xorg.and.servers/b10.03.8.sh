@@ -12,10 +12,10 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
 #####
 
-echo "b10.13.23.15.Packaging-12.1"
-echo "b10.13.23.15.Packaging-12.1" >> $LFSLOG_PROCESS
+echo "b10.13.23.15.Packaging-24.1"
+echo "b10.13.23.15.Packaging-24.1" >> $LFSLOG_PROCESS
 
-time { bash b10.13.23.15.Packaging-12.1.sh ; }
+time { bash b10.13.23.15.Packaging-24.1.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

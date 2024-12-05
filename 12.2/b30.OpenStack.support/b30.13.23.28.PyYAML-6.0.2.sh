@@ -14,6 +14,15 @@
 #               b30.09.76    libyaml-0.2.5
 #
 
+#
+# Required by:
+#
+#               i010.9.11.cliff-4.7.0
+#               i010.9.30 openstacksdk-4.0.1
+#               i010.9.39 oslo.utils-7.3.0
+#               i010.9.45.oslo.config-9.6.0
+#
+
 export PKG="pyyaml-6.0.2"
 export PKGLOG_DIR=$LFSLOG/13.23.28
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
