@@ -5,8 +5,8 @@
 bash g11.03.1.sh
 
 # Evince, Firefox & LibreOffice support
-# NSPR & NSS
-bash g11.03.234.sh
+# NSPR & NSS --> to LFS s.08.91 WGet group
+# bash g11.03.234.sh
 
 # Evince & LibreOffice support
 # OpenJPEG, libassuan, GPGME & Poppler

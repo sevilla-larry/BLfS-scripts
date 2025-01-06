@@ -1,8 +1,5 @@
 # 04.08 GPGME-1.23.2
 01a8c05b409847e87daf0543e91f8c37 gpgme-1.23.2.tar.bz2
-# 04.17 NSS-3.103
-2823082a44b9dd71d6281108e0bab03f nss-3.103.tar.gz
-#patch
 
 # 09.09 CLucene-2.3.3.4
 48d647fbd8ef8889e5a7f422c1bfda94 clucene-core-2.3.3.4.tar.gz
@@ -13,8 +10,6 @@
 d07b3d8369d7f9efdca59f7501dd1117 libatomic_ops-7.8.2.tar.gz
 # 09.80 Node.js-20.18.0
 2e59511d65c64338b1cf5504c9e18d53 node-v20.18.0.tar.xz
-# 09.82 NSPR-4.35
-5e0acf9fbdde85181bddd510f4624841 nspr-4.35.tar.gz
 
 # 10.10 GLM-1.0.1
 f824ac50e16310a95279032f82cbd341 glm-1.0.1.tar.gz

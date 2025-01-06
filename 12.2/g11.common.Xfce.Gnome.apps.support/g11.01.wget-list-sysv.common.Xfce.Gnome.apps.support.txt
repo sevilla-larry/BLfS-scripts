@@ -1,8 +1,5 @@
 # 04.08 GPGME-1.23.2
 https://www.gnupg.org/ftp/gcrypt/gpgme/gpgme-1.23.2.tar.bz2
-# 04.17 NSS-3.103
-https://archive.mozilla.org/pub/security/nss/releases/NSS_3_103_RTM/src/nss-3.103.tar.gz
-https://www.linuxfromscratch.org/patches/blfs/12.2/nss-3.103-standalone-1.patch
 
 # 09.09 CLucene-2.3.3.4
 https://downloads.sourceforge.net/clucene/clucene-core-2.3.3.4.tar.gz
@@ -13,8 +10,6 @@ https://www.gnupg.org/ftp/gcrypt/libassuan/libassuan-3.0.1.tar.bz2
 https://github.com/ivmai/libatomic_ops/releases/download/v7.8.2/libatomic_ops-7.8.2.tar.gz
 # 09.80 Node.js-20.18.0
 https://nodejs.org/dist/v20.18.0/node-v20.18.0.tar.xz
-# 09.82 NSPR-4.35
-https://archive.mozilla.org/pub/nspr/releases/v4.35/src/nspr-4.35.tar.gz
 
 # 10.10 GLM-1.0.1
 https://github.com/g-truc/glm/archive/1.0.1/glm-1.0.1.tar.gz
