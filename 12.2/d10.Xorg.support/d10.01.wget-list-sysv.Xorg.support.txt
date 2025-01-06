@@ -38,6 +38,8 @@ https://www.freedesktop.org/software/desktop-file-utils/releases/desktop-file-ut
 https://gitlab.freedesktop.org/xdg/shared-mime-info/-/archive/2.4/shared-mime-info-2.4.tar.gz
 https://anduin.linuxfromscratch.org/BLFS/xdgmime/xdgmime.tar.xz
 
+# 12.10 dbus-1.14.10
+https://dbus.freedesktop.org/releases/dbus/dbus-1.14.10.tar.xz
 # 12.11 elogind-255.5
 https://github.com/elogind/elogind/archive/v255.5/elogind-255.5.tar.gz
 

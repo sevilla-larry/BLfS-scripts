@@ -53,49 +53,49 @@ echo "." >> $LFSLOG_PROCESS
 echo "."
 echo "."
 
+###	libunistring, libidn2 & libpsl ---> LfS on WGet group
+# 
+# echo "b10.09.66.libunistring-1.2"
+# echo "b10.09.66.libunistring-1.2" >> $LFSLOG_PROCESS
+# 
+# time { bash b10.09.66.libunistring-1.2.sh ; }
+# 
+# date +"%Y/%b/%d %H:%M"
+# date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+# 
+# echo "." >> $LFSLOG_PROCESS
+# echo "."
+# echo "."
+# 
+# ###
+# 
+# echo "b10.09.49.libidn2-2.3.7"
+# echo "b10.09.49.libidn2-2.3.7" >> $LFSLOG_PROCESS
+# 
+# time { bash b10.09.49.libidn2-2.3.7.sh ; }
+# 
+# date +"%Y/%b/%d %H:%M"
+# date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+# 
+# echo "." >> $LFSLOG_PROCESS
+# echo "."
+# echo "."
+# 
 ###
 
-echo "b10.09.66.libunistring-1.2"
-echo "b10.09.66.libunistring-1.2" >> $LFSLOG_PROCESS
-
-time { bash b10.09.66.libunistring-1.2.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
-
-###
-
-echo "b10.09.49.libidn2-2.3.7"
-echo "b10.09.49.libidn2-2.3.7" >> $LFSLOG_PROCESS
-
-time { bash b10.09.49.libidn2-2.3.7.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
-
-###
-
-echo "b10.17.14.libpsl-0.21.5"
-echo "b10.17.14.libpsl-0.21.5" >> $LFSLOG_PROCESS
-
-time { bash b10.17.14.libpsl-0.21.5.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
-
-###
+# echo "b10.17.14.libpsl-0.21.5"
+# echo "b10.17.14.libpsl-0.21.5" >> $LFSLOG_PROCESS
+# 
+# time { bash b10.17.14.libpsl-0.21.5.sh ; }
+# 
+# date +"%Y/%b/%d %H:%M"
+# date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+# 
+# echo "." >> $LFSLOG_PROCESS
+# echo "."
+# echo "."
+# 
+# ###
 #
 # libssh2 is NOT used by cURL
 #

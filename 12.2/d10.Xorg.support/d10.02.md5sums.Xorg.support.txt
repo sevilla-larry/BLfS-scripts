@@ -38,6 +38,8 @@ fdf9215aea91acb6aebc43f770537f2c desktop-file-utils-0.27.tar.xz
 aac56db912b7b12a04fb0018e28f2f36 shared-mime-info-2.4.tar.gz
 7dfb4446705d345d3acd672024049e86 xdgmime.tar.xz
 
+# 12.10 dbus-1.14.10
+46070a3487817ff690981f8cd2ba9376 dbus-1.14.10.tar.xz
 # 12.11 elogind-255.5
 8653d1959c25b649c398a932ce56b396 elogind-255.5.tar.gz
 

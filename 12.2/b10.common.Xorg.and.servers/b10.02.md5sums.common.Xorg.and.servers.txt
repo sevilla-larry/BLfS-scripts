@@ -12,13 +12,9 @@ a83c1499e508f73ddbc60002f84ea42a icu4c-75_1-src.tgz
 321c4975cfd6a496f0530b65a673f9a4 libgcrypt-1.11.0.tar.bz2
 # 09.43 libgpg-error-1.50
 80e905ce798553c766e3384467dc55ea libgpg-error-1.50.tar.bz2
-# 09.49 libidn2-2.3.7
-de2818c7dea718a4f264f463f595596b libidn2-2.3.7.tar.gz
 # 09.63 libssh2-1.11.0
 a01d543fd891ca48fe47726540d50b17 libssh2-1.11.0.tar.gz
 #libssh2-1.11.0-security_fixes-1.patch
-# 09.66 libunistring-1.2
-6b4ea63617bf09d76e5234379e75e7f9 libunistring-1.2.tar.xz
 # 09.70 libuv-1.48.0
 a808517c32ebd07c561bf21a4e30aeab libuv-v1.48.0.tar.gz
 # 09.72 libxml2-2.13.3
@@ -77,8 +73,6 @@ ee42acfdbe6fee98be4bcbe0fdaa937c trove_classifiers-2024.7.2.tar.gz
 25e65a5156ca4928060b61cb051813db curl-8.11.1.tar.xz
 # 17.07 libevent-2.1.12
 b5333f021f880fe76490d8a799cd79f4 libevent-2.1.12-stable.tar.gz
-# 17.14 libpsl-0.21.5
-870a798ee9860b6e77896548428dba7b libpsl-0.21.5.tar.gz
 # 17.20 nghttp2-1.62.1
 965f9a9e0f0eef12d8976fb33e9312ef nghttp2-1.62.1.tar.xz
 
