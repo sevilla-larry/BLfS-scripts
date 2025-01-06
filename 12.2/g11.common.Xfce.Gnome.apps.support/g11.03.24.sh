@@ -94,10 +94,10 @@ echo "."
 
 ###
 
-echo "g11.42.15.gst-plugins-base-1.24.7"
-echo "g11.42.15.gst-plugins-base-1.24.7" >> $LFSLOG_PROCESS
+echo "g11.42.15.gst-plugins-base-1.24.10"
+echo "g11.42.15.gst-plugins-base-1.24.10" >> $LFSLOG_PROCESS
 
-time { bash g11.42.15.gst-plugins-base-1.24.7.sh ; }
+time { bash g11.42.15.gst-plugins-base-1.24.10.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

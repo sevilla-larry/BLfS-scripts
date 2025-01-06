@@ -56,9 +56,9 @@ https://www.alsa-project.org/files/pub/lib/alsa-ucm-conf-1.2.12.tar.bz2
 https://downloads.xiph.org/releases/flac/flac-1.4.3.tar.xz
 # 42.14->.17 gstreamer & gst-plugins
 https://gstreamer.freedesktop.org/src/gstreamer/gstreamer-1.24.10.tar.xz
-https://gstreamer.freedesktop.org/src/gst-plugins-base/gst-plugins-base-1.24.7.tar.xz
-#https://gstreamer.freedesktop.org/src/gst-plugins-good/gst-plugins-good-1.24.7.tar.xz
-#https://gstreamer.freedesktop.org/src/gst-plugins-bad/gst-plugins-bad-1.24.7.tar.xz
+https://gstreamer.freedesktop.org/src/gst-plugins-base/gst-plugins-base-1.24.10.tar.xz
+#https://gstreamer.freedesktop.org/src/gst-plugins-good/gst-plugins-good-1.24.10.tar.xz
+#https://gstreamer.freedesktop.org/src/gst-plugins-bad/gst-plugins-bad-1.24.10.tar.xz
 # 42.40 libsndfile-1.2.2
 https://github.com/libsndfile/libsndfile/releases/download/1.2.2/libsndfile-1.2.2.tar.xz
 # 42.44 Opus-1.5.2

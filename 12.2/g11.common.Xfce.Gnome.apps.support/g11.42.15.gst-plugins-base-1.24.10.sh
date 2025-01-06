@@ -1,4 +1,5 @@
-# e11.42.15.gst-plugins-base-1.24.7.sh
+# e11.42.15.gst-plugins-base-1.24.10.sh
+# (errata)
 #
 
 #
@@ -39,7 +40,7 @@
 #               g12.34.04 Evince-46.3.1
 #
 
-export PKG="gst-plugins-base-1.24.7"
+export PKG="gst-plugins-base-1.24.10"
 export PKGLOG_DIR=$LFSLOG/42.15
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
