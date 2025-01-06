@@ -8,5 +8,6 @@ https://download.documentfoundation.org/libreoffice/src/24.8.0/libreoffice-help-
 https://download.documentfoundation.org/libreoffice/src/24.8.0/libreoffice-translations-24.8.0.3.tar.xz
 https://www.linuxfromscratch.org/patches/blfs/12.2/libreoffice-24.8.0.3-boost_fixes-1.patch
 
-# 40.03 Firefox-128.4.0esr (errata)
-https://archive.mozilla.org/pub/firefox/releases/128.4.0esr/source/firefox-128.4.0esr.source.tar.xz
+# 40.03 Firefox-128.5.2esr (errata)
+https://archive.mozilla.org/pub/firefox/releases/128.5.2esr/source/firefox-128.5.2esr.source.tar.xz
+https://www.linuxfromscratch.org/patches/blfs/svn/firefox-128.5.2esr-upstream_fixes-1.patch

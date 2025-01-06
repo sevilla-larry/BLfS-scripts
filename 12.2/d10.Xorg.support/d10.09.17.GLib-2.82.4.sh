@@ -1,4 +1,5 @@
-# d10.09.17.GLib-2.80.4.sh
+# d10.09.17.GLib-2.82.4.sh
+# (errata)
 #
 
 #
@@ -49,7 +50,7 @@
 #               e12.25.42 Qt-6.7.2
 #
 
-export PKG="glib-2.80.4"
+export PKG="glib-2.82.4"
 export PKGLOG_DIR=$LFSLOG/09.17
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
@@ -83,8 +84,10 @@ meson setup ..                  \
       --prefix=/usr             \
       --buildtype=release       \
       -D introspection=disabled \
+      -D glib_debug=disabled    \
       -D man-pages=disabled     \
-        > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+      -D sysprof=disabled       \
+      > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 #      -D man-pages=enabled      \
 
 echo "1.3. Ninja Build ..."
@@ -104,14 +107,14 @@ echo "2. GObject Introspection ..." >> $PKGLOG_ERROR
 echo "2.1. Extract tar GI ..."
 echo "2.1. Extract tar GI ..." >> $LFSLOG_PROCESS
 echo "2.1. Extract tar GI ..." >> $PKGLOG_ERROR
-tar xvf ../../gobject-introspection-1.80.1.tar.xz   \
+tar xvf ../../gobject-introspection-1.82.0.tar.xz   \
         >> $PKGLOG_TAR 2>> $PKGLOG_ERROR
 
 echo "2.2. Meson Setup GI ..."
 echo "2.2. Meson Setup GI ..." >> $LFSLOG_PROCESS
 echo "2.2. Meson Setup GI ..." >> $PKGLOG_ERROR
 meson setup                             \
-        gobject-introspection-1.80.1    \
+        gobject-introspection-1.82.0    \
         gi-build                        \
         --prefix=/usr                   \
         --buildtype=release             \

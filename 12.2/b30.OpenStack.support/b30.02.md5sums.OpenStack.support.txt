@@ -48,5 +48,5 @@ b481d293e53b20278d5370458da9a950 nmap-7.95.tar.bz2
 # 17.10 libnl-3.10.0
 504f3929a3d878fcaccc8a19f1a5f449 libnl-3.10.0.tar.gz
 ebbb10af7dafac18640a0974d255d2b7 libnl-doc-3.10.0.tar.gz
-# 17.13 libpcap-1.10.4
-0322e28dd76cda8066bb6d00fee5969b libpcap-1.10.4.tar.gz
+# 17.13 libpcap-1.10.5
+0dc69ed81464e7a255715fa685daf134 libpcap-1.10.5.tar.gz

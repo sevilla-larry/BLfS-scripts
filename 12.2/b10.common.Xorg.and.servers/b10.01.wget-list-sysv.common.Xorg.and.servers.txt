@@ -73,8 +73,8 @@ https://files.pythonhosted.org/packages/source/s/setuptools_scm/setuptools_scm-8
 # 13.24.32 Trove-Classifiers-2024.7.2
 https://files.pythonhosted.org/packages/source/t/trove_classifiers/trove_classifiers-2024.7.2.tar.gz
 
-# 17.02 cURL-8.11.0
-https://curl.se/download/curl-8.11.0.tar.xz
+# 17.02 cURL-8.11.1
+https://curl.se/download/curl-8.11.1.tar.xz
 # 17.07 libevent-2.1.12
 https://github.com/libevent/libevent/releases/download/release-2.1.12-stable/libevent-2.1.12-stable.tar.gz
 # 17.14 libpsl-0.21.5

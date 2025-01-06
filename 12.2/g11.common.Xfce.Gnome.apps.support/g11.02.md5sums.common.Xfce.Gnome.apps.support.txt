@@ -55,6 +55,11 @@ af586a91ff6d4093a6e7e283dfab5f7f libhandy-1.8.3.tar.xz
 #alsa-ucm-conf-1.2.12
 # 42.11 FLAC-1.4.3
 7cab20b46e0bc859234bf5ba7da81625 flac-1.4.3.tar.xz
+# 42.14->.17 gstreamer & gst-plugins
+5ea216197ccb862648a377370d1ebf15 gstreamer-1.24.10.tar.xz
+8a7f8668418d0c8c917bb92218047f9f gst-plugins-base-1.24.7.tar.xz
+#48477b1fe91522b6a0b733c22a780d78 gst-plugins-good-1.24.7.tar.xz
+#a0a2771d1ae1203004d58d80bc6fcd16 gst-plugins-bad-1.24.7.tar.xz
 # 42.40 libsndfile-1.2.2
 04e2e6f726da7c5dc87f8cf72f250d04 libsndfile-1.2.2.tar.xz
 # 42.44 Opus-1.5.2

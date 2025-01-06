@@ -1,5 +1,7 @@
 # 11.11 ISO Codes-4.16.0
+#
 5760b5a359301397cc3ab2baa165c31c iso-codes_4.16.0.orig.tar.xz
+#841cfc1afcb91e50dc03956ca0a2ad37 iso-codes-v4.16.0.tar.gz
 
 # 13.01 Cbindgen-0.27.0
 9349f81198b82c970822c452d08f25e5 cbindgen-0.27.0.tar.gz
@@ -32,13 +34,9 @@ f1fe79211639016c94df811e8ea6abe6 gsettings-desktop-schemas-46.1.tar.xz
 # 33.07 VTE-0.76.4
 5d1a548ad131664e8a638da24fbfd3e9 vte-0.76.4.tar.gz
 
-# 42.14->.17 gstreamer & gst-plugins
-#5abf79978005ae14a8bc7db1ac3ce4ba gstreamer-1.24.7.tar.xz
-#8a7f8668418d0c8c917bb92218047f9f gst-plugins-base-1.24.7.tar.xz
-#48477b1fe91522b6a0b733c22a780d78 gst-plugins-good-1.24.7.tar.xz
-#a0a2771d1ae1203004d58d80bc6fcd16 gst-plugins-bad-1.24.7.tar.xz
 # 42.27 libcanberra-0.30
 34cb7e4430afaf6f447c4ebdb9b42072 libcanberra-0.30.tar.xz
+#patch
 # 42.37 libogg-1.3.5
 3178c98341559657a15b185bf5d700a5 libogg-1.3.5.tar.xz
 # 42.44 libvorbis-1.3.7

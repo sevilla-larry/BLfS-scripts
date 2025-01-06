@@ -1,5 +1,5 @@
-# b10.17.02.cURL-8.11.0.sh
-# 3nd errata
+# b10.17.02.cURL-8.11.1.sh
+# 4nd errata
 #
 
 #
@@ -38,7 +38,7 @@
 #               g12.40.03 Firefox-128.3.1esr
 #
 
-export PKG="curl-8.11.0"
+export PKG="curl-8.11.1"
 export PKGLOG_DIR=$LFSLOG/17.02
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
@@ -60,6 +60,9 @@ echo "1. Extract tar..." >> $PKGLOG_ERROR
 tar xvf $PKG.tar.xz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
 
+
+sed -i '198,200d' lib/asyn-thread.c         \
+    >> $PKGLOG_OTHERS   2>> $PKGLOG_ERROR
 
 echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
@@ -95,7 +98,7 @@ find docs \( -name Makefile\* -o        \
              -name CMakeLists.txt \) -delete    \
     >> $PKGLOG_OTHERS   2>> $PKGLOG_ERROR
 
-cp -v -R docs -T /usr/share/doc/curl-8.11.0     \
+cp -v -R docs -T /usr/share/doc/curl-8.11.1     \
     >> $PKGLOG_OTHERS   2>> $PKGLOG_ERROR
 
 

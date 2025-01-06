@@ -1,4 +1,5 @@
-# e11.42.14.gstreamer-1.24.7.sh
+# e11.42.14.gstreamer-1.24.10.sh
+# (errata)
 #
 
 #
@@ -17,7 +18,7 @@
 #               e11.42.15 gst-plugins-base-1.24.7
 #
 
-export PKG="gstreamer-1.24.7"
+export PKG="gstreamer-1.24.10"
 export PKGLOG_DIR=$LFSLOG/42.14
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log

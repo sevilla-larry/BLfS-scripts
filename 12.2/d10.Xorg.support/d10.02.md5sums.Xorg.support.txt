@@ -3,9 +3,9 @@
 
 # 09.12 duktape-2.7.0
 b3200b02ab80125b694bae887d7c1ca6 duktape-2.7.0.tar.xz
-# 09.17 GLib-2.80.4
-4334211338220a165350d1c4a1597b0e glib-2.80.4.tar.xz
-ef1496a7a7abfcd31d25b3459ea86ebb gobject-introspection-1.80.1.tar.xz
+# 09.17 GLib-2.82.4
+713ce7fb3bfd18db69693cec17c79374 glib-2.82.4.tar.xz
+50beb465bc81f33395b5e0e3bbe364ec gobject-introspection-1.82.0.tar.xz
 #patch
 # 09.79 mtdev-1.1.7
 483ed7fdf7c1e7b7375c05a62848cce7 mtdev-1.1.7.tar.bz2

@@ -50,10 +50,10 @@ echo "."
 
 ###
 
-echo "b30.17.13.libpcap-1.10.4"
-echo "b30.17.13.libpcap-1.10.4" >> $LFSLOG_PROCESS
+echo "b30.17.13.libpcap-1.10.5"
+echo "b30.17.13.libpcap-1.10.5" >> $LFSLOG_PROCESS
 
-time { bash b30.17.13.libpcap-1.10.4.sh ; }
+time { bash b30.17.13.libpcap-1.10.5.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

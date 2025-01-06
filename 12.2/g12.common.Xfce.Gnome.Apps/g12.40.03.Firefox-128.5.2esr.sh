@@ -1,5 +1,5 @@
-# g12.40.03.Firefox-128.4.0esr.sh
-# errata
+# g12.40.03.Firefox-128.5.2esr.sh
+# (errata)
 #
 
 #
@@ -26,11 +26,11 @@
 #
 # Dependencies Optional:
 #
-#               b11.17.02 cURL-8.10.1       (errata)
+#               b11.17.02 cURL-8.11.1       (errata)
 #               e10.13.37 yasm-1.3.0
 #
 
-export PKG="firefox-128.4.0"
+export PKG="firefox-128.5.2"
 export PKG0=$PKG"esr.source"
 export PKGLOG_DIR=$LFSLOG/40.03
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
@@ -147,6 +147,10 @@ for i in {43..47}; do
 done
 
 sed -i 's/icu-i18n/icu-uc &/' js/moz.configure  \
+        >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
+
+#Fix a build issue that occurs due to changes in Python (?11.x/13.x?)
+patch -Np1 -i ../firefox-128.5.2esr-upstream_fixes-1.patch  \
         >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
 
 # if GLS was installed

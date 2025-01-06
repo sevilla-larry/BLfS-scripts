@@ -1,4 +1,5 @@
-# b30.17.13.libpcap-1.10.4.sh
+# b30.17.13.libpcap-1.10.5.sh
+# (errata)
 #
 
 #
@@ -13,7 +14,7 @@
 #               b30.16.05 Nmap-7.95
 #
 
-export PKG="libpcap-1.10.4"
+export PKG="libpcap-1.10.5"
 export PKGLOG_DIR=$LFSLOG/17.13
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log

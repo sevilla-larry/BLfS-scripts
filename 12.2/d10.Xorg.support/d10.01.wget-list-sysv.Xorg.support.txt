@@ -3,10 +3,10 @@ https://github.com/polkit-org/polkit/archive/125/polkit-125.tar.gz
 
 # 09.12 duktape-2.7.0
 https://duktape.org/duktape-2.7.0.tar.xz
-# 09.17 GLib-2.80.4
-https://download.gnome.org/sources/glib/2.80/glib-2.80.4.tar.xz
-https://download.gnome.org/sources/gobject-introspection/1.80/gobject-introspection-1.80.1.tar.xz
-https://www.linuxfromscratch.org/patches/blfs/12.2/glib-skip_warnings-1.patch
+# 09.17 GLib-2.82.4
+https://download.gnome.org/sources/glib/2.82/glib-2.82.4.tar.xz
+https://download.gnome.org/sources/gobject-introspection/1.82/gobject-introspection-1.82.0.tar.xz
+https://www.linuxfromscratch.org/patches/blfs/svn/glib-skip_warnings-1.patch
 # 09.79 mtdev-1.1.7
 https://bitmath.org/code/mtdev/mtdev-1.1.7.tar.bz2
 
