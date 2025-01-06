@@ -24,12 +24,10 @@ echo "."
 
 ###
 
-echo "d10.10.04.FreeType-2.13.3 - before HarfBuzz"
-echo "d10.10.04.FreeType-2.13.3 - before HarfBuzz" >> $LFSLOG_PROCESS
+echo "d10.10.04.FreeType-2.13.3 - Pass 1 - before HarfBuzz"
+echo "d10.10.04.FreeType-2.13.3 - Pass 1 - before HarfBuzz" >> $LFSLOG_PROCESS
 
-export PKGPASS=1
-time { bash d10.10.04.FreeType-2.13.3.sh ; }
-unset PKGPASS
+time { bash d10.10.04.FreeType-2.13.3.Pass1.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
@@ -54,12 +52,10 @@ echo "."
 
 ###
 
-echo "d10.10.04.FreeType-2.13.3 - after HarfBuzz"
-echo "d10.10.04.FreeType-2.13.3 - after HarfBuzz" >> $LFSLOG_PROCESS
+echo "d10.10.04.FreeType-2.13.3 - Pass 2 - after HarfBuzz"
+echo "d10.10.04.FreeType-2.13.3 - Pass 2 - after HarfBuzz" >> $LFSLOG_PROCESS
 
-export PKGPASS=2
-time { bash d10.10.04.FreeType-2.13.3.sh ; }
-unset PKGPASS
+time { bash d10.10.04.FreeType-2.13.3.Pass2.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

@@ -7,10 +7,8 @@
 #               d10.09.17 GLib-2.80.4
 #               b10.09.24 icu-75.1
 #               d10.10.04 FreeType-2.13.3
-#                   ( after HarfBuzz is installed,
-#                   reinstall Freetype-2.13.1 )
 #
-#               ??? 10.10 Graphite2-1.3.14  ??? for LibreOffice
+#               ??? 10.10 Graphite2-1.3.14  currently Disabled ??? for LibreOffice
 #
 
 #
@@ -55,11 +53,11 @@ cd    build
 echo "2. Meson Setup ..."
 echo "2. Meson Setup ..." >> $LFSLOG_PROCESS
 echo "2. Meson Setup ..." >> $PKGLOG_ERROR
-meson setup ..                  \
-            --prefix=/usr       \
-            --buildtype=release \
+meson setup ..                      \
+            --prefix=/usr           \
+            --buildtype=release     \
+            -D graphite2=disabled   \
         > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
-#      -D graphite2=enabled  \
 
 echo "3. Ninja Build ..."
 echo "3. Ninja Build ..." >> $LFSLOG_PROCESS

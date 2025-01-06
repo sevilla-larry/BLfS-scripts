@@ -92,7 +92,7 @@ dbus-uuidgen --ensure
 
 
 cd ..
-rm -rf $PKG
+# rm -rf $PKG               # remove directory after Pass 2
 unset LFSLOG_PROCESS
 unset PKGLOG_INSTALL PKGLOG_BUILD PKGLOG_CONFIG
 #unset PKGLOG_CHECK

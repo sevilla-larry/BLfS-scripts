@@ -36,8 +36,8 @@
 #
 
 export PKG="dbus-1.14.10"
-export PKGLOG_DIR=$LFSLOG/12.10
-export PKGLOG_TAR=$PKGLOG_DIR/tar.log
+export PKGLOG_DIR=$LFSLOG/12.10.2
+#export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
 #export PKGLOG_CHECK=$PKGLOG_DIR/check.log
@@ -48,12 +48,18 @@ export LFSLOG_PROCESS=$LFSLOG/process.log
 rm -r $PKGLOG_DIR 2> /dev/null
 mkdir $PKGLOG_DIR
 
-echo "1. Extract tar..."
-echo "1. Extract tar..." >> $LFSLOG_PROCESS
-echo "1. Extract tar..." >> $PKGLOG_ERROR
-tar xvf $PKG.tar.xz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
+#echo "1. Extract tar..."
+#echo "1. Extract tar..." >> $LFSLOG_PROCESS
+#echo "1. Extract tar..." >> $PKGLOG_ERROR
+#tar xvf $PKG.tar.xz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
 
+
+echo "1. Dist Clean ..."
+echo "1. Dist Clean ..." >> $LFSLOG_PROCESS
+echo "1. Dist Clean ..." >> $PKGLOG_ERROR
+make distclean  \
+    >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
 
 echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
@@ -85,7 +91,7 @@ make install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 # chown root:messagebus /usr/libexec/dbus-daemon-launch-helper
 # chmod      4750       /usr/libexec/dbus-daemon-launch-helper
 
-dbus-uuidgen --ensure
+# dbus-uuidgen --ensure
 
 # NO elogind yet
 #ln -sfv /var/lib/dbus/machine-id /etc
