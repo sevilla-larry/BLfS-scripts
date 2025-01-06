@@ -11,6 +11,11 @@
 # Started: 2024/Sept/04
 # arch: x64, UEFI (same with LfS-Scripts)
 # Status: current
+#
+# some updates based on sequence/dependencies by:
+#		https://www.linuxfromscratch.org/glfs/
+#		https://glfs-book.github.io/glfs/
+#	but exclude Steam & Wine
 # 
 # a: LfS			- working
 # 
