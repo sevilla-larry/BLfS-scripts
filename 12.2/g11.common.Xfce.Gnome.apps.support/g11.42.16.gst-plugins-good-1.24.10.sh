@@ -1,10 +1,11 @@
-# e11.42.16.gst-plugins-good-1.24.7.sh
+# g11.42.16.gst-plugins-good-1.24.10.sh
+# (errata)
 #
 
 #
 # Dependencies Required:
 #
-#               e11.42.15 gst-plugins-base-1.24.7
+#               g11.42.15 gst-plugins-base-1.24.7
 #
 # Dependencies Recommended:
 #
@@ -23,7 +24,7 @@
 #               e11.25.18 GTK-4.14.5
 #
 
-export PKG="gst-plugins-good-1.24.7"
+export PKG="gst-plugins-good-1.24.10"
 export PKGLOG_DIR=$LFSLOG/42.16
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log

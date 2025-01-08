@@ -45,16 +45,18 @@ ec8bf334616de82f740e01cfb7176c23 c-ares-1.34.2.tar.gz
 # 25.33 libhandy-1.8.3
 af586a91ff6d4093a6e7e283dfab5f7f libhandy-1.8.3.tar.xz
 
-# 42.02 alsa-lib-1.2.12
+# 42.02--->04 alsa-*-1.2.12
 97bbf3cca911c1701fe9fe115c32b03d alsa-lib-1.2.12.tar.bz2
 #alsa-ucm-conf-1.2.12
+71fce75baa38efab4e32e40db0a33716 alsa-plugins-1.2.12.tar.bz2
+80b71081f0bd2bb688e2f04311f142c5 alsa-utils-1.2.12.tar.bz2
 # 42.11 FLAC-1.4.3
 7cab20b46e0bc859234bf5ba7da81625 flac-1.4.3.tar.xz
 # 42.14->.17 gstreamer & gst-plugins
 5ea216197ccb862648a377370d1ebf15 gstreamer-1.24.10.tar.xz
 e94ad24344068e3c61aed6a41a0d172d gst-plugins-base-1.24.10.tar.xz
-#b03d5856796e74eabab20ade438ea150 gst-plugins-good-1.24.10.tar.xz
-#cde166cc93d78b25295d09e292bdfd21 gst-plugins-bad-1.24.7.tar.xz
+b03d5856796e74eabab20ade438ea150 gst-plugins-good-1.24.10.tar.xz
+#cde166cc93d78b25295d09e292bdfd21 gst-plugins-bad-1.24.10.tar.xz
 # 42.40 libsndfile-1.2.2
 04e2e6f726da7c5dc87f8cf72f250d04 libsndfile-1.2.2.tar.xz
 # 42.44 Opus-1.5.2

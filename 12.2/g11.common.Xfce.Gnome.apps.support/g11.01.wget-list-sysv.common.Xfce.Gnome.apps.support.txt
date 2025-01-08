@@ -44,15 +44,17 @@ https://download.gnome.org/sources/gtksourceview/4.8/gtksourceview-4.8.4.tar.xz
 # 25.33 libhandy-1.8.3
 https://download.gnome.org/sources/libhandy/1.8/libhandy-1.8.3.tar.xz
 
-# 42.02 alsa-lib-1.2.12
+# 42.02--->04 alsa-*-1.2.12
 https://www.alsa-project.org/files/pub/lib/alsa-lib-1.2.12.tar.bz2
 https://www.alsa-project.org/files/pub/lib/alsa-ucm-conf-1.2.12.tar.bz2
+https://www.alsa-project.org/files/pub/plugins/alsa-plugins-1.2.12.tar.bz2
+https://www.alsa-project.org/files/pub/utils/alsa-utils-1.2.12.tar.bz2
 # 42.11 FLAC-1.4.3
 https://downloads.xiph.org/releases/flac/flac-1.4.3.tar.xz
 # 42.14->.17 gstreamer & gst-plugins
 https://gstreamer.freedesktop.org/src/gstreamer/gstreamer-1.24.10.tar.xz
 https://gstreamer.freedesktop.org/src/gst-plugins-base/gst-plugins-base-1.24.10.tar.xz
-#https://gstreamer.freedesktop.org/src/gst-plugins-good/gst-plugins-good-1.24.10.tar.xz
+https://gstreamer.freedesktop.org/src/gst-plugins-good/gst-plugins-good-1.24.10.tar.xz
 #https://gstreamer.freedesktop.org/src/gst-plugins-bad/gst-plugins-bad-1.24.10.tar.xz
 # 42.40 libsndfile-1.2.2
 https://github.com/libsndfile/libsndfile/releases/download/1.2.2/libsndfile-1.2.2.tar.xz

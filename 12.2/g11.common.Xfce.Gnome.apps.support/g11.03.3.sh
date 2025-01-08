@@ -69,6 +69,30 @@ echo "." >> $LFSLOG_PROCESS
 echo "."
 echo "."
 
+echo "g11.42.03.alsa-plugins-1.2.12"
+echo "g11.42.03.alsa-plugins-1.2.12" >> $LFSLOG_PROCESS
+
+time { bash g11.42.03.alsa-plugins-1.2.12.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+echo "g11.42.04.alsa-utils-1.2.12"
+echo "g11.42.04.alsa-utils-1.2.12" >> $LFSLOG_PROCESS
+
+time { bash g11.42.04.alsa-utils-1.2.12.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
 ###
 
 echo "g11.42.11.FLAC-1.4.3"
