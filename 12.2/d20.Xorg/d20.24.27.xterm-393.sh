@@ -66,6 +66,14 @@ mkdir -pv /usr/share/applications           \
 cp -v *.desktop /usr/share/applications/    \
     >> $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
+cat >> /etc/X11/app-defaults/XTerm << "EOF" 2>> $PKGLOG_ERROR
+*VT100*locale: true
+*VT100*faceName: Monospace
+*VT100*faceSize: 10
+*backarrowKeyIsErase: true
+*ptyInitialErase: true
+EOF
+
 
 cd ..
 rm -rf $PKG
