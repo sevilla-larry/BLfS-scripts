@@ -37,7 +37,7 @@ a33993309322164867c99e04a4000ee3 Archive-Zip-1.68.tar.gz
 #python-3.12.8-docs-html.tar.bz2
 # 13.21 Python-3.13.1
 80c16badb94ffe235280d4d9a099b8bc Python-3.13.1.tar.xz
-80c16badb94ffe235280d4d9a099b8bc python-3.13.1-docs-html.tar.bz2
+2fbda851be0e4d4c4dad7bb8d1ff7e50 python-3.13.1-docs-html.tar.bz2
 # 13.26 Rustc-1.80.1
 0b00381728b6c005e95194f7e44cff33 rustc-1.80.1-src.tar.xz
 
