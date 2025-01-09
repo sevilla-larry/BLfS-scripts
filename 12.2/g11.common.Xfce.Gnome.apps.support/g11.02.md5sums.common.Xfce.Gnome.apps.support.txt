@@ -33,7 +33,7 @@ a33993309322164867c99e04a4000ee3 Archive-Zip-1.68.tar.gz
 #Python-3.11.10.tar.xz
 #python-3.11.10-docs-html.tar.bz2
 # 13.21 Python-3.12.8
-#Python-3.12.8.tar.xz
+d46e5bf9f2e596a3ba45fc0b3c053dd2 Python-3.12.8.tar.xz
 #python-3.12.8-docs-html.tar.bz2
 # 13.21 Python-3.13.1
 80c16badb94ffe235280d4d9a099b8bc Python-3.13.1.tar.xz
