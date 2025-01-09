@@ -17,6 +17,8 @@ https://download.gnome.org/sources/vala/0.56/vala-0.56.17.tar.xz
 
 # 25.03 at-spi2-core-2.52.0
 https://download.gnome.org/sources/at-spi2-core/2.52/at-spi2-core-2.52.0.tar.xz
+# 25.13 GLU-9.0.3
+https://archive.mesa3d.org/glu/glu-9.0.3.tar.xz
 # 25.16 Graphene-1.10.8
 https://download.gnome.org/sources/graphene/1.10/graphene-1.10.8.tar.xz
 # 25.17 GTK+-3.24.43
@@ -33,6 +35,9 @@ https://downloads.sourceforge.net/lxde/lxde-icon-theme-0.5.1.tar.xz
 https://download.gnome.org/sources/gsettings-desktop-schemas/46/gsettings-desktop-schemas-46.1.tar.xz
 # 33.07 VTE-0.76.4
 https://gitlab.gnome.org/GNOME/vte/-/archive/0.76.4/vte-0.76.4.tar.gz
+
+# 41.14 XScreenSaver-6.09
+https://www.jwz.org/xscreensaver/xscreensaver-6.09.tar.gz
 
 # 42.27 libcanberra-0.30
 https://0pointer.de/lennart/projects/libcanberra/libcanberra-0.30.tar.xz

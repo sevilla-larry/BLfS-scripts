@@ -12,6 +12,7 @@ bash e10.03.3.sh
 bash e11.03.1.sh
 bash e11.03.2.sh
 bash e11.03.3.sh
+bash e11.03.4.sh
 
 # Xfce support apps
  bash e21.03.sh

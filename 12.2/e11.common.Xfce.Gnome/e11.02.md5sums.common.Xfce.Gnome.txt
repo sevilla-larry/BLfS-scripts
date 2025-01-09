@@ -17,6 +17,8 @@ fe1cb825adc8a49d1629b97b7d26dffc pygobject-3.48.2.tar.xz
 
 # 25.03 at-spi2-core-2.52.0
 e6591545b2bf204fe9a58f777bd0b78a at-spi2-core-2.52.0.tar.xz
+# 25.13 GLU-9.0.3
+06a4fff9179a98ea32ef41b6d83f6b19 glu-9.0.3.tar.xz
 # 25.16 Graphene-1.10.8
 169e3c507b5a5c26e9af492412070b81 graphene-1.10.8.tar.xz
 # 25.17 GTK+-3.24.43
@@ -33,6 +35,9 @@ e6591545b2bf204fe9a58f777bd0b78a at-spi2-core-2.52.0.tar.xz
 f1fe79211639016c94df811e8ea6abe6 gsettings-desktop-schemas-46.1.tar.xz
 # 33.07 VTE-0.76.4
 5d1a548ad131664e8a638da24fbfd3e9 vte-0.76.4.tar.gz
+
+# 41.14 XScreenSaver-6.09
+1f0e2b1698bc2a6ecfe9b668e4b75c3d xscreensaver-6.09.tar.gz
 
 # 42.27 libcanberra-0.30
 34cb7e4430afaf6f447c4ebdb9b42072 libcanberra-0.30.tar.xz
