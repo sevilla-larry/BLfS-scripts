@@ -1,4 +1,4 @@
-# g11.13.21.Python-3.13.0.sh
+# g11.13.21.Python-3.11.10.sh
 # errata
 #
 # re-compile Python after SQLite
@@ -18,7 +18,7 @@
 #
 
 
-export PKG="Python-3.13.0"
+export PKG="Python-3.11.10"
 export PKGLOG_DIR=$LFSLOG/13.21
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
@@ -46,6 +46,7 @@ CXX="/usr/bin/g++"                  \
 ./configure --prefix=/usr           \
             --enable-shared         \
             --with-system-expat     \
+            --with-system-ffi       \
             --enable-optimizations  \
             > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
@@ -78,14 +79,14 @@ make install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 echo "   Install the documentation..."
 echo "   Install the documentation..." >> $LFSLOG_PROCESS
 echo "   Install the documentation..." >> $PKGLOG_ERROR
-install -v -dm755 /usr/share/doc/python-3.13.0/html \
+install -v -dm755 /usr/share/doc/python-3.11.10/html \
     >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
 
 tar --strip-components=1                            \
     --no-same-owner                                 \
     --no-same-permissions                           \
-    -C /usr/share/doc/python-3.13.0/html            \
-    -xvf ../python-3.13.0-docs-html.tar.bz2         \
+    -C /usr/share/doc/python-3.11.10/html            \
+    -xvf ../python-3.11.10-docs-html.tar.bz2         \
     >> $PKGLOG_TAR 2>> $PKGLOG_ERROR
 
 
