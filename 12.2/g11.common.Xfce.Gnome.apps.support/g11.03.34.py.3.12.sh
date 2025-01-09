@@ -10,10 +10,10 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
 #####
 
-echo "g11.13.21.Python-3.13.0"
-echo "g11.13.21.Python-3.13.0" >> $LFSLOG_PROCESS
+echo "g11.13.21.Python-3.12.8"
+echo "g11.13.21.Python-3.12.8" >> $LFSLOG_PROCESS
 
-time { bash g11.13.21.Python-3.13.0.sh ; }
+time { bash g11.13.21.Python-3.12.8.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

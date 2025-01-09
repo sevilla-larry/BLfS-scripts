@@ -70,6 +70,12 @@ B.  Generate BLFS - Xfce Apps
 
         bash g63.03.8.1.support.apps.sh
 
+      # bash g11.03.34.sh
+      # select same Python version installed during LfS creation
+        bash g11.03.34.py.3.11.sh
+        bash g11.03.34.py.3.12.sh
+        bash g11.03.34.py.3.13.sh
+
         # after Rustc
 
         reboot

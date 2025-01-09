@@ -19,4 +19,4 @@ bash g11.03.2.sh
 
 # Firefox & LibreOffice support
 # Python, Rustc
-bash g11.03.34.sh
+# bash g11.03.34.sh

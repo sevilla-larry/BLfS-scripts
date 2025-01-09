@@ -12,6 +12,15 @@
 # arch: x64, UEFI (same with LfS-Scripts)
 # Status: current
 #
+# Note: on Firefox app, select the Python version installed during LfS creation:
+#
+#       Python 3.11.x is tested on OpenStack 2024.2
+#       Python 3.11.10 is used/installed
+#
+#       Python 3.12.8 is errata update on LfS ver 12.2
+#
+#       Python 3.13.x is alternative upgrade
+#
 # some updates based on sequence/dependencies by:
 #		https://www.linuxfromscratch.org/glfs/
 #		https://glfs-book.github.io/glfs/

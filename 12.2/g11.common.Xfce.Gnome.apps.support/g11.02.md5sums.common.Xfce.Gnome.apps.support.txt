@@ -29,9 +29,15 @@ e5be03eda13ef68aabab6e42aa67715e redland-1.0.17.tar.gz
 # 13.18 Perl Modules
 # 13.18.01 Archive::Zip-1.68
 a33993309322164867c99e04a4000ee3 Archive-Zip-1.68.tar.gz
-# 13.21 Python-3.13.0
-726e5b829fcf352326874c1ae599abaa Python-3.13.0.tar.xz
-afbf0a2319b7ac7561c52969bd0f5148 python-3.13.0-docs-html.tar.bz2
+# 13.21 Python-3.11.10
+#Python-3.11.10.tar.xz
+#python-3.11.10-docs-html.tar.bz2
+# 13.21 Python-3.12.8
+#Python-3.12.8.tar.xz
+#python-3.12.8-docs-html.tar.bz2
+# 13.21 Python-3.13.1
+80c16badb94ffe235280d4d9a099b8bc Python-3.13.1.tar.xz
+80c16badb94ffe235280d4d9a099b8bc python-3.13.1-docs-html.tar.bz2
 # 13.26 Rustc-1.80.1
 0b00381728b6c005e95194f7e44cff33 rustc-1.80.1-src.tar.xz
 
