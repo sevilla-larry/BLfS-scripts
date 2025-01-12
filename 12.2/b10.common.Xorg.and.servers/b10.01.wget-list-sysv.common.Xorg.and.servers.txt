@@ -76,9 +76,6 @@ https://github.com/libevent/libevent/releases/download/release-2.1.12-stable/lib
 # 17.20 nghttp2-1.62.1
 https://github.com/nghttp2/nghttp2/releases/download/v1.62.1/nghttp2-1.62.1.tar.xz
 
-# 22.05 SQLite-3.46.1
-https://sqlite.org/2024/sqlite-autoconf-3460100.tar.gz
-
 # 49.01 docbook-xml-4.5
 https://www.docbook.org/xml/4.5/docbook-xml-4.5.zip
 # 49.04 docbook-xsl-nons-1.79.2
