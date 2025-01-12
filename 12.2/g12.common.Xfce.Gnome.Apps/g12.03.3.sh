@@ -8,10 +8,10 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
 #####
 
-echo "g12.40.03.Firefox-128.5.2esr"
-echo "g12.40.03.Firefox-128.5.2esr" >> $LFSLOG_PROCESS
+echo "g12.40.03.Firefox-128.6.0esr"
+echo "g12.40.03.Firefox-128.6.0esr" >> $LFSLOG_PROCESS
 
-time { bash g12.40.03.Firefox-128.5.2esr.sh ; }
+time { bash g12.40.03.Firefox-128.6.0esr.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

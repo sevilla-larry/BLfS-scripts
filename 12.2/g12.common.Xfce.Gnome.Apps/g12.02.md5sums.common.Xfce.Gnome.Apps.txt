@@ -9,5 +9,4 @@ d86da685bce6182f77fc4002ad8d9f8f libreoffice-translations-24.8.0.3.tar.xz
 #patch
 
 # 40.03 Firefox-128.5.2esr (errata)
-22b603ecb9431b7d87328f2a32e042f3 firefox-128.5.2esr.source.tar.xz
-#patch
+4e4caf3470c2c922f9463fab97232d12 firefox-128.6.0esr.source.tar.xz
