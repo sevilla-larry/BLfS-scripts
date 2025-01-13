@@ -1,5 +1,8 @@
 # 04.08 GPGME-1.23.2
 https://www.gnupg.org/ftp/gcrypt/gpgme/gpgme-1.23.2.tar.bz2
+# 04.17 NSS-3.103
+https://archive.mozilla.org/pub/security/nss/releases/NSS_3_103_RTM/src/nss-3.103.tar.gz
+https://www.linuxfromscratch.org/patches/blfs/12.2/nss-3.103-standalone-1.patch
 
 # 09.09 CLucene-2.3.3.4
 https://downloads.sourceforge.net/clucene/clucene-core-2.3.3.4.tar.gz

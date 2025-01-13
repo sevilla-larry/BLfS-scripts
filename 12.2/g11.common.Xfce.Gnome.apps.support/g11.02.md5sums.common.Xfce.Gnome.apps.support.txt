@@ -1,5 +1,8 @@
 # 04.08 GPGME-1.23.2
 01a8c05b409847e87daf0543e91f8c37 gpgme-1.23.2.tar.bz2
+# 04.17 NSS-3.103
+2823082a44b9dd71d6281108e0bab03f nss-3.103.tar.gz
+#NSS-patch
 
 # 09.09 CLucene-2.3.3.4
 48d647fbd8ef8889e5a7f422c1bfda94 clucene-core-2.3.3.4.tar.gz

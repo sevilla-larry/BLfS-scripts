@@ -1,9 +1,8 @@
-# b10.03.3.sh
+# g11.03.234.sh
 #
-# Dependencies of
-#   Apache
-# SQLite
-
+# Evince, Firefox & LibreOffice support
+#
+# NSS
 #
 
 export LFSLOG_PROCESS=$LFSLOG/process.log
@@ -11,10 +10,12 @@ export LFSLOG_PROCESS=$LFSLOG/process.log
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
-echo "b10.22.05.SQLite-3.46.1"
-echo "b10.22.05.SQLite-3.46.1" >> $LFSLOG_PROCESS
+#####
 
-time { bash b10.22.05.SQLite-3.46.1.sh ; }
+echo "g11.04.17.NSS-3.103"
+echo "g11.04.17.NSS-3.103" >> $LFSLOG_PROCESS
+
+time { bash g11.04.17.NSS-3.103.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
