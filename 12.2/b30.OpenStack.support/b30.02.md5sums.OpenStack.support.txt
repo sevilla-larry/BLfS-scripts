@@ -36,6 +36,8 @@ a7c927740e4964dd29b72cebfc1429bb six-1.16.0.tar.gz
 f5f9e639f066c91f8e623ec6231beae9 hatch_fancy_pypi_readme-24.1.0.tar.gz
 # 13.24.12 Idna-3.7
 31cc572cb7a6519159c927c998c64c79 idna-3.7.tar.gz
+# 13.24.17 Msgpack-1.0.8
+6f4d91b00537fd5069dc6bfc52ae5652 msgpack-1.0.8.tar.gz
 # 13.24.34 Urllib3-2.2.2
 efb79cfdef7b811687afe02ccaf67433 urllib3-2.2.2.tar.gz
 

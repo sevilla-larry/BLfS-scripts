@@ -1,14 +1,26 @@
-# b30.13.23.33.six-1.16.0.sh
+# b30.13.24.17.Msgpack-1.0.8.sh
+#
+
+#
+# Dependencies Required:
+#
+#               b30.13.23.04 Cython-3.0.11
+#               b10.13.24.22 Setuptools_scm-8.1.0
+#
+# Dependencies Optional:
+#
+#               b10.13.23.26 Pytest-8.3.2
 #
 
 #
 # Required by:
 #
-#               i030.9.01 python-dateutil-2.9.0.post0
+#               i010.9.50 oslo.serialization-5.5.0
+#               i151.9.1  KeyStone-26.0.0
 #
 
-export PKG="six-1.16.0"
-export PKGLOG_DIR=$LFSLOG/13.23.33
+export PKG="msgpack-1.0.8"
+export PKGLOG_DIR=$LFSLOG/13.24.17
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
 export PKGLOG_CHECK=$PKGLOG_DIR/check.log
@@ -43,8 +55,13 @@ pip3 install    --no-index              \
                 --no-user               \
                 --find-links dist       \
                 --no-cache-dir          \
-                six                     \
+                msgpack                 \
                 > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
+
+echo "4. pyTest ..."
+echo "4. pyTest ..." >> $LFSLOG_PROCESS
+echo "4. pyTest ..." >> $PKGLOG_ERROR
+pytest >  $PKGLOG_CHECK 2>> $PKGLOG_ERROR
 
 
 cd ..

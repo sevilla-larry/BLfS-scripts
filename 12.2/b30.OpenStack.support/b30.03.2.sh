@@ -81,6 +81,20 @@ echo "."
 
 ###
 
+echo "b30.13.24.17.Msgpack-1.0.8"
+echo "b30.13.24.17.Msgpack-1.0.8" >> $LFSLOG_PROCESS
+
+time { bash b30.13.24.17.Msgpack-1.0.8.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
 echo "b30.13.24.34.Urllib3-2.2.2"
 echo "b30.13.24.34.Urllib3-2.2.2" >> $LFSLOG_PROCESS
 

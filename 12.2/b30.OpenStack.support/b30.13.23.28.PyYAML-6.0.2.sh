@@ -20,7 +20,8 @@
 #               i010.9.11.cliff-4.7.0
 #               i010.9.30 openstacksdk-4.0.1
 #               i010.9.39 oslo.utils-7.3.0
-#               i010.9.45.oslo.config-9.6.0
+#               i010.9.45 oslo.config-9.6.0
+#               i040.9.xx oslo.messaging-14.9.1
 #
 
 export PKG="pyyaml-6.0.2"
