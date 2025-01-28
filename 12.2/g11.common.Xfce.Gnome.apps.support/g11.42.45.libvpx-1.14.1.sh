@@ -62,7 +62,8 @@ make > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 echo "4. Make Test ..."
 echo "4. Make Test ..." >> $LFSLOG_PROCESS
 echo "4. Make Test ..." >> $PKGLOG_ERROR
-LD_LIBRARY_PATH=. make test \
+# -j1 due to test uses swap space intensively
+LD_LIBRARY_PATH=. make -j1 test \
             > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
 
 echo "5. Make Install ..."

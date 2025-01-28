@@ -34,13 +34,14 @@ B.  Generate BLFS - Xfce Apps
 
         ###
 
-        # for VMs/VBs
+        ### for VMs/VBs
+        #  ALL
         export MAKEFLAGS="-j$(nproc)"
         export NPROC="$(nproc)"
 
-        # for PC, MAKEFLAGS = procs / 2
-        export MAKEFLAGS="-j$(($(nproc)/2))" # PC
-        export NPROC="$(($(nproc)/2))"
+        ### for PC, MAKEFLAGS = procs / 2
+        ###export MAKEFLAGS="-j$(($(nproc)/2))" # PC
+        ###export NPROC="$(($(nproc)/2))"
 
         export LFSLOG=/var/log/blfs
 
@@ -91,13 +92,14 @@ B.  Generate BLFS - Xfce Apps
 
         ###
 
-        # for VMs/VBs
+        ### for VMs/VBs
+        #  ALL
         export MAKEFLAGS="-j$(nproc)"
         export NPROC="$(nproc)"
 
-        # for PC, MAKEFLAGS = procs / 2
-        export MAKEFLAGS="-j$(($(nproc)/2))" # PC
-        export NPROC="$(($(nproc)/2))"
+        ### for PC, MAKEFLAGS = procs / 2
+        ###export MAKEFLAGS="-j$(($(nproc)/2))" # PC
+        ###export NPROC="$(($(nproc)/2))"
 
         export LFSLOG=/var/log/blfs
 
@@ -165,13 +167,14 @@ B.  Generate BLFS - Xfce Apps
 
         ###
 
-        # for VMs/VBs
+        ### for VMs/VBs
+        #  ALL
         export MAKEFLAGS="-j$(nproc)"
         export NPROC="$(nproc)"
 
-        # for PC, MAKEFLAGS = procs / 2
-        export MAKEFLAGS="-j$(($(nproc)/2))" # PC
-        export NPROC="$(($(nproc)/2))"
+        ### for PC, MAKEFLAGS = procs / 2
+        ###export MAKEFLAGS="-j$(($(nproc)/2))" # PC
+        ###export NPROC="$(($(nproc)/2))"
 
         export LFSLOG=/var/log/blfs
 
