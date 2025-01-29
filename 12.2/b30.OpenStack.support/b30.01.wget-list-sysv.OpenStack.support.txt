@@ -38,6 +38,8 @@ https://files.pythonhosted.org/packages/source/h/hatch-fancy-pypi-readme/hatch_f
 https://files.pythonhosted.org/packages/source/i/idna/idna-3.7.tar.gz
 # 13.24.17 Msgpack-1.0.8
 https://files.pythonhosted.org/packages/source/m/msgpack/msgpack-1.0.8.tar.gz
+# 13.24.21 Pytz-2024.1
+https://files.pythonhosted.org/packages/source/p/pytz/pytz-2024.1.tar.gz
 # 13.24.34 Urllib3-2.2.2
 https://files.pythonhosted.org/packages/source/u/urllib3/urllib3-2.2.2.tar.gz
 
