@@ -78,10 +78,10 @@ echo "."
 
 ###
 
-echo "b10.13.23.12.lxml-5.3.0"
-echo "b10.13.23.12.lxml-5.3.0" >> $LFSLOG_PROCESS
+echo "b10.13.23.12.lxml-5.3.1"
+echo "b10.13.23.12.lxml-5.3.1" >> $LFSLOG_PROCESS
 
-time { bash b10.13.23.12.lxml-5.3.0.sh ; }
+time { bash b10.13.23.12.lxml-5.3.1.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
