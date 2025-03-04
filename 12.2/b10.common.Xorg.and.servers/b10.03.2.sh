@@ -76,6 +76,20 @@ echo "." >> $LFSLOG_PROCESS
 echo "."
 echo "."
 
+###
+
+echo "b10.13.23.12.lxml-5.3.0"
+echo "b10.13.23.12.lxml-5.3.0" >> $LFSLOG_PROCESS
+
+time { bash b10.13.23.12.lxml-5.3.0.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
 #####
 
 unset LFSLOG_PROCESS

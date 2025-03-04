@@ -31,14 +31,16 @@ bash b10.03.9.sh
 
 ###
 
-# elogind
-# duktape
-# mtdev
-bash d10.03.01.sh
+# Python modules
+# bash d10.03.01.sh
+#   to b10...
 
 ###
 
-# Python modules
+# dbus pass 1
+# elogind
+# duktape
+# mtdev
 bash d10.03.02.sh
 
 ###
