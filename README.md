@@ -37,7 +37,8 @@
 #
 # e23: Xfce	with LightDM	- working
 #
-#
+# g63: Xfce Apps    - working but some issues
+#                   ( some problem with Adwaita theme / no themes )
 #
 #
 #
