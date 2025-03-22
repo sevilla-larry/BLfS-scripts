@@ -15,7 +15,7 @@
 #
 # Required by:
 #
-#               i010.9.50 oslo.serialization-5.5.0
+#               i025.9.04 oslo.serialization-5.5.0
 #               i151.9.1  KeyStone-26.0.0
 #
 

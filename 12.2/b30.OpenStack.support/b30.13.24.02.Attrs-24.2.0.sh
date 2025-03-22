@@ -15,7 +15,9 @@
 #
 # Required by:
 #
-#               i010.9.08 cmd2-2.4.3
+#               i010.9.07 cmd2-2.4.3
+#               i010.9.22 referencing-0.32.1                    
+#               
 #
 
 export PKG="attrs-24.2.0"

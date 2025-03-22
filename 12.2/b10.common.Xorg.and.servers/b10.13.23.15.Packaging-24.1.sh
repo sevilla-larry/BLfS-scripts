@@ -13,8 +13,8 @@
 #               d10.09.17 GLib-2.80.4
 #               b10.13.24.09 Hatchling-1.25.0
 #               b10.13.24.22 Setuptools_scm-8.1.0
-#               i010.9.39 oslo.utils-7.3.0
-#               i010.9.60 python-keystoneclient-5.5.0
+#               i025.9.02 oslo.utils-7.3.0
+#               i030.9.11 python-keystoneclient-5.5.0
 #
 
 export PKG="packaging-24.1"

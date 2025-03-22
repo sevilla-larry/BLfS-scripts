@@ -17,11 +17,11 @@
 #
 # Required by:
 #
-#               i010.9.11.cliff-4.7.0
-#               i010.9.30 openstacksdk-4.0.1
-#               i010.9.39 oslo.utils-7.3.0
-#               i010.9.45 oslo.config-9.6.0
-#               i040.9.xx oslo.messaging-14.9.1
+#               i030.9.01.cliff-4.7.0
+#               i030.9.02 openstacksdk-4.0.1
+#               i025.9.02 oslo.utils-7.3.0
+#               i025.9.03 oslo.config-9.6.0
+#               i060.9.08 oslo.messaging-14.9.1
 #
 
 export PKG="pyyaml-6.0.2"

@@ -22,12 +22,12 @@
 #
 # Required by:
 #
-#               i010.9.19 keystoneauth1-5.8.0
-#               i010.9.40 osc-lib-3.1.0
-#               i010.9.45.oslo.config-9.6.0
-#               i010.9.60 python-keystoneclient-5.5.0
-#               i010.9.65 python-cinderclient-9.6.0
-#               i020.9.1  python-openstackclient-7.1.3
+#               i015.9.04 keystoneauth1-5.8.0
+#               i030.9.03 osc-lib-3.1.0
+#               i025.9.03.oslo.config-9.6.0
+#               i030.9.11 python-keystoneclient-5.5.0
+#               i030.9.12 python-cinderclient-9.6.0
+#               i040.9.1  python-openstackclient-7.1.3
 #
 
 
