@@ -4,7 +4,7 @@
 #
 # Required by:
 #
-#               i030.9.01 python-dateutil-2.9.0.post0
+#               i010.9.27 python-dateutil-2.9.0.post0
 #
 
 export PKG="six-1.16.0"

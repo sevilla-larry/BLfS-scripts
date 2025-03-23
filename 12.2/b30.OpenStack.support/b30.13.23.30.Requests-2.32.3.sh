@@ -27,6 +27,9 @@
 #               i025.9.03.oslo.config-9.6.0
 #               i030.9.11 python-keystoneclient-5.5.0
 #               i030.9.12 python-cinderclient-9.6.0
+#               i030.9.13 python-glanceclient-4.7.0
+#               i030.9.14 python-barbicanclient-7.0.0
+#               i030.9.15 python-neutronclient-11.3.1
 #               i040.9.1  python-openstackclient-7.1.3
 #
 
