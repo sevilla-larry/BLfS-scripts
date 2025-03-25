@@ -4,8 +4,8 @@
 #
 # Required by:
 #
-#               OpenStack???
-#
+#               i080.9.11 oslo.reports-3.4.0
+
 
 export PKG="psutil-6.0.0"
 export PKGLOG_DIR=$LFSLOG/13.23.17
