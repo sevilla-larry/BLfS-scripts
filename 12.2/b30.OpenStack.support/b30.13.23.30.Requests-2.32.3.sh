@@ -24,7 +24,7 @@
 #
 #               i020.9.04 keystoneauth1-5.8.0
 #               i040.9.03 osc-lib-3.1.0
-#               i030.9.03.oslo.config-9.6.0
+#               i030.9.03 oslo.config-9.6.0
 #               i040.9.11 python-keystoneclient-5.5.0
 #               i040.9.12 python-cinderclient-9.6.0
 #               i040.9.13 python-glanceclient-4.7.0
@@ -32,6 +32,11 @@
 #               i040.9.15 python-neutronclient-11.3.1
 #               i050.9.1  python-openstackclient-7.1.3
 #               i080.9.08 oslo.policy-4.4.0
+#               i070.9.02 castellan-5.1.1
+#               i090.9.02 keystonemiddleware-10.7.1
+#               i090.9.03 osprofiler-4.2.0
+#               i090.9.06 glance_store-4.8.1
+#               i090.9.11 os_brick-6.9.1
 #
 
 export PKG="requests-2.32.3"

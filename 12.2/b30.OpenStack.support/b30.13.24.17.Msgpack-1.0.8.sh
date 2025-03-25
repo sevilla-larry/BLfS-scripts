@@ -17,6 +17,7 @@
 #
 #               i030.9.04 oslo.serialization-5.5.0
 #               i080.9.13 oslo.privsep-3.4.0
+#               i090.9.14 tooz-6.3.0
 #               i151.9.1  KeyStone-26.0.0
 #
 
