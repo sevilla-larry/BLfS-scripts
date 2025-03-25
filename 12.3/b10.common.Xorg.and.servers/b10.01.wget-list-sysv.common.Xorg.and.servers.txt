@@ -1,0 +1,91 @@
+# 04.16 Nettle-3.10
+https://ftp.gnu.org/gnu/nettle/nettle-3.10.tar.gz
+
+# 09.07 boost-1.86.0
+https://github.com/boostorg/boost/releases/download/boost-1.86.0/boost-1.86.0-b2-nodocs.tar.xz
+https://www.linuxfromscratch.org/patches/blfs/12.2/boost-1.86.0-upstream_fixes-1.patch
+# 09.24 icu-75.1
+https://github.com/unicode-org/icu/releases/download/release-75-1/icu4c-75_1-src.tgz
+# 09.32 libarchive-3.7.7 (errata)
+https://github.com/libarchive/libarchive/releases/download/v3.7.7/libarchive-3.7.7.tar.xz
+# 09.42 libgcrypt-1.11.0
+https://www.gnupg.org/ftp/gcrypt/libgcrypt/libgcrypt-1.11.0.tar.bz2
+# 09.43 libgpg-error-1.50
+https://www.gnupg.org/ftp/gcrypt/libgpg-error/libgpg-error-1.50.tar.bz2
+# 09.63 libssh2-1.11.0
+https://www.libssh2.org/download/libssh2-1.11.0.tar.gz
+https://www.linuxfromscratch.org/patches/blfs/12.2/libssh2-1.11.0-security_fixes-1.patch
+# 09.70 libuv-1.48.0
+https://dist.libuv.org/dist/v1.48.0/libuv-v1.48.0.tar.gz
+# 09.72 libxml2-2.13.3
+https://download.gnome.org/sources/libxml2/2.13/libxml2-2.13.3.tar.xz
+https://www.linuxfromscratch.org/patches/blfs/12.2/libxml2-2.13.3-upstream_fix-2.patch
+https://www.w3.org/XML/Test/xmlts20130923.tar.gz
+# 09.74 libxslt-1.1.42
+https://download.gnome.org/sources/libxslt/1.1/libxslt-1.1.42.tar.xz
+# 09.83 PCRE2-10.44
+https://github.com/PCRE2Project/pcre2/releases/download/pcre2-10.44/pcre2-10.44.tar.bz2
+
+# 11.21 unixODBC-2.3.12
+https://github.com/lurcher/unixODBC/releases/download/2.3.12/unixODBC-2.3.12.tar.gz
+
+# 12.36 UnZip-6.0
+https://downloads.sourceforge.net/infozip/unzip60.tar.gz
+https://www.linuxfromscratch.org/patches/blfs/12.2/unzip-6.0-consolidated_fixes-1.patch
+https://www.linuxfromscratch.org/patches/blfs/12.2/unzip-6.0-gcc14-1.patch
+# 12.41 Zip-3.0
+https://downloads.sourceforge.net/infozip/zip30.tar.gz
+
+# 13.03 CMake-3.30.2
+https://cmake.org/files/v3.30/cmake-3.30.2.tar.gz
+# 13.09 Git-2.46.0
+https://www.kernel.org/pub/software/scm/git/git-2.46.0.tar.xz
+https://www.kernel.org/pub/software/scm/git/git-manpages-2.46.0.tar.xz
+https://www.kernel.org/pub/software/scm/git/git-htmldocs-2.46.0.tar.xz
+
+# 13.23    Python Modules
+# 13.23.12 lxml-5.3.1 (updated)
+https://files.pythonhosted.org/packages/source/l/lxml/lxml-5.3.1.tar.gz
+# 13.23.13 Mako-1.3.5
+https://files.pythonhosted.org/packages/source/M/Mako/Mako-1.3.5.tar.gz
+# 13.23.15 Packaging-24.1
+https://files.pythonhosted.org/packages/source/p/packaging/packaging-24.1.tar.gz
+# 13.23.26 Pytest-8.3.2
+https://files.pythonhosted.org/packages/source/p/pytest/pytest-8.3.2.tar.gz
+
+# 13.24    Python Dependencies
+# 13.24.08 Editables-0.5
+https://files.pythonhosted.org/packages/source/e/editables/editables-0.5.tar.gz
+# 13.24.09 Hatchling-1.25.0
+https://files.pythonhosted.org/packages/source/h/hatchling/hatchling-1.25.0.tar.gz
+# 13.24.11 Hatch_vcs-0.4.0
+https://files.pythonhosted.org/packages/source/h/hatch-vcs/hatch_vcs-0.4.0.tar.gz
+# 13.24.14 Iniconfig-2.0.0
+https://files.pythonhosted.org/packages/source/i/iniconfig/iniconfig-2.0.0.tar.gz
+# 13.24.18 Pathspec-0.12.1
+https://files.pythonhosted.org/packages/source/p/pathspec/pathspec-0.12.1.tar.gz
+# 13.24.19 Pluggy-1.5.0
+https://files.pythonhosted.org/packages/source/p/pluggy/pluggy-1.5.0.tar.gz
+# 13.24.22 Setuptools_scm-8.1.0
+https://files.pythonhosted.org/packages/source/s/setuptools_scm/setuptools_scm-8.1.0.tar.gz
+# 13.24.32 Trove-Classifiers-2024.7.2
+https://files.pythonhosted.org/packages/source/t/trove_classifiers/trove_classifiers-2024.7.2.tar.gz
+
+# 17.02 cURL-8.11.1
+https://curl.se/download/curl-8.11.1.tar.xz
+# 17.07 libevent-2.1.12
+https://github.com/libevent/libevent/releases/download/release-2.1.12-stable/libevent-2.1.12-stable.tar.gz
+# 17.20 nghttp2-1.62.1
+https://github.com/nghttp2/nghttp2/releases/download/v1.62.1/nghttp2-1.62.1.tar.xz
+
+# 22.05 SQLite-3.46.1
+https://sqlite.org/2024/sqlite-autoconf-3460100.tar.gz
+
+# 49.01 docbook-xml-4.5
+https://www.docbook.org/xml/4.5/docbook-xml-4.5.zip
+# 49.04 docbook-xsl-nons-1.79.2
+https://github.com/docbook/xslt10-stylesheets/releases/download/release/1.79.2/docbook-xsl-nons-1.79.2.tar.bz2
+https://www.linuxfromscratch.org/patches/blfs/12.2/docbook-xsl-nons-1.79.2-stack_fix-1.patch
+https://github.com/docbook/xslt10-stylesheets/releases/download/release/1.79.2/docbook-xsl-doc-1.79.2.tar.bz2
+# 49.06 xmlto-0.0.29
+https://pagure.io/xmlto/archive/0.0.29/xmlto-0.0.29.tar.gz
