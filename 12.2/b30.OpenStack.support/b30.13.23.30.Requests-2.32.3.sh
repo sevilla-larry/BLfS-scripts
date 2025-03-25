@@ -22,14 +22,14 @@
 #
 # Required by:
 #
-#               i015.9.04 keystoneauth1-5.8.0
-#               i030.9.03 osc-lib-3.1.0
-#               i025.9.03.oslo.config-9.6.0
-#               i030.9.11 python-keystoneclient-5.5.0
-#               i030.9.12 python-cinderclient-9.6.0
-#               i030.9.13 python-glanceclient-4.7.0
-#               i030.9.14 python-barbicanclient-7.0.0
-#               i030.9.15 python-neutronclient-11.3.1
+#               i020.9.04 keystoneauth1-5.8.0
+#               i040.9.03 osc-lib-3.1.0
+#               i030.9.03.oslo.config-9.6.0
+#               i040.9.11 python-keystoneclient-5.5.0
+#               i040.9.12 python-cinderclient-9.6.0
+#               i040.9.13 python-glanceclient-4.7.0
+#               i040.9.14 python-barbicanclient-7.0.0
+#               i040.9.15 python-neutronclient-11.3.1
 #               i050.9.1  python-openstackclient-7.1.3
 #
 
