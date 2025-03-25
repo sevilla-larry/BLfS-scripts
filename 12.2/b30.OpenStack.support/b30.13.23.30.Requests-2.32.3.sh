@@ -37,6 +37,8 @@
 #               i090.9.03 osprofiler-4.2.0
 #               i090.9.06 glance_store-4.8.1
 #               i090.9.11 os_brick-6.9.1
+#               i095.9.14 pysaml2-7.5.0
+#               i095.9.26 websockify-0.12.0
 #
 
 export PKG="requests-2.32.3"

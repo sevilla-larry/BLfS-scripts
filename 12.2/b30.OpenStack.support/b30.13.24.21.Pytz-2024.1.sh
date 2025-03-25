@@ -10,8 +10,10 @@
 #
 # Required by:
 #
-#               i0??.9.08 Flask-RESTful-0.3.10
 #               i090.9.01 pycadf-3.1.1
+#               i095.9.07 Flask-RESTful-0.3.10
+#               i095.9.14 pysaml2-7.5.0
+#               i095.9.19 WSME-0.12.1
 #
 
 export PKG="pytz-2024.1"

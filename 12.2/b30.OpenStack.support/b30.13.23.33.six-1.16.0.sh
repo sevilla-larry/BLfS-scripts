@@ -6,6 +6,8 @@
 #
 #               i010.9.27 python-dateutil-2.9.0.post0
 #               i090.9.01 pycadf-3.1.1
+#               i095.9.07 Flask-RESTful-0.3.10
+#               i095.9.20 retrying-1.3.4
 #
 
 export PKG="six-1.16.0"
