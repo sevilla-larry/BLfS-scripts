@@ -1,4 +1,4 @@
-# g11.03.3.py.3.11.sh
+# b30.03.3.py.3.11.sh
 #
 # Recompile Python after SQLite
 # called from OpenStack

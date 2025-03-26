@@ -14,6 +14,9 @@ https://www.lua.org/ftp/lua-5.4.7.tar.gz
 https://www.lua.org/tests/lua-5.4.7-tests.tar.gz
 https://www.linuxfromscratch.org/patches/blfs/12.2/lua-5.4.7-shared_library-1.patch
 
+# 13.21 Python-3.11.10
+https://www.python.org/ftp/python/3.11.10/Python-3.11.10.tar.xz
+https://www.python.org/ftp/python/doc/3.11.10/python-3.11.10-docs-html.tar.bz2
 # 13.23    Python Modules
 # 13.23.04 Cython-3.0.11
 https://github.com/cython/cython/releases/download/3.0.11-1/cython-3.0.11.tar.gz
