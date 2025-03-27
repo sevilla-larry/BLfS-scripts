@@ -1,30 +1,30 @@
-# 04.16 Nettle-3.10
-c61453139d5fb44e9cdcc5b684b26e55 nettle-3.10.tar.gz
+# 04.16 Nettle-3.10.1
+c3dc1729cfa65fcabe2023dfbff60beb nettle-3.10.1.tar.gz
 
-# 09.07 boost-1.86.0
-7ad40a9d9d1db59ee2ed62e8fa7134ed boost-1.86.0-b2-nodocs.tar.xz
+# 09.07 boost-1.87.0
+c2ffeab30889999f55cf72e1107611aa boost-1.87.0-b2-nodocs.tar.xz
 # boost-1.86.0-upstream_fixes-1.patch
-# 09.24 icu-75.1
-a83c1499e508f73ddbc60002f84ea42a icu4c-75_1-src.tgz
+# 09.24 icu-76.1
+857fdafff8127139cc175a3ec9b43bd6 icu4c-76_1-src.tgz
 # 09.32 libarchive-3.7.7 (errata)
 50c4dea9eba9a0add25ac1cfc9ba2cdb libarchive-3.7.7.tar.xz
 # 09.42 libgcrypt-1.11.0
 321c4975cfd6a496f0530b65a673f9a4 libgcrypt-1.11.0.tar.bz2
-# 09.43 libgpg-error-1.50
-80e905ce798553c766e3384467dc55ea libgpg-error-1.50.tar.bz2
-# 09.63 libssh2-1.11.0
-a01d543fd891ca48fe47726540d50b17 libssh2-1.11.0.tar.gz
+# 09.43 libgpg-error-1.51
+74b73ea044685ce9fd6043a8cc885eac libgpg-error-1.51.tar.bz2
+# 09.63 libssh2-1.11.1
+38857d10b5c5deb198d6989dacace2e6 libssh2-1.11.1.tar.gz
 #libssh2-1.11.0-security_fixes-1.patch
-# 09.70 libuv-1.48.0
-a808517c32ebd07c561bf21a4e30aeab libuv-v1.48.0.tar.gz
-# 09.72 libxml2-2.13.3
-aeb92dc58cea91c95a10751327193a11 libxml2-2.13.3.tar.xz
-#libxml2-2.13.3-upstream_fix-2.patch
+# 09.70 libuv-1.50.0
+d346e03fe1ca89d877f9d1431ef97cec libuv-v1.50.0.tar.gz
+# 09.72 libxml2-2.13.6
+85dffa2387ff756bdf8b3b247594914a libxml2-2.13.6.tar.xz
+#libxml2-2.13.6-upstream_fix-2.patch
 #xmlts20130923.tar.gz
 # 09.74 libxslt-1.1.42
 56bc5d89aa39d62002961c150fec08a0 libxslt-1.1.42.tar.xz
-# 09.83 PCRE2-10.44
-9d1fe11e2e919c7b395e3e8f0a5c3eec pcre2-10.44.tar.bz2
+# 09.83 PCRE2-10.45
+f71abbe1b5adf25cd9af5d26ef223b66 pcre2-10.45.tar.bz2
 
 # 11.21 unixODBC-2.3.12
 d62167d85bcb459c200c0e4b5a63ee48 unixODBC-2.3.12.tar.gz
@@ -36,28 +36,28 @@ d62167d85bcb459c200c0e4b5a63ee48 unixODBC-2.3.12.tar.gz
 # 12.41 Zip-3.0
 7b74551e63f8ee6aab6fbc86676c0d37 zip30.tar.gz
 
-# 13.03 CMake-3.30.2
-506cada2fe0c12dc6b3f282b8f72d325 cmake-3.30.2.tar.gz
-# 13.09 Git-2.46.0
-2309cd803a02378380f24c50667d9bfb git-2.46.0.tar.xz
+# 13.03 CMake-3.31.5
+ea5e8d7208616b1609018db290a67419 cmake-3.31.5.tar.gz
+# 13.09 Git-2.48.1
+99656f1481e70701198257ada703a480 git-2.48.1.tar.xz
 # manpages
 # htmldocs
 
 # 13.23    Python Modules
 # 13.23.12 lxml-5.3.1 (updated)
 9d94cc157fb6db0c062ef80cdc0ed307 lxml-5.3.1.tar.gz
-# 13.23.13 Mako-1.3.5
-0cf9ef37c1f8ffd453ef2b2a3a5573b3 Mako-1.3.5.tar.gz
-# 13.23.15 Packaging-24.1
-99b97d1f30017a62a2aae777a14782d0 packaging-24.1.tar.gz
-# 13.23.26 Pytest-8.3.2
-9e6443870618f16cad55527b8302d134 pytest-8.3.2.tar.gz
+# 13.23.13 Mako-1.3.9
+28b1b70e01a1240c90e97fab2f17e349 Mako-1.3.9.tar.gz
+# 13.23.15 Packaging-24.2
+97dbaca91e00d6b9fd86866e8c7897ae packaging-24.2.tar.gz
+# 13.23.26 Pytest-8.3.4
+542c4e802eeac1d196482e90a36533ed pytest-8.3.4.tar.gz
 
 # 13.24    Python Dependencies
 # 13.24.08 Editables-0.5
 520de8c3a9dc5dfb2b365d104541c9de editables-0.5.tar.gz
-# 13.24.09 Hatchling-1.25.0
-ac265366ccd17365db319dc95a9e5bc5 hatchling-1.25.0.tar.gz
+# 13.24.09 Hatchling-1.27.0
+6ffb3087c9b6a9ffbfc1bb394f7ed1a8 hatchling-1.27.0.tar.gz
 # 13.24.11 Hatch_vcs-0.4.0
 d801fe7c3e5955307748f2790bbb3488 hatch_vcs-0.4.0.tar.gz
 # 13.24.14 Iniconfig-2.0.0
@@ -68,18 +68,18 @@ d801fe7c3e5955307748f2790bbb3488 hatch_vcs-0.4.0.tar.gz
 ac0870be78ba0ee227a5c3955efeba59 pluggy-1.5.0.tar.gz
 # 13.24.22 Setuptools_scm-8.1.0
 d8046dce093a94dc382b68b45f6a6257 setuptools_scm-8.1.0.tar.gz
-# 13.24.32 Trove-Classifiers-2024.7.2
-ee42acfdbe6fee98be4bcbe0fdaa937c trove_classifiers-2024.7.2.tar.gz
+# 13.24.32 Trove-Classifiers-2025.1.15.22
+3656424a10a761108fa8250033ffe3d4 trove_classifiers-2025.1.15.22.tar.gz
 
-# 17.02 cURL-8.11.1
-25e65a5156ca4928060b61cb051813db curl-8.11.1.tar.xz
+# 17.02 cURL-8.12.1
+7940975dd510399c4b27831165ab62e0 curl-8.12.1.tar.xz
 # 17.07 libevent-2.1.12
 b5333f021f880fe76490d8a799cd79f4 libevent-2.1.12-stable.tar.gz
-# 17.20 nghttp2-1.62.1
-965f9a9e0f0eef12d8976fb33e9312ef nghttp2-1.62.1.tar.xz
+# 17.20 nghttp2-1.64.0
+0cf8f819f4b717de7dde9f8164d0b466 nghttp2-1.64.0.tar.xz
 
-# 22.05 SQLite-3.46.1
-bde7df8c2a4bce82dbf42f7e4dda0e21 sqlite-autoconf-3460100.tar.gz
+# 22.05 SQLite-3.49.1
+8d77d0779bcd9993eaef33431e2e0c30 sqlite-autoconf-3490100.tar.gz
 
 # 49.01 docbook-xml-4.5
 03083e288e87a7e829e437358da7ef9e docbook-xml-4.5.zip
