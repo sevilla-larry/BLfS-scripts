@@ -57,11 +57,18 @@ echo "4. Ninja Install ..." >> $PKGLOG_ERROR
 ninja install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 
+<<<<<<< HEAD
 cd $SOURCES
 rm -rf $PKG
 unset SOURCES
 rm -rf SPIRV-Headers-vulkan-sdk-1.4.304.1
 #rm -rf $PKG
+=======
+cd ..
+cd $SOURCES
+rm -rf $PKG
+unset SOURCES
+>>>>>>> origin/lanie3
 unset LFSLOG_PROCESS
 #unset PKGLOG_OTHERS
 unset PKGLOG_INSTALL PKGLOG_BUILD PKGLOG_CONFIG

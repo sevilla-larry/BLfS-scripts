@@ -1,34 +1,26 @@
-# d10.10.12.HarfBuzz-10.4.0.sh
+# d20.25.34.Libdrm-2.4.124.sh
 #
 
 #
 # Dependencies Recommended:
 #
-#               d10.09.17 GLib-2.80.4
-#               b10.09.24 icu-75.1
-#               d10.10.04 FreeType-2.13.3
+#               d20.24.08 Xorg Libraries
 #
-#               ??? 10.10 Graphite2-1.3.14  currently Disabled ??? for LibreOffice
+# Optional:
+#
+#               b11.13.03 CMake-3.30.2
+#               d10.09.74 libxslt-1.1.42
 #
 
 #
 # Required by:
 #
-#               e21.25.38 Pango-1.54.0
-#
-# Recommended by:
-#
-#               d10.10.04 FreeType-2.13.3
-#               e12.25.42 Qt-6.7.2
-#               g12.39.03 LibreOffice-24.8.0
-#
-# Note on Cairo
-#
-# Read: https://linuxfromscratch.org/blfs/view/12.2/general/harfbuzz.html
+#               d20.24.16 Mesa-24.1.5
+#               d10.42.41 libva-2.22.0
 #
 
-export PKG="harfbuzz-10.4.0"
-export PKGLOG_DIR=$LFSLOG/10.12
+export PKG="libdrm-2.4.124"
+export PKGLOG_DIR=$LFSLOG/25.34
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
@@ -54,11 +46,12 @@ cd    build
 echo "2. Meson Setup ..."
 echo "2. Meson Setup ..." >> $LFSLOG_PROCESS
 echo "2. Meson Setup ..." >> $PKGLOG_ERROR
-meson setup ..                      \
-            --prefix=/usr           \
-            --buildtype=release     \
-            -D graphite2=disabled   \
-        > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+meson setup     --prefix=$XORG_PREFIX   \
+                --buildtype=release     \
+                -D udev=true            \
+                -D valgrind=disabled    \
+                ..                      \
+                > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Ninja Build ..."
 echo "3. Ninja Build ..." >> $LFSLOG_PROCESS
@@ -76,10 +69,6 @@ echo "5. Ninja Install ..." >> $PKGLOG_ERROR
 ninja install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 
-<<<<<<< HEAD
-=======
-cd ..
->>>>>>> origin/lanie3
 cd $SOURCES
 rm -rf $PKG
 unset SOURCES

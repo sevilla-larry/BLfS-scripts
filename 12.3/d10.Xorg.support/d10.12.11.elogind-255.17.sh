@@ -108,6 +108,10 @@ ln -sfvn elogind /usr/include/systemd                   \
         >> $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 
+<<<<<<< HEAD
+=======
+cd ..
+>>>>>>> origin/lanie3
 cd $SOURCES
 rm -rf $PKG
 unset SOURCES
