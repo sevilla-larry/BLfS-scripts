@@ -1,0 +1,61 @@
+# 24.02 ---> .07
+https://www.x.org/pub/individual/util/util-macros-1.20.2.tar.xz
+https://xorg.freedesktop.org/archive/individual/proto/xorgproto-2024.1.tar.xz
+https://www.x.org/pub/individual/lib/libXau-1.0.12.tar.xz
+https://www.x.org/pub/individual/lib/libXdmcp-1.1.5.tar.xz
+https://xorg.freedesktop.org/archive/individual/proto/xcb-proto-1.17.0.tar.xz
+https://xorg.freedesktop.org/archive/individual/lib/libxcb-1.17.0.tar.xz
+# 24.08 Xorg Libraries
+# 24.09 ---> .16
+https://www.x.org/pub/individual/lib/libxcvt-0.1.3.tar.xz
+https://xcb.freedesktop.org/dist/xcb-util-0.4.1.tar.xz
+https://xcb.freedesktop.org/dist/xcb-util-image-0.4.1.tar.xz
+https://xcb.freedesktop.org/dist/xcb-util-keysyms-0.4.1.tar.xz
+https://xcb.freedesktop.org/dist/xcb-util-renderutil-0.3.10.tar.xz
+https://xcb.freedesktop.org/dist/xcb-util-wm-0.4.2.tar.xz
+https://xcb.freedesktop.org/dist/xcb-util-cursor-0.1.4.tar.xz
+https://mesa.freedesktop.org/archive/mesa-24.3.4.tar.xz
+https://www.linuxfromscratch.org/patches/blfs/12.3/mesa-add_xdemos-4.patch
+https://www.x.org/pub/individual/data/xbitmaps-1.1.3.tar.xz
+# 24.18 Xorg Applications
+# 24.19 ---> .20
+https://invisible-mirror.net/archives/luit/luit-20240910.tgz
+https://www.x.org/pub/individual/data/xcursor-themes-1.0.7.tar.xz
+# 24.21 Xorg Fonts
+# 24.22 
+https://www.x.org/pub/individual/data/xkeyboard-config/xkeyboard-config-2.44.tar.xz
+# 24.23 Xwayland-24.1.6 (errata)
+https://www.x.org/pub/individual/xserver/xwayland-24.1.6.tar.xz
+# 24.24 Xorg-Server-21.1.16 (errata)
+https://www.x.org/pub/individual/xserver/xorg-server-21.1.16.tar.xz
+### No TearFree will be installed
+###https://www.linuxfromscratch.org/patches/blfs/12.3/xorg-server-21.1.16-tearfree_backport-1.patch
+# 24.25.1 .1 ---> 4 Xorg Input Drivers
+https://www.freedesktop.org/software/libevdev/libevdev-1.13.3.tar.xz
+https://www.x.org/pub/individual/driver/xf86-input-evdev-2.11.0.tar.xz
+https://gitlab.freedesktop.org/libinput/libinput/-/archive/1.27.1/libinput-1.27.1.tar.gz
+https://www.x.org/pub/individual/driver/xf86-input-libinput-1.5.0.tar.xz
+# 24.26 ---> .29
+https://www.x.org/pub/individual/app/twm-1.0.12.tar.xz
+https://invisible-mirror.net/archives/xterm/xterm-397.tgz
+https://www.x.org/pub/individual/app/xclock-1.1.1.tar.xz
+https://www.x.org/pub/individual/app/xinit-1.4.3.tar.xz
+
+# 24.32.4 DejaVu fonts
+https://nchc.dl.sourceforge.net/project/dejavu/dejavu/2.37/dejavu-fonts-ttf-2.37.tar.bz2
+# 24.32.9 Noto fonts - try 1st DejaVu
+# https://github.com/notofonts/noto-fonts/archive/refs/tags/v20201206-phase3.tar.gz
+
+# 25.34 Libdrm-2.4.124
+https://dri.freedesktop.org/libdrm/libdrm-2.4.124.tar.xz
+# 25.35 libepoxy-1.5.10
+https://download.gnome.org/sources/libepoxy/1.5/libepoxy-1.5.10.tar.xz
+
+# 42.22 intel-vaapi-driver-2.4.1.sh / CPU/iGPU i7-4790
+https://github.com/intel/intel-vaapi-driver/releases/download/2.4.1/intel-vaapi-driver-2.4.1.tar.bz2
+# 42.41 libva-2.22.0
+https://github.com/intel/libva/archive/2.22.0/libva-2.22.0.tar.gz
+# 42.42 libvdpau-1.5
+https://gitlab.freedesktop.org/vdpau/libvdpau/-/archive/1.5/libvdpau-1.5.tar.bz2
+# 42.43 libvdpau-va-gl-0.4.2
+https://github.com/i-rinat/libvdpau-va-gl/archive/v0.4.2/libvdpau-va-gl-0.4.2.tar.gz
