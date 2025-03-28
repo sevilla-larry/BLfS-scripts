@@ -1,54 +1,54 @@
-# 04.20 Polkit-125
-8e9f2377fc7b4010bd29b97d2e288b4f polkit-125.tar.gz
+# 04.20 Polkit-126
+db4ce0a42d5bf8002061f8e34ee9bdd0 polkit-126.tar.gz
 
 # 09.12 duktape-2.7.0
 b3200b02ab80125b694bae887d7c1ca6 duktape-2.7.0.tar.xz
-# 09.17 GLib-2.82.4
-713ce7fb3bfd18db69693cec17c79374 glib-2.82.4.tar.xz
+# 09.17 GLib-2.82.5
+87c7641e80b23a05b8ab506d52c970e3 glib-2.82.5.tar.xz
 50beb465bc81f33395b5e0e3bbe364ec gobject-introspection-1.82.0.tar.xz
 #patch
 # 09.79 mtdev-1.1.7
 483ed7fdf7c1e7b7375c05a62848cce7 mtdev-1.1.7.tar.bz2
 
 # 09.90 & 91 SPIRV
-e9da8c949d89084b8a0a6b128ca6a30d SPIRV-Headers-1.3.290.0.tar.gz
-4a3f873a07f33cffd70890e17a34fe8b SPIRV-Tools-1.3.290.0.tar.gz
+7421a1530b7a8187a17d0a80547fa44c SPIRV-Headers-1.4.304.1.tar.gz
+b7fe16af4e1954b5479f3c55ca3eea9b SPIRV-Tools-1.4.304.1.tar.gz
 
 # 09.97 Wayland-1.23.0
 23ad991e776ec8cf7e58b34cbd2efa75 wayland-1.23.0.tar.xz
-# 09.98 Wayland-Protocols-1.38 (svn)
-6bc5904062daada976e8bd44dd4d2b00 wayland-protocols-1.38.tar.xz
+# 09.98 Wayland-Protocols-1.40 (svn)
+5ec06b6ab9c451bb0edf8530c315ed10 wayland-protocols-1.40.tar.xz
 
 # 10.04 FreeType-2.13.3
 f3b4432c4212064c00500e1ad63fbc64 freetype-2.13.3.tar.xz
 6affe0d431939398cc3c7cdd58d824f8 freetype-doc-2.13.3.tar.xz
-# 10.05 Fontconfig-2.15.0
-5bb3a2829aecb22ae553c39099bd0d6a fontconfig-2.15.0.tar.xz
-# 10.12 harfBuzz-9.0.0
-0035c129cb1646ab1cff65e5ef7153db harfbuzz-9.0.0.tar.xz
-# 10.22 libpng-1.6.43
-22b8362d16c3724eba9c1fb8d187320a libpng-1.6.43.tar.xz
-fc21268c9c583c5d2e7ead8a9ec17240 libpng-1.6.43-apng.patch.gz
-# 10.32 Pixman-0.43.4
-21b18058dea39ad48f32d3199b8ffe40 pixman-0.43.4.tar.gz
+# 10.05 Fontconfig-2.16.0
+20d5466544aa62d18c94106faa169a09 fontconfig-2.16.0.tar.xz
+# 10.12 harfBuzz-10.4.0
+9ff3796c1b8ae03540e466168c6a5bd1 harfbuzz-10.4.0.tar.xz
+# 10.22 libpng-1.6.46
+2ba00adb5d5c76d512486559a3e77be7 libpng-1.6.46.tar.xz
+30b2da9a1e27235499806e415bc56840 libpng-1.6.46-apng.patch.gz
+# 10.32 Pixman-0.44.2
+0825cd6bfc488d5177f2f013a06ef240 pixman-0.44.2.tar.gz
 
-# 11.04 desktop-file-utils-0.27
-fdf9215aea91acb6aebc43f770537f2c desktop-file-utils-0.27.tar.xz
+# 11.04 desktop-file-utils-0.28
+dec5d7265c802db1fde3980356931b7b desktop-file-utils-0.28.tar.xz
 # 11.16 shared-mime-info-2.4
 aac56db912b7b12a04fb0018e28f2f36 shared-mime-info-2.4.tar.gz
 7dfb4446705d345d3acd672024049e86 xdgmime.tar.xz
 
-# 12.10 dbus-1.14.10
-46070a3487817ff690981f8cd2ba9376 dbus-1.14.10.tar.xz
-# 12.11 elogind-255.5
-8653d1959c25b649c398a932ce56b396 elogind-255.5.tar.gz
+# 12.10 dbus-1.16.0
+66bfcf1f42d4ebc634ca558d14335e92 dbus-1.16.0.tar.xz
+# 12.11 elogind-255.17
+3cd76e1a71e13c4810f6e80e176a8fa7 elogind-255.17.tar.gz
 
-# 13.12 LLVM-18.1.7
-ad39785449a878df1eed590339c3a8c4 llvm-18.1.7.src.tar.xz
-bf2ad617d47ce40fe77c0e5c26b1fe43 llvm-cmake-18.src.tar.xz
-5ebac19868c66cdac8b87077faefd38c llvm-third-party-18.src.tar.xz
-47e26237223d5ee0e6b674f028b56dae clang-18.1.7.src.tar.xz
-31753c0ec6271a37c12a17cf84187098 compiler-rt-18.1.7.src.tar.xz
+# 13.12 LLVM-19.1.7
+45229744809103ad151e3757a0f21d3d llvm-19.1.7.src.tar.xz
+52b5249a06305e19c3bdae2e972c99c3 llvm-cmake-19.1.7.src.tar.xz
+d950171ac5ea4a1a20cb8f6eb9f1c8eb llvm-third-party-19.1.7.src.tar.xz
+8a29181acd27b9c03b0039b75f5fcaa0 clang-19.1.7.src.tar.xz
+0286b00ef3057362eb0636d3298999b1 compiler-rt-19.1.7.src.tar.xz
 
 # 25.12 Glslang-14.3.0
 90eec8d14a8d1002389e00ab449c7ca8 glslang-14.3.0.tar.gz
