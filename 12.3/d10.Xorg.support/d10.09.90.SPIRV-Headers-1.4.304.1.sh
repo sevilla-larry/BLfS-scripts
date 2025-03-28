@@ -23,6 +23,7 @@ export PKGLOG_INSTALL=$PKGLOG_DIR/install.log
 #export PKGLOG_OTHERS=$PKGLOG_DIR/others.log
 export PKGLOG_ERROR=$PKGLOG_DIR/error.log
 export LFSLOG_PROCESS=$LFSLOG/process.log
+export SOURCES=`pwd`
 
 rm -r $PKGLOG_DIR 2> /dev/null
 mkdir $PKGLOG_DIR
@@ -56,8 +57,9 @@ echo "4. Ninja Install ..." >> $PKGLOG_ERROR
 ninja install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 
-cd ..
-cd ..
+cd $SOURCES
+rm -rf $PKG
+unset SOURCES
 rm -rf SPIRV-Headers-vulkan-sdk-1.4.304.1
 #rm -rf $PKG
 unset LFSLOG_PROCESS
