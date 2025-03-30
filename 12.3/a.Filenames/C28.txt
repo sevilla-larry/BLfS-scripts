@@ -1,0 +1,14 @@
+VI. Graphical Components
+
+28. Icons
+
+28.01 adwaita-icon-theme-47.0
+28.02 breeze-icons-6.11.0
+28.03 gnome-icon-theme-3.12.0
+28.04 gnome-icon-theme-extras-3.12.0
+28.05 gnome-icon-theme-symbolic-3.12.0
+28.06 gnome-themes-extra-3.28
+28.07 hicolor-icon-theme-0.18
+28.08 icon-naming-utils-0.8.90
+28.09 lxde-icon-theme-0.5.1
+28.10 oxygen-icons-6.0.0

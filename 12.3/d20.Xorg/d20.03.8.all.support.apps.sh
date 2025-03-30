@@ -1,4 +1,4 @@
-# d20.03.all.support.apps.2.sh
+# d20.03.all.support.apps.sh
 #
 # Support Applications
 #
@@ -41,34 +41,34 @@ bash b10.03.9.sh
 # elogind
 # duktape
 # mtdev
-bash d10.03.02.sh
+bash d10.03.01.sh
 
 ###
 
 # LLVM
-bash d10.03.03.sh
+bash d10.03.02.sh
 
 ###
 
 # GLib
-bash d10.03.04.sh
+bash d10.03.03.sh
 
 ###
 
 # Polkit
-bash d10.03.05.sh
+bash d10.03.04.sh
 
 ###
 
 # Graphics
-bash d10.03.06.sh
+bash d10.03.05.sh
 
 ###
 
 # Wayland support
-bash d10.03.07.sh
+bash d10.03.06.sh
 
 # Glslang, SPIRV
-bash d10.03.08.sh
+bash d10.03.07.sh
 
 #####

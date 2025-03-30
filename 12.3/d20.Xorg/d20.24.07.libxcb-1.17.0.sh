@@ -4,7 +4,7 @@
 #
 # Dependencies Required:
 #
-#               d20.24.04 libXau-1.0.11
+#               d20.24.04 libXau-1.0.12
 #               d20.24.06 xcb-proto-1.17.0
 #
 # Dependencies Recommended:
@@ -20,7 +20,7 @@
 # Required by:
 #
 #               d20.24.08 Xorg Libraries
-#               d20.24.xx xcb-util-*
+#               d20.24.11 XCB Utilities
 #
 
 export PKG="libxcb-1.17.0"

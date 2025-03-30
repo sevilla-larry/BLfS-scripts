@@ -14,10 +14,10 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
 #####
 
-echo "d20.24.02.util-macros-1.20.1"
-echo "d20.24.02.util-macros-1.20.1" >> $LFSLOG_PROCESS
+echo "d20.24.02.util-macros-1.20.2"
+echo "d20.24.02.util-macros-1.20.2" >> $LFSLOG_PROCESS
 
-time { bash d20.24.02.util-macros-1.20.1.sh ; }
+time { bash d20.24.02.util-macros-1.20.2.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
@@ -42,10 +42,10 @@ echo "."
 
 ###
 
-echo "d20.24.04.libXau-1.0.11"
-echo "d20.24.04.libXau-1.0.11" >> $LFSLOG_PROCESS
+echo "d20.24.04.libXau-1.0.12"
+echo "d20.24.04.libXau-1.0.12" >> $LFSLOG_PROCESS
 
-time { bash d20.24.04.libXau-1.0.11.sh ; }
+time { bash d20.24.04.libXau-1.0.12.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

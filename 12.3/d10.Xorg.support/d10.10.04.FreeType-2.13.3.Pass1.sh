@@ -75,7 +75,7 @@ rm -v /usr/share/doc/freetype-2.13.3/freetype-config.1  \
 
 
 cd $SOURCES
-rm -rf $PKG
+# rm -rf $PKG           remove on Pass 2
 unset SOURCES
 unset LFSLOG_PROCESS
 unset PKGLOG_OTHERS

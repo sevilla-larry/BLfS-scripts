@@ -76,10 +76,6 @@ echo "5. Ninja Install ..." >> $PKGLOG_ERROR
 ninja install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 
-<<<<<<< HEAD
-=======
-cd ..
->>>>>>> origin/lanie3
 cd $SOURCES
 rm -rf $PKG
 unset SOURCES

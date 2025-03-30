@@ -58,9 +58,10 @@ A. Preparation
 
         execute the download portions:
 
-        https://www.linuxfromscratch.org/blfs/view/12.2/x/x7lib.html
-        https://www.linuxfromscratch.org/blfs/view/12.2/x/x7app.html
-        https://www.linuxfromscratch.org/blfs/view/12.2/x/x7font.html
+        https://www.linuxfromscratch.org/blfs/view/12.3/x/x7lib.html
+        https://www.linuxfromscratch.org/blfs/view/12.3/x/xcb-utilities.html
+        https://www.linuxfromscratch.org/blfs/view/12.3/x/x7app.html
+        https://www.linuxfromscratch.org/blfs/view/12.3/x/x7font.html
 
         Errata/SVN Update:
 

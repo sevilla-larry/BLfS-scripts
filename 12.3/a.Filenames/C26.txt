@@ -1,0 +1,7 @@
+VI. Graphical Components
+
+26. Display Managers
+
+26.01 GDM-47.0
+26.02 lightdm-1.32.0
+26.03 sddm-0.21.0

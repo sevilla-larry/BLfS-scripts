@@ -1,0 +1,18 @@
+XI. X Software
+
+41. Other X-based Programs
+
+41.01 Balsa-2.6.4
+41.02 feh-3.10.3
+41.03 FontForge-20230101
+41.04 FreeRDP-3.12.0
+41.05 Gimp-3.0.0-RC3
+41.06 Gparted-1.7.0
+41.07 Inkscape-1.4
+41.08 rxvt-unicode-9.31
+41.09 Thunderbird-128.7.1esr
+41.10 Tigervnc-1.15.0
+41.11 Transmission-4.0.6
+41.12 xarchiver-0.5.4.23
+41.13 xdg-utils-1.2.1
+41.14 XScreenSaver-6.09

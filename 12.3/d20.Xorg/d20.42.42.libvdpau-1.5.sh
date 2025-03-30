@@ -10,7 +10,7 @@
 # Dependencies Recommended (Runtime):
 #
 #               d20.42.43 libvdpau-val-gl-0.4.2
-#               d20.24.16 Mesa-24.1.5
+#               d20.24.12 Mesa-24.1.5
 #
 
 #
@@ -20,7 +20,7 @@
 #
 # Recommended by:
 #
-#               d20.24.16 Mesa-24.1.5
+#               d20.24.12 Mesa-24.3.4
 #
 
 export PKG="libvdpau-1.5"

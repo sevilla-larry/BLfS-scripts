@@ -8,7 +8,7 @@
 #
 # Dependencies optional:
 #
-#               b10.09.72 libxml2-2.13.3 ( required to run the tests )
+#               b10.09.72 libxml2-2.13.6 ( required to run the tests )
 #
 
 #
@@ -56,8 +56,8 @@ echo "4. Make Install ..." >> $LFSLOG_PROCESS
 echo "4. Make Install ..." >> $PKGLOG_ERROR
 make install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
-rm -vf $XORG_PREFIX/lib/pkgconfig/xcb-proto.pc  \
-        >> $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
+# rm -vf $XORG_PREFIX/lib/pkgconfig/xcb-proto.pc  \
+#        >> $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 
 cd $SOURCES

@@ -24,10 +24,10 @@ echo "."
 
 ###
 
-echo "b10.17.07.libevent-2.1.12"
-echo "b10.17.07.libevent-2.1.12" >> $LFSLOG_PROCESS
+echo "b10.17.08.libevent-2.1.12"
+echo "b10.17.08.libevent-2.1.12" >> $LFSLOG_PROCESS
 
-time { bash b10.17.07.libevent-2.1.12.sh ; }
+time { bash b10.17.08.libevent-2.1.12.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
@@ -52,10 +52,10 @@ echo "."
 
 ###
 
-echo "b10.17.20.nghttp2-1.64.0"
-echo "b10.17.20.nghttp2-1.64.0" >> $LFSLOG_PROCESS
+echo "b10.17.21.nghttp2-1.64.0"
+echo "b10.17.21.nghttp2-1.64.0" >> $LFSLOG_PROCESS
 
-time { bash b10.17.20.nghttp2-1.64.0.sh ; }
+time { bash b10.17.21.nghttp2-1.64.0.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

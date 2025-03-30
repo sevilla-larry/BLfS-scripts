@@ -12,10 +12,11 @@ https://bitmath.org/code/mtdev/mtdev-1.1.7.tar.bz2
 
 # 09.90 & 91 SPIRV
 https://github.com/KhronosGroup/SPIRV-Headers/archive/vulkan-sdk-1.4.304.1/SPIRV-Headers-1.4.304.1.tar.gz
+https://github.com/KhronosGroup/SPIRV-Tools/archive/vulkan-sdk-1.4.304.1/SPIRV-Tools-vulkan-sdk-1.4.304.1.tar.gz
 
 # 09.97 Wayland-1.23.0
 https://gitlab.freedesktop.org/wayland/wayland/-/releases/1.23.0/downloads/wayland-1.23.0.tar.xz
-# 09.98 Wayland-Protocols-1.40 (svn)
+# 09.98 Wayland-Protocols-1.40
 https://gitlab.freedesktop.org/wayland/wayland-protocols/-/releases/1.40/downloads/wayland-protocols-1.40.tar.xz
 
 # 10.04 FreeType-2.13.3
@@ -23,7 +24,7 @@ https://downloads.sourceforge.net/freetype/freetype-2.13.3.tar.xz
 https://downloads.sourceforge.net/freetype/freetype-doc-2.13.3.tar.xz
 # 10.05 Fontconfig-2.16.0
 https://www.freedesktop.org/software/fontconfig/release/fontconfig-2.16.0.tar.xz
-# 10.12 harfBuzz-10.4.0
+# 10.12 HarfBuzz-10.4.0
 https://github.com/harfbuzz/harfbuzz/releases/download/10.4.0/harfbuzz-10.4.0.tar.xz
 # 10.22 libpng-1.6.46
 https://downloads.sourceforge.net/libpng/libpng-1.6.46.tar.xz
@@ -37,17 +38,17 @@ https://www.freedesktop.org/software/desktop-file-utils/releases/desktop-file-ut
 https://gitlab.freedesktop.org/xdg/shared-mime-info/-/archive/2.4/shared-mime-info-2.4.tar.gz
 https://anduin.linuxfromscratch.org/BLFS/xdgmime/xdgmime.tar.xz
 
-# 12.10 dbus-1.14.10
-https://dbus.freedesktop.org/releases/dbus/dbus-1.14.10.tar.xz
-# 12.11 elogind-255.17
+# 12.11 dbus-1.16.0
+https://dbus.freedesktop.org/releases/dbus/dbus-1.16.0.tar.xz
+# 12.12 elogind-255.17
 https://github.com/elogind/elogind/archive/v255.17/elogind-255.17.tar.gz
 
-# 13.12 LLVM-19.1.7
+# 13.13 LLVM-19.1.7
 https://github.com/llvm/llvm-project/releases/download/llvmorg-19.1.7/llvm-19.1.7.src.tar.xz
 https://anduin.linuxfromscratch.org/BLFS/llvm/llvm-cmake-19.1.7.src.tar.xz
 https://anduin.linuxfromscratch.org/BLFS/llvm/llvm-third-party-19.1.7.src.tar.xz
 https://github.com/llvm/llvm-project/releases/download/llvmorg-19.1.7/clang-19.1.7.src.tar.xz
 https://github.com/llvm/llvm-project/releases/download/llvmorg-19.1.7/compiler-rt-19.1.7.src.tar.xz
 
-# 25.12 Glslang-14.3.0
-https://github.com/KhronosGroup/glslang/archive/14.3.0/glslang-14.3.0.tar.gz
+# 25.12 Glslang-15.1.0
+https://github.com/KhronosGroup/glslang/archive/15.1.0/glslang-15.1.0.tar.gz

@@ -4,10 +4,10 @@
 #
 # Dependencies Required:
 #
-#               b11.13.03 CMake-3.30.2
+#               b10.13.04 CMake-3.31.5
 #               d20.42.42 libvdpau-1.5
 #               d20.42.41 libva-2.22.0
-#               d20.24.16 Mesa-24.1.5
+#               d20.24.12 Mesa-24.3.4
 #
 
 #

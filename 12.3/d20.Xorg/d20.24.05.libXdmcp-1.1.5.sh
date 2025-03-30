@@ -8,7 +8,7 @@
 #
 # Optional:
 #
-#               d10.09.74 libxslt-1.1.42
+#               b10.09.74 libxslt-1.1.42
 #
 
 #
@@ -16,9 +16,9 @@
 #
 #               d20.24.07 libxcb-1.17.0
 #
-# Required ( hidden by )
+# Required by: ( hidden )
 #
-#               d20.24.24 Xorg-Server-21.1.13
+#               d20.24.20 Xorg-Server-21.1.16
 #
 
 export PKG="libXdmcp-1.1.5"

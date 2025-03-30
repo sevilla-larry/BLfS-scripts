@@ -4,33 +4,34 @@
 #
 # Dependencies Required:
 #
-#               d10.10.05 Fontconfig-2.15.0
+#               d10.10.05 Fontconfig-2.16.0
 #               d20.24.07 libxcb-1.17.0
 #
 
 #
 # Required by:
 #
-#               d20.24.16 Mesa-24.1.5
-#               d20.24.22 XKeyboardConfig-2.42
-#               d20.24.28 xclock-1.1.1
-#               d20.24.29 xinit-1.4.2
+#               d20.24.12 Mesa-24.1.5
+#               d20.24.18 XKeyboardConfig-2.44
+#               d20.24.24 xclock-1.1.1
+#               d20.24.25 xinit-1.4.3
 #               d20.42.42 libvdpau-1.5
-#               25.02 at-spi2-core-2.48.3           ???
-#               25.13 gdk-pixbuf-xlib-2.40.2        ???
+#               e11.25.03 at-spi2-core-2.54.1
+#               e10.25.10 gdk-pixbuf-xlib-2.42.12
 #
 # Recommended by:
 #
-#               d20.25.34 Libdrm-2.4.122
-#               d10.12.10 dbus-1.14.10 ( dbus-launch, runtime? )
-#               25.43 Pango-1.50.14                 ???
+#               d20.25.33 Libdrm-2.4.124
+#               d20.12.11 dbus-1.16.0.Pass2 ( dbus-launch )
+#               e10.25.37 Pango-1.56.1
 #
 
 #
-# based on: https://www.linuxfromscratch.org/blfs/view/12.2/x/x7lib.html
+# based on: https://www.linuxfromscratch.org/blfs/view/12.3/x/x7lib.html
 #
 
 export LFSLOG_PROCESS=$LFSLOG/process.log
+export SOURCES=`pwd`
 
 cd lib
 
@@ -52,7 +53,6 @@ do
   export PKGLOG_CHECK=$PKGLOG_DIR/check.log
   export PKGLOG_INSTALL=$PKGLOG_DIR/install.log
   export PKGLOG_ERROR=$PKGLOG_DIR/error.log
-  export SOURCES=`pwd`
 
   rm    -r $PKGLOG_DIR 2> /dev/null
   mkdir -p $PKGLOG_DIR

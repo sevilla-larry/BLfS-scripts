@@ -128,10 +128,11 @@ echo "."
 
 ###
 
-echo "b10.13.09.Git-2.48.1"
-echo "b10.13.09.Git-2.48.1" >> $LFSLOG_PROCESS
+echo "b10.13.10.Git-2.48.1"
+echo "b10.13.10.Git-2.48.1" >> $LFSLOG_PROCESS
 
-time { bash b10.13.09.Git-2.48.1.sh ; }
+time { bash b10.13.10.Git-2.48.1.sh ; }
+time { bash b10.13.10.Git-2.48.1.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
@@ -142,10 +143,10 @@ echo "."
 
 ###
 
-echo "b10.13.03.CMake-3.31.5"
-echo "b10.13.03.CMake-3.31.5" >> $LFSLOG_PROCESS
+echo "b10.13.04.CMake-3.31.5"
+echo "b10.13.04.CMake-3.31.5" >> $LFSLOG_PROCESS
 
-time { bash b10.13.03.CMake-3.31.5.sh ; }
+time { bash b10.13.04.CMake-3.31.5.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

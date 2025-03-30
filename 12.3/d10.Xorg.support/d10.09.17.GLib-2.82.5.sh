@@ -165,10 +165,6 @@ ninja install >> $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 # Test Suite NOT executed
 
 
-<<<<<<< HEAD
-=======
-cd ..
->>>>>>> origin/lanie3
 cd $SOURCES
 rm -rf $PKG
 unset SOURCES

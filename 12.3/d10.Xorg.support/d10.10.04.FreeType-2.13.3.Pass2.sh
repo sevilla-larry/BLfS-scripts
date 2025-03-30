@@ -1,4 +1,4 @@
-# d10.10.04.FreeType-2.13.3.sh
+# d10.10.04.FreeType-2.13.3.Pass2.sh
 #
 
 #

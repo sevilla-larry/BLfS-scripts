@@ -8,13 +8,13 @@
 #
 # Optional:
 #
-#               d10.09.74 libxslt-1.1.42
+#               b10.09.74 libxslt-1.1.42
 #
 
 #
 # Required by:
 #
-#               d20.24.04 libXau-1.0.11
+#               d20.24.04 libXau-1.0.12
 #               d20.24.05 libXdmcp-1.1.5
 #
 

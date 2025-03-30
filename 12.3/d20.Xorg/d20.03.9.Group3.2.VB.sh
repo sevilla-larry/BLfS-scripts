@@ -4,7 +4,7 @@
 #
 # Computer Type 2 - VB - VirtualBox
 #
-# Part 07:	16 for VB
+# Part 08:	12.Mesa for VB
 #
 
-bash d20.03.1.Part07.16.2.VB.sh
+bash d20.03.1.Part08.12.2.VB.sh

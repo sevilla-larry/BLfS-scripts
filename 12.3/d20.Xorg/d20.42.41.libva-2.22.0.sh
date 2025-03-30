@@ -5,17 +5,17 @@
 # Dependencies Required:
 #
 #               d20.24.01 Xorg build environment
-#               d20.25.38 Libdrm-2.4.122
+#               d20.25.33 Libdrm-2.4.124
 #
 #
 # Dependencies Recommended:
 #
-#               d20.24.16 Mesa-24.1.5   (Pass #2)
+#               d20.24.12 Mesa-24.3.4   (Pass #2)
 #
 #
 # Dependencies Runtime:
 #
-#               d20.42.22 intel-vaapi-driver-2.4.1
+#               d20.42.21 intel-vaapi-driver-2.4.1
 #
 # Dependencies Optional:
 #
@@ -25,14 +25,14 @@
 #
 # Required by:
 #
-#               d20.42.22 intel-vaapi-driver-2.4.1
+#               d20.42.21 intel-vaapi-driver-2.4.1
 #               d20.42.43 libvdpau-va-gl-0.4.2
 #
 # Recommended by:
 #
-#               d20.24.16 Mesa-24.1.5   (Pass #1)
+#               d20.24.12 Mesa-24.3.4   (Pass #1)
 #
-# read: https://www.linuxfromscratch.org/blfs/view/12.2/multimedia/libva.html
+# read: https://www.linuxfromscratch.org/blfs/view/12.3/multimedia/libva.html
 #
 
 export PKG="libva-2.22.0"
@@ -57,7 +57,6 @@ tar xvf $PKG.tar.gz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
 
 
-# mkdir build
 cd    build
 
 echo "2. Meson Setup ..."

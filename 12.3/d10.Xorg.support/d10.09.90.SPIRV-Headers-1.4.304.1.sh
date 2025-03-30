@@ -4,16 +4,16 @@
 #
 # Dependencies Required:
 #
-#               b11.13.03 CMake-3.30.2
+#               b10.13.04 CMake-3.31.5
 #
 
 #
 # Required by:
 #
-#               d10.09.91 SPIRV-Tools-1.3.290.0
+#               d10.09.91 SPIRV-Tools-1.4.304.1
 #
 
-export PKG="SPIRV-Headers-1.4.304.1"
+export PKG="SPIRV-Headers-vulkan-sdk-1.4.304.1"
 export PKGLOG_DIR=$LFSLOG/09.90
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
@@ -32,8 +32,7 @@ echo "1. Extract tar..."
 echo "1. Extract tar..." >> $LFSLOG_PROCESS
 echo "1. Extract tar..." >> $PKGLOG_ERROR
 tar xvf $PKG.tar.gz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
-#cd $PKG
-cd SPIRV-Headers-vulkan-sdk-1.4.304.1
+cd $PKG
 
 mkdir build
 cd    build
@@ -57,18 +56,9 @@ echo "4. Ninja Install ..." >> $PKGLOG_ERROR
 ninja install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 
-<<<<<<< HEAD
 cd $SOURCES
 rm -rf $PKG
 unset SOURCES
-rm -rf SPIRV-Headers-vulkan-sdk-1.4.304.1
-#rm -rf $PKG
-=======
-cd ..
-cd $SOURCES
-rm -rf $PKG
-unset SOURCES
->>>>>>> origin/lanie3
 unset LFSLOG_PROCESS
 #unset PKGLOG_OTHERS
 unset PKGLOG_INSTALL PKGLOG_BUILD PKGLOG_CONFIG

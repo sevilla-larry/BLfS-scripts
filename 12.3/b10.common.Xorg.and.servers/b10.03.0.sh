@@ -20,26 +20,26 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 # echo "."
 # echo "."
 
-# ###
+###
 
-# echo "b10.12.41.Zip-3.0"
-# echo "b10.12.41.Zip-3.0" >> $LFSLOG_PROCESS
+echo "b10.12.41.Zip-3.0"
+echo "b10.12.41.Zip-3.0" >> $LFSLOG_PROCESS
 
-# time { bash b10.12.41.Zip-3.0.sh ; }
+time { bash b10.12.41.Zip-3.0.sh ; }
 
-# date +"%Y/%b/%d %H:%M"
-# date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
-# echo "." >> $LFSLOG_PROCESS
-# echo "."
-# echo "."
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
 
 ###
 
-echo "b10.09.24.icu-76.1"
-echo "b10.09.24.icu-76.1" >> $LFSLOG_PROCESS
+echo "b10.09.25.icu-76.1"
+echo "b10.09.25.icu-76.1" >> $LFSLOG_PROCESS
 
-time { bash b10.09.24.icu-76.1.sh ; }
+time { bash b10.09.25.icu-76.1.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
