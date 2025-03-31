@@ -10,7 +10,7 @@
 #
 # Required by:
 #
-#               d10.09.17 GLib-2.80.4
+#               d10.09.17 GLib-2.80.4   ( hidden )
 #               b10.13.25.09 Hatchling-1.25.0
 #               b10.13.25.22 Setuptools_scm-8.1.0
 #               i030.9.02 oslo.utils-7.3.0

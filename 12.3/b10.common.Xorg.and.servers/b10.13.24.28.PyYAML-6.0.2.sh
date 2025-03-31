@@ -1,25 +1,33 @@
-# b10.13.24.13.Mako-1.3.9.sh
+# b10.13.24.28.PyYAML-6.0.2.sh
 #
 
 #
 # Dependencies Optional:
 #
-#               b10.13.24.26 Pytest-8.3.2
+#               b10.13.23.26 Pytest-8.3.4
+#
+
+#
+# Dependencies Required:
+#
+#               b10.13.24.04 Cython-3.0.12
+#               b10.09.76    libyaml-0.2.5
 #
 
 #
 # Required by:
 #
 #               d20.24.12 Mesa-24.3.4
-#               i060.9.20 alembic-1.13.3
-#
-# Optional by:
-#
-#               d10.09.17 GLib-2.80.4
+#               i040.9.01 cliff-4.7.0
+#               i040.9.02 openstacksdk-4.0.1
+#               i030.9.02 oslo.utils-7.3.0
+#               i030.9.03 oslo.config-9.6.0
+#               i080.9.06 oslo.messaging-14.9.1
+#               i080.9.08 oslo.policy-4.4.0
 #
 
-export PKG="Mako-1.3.9"
-export PKGLOG_DIR=$LFSLOG/13.24.13
+export PKG="pyyaml-6.0.2"
+export PKGLOG_DIR=$LFSLOG/13.24.28
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
 export PKGLOG_CHECK=$PKGLOG_DIR/check.log
@@ -55,7 +63,7 @@ pip3 install    --no-index              \
                 --no-user               \
                 --find-links dist       \
                 --no-cache-dir          \
-                Mako                    \
+                PyYAML                  \
                 > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 echo "4. pyTest ..."

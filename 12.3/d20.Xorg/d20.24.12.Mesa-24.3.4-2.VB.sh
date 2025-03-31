@@ -21,7 +21,8 @@
 #
 #               d20.24.08 Xorg Libraries
 #               d20.25.33 Libdrm-2.4.124
-#               d10.13.24.13 Python Modules - Mako-1.3.9
+#               b10.13.24.13 Mako-1.3.9
+#               b10.13.24.28 PyYAML-6.0.2.sh
 #
 # Dependencies Recommended:
 #

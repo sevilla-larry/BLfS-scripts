@@ -4,7 +4,7 @@
 #
 # Recommended by:
 #
-#               d10.04.20 Polkit-125
+#               d10.04.20 Polkit-126
 #
 
 export PKG="duktape-2.7.0"

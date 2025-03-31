@@ -1,25 +1,14 @@
-# b10.13.24.13.Mako-1.3.9.sh
-#
-
-#
-# Dependencies Optional:
-#
-#               b10.13.24.26 Pytest-8.3.2
+# b10.13.24.04.Cython-3.0.12.sh
 #
 
 #
 # Required by:
 #
-#               d20.24.12 Mesa-24.3.4
-#               i060.9.20 alembic-1.13.3
-#
-# Optional by:
-#
-#               d10.09.17 GLib-2.80.4
+#               b30.13.23.28 PyYAML-6.0.2
 #
 
-export PKG="Mako-1.3.9"
-export PKGLOG_DIR=$LFSLOG/13.24.13
+export PKG="cython-3.0.12"
+export PKGLOG_DIR=$LFSLOG/13.24.04
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
 export PKGLOG_CHECK=$PKGLOG_DIR/check.log
@@ -55,13 +44,8 @@ pip3 install    --no-index              \
                 --no-user               \
                 --find-links dist       \
                 --no-cache-dir          \
-                Mako                    \
+                Cython                  \
                 > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
-
-echo "4. pyTest ..."
-echo "4. pyTest ..." >> $LFSLOG_PROCESS
-echo "4. pyTest ..." >> $PKGLOG_ERROR
-pytest >  $PKGLOG_CHECK 2>> $PKGLOG_ERROR
 
 
 cd $SOURCES

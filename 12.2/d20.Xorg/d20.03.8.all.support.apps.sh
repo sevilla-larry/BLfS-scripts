@@ -27,6 +27,10 @@ bash b10.03.3.sh
 bash b10.03.4.sh
 
 # common with OpenStack
+# PyTest & deps
+bash b10.03.8.sh
+
+# common with OpenStack
 bash b10.03.9.sh
 
 ###

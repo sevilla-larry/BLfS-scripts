@@ -4,13 +4,14 @@
 #
 # Dependencies Required:
 #
-#               d10.09.17 GLib-2.80.4
+#               d10.09.12 duktape-2.7.0
+#               d10.09.17 GLib-2.82.5
 #
 # Dependencies Recommended
 #
-#               d10.09.12 duktape-2.7.0
-#               d10.09.74 libxslt-1.1.42
-#               d10.12.11 elogind-255.5
+#               b10.09.74 libxslt-1.1.42
+#               a.08.94B  Linux-PAM-1.7.0
+#               d10.12.12 elogind-255.17
 #
 
 #
@@ -20,7 +21,7 @@
 #
 # Runtime Recommended by:
 #
-#               d10.12.11 elogind-255.5
+#               d10.12.12 elogind-255.17
 #
 
 #
@@ -32,7 +33,7 @@
 #
 
 #
-# read https://www.linuxfromscratch.org/blfs/view/12.2/postlfs/polkit.html
+# read https://www.linuxfromscratch.org/blfs/view/12.3/postlfs/polkit.html
 #
 
 export PKG="polkit-126"
@@ -61,9 +62,6 @@ groupadd -fg 27 polkitd
 useradd -c "PolicyKit Daemon Owner" -d /etc/polkit-1 -u 27 \
         -g polkitd -s /bin/false polkitd
 
-sed -i '/systemd_sysusers_dir/s/^/#/' meson.build   \
-        > $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
-
 mkdir build
 cd    build
 
@@ -75,12 +73,13 @@ meson setup ..                      \
       --buildtype=release           \
       -D man=true                   \
       -D session_tracking=elogind   \
+      -D systemdsystemunitdir=/tmp  \
       -D tests=false                \
-      -D js_engine=duktape          \
         > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 #      -D tests=true                 \
 #      -D man=false                  \ # if libxslt is NOT installed
 #      -D js_engine=mozjs            \ # if using SpiderMonkey
+#      -D js_engine=duktape          \ # LfS 12.2
 
 echo "3. Ninja Build ..."
 echo "3. Ninja Build ..." >> $LFSLOG_PROCESS
@@ -90,7 +89,7 @@ ninja > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 # To test the results,
 #      -D tests=true                 \
 # first ensure that the system D-Bus daemon is running,
-# and both D-Bus Python-1.3.2 and dbusmock-0.32.1 are installed.
+# and both D-Bus Python-1.3.2 and dbusmock-0.34.3 are installed.
 # Then run ninja test.
 
 echo "4. Ninja Install ..."

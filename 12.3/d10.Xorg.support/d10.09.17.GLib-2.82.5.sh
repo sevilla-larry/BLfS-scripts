@@ -1,15 +1,11 @@
 # d10.09.17.GLib-2.82.5.sh
-# (errata)
 #
 
 #
 # Dependencies Required (hidden)
 #
-#               d10.13.23.15 Packaging-12.1
-#
-# Dependencies Required (hidden)
-#
-#               d10.13.09.Git-2.46.0.sh
+#             ? b10.13.24.15 Packaging-24.2
+#             ? b10.13.10.Git-2.48.1.sh
 #
 # Dependencies Recommended:
 #
