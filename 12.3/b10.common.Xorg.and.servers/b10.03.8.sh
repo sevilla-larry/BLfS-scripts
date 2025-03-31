@@ -26,17 +26,17 @@ echo "."
 
 ###
 
-echo "b10.13.24.04.Cython-3.0.12"
-echo "b10.13.24.04.Cython-3.0.12" >> $LFSLOG_PROCESS
+# echo "b10.13.24.04.Cython-3.0.12"
+# echo "b10.13.24.04.Cython-3.0.12" >> $LFSLOG_PROCESS
 
-time { bash b10.13.24.04.Cython-3.0.12.sh ; }
+# time { bash b10.13.24.04.Cython-3.0.12.sh ; }
 
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+# date +"%Y/%b/%d %H:%M"
+# date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
+# echo "." >> $LFSLOG_PROCESS
+# echo "."
+# echo "."
 
 ###
 
