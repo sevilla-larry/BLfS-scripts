@@ -14,7 +14,7 @@
 #
 # Optional by:
 #
-#               d10.12.11 elogind-255.5
+#               d10.12.11 elogind-255.17
 #
 
 export PKG="lxml-5.3.1"

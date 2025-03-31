@@ -18,12 +18,12 @@
 # Required by:
 #
 #               d20.24.12 Mesa-24.3.4
-#               i040.9.01 cliff-4.7.0
-#               i040.9.02 openstacksdk-4.0.1
-#               i030.9.02 oslo.utils-7.3.0
-#               i030.9.03 oslo.config-9.6.0
-#               i080.9.06 oslo.messaging-14.9.1
-#               i080.9.08 oslo.policy-4.4.0
+#               i?.??     cliff-4.7.0
+#               i?.??     openstacksdk-4.0.1
+#               i?.??     oslo.utils-7.3.0
+#               i?.??     oslo.config-9.6.0
+#               i?.??     oslo.messaging-14.9.1
+#               i?.??     oslo.policy-4.4.0
 #
 
 export PKG="pyyaml-6.0.2"

@@ -1,20 +1,20 @@
-# d10.09.42.libgcrypt-1.11.0.sh
+# b10.09.42.libgcrypt-1.11.0.sh
 #
 
 #
 # Dependencies Required:
 #
-#               d10.09.43 libgpg-error-1.50
+#               b10.09.43 libgpg-error-1.50
 #
 
 #
 # Required by:
 #
-#               f22.26.02 lightdm-1.32.0
+#               f2.26.02 lightdm-1.32.0
 #
 # Optionally by:
 #
-#               d10.09.74 libxslt-1.1.42
+#               b10.09.74 libxslt-1.1.42
 #
 #
 

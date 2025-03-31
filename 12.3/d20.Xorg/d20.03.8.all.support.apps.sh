@@ -27,17 +27,19 @@ bash b10.03.3.sh
 bash b10.03.4.sh
 
 # common with OpenStack
+# Python Modules & Dependencies
 # PyTest & deps
-bash b10.03.8.sh
+bash b10.03.7.sh
 
 # common with OpenStack
-bash b10.03.9.sh
+# Python Modules 
+# after PyTest
+bash b10.03.8.sh
 
-###
-
-# Python modules
-# bash d10.03.01.sh
-#   to b10...
+# NOT common with OpenStack
+# Python Modules 
+# after PyTest
+# bash b10.03.9.sh		so far none
 
 ###
 

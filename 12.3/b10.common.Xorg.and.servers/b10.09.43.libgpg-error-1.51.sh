@@ -1,10 +1,10 @@
-# d10.09.43.libgpg-error-1.51.sh
+# b10.09.43.libgpg-error-1.51.sh
 #
 
 #
 # Required by:
 #
-#               d10.09.42.libgcrypt-1.11.0.sh
+#               b10.09.42 libgcrypt-1.11.0.sh
 #
 
 export PKG="libgpg-error-1.51"
