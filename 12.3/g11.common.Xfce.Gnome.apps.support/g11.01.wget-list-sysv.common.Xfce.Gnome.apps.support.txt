@@ -1,0 +1,72 @@
+# 04.08 GPGME-1.24.2
+https://www.gnupg.org/ftp/gcrypt/gpgme/gpgme-1.24.2.tar.bz2
+# 04.17 NSS-3.108
+https://archive.mozilla.org/pub/security/nss/releases/NSS_3_108_RTM/src/nss-3.108.tar.gz
+https://www.linuxfromscratch.org/patches/blfs/12.3/nss-standalone-1.patch
+
+# 09.09 CLucene-2.3.3.4
+https://downloads.sourceforge.net/clucene/clucene-core-2.3.3.4.tar.gz
+https://www.linuxfromscratch.org/patches/blfs/12.2/clucene-2.3.3.4-contribs_lib-1.patch
+# 09.33 libassuan-3.0.2
+https://www.gnupg.org/ftp/gcrypt/libassuan/libassuan-3.0.2.tar.bz2
+# 09.35 libatomic_ops-7.8.2
+https://github.com/ivmai/libatomic_ops/releases/download/v7.8.2/libatomic_ops-7.8.2.tar.gz
+# 09.80 Node.js-22.14.0
+https://nodejs.org/dist/v22.14.0/node-v22.14.0.tar.xz
+
+# 10.10 GLM-1.0.1
+https://github.com/g-truc/glm/archive/1.0.1/glm-1.0.1.tar.gz
+# 10.24 librsvg-2.59.2
+https://download.gnome.org/sources/librsvg/2.59/librsvg-2.59.2.tar.xz
+# 10.31 OpenJPEG-2.5.3
+https://github.com/uclouvain/openjpeg/archive/v2.5.3/openjpeg-2.5.3.tar.gz
+# 10.33 Poppler-25.02.0 24-11.0
+https://poppler.freedesktop.org/poppler-25.02.0.tar.xz
+https://poppler.freedesktop.org/poppler-data-0.4.12.tar.gz
+
+# 12.28->30 Raptor-2.0.16 Rasqal-0.9.33 Redland-1.0.17
+https://download.librdf.org/source/raptor2-2.0.16.tar.gz
+https://download.librdf.org/source/rasqal-0.9.33.tar.gz
+https://download.librdf.org/source/redland-1.0.17.tar.gz
+# 13.18 Perl Modules
+# 13.18.01 Archive::Zip-1.68
+https://www.cpan.org/authors/id/P/PH/PHRED/Archive-Zip-1.68.tar.gz
+# 13.21 Python-3.13.2
+https://www.python.org/ftp/python/3.13.2/Python-3.13.2.tar.xz
+https://www.python.org/ftp/python/doc/3.13.2/python-3.13.2-docs-html.tar.bz2
+# 13.21 Python-3.12.8
+https://www.python.org/ftp/python/3.12.8/Python-3.12.8.tar.xz
+https://www.python.org/ftp/python/doc/3.12.8/python-3.12.8-docs-html.tar.bz2
+# 13.21 Python-3.13.1
+https://www.python.org/ftp/python/3.13.1/Python-3.13.1.tar.xz
+https://www.python.org/ftp/python/doc/3.13.1/python-3.13.1-docs-html.tar.bz2
+# 13.26 Rustc-1.85.0
+https://static.rust-lang.org/dist/rustc-1.85.0-src.tar.xz
+
+# 17.01 c-ares-1.34.4
+https://github.com/c-ares/c-ares/releases/download/v1.34.4/c-ares-1.34.4.tar.gz
+# 25.23 gtksourceview4-4.8.4
+https://download.gnome.org/sources/gtksourceview/4.8/gtksourceview-4.8.4.tar.xz
+# 25.33 libhandy-1.8.3
+https://download.gnome.org/sources/libhandy/1.8/libhandy-1.8.3.tar.xz
+
+# 42.02--->04 alsa-*-1.2.13
+https://www.alsa-project.org/files/pub/lib/alsa-lib-1.2.13.tar.bz2
+https://www.alsa-project.org/files/pub/lib/alsa-ucm-conf-1.2.13.tar.bz2
+https://www.alsa-project.org/files/pub/plugins/alsa-plugins-1.2.12.tar.bz2
+https://www.alsa-project.org/files/pub/utils/alsa-utils-1.2.13.tar.bz2
+# 42.11 FLAC-1.5.0
+https://github.com/xiph/flac/releases/download/1.5.0/flac-1.5.0.tar.xz
+# 42.14->.17 gstreamer & gst-plugins
+https://gstreamer.freedesktop.org/src/gstreamer/gstreamer-1.24.12.tar.xz
+https://gstreamer.freedesktop.org/src/gst-plugins-base/gst-plugins-base-1.24.12.tar.xz
+https://gstreamer.freedesktop.org/src/gst-plugins-good/gst-plugins-good-1.24.12.tar.xz
+https://gstreamer.freedesktop.org/src/gst-plugins-bad/gst-plugins-bad-1.24.12.tar.xz
+# 42.40 libsndfile-1.2.2
+https://github.com/libsndfile/libsndfile/releases/download/1.2.2/libsndfile-1.2.2.tar.xz
+# 42.44 Opus-1.5.2
+https://downloads.xiph.org/releases/opus/opus-1.5.2.tar.gz
+# 42.45 libvpx-1.15.0
+https://github.com/webmproject/libvpx/archive/v1.15.0/libvpx-1.15.0.tar.gz
+# 42.49 PulseAudio-qt-17.0
+https://download.kde.org/stable/pulseaudio-qt/pulseaudio-qt-1.7.0.tar.xz

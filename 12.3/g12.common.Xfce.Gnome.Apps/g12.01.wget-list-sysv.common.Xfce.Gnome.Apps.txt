@@ -1,0 +1,12 @@
+# 34.04 Evince-46.3.1
+https://download.gnome.org/sources/evince/46/evince-46.3.1.tar.xz
+
+# 39.03 LibreOffice-25.2.1
+https://download.documentfoundation.org/libreoffice/src/25.2.1/libreoffice-25.2.1.2.tar.xz
+https://download.documentfoundation.org/libreoffice/src/25.2.1/libreoffice-dictionaries-25.2.1.2.tar.xz
+https://download.documentfoundation.org/libreoffice/src/25.2.1/libreoffice-help-25.2.1.2.tar.xz
+https://download.documentfoundation.org/libreoffice/src/25.2.1/libreoffice-translations-25.2.1.2.tar.xz
+https://www.linuxfromscratch.org/patches/blfs/12.3/libreoffice-25.2.1.2-icu76_fixes-1.patch
+
+# 40.03 Firefox-128.7.0esr (errata)
+https://archive.mozilla.org/pub/firefox/releases/128.7.0esr/source/firefox-128.7.0esr.source.tar.xz
