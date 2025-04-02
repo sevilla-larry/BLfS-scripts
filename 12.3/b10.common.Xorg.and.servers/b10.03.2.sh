@@ -62,19 +62,19 @@ echo "." >> $LFSLOG_PROCESS
 echo "."
 echo "."
 
-### to a.08.1
+###
 
-# echo "b10.49.06.xmlto-0.0.29"
-# echo "b10.49.06.xmlto-0.0.29" >> $LFSLOG_PROCESS
+echo "b10.49.06.xmlto-0.0.29"
+echo "b10.49.06.xmlto-0.0.29" >> $LFSLOG_PROCESS
 
-# time { bash b10.49.06.xmlto-0.0.29.sh ; }
+time { bash b10.49.06.xmlto-0.0.29.sh ; }
 
-# date +"%Y/%b/%d %H:%M"
-# date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
-# echo "." >> $LFSLOG_PROCESS
-# echo "."
-# echo "."
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
 
 ###
 

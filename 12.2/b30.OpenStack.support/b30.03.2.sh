@@ -109,6 +109,20 @@ echo "."
 
 ###
 
+echo "b30.13.23.24.pyparsing-3.1.2"
+echo "b30.13.23.24.pyparsing-3.1.2" >> $LFSLOG_PROCESS
+
+time { bash b30.13.23.24.pyparsing-3.1.2.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
 echo "b30.13.24.34.Urllib3-2.2.2"
 echo "b30.13.24.34.Urllib3-2.2.2" >> $LFSLOG_PROCESS
 
