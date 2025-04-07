@@ -1,0 +1,59 @@
+# 04.09 iptables-1.8.11
+44191ce12055da9790a92429c771ba50 iptables-1.8.11.tar.xz
+
+# 09.51 liblinear-248
+14116244e09667b393094ce757203d31 liblinear-248.tar.gz
+# 09.76 libyaml-0.2.5
+bb15429d8fb787e7d3f1c83ae129a999 yaml-0.2.5.tar.gz
+
+# 11.12 lsof-4.99.0
+8c858675f6d6e137df9b4e26ad6c46e8 lsof-4.99.0.tar.gz
+
+# 13.14 Lua-5.4.7
+fc3f3291353bbe6ee6dec85ee61331e8 lua-5.4.7.tar.gz
+5fcf34336004f83de447c79958ea678e lua-5.4.7-tests.tar.gz
+#patch
+
+# 13.21 Python-3.11.1
+4efe92adf28875c77d3b9b2e8d3bc44a Python-3.11.11.tar.xz
+05959e9b8e5d392ca7c8c873245c6bdd python-3.11.11-docs-html.tar.bz2
+# 13.23    Python Modules
+# 13.24.04 Cython-3.0.12
+ab61fac00686d611197fba10c37f30e5 cython-3.0.12.tar.gz
+# 13.24.17 psutil-7.0.0
+1c074ff5828dff3a3ecfa0e0f9de2e63 psutil-7.0.0.tar.gz
+# 13.24.28 PyYAML-6.0.2
+9600ee49b2b4e1a0237cf4173b6dc594 pyyaml-6.0.2.tar.gz
+# 13.24.30 Requests-2.32.3
+fa3ee5ac3f1b3f4368bd74ab530d3f0f requests-2.32.3.tar.gz
+#patch
+# 13.24.33 six-1.17.0
+c4e340fa7b1c85898dcb72b5ea8bb8f7 six-1.17.0.tar.gz
+
+# 13.25   Python Dependencies
+# 13.25.02 Attrs-25.1.0
+338069d6f69126086d589b2cb44f4c73 attrs-25.1.0.tar.gz
+# 13.25.06 Charset-normalizer-3.4.1
+1d808eb9efaf70bf0ec3b800f3c7dca8 charset-normalizer-3.4.1.tar.gz
+# 13.25.10 Hatch-Fancy-Pypi-Readme-24.1.0
+f5f9e639f066c91f8e623ec6231beae9 hatch_fancy_pypi_readme-24.1.0.tar.gz
+# 13.25.12 Idna-3.10
+28448b00665099117b6daa9887812cc4 idna-3.10.tar.gz
+# 13.25.17 Msgpack-1.1.0
+e5769d4ab610491ac561c84fde4cf4a7 msgpack-1.1.0.tar.gz
+# 13.25.21 Pytz-2025.1
+c6ee254bcdf1e2fdb13d87e0ee4166ba pytz-2025.1.tar.gz
+# 13.25.34 Urllib3-2.3.0
+6388afd062cf2e1ef27843738629dbc1 urllib3-2.3.0.tar.gz
+
+# 15.04 Net-tools-2.10
+78aae762c95e2d731faf88d482e4cde5 net-tools-2.10.tar.xz
+
+# 16.05 Nmap-7.95
+b481d293e53b20278d5370458da9a950 nmap-7.95.tar.bz2
+
+# 17.11 libnl-3.11.0
+0a5eb82b494c411931a47638cb0dba51 libnl-3.11.0.tar.gz
+5c74044c92f2eb08de69cce88714cd1b libnl-doc-3.11.0.tar.gz
+# 17.14 libpcap-1.10.5
+0dc69ed81464e7a255715fa685daf134 libpcap-1.10.5.tar.gz
