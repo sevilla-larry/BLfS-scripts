@@ -43,6 +43,16 @@ d62167d85bcb459c200c0e4b5a63ee48 unixODBC-2.3.12.tar.gz
 # manpages
 # htmldocs
 
+# 13.21 Python-3.11.10
+af59e243df4c7019f941ae51891c10bc Python-3.11.10.tar.xz
+05959e9b8e5d392ca7c8c873245c6bdd python-3.11.10-docs-html.tar.bz2
+# 13.21 Python-3.12.8
+d46e5bf9f2e596a3ba45fc0b3c053dd2 Python-3.12.8.tar.xz
+c59209be87816e815ccb02e1b4f51f06 python-3.12.8-docs-html.tar.bz2
+# 13.21 Python-3.13.1
+80c16badb94ffe235280d4d9a099b8bc Python-3.13.1.tar.xz
+2fbda851be0e4d4c4dad7bb8d1ff7e50 python-3.13.1-docs-html.tar.bz2
+
 # 13.23    Python Modules
 # 13.23.12 lxml-5.3.1 (updated)
 9d94cc157fb6db0c062ef80cdc0ed307 lxml-5.3.1.tar.gz

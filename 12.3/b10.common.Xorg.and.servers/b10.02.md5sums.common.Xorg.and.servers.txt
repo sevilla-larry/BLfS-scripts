@@ -1,91 +1,10 @@
-# 04.16 Nettle-3.10.1
-c3dc1729cfa65fcabe2023dfbff60beb nettle-3.10.1.tar.gz
-
-# 09.07 boost-1.87.0
-c2ffeab30889999f55cf72e1107611aa boost-1.87.0-b2-nodocs.tar.xz
-# boost-1.86.0-upstream_fixes-1.patch
-# 09.24 icu-76.1
-857fdafff8127139cc175a3ec9b43bd6 icu4c-76_1-src.tgz
-# 09.32 libarchive-3.7.7 (errata)
-50c4dea9eba9a0add25ac1cfc9ba2cdb libarchive-3.7.7.tar.xz
-# 09.42 libgcrypt-1.11.0
-321c4975cfd6a496f0530b65a673f9a4 libgcrypt-1.11.0.tar.bz2
-# 09.43 libgpg-error-1.51
-74b73ea044685ce9fd6043a8cc885eac libgpg-error-1.51.tar.bz2
-# 09.63 libssh2-1.11.1
-38857d10b5c5deb198d6989dacace2e6 libssh2-1.11.1.tar.gz
-#libssh2-1.11.0-security_fixes-1.patch
-# 09.70 libuv-1.50.0
-d346e03fe1ca89d877f9d1431ef97cec libuv-v1.50.0.tar.gz
-# 09.72 libxml2-2.13.6
-85dffa2387ff756bdf8b3b247594914a libxml2-2.13.6.tar.xz
-#libxml2-2.13.6-upstream_fix-2.patch
-#xmlts20130923.tar.gz
-# 09.74 libxslt-1.1.42
-56bc5d89aa39d62002961c150fec08a0 libxslt-1.1.42.tar.xz
-# 09.83 PCRE2-10.45
-f71abbe1b5adf25cd9af5d26ef223b66 pcre2-10.45.tar.bz2
-
 # 11.21 unixODBC-2.3.12
 d62167d85bcb459c200c0e4b5a63ee48 unixODBC-2.3.12.tar.gz
-
-# 12.36 UnZip-6.0
-62b490407489521db863b523a7f86375 unzip60.tar.gz
-#
-#
-# 12.41 Zip-3.0
-7b74551e63f8ee6aab6fbc86676c0d37 zip30.tar.gz
-
-# 13.03 CMake-3.31.5
-ea5e8d7208616b1609018db290a67419 cmake-3.31.5.tar.gz
-# 13.09 Git-2.48.1
-99656f1481e70701198257ada703a480 git-2.48.1.tar.xz
-# manpages
-# htmldocs
 
 # 13.23    Python Modules
 # 13.23.12 lxml-5.3.1 (updated)
 9d94cc157fb6db0c062ef80cdc0ed307 lxml-5.3.1.tar.gz
 # 13.23.13 Mako-1.3.9
 28b1b70e01a1240c90e97fab2f17e349 Mako-1.3.9.tar.gz
-# 13.23.15 Packaging-24.2
-97dbaca91e00d6b9fd86866e8c7897ae packaging-24.2.tar.gz
-# 13.23.26 Pytest-8.3.4
-542c4e802eeac1d196482e90a36533ed pytest-8.3.4.tar.gz
-
-# 13.24    Python Dependencies
-# 13.24.08 Editables-0.5
-520de8c3a9dc5dfb2b365d104541c9de editables-0.5.tar.gz
-# 13.24.09 Hatchling-1.27.0
-6ffb3087c9b6a9ffbfc1bb394f7ed1a8 hatchling-1.27.0.tar.gz
-# 13.24.11 Hatch_vcs-0.4.0
-d801fe7c3e5955307748f2790bbb3488 hatch_vcs-0.4.0.tar.gz
-# 13.24.14 Iniconfig-2.0.0
-3c030b3f51dcc3aca585de05635600e4 iniconfig-2.0.0.tar.gz
-# 13.24.18 Pathspec-0.12.1
-2b26ad1981bfa23748e115f00085624c pathspec-0.12.1.tar.gz
-# 13.24.19 Pluggy-1.5.0
-ac0870be78ba0ee227a5c3955efeba59 pluggy-1.5.0.tar.gz
-# 13.24.22 Setuptools_scm-8.1.0
-d8046dce093a94dc382b68b45f6a6257 setuptools_scm-8.1.0.tar.gz
-# 13.24.32 Trove-Classifiers-2025.1.15.22
-3656424a10a761108fa8250033ffe3d4 trove_classifiers-2025.1.15.22.tar.gz
-
-# 17.02 cURL-8.12.1
-7940975dd510399c4b27831165ab62e0 curl-8.12.1.tar.xz
-# 17.07 libevent-2.1.12
-b5333f021f880fe76490d8a799cd79f4 libevent-2.1.12-stable.tar.gz
-# 17.20 nghttp2-1.64.0
-0cf8f819f4b717de7dde9f8164d0b466 nghttp2-1.64.0.tar.xz
-
-# 22.05 SQLite-3.49.1
-8d77d0779bcd9993eaef33431e2e0c30 sqlite-autoconf-3490100.tar.gz
-
-# 49.01 docbook-xml-4.5
-03083e288e87a7e829e437358da7ef9e docbook-xml-4.5.zip
-# 49.04 docbook-xsl-nons-1.79.2
-2666d1488d6ced1551d15f31d7ed8c38 docbook-xsl-nons-1.79.2.tar.bz2
-62375ca864fc198cb2b17d98209d0b8c docbook-xsl-doc-1.79.2.tar.bz2
-#
 # 49.06 xmlto-0.0.29
 556f2642cdcd005749bd4c08bc621c37 xmlto-0.0.29.tar.gz
