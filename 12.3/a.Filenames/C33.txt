@@ -29,3 +29,23 @@ VIII. GNOME
 33.23 localsearch-3.8.2
 33.24 GSound-1.0.3
 33.25 xdg-desktop-portal-gnome-47.3
+
+33.B GNOME Desktop Components
+
+33.31 DConf-0.40.0 / DConf-Editor-45.0.1
+33.32 gnome-backgrounds-47.0
+Gvfs-1.56.1
+gexiv2-0.14.3
+Nautilus-47.2
+gnome-bluetooth-47.1
+gnome-keyring-46.2
+gnome-settings-daemon-47.2
+Tecla-47.0
+gnome-control-center-47.4
+Mutter-47.5
+gnome-shell-47.4
+gnome-shell-extensions-47.4
+gnome-session-47.0.1
+gnome-tweaks-46.1
+gnome-user-docs-47.2
+Yelp-42.2
