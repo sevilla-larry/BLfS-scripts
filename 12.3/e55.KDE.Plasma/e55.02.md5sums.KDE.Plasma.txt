@@ -1,0 +1,2 @@
+27d23279ee0ad5252a862c2671bc05ad kirigami-addons-1.4.0.tar.xz
+247fcc8c7876f84c8a13d1601d388fc2 pulseaudio-qt-1.7.0.tar.xz

@@ -1,0 +1,21 @@
+VII. KDE
+
+31. KDE Frameworks 6 Based Applications
+
+31.01 ark-24.12.2
+31.02 dolphin-24.12.2
+31.03 dolphin-plugins-24.12.2
+31.04 kdenlive-24.12.2
+31.05 KMix-24.12.2
+31.06 khelpcenter-24.12.2
+31.07 Konsole-24.12.2
+31.08 konversation-24.12.2
+31.09 libkexiv2-24.12.2
+31.10 plasma-activities-6.3.2
+31.11 plasma-activities-stats-6.3.2
+31.12 kio-extras-24.12.2
+31.13 okular-24.12.2
+31.14 libkdcraw-24.12.2
+31.15 gwenview-24.12.2
+31.16 libkcddb-24.12.2
+31.17 k3b-24.12.2

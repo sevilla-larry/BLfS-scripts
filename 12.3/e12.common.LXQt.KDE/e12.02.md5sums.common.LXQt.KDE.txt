@@ -1,0 +1,17 @@
+# 09.11 Double-conversion-3.3.1
+7bbcf4bd2e1a96ef9d2a6fa60e887276 double-conversion-3.3.1.tar.gz
+
+# 10.13 JasPer-4.2.4
+aa4df693b90223fe6848b34cf1208624 jasper-4.2.4.tar.gz
+# 10.20 libmng-2.0.3
+e9e899adb1b681b17f14d91e261878c5 libmng-2.0.3.tar.xz
+
+# 25.42 Qt-6.8.2
+ccc7100bc687005c167a8a43a4f99050 qt-everywhere-src-6.8.2.tar.xz
+
+# 29.02 extra-cmake-modules-6.11.0
+22bce8bd85c1ead07bda8a00518d1120 extra-cmake-modules-6.11.0.tar.xz
+# 29.05 Polkit-Qt-0.200.0
+6f23bc987ea9c49b4ef21983b9d1dc15 polkit-qt-1-0.200.0.tar.xz
+# 29.06 plasma-wayland-protocols-1.16.0
+48b8d5d34d9284b1ab01b9b6aa45571b plasma-wayland-protocols-1.16.0.tar.xz

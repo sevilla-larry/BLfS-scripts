@@ -1,0 +1,10 @@
+VII. KDE
+
+29. Introduction to KDE
+
+29.01 KDE Preliminaries
+29.02 extra-cmake-modules-6.11.0
+29.03 Phonon-4.12.0
+29.04 Phonon-backend-vlc-0.12.0
+29.05 Polkit-Qt-0.200.0
+29.06 plasma-wayland-protocols-1.16.0

@@ -1,0 +1,2 @@
+https://download.kde.org/stable/kirigami-addons/kirigami-addons-1.4.0.tar.xz
+https://download.kde.org/stable/pulseaudio-qt/pulseaudio-qt-1.7.0.tar.xz

@@ -1,0 +1,17 @@
+# 09.11 Double-conversion-3.3.1
+https://github.com/google/double-conversion/archive/v3.3.1/double-conversion-3.3.1.tar.gz
+
+# 10.13 JasPer-4.2.4
+https://github.com/jasper-software/jasper/archive/version-4.2.4/jasper-4.2.4.tar.gz
+# 10.20 libmng-2.0.3
+https://downloads.sourceforge.net/libmng/libmng-2.0.3.tar.xz
+
+# 25.42 Qt-6.8.2
+https://download.qt.io/archive/qt/6.8/6.8.2/single/qt-everywhere-src-6.8.2.tar.xz
+
+# 29.02 extra-cmake-modules-6.11.0
+https://download.kde.org/stable/frameworks/6.11/extra-cmake-modules-6.11.0.tar.xz
+# 29.05 Polkit-Qt-0.200.0
+https://download.kde.org/stable/polkit-qt-1/polkit-qt-1-0.200.0.tar.xz
+# 29.06 plasma-wayland-protocols-1.13.0
+https://download.kde.org/stable/plasma-wayland-protocols/plasma-wayland-protocols-1.16.0.tar.xz

@@ -1,0 +1,19 @@
+fc84a8612a55f358d61de8c45fa2f217 ark-24.12.2.tar.xz\
+873aa759cc10787ec4cbcdfd3914635f dolphin-24.12.2.tar.xz
+56d47aa44323b9631d1260bba11f5b42 dolphin-plugins-24.12.2.tar.xz
+6efab0b88775858902f47d134078f999 kdenlive-24.12.2.tar.xz
+056b742471fdd5669c359cd854ec494e kmix-24.12.2.tar.xz
+2e41c8b16cfd36a1508a7741c1cffb60 khelpcenter-24.12.2.tar.xz
+
+ceb176da5ce06121b91682af2e635d1e konsole-24.12.2.tar.xz
+                                 konsole-24.12.2-scrollbar-1.patch
+a7eee4efc2a59ca2a38540c1553d88ec konversation-24.12.2.tar.xz
+936d48e2d37ff0194a9a8e3aa92a2bb8 libkexiv2-24.12.2.tar.xz
+c1ee6ea5e63f87819e53aae19e7175f5 plasma-activities-6.3.2.tar.xz
+b59f54a9c59f5633d4141f9acd6369ce plasma-activities-stats-6.3.2.tar.xz
+ae2a8b1eb0365c6b50ae2f45cbb3541f kio-extras-24.12.2.tar.xz
+f62fda183b2e52822c621a2d880425f8 okular-24.12.2.tar.xz
+e9a0e5d42442ecdfe8169858c989f00c libkdcraw-24.12.2.tar.xz
+7ba7f5b5465c173a23deb28345519363 gwenview-24.12.2.tar.xz
+f54179c1a5a3deeda54dc6d76f3e7d3b libkcddb-24.12.2.tar.xz
+87d18a897ba0d8442bf48e20d005c3ad k3b-24.12.2.tar.xz

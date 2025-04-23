@@ -1,0 +1,7 @@
+VII. KDE
+
+32. KDE Plasma
+
+32.01 kirigami-addons-1.4.0
+32.02 pulseaudio-qt-1.7.0
+32.03 Building Plasma

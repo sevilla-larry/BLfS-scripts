@@ -1,0 +1,5 @@
+22bce8bd85c1ead07bda8a00518d1120 extra-cmake-modules-6.11.0.tar.xz
+e80e9c73967080016bdb3c0ee514ceab phonon-4.12.0.tar.xz
+2a27b5d249f97a15040481008fb16e1b phonon-backend-vlc-0.12.0.tar.xz
+6f23bc987ea9c49b4ef21983b9d1dc15 polkit-qt-1-0.200.0.tar.xz
+48b8d5d34d9284b1ab01b9b6aa45571b plasma-wayland-protocols-1.16.0.tar.xz
