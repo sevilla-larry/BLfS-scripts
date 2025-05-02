@@ -64,24 +64,24 @@ meson setup ..                  \
       --prefix=$XORG_PREFIX     \
       --buildtype=release       \
       -D debug-gui=false        \
-      -D tests=false            \
       -D libwacom=false         \
       -D udev-dir=/usr/lib/udev \
       > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+#      -D tests=false            \
 
 echo "3. Ninja Build ..."
 echo "3. Ninja Build ..." >> $LFSLOG_PROCESS
 echo "3. Ninja Build ..." >> $PKGLOG_ERROR
 ninja > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 
-echo "4. Ninja Test NOT executed, very complicated ..."
-echo "4. Ninja Test NOT executed, very complicated ..." >> $LFSLOG_PROCESS
-echo "4. Ninja Test NOT executed, very complicated ..." >> $PKGLOG_ERROR
+# echo "4. Ninja Test NOT executed, very complicated ..."
+# echo "4. Ninja Test NOT executed, very complicated ..." >> $LFSLOG_PROCESS
+# echo "4. Ninja Test NOT executed, very complicated ..." >> $PKGLOG_ERROR
 
-# echo "4. Ninja Test ..."
-# echo "4. Ninja Test ..." >> $LFSLOG_PROCESS
-# echo "4. Ninja Test ..." >> $PKGLOG_ERROR
-# ninja test > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
+echo "4. Ninja Test ..."
+echo "4. Ninja Test ..." >> $LFSLOG_PROCESS
+echo "4. Ninja Test ..." >> $PKGLOG_ERROR
+ninja test > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
 
 echo "5. Ninja Install ..."
 echo "5. Ninja Install ..." >> $LFSLOG_PROCESS

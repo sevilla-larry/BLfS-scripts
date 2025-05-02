@@ -17,9 +17,7 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 echo "d20.09.71.libxkbcommon-1.8.0 - Pass 1"
 echo "d20.09.71.libxkbcommon-1.8.0 - Pass 1" >> $LFSLOG_PROCESS
 
-export PKGPASS=1
 time { bash d20.09.71.libxkbcommon-1.8.0.sh ; }
-unset PKGPASS
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

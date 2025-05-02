@@ -132,6 +132,7 @@ meson setup ..                  \
       -D gallium-drivers=$GALLIUM_DRIVERS   \
       -D vulkan-drivers=""      \
       -D valgrind=disabled      \
+      -D video-codecs=all       \
       -D libunwind=disabled     \
       > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 

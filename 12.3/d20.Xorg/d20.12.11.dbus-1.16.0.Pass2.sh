@@ -98,6 +98,8 @@ ninja install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 ln -sfv /var/lib/dbus/machine-id /etc   \
     >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
 
+# documentation already installed
+
 echo "execute: make install-dbus   from blfs-bootscripts"
 echo "execute: make install-dbus   from blfs-bootscripts" >> $LFSLOG_PROCESS
 echo "execute: make install-dbus   from blfs-bootscripts" >> $PKGLOG_ERROR

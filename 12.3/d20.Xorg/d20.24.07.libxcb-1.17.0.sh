@@ -58,7 +58,8 @@ echo "2. Configure ..." >> $PKGLOG_ERROR
 echo "3. Make Build ..."
 echo "3. Make Build ..." >> $LFSLOG_PROCESS
 echo "3. Make Build ..." >> $PKGLOG_ERROR
-LC_ALL=en_US.UTF-8 make > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
+LC_ALL=en_US.UTF-8  \
+    make > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 
 echo "4. Make Check ..."
 echo "4. Make Check ..." >> $LFSLOG_PROCESS

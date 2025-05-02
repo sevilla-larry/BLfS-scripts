@@ -37,7 +37,7 @@
 #
 
 export PKG="libxkbcommon-1.8.0"
-export PKGLOG_DIR=$LFSLOG/09.71.$PKGPASS
+export PKGLOG_DIR=$LFSLOG/09.71.1
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
@@ -74,14 +74,14 @@ echo "3. Ninja Build ..." >> $LFSLOG_PROCESS
 echo "3. Ninja Build ..." >> $PKGLOG_ERROR
 ninja > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 
-echo "4. Ninja Test ..."
-echo "4. Ninja Test ..." >> $LFSLOG_PROCESS
-echo "4. Ninja Test ..." >> $PKGLOG_ERROR
-ninja test > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
+# echo "4. Ninja Test ..."
+# echo "4. Ninja Test ..." >> $LFSLOG_PROCESS
+# echo "4. Ninja Test ..." >> $PKGLOG_ERROR
+# ninja test > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
 
-echo "5. Ninja Install ..."
-echo "5. Ninja Install ..." >> $LFSLOG_PROCESS
-echo "5. Ninja Install ..." >> $PKGLOG_ERROR
+echo "4. Ninja Install ..."
+echo "4. Ninja Install ..." >> $LFSLOG_PROCESS
+echo "4. Ninja Install ..." >> $PKGLOG_ERROR
 ninja install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 
