@@ -6,8 +6,6 @@ d4bf13ddd1e6d607d039d39286f9e3d0 json-glib-1.10.6.tar.xz
 930f71d788cf37505a0327c1b84741be libtasn1-4.20.0.tar.gz
 # 09.69 libusb-1.0.27
 1fb61afe370e94f902a67e03eb39c51f libusb-1.0.27.tar.bz2
-# 09.71 libxkbcommon-1.8.0
-e63cb7f5a395a1575246717882b96664 libxkbcommon-1.8.0.tar.xz
 
 # 10.06 FriBidi-1.0.16
 333ad150991097a627755b752b87f9ff fribidi-1.0.16.tar.xz

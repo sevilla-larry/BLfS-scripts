@@ -6,8 +6,6 @@ https://download.gnome.org/sources/libgudev/238/libgudev-238.tar.xz
 https://ftp.gnu.org/gnu/libtasn1/libtasn1-4.20.0.tar.gz
 # 09.69 libusb-1.0.27
 https://github.com/libusb/libusb/releases/download/v1.0.27/libusb-1.0.27.tar.bz2
-# 09.71 libxkbcommon-1.8.0
-https://github.com/lfs-book/libxkbcommon/archive/v1.8.0/libxkbcommon-1.8.0.tar.gz
 
 # 10.06 FriBidi-1.0.16
 https://github.com/fribidi/fribidi/releases/download/v1.0.16/fribidi-1.0.16.tar.xz

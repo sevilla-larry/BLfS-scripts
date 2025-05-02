@@ -1,45 +1,51 @@
+# 09.71 libxkbcommon-1.8.0
+e63cb7f5a395a1575246717882b96664 libxkbcommon-1.8.0.tar.xz
+
 # 24.02 ---> .07
-35a4f264a9852be4ae66f07d4100356e util-macros-1.20.1.tar.xz
+5f683a1966834b0a6ae07b3680bcb863 util-macros-1.20.2.tar.xz
 12374d29fb5ae642cfa872035e401640 xorgproto-2024.1.tar.xz
-7f14ba9c84a81a2b9dd023706febab38 libXau-1.0.11.tar.xz
+4c9f81acf00b62e5de56a912691bd737 libXau-1.0.12.tar.xz
 ce0af51de211e4c99a111e64ae1df290 libXdmcp-1.1.5.tar.xz
 c415553d2ee1a8cea43c3234a079b53f xcb-proto-1.17.0.tar.xz
 96565523e9f9b701fcb35d31f1d4086e libxcb-1.17.0.tar.xz
 # 24.08 Xorg Libraries
-# 24.09 ---> .17
-b553fdb6024c5a137ff925bf4c337724 libxcvt-0.1.2.tar.xz
+# 24.09 ---> .10
+7fb9c51d33a680f724f34da41768b1d0 libxcvt-0.1.3.tar.xz
 34d749eab0fd0ffd519ac64798d79847 xcb-util-0.4.1.tar.xz
-a67bfac2eff696170259ef1f5ce1b611 xcb-util-image-0.4.1.tar.xz
-fbdc05f86f72f287ed71b162f1a9725a xcb-util-keysyms-0.4.1.tar.xz
-193b890e2a89a53c31e2ece3afcbd55f xcb-util-renderutil-0.3.10.tar.xz
-581b3a092e3c0c1b4de6416d90b969c3 xcb-util-wm-0.4.2.tar.xz
-0d244518ad54b886413fe782235d6210 xcb-util-cursor-0.1.4.tar.xz
-0f4de2192e63b438637b98937ac85a10 mesa-24.1.5.tar.xz
+# 24.11 XCB Utilities
+# 24.12 ---> .13
+c64b7e2b4f1c7782c41bf022edbb365c mesa-24.3.4.tar.xz
+#								 mesa-add_xdemos-4.patch
 2b03f89d78fb91671370e77d7ad46907 xbitmaps-1.1.3.tar.xz
-# 24.18 Xorg Applications
-# 24.19 ---> .20
-b69a0819905ad8dc4bf82d25f24037a4 luit-20240102.tgz
+# 24.14 Xorg Applications
+# 24.15 ---> .16
+c9db8c12a3ad697a075179f07b099eaf luit-20240910.tgz
 070993be1f010b09447ea24bab2c9846 xcursor-themes-1.0.7.tar.xz
-# 24.21 Xorg Fonts
-# 24.22
-2d3b7e43e597f4c607ad6261e2b3d77f xkeyboard-config-2.42.tar.xz
-# 24.23 Xwayland-24.1.4 (errata)
-c0d6f4a2c16844c7af70e30e330ace3c xwayland-24.1.4.tar.xz
-# 24.24 Xorg-Server-21.1.14 (errata)
-79c7a0058e247fe7b94b8159d4a6f4f5 xorg-server-21.1.14.tar.xz
-# 24.25.1 .1 ---> 4 Xorg Input Drivers
-ddb1d798e0f2b4d0bd17c892b7d4aed3 libevdev-1.13.2.tar.xz
-e8bd1edc6751f92e425cae7eba3c61eb xf86-input-evdev-2.10.6.tar.bz2
-aae34911d662f77c1cd9be60c8502664 libinput-1.26.1.tar.gz
-b52a1fc7456cf6595a9a1004287551a3 xf86-input-libinput-1.4.0.tar.xz
-# 24.26 ---> .29
+# 24.17 Xorg Fonts
+# 24.18 ---> .20
+623a88fe63c6aefe3621bdfd5ba72764 xkeyboard-config-2.44.tar.xz
+78067c218323fe2a496ca5f2145fe7ab xwayland-24.1.6.tar.xz
+f1a5ec0939c0efd7fde1418989b579db xorg-server-21.1.16.tar.xz
+### No TearFree will be installed
+###								 xorg-server-21.1.16-tearfree_backport-1.patch
+# 24.21.1 ---> .4 Xorg Input Drivers
+57ee77b7d4c480747e693779bb92fb84 libevdev-1.13.3.tar.xz
+faa89be0ef86aebd6fd0a03eed23839c xf86-input-evdev-2.11.0.tar.bz2
+3b311d8953f8717f711a78b60087997e libinput-1.27.1.tar.gz
+f8d0fb6987d843e688d597c2b66ec824 xf86-input-libinput-1.5.0.tar.xz
+# 24.22 ---> .25
 805ee08b5a87e1103dfe2eb925b613b4 twm-1.0.12.tar.xz
-1ac5147362addade51c4e627d8cb328f xterm-393.tgz
+f8bffb37b6dcbb9757c2a8f7484e5085 xterm-397.tgz
 1273e3f4c85f1801be11a5247c382d07 xclock-1.1.1.tar.xz
-0e9a1b9a82b84ab229c709c0f939c113 xinit-1.4.2.tar.xz
+2f82c02a9408cbb5a6191c4b62763438 xinit-1.4.3.tar.xz
 
-# 25.34 Libdrm-2.4.122
-143c8df50e09cd1eeb1fb53f05ecb64a libdrm-2.4.122.tar.xz
+# 24.32.4 DejaVu fonts
+#								 dejavu-fonts-ttf-2.37.tar.bz2
+# 24.32.9 Noto fonts - try 1st DejaVu
+#								 v20201206-phase3.tar.gz
+
+# 25.34 Libdrm-2.4.124
+78f7f7ee6aff711696d4b34465b40728 libdrm-2.4.124.tar.xz
 # 25.35 libepoxy-1.5.10
 10c635557904aed5239a4885a7c4efb7 libepoxy-1.5.10.tar.xz
 
