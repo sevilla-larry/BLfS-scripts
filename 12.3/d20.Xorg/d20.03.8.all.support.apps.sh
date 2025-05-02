@@ -5,41 +5,11 @@
 
 ###
 
-# common to all
-bash b10.03.0.sh
-
-# common with MariaDB & Apache
-bash b10.03.6.sh
-
 # common with MariaDB
 bash b10.03.1.sh
 
-# common with PostgreSQL & ProFTPD
+# common with OpenStack
 bash b10.03.5.sh
-
-# common with PostgreSQL
-bash b10.03.2.sh
-
-# common with Apache
-bash b10.03.3.sh
-
-# common with ProFTPD
-bash b10.03.4.sh
-
-# common with OpenStack
-# Python Modules & Dependencies
-# PyTest & deps
-bash b10.03.7.sh
-
-# common with OpenStack
-# Python Modules 
-# after PyTest
-bash b10.03.8.sh
-
-# NOT common with OpenStack
-# Python Modules 
-# after PyTest
-# bash b10.03.9.sh		so far none
 
 ###
 

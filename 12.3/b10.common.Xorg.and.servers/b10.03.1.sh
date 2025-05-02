@@ -1,8 +1,6 @@
-# d20.03.1.Part08.12.1.VM.sh
+# b10.03.1.sh
 #
-# Graphical Environments
-#
-#   d20.24.12 Mesa	- for VM
+# Common with MariaDB for LibreOffice
 #
 
 export LFSLOG_PROCESS=$LFSLOG/process.log
@@ -12,10 +10,10 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
 #####
 
-echo "d20.24.12.Mesa-24.3.4"
-echo "d20.24.12.Mesa-24.3.4" >> $LFSLOG_PROCESS
+echo "b10.11.21.unixODBC-2.3.12"
+echo "b10.11.21.unixODBC-2.3.12" >> $LFSLOG_PROCESS
 
-time { bash d20.24.12.Mesa-24.3.4-1.VM.sh ; }
+time { bash b10.11.21.unixODBC-2.3.12.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

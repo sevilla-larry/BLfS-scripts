@@ -22,8 +22,6 @@ https://www.python.org/ftp/python/doc/3.11.1/python-3.11.1-docs-html.tar.bz2
 https://github.com/cython/cython/releases/download/3.0.12/cython-3.0.12.tar.gz
 # 13.24.17 psutil-7.0.0
 https://files.pythonhosted.org/packages/source/p/psutil/psutil-7.0.0.tar.gz
-# 13.24.28 PyYAML-6.0.2
-https://files.pythonhosted.org/packages/source/P/PyYAML/pyyaml-6.0.2.tar.gz
 # 13.24.30 Requests-2.32.3
 https://files.pythonhosted.org/packages/source/r/requests/requests-2.32.3.tar.gz
 https://www.linuxfromscratch.org/patches/blfs/12.2/requests-2.32.3-use_system_certs-1.patch

@@ -1,14 +1,32 @@
-# b30.09.76.libyaml-0.2.5.sh
+# d10.49.06.xmlto-0.0.29.sh
+#
+
+#
+# Dependencies Required:
+#
+#               a.08.91.38 libxslt-1.1.43 (errata)
+#               a.08.91.36 docbook-xml-4.5
+#               a.08.91.37 docbook-xsl-nons-1.79.2
 #
 
 #
 # Required by:
 #
-#               b30.13.23.28 PyYAML-6.0.2
+#               ??? RabbitMQ ???
+#
+# Optionally by
+#
+#               d10.12.11 dbus-1.16.0
+#               d20.24.03 xorgproto-2024.1
+#               d20.24.05 libXdmcp-1.1.5
+#               d20.24.08 Xorg.Libraries
+#               d20.12.11 dbus-1.16.0
+#               d20.24.19 Xwayland-24.1.6
+#               d20.24.20 Xorg-Server-21.1.16
 #
 
-export PKG="yaml-0.2.5"
-export PKGLOG_DIR=$LFSLOG/09.76
+export PKG="xmlto-0.0.29"
+export PKGLOG_DIR=$LFSLOG/49.06
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
@@ -16,7 +34,7 @@ export PKGLOG_CHECK=$PKGLOG_DIR/check.log
 export PKGLOG_INSTALL=$PKGLOG_DIR/install.log
 export PKGLOG_ERROR=$PKGLOG_DIR/error.log
 export LFSLOG_PROCESS=$LFSLOG/process.log
-export SOURCES= `pwd`
+export SOURCES=`pwd`
 
 rm -r $PKGLOG_DIR 2> /dev/null
 mkdir $PKGLOG_DIR
@@ -31,9 +49,11 @@ cd $PKG
 echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
 echo "2. Configure ..." >> $PKGLOG_ERROR
-./configure --prefix=/usr          \
-            --disable-static       \
-          > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+autoreconf -fiv                 \
+            > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+LINKS="/usr/bin/links"          \
+    ./configure --prefix=/usr   \
+           >> $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Make Build ..."
 echo "3. Make Build ..." >> $LFSLOG_PROCESS

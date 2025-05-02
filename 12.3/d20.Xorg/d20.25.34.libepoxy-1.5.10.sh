@@ -8,6 +8,10 @@
 #
 
 #
+# Required by:
+#
+#               GTK 3
+#
 # Recommended ( but needed ) by:
 #
 #               d20.24.19 Xwayland-24.1.6

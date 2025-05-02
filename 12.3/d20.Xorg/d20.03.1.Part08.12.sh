@@ -1,7 +1,8 @@
-# b30.03.3.py.3.11.sh
+# d20.03.1.Part08.12.3.PC.sh
 #
-# Recompile Python after SQLite
-# called from OpenStack
+# Graphical Environments
+#
+#   d20.24.12 Mesa
 #
 
 export LFSLOG_PROCESS=$LFSLOG/process.log
@@ -11,10 +12,10 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
 #####
 
-echo "g11.13.21.Python-3.11.10"
-echo "g11.13.21.Python-3.11.10" >> $LFSLOG_PROCESS
+echo "d20.24.12.Mesa-24.3.4"
+echo "d20.24.12.Mesa-24.3.4" >> $LFSLOG_PROCESS
 
-time { bash g11.13.21.Python-3.11.10.sh ; }
+time { bash d20.24.12.Mesa-24.3.4.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

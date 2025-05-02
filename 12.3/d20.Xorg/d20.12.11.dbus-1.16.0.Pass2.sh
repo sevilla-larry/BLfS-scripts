@@ -6,6 +6,10 @@
 #
 #               d20.24.08 Xorg Libraries (dbus-launch)
 #
+# Dependencies Optional:
+#
+#               d10.49.06 xmlto-0.0.29
+#
 
 #
 # Required by:
@@ -15,16 +19,16 @@
 #
 # Recommended by:
 #
-#               d20.24.24 Xorg-Server-21.1.13
+#               d20.24.20 Xorg-Server-21.1.16
 #               e12.25.42 Qt-6.7.2
 #
-# Recommended (runtime):
+# Recommended (runtime) by:
 #
-#               d10.12.11 elogind-255.5
+#               d10.12.12 elogind-255.17
 #
 # Runtime needed by:
 #
-#               d10.09.17 GLib-2.80.4
+#               d10.09.17 GLib-2.82.5
 #
 # Optional by:
 #
@@ -32,7 +36,7 @@
 #
 
 #
-# Note: initially tests are EXcluded due to complications
+# Note: tests are EXcluded due to complications
 #
 
 export PKG="dbus-1.16.0"

@@ -7,11 +7,15 @@
 #               d10.10.05 Fontconfig-2.16.0
 #               d20.24.07 libxcb-1.17.0
 #
+# Dependencies Optional:
+#
+#               d10.49.06  xmlto-0.0.29
+#
 
 #
 # Required by:
 #
-#               d20.24.12 Mesa-24.1.5
+#               d20.24.12 Mesa-24.3.4
 #               d20.24.18 XKeyboardConfig-2.44
 #               d20.24.24 xclock-1.1.1
 #               d20.24.25 xinit-1.4.3

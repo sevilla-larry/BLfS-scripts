@@ -7,6 +7,10 @@
 #               d20.24.21.1 libevdev-1.13.3
 #               d10.09.79   mtdev-1.1.7
 #
+# Dependencies Optional:
+#
+#               a.08.91.20.10 Pytest-8.3.4
+#
 
 #
 # Required by:

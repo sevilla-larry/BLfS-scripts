@@ -4,7 +4,14 @@
 #
 # Dependencies Required:
 #
-#               b10.09.72 libxml2-2.13.3
+#               a.08.91.08 libxml2-2.13.6
+#
+# Dependencies Optional:
+#
+#               d10.49.06  xmlto-0.0.29
+#               a.08.91.36 docbook-xml-4.5
+#               a.08.91.37 docbook-xsl-nons-1.79.2
+#               a.08.91.38 libxslt-1.1.43
 #
 
 #

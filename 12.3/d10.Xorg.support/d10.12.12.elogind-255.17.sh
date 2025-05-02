@@ -4,16 +4,22 @@
 #
 # Dependencies Recommended (required for Xorg):
 #
-#               a.08.94B Linux-PAM-1.6.1
+#               a.08.92.01 Linux-PAM-1.7.0
 #
-# Dependencies Recommended:
+# Dependencies Recommended (runtime):
 #
 #               d10.12.11 dbus-1.16.0   ( runtime )
 #               d10.04.20 Polkit-126    ( runtime )
 #
+# Dependencies Recommended:
+#
+#               a.08.91.36 docbook-xml-4.5
+#               a.08.91.37 docbook-xsl-nons-1.79.2
+#               a.08.91.38 libxslt-1.1.43 (errata)
+#
 # Dependencies Optional:
 #
-#               b10.13.24.12 lxml-5.3.1
+#               d10.13.24.12 lxml-5.3.1
 #
 
 #

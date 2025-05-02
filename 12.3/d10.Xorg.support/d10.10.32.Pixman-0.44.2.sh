@@ -5,15 +5,15 @@
 # Dependencies Optional:
 #
 #               d10.10.22 libpng-1.6.43
-#						  GTK+-2.24.33	( NOT installed )
+#						  GTK-3.24.48	( NOT installed )
 #
 
 #
 # Required by:
 #
-#               d20.24.23 Xwayland-24.1.2
-#               d20.24.24 Xorg-Server-21.1.13
-#				e21.25.04 Cairo-1.18.0.sh
+#               d20.24.19 Xwayland-24.1.6
+#               d20.24.20 Xorg-Server-21.1.16
+#				e21.25.04 Cairo-1.18.0.sh		???
 #
 
 export PKG="pixman-0.44.2"
@@ -54,11 +54,11 @@ echo "3. Ninja Build ..." >> $PKGLOG_ERROR
 ninja > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 
 #
-# test needs GTK+-3.24.43
+# test needs GTK+-3.24.48
 #	which is NOT installed
 #   since it will be circular
 #
-# GTK+-3.24.43 requires Pango-1.54.0
+# GTK+-3.24.48 requires Pango-1.54.0
 # Pango-1.54.0 recommends Cairo-1.18.2, Xorg
 # Cairo-1.18.2 requires Pixman-0.43.4, Xorg
 #

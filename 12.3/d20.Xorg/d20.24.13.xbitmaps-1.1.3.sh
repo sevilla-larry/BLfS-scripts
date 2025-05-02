@@ -10,7 +10,7 @@
 #
 # Required by:
 #
-#               d20.24.18 Xorg Applications
+#               d20.24.14 Xorg Applications
 #
 
 export PKG="xbitmaps-1.1.3"

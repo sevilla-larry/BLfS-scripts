@@ -4,7 +4,7 @@
 #
 # Dependencies Required:
 #
-#               d20.24.21.1 libevdev-1.13.2
+#               d20.24.21.1 libevdev-1.13.3
 #               d10.09.79   mtdev-1.1.7
 #               d20.24.20   Xorg-Server-21.1.16
 #

@@ -1,31 +1,47 @@
-# d20.24.18.XKeyboardConfig-2.44.sh
+# d20.09.71.libxkbcommon-1.8.0.sh
+# Pass 1 without Xvfb
 #
 
 #
-# Dependencies Required:
+# Dependencies Required (runtime):
 #
-#               d20.24.08 Xorg Libraries
+#               d20.24.18 XKeyboardConfig-2.44
+#
+# Dependencies Recommended:
+#
+#               d20.24.07 libxcb-1.17.0
+#               d10.09.97 Wayland-1.23.0
+#               d10.09.98 Wayland-Protocols-1.40
 #
 # Dependencies Optional:
 #
-#               d20.09.71     libxkbcommon-1.8.0
-#               a.08.91.20.10 Pytest-8.3.4
-#               d20.24.14     Xorg.Applications
+#           PASS=1, not yet Installed
+#               Xvfb from
+#                   d20.24.20 Xorg-Server-21.1.16
+#                or
+#                   d20.24.23 Xwayland-24.1.6
 #
 
 #
-# Runtime Required by:
+# Recommended (but required) by:
 #
-#               d20.24.20 Xorg-Server-21.1.16
+#               e21.25.17 GTK+-3.24.43
+#
+# Recommended by:
+#
+#               e12.25.42 Qt-6.7.2
+#
+# Optional (required for test) by:
+#
+#               d20.24.18 XKeyboardConfig-2.44
 #
 
-export PKG="xkeyboard-config-2.44"
-export PKGLOG_DIR=$LFSLOG/24.18
+export PKG="libxkbcommon-1.8.0"
+export PKGLOG_DIR=$LFSLOG/09.71.$PKGPASS
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
 export PKGLOG_CHECK=$PKGLOG_DIR/check.log
-#export PKGLOG_OTHERS=$PKGLOG_DIR/others.log
 export PKGLOG_INSTALL=$PKGLOG_DIR/install.log
 export PKGLOG_ERROR=$PKGLOG_DIR/error.log
 export LFSLOG_PROCESS=$LFSLOG/process.log
@@ -41,16 +57,17 @@ tar xvf $PKG.tar.xz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
 
 
-mkdir build
-cd    build
+mkdir build 
+cd    build 
 
-echo "2. Meson ..."
-echo "2. Meson ..." >> $LFSLOG_PROCESS
-echo "2. Meson ..." >> $PKGLOG_ERROR
-meson setup     --prefix=$XORG_PREFIX   \
-                --buildtype=release     \
-                ..                      \
-        > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+echo "2. Meson Setup ..."
+echo "2. Meson Setup ..." >> $LFSLOG_PROCESS
+echo "2. Meson Setup ..." >> $PKGLOG_ERROR
+meson setup ..              \
+      --prefix=/usr         \
+      --buildtype=release   \
+      -D enable-docs=false  \
+      > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Ninja Build ..."
 echo "3. Ninja Build ..." >> $LFSLOG_PROCESS
@@ -72,8 +89,7 @@ cd $SOURCES
 rm -rf $PKG
 unset SOURCES
 unset LFSLOG_PROCESS
-#unset PKGLOG_OTHERS
-unset PKGLOG_CHECK
 unset PKGLOG_INSTALL PKGLOG_BUILD PKGLOG_CONFIG
+unset PKGLOG_CHECK
 unset PKGLOG_ERROR PKGLOG_TAR
 unset PKGLOG_DIR PKG

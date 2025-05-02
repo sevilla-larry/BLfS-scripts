@@ -8,7 +8,8 @@
 #
 # Optional:
 #
-#               b10.09.74 libxslt-1.1.42
+#               d10.49.06  xmlto-0.0.29
+#               a.08.91.38 libxslt-1.1.43 (errata)
 #
 
 #

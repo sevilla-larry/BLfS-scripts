@@ -13,13 +13,14 @@
 #
 # Optional:
 #
-#               d10.09.74 libxslt-1.1.42
+#               a.08.91.38 libxslt-1.1.43 (errata)
 #
 
 #
 # Required by:
 #
 #               d20.24.08 Xorg Libraries
+#               d20.24.10 xcb-util-0.4.1
 #               d20.24.11 XCB Utilities
 #
 

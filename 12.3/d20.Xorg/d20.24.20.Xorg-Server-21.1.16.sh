@@ -10,8 +10,10 @@
 #
 # Dependencies Recommended (but neeeded):
 #
-#               d20.12.11 dbus-1.16.0.Pass2
-#               d20.25.34 libepoxy-1.5.10
+#               d20.12.11  dbus-1.16.0.Pass2
+#               d20.25.34  libepoxy-1.5.10
+#               a.08.91.15 libtirpc-1.3.6
+#               d20.24.12  Mesa-24.3.4              (implied)
 #
 # Dependencies Runtime Required:
 #
@@ -19,12 +21,15 @@
 #
 # Dependencies Runtime Recommended:
 #
-#               d10.12.12 elogind-255.17
+#               d10.12.12   elogind-255.17
 #               d20.24.21.4 Xorg Libinput Driver 1.5.0
 #
 # Dependencies Optional:
 #
-#               d20.24.11 XCB Utilities
+#               a.08.91.10 Nettle-3.10.1
+#               a.08.91.35 libgcrypt-1.11.0
+#               d20.24.11  XCB Utilities
+#               d10.49.06  xmlto-0.0.29
 #
 
 #
@@ -32,8 +37,8 @@
 #
 #               d20.24.21.2 Xorg Evdev Driver 2.11.0
 #               d20.24.21.4 Xorg Libinput Driver 1.5.0
-#               d20.24.22 twm-1.0.12
-#               f22.26.02 lightdm-1.32.0
+#               d20.24.22   twm-1.0.12
+#               f22.26.02   lightdm-1.32.0
 #
 
 #
@@ -111,8 +116,8 @@ ninja > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 echo "4. Ninja Test ..."
 echo "4. Ninja Test ..." >> $LFSLOG_PROCESS
 echo "4. Ninja Test ..." >> $PKGLOG_ERROR
-ldconfig
-ninja test > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
+ldconfig -v > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
+ninja test >> $PKGLOG_CHECK 2>> $PKGLOG_ERROR
 
 echo "5. Ninja Install ..."
 echo "5. Ninja Install ..." >> $LFSLOG_PROCESS

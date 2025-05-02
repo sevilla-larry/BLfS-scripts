@@ -4,19 +4,19 @@
 #
 # Required by:
 #
-#               d20.24.18 Xorg Applications     ???
-#				e21.25.04 Cairo-1.18.0
-#               ???.25.12 gdk-pixbuf-2.42.10    ???
+#               d20.24.14 Xorg Applications
+#				e21.25.04 Cairo-1.18.0          ???
+#               e10.25.12 gdk-pixbuf-2.42.10    ???
 #
 # Recommended by:
 #
-#               d10.10.04 FreeType-2.13.3
-#               e12.25.42 Qt-6.7.2
-#               e12.10.27 libwebp-1.4.0
+#               d10.10.04 FreeType-2.13.3       ???
+#               e12.25.42 Qt-6.7.2              ???
+#               e12.10.27 libwebp-1.4.0         ???
 #
 # Optional by:
 #
-#               d10.10.32 Pixman-0.43.4
+#               d10.10.32 Pixman-0.43.4         ???
 #
 
 export PKG="libpng-1.6.46"

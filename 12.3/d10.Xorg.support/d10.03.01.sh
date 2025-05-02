@@ -22,6 +22,34 @@ echo "."
 
 ###
 
+echo "d10.49.06.xmlto-0.0.29"
+echo "d10.49.06.xmlto-0.0.29" >> $LFSLOG_PROCESS
+
+time { bash d10.49.06.xmlto-0.0.29.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "d10.13.23.12.lxml-5.3.1"
+echo "d10.13.23.12.lxml-5.3.1" >> $LFSLOG_PROCESS
+
+time { bash d10.13.23.12.lxml-5.3.1.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
 echo "d10.12.12.elogind-255.17"
 echo "d10.12.12.elogind-255.17" >> $LFSLOG_PROCESS
 

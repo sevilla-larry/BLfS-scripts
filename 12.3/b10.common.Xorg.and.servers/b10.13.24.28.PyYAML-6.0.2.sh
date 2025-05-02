@@ -2,16 +2,14 @@
 #
 
 #
-# Dependencies Optional:
-#
-#               b10.13.23.26 Pytest-8.3.4
-#
-
-#
 # Dependencies Required:
 #
-#               b10.13.24.04 Cython-3.0.12
-#               b10.09.76    libyaml-0.2.5
+#               a.08.91.20.11 Cython-3.0.12
+#               b10.09.76     libyaml-0.2.5
+#
+# Dependencies Optional:
+#
+#               a.08.91.20.10 Pytest-8.3.4
 #
 
 #

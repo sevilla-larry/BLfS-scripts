@@ -4,25 +4,29 @@
 #
 # Dependencies Required:
 #
-#               b10.13.03 CMake-3.30.2
+#               a.08.9x.01   CMake-3.31.5
 #
 # Dependencies Optional:
 #
-#               b10.09.72 libxml2-2.13.3
+#               a.08.93.05   Git-2.48.1
+#               a.08.91.08   libxml2-2.13.6
+#               b10.13.24.17 psutil-7.0.0
+#               b10.13.24.28 PyYAML-6.0.2
+#               a.08.91.04   Zip-3.0
 #
 
 #
 # Required by:
 #
-#               g12.40.03 Firefox-128.4.0esr (errata)
+#               g12.40.03??? Firefox-128.4.0esr (errata)
 #
 # Recommended by:
 #
-#               g12.39.03 LibreOffice-24.8.0
+#               g12.39.03??? LibreOffice-24.8.0
 #
 # Recommended ( but needed ) by:
 #
-#               d20.24.16 Mesa-24.1.5 ( PC )
+#               d20.24.12 Mesa-24.3.4
 #
 
 export PKG="llvm-19.1.7.src"
@@ -90,7 +94,7 @@ cmake -D CMAKE_INSTALL_PREFIX=/usr                  \
       -D LLVM_BUILD_LLVM_DYLIB=ON                   \
       -D LLVM_LINK_LLVM_DYLIB=ON                    \
       -D LLVM_ENABLE_RTTI=ON                        \
-      -D LLVM_TARGETS_TO_BUILD="host;AMDGPU"        \
+      -D LLVM_TARGETS_TO_BUILD="host"               \
       -D LLVM_BINUTILS_INCDIR=/usr/include          \
       -D LLVM_INCLUDE_BENCHMARKS=OFF                \
       -D CLANG_DEFAULT_PIE_ON_LINUX=ON              \
@@ -112,9 +116,10 @@ ninja > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 # ninja docs-clang-html docs-clang-man
 #     > $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
 
-rm -vf ../projects/compiler-rt/test/tsan/getline_nohang.cpp \
-    > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
-
+sed -e 's/config.has_no_default_config_flag/True/'      \
+    -i ../projects/compiler-rt/test/lit.common.cfg.py   \
+    >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
+L
 echo "4. Ninja Check ..."
 echo "4. Ninja Check ..." >> $LFSLOG_PROCESS
 echo "4. Ninja Check ..." >> $PKGLOG_ERROR

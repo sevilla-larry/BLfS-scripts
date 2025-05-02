@@ -24,9 +24,9 @@ https://www.x.org/pub/individual/data/xcursor-themes-1.0.7.tar.xz
 # 24.21 Xorg Fonts
 # 24.22 
 https://www.x.org/pub/individual/data/xkeyboard-config/xkeyboard-config-2.44.tar.xz
-# 24.23 Xwayland-24.1.6 (errata)
+# 24.23 Xwayland-24.1.6
 https://www.x.org/pub/individual/xserver/xwayland-24.1.6.tar.xz
-# 24.24 Xorg-Server-21.1.16 (errata)
+# 24.24 Xorg-Server-21.1.16
 https://www.x.org/pub/individual/xserver/xorg-server-21.1.16.tar.xz
 ### No TearFree will be installed
 ###https://www.linuxfromscratch.org/patches/blfs/12.3/xorg-server-21.1.16-tearfree_backport-1.patch
@@ -56,6 +56,6 @@ https://github.com/intel/intel-vaapi-driver/releases/download/2.4.1/intel-vaapi-
 # 42.41 libva-2.22.0
 https://github.com/intel/libva/archive/2.22.0/libva-2.22.0.tar.gz
 # 42.42 libvdpau-1.5
-https://gitlab.freedesktop.org/vdpau/libvdpau/-/archive/1.5/libvdpau-1.5.tar.bz2
+#https://gitlab.freedesktop.org/vdpau/libvdpau/-/archive/1.5/libvdpau-1.5.tar.bz2
 # 42.43 libvdpau-va-gl-0.4.2
-https://github.com/i-rinat/libvdpau-va-gl/archive/v0.4.2/libvdpau-va-gl-0.4.2.tar.gz
+#https://github.com/i-rinat/libvdpau-va-gl/archive/v0.4.2/libvdpau-va-gl-0.4.2.tar.gz

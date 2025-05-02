@@ -9,15 +9,24 @@
 #               d20.24.13 xbitmaps-1.1.3
 #               d20.24.10 xcb-util-0.4.1
 #
+# Dependencies Optional:
+#
+#               a.08.92.01 Linux-PAM-1.7.0
+#
 
 #
 # Required by:
 #
+#               d20.24.15 luit-20240910
 #               d20.24.16 xcursor-themes-1.0.7
 #
 # Runtime Required by:
 #
 #               d20.24.19 Xwayland-24.1.6
+#
+# Optional (required for test) by:
+#
+#               d20.24.18 XKeyboardConfig-2.44
 #
 
 #
@@ -83,7 +92,10 @@ do
 
 done
 
+rm -vf $XORG_PREFIX/bin/xkeystone
+
 #exit
+
 
 cd $SOURCES
 rm -rf $PKG

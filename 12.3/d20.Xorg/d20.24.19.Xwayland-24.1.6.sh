@@ -11,14 +11,20 @@
 #
 # Dependencies Recommended:
 #
-#               d20.25.34 libepoxy-1.5.10
-#               d20.24.12 Mesa-24.3.4
+#               d20.25.34  libepoxy-1.5.10
+#               a.08.91.15 libtirpc-1.3.6
+#               d20.24.12  Mesa-24.3.4
 #
-# Dependencies Runtime
+# Dependencies Runtime:
 #
 #               d20.24.14 Xorg.Applications
 #
-
+# Dependencies Optional:
+#
+#               a.08.93.05 Git-2.48.1
+#               a.08.91.35 libgcrypt-1.11.0
+#               a.08.91.10 Nettle-3.10.1
+#               d10.49.06  xmlto-0.0.29
 #
 #   read NOTES at: https://www.linuxfromscratch.org/blfs/view/12.3/x/xwayland.html
 #

@@ -4,11 +4,15 @@
 #
 # Dependencies Required:
 #
-#               d20.24.14 Xorg Applications
+#               d20.24.15 luit-20240910
 #
 # Dependencies Required Runtime:
 #
 #               d20.24.28.04 Dejavu-fonts-ttf-2.37
+#
+# Dependencies Optional:
+#
+#               a.08.91.11 PCRE2-10.45
 #
 
 #

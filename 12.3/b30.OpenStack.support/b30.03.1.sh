@@ -120,17 +120,17 @@ echo "."
 
 ###
 
-echo "b30.09.76.libyaml-0.2.5"
-echo "b30.09.76.libyaml-0.2.5" >> $LFSLOG_PROCESS
-
-time { bash b30.09.76.libyaml-0.2.5.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
+# echo "b10.49.06.xmlto-0.0.29"
+# echo "b10.49.06.xmlto-0.0.29" >> $LFSLOG_PROCESS
+#
+# time { bash b10.49.06.xmlto-0.0.29.sh ; }
+#
+# date +"%Y/%b/%d %H:%M"
+# date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+# 
+# echo "." >> $LFSLOG_PROCESS
+# echo "."
+# echo "."
 
 #####
 

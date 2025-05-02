@@ -22,8 +22,6 @@ fc3f3291353bbe6ee6dec85ee61331e8 lua-5.4.7.tar.gz
 ab61fac00686d611197fba10c37f30e5 cython-3.0.12.tar.gz
 # 13.24.17 psutil-7.0.0
 1c074ff5828dff3a3ecfa0e0f9de2e63 psutil-7.0.0.tar.gz
-# 13.24.28 PyYAML-6.0.2
-9600ee49b2b4e1a0237cf4173b6dc594 pyyaml-6.0.2.tar.gz
 # 13.24.30 Requests-2.32.3
 fa3ee5ac3f1b3f4368bd74ab530d3f0f requests-2.32.3.tar.gz
 #patch

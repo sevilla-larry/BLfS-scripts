@@ -7,39 +7,31 @@
 #
 # based on: https://www.linuxfromscratch.org/blfs/
 #
-# BLfS version: 12.2
-# Started: 2024/Sept/04
+# BLfS version: 12.3
+# Started: 2025/March/29
 # arch: x64, UEFI (same with LfS-Scripts)
 # Status: current
 #
-# Note: on Firefox app, select the Python version installed during LfS creation:
+# about Python
+#	LfS 12.3 uses Python 3.13.x
+#		but will use Python 3.12.x due to OpenStack 2025.1 Epoxy
 #
-#       Python 3.11.x is tested on OpenStack 2024.2
-#       Python 3.11.10 is used/installed
-#
-#       Python 3.12.8 is errata update on LfS ver 12.2
-#
-#       Python 3.13.x is alternative upgrade
-#
-# some updates based on sequence/dependencies by:
-#		https://www.linuxfromscratch.org/glfs/
-#		https://glfs-book.github.io/glfs/
-#	but exclude Steam & Wine
-# 
 # a: LfS			- working
-# 
-# c11: MariaDB		- working
-# c12: PostgreSQL	- working
-# c13: Apache		- working
-# c14: ProFTPD		- working
 #
-# d20: Xorg			- working
+# c11: MariaDB		- 
+# c12: PostgreSQL	- 
+# c13: Apache		- 
+# c14: ProFTPD		- 
 #
-# e23: Xfce	with LightDM	- working
+# d20: Xorg			- 
 #
-# g63: Xfce Apps    - working but some issues
+# e23: Xfce	with LightDM	- 
+#
+# g63: Xfce Apps    - 
 #                   ( some problem with Adwaita theme / no themes )
 #
+
+
 #
 #
 # Groupings
@@ -78,6 +70,7 @@
 #		e11 - Common to Xfce & Gnome
 #		e12 - Common to LXQt & KDE
 #		e13 - Common to Gnome, LXQt & KDE
+#		e14 - Common to Xfce, Gnome & KDE
 #
 #		e21	- Xfce other Support
 #		e23 - Xfce Desktop
@@ -95,7 +88,7 @@
 #       e51	- KDE other Support
 #		e52 - KDE Preliminaries
 #		e53 - KDE Frameworks 6
-#		e54	- KDE Frameworks 6 Applications
+#		e54	- KDE Frameworks 6 Based Applications
 #		e55 - KDE Plasma
 #
 #		e61 - LXDE Support
@@ -122,6 +115,40 @@
 #
 
 
+#
+# BLfS version: 12.2
+# Started: 2024/Sept/04
+# arch: x64, UEFI (same with LfS-Scripts)
+# Status: working
+#
+# Note: on Firefox app, select the Python version installed during LfS creation:
+#
+#       Python 3.11.x is tested on OpenStack 2024.2
+#       Python 3.11.10 is used/installed
+#
+#       Python 3.12.8 is errata update on LfS ver 12.2
+#
+#       Python 3.13.x is alternative upgrade
+#
+# some updates based on sequence/dependencies by:
+#		https://www.linuxfromscratch.org/glfs/
+#		https://glfs-book.github.io/glfs/
+#	but exclude Steam & Wine
+# 
+# a: LfS			- working
+# 
+# c11: MariaDB		- working
+# c12: PostgreSQL	- working
+# c13: Apache		- working
+# c14: ProFTPD		- working
+#
+# d20: Xorg			- working
+#
+# e23: Xfce	with LightDM	- working
+#
+# g63: Xfce Apps    - working but some issues
+#                   ( some problem with Adwaita theme / no themes )
+#
 
 
 
