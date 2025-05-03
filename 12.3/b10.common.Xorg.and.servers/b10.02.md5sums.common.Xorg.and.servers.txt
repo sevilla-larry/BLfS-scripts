@@ -1,8 +1,13 @@
+# 09.76 libyaml-0.2.5
+bb15429d8fb787e7d3f1c83ae129a999 yaml-0.2.5.tar.gz
+
 # 11.21 unixODBC-2.3.12
 d62167d85bcb459c200c0e4b5a63ee48 unixODBC-2.3.12.tar.gz
 
 # 13.23    Python Modules
 # 13.23.13 Mako-1.3.9
 28b1b70e01a1240c90e97fab2f17e349 Mako-1.3.9.tar.gz
+# 13.24.17 psutil-7.0.0
+1c074ff5828dff3a3ecfa0e0f9de2e63 psutil-7.0.0.tar.gz
 # 13.24.28 PyYAML-6.0.2
 9600ee49b2b4e1a0237cf4173b6dc594 pyyaml-6.0.2.tar.gz

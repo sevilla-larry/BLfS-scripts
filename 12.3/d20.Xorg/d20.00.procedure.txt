@@ -151,8 +151,8 @@ C.  Generate BLFS - Graphical Components / Environments
   
   C.02. Install dbus scripts
 
-        cd /mnt/Src/lfs.src/blfs-bootscripts-20240416       # VM/VB
-        cd /usr/src/lfs/blfs-bootscripts-20240416           # PC
+        cd /mnt/Src/lfs.src/blfs-bootscripts-20250225       # VM/VB
+        cd /usr/src/lfs/blfs-bootscripts-20250225           # PC
 
         make install-dbus
 

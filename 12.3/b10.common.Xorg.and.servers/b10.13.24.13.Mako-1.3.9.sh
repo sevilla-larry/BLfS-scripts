@@ -15,7 +15,7 @@
 #
 # Optional by:
 #
-#               d10.09.17 GLib-2.80.4
+#               d10.09.17 GLib-2.82.5
 #
 
 export PKG="Mako-1.3.9"

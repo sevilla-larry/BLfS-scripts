@@ -1,0 +1,202 @@
+A. Preparation
+
+  A.01. ( Assumming XOrg & Xfce are already running )
+
+        cd /sources
+
+  A.02. Copy all script files
+
+        copy all script files from the following to /sources
+
+            1. g11.common.Xfce.Gnome.apps.support
+            2. g12.common.Xfce.Gnome.Apps
+            3. g63.Xfce.Apps.other
+
+  A.03. Download packages
+
+        ###
+
+        wget --input-file=g11.01.wget-list-sysv.common.Xfce.Gnome.apps.support.txt  --continue --directory-prefix=/sources
+        wget --input-file=g12.01.wget-list-sysv.common.Xfce.Gnome.Apps.txt          --continue --directory-prefix=/sources
+        wget --input-file=g63.01.wget-list-sysv.Xfce.apps.other.txt                 --continue --directory-prefix=/sources
+
+        ###
+
+        md5sum -c g11.02.md5sums.common.Xfce.Gnome.apps.support.txt
+        md5sum -c g12.02.md5sums.common.Xfce.Gnome.Apps.txt
+        md5sum -c g63.02.md5sums.Xfce.apps.other.txt
+
+        ###
+
+B.  Generate BLFS - Xfce Apps
+
+  B.01. Part 1 - up to Rustc
+
+        ###
+
+        ### for VMs/VBs
+        #  ALL
+        export MAKEFLAGS="-j$(nproc)"
+        export NPROC="$(nproc)"
+
+        ### for PC, MAKEFLAGS = procs / 2
+        ###export MAKEFLAGS="-j$(($(nproc)/2))" # PC
+        ###export NPROC="$(($(nproc)/2))"
+
+        export LFSLOG=/var/log/blfs
+
+        ###
+        #   same as XOrg Environment
+        ###
+        export XORG_PREFIX="/usr"
+
+        export XORG_CONFIG="--prefix=$XORG_PREFIX --sysconfdir=/etc \
+                            --localstatedir=/var --disable-static"
+
+        ###
+
+        echo $XORG_PREFIX     # /usr
+        echo $XORG_CONFIG     # --prefix=/usr --sysconfdir=/etc --localstatedir=/var --disable-static
+        echo $LFSLOG          # /var/log/blfs
+        echo $MAKEFLAGS       # -j$(nproc)
+        echo $NPROC           # $(nproc)
+
+        echo $SHELL           # /bin/bash
+        ls -l /bin/sh         # bash
+        ls -l /usr/bin/awk    # gawk
+
+        cd /sources
+
+        ###
+
+        ( display )
+        root [ /sources ]#
+
+        ###
+
+        bash g63.03.8.1.support.apps.sh
+
+      # bash g11.03.34.sh
+      # select same Python version installed during LfS creation
+        bash g11.03.34.py.3.11.sh
+        bash g11.03.34.py.3.12.sh
+        bash g11.03.34.py.3.13.sh
+
+        # after Rustc
+
+        reboot
+
+  B.02. Part 2 - after Rustc
+
+        ( Note: change the MAKEFLAGS based on the number of threads )
+
+        ###
+
+        ### for VMs/VBs
+        #  ALL
+        export MAKEFLAGS="-j$(nproc)"
+        export NPROC="$(nproc)"
+
+        ### for PC, MAKEFLAGS = procs / 2
+        ###export MAKEFLAGS="-j$(($(nproc)/2))" # PC
+        ###export NPROC="$(($(nproc)/2))"
+
+        export LFSLOG=/var/log/blfs
+
+        ###
+        #   same as XOrg Environment
+        ###
+        export XORG_PREFIX="/usr"
+
+        export XORG_CONFIG="--prefix=$XORG_PREFIX --sysconfdir=/etc \
+                            --localstatedir=/var --disable-static"
+
+        source /etc/profile.d/rustc.sh
+
+        ###
+
+        echo $XORG_PREFIX     # /usr
+        echo $XORG_CONFIG     # --prefix=/usr --sysconfdir=/etc --localstatedir=/var --disable-static
+        echo $LFSLOG          # /var/log/blfs
+        echo $MAKEFLAGS       # -j$(nproc)
+        echo $NPROC           # $(nproc)
+        echo $PATH            # /opt/rustc/bin (included)
+
+        echo $SHELL           # /bin/bash
+        ls -l /bin/sh         # bash
+        ls -l /usr/bin/awk    # gawk
+
+        cd /sources
+
+        ###
+
+        ( display )
+        root [ /sources ]#
+
+        ###
+
+        bash g63.03.8.2.support.apps.sh
+
+        bash g63.03.9.all.apps.sh
+        # LibreOffice excluded
+
+        # bash g63.03.9.1.small.apps.sh   # basic Apps
+        # bash g63.03.9.2.Evince.sh       # Evince
+        # bash g63.03.9.3.Firefox.sh      # Firefox
+
+        ###
+
+  B.03. Part 3 - LibreOffice - should be build as user
+
+        ### Ensure permission are correct
+
+        # (a) VM & VB
+
+            chmod -vR a+wt /mnt/Src/blfs.{src,log}
+
+        # (b) PC
+
+            chmod -vR a+wt /usr/{src,log}/blfs
+
+        ### Environment
+
+        # Install destination
+        export LO_PREFIX=/opt/libreoffice-24.8.0.3
+
+        su - user
+
+        ###
+
+        ### for VMs/VBs
+        #  ALL
+        export MAKEFLAGS="-j$(nproc)"
+        export NPROC="$(nproc)"
+
+        ### for PC, MAKEFLAGS = procs / 2
+        ###export MAKEFLAGS="-j$(($(nproc)/2))" # PC
+        ###export NPROC="$(($(nproc)/2))"
+
+        export LFSLOG=/var/log/blfs
+
+        export XORG_PREFIX="/usr"
+
+        export XORG_CONFIG="--prefix=$XORG_PREFIX --sysconfdir=/etc \
+                            --localstatedir=/var --disable-static"
+
+        export LO_PREFIX=/opt/libreoffice-24.8.0.3
+
+        cd /sources
+
+        ###
+
+        bash g12.03.4.1.sh
+
+        exit    # logout as user, back to root
+
+        cd /sources
+
+        # export LO_PREFIX=/opt/libreoffice-24.8.0.3
+
+        bash g12.03.4.2.sh
+
+        ###

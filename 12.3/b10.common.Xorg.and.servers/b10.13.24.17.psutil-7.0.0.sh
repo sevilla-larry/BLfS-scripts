@@ -1,4 +1,11 @@
-# b30.13.24.17.psutil-7.0.0.sh
+# b10.13.24.17.psutil-7.0.0.sh
+#
+
+#
+# Dependencies Optional:
+#
+#               a.08.91.20.10 Pytest-8.3.4
+#
 #
 
 #
@@ -6,6 +13,10 @@
 #
 #               i080.9.11 oslo.reports-3.4.0
 #               i090.9.11 os_brick-6.9.1
+#
+# Optionally Required for tests:
+#
+#               d10.13.13 LLVM-19.1.7
 #
 
 export PKG="psutil-7.0.0"

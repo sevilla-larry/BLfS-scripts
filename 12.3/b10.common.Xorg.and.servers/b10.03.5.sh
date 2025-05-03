@@ -24,6 +24,20 @@ echo "."
 
 ###
 
+echo "b10.13.24.17.psutil-7.0.0"
+echo "b10.13.24.17.psutil-7.0.0" >> $LFSLOG_PROCESS
+
+time { bash b10.13.24.17.psutil-7.0.0.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
 echo "b10.09.76.libyaml-0.2.5"
 echo "b10.09.76.libyaml-0.2.5" >> $LFSLOG_PROCESS
 
