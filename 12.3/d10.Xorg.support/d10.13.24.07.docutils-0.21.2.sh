@@ -1,24 +1,18 @@
-# d10.13.24.12.lxml-5.3.1.sh
-#
-
-#
-# Dependencies Required:
-#
-#               a.08.91.38 libxslt-1.1.43 (errata)
+# d10.13.24.07.docutils-0.21.2.sh
 #
 
 #
 # Recommended by:
 #
-#               g12.39.03 LibreOffice-24.8.0
+#               d10.09.17 GLib-2.82.5
 #
 # Optional by:
 #
-#               d10.12.12 elogind-255.17
+#               
 #
 
-export PKG="lxml-5.3.1"
-export PKGLOG_DIR=$LFSLOG/13.24.12
+export PKG="docutils-0.21.2"
+export PKGLOG_DIR=$LFSLOG/13.24.07
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
 export PKGLOG_CHECK=$PKGLOG_DIR/check.log
@@ -54,8 +48,13 @@ pip3 install    --no-index              \
                 --no-user               \
                 --find-links dist       \
                 --no-cache-dir          \
-                lxml                    \
+                docutils                \
                 > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
+
+echo "4. All Test ..."
+echo "4. All Test ..." >> $LFSLOG_PROCESS
+echo "4. All Test ..." >> $PKGLOG_ERROR
+test/alltests.py >  $PKGLOG_CHECK 2>> $PKGLOG_ERROR
 
 
 cd $SOURCES

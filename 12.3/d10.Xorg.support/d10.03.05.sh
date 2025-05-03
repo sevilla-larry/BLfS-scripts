@@ -38,6 +38,20 @@ echo "."
 
 ###
 
+echo "d10.10.11.Graphite2-1.3.14 - Pass 1 - before HarfBuzz"
+echo "d10.10.11.Graphite2-1.3.14 - Pass 1 - before HarfBuzz" >> $LFSLOG_PROCESS
+
+time { bash d10.10.11.Graphite2-1.3.14.Pass1.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
 echo "d10.10.12.harfBuzz-10.4.0"
 echo "d10.10.12.harfBuzz-10.4.0" >> $LFSLOG_PROCESS
 
@@ -56,6 +70,20 @@ echo "d10.10.04.FreeType-2.13.3 - Pass 2 - after HarfBuzz"
 echo "d10.10.04.FreeType-2.13.3 - Pass 2 - after HarfBuzz" >> $LFSLOG_PROCESS
 
 time { bash d10.10.04.FreeType-2.13.3.Pass2.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "d10.10.11.Graphite2-1.3.14 - Pass 2 - after HarfBuzz"
+echo "d10.10.11.Graphite2-1.3.14 - Pass 2 - after HarfBuzz" >> $LFSLOG_PROCESS
+
+time { bash d10.10.11.Graphite2-1.3.14.Pass2.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

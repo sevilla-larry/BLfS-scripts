@@ -97,6 +97,11 @@ echo "4. Ninja Install ..." >> $LFSLOG_PROCESS
 echo "4. Ninja Install ..." >> $PKGLOG_ERROR
 ninja install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
+rm -v /tmp/*.service                    \
+    >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
+rm -rf /usr/lib/{sysusers,tmpfiles}.d   \
+    >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
+
 
 cd $SOURCES
 rm -rf $PKG

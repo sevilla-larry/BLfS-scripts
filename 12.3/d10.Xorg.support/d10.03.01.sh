@@ -8,20 +8,6 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
 #####
 
-echo "d10.12.11.dbus-1.16.0.Pass1"
-echo "d10.12.11.dbus-1.16.0.Pass1" >> $LFSLOG_PROCESS
-
-time { bash d10.12.11.dbus-1.16.0.Pass1.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
-
-###
-
 echo "d10.49.06.xmlto-0.0.29"
 echo "d10.49.06.xmlto-0.0.29" >> $LFSLOG_PROCESS
 
@@ -40,6 +26,34 @@ echo "d10.13.23.12.lxml-5.3.1"
 echo "d10.13.23.12.lxml-5.3.1" >> $LFSLOG_PROCESS
 
 time { bash d10.13.23.12.lxml-5.3.1.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "d10.13.24.07.docutils-0.21.2"
+echo "d10.13.24.07.docutils-0.21.2" >> $LFSLOG_PROCESS
+
+time { bash d10.13.24.07.docutils-0.21.2.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "d10.12.11.dbus-1.16.0.Pass1"
+echo "d10.12.11.dbus-1.16.0.Pass1" >> $LFSLOG_PROCESS
+
+time { bash d10.12.11.dbus-1.16.0.Pass1.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

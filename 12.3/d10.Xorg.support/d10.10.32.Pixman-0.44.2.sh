@@ -4,7 +4,7 @@
 #
 # Dependencies Optional:
 #
-#               d10.10.22 libpng-1.6.43
+#               d10.10.22 libpng-1.6.46
 #						  GTK-3.24.48	( NOT installed )
 #
 

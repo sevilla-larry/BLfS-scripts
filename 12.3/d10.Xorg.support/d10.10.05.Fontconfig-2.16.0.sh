@@ -6,11 +6,15 @@
 #
 #               d10.10.04 FreeType-2.13.3
 #
+# Dependencies Optional (for Testing):
+#
+#               a.08.93.04 cURL-8.12.1
+#               a.08.91.12 libarchive-3.7.7
+#               a.08.91.40 make-ca-1.16
+#
 # Dependencies Optional:
 #
-#               b11.17.02 cURL-8.9.1
-#               d10.12.36.UnZip-6.0
-#               b10.09.72 libxml2-2.13.3
+#               a.08.91.08 libxml2-2.13.6
 #
 
 #
@@ -75,9 +79,9 @@ install -v -m644 doc/*.3          /usr/share/man/man3   \
         >> $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 install -v -m644 doc/fonts-conf.5 /usr/share/man/man5   \
         >> $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
-install -v -m644 doc/fontconfig-devel/* \
-                                  /usr/share/doc/fontconfig-2.16.0/fontconfig-devel \
-        >> $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
+#install -v -m644 doc/fontconfig-devel/* \
+#                                  /usr/share/doc/fontconfig-2.16.0/fontconfig-devel \
+#        >> $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 install -v -m644 doc/*.{pdf,sgml,txt,html} \
                                   /usr/share/doc/fontconfig-2.16.0  \
         >> $PKGLOG_INSTALL 2>> $PKGLOG_ERROR

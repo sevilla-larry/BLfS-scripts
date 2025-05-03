@@ -4,13 +4,13 @@
 #
 # Dependencies Required:
 #
-#               d10.09.17 GLib-2.80.4
+#               d10.09.17 GLib-2.82.5
 #
 
 #
 # Runtime needed for test by: ( not implemented )
 #
-#               d10.09.17 GLib-2.80.4
+#               d10.09.17 GLib-2.82.5
 #
 
 export PKG="desktop-file-utils-0.28"

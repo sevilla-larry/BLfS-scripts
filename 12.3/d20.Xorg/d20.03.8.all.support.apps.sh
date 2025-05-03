@@ -13,6 +13,7 @@ bash b10.03.5.sh
 
 ###
 
+# xml's
 # dbus pass 1
 # elogind
 # duktape
@@ -43,8 +44,5 @@ bash d10.03.05.sh
 
 # Wayland support
 bash d10.03.06.sh
-
-# Glslang, SPIRV
-bash d10.03.07.sh
 
 #####

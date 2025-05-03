@@ -4,14 +4,15 @@
 #
 # Dependencies Recommended:
 #
-#               d10.10.12 harfBuzz-9.0.0
-#               d10.10.22 libpng-1.6.43
+#               d10.10.12  harfBuzz-10.4.0
+#               d10.10.22  libpng-1.6.46
+#               a.08.91.03 Which-2.23
 #
 
 #
 # Required by:
 #
-#               d10.10.05 Fontconfig-2.15.0
+#               d10.10.05 Fontconfig-2.16.0
 #               e21.25.38 Pango-1.54.0
 #
 

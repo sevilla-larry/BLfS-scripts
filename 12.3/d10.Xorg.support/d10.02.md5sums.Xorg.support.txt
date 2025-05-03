@@ -10,10 +10,6 @@ b3200b02ab80125b694bae887d7c1ca6 duktape-2.7.0.tar.xz
 # 09.79 mtdev-1.1.7
 483ed7fdf7c1e7b7375c05a62848cce7 mtdev-1.1.7.tar.bz2
 
-# 09.90 & 91 SPIRV
-7421a1530b7a8187a17d0a80547fa44c SPIRV-Headers-1.4.304.1.tar.gz
-b7fe16af4e1954b5479f3c55ca3eea9b SPIRV-Tools-1.4.304.1.tar.gz
-
 # 09.97 Wayland-1.23.0
 23ad991e776ec8cf7e58b34cbd2efa75 wayland-1.23.0.tar.xz
 # 09.98 Wayland-Protocols-1.40 (svn)
@@ -50,11 +46,10 @@ d950171ac5ea4a1a20cb8f6eb9f1c8eb llvm-third-party-19.1.7.src.tar.xz
 8a29181acd27b9c03b0039b75f5fcaa0 clang-19.1.7.src.tar.xz
 0286b00ef3057362eb0636d3298999b1 compiler-rt-19.1.7.src.tar.xz
 
-# 13.23.12 lxml-5.3.1 (updated)
+# 13.23.07 docutils-0.21.2
+c4064e1e0e3cd142951fd2b95b830874 docutils-0.21.2.tar.gz
+# 13.23.12 lxml-5.3.1
 9d94cc157fb6db0c062ef80cdc0ed307 lxml-5.3.1.tar.gz
-
-# 25.12 Glslang-15.1.0
-2bf049666f223732fc18d6c8b16b98cf glslang-15.1.0.tar.gz
 
 # 49.06 xmlto-0.0.29
 556f2642cdcd005749bd4c08bc621c37 xmlto-0.0.29.tar.gz

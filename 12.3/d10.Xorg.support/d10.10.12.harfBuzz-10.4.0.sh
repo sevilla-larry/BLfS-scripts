@@ -4,11 +4,10 @@
 #
 # Dependencies Recommended:
 #
-#               d10.09.17 GLib-2.80.4
-#               b10.09.24 icu-75.1
+#               d10.09.17 GLib-2.82.5
+#               d10.10.11 Graphite2-1.3.14
+#               b10.09.25 icu-76.1
 #               d10.10.04 FreeType-2.13.3
-#
-#               ??? 10.10 Graphite2-1.3.14  currently Disabled ??? for LibreOffice
 #
 
 #
@@ -57,7 +56,7 @@ echo "2. Meson Setup ..." >> $PKGLOG_ERROR
 meson setup ..                      \
             --prefix=/usr           \
             --buildtype=release     \
-            -D graphite2=disabled   \
+            -D graphite2=enabled    \
         > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Ninja Build ..."

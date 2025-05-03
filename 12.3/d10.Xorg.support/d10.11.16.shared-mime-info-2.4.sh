@@ -4,8 +4,12 @@
 #
 # Dependencies Required:
 #
-#               d10.09.17 GLib-2.80.4
-#               b10.09.72 libxml2-2.13.3
+#               d10.09.17  GLib-2.82.5
+#               a.08.91.08 libxml2-2.13.6
+#
+# Dependencies Optional:
+#
+#               d10.49.06 xmlto-0.0.29
 #
 
 #
@@ -15,7 +19,7 @@
 #
 # Runtime needed for test by: ( not implemented )
 #
-#               d10.09.17 GLib-2.80.4
+#               d10.09.17 GLib-2.82.5
 #
 # Optionally by:
 #

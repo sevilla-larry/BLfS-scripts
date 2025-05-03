@@ -85,7 +85,7 @@ meson setup ..                                  \
       --prefix=/usr                             \
       --buildtype=release                       \
       -D man=auto                               \
-      -D docdir=/usr/share/doc/elogind-255.17    \
+      -D docdir=/usr/share/doc/elogind-255.17   \
       -D cgroup-controller=elogind              \
       -D dev-kvm-mode=0660                      \
       -D dbuspolicydir=/etc/dbus-1/system.d     \
@@ -110,6 +110,10 @@ ln -sfv  libelogind.pc /usr/lib/pkgconfig/libsystemd.pc \
         >> $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 ln -sfvn elogind /usr/include/systemd                   \
         >> $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
+
+#sed -e '/\[Login\]/a KillUserProcesses=no'  \
+#    -i /etc/elogind/logind.conf             \
+#        >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
 
 cat >> /etc/pam.d/system-session << "EOF"   2>> $PKGLOG_ERROR
 # Begin elogind addition

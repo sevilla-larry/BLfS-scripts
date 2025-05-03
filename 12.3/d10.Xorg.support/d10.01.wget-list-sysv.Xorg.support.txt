@@ -10,10 +10,6 @@ https://www.linuxfromscratch.org/patches/blfs/12.3/glib-skip_warnings-1.patch
 # 09.79 mtdev-1.1.7
 https://bitmath.org/code/mtdev/mtdev-1.1.7.tar.bz2
 
-# 09.90 & 91 SPIRV
-https://github.com/KhronosGroup/SPIRV-Headers/archive/vulkan-sdk-1.4.304.1/SPIRV-Headers-1.4.304.1.tar.gz
-https://github.com/KhronosGroup/SPIRV-Tools/archive/vulkan-sdk-1.4.304.1/SPIRV-Tools-vulkan-sdk-1.4.304.1.tar.gz
-
 # 09.97 Wayland-1.23.0
 https://gitlab.freedesktop.org/wayland/wayland/-/releases/1.23.0/downloads/wayland-1.23.0.tar.xz
 # 09.98 Wayland-Protocols-1.40
@@ -50,11 +46,10 @@ https://anduin.linuxfromscratch.org/BLFS/llvm/llvm-third-party-19.1.7.src.tar.xz
 https://github.com/llvm/llvm-project/releases/download/llvmorg-19.1.7/clang-19.1.7.src.tar.xz
 https://github.com/llvm/llvm-project/releases/download/llvmorg-19.1.7/compiler-rt-19.1.7.src.tar.xz
 
-# 13.23.12 lxml-5.3.1 (updated)
+# 13.23.07 docutils-0.21.2
+https://files.pythonhosted.org/packages/source/d/docutils/docutils-0.21.2.tar.gz
+# 13.23.12 lxml-5.3.1
 https://files.pythonhosted.org/packages/source/l/lxml/lxml-5.3.1.tar.gz
-
-# 25.12 Glslang-15.1.0
-https://github.com/KhronosGroup/glslang/archive/15.1.0/glslang-15.1.0.tar.gz
 
 # 49.06 xmlto-0.0.29
 https://pagure.io/xmlto/archive/0.0.29/xmlto-0.0.29.tar.gz
