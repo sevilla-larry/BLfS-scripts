@@ -17,7 +17,7 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 echo "d20.24.15.luit-20240910"
 echo "d20.24.15.luit-20240910" >> $LFSLOG_PROCESS
 
-time { bash d20.24.19.luit-20240910.sh ; }
+time { bash d20.24.15.luit-20240910.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

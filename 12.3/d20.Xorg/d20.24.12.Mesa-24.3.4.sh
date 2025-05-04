@@ -104,17 +104,17 @@ patch -Np1 -i ../mesa-add_xdemos-4.patch    \
 mkdir build
 cd    build
 
-if	 [ "$COMPUTER_TYPE" -eq "VM" ]; then
+if	 [ "$COMPUTER_TYPE" = "VM" ]; then
 
     export GALLIUM_DRIVERS=virgl,llvmpipe
     export VULKAN_DRIVERS=swrast
 
-elif [ "$COMPUTER_TYPE" -eq "VB" ]; then
+elif [ "$COMPUTER_TYPE" = "VB" ]; then
 
     export GALLIUM_DRIVERS=svga,llvmpipe
     export VULKAN_DRIVERS=swrast
 
-elif [ "$COMPUTER_TYPE" -eq "PC" ]; then
+elif [ "$COMPUTER_TYPE" = "PC" ]; then
 
     export GALLIUM_DRIVERS=crocus
     export VULKAN_DRIVERS=intel_hasvk
