@@ -20,6 +20,8 @@ f3b4432c4212064c00500e1ad63fbc64 freetype-2.13.3.tar.xz
 6affe0d431939398cc3c7cdd58d824f8 freetype-doc-2.13.3.tar.xz
 # 10.05 Fontconfig-2.16.0
 20d5466544aa62d18c94106faa169a09 fontconfig-2.16.0.tar.xz
+# 10.11 Graphite2-1.3.14
+1bccb985a7da01092bfb53bb5041e836 graphite2-1.3.14.tgz
 # 10.12 harfBuzz-10.4.0
 9ff3796c1b8ae03540e466168c6a5bd1 harfbuzz-10.4.0.tar.xz
 # 10.22 libpng-1.6.46

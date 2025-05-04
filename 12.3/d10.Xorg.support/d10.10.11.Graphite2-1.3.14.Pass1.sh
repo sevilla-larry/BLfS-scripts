@@ -11,7 +11,7 @@
 #               d10.10.04 FreeType-2.13.3 (Pass 1)
 #
 
-export PKG="Graphite2-1.3.14"
+export PKG="graphite2-1.3.14"
 export PKGLOG_DIR=$LFSLOG/10.11.1
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
@@ -29,7 +29,7 @@ mkdir $PKGLOG_DIR
 echo "1. Extract tar..."
 echo "1. Extract tar..." >> $LFSLOG_PROCESS
 echo "1. Extract tar..." >> $PKGLOG_ERROR
-tar xvf $PKG.tar.xz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
+tar xvf $PKG.tgz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
 
 

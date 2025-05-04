@@ -119,7 +119,7 @@ ninja > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 sed -e 's/config.has_no_default_config_flag/True/'      \
     -i ../projects/compiler-rt/test/lit.common.cfg.py   \
     >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
-L
+
 echo "4. Ninja Check ..."
 echo "4. Ninja Check ..." >> $LFSLOG_PROCESS
 echo "4. Ninja Check ..." >> $PKGLOG_ERROR
