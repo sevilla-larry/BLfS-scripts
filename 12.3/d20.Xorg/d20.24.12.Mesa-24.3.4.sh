@@ -130,11 +130,13 @@ cd    build
 case "$COMPUTER_TYPE" in
     "VM")
         export GALLIUM_DRIVERS=virgl,llvmpipe
-        export VULKAN_DRIVERS=swrast
+        export VULKAN_DRIVERS=
+#        export VULKAN_DRIVERS=swrast
         ;;
     "VB")
         export GALLIUM_DRIVERS=svga,llvmpipe
-        export VULKAN_DRIVERS=swrast
+        export VULKAN_DRIVERS=
+#        export VULKAN_DRIVERS=swrast
         ;;
     "C")
         export GALLIUM_DRIVERS=crocus
