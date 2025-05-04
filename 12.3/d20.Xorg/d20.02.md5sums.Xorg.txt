@@ -1,5 +1,5 @@
 # 09.71 libxkbcommon-1.8.0
-e63cb7f5a395a1575246717882b96664 libxkbcommon-1.8.0.tar.xz
+e63cb7f5a395a1575246717882b96664 libxkbcommon-1.8.0.tar.gz
 
 # 24.02 ---> .07
 5f683a1966834b0a6ae07b3680bcb863 util-macros-1.20.2.tar.xz
@@ -30,7 +30,7 @@ f1a5ec0939c0efd7fde1418989b579db xorg-server-21.1.16.tar.xz
 ###								 xorg-server-21.1.16-tearfree_backport-1.patch
 # 24.21.1 ---> .4 Xorg Input Drivers
 57ee77b7d4c480747e693779bb92fb84 libevdev-1.13.3.tar.xz
-faa89be0ef86aebd6fd0a03eed23839c xf86-input-evdev-2.11.0.tar.bz2
+faa89be0ef86aebd6fd0a03eed23839c xf86-input-evdev-2.11.0.tar.xz
 3b311d8953f8717f711a78b60087997e libinput-1.27.1.tar.gz
 f8d0fb6987d843e688d597c2b66ec824 xf86-input-libinput-1.5.0.tar.xz
 # 24.22 ---> .25

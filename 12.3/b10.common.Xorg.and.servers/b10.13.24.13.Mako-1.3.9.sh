@@ -18,7 +18,7 @@
 #               d10.09.17 GLib-2.82.5
 #
 
-export PKG="Mako-1.3.9"
+export PKG="mako-1.3.9"
 export PKGLOG_DIR=$LFSLOG/13.24.13
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
