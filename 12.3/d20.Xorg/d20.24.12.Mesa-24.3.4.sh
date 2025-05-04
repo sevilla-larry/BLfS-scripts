@@ -104,27 +104,47 @@ patch -Np1 -i ../mesa-add_xdemos-4.patch    \
 mkdir build
 cd    build
 
-if	 [ "$COMPUTER_TYPE" = "VM" ]; then
+#
+# if	 [ "$COMPUTER_TYPE" = "VM" ]; then
+#
+#     export GALLIUM_DRIVERS=virgl,llvmpipe
+#     export VULKAN_DRIVERS=swrast
+#
+# elif [ "$COMPUTER_TYPE" = "VB" ]; then
+#
+#     export GALLIUM_DRIVERS=svga,llvmpipe
+#     export VULKAN_DRIVERS=swrast
+#
+# elif [ "$COMPUTER_TYPE" = "PC" ]; then
+#
+#     export GALLIUM_DRIVERS=crocus
+#     export VULKAN_DRIVERS=intel_hasvk
+#
+# else
+#
+# 	echo "Error: COMPUTER_TYPE must be VM, VB or PC"
+# 	echo "Error: COMPUTER_TYPE must be VM, VB or PC" >> $LFSLOG_PROCESS
+#
+# fi
 
-    export GALLIUM_DRIVERS=virgl,llvmpipe
-    export VULKAN_DRIVERS=swrast
-
-elif [ "$COMPUTER_TYPE" = "VB" ]; then
-
-    export GALLIUM_DRIVERS=svga,llvmpipe
-    export VULKAN_DRIVERS=swrast
-
-elif [ "$COMPUTER_TYPE" = "PC" ]; then
-
-    export GALLIUM_DRIVERS=crocus
-    export VULKAN_DRIVERS=intel_hasvk
-
-else
-
-	echo "Error: COMPUTER_TYPE must be VM, VB or PC"
-	echo "Error: COMPUTER_TYPE must be VM, VB or PC" >> $LFSLOG_PROCESS
-
-fi
+case "$COMPUTER_TYPE" in
+    "VM")
+        export GALLIUM_DRIVERS=virgl,llvmpipe
+        export VULKAN_DRIVERS=swrast
+        ;;
+    "VB")
+        export GALLIUM_DRIVERS=svga,llvmpipe
+        export VULKAN_DRIVERS=swrast
+        ;;
+    "C")
+        export GALLIUM_DRIVERS=crocus
+        export VULKAN_DRIVERS=intel_hasvk
+        ;;
+    *)
+        echo "Error: COMPUTER_TYPE must be VM, VB or PC"
+        echo "Error: COMPUTER_TYPE must be VM, VB or PC" >> $LFSLOG_PROCESS
+        ;;
+esac
 
 echo "2. Meson Setup ..."
 echo "2. Meson Setup ..." >> $LFSLOG_PROCESS
