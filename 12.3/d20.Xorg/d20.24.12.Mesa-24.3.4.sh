@@ -11,6 +11,10 @@
 #
 #   vulkan drivers: none
 #
+#       VirtIO      - swrast
+#       Virtualbox  - swrast
+#       PCs         - intel_hasvk	Intel i7-4790
+#
 
 #
 # Dependencies Required:
@@ -103,17 +107,17 @@ cd    build
 if	 [ "$COMPUTER_TYPE" -eq "VM" ]; then
 
     export GALLIUM_DRIVERS=virgl,llvmpipe
-#    export VULKAN_DRIVERS=auto
+    export VULKAN_DRIVERS=swrast
 
 elif [ "$COMPUTER_TYPE" -eq "VB" ]; then
 
     export GALLIUM_DRIVERS=svga,llvmpipe
-#    export VULKAN_DRIVERS=auto
+    export VULKAN_DRIVERS=swrast
 
 elif [ "$COMPUTER_TYPE" -eq "PC" ]; then
 
     export GALLIUM_DRIVERS=crocus
-#    export VULKAN_DRIVERS=intel_hasvk
+    export VULKAN_DRIVERS=intel_hasvk
 
 else
 
@@ -130,7 +134,7 @@ meson setup ..                  \
       --buildtype=release       \
       -D platforms=x11,wayland  \
       -D gallium-drivers=$GALLIUM_DRIVERS   \
-      -D vulkan-drivers=""      \
+      -D vulkan-drivers=$VULKAN_DRIVERS     \
       -D valgrind=disabled      \
       -D video-codecs=all       \
       -D libunwind=disabled     \
