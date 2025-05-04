@@ -59,13 +59,14 @@ pip3 install    --no-index              \
                 psutil                  \
                 > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
-mkdir -v empty > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
+echo "4. Make Test ..."
+echo "4. Make Test ..." >> $LFSLOG_PROCESS
+echo "4. Make Test ..." >> $PKGLOG_ERROR
+make test > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
 
-cd empty
-python3 -m psutil.tests >> $PKGLOG_CHECK 2>> $PKGLOG_ERROR
-cd ..
-
-# test_disk_usage & test_io_counters are known to fail.
+# test_disk_usage & est_net_if_addrs are know to fail
+# test_io_counters is known to fail if
+#   kernel CONFIG_TASK_IO_ACCOUNTING is NOT enabled
 
 
 cd $SOURCES
