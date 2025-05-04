@@ -6,7 +6,7 @@ d62167d85bcb459c200c0e4b5a63ee48 unixODBC-2.3.12.tar.gz
 
 # 13.23    Python Modules
 # 13.23.13 Mako-1.3.9
-28b1b70e01a1240c90e97fab2f17e349 Mako-1.3.9.tar.gz
+28b1b70e01a1240c90e97fab2f17e349 mako-1.3.9.tar.gz
 # 13.24.17 psutil-7.0.0
 1c074ff5828dff3a3ecfa0e0f9de2e63 psutil-7.0.0.tar.gz
 # 13.24.28 PyYAML-6.0.2
