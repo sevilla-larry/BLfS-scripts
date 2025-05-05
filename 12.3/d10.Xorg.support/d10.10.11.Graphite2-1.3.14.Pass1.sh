@@ -42,7 +42,8 @@ cd    build
 echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
 echo "2. Configure ..." >> $PKGLOG_ERROR
-cmake -D CMAKE_INSTALL_PREFIX=/usr          \
+cmake -D CMAKE_INSTALL_PREFIX=/usr      \
+         ..                             \
         > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Make Build ..."

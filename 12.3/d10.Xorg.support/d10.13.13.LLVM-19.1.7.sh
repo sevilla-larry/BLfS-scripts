@@ -56,7 +56,7 @@ tar -xvf ../llvm-cmake-19.1.7.src.tar.xz        \
 tar -xvf ../llvm-third-party-19.1.7.src.tar.xz  \
     >> $PKGLOG_TAR 2>> $PKGLOG_ERROR
 
-sed '/LLVM_COMMON_CMAKE_UTILS/s@../cmake@-cmake-19.1.7.src@'            \
+sed '/LLVM_COMMON_CMAKE_UTILS/s@../cmake@cmake-19.1.7.src@'             \
     -i CMakeLists.txt                                                   \
     >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
 sed '/LLVM_THIRD_PARTY_DIR/s@../third-party@-third-party-19.1.7.src@'   \
@@ -86,22 +86,23 @@ cd    build
 echo "2. CMake Configure ..."
 echo "2. CMake Configure ..." >> $LFSLOG_PROCESS
 echo "2. CMake Configure ..." >> $PKGLOG_ERROR
-CC=gcc CXX=g++                                      \
-cmake -D CMAKE_INSTALL_PREFIX=/usr                  \
-      -D CMAKE_SKIP_INSTALL_RPATH=ON                \
-      -D LLVM_ENABLE_FFI=ON                         \
-      -D CMAKE_BUILD_TYPE=Release                   \
-      -D LLVM_BUILD_LLVM_DYLIB=ON                   \
-      -D LLVM_LINK_LLVM_DYLIB=ON                    \
-      -D LLVM_ENABLE_RTTI=ON                        \
-      -D LLVM_TARGETS_TO_BUILD="host"               \
-      -D LLVM_BINUTILS_INCDIR=/usr/include          \
-      -D LLVM_INCLUDE_BENCHMARKS=OFF                \
-      -D CLANG_DEFAULT_PIE_ON_LINUX=ON              \
+CC=gcc CXX=g++                              \
+cmake -D CMAKE_INSTALL_PREFIX=/usr          \
+      -D CMAKE_SKIP_INSTALL_RPATH=ON        \
+      -D LLVM_ENABLE_FFI=ON                 \
+      -D CMAKE_BUILD_TYPE=Release           \
+      -D LLVM_BUILD_LLVM_DYLIB=ON           \
+      -D LLVM_LINK_LLVM_DYLIB=ON            \
+      -D LLVM_ENABLE_RTTI=ON                \
+      -D LLVM_TARGETS_TO_BUILD="host"       \
+      -D LLVM_BINUTILS_INCDIR=/usr/include  \
+      -D LLVM_INCLUDE_BENCHMARKS=OFF        \
+      -D LLVM_ENABLE_LIBEDIT=OFF            \
+      -D CLANG_DEFAULT_PIE_ON_LINUX=ON      \
       -D CLANG_CONFIG_FILE_SYSTEM_DIR=/etc/clang    \
-      -W no-dev                                     \
-      -G Ninja                                      \
-      ..                                            \
+      -W no-dev                             \
+      -G Ninja                              \
+      ..                                    \
       > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 #      -D LLVM_TARGETS_TO_BUILD="host;AMDGPU" \
 
