@@ -52,22 +52,28 @@ A. Preparation
         wget --input-file=d10.01.wget-list-sysv.Xorg.support.txt               --continue --directory-prefix=/sources
         wget --input-file=d20.01.wget-list-sysv.Xorg.txt                       --continue --directory-prefix=/sources
 
-        md5sum -c b10.02.md5sums.common.Xorg.and.servers.txt
-        md5sum -c d10.02.md5sums.Xorg.support.txt
-        md5sum -c d20.02.md5sums.Xorg.txt
-
-        execute the download portions:
+        # execute the download portions:
 
         https://www.linuxfromscratch.org/blfs/view/12.3/x/x7lib.html
         https://www.linuxfromscratch.org/blfs/view/12.3/x/xcb-utilities.html
         https://www.linuxfromscratch.org/blfs/view/12.3/x/x7app.html
         https://www.linuxfromscratch.org/blfs/view/12.3/x/x7font.html
 
-        Errata/SVN Update:
+        # Errata/SVN Update:
 
         #https://www.linuxfromscratch.org/blfs/view/svn/x/x7lib.html
         #05b5667aadd476d77e9b5ba1a1de213e  libXpm-3.5.17.tar.xz          Errata
         #24e0b72abe16efce9bf10579beaffc27  libXrandr-1.5.4.tar.xz        SVN
+
+        ###
+
+        md5sum -c b10.02.md5sums.common.Xorg.and.servers.txt
+        md5sum -c d10.02.md5sums.Xorg.support.txt
+        md5sum -c d20.02.md5sums.Xorg.txt
+        cd lib          && md5sum -c ../lib-7.md5     && cd ..
+        cd xcb-utils    && md5sum -c ../xcb-utils.md5 && cd ..
+        cd app          && md5sum -c ../app-7.md5     && cd ..
+        cd font         && md5sum -c ../font-7.md5    && cd ..
 
         ###
 
