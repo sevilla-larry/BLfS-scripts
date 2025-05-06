@@ -1,5 +1,12 @@
 # 09.71 libxkbcommon-1.8.0
 e63cb7f5a395a1575246717882b96664 libxkbcommon-1.8.0.tar.gz
+# 09.90 SPIRV-Headers-1.4.304.1
+# 7421a1530b7a8187a17d0a80547fa44c SPIRV-Headers-vulkan-sdk-1.4.304.1.tar.gz
+# 09.91 SPIRV-Tools-1.4.304.1
+# b7fe16af4e1954b5479f3c55ca3eea9b SPIRV-Tools-vulkan-sdk-1.4.304.1.tar.gz
+
+# 13.24.16 ply-3.11
+# 6465f602e656455affcd7c5734c638f8 ply-3.11.tar.gz
 
 # 24.02 ---> .07
 5f683a1966834b0a6ae07b3680bcb863 util-macros-1.20.2.tar.xz
@@ -44,10 +51,16 @@ f8bffb37b6dcbb9757c2a8f7484e5085 xterm-397.tgz
 # 24.32.9 Noto fonts - try 1st DejaVu
 #								 v20201206-phase3.tar.gz
 
+# 25.12 Glslang-15.1.0
+# 2bf049666f223732fc18d6c8b16b98cf glslang-15.1.0.tar.gz
 # 25.34 Libdrm-2.4.124
 78f7f7ee6aff711696d4b34465b40728 libdrm-2.4.124.tar.xz
 # 25.35 libepoxy-1.5.10
 10c635557904aed5239a4885a7c4efb7 libepoxy-1.5.10.tar.xz
+# 25.43 Vulkan-Headers-1.4.304
+# d3a2b80defd95f06387ff78029d8452e Vulkan-Headers-1.4.304.tar.gz
+# 25.44 Vulkan-Loader-1.4.304
+# bda057142f094da44dfa8efbf342f503 Vulkan-Loader-1.4.304.tar.gz
 
 # 42.22 intel-vaapi-driver-2.4.1.sh / CPU/iGPU i7-4790
 073fce0f409559109ad2dd0a6531055d intel-vaapi-driver-2.4.1.tar.bz2

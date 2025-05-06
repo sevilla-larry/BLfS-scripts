@@ -26,9 +26,12 @@
 #
 # Dependencies Recommended:
 #
-#               d20.42.41 libva-2.22.0              for PCs
+#               d20.25.12 Glslang-15.1.0            for PCs
+#           ??  d20.42.41 libva-2.22.0              for PCs
 #               d10.13.13 LLVM-19.1.7
 #               d10.09.98 Wayland-Protocols-1.40
+#               d20.25.44 Vulkan-Loader-1.4.304     for PCs
+#               d20.13.24.16 ply-3.11               for PCs
 #
 
 #
@@ -129,7 +132,8 @@ cd    build
 
 case "$COMPUTER_TYPE" in
     "VM")
-        export GALLIUM_DRIVERS=virgl,llvmpipe
+#        export GALLIUM_DRIVERS=virgl,llvmpipe
+        export GALLIUM_DRIVERS=llvmpipe
         export VULKAN_DRIVERS=
 #        export VULKAN_DRIVERS=swrast
         ;;
@@ -140,13 +144,14 @@ case "$COMPUTER_TYPE" in
         ;;
     "C")
         export GALLIUM_DRIVERS=crocus
-        export VULKAN_DRIVERS=intel_hasvk
+#        export VULKAN_DRIVERS=intel_hasvk
         ;;
     *)
         echo "Error: COMPUTER_TYPE must be VM, VB or PC"
         echo "Error: COMPUTER_TYPE must be VM, VB or PC" >> $LFSLOG_PROCESS
         ;;
 esac
+        export VULKAN_DRIVERS=""
 
 echo "2. Meson Setup ..."
 echo "2. Meson Setup ..." >> $LFSLOG_PROCESS
