@@ -139,12 +139,12 @@ cat > /etc/mariadb/my.cnf << "EOF"    2>> $PKGLOG_ERROR
 [client]
 password        = MariaDB
 port            = 3306
-socket          = /run/mariadbd/mariadbd.sock
+socket          = /run/mariadb/mariadb.sock
 
 # The MySQL server
 [mariadb]
 port            = 3306
-socket          = /run/mariadbd/mariadbd.sock
+socket          = /run/mariadb/mariadb.sock
 datadir         = /srv/mariadb
 skip-external-locking
 key_buffer_size = 16M
@@ -217,8 +217,7 @@ echo "   Start the server..." >> $LFSLOG_PROCESS
 echo "   Start the server..." >> $PKGLOG_ERROR
 install -v -m755 -o mariadb -g mariadb -d /run/mariadb                    \
     >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
-mariadbd-safe --user=mariadb    >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
-# 2>&1 >/dev/null &
+mariadbd-safe --user=mariadb 2>&1 >/dev/null &
 
 echo "   Set root password of MariaDB server..."
 echo "   Set root password of MariaDB server..." >> $LFSLOG_PROCESS

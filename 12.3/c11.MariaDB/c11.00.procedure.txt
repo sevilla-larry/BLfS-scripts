@@ -112,7 +112,7 @@ C.  Generate BLFS
 
         ###
 
-        mariadb-safe --user=mariadb 2>&1 >/dev/null &
+        mariadbd-safe --user=mariadb 2>&1 >/dev/null &
 
         # mariadb-admin -u root password
         #    (Assumming "MariaDB" as password)
