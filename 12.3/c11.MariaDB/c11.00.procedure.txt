@@ -1,0 +1,162 @@
+A. Preparation
+
+  A.01. ( Assumming LfS is already running )
+
+        ###
+
+        rm -v /sources
+
+        ###
+
+        # (a) VM & VB
+
+            mkdir -v /mnt/Src/blfs.{src,log}
+
+            chmod -v a+wt /mnt/Src/blfs.{src,log}
+
+            ln -sfv /mnt/Src/blfs.src /sources
+
+            ln -sfv /mnt/Src/blfs.log /var/log/blfs
+
+        # (b) PC
+
+            mkdir -pv /usr/src/blfs
+
+            mkdir -pv /var/log/blfs
+
+            chmod -v a+wt /usr/src/blfs
+
+            chmod -v a+wt /var/log/blfs
+
+            ln -sfv /usr/src/blfs /sources
+
+        ###
+
+        cd /sources
+
+        ###
+
+  A.02. Copy all script files
+
+        copy all script files from the following to /sources
+
+            1. b10.common.Xorg.and.servers
+            2. c11.MariaDB
+
+  A.03. Download packages
+
+        ###
+
+        wget --input-file=b10.01.wget-list-sysv.common.Xorg.and.servers.txt      --continue --directory-prefix=/sources
+        wget --input-file=c11.01.wget-list-sysv.MariaDB.txt                      --continue --directory-prefix=/sources
+
+        md5sum -c b10.02.md5sums.common.Xorg.and.servers.txt
+        md5sum -c c11.02.md5sums.MariaDB.txt
+
+        ###
+
+  A.04. Setting Up the Environment
+        ( Note: change the MAKEFLAGS & NPROC based on the number of threads )
+
+        ###
+
+        export LFSLOG=/var/log/blfs
+
+        export MAKEFLAGS="-j$(nproc)"
+        export NPROC="$(nproc)"
+
+        ###
+
+B.  Generate BLFS - Support Files
+
+  B.01. Checking Environment
+
+        ###
+
+        echo $LFSLOG          # /var/log/blfs
+        echo $MAKEFLAGS       # -j$(nproc)
+        echo $NPROC           # $(nproc)
+
+        echo $SHELL           # /bin/bash
+        ls -l /bin/sh         # bash
+        ls -l /usr/bin/awk    # gawk
+
+        cd /sources
+
+        ###
+
+        ( display )
+        root [ /sources ]#
+
+        ###
+
+  B.02. Support Applications - others
+
+        ###
+
+        bash c11.03.8.all.support.apps.sh
+
+        ###
+
+C.  Generate BLFS
+
+  C.01. MariaDB Compile/Install
+
+        ###
+
+        bash c11.03.9.main.app.sh
+
+        ###
+
+  C.02. MariaDB set root password
+
+        ###
+
+        mysqld_safe --user=mysql 2>&1 >/dev/null &
+
+        # mysqladmin -u root password
+        #    (Assumming "MariaDB" as password)
+
+        mysqladmin -p shutdown
+
+        ###
+
+  C.03. MariaDB/MySQL bootscript
+
+        ###
+
+        cd /mnt/Src/lfs.src/blfs-bootscripts-20240416       # VM/VB
+        cd /usr/src/lfs/blfs-bootscripts-20240416           # PC
+
+        make install-mysql
+
+        reboot
+
+        ###
+
+  C.04. Configuration for Remote Access
+
+        # https://mariadb.com/kb/en/configuring-mariadb-for-remote-client-access/
+        #
+        # /etc/mysql/my.cnf
+        #
+        #    #skip-networking
+
+        # on server as root
+
+        mariadb -u root -pMariaDB
+
+            CREATE USER 'root'@'<remote-ip-address>' identified by 'MariaDB';
+            GRANT ALL PRIVILEGES ON *.* TO 'root'@'<remote-ip-address>';
+            exit;
+
+        ###
+
+   C.05. Setup/Install a MariaDB FrontEnd client (no server) on a Remote PC
+
+        # on remote client
+        #
+        # mariadb -h <remote-ip-address> -u <user> -p<password>
+        #
+
+        mariadb -h <remote-ip-address> -u root -pMariaDB

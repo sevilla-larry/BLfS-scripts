@@ -8,7 +8,7 @@
 #
 # Optionally by:
 #
-#               c11.22.03 MariaDB-10.11.8
+#               c11.22.03 MariaDB-11.4.5
 #
 
 export PKG="unixODBC-2.3.12"
@@ -52,7 +52,7 @@ make install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 find doc -name "Makefile*" -delete                  \
             >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
-chmod 644 doc/{lst,ProgrammerManual/Tutorial}/*     \
+chmod -v 644 doc/{lst,ProgrammerManual/Tutorial}/*  \
             >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
 
 install -v -m755 -d /usr/share/doc/unixODBC-2.3.12  \
