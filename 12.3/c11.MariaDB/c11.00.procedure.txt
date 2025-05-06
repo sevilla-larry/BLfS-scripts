@@ -108,7 +108,19 @@ C.  Generate BLFS
 
         ###
 
-  C.02. MariaDB/MySQL bootscript
+  C.02. MariaDB set root password
+
+        ###
+
+        mariadbd-safe --user=mariadb 2>&1 >/dev/null &
+
+        mariadb-admin -u root password
+
+        mariadb-admin -p shutdown
+
+        ###
+
+  C.03. MariaDB/MySQL bootscript
 
         ###
 
@@ -121,7 +133,7 @@ C.  Generate BLFS
 
         ###
 
-  C.03. Configuration for Remote Access
+  C.04. Configuration for Remote Access
 
         # https://mariadb.com/kb/en/configuring-mariadb-for-remote-client-access/
         #
@@ -141,7 +153,7 @@ C.  Generate BLFS
 
         ###
 
-  C.04. Setup/Install a MariaDB FrontEnd client (no server) on a Remote PC
+  C.05. Setup/Install a MariaDB FrontEnd client (no server) on a Remote PC
 
         # on remote client
         #

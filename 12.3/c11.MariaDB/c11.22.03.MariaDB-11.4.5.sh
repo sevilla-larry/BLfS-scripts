@@ -212,22 +212,22 @@ mariadb-install-db --basedir=/usr --datadir=/srv/mariadb --user=mariadb   \
 chown -v -R mariadb:mariadb /srv/mariadb                                  \
     >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
 
-echo "   Start the server..."
-echo "   Start the server..." >> $LFSLOG_PROCESS
-echo "   Start the server..." >> $PKGLOG_ERROR
-install -v -m755 -o mariadb -g mariadb -d /run/mariadb                    \
-    >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
-mariadbd-safe --user=mariadb 2>&1 >/dev/null &
+# echo "   Start the server..."
+# echo "   Start the server..." >> $LFSLOG_PROCESS
+# echo "   Start the server..." >> $PKGLOG_ERROR
+# install -v -m755 -o mariadb -g mariadb -d /run/mariadb                    \
+#     >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
+# mariadbd-safe --user=mariadb >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR    &
 
-echo "   Set root password of MariaDB server..."
-echo "   Set root password of MariaDB server..." >> $LFSLOG_PROCESS
-echo "   Set root password of MariaDB server..." >> $PKGLOG_ERROR
-mariadb-admin -u root password   >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
+# echo "   Set root password of MariaDB server..."
+# echo "   Set root password of MariaDB server..." >> $LFSLOG_PROCESS
+# echo "   Set root password of MariaDB server..." >> $PKGLOG_ERROR
+# mariadb-admin -u root password MariaDB  >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
 
-echo "   Shutdown the server..."
-echo "   Shutdown the server..." >> $LFSLOG_PROCESS
-echo "   Shutdown the server..." >> $PKGLOG_ERROR
-mariadb-admin -p shutdown
+# echo "   Shutdown the server..."
+# echo "   Shutdown the server..." >> $LFSLOG_PROCESS
+# echo "   Shutdown the server..." >> $PKGLOG_ERROR
+# mariadb-admin -p shutdown
 
 #echo "8. Execute the last 3 lines 'mariadbd-safe...'"
 #echo "8. Execute the last 3 lines 'mariadbd-safe...'" >> $LFSLOG_PROCESS
