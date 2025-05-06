@@ -133,10 +133,10 @@ C.  Generate BLFS
 
         mariadb -u root -pMariaDB
 
-        #   CREATE USER 'root'@'<server-ip-address>' identified by 'MariaDB';
-        #   GRANT ALL PRIVILEGES ON *.* TO 'root'@'<server-ip-address>';
-            CREATE USER 'root'@'192.168.1.111' identified by 'MariaDB';
-            GRANT ALL PRIVILEGES ON *.* TO 'root'@'192.168.1.111';
+        #   CREATE USER 'root'@'<client-router-ip-address>' identified by '<password>';
+        #   GRANT ALL PRIVILEGES ON *.* TO 'root'@'<client-router-ip-address>';
+            CREATE USER 'root'@'192.168.1.90' identified by 'MariaDB';
+            GRANT ALL PRIVILEGES ON *.* TO 'root'@'192.168.1.90';
             exit;
 
         ###
