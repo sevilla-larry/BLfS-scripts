@@ -207,7 +207,7 @@ EOF
 echo "   Install a database and change the ownership to the unprivileged user and group..."
 echo "   Install a database and change the ownership to the unprivileged user and group..." >> $LFSLOG_PROCESS
 echo "   Install a database and change the ownership to the unprivileged user and group..." >> $PKGLOG_ERROR
-mariadb-install_db --basedir=/usr --datadir=/srv/mariadb --user=mariadb   \
+mariadb-install-db --basedir=/usr --datadir=/srv/mariadb --user=mariadb   \
     >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
 chown -v -R mariadb:mariadb /srv/mariadb                                  \
     >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
@@ -215,14 +215,15 @@ chown -v -R mariadb:mariadb /srv/mariadb                                  \
 echo "   Start the server..."
 echo "   Start the server..." >> $LFSLOG_PROCESS
 echo "   Start the server..." >> $PKGLOG_ERROR
-install -v -m755 -o mariadb -g mariadb -d /run/mariadbd                   \
+install -v -m755 -o mariadb -g mariadb -d /run/mariadb                    \
     >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
-mariadbd-safe --user=mariadb    >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR     &
+mariadbd-safe --user=mariadb    >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
+# 2>&1 >/dev/null &
 
 echo "   Set root password of MariaDB server..."
 echo "   Set root password of MariaDB server..." >> $LFSLOG_PROCESS
 echo "   Set root password of MariaDB server..." >> $PKGLOG_ERROR
-mariadb-admin -u root MariaDB  >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
+mariadb-admin -u root MariaDB   >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
 
 echo "   Shutdown the server..."
 echo "   Shutdown the server..." >> $LFSLOG_PROCESS
