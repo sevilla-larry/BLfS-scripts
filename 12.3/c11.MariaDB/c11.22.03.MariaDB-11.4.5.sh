@@ -222,7 +222,7 @@ mariadbd-safe --user=mariadb 2>&1 >/dev/null &
 echo "   Set root password of MariaDB server..."
 echo "   Set root password of MariaDB server..." >> $LFSLOG_PROCESS
 echo "   Set root password of MariaDB server..." >> $PKGLOG_ERROR
-mariadb-admin -u root MariaDB   >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
+mariadb-admin -u root password   >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
 
 echo "   Shutdown the server..."
 echo "   Shutdown the server..." >> $LFSLOG_PROCESS

@@ -108,20 +108,7 @@ C.  Generate BLFS
 
         ###
 
-  C.02. MariaDB set root password
-
-        ###
-
-        mariadbd-safe --user=mariadb 2>&1 >/dev/null &
-
-        # mariadb-admin -u root password
-        #    (Assumming "MariaDB" as password)
-
-        mariadb-admin -p shutdown
-
-        ###
-
-  C.03. MariaDB/MySQL bootscript
+  C.02. MariaDB/MySQL bootscript
 
         ###
 
@@ -134,7 +121,7 @@ C.  Generate BLFS
 
         ###
 
-  C.04. Configuration for Remote Access
+  C.03. Configuration for Remote Access
 
         # https://mariadb.com/kb/en/configuring-mariadb-for-remote-client-access/
         #
@@ -146,17 +133,19 @@ C.  Generate BLFS
 
         mariadb -u root -pMariaDB
 
-            CREATE USER 'root'@'<remote-ip-address>' identified by 'MariaDB';
-            GRANT ALL PRIVILEGES ON *.* TO 'root'@'<remote-ip-address>';
+        #   CREATE USER 'root'@'<server-ip-address>' identified by 'MariaDB';
+        #   GRANT ALL PRIVILEGES ON *.* TO 'root'@'<server-ip-address>';
+            CREATE USER 'root'@'192.168.1.111' identified by 'MariaDB';
+            GRANT ALL PRIVILEGES ON *.* TO 'root'@'192.168.1.111';
             exit;
 
         ###
 
-   C.05. Setup/Install a MariaDB FrontEnd client (no server) on a Remote PC
+  C.04. Setup/Install a MariaDB FrontEnd client (no server) on a Remote PC
 
         # on remote client
         #
-        # mariadb -h <remote-ip-address> -u <user> -p<password>
+        # mariadb -h <server-ip-address> -u <user> -p<password>
         #
 
-        mariadb -h <remote-ip-address> -u root -pMariaDB
+        mariadb -h 192.168.1.111 -u root -pMariaDB
