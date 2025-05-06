@@ -101,9 +101,9 @@ echo "4. Make Test ..."
 echo "4. Make Test ..." >> $LFSLOG_PROCESS
 echo "4. Make Test ..." >> $PKGLOG_ERROR
 make test > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
-echo "   One test, test-connect, is known to fail..."
-echo "   One test, test-connect, is known to fail..." >> $LFSLOG_PROCESS
-echo "   One test, test-connect, is known to fail..." >> $PKGLOG_ERROR
+echo "   Two tests, my_tzinfo & test-connect, is known to fail..."
+echo "   Two tests, my_tzinfo & test-connect, is known to fail..." >> $LFSLOG_PROCESS
+echo "   Two tests, my_tzinfo & test-connect, is known to fail..." >> $PKGLOG_ERROR
 
 echo "5. Extensive Test ..."
 echo "5. Extensive Test ..." >> $LFSLOG_PROCESS
