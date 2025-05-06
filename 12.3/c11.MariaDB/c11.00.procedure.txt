@@ -112,12 +112,12 @@ C.  Generate BLFS
 
         ###
 
-        mysqld_safe --user=mysql 2>&1 >/dev/null &
+        mariadb-safe --user=mariadb 2>&1 >/dev/null &
 
-        # mysqladmin -u root password
+        # mariadb-admin -u root password
         #    (Assumming "MariaDB" as password)
 
-        mysqladmin -p shutdown
+        mariadb-admin -p shutdown
 
         ###
 
@@ -125,10 +125,10 @@ C.  Generate BLFS
 
         ###
 
-        cd /mnt/Src/lfs.src/blfs-bootscripts-20240416       # VM/VB
-        cd /usr/src/lfs/blfs-bootscripts-20240416           # PC
+        cd /mnt/Src/lfs.src/blfs-bootscripts-20250225       # VM/VB
+        cd /usr/src/lfs/blfs-bootscripts-20250225           # PC
 
-        make install-mysql
+        make install-mariadb
 
         reboot
 
@@ -138,7 +138,7 @@ C.  Generate BLFS
 
         # https://mariadb.com/kb/en/configuring-mariadb-for-remote-client-access/
         #
-        # /etc/mysql/my.cnf
+        # /etc/mariadb/my.cnf
         #
         #    #skip-networking
 

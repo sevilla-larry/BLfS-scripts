@@ -5,13 +5,13 @@
 # Dependencies Required:
 #
 #               a.08.9x.01   CMake-3.31.5
+#               b10.13.24.28 PyYAML-6.0.2   (hidden?)
 #
 # Dependencies Optional:
 #
 #               a.08.93.05   Git-2.48.1
 #               a.08.91.08   libxml2-2.13.6
 #               b10.13.24.17 psutil-7.0.0
-#               b10.13.24.28 PyYAML-6.0.2
 #               a.08.91.04   Zip-3.0
 #
 
@@ -131,6 +131,12 @@ echo "5. Ninja Install ..."
 echo "5. Ninja Install ..." >> $LFSLOG_PROCESS
 echo "5. Ninja Install ..." >> $PKGLOG_ERROR
 ninja install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
+
+mkdir -pv /etc/clang >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
+
+for i in clang clang++; do
+  echo -fstack-protector-strong > /etc/clang/$i.cfg 2>> $PKGLOG_ERROR
+done
 
 
 cd $SOURCES

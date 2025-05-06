@@ -16,6 +16,7 @@
 # Required by:
 #
 #               d20.24.12 Mesa-24.3.4
+#               LLVM (hidden?)
 #               i?.??     cliff-4.7.0
 #               i?.??     openstacksdk-4.0.1
 #               i?.??     oslo.utils-7.3.0

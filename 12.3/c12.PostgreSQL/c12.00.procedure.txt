@@ -1,0 +1,173 @@
+A. Preparation
+
+  A.01. ( Assumming LfS is already running )
+
+        ###
+
+        rm -v /sources
+
+        ###
+
+        # (a) VM & VB
+
+            mkdir -v /mnt/Src/blfs.{src,log}
+
+            chmod -v a+wt /mnt/Src/blfs.{src,log}
+
+            ln -sfv /mnt/Src/blfs.src /sources
+
+            ln -sfv /mnt/Src/blfs.log /var/log/blfs
+
+        # (b) PC
+
+            mkdir -pv /usr/src/blfs
+
+            mkdir -pv /var/log/blfs
+
+            chmod -v a+wt /usr/src/blfs
+
+            chmod -v a+wt /var/log/blfs
+
+            ln -sfv /usr/src/blfs /sources
+
+        ###
+
+        cd /sources
+
+        ###
+
+  A.02. Copy all script files
+
+        copy all script files from the following to /sources
+
+            1. b10.common.Xorg.and.servers
+            2. c12.PostgreSQL
+
+  A.03. Download packages
+
+        ###
+
+        wget --input-file=b10.01.wget-list-sysv.common.Xorg.and.servers.txt --continue --directory-prefix=/sources
+        wget --input-file=c12.01.wget-list-sysv.PostgreSQL.txt              --continue --directory-prefix=/sources
+
+        md5sum -c b10.02.md5sums.common.Xorg.and.servers.txt
+        md5sum -c c12.02.md5sums.PostgreSQL.txt
+
+        ###
+
+  A.04. Setting Up the Environment
+        ( Note: change the MAKEFLAGS based on the number of threads )
+
+        ###
+
+        export LFSLOG=/var/log/blfs
+
+        export MAKEFLAGS="-j$(nproc)"
+        export NPROC="$(nproc)"
+
+        ###
+
+B.  Generate BLFS - Support Files
+
+  B.01. Checking Environment
+
+        ###
+
+        echo $LFSLOG          # /var/log/blfs
+        echo $MAKEFLAGS       # -j$(nproc)
+        echo $NPROC           # $(nproc)
+
+        echo $SHELL           # /bin/bash
+        ls -l /bin/sh         # bash
+        ls -l /usr/bin/awk    # gawk
+
+        cd /sources
+
+        ###
+
+        ( display )
+        root [ /sources ]#
+
+        ###
+
+#  B.02. Support Applications - others
+#
+#        ###
+#
+#        bash c12.03.8.all.support.apps.sh
+#
+#        ###
+
+C.  Generate BLFS
+
+  C.01. PostgreSQL Compile/Install
+
+        ###
+
+        bash c12.03.9.main.app.sh
+
+        ###
+        #
+        #    msgs:
+        #
+        #    initdb: warning: enabling "trust" authentication for local connections
+        #    initdb: hint: You can change this by editing pg_hba.conf or using the option -A, or --auth-local and --auth-host, the next time you run initdb.
+        #
+        #    Success. You can now start the database server using:
+        #
+        #        /usr/bin/pg_ctl -D /srv/pgsql/data -l logfile start
+        #
+        ###
+
+  C.02. PostgreSQL bootscript
+
+        ###
+
+        cd /mnt/Src/lfs.src/blfs-bootscripts-20250225       # VM/VB
+        cd /usr/src/lfs/blfs-bootscripts-20250225           # PC
+
+        make install-postgresql
+
+        reboot
+
+        ###
+
+  C.03. Starting PostgreSQL & Sample Database
+  
+        ###
+
+        https://www.linuxfromscratch.org/blfs/view/12.2/server/postgresql.html
+
+        Execute: Starting the PostgreSQL Server and Creating a Sample Database
+
+  C.04. Configuration for Remote Access
+
+        #
+        # to check if PostgreSQL is running, at server, as root:
+        #
+
+        pg_isready
+
+        export PGDATA=/srv/pgsql/data
+
+        #
+        # $PGDATA/pg_hba.conf
+        #
+        # add:
+        #
+        #   host  all all samenet trust
+        #
+
+        reboot
+
+   C.05. Setup/Install a PostgreSQL FrontEnd client (no server) on a Remote PC
+
+        #
+        # on remote client
+        #
+
+        # psql -h <REMOTE HOST> -p <REMOTE PORT>/5432 -U <DB_USER> <DB_NAME> 
+
+        psql -h <ipAddr> -p 5432 -U postgres postgres
+
+        ###
