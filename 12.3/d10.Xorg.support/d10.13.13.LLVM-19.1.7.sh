@@ -59,7 +59,7 @@ tar -xvf ../llvm-third-party-19.1.7.src.tar.xz  \
 sed '/LLVM_COMMON_CMAKE_UTILS/s@../cmake@cmake-19.1.7.src@'             \
     -i CMakeLists.txt                                                   \
     >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
-sed '/LLVM_THIRD_PARTY_DIR/s@../third-party@-third-party-19.1.7.src@'   \
+sed '/LLVM_THIRD_PARTY_DIR/s@../third-party@third-party-19.1.7.src@'   \
     -i cmake/modules/HandleLLVMOptions.cmake                            \
     >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
 
