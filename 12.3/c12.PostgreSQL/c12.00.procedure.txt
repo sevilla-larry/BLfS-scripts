@@ -40,17 +40,17 @@ A. Preparation
 
         copy all script files from the following to /sources
 
-            1. b10.common.Xorg.and.servers
+        ??  1. b10.common.Xorg.and.servers
             2. c12.PostgreSQL
 
   A.03. Download packages
 
         ###
 
-        wget --input-file=b10.01.wget-list-sysv.common.Xorg.and.servers.txt --continue --directory-prefix=/sources
+     #  wget --input-file=b10.01.wget-list-sysv.common.Xorg.and.servers.txt --continue --directory-prefix=/sources
         wget --input-file=c12.01.wget-list-sysv.PostgreSQL.txt              --continue --directory-prefix=/sources
 
-        md5sum -c b10.02.md5sums.common.Xorg.and.servers.txt
+     #  md5sum -c b10.02.md5sums.common.Xorg.and.servers.txt
         md5sum -c c12.02.md5sums.PostgreSQL.txt
 
         ###
