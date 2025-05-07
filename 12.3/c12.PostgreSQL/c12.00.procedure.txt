@@ -136,7 +136,7 @@ C.  Generate BLFS
   
         ###
 
-        https://www.linuxfromscratch.org/blfs/view/12.2/server/postgresql.html
+        https://www.linuxfromscratch.org/blfs/view/12.3/server/postgresql.html
 
         Execute: Starting the PostgreSQL Server and Creating a Sample Database
 
