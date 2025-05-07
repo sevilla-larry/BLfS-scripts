@@ -1,0 +1,9 @@
+# 09.04 Apr-1.7.5 errata
+https://archive.apache.org/dist/apr/apr-1.7.5.tar.bz2
+
+# 09.05 Apr-Util-1.6.3
+https://archive.apache.org/dist/apr/apr-util-1.6.3.tar.bz2
+
+# 20.01 Apache-2.4.63
+https://archive.apache.org/dist/httpd/httpd-2.4.63.tar.bz2
+https://www.linuxfromscratch.org/patches/blfs/12.3/httpd-2.4.63-blfs_layout-1.patch
