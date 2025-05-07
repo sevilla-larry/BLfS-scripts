@@ -193,7 +193,7 @@ C.  Generate BLFS - Graphical Components / Environments
         echo $LFSLOG          # /var/log/blfs
         echo $MAKEFLAGS       # -j$(nproc)
         echo $NPROC           # $(nproc)
-        echo $COMPUTER_TYPE   # VM, VB or PC
+        echo $COMPUTER_TYPE   # VM or VB or PC
 
         echo $SHELL           # /bin/bash
         ls -l /bin/sh         # bash
