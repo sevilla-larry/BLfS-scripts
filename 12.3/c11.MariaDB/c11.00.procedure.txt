@@ -112,11 +112,11 @@ C.  Generate BLFS
 
         ###
 
-        mariadbd-safe --user=mariadb 2>&1 >/dev/null &
+     #  mariadbd-safe --user=mariadb 2>&1 >/dev/null &
 
-        mariadb-admin -u root password
+     #  mariadb-admin -u root password
 
-        mariadb-admin -p shutdown
+     #  mariadb-admin -p shutdown
 
         ###
 
