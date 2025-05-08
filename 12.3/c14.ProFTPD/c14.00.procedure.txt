@@ -61,19 +61,19 @@ A. Preparation
 
         copy all script files from the following to /sources
 
-            1. b10.common.Xorg.and.servers
+     #      1. b10.common.Xorg.and.servers
             2. c14.ProFTPD
 
   A.03. Download packages
 
         ###
 
-        wget --input-file=b10.01.wget-list-sysv.common.Xorg.and.servers.txt --continue --directory-prefix=/sources
+     #  wget --input-file=b10.01.wget-list-sysv.common.Xorg.and.servers.txt --continue --directory-prefix=/sources
         wget --input-file=c14.01.wget-list-sysv.ProFTPD.txt                 --continue --directory-prefix=/sources
 
         ###
 
-        md5sum -c b10.02.md5sums.common.Xorg.and.servers.txt
+     #  md5sum -c b10.02.md5sums.common.Xorg.and.servers.txt
         md5sum -c c14.02.md5sums.ProFTPD.txt
 
         ###
