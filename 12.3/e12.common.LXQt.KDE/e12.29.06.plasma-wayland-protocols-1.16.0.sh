@@ -4,16 +4,13 @@
 #
 # Dependencies Required:
 #
-#               e12.29.02 extra-cmake-modules-6.5.0
+#               e12.29.02 extra-cmake-modules-6.11.0
 #
 
 #
 # Required by:
 #
-#               e32.37.02 kwindowsystem-6.5.0 for lxqt
-#               e32.37.05 kidletime-6.5.0 for lxqt
-#               e32.37.06 kwayland-6.1.4 for lxqt
-#               e32.37.07 libkscreen-6.1.4 for lxqt
+#               
 #
 
 export PKG="plasma-wayland-protocols-1.16.0"

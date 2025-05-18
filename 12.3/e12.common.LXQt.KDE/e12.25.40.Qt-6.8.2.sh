@@ -1,4 +1,4 @@
-# e12.25.42.Qt-6.8.2.sh
+# e12.25.40.Qt-6.8.2.sh
 #
 
 #
@@ -44,7 +44,7 @@
 #
 
 export PKG="qt-everywhere-src-6.8.2"
-export PKGLOG_DIR=$LFSLOG/25.42
+export PKGLOG_DIR=$LFSLOG/25.40
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
@@ -80,8 +80,8 @@ echo "2. Configure ..." >> $PKGLOG_ERROR
             -skip qt3d              \
             -skip qtquick3dphysics  \
             -skip qtwebengine       \
-            -W no-dev               \
     > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+#            -W no-dev               \
 
 echo "3. Ninja Build ..."
 echo "3. Ninja Build ..." >> $LFSLOG_PROCESS
