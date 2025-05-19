@@ -31,6 +31,7 @@ fc9e586751ff789b34b1f21d572d96af yasm-1.3.0.tar.gz
 
 # 25.04 Cairo-1.18.2
 5ad67c707edd0003f1b91c8bbc0005c1 cairo-1.18.2.tar.xz
+#                                patch
 # 25.10 gdk-pixbuf-2.42.12
 f986fdbba5ec6233c96f8b6535811780 gdk-pixbuf-2.42.12.tar.xz
 # 25.38 Pango-1.56.1

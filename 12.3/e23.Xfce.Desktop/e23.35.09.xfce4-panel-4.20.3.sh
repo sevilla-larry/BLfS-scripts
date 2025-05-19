@@ -4,7 +4,7 @@
 #
 # Dependencies Required:
 #
-#               e21.25.04 Cairo-1.18.0      ???
+#               e10.25.04 Cairo-1.18.2
 #               e23.35.04 Exo-4.20.0
 #               e23.35.05 Garcon-4.20.0
 #               e23.35.06 libwnck-43.2

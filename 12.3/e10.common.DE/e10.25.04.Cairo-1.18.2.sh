@@ -4,32 +4,31 @@
 #
 # Dependencies Required:
 #
-#               d10.10.22 libpng-1.6.43
-#               d10.10.32 Pixman-0.43.4
+#               d10.10.22 libpng-1.6.46
+#               d10.10.32 Pixman-0.44.2
 #
 # Dependencies Recommended:
 #
-#               d10.10.05 Fontconfig-2.15.0
-#               d10.09.17 GLib-2.80.4
+#               d10.10.05 Fontconfig-2.16.0
+#               d10.09.17 GLib-2.82.5
 #               d20.24.08 Xorg Libraries
 #
 # Dependencies Optional:
 #
-#             ? e21.25.17 GTK+-3.24.43 (circular) ?
-#               d20.25.38 Libdrm-2.4.122
-#               b10.09.72 libxml2-2.13.3
-#               d20.24.16 Mesa-24.1.5
+#               d20.25.33  Libdrm-2.4.124
+#               a.08.91.08 libxml2-2.13.6
+#               a.08.91.09 LZO-2.10
 #
 
 #
 # Required by:
 #
-#               e23.35.07 xfce4-panel-4.18.6
+#               e23.35.09 xfce4-panel-4.20.3
 #               ??.13.24.18 PyCairo-1.18.2      ???
 #
 # Recommended ( but needed ) by:
 #
-#               e10.25.38 Pango-1.54.0
+#               e10.25.38 Pango-1.54.0          ???
 #
 
 export PKG="cairo-1.18.2"
