@@ -1,28 +1,36 @@
-# e23.35.13.xfce4-settings-4.20.1.sh
+# e23.35.10.thunar-4.20.2.sh
 #
 
 #
 # Dependencies Required:
 #
-#               e23.35.04 Exo-4.18.0
-#               e23.35.05 Garcon-4.18.2
+#               e23.35.04 Exo-4.20.0
 #
-# Dependencies Required (runtime):
+# Dependencies Recommended:
 #
-#               e21.28.09 lxde-icon-theme-0.5.1
+#               e21.09.45 libgudev-238      ???
+#               ???       libnotify         ???
+#               a.08.91.11 PCRE2-10.45
 #
-# Dependencies Optional:
+# Required Runtime:
 #
-#               d20.24.25.1.3 libinput-1.26.1
+#               e21.28.07 hicolor-icon-theme-0.18   ???
 #
 
-export PKG="xfce4-settings-4.20.1"
-export PKGLOG_DIR=$LFSLOG/35.13
+#
+# Recommended by:
+#
+#               e23.35.14 Xfdesktop-4.18.1          ???
+#
+
+export PKG="thunar-4.20.2"
+export PKGLOG_DIR=$LFSLOG/35.10
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
 export PKGLOG_INSTALL=$PKGLOG_DIR/install.log
 export PKGLOG_ERROR=$PKGLOG_DIR/error.log
+export PKGLOG_OTHERS=$PKGLOG_DIR/others.log
 export LFSLOG_PROCESS=$LFSLOG/process.log
 export SOURCES= `pwd`
 
@@ -36,11 +44,15 @@ tar xvf $PKG.tar.bz2 > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
 
 
+sed -i 's/\tinstall-systemd_userDATA/\t/' Makefile.in   \
+        > $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
+
 echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
 echo "2. Configure ..." >> $PKGLOG_ERROR
 ./configure --prefix=/usr       \
             --sysconfdir=/etc   \
+            --docdir=/usr/share/doc/thunar-4.20.2   \
             > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Make Build ..."
@@ -58,6 +70,7 @@ cd $SOURCES
 rm -rf $PKG
 unset SOURCES
 unset LFSLOG_PROCESS
+unset PKGLOG_OTHERS
 unset PKGLOG_INSTALL PKGLOG_BUILD PKGLOG_CONFIG
 unset PKGLOG_ERROR PKGLOG_TAR
 unset PKGLOG_DIR PKG

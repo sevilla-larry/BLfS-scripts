@@ -4,19 +4,22 @@
 #
 # Dependencies Required:
 #
-#               e11.25.03 at-spi2-core-2.52.0
-#               e10.25.10 gdk-pixbuf-2.42.12
-#               d20.25.35 libepoxy-1.5.10
-#               e10.25.38 Pango-1.54.0
+#               e11.25.03 at-spi2-core-2.54.1   ???
+#               e10.25.10 gdk-pixbuf-2.42.12    ???
+#               d20.25.34 libepoxy-1.5.10
+#               e10.25.38 Pango-1.56.1          ???
 #
 # Dependencies Recommended:
 #
-#               e21.28.01 adwaita-icon-theme-46.2   (runtime)
-#               e10.28.07 hicolor-icon-theme-0.18   (test)
-#               d10.09.74 libxslt-1.1.42
-#               d10.09.97 Wayland-1.23.0
-#               d10.09.98 Wayland-Protocols-1.36
-#               d10.09.17 GLib-2.80.4
+#               e21.28.01  adwaita-icon-theme-47.0   (runtime)   ???
+#               a.08.91.37 docbook-xsl-nons-1.79.2
+#               e10.28.07  hicolor-icon-theme-0.18   (test)      ???
+#                          ISO.Codes-4.17.0                 ???
+#                          libxkbcommon-1.8.0               ???
+#               a.08.91.38 libxslt-1.1.43
+#               d10.09.97  Wayland-1.23.0
+#               d10.09.98  Wayland-Protocols-1.40
+#               d10.09.17  GLib-2.82.5
 #
 
 #

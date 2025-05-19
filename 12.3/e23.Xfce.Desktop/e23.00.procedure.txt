@@ -11,8 +11,9 @@ A. Preparation
             1. e10.common.DE
             2. e11.common.Xfce.Gnome
             3. e21.Xfce.support
-            4. e23.Xfce
-            5. f2.LightDM
+            4. e23.Xfce.Desktop
+            5. e24.Xfce.Applications
+            6. f2.LightDM
 
   A.03. Download packages
 
@@ -21,7 +22,8 @@ A. Preparation
         wget --input-file=e11.01.wget-list-sysv.common.DE.txt           --continue --directory-prefix=/sources
         wget --input-file=e11.01.wget-list-sysv.common.Xfce.Gnome.txt   --continue --directory-prefix=/sources
         wget --input-file=e21.01.wget-list-sysv.Xfce.support.txt        --continue --directory-prefix=/sources
-        wget --input-file=e23.01.wget-list-sysv.Xfce.txt                --continue --directory-prefix=/sources
+        wget --input-file=e23.01.wget-list-sysv.Xfce.Desktop.txt                --continue --directory-prefix=/sources
+        wget --input-file=e24.01.wget-list-sysv.Xfce.Applications.txt                --continue --directory-prefix=/sources
         wget --input-file=f2.01.wget-list-sysv.LightDM.txt             --continue --directory-prefix=/sources
 
         ###
@@ -29,7 +31,8 @@ A. Preparation
         md5sum -c e10.02.md5sums.common.DE.txt
         md5sum -c e11.02.md5sums.common.Xfce.Gnome.txt
         md5sum -c e21.02.md5sums.Xfce.support.txt
-        md5sum -c e23.02.md5sums.Xfce.txt
+        md5sum -c e23.02.md5sums.Xfce.Desktop.txt
+        md5sum -c e24.02.md5sums.Xfce.Applications.txt
         md5sum -c f2.02.md5sums.LightDM.txt
 
         ###

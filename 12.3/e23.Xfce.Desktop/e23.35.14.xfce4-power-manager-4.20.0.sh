@@ -1,20 +1,20 @@
-# e23.35.09.thunar-volman-4.20.0.sh
+# e23.35.14.xfce4-power-manager-4.20.0.sh
 #
 
 #
 # Dependencies Required:
 #
-#               e23.35.04 Exo-4.18.0
-#               e21.09.45 libgudev-238
+#               e21.25.36 libnotify-0.8.3       ???
+#               e10.12.36 UPower-1.90.4         ???
+#               e23.35.09 xfce4-panel-4.20.3
 #
-# Runtime recommended:
+# Dependencies Recommended:
 #
-#   33.32 Gvfs-1.50.3 ( initially NONE/OFF )
-#   (so many requirements)
+#               d10.04.20 Polkit-126
 #
 
-export PKG="thunar-volman-4.20.0"
-export PKGLOG_DIR=$LFSLOG/35.09
+export PKG="xfce4-power-manager-4.20.0"
+export PKGLOG_DIR=$LFSLOG/35.14
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
@@ -37,6 +37,7 @@ echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
 echo "2. Configure ..." >> $PKGLOG_ERROR
 ./configure --prefix=/usr       \
+            --sysconfdir=/etc   \
             > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Make Build ..."

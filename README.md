@@ -74,6 +74,7 @@
 #
 #		e21	- Xfce other Support
 #		e23 - Xfce Desktop
+#		e24 - Xfce Applications
 #
 #		e31	- LXQt other Support
 #		e32 - KF5, Plasma, & Misc Dependecies

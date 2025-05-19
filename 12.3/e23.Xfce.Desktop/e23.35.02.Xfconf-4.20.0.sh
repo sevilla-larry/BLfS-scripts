@@ -1,28 +1,24 @@
-# e23.35.14.Xfdesktop-4.20.1.sh
+# e23.35.02.Xfconf-4.20.0.sh
 #
 
 #
 # Dependencies Required:
 #
-#               e23.35.04 Exo-4.18.0
-#               e23.35.05 Garcon-4.18.2
-#               e23.35.06 libwnck-43.0
+#               e23.35.01 libxfce4util-4.20.0
 #
-# Dependencies Recommended:
+# Dependencies Optional:
 #
-#               ??.?? libnotify
-#               ??.?? startup-notifications
-#               e23.35.08 thunar-4.18.11
+#               e11.13.35 Vala-0.56.17      ???
 #
 
 #
-# Required Runtime by:
+# Required by:
 #
-#               e23.35.16 xfce4-session-4.18.4
+#               e23.35.03 libxfce4ui-4.20.0
 #
 
-export PKG="xfdesktop-4.20.1"
-export PKGLOG_DIR=$LFSLOG/35.14
+export PKG="xfconf-4.20.0"
+export PKGLOG_DIR=$LFSLOG/35.02
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
@@ -44,8 +40,8 @@ cd $PKG
 echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
 echo "2. Configure ..." >> $PKGLOG_ERROR
-./configure --prefix=/usr       \
-            > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+./configure --prefix=/usr   \
+    > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Make Build ..."
 echo "3. Make Build ..." >> $LFSLOG_PROCESS

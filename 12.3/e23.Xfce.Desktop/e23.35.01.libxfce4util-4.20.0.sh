@@ -1,14 +1,25 @@
-# e23.35.11.xfce4-appfinder-4.20.0.sh
+# e23.35.01.libxfce4util-4.20.0.sh
 #
 
 #
 # Dependencies Required:
 #
-#               e23.35.05 Garcon-4.18.2
+#               d10.09.17 GLib-2.82.5       ???
+#
+# Dependencies Recommended:
+#
+#               e11.13.35 Vala-0.56.17      ???
 #
 
-export PKG="xfce4-appfinder-4.20.0"
-export PKGLOG_DIR=$LFSLOG/35.11
+#
+# Required by:
+#
+#               e23.35.02 Xfconf-4.20.0
+#               e23.35.04 Exo-4.20.0
+#
+
+export PKG="libxfce4util-4.20.0"
+export PKGLOG_DIR=$LFSLOG/35.01
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
@@ -30,7 +41,7 @@ cd $PKG
 echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
 echo "2. Configure ..." >> $PKGLOG_ERROR
-./configure --prefix=/usr       \
+./configure --prefix=/usr   \
             > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Make Build ..."

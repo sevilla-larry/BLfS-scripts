@@ -1,19 +1,25 @@
-# e23.35.15.Xfwm4-4.20.0.sh
+# e23.35.08.libxfce4windowing-4.20.2.sh
 #
 
 #
 # Dependencies Required:
 #
-#               e23.35.06 libwnck-43.0
-#               e23.35.03 libxfce4ui-4.18.6
-#
-# Dependencies Recommended:
-#
-#               ??.?? startup-notifications-0.12
+#               e21.25.17 GTK-3.24.48               ???
+#                         libdisplay-info-0.2.0     ???
+#               e23.35.06 libwnck-43.2
+#               e23.35.07 xfce4-dev-tools-4.20.0
 #
 
-export PKG="xfwm4-4.20.0"
-export PKGLOG_DIR=$LFSLOG/35.15
+#
+# Required by:
+#
+#               e23.35.09 xfce4-panel-4.18.6        ???
+#               e23.35.13 xfce4-appfinder-4.18.1    ???
+#               e23.35.15 xfce4-settings-4.18.6     ???
+#
+
+export PKG="libxfce4windowing-4.20.2"
+export PKGLOG_DIR=$LFSLOG/35.08
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
@@ -36,6 +42,9 @@ echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
 echo "2. Configure ..." >> $PKGLOG_ERROR
 ./configure --prefix=/usr       \
+            --sysconfdir=/etc   \
+            --enable-x11        \
+            --disable-debug     \
             > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Make Build ..."

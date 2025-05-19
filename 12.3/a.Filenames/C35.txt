@@ -1,0 +1,22 @@
+IX. Xfce
+
+35. Xfce Desktop
+
+35.01 libxfce4util-4.20.0
+35.02 Xfconf-4.20.0
+35.03 libxfce4ui-4.20.0
+35.04 Exo-4.20.0
+35.05 Garcon-4.20.0
+35.06 libwnck-43.2
+35.07 xfce4-dev-tools-4.20.0
+35.08 libxfce4windowing-4.20.2
+35.09 xfce4-panel-4.20.3
+35.10 thunar-4.20.2
+35.11 thunar-volman-4.20.0
+35.12 tumbler-4.20.0
+35.13 xfce4-appfinder-4.20.0
+35.14 xfce4-power-manager-4.20.0
+35.15 xfce4-settings-4.20.1
+35.16 Xfdesktop-4.20.1
+35.17 Xfwm4-4.20.0
+35.18 xfce4-session-4.20.0
