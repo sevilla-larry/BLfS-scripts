@@ -6,7 +6,9 @@
 #
 #               b11.13.03 CMake-3.31.5
 #
-
+# Dependencies Required:
+#
+#               e12.25.40.QT-6.8.2
 #
 # Required by:
 #

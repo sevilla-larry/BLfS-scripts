@@ -3,18 +3,18 @@
 #
 # Dependencies Required:
 #
-#               b11.13.03 CMake-3.30.2
-#               d10.04.20 Polkit-125
-#               e12.25.42 Qt-6.7.2
+#               b11.13.03 CMake-3.31.2
+#               d10.04.20 Polkit-126
+#               e12.25.42 Qt-6.8.2
 #
-
+#
 # Required by:
 #
-#               e33.37.13 liblxqt-2.0.0
+#            
 #
 
 
-export PKG="polkit-qt-1-0.200.0"
+export PKG="polkit-qt-0-0.200.0"
 export PKGLOG_DIR=$LFSLOG/29.05
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
