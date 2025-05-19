@@ -4,7 +4,7 @@
 #
 # Dependencies Required:
 #
-#               e21.25.17 GTK-3.24.48               ???
+#               e21.25.16 GTK-3.24.48
 #                         libdisplay-info-0.2.0     ???
 #               e23.35.06 libwnck-43.2
 #               e23.35.07 xfce4-dev-tools-4.20.0
@@ -13,9 +13,9 @@
 #
 # Required by:
 #
-#               e23.35.09 xfce4-panel-4.18.6        ???
-#               e23.35.13 xfce4-appfinder-4.18.1    ???
-#               e23.35.15 xfce4-settings-4.18.6     ???
+#               e23.35.09 xfce4-panel-4.20.3
+#               e23.35.13 xfce4-appfinder-4.20.0
+#               e23.35.15 xfce4-settings-4.20.1
 #
 
 export PKG="libxfce4windowing-4.20.2"

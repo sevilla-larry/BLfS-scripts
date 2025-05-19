@@ -4,7 +4,7 @@
 #
 # Dependencies Required:
 #
-#               e21.25.17 GTK-3.24.48           ???
+#               e21.25.16 GTK-3.24.48
 #               e23.35.03 libxfce4ui-4.20.0
 #               e23.35.01 libxfce4util-4.20.0
 #
@@ -12,11 +12,11 @@
 #
 # Required by:
 #
-#               e23.35.07 xfce4-panel-4.18.6    ???
-#               e23.35.08 thunar-4.18.11        ???
-#               e23.35.09 thunar-volman-4.18.0  ???
-#               e23.35.13 xfce4-settings-4.18.6 ???
-#               e23.35.14 Xfdesktop-4.18.1      ???
+#               e23.35.09 xfce4-panel-4.20.3
+#               e23.35.10 thunar-4.20.2
+#               e23.35.11 thunar-volman-4.20.0
+#               e23.35.15 xfce4-settings-4.20.1
+#               e23.35.16 Xfdesktop-4.20.1
 #               f22.26.02 lightdm-1.32.0        ???
 #
 

@@ -4,7 +4,7 @@
 #
 # Dependencies Required:
 #
-#               e21.25.17 GTK-3.24.48       ???
+#               e21.25.16 GTK-3.24.48
 #               e23.35.02 Xfconf-4.20.0
 #
 # Dependencies Recommended:
@@ -21,8 +21,8 @@
 #
 #               e23.35.04 Exo-4.20.0
 #               e23.35.05 Garcon-4.20.0
-#               e23.35.15 Xfwm4-4.18.0          ???
-#               e23.35.16 xfce4-session-4.18.4  ???
+#               e23.35.17 Xfwm4-4.20.0
+#               e23.35.18 xfce4-session-4.20.0
 #
 
 export PKG="libxfce4ui-4.20.0"

@@ -21,30 +21,36 @@
 #               d10.09.98  Wayland-Protocols-1.40
 #               d10.09.17  GLib-2.82.5
 #
+# Dependencies Runtime: needed for current configuration
+#
+#                            oxygen-icons-6.0.0             ???
+#               d20.24.28.04 DejaVu-fonts-ttf-2.37
+#                            gnome-themes-extra-3.28        ???
+#
 
 #
 # Required by:
 #
-#               e11.28.01 adwaita-icon-theme-46.2
-#               e21.25.36 libnotify-0.8.3
-#               e23.35.03 libxfce4ui-4.18.6
-#               e23.35.04 Exo-4.18.0
-#               e23.35.05 Garcon-4.18.2
-#               e23.35.06 libwnck-43.0
-#               g12.40.03 Firefox-128.4.0esr (errata)
+#               e11.28.01 adwaita-icon-theme-46.2           ???
+#               e21.25.36 libnotify-0.8.3                   ???
+#               e23.35.03 libxfce4ui-4.20.0
+#               e23.35.04 Exo-4.20.0
+#               e23.35.05 Garcon-4.20.0
+#               e23.35.06 libwnck-43.2
+#               g12.40.03 Firefox-128.4.0esr (errata)       ???
 #
 # Recommended by:
 #
-#               e11.42.27 libcanberra-0.30
-#               g12.39.03 LibreOffice-24.8.0
+#               e11.42.27 libcanberra-0.30                  ???
+#               g12.39.03 LibreOffice-24.8.0                ???
 #
 # Optionally by:
 #
-#               e11.28.09 lxde-icon-theme-0.5.1
-#               e11.42.14 gstreamer-1.24.7
-#               e11.42.15 gst-plugins-base-1.24.7
-#               e11.42.16 gst-plugins-good-1.24.7
-#               e11.42.17 gst-plugins-bad-1.24.7
+#               e11.28.09 lxde-icon-theme-0.5.1             ???
+#               e11.42.14 gstreamer-1.24.7                  ???
+#               e11.42.15 gst-plugins-base-1.24.7           ???
+#               e11.42.16 gst-plugins-good-1.24.7           ???
+#               e11.42.17 gst-plugins-bad-1.24.7            ???
 #
 
 export PKG="gtk-3.24.48"
@@ -55,6 +61,7 @@ export PKGLOG_BUILD=$PKGLOG_DIR/build.log
 export PKGLOG_CHECK=$PKGLOG_DIR/check.log
 export PKGLOG_INSTALL=$PKGLOG_DIR/install.log
 export PKGLOG_ERROR=$PKGLOG_DIR/error.log
+export PKGLOG_OTHERS=$PKGLOG_DIR/others.log
 export LFSLOG_PROCESS=$LFSLOG/process.log
 export SOURCES= `pwd`
 
@@ -101,13 +108,38 @@ echo "4. Ninja Install ..." >> $PKGLOG_ERROR
 ninja install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 # Read configuring GTK+ 3
-# https://www.linuxfromscratch.org/blfs/view/12.2/x/gtk3.html
+# https://www.linuxfromscratch.org/blfs/view/12.3/x/gtk3.html
+
+mkdir -vp /etc/gtk-3.0  > $PKGLOG_OTHERS    2>> $PKGLOG_ERROR
+
+cat > /etc/gtk-3.0/settings.ini << "EOF"    2>> $PKGLOG_ERROR
+[Settings]
+gtk-theme-name = Adwaita
+gtk-application-prefer-dark-theme=true
+gtk-icon-theme-name = oxygen
+gtk-font-name = DejaVu Sans 12
+gtk-cursor-theme-size = 18
+gtk-toolbar-style = GTK_TOOLBAR_BOTH_HORIZ
+gtk-xft-antialias = 1
+gtk-xft-hinting = 1
+gtk-xft-hintstyle = hintslight
+gtk-xft-rgba = rgb
+gtk-cursor-theme-name = Adwaita
+EOF
+
+cat > /etc/gtk-3.0/gtk.css << "EOF"         2>> $PKGLOG_ERROR
+*  {
+   -GtkScrollbar-has-backward-stepper: 1;
+   -GtkScrollbar-has-forward-stepper: 1;
+}
+EOF
 
 
 cd $SOURCES
 rm -rf $PKG
 unset SOURCES
 unset LFSLOG_PROCESS
+unset PKGLOG_OTHERS
 unset PKGLOG_INSTALL PKGLOG_BUILD PKGLOG_CONFIG
 unset PKGLOG_CHECK
 unset PKGLOG_ERROR PKGLOG_TAR

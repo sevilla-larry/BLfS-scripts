@@ -5,14 +5,14 @@
 # Dependencies Required:
 #
 #               e23.35.03 libxfce4ui-4.20.0
-#               e21.25.17 GTK-3.24.48               ???
+#               e21.25.16 GTK-3.24.48
 
 #
 # Required by:
 #
-#               e23.35.07 xfce4-panel-4.18.6        ???
-#               e23.35.11 xfce4-appfinder-4.18.1    ???
-#               e23.35.13 xfce4-settings-4.18.6     ???
+#               e23.35.09 xfce4-panel-4.20.3
+#               e23.35.13 xfce4-appfinder-4.20.0
+#               e23.35.15 xfce4-settings-4.20.1
 #
 
 export PKG="garcon-4.20.0"

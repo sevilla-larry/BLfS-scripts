@@ -20,7 +20,7 @@
 #
 # Recommended by:
 #
-#               e23.35.14 Xfdesktop-4.18.1          ???
+#               e23.35.16 Xfdesktop-4.20.1
 #
 
 export PKG="thunar-4.20.2"

@@ -10,15 +10,15 @@
 #
 # Dependencies Recommended:
 #
-#               ??.?? libnotify
-#               ??.?? startup-notifications
+#               ??.?? libnotify                 ???
+#               ??.?? startup-notifications     ???
 #               e23.35.10 thunar-4.20.2
 #
 
 #
 # Required Runtime by:
 #
-#               e23.35.18 xfce4-session-4.18.4  ???
+#               e23.35.18 xfce4-session-4.20.0
 #
 
 export PKG="xfdesktop-4.20.1"

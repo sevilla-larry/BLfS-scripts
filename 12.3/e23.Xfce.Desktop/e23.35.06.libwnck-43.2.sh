@@ -4,21 +4,21 @@
 #
 # Dependencies Required:
 #
-#               e21.25.17 GTK-3.24.48		???
+#               e21.25.16 GTK-3.24.48
 #
 # Dependencies Recommended:
 #
-#               d10.09.17 GLib-2.82.5		???
+#               d10.09.17 GLib-2.82.5
 #               ??? startup-notifications ???
 #
 
 #
 # Required by:
 #
-#               e23.35.07 xfce4-panel-4.18.6	???
-#               e23.35.14 Xfdesktop-4.18.1		???
-#               e23.35.15 Xfwm4-4.18.0			???
-#               e23.35.16 xfce4-session-4.18.4	???
+#               e23.35.09 xfce4-panel-4.20.3
+#               e23.35.16 Xfdesktop-4.20.1
+#               e23.35.17 Xfwm4-4.20.0
+#               e23.35.18 xfce4-session-4.20.0
 #
 
 export PKG="libwnck-43.2"
