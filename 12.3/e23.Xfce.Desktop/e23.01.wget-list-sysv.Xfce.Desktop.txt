@@ -5,6 +5,8 @@ https://archive.xfce.org/src/xfce/libxfce4ui/4.20/libxfce4ui-4.20.0.tar.bz2
 https://archive.xfce.org/src/xfce/exo/4.20/exo-4.20.0.tar.bz2
 https://archive.xfce.org/src/xfce/garcon/4.20/garcon-4.20.0.tar.bz2
 https://download.gnome.org/sources/libwnck/43/libwnck-43.2.tar.xz
+https://archive.xfce.org/src/xfce/xfce4-dev-tools/4.20/xfce4-dev-tools-4.20.0.tar.bz2
+https://archive.xfce.org/src/xfce/libxfce4windowing/4.20/libxfce4windowing-4.20.2.tar.bz2
 https://archive.xfce.org/src/xfce/xfce4-panel/4.20/xfce4-panel-4.20.3.tar.bz2
 https://archive.xfce.org/src/xfce/thunar/4.20/thunar-4.20.2.tar.bz2
 ###https://archive.xfce.org/src/xfce/thunar-volman/4.20/thunar-volman-4.20.0.tar.bz2

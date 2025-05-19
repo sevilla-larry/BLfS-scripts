@@ -5,13 +5,15 @@ a2fc9c0a73ba606a8779813b3d910729 libxfce4ui-4.20.0.tar.bz2
 f059ec3d8686d4b322c42d19ebec0366 exo-4.20.0.tar.bz2
 fe17e9cb15a62013e0086183a446e89e garcon-4.20.0.tar.bz2
 b8c29ef589d3427c8a699c1542a2d25e libwnck-43.2.tar.xz
+bea58046e67b4274c022fcff893fa350 xfce4-dev-tools-4.20.0.tar.bz2
+d3094d3fd6f3cdbc99b921a515c141e0 libxfce4windowing-4.20.2.tar.bz2
 26796af791f8bf33708a0fa9fdc3a0e8 xfce4-panel-4.20.3.tar.bz2
 87adf363ea5f93d7f7ab55ad384ff74e thunar-4.20.2.tar.bz2
 ### 34c8e0af77ea3894db7e3d164998f9bf thunar-volman-4.20.0.tar.bz2
 8746afe5822d3564a5cd43945d488db7 tumbler-4.20.0.tar.bz2
 e60f6c2521a985c6cfe09057d4fb2d69 xfce4-appfinder-4.20.0.tar.bz2
 a9e27be5dafea884fb9fbbb918062963 xfce4-power-manager-4.20.0.tar.bz2
-37a5f463b2b81ac74a09edbda8ed4fb0 xfce4-settings-4.18.6.tar.bz2
-f6a275e5e7c30dcceb4daa480375f8d0 xfdesktop-4.20.1.tar.bz2
+f6a275e5e7c30dcceb4daa480375f8d0 xfce4-settings-4.20.1.tar.bz2
+b845397fed5e555fa8dce4b189365dbc xfdesktop-4.20.1.tar.bz2
 e74cfb30b6e9ebf9cbaac0827dd534e3 xfwm4-4.20.0.tar.bz2
 f98b892974a489120ccdddf442ca00fa xfce4-session-4.20.0.tar.bz2
