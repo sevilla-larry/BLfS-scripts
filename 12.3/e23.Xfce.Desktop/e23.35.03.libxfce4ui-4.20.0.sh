@@ -13,7 +13,7 @@
 #
 # Dependencies optional:
 #
-#               e21.09.45 libgudev-238      ???
+#               e10.09.45 libgudev-238
 #
 
 #

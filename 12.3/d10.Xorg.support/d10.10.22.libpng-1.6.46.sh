@@ -5,7 +5,7 @@
 # Required by:
 #
 #               d20.24.14 Xorg Applications
-#				e21.25.04 Cairo-1.18.0          ???
+#				e10.25.04 Cairo-1.18.2
 #               e10.25.12 gdk-pixbuf-2.42.10    ???
 #
 # Recommended by:

@@ -1,43 +1,44 @@
-# e21.25.36.libnotify-0.8.4.sh
+# e21.25.35.libnotify-0.8.4.sh
 #
 
 #
 # Dependencies Required:
 #
-#               e11.25.17 GTK+-3.24.43
+#               e11.25.16 GTK-3.24.48
 #
 # Dependencies Optional:
 #
-#               d10.09.17 GLib-2.80.4
-#               d20.24.08 Xorg Libraries
+#               d10.09.17 GLib-2.82.5
+#               d10.49.06 xmlto-0.0.29
 #
 # Dependencies Required Runtime:
 #
-#               e23.36.06 xfce4-notifyd-0.9.6
+#               e24.36.05 xfce4-notifyd-0.9.7       ???
 #
 
 #
 # Required by:
 #
-#               e23.35.12 xfce4-power-manager-4.18.4
-#               g12.40.03 Firefox-128.4.0esr (errata)
+#               e23.35.14 xfce4-power-manager-4.20.0
+#               g12.40.03 Firefox-128.4.0esr (errata)   ???
 #
 # Recommended by:
 #
-#               e23.35.08 thunar-4.18.11
-#               e23.35.09 thunar-volman-4.18.0  ???
-#               e23.35.13 xfce4-settings-4.18.6
-#               e23.35.14 Xfdesktop-4.18.1
+#               e23.35.10 thunar-4.20.2
+#               e23.35.11 thunar-volman-4.20.0 (not used)
+#               e23.35.15 xfce4-settings-4.20.1
+#               e23.35.16 Xfdesktop-4.20.1
 #
 
 export PKG="libnotify-0.8.4"
-export PKGLOG_DIR=$LFSLOG/25.36
+export PKGLOG_DIR=$LFSLOG/25.35
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
 export PKGLOG_CHECK=$PKGLOG_DIR/check.log
 export PKGLOG_INSTALL=$PKGLOG_DIR/install.log
 export PKGLOG_ERROR=$PKGLOG_DIR/error.log
+export PKGLOG_OTHERS=$PKGLOG_DIR/others.log
 export LFSLOG_PROCESS=$LFSLOG/process.log
 export SOURCES= `pwd`
 
@@ -75,8 +76,10 @@ echo "4. Ninja Install ..." >> $PKGLOG_ERROR
 ninja install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 if [ -e /usr/share/doc/libnotify ]; then
-  rm -vrf /usr/share/doc/libnotify-0.8.3
-  mv -v   /usr/share/doc/libnotify{,-0.8.3}
+  rm -vrf /usr/share/doc/libnotify-0.8.4    \
+        >> $PKLOG_OTHERS 2>> $PKGLOG_ERROR
+  mv -v   /usr/share/doc/libnotify{,-0.8.4} \
+        >> $PKLOG_OTHERS 2>> $PKGLOG_ERROR
 fi
 
 
@@ -84,6 +87,7 @@ cd $SOURCES
 rm -rf $PKG
 unset SOURCES
 unset LFSLOG_PROCESS
+unset PKGLOG_OTHERS
 unset PKGLOG_INSTALL PKGLOG_BUILD PKGLOG_CONFIG
 unset PKGLOG_CHECK
 unset PKGLOG_ERROR PKGLOG_TAR

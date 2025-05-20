@@ -19,10 +19,10 @@ echo "."
 
 ###
 
-echo "e21.25.36.libnotify-0.8.4"
-echo "e21.25.36.libnotify-0.8.4" >> $LFSLOG_PROCESS
+echo "e21.25.35.libnotify-0.8.4"
+echo "e21.25.35.libnotify-0.8.4" >> $LFSLOG_PROCESS
 
-time { bash e21.25.36.libnotify-0.8.4.sh ; }
+time { bash e21.25.35.libnotify-0.8.4.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

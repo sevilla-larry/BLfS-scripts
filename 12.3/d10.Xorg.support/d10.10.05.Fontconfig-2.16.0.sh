@@ -23,6 +23,10 @@
 #               d20.24.08 Xorg.Libraries
 #               e21.25.38 Pango-1.54.0
 #
+# Recommended by:
+#
+#				e10.25.04 Cairo-1.18.2
+#
 
 export PKG="fontconfig-2.16.0"
 export PKGLOG_DIR=$LFSLOG/10.05

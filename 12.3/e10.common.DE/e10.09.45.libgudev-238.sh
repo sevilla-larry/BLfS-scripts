@@ -4,22 +4,22 @@
 #
 # Dependencies Required:
 #
-#               d10.09.17 GLib-2.80.4
+#               d10.09.17 GLib-2.82.5
 #
 
 #
 # Required by:
 #
-#               e23.35.09 thunar-volman-4.18.0  (NOT installed)
-#               e10.12.36 UPower-1.90.4
+#               e23.35.11 thunar-volman-4.20.0  (NOT installed)
+#               e10.12.36 UPower-1.90.4     ???
 #
 # Recommended by:
 #
-#               e23.35.08 thunar-4.18.11
+#               e23.35.10 thunar-4.20.2
 #
 # Optionally by:
 #
-#               e23.35.03 libxfce4ui-4.18.6
+#               e23.35.03 libxfce4ui-4.20.0
 #
 
 export PKG="libgudev-238"
@@ -70,9 +70,9 @@ echo "5. Ninja Install ..." >> $PKGLOG_ERROR
 ninja install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 
-cd ..
-cd ..
+cd $SOURCES
 rm -rf $PKG
+unset SOURCES
 unset LFSLOG_PROCESS
 unset PKGLOG_INSTALL PKGLOG_BUILD PKGLOG_CONFIG
 unset PKGLOG_CHECK

@@ -20,6 +20,10 @@
 #               d20.24.12 Mesa-24.3.4
 #               d20.42.41 libva-2.22.0
 #
+# Optionally by:
+#
+#				e10.25.04 Cairo-1.18.2
+
 
 export PKG="libdrm-2.4.124"
 export PKGLOG_DIR=$LFSLOG/25.33

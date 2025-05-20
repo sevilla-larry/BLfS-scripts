@@ -5,7 +5,11 @@
 # Dependencies Required:
 #
 #               e23.35.04 Exo-4.20.0
-#               e21.09.45 libgudev-238  ???
+#               e10.09.45 libgudev-238
+#
+# Dependencies Recommended:
+#
+#               e21.25.35 libnotify-0.8.4
 #
 # Runtime recommended:
 #

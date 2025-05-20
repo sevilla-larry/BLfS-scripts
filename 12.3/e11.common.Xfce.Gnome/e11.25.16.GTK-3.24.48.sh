@@ -11,7 +11,6 @@
 #
 # Dependencies Recommended:
 #
-#               e21.28.01  adwaita-icon-theme-47.0   (runtime)   ???
 #               a.08.91.37 docbook-xsl-nons-1.79.2
 #               e10.28.07  hicolor-icon-theme-0.18   (test)      ???
 #                          ISO.Codes-4.17.0                 ???
@@ -23,6 +22,7 @@
 #
 # Dependencies Runtime: needed for current configuration
 #
+#               e21.28.01    adwaita-icon-theme-47.0 (recommended) ???
 #                            oxygen-icons-6.0.0             ???
 #               d20.24.28.04 DejaVu-fonts-ttf-2.37
 #                            gnome-themes-extra-3.28        ???
@@ -31,13 +31,13 @@
 #
 # Required by:
 #
-#               e11.28.01 adwaita-icon-theme-46.2           ???
-#               e21.25.36 libnotify-0.8.3                   ???
 #               e23.35.03 libxfce4ui-4.20.0
 #               e23.35.04 Exo-4.20.0
 #               e23.35.05 Garcon-4.20.0
 #               e23.35.06 libwnck-43.2
 #               e23.35.08 libxfce4windowing-4.20.2
+#               e21.25.35 libnotify-0.8.4
+#               e11.28.01 adwaita-icon-theme-46.2           ???
 #               g12.40.03 Firefox-128.4.0esr (errata)       ???
 #
 # Recommended by:

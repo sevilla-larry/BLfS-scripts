@@ -21,11 +21,11 @@
 #
 # Dependencies Optional:
 #
-#           ??  e21.25.04 Cairo-1.18.0 (circular)
-#               d10.12.10 dbus-1.16.0 (Pass1)
-#               a.08.91.37 docbook-xsl-nons-1.79.2
-#               a.08.91.36 docbook-xml-4.5
+#               d10.12.10    dbus-1.16.0 (Pass1)
+#               a.08.91.37   docbook-xsl-nons-1.79.2
+#               a.08.91.36   docbook-xml-4.5
 #               b10.13.24.13 Mako-1.3.9
+#           ??? e21.25.04    Cairo-1.18.2 (circular)
 #
 
 #
@@ -34,7 +34,10 @@
 #               d10.04.20 Polkit-126
 #               d10.11.04 desktop-file-utils-0.28
 #               d10.11.16 shared-mime-info-2.4
-#				e23.35.01.libxfce4util-4.18.2       ???
+#				e23.35.01 libxfce4util-4.20.0
+#               e23.35.07 xfce4-dev-tools-4.20.0
+#               e23.35.12 tumbler-4.20.0
+#               e10.09.45 libgudev-238
 #               37.02 libfm-extra-1.3.2             ???
 #               25.02 at-spi2-core-2.48.3           ???
 #               25.12 gdk-pixbuf-2.42.10            ???
@@ -45,8 +48,13 @@
 # Recommended by:
 #
 #               d10.10.12 harfBuzz-10.4.0
-#               f2.26.02  lightdm-1.32.0
-#               e12.25.42 Qt-6.7.2
+#				e10.25.04 Cairo-1.18.2
+#               f2.26.02  lightdm-1.32.0            ???
+#               e12.25.42 Qt-6.7.2                  ???
+#
+# Optionally by:
+#
+#               e21.25.35 libnotify-0.8.4
 #
 
 export PKG="glib-2.82.5"

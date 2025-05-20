@@ -4,7 +4,7 @@
 #
 # Dependencies Required:
 #
-#               e21.25.36 libnotify-0.8.3       ???
+#               e21.25.35 libnotify-0.8.4
 #               e10.12.36 UPower-1.90.4         ???
 #               e23.35.09 xfce4-panel-4.20.3
 #

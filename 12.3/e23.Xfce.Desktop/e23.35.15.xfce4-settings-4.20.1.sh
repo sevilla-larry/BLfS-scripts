@@ -13,7 +13,7 @@
 #
 # Dependencies Recommended:
 #
-#               libnotify                       ???
+#               e21.25.35 libnotify-0.8.4
 #
 # Dependencies Optional:
 #
