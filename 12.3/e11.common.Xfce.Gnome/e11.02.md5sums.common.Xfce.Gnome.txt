@@ -25,6 +25,9 @@ a05ad6cf4a49b19964cc5eec363d2310 at-spi2-core-2.54.1.tar.xz
 61b8af1ffb255cdabd44629cd2a05793 gtk-3.24.48.tar.xz
 # 25.18 GTK-4.16.12
 0f2b154a0b05e4ca94a05aaeb7e1f3fb gtk-4.16.12.tar.xz
+# 25.36 libxklavier-5.4
+13af74dcb6011ecedf1e3ed122bd31fa libxklavier-5.4.tar.bz2
+
 
 # 28.01 adwaita-icon-theme-47.0
 b3863567f8019b056695cb51f4e0abc4 adwaita-icon-theme-47.0.tar.xz

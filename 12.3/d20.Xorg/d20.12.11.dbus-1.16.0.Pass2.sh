@@ -15,12 +15,12 @@
 # Required by:
 #
 #               e21.25.03 at-spi2-core-2.52.0
-#               09.07 dbus-glib-0.112       ???
+#               09.07 dbus-glib-0.112           ???
 #
 # Recommended by:
 #
 #               d20.24.20 Xorg-Server-21.1.16
-#               e12.25.42 Qt-6.7.2
+#               e12.25.42 Qt-6.7.2              ???
 #
 # Recommended (runtime) by:
 #
@@ -32,7 +32,8 @@
 #
 # Optional by:
 #
-#               e31.27.03 openbox-3.6.1
+#               e11.13.36 Vala-0.56.17
+#               e31.27.03 openbox-3.6.1         ???
 #
 
 #

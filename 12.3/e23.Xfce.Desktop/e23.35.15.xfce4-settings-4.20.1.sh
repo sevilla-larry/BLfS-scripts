@@ -13,7 +13,9 @@
 #
 # Dependencies Recommended:
 #
+#               e11.42.26 libcanberra-0.30 if WITH_SOUND=1
 #               e21.25.35 libnotify-0.8.4
+#               e11.25.36 libxklavier-5.4
 #
 # Dependencies Optional:
 #
@@ -41,11 +43,19 @@ tar xvf $PKG.tar.bz2 > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
 
 
+if	 [ "$WITH_SOUND" -eq 1 ]; then
+ 	export SOUND_PARAMETER="--enable-sound-settings"
+else
+    export SOUND_PARAMETER=""
+fi
+
 echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
 echo "2. Configure ..." >> $PKGLOG_ERROR
 ./configure --prefix=/usr       \
             --sysconfdir=/etc   \
+            $SOUND_PARAMETER    \
+            --enable-pluggable-dialogs  \
             > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 #           possible need libcanberra-0.30
 #           --enable-sound-settings: Use this switch to enable sound settings in GUI.
@@ -60,6 +70,8 @@ echo "4. Make Install ..."
 echo "4. Make Install ..." >> $LFSLOG_PROCESS
 echo "4. Make Install ..." >> $PKGLOG_ERROR
 make install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
+
+unset SOUND_PARAMETER
 
 
 cd $SOURCES

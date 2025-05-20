@@ -41,6 +41,8 @@
 #               e11.25.03 at-spi2-core-2.54.1
 #               e10.25.10 gdk-pixbuf-2.42.12
 #               e10.25.37 Pango-1.56.1
+#               e11.13.36 Vala-0.56.17
+#               e11.25.36 libxklavier-5.4
 #               37.02 libfm-extra-1.3.2             ???
 #               09.07 dbus-glib-0.112               ???
 #               etc

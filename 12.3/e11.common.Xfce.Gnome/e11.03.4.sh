@@ -1,6 +1,6 @@
 # e11.03.4.sh
 #
-# Screen Saver
+# sound group
 #
 
 export LFSLOG_PROCESS=$LFSLOG/process.log
@@ -10,10 +10,10 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
 #####
 
-echo "e11.25.13.GLU-9.0.3"
-echo "e11.25.13.GLU-9.0.3" >> $LFSLOG_PROCESS
+echo "e11.42.53.sound-theme-freedesktop-0.8"
+echo "e11.42.53.sound-theme-freedesktop-0.8" >> $LFSLOG_PROCESS
 
-time { bash e11.25.13.GLU-9.0.3.sh ; }
+time { bash e11.42.53.sound-theme-freedesktop-0.8.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
@@ -24,10 +24,38 @@ echo "."
 
 ###
 
-echo "e11.41.14.XScreenSaver-6.09"
-echo "e11.41.14.XScreenSaver-6.09" >> $LFSLOG_PROCESS
+echo "e11.42.37.libogg-1.3.5"
+echo "e11.42.37.libogg-1.3.5.sh" >> $LFSLOG_PROCESS
 
-time { bash e11.41.14.XScreenSaver-6.09.sh ; }
+time { bash e11.42.37.libogg-1.3.5.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "e11.42.44.libvorbis-1.3.7"
+echo "e11.42.44.libvorbis-1.3.7" >> $LFSLOG_PROCESS
+
+time { bash e11.42.44.libvorbis-1.3.7.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "e11.42.27.libcanberra-0.30"
+echo "e11.42.27.libcanberra-0.30" >> $LFSLOG_PROCESS
+
+time { bash e11.42.27.libcanberra-0.30.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

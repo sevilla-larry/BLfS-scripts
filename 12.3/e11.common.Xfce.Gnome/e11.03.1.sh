@@ -66,10 +66,10 @@ echo "."
 
 ###
 
-echo "e11.25.17.GTK+-3.24.43"
-echo "e11.25.17.GTK+-3.24.43" >> $LFSLOG_PROCESS
+echo "e11.25.16.GTK-3.24.48"
+echo "e11.25.16.GTK-3.24.48" >> $LFSLOG_PROCESS
 
-time { bash e11.25.17.GTK+-3.24.43.sh ; }
+time { bash e11.25.16.GTK-3.24.48.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

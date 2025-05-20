@@ -23,6 +23,7 @@
 #               e11.25.03 at-spi2-core-2.54.1
 #               e10.25.10 gdk-pixbuf-xlib-2.42.12
 #               e21.25.42 startup-notification-0.12
+#               e11.25.36 libxklavier-5.4
 #
 # Recommended by:
 #

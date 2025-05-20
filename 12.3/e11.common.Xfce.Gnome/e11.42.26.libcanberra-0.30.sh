@@ -1,24 +1,36 @@
 # e11.42.26.libcanberra-0.30.sh
 #
+# Note: build this if WITH_SOUND=1
+#
 
 #
 # Dependencies Required:
 #
-#               e10.42.44 libvorbis-1.3.7
+#               e10.42.44 libvorbis-1.3.7   ???
 #
 # Dependencies Recommended:
 #
-#               e11.25.17 GTK+-3.24.43
+#               alsa-lib-1.2.13             ???
+#               gstreamer-1.24.12           ???
+#               e11.25.16 GTK-3.24.48
+#
+# Dependencies Optional:
+#
+#               PulseAudio-17.0             ???
 #
 # Dependencies Recommended ( Run Time ):
 #
-#               e21.42.53 sound-theme-freedesktop-0.8
+#               e11.42.53 sound-theme-freedesktop-0.8   ???
 #
 
 #
 # Required by:
 #
-#               e23.36.06 xfce4-notifyd-0.9.6
+#               e24.36.05 xfce4-notifyd-0.9.6           ???
+#
+# Recommended by:
+#
+#               e23.35.15 xfce4-settings-4.20.1
 #
 
 export PKG="libcanberra-0.30"

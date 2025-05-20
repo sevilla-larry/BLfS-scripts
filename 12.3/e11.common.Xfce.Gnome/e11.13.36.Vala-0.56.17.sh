@@ -4,34 +4,34 @@
 #
 # Dependencies Required:
 #
-#               d10.09.17 GLib-2.80.4
+#               d10.09.17 GLib-2.82.5
 #
 # Dependencies Optional:
 #
-#               d10.12.10 dbus-1.14.10
-#               d10.09.74 libxslt-1.1.42
+#               d20.12.11  dbus-1.16.0
+#               a.08.91.38 libxslt-1.1.43 (errata)
 #
 
 #
 # Recommended by:
 #
-#               e23.35.01 libxfce4util-4.18.2
-#               f2.26.02 lightdm-1.32.0
-#               g11.25.33 libhandy-1.8.3
-#               ???.37.04 libfm-1.3.2
+#               e23.35.01 libxfce4util-4.20.0
+#               f2.26.02  lightdm-1.32.0        ???
+#               g11.25.33 libhandy-1.8.3        ???
+#               ???.37.04 libfm-1.3.2           ???
 #
 # Recommended ( but needed ) by:
 #
-#               e11.33.07 VTE-0.76.4
+#               e11.33.07 VTE-0.76.4            ???
 #
 # Optionally ( but needed ) by:
 #
-#               e23.35.02 Xfconf-4.18.3
-#               g11.25.23 gtksourceview4-4.8.4
+#               e23.35.02 Xfconf-4.20.0
+#               g11.25.23 gtksourceview4-4.8.4  ???
 #
 # Optionally by:
 #
-#               f2.25.37 libxklavier-5.4
+#               e11.25.36 libxklavier-5.4
 #
 
 export PKG="vala-0.56.17"
