@@ -1,4 +1,4 @@
-# e21.25.44.startup-notification-0.12.sh
+# e21.25.42.startup-notification-0.12.sh
 #
 
 #
@@ -11,15 +11,18 @@
 #
 # Required by:
 #
-#               g12.40.03 Firefox-128.4.0esr (errata)
+#               g12.40.03 Firefox-128.4.0esr (errata)   ???
 #
 # Recommended by:
 #
-#               e23.xx.xx Xfce various
+#               e23.35.03 libxfce4ui-4.20.0
+#               e23.35.06 libwnck-43.2
+#               e23.35.16 Xfdesktop-4.20.1
+#               e23.35.17 Xfwm4-4.20.0
 #
 
 export PKG="startup-notification-0.12"
-export PKGLOG_DIR=$LFSLOG/25.44
+export PKGLOG_DIR=$LFSLOG/25.42
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log

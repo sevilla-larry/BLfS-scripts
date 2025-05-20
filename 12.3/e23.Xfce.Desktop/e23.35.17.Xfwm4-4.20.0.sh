@@ -9,7 +9,7 @@
 #
 # Dependencies Recommended:
 #
-#               ??.?? startup-notifications-0.12
+#               e21.25.42 startup-notification-0.12
 #
 
 export PKG="xfwm4-4.20.0"

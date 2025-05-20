@@ -9,7 +9,7 @@
 # Dependencies Recommended:
 #
 #               d10.09.17 GLib-2.82.5
-#               ??? startup-notifications ???
+#               e21.25.42 startup-notification-0.12
 #
 
 #

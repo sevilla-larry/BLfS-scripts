@@ -22,6 +22,7 @@
 #               d20.42.42 libvdpau-1.5
 #               e11.25.03 at-spi2-core-2.54.1
 #               e10.25.10 gdk-pixbuf-xlib-2.42.12
+#               e21.25.42 startup-notification-0.12
 #
 # Recommended by:
 #
