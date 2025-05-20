@@ -1,4 +1,4 @@
-# e21.28.07.hicolor-icon-theme-0.18.sh
+# e10.28.07.hicolor-icon-theme-0.18.sh
 #
 
 #
@@ -11,13 +11,13 @@
 #               ??? 37.10 lxde-common-0.99.2
 #               ??? GTK+-2.24.33                ???
 #
-# Runtime needed by:
+# Require (Runtime) by:
 #
-#               e23.35.08 thunar-4.18.11
+#               e23.35.10 thunar-4.20.2
 #
 # Test needed by:
 #
-#               e21.25.17 GTK+-3.24.43
+#               e11.25.16 GTK-3.24.48
 #
 
 export PKG="hicolor-icon-theme-0.18"

@@ -19,6 +19,10 @@
 #               e23.35.14 xfce4-power-manager-4.20.0
 #                         lxqt-powermanagement
 #
+# Optionally by:
+#
+#               e23.35.15 xfce4-settings-4.20.1
+#
 
 export PKG="upower-v1.90.7"
 export PKGLOG_DIR=$LFSLOG/12.37

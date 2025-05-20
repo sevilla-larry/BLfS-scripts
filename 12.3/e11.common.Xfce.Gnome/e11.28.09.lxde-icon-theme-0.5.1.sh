@@ -1,10 +1,10 @@
-# e21.28.09.lxde-icon-theme-0.5.1.sh
+# e11.28.09.lxde-icon-theme-0.5.1.sh
 #
 
 #
 # Dependencies Optional:
 #
-#               e21.25.17 GTK+-3.24.43
+#               e11.25.16 GTK-3.24.48
 #
 
 #
@@ -18,7 +18,7 @@
 #
 # Runtime needed by:
 #
-#               e23.35.13 xfce4-settings-4.18.6
+#               e23.35.15 xfce4-settings-4.20.1
 #
 
 export PKG="lxde-icon-theme-0.5.1"

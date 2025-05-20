@@ -14,7 +14,7 @@
 #
 # Required Runtime:
 #
-#               e21.28.07 hicolor-icon-theme-0.18   ???
+#               e10.28.07 hicolor-icon-theme-0.18
 #
 
 #

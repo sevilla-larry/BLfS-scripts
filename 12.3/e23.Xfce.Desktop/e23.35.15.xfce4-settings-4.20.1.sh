@@ -9,7 +9,7 @@
 #
 # Dependencies Required (runtime):
 #
-#               e21.28.09 lxde-icon-theme-0.5.1 ???
+#               e11.28.09 lxde-icon-theme-0.5.1
 #
 # Dependencies Recommended:
 #
@@ -20,7 +20,7 @@
 # Dependencies Optional:
 #
 #               d20.24.21.3 libinput-1.27.1
-#               e10.12.36   UPower-1.90.4       ???
+#               e10.12.37   UPower-1.90.7
 #
 
 export PKG="xfce4-settings-4.20.1"
