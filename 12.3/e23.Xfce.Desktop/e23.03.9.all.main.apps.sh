@@ -2,10 +2,10 @@
 #
 
 # Desktop Environment
-bash e23.03.1.Part1.Xfce.DE.sh
+bash e23.03.sh
 
 # essential Desktop Applications
-bash e23.03.1.Part2.Xfce.Apps.sh
+bash e24.03.sh
 
 # Display Manager / lightDM
 bash f2.03.sh
