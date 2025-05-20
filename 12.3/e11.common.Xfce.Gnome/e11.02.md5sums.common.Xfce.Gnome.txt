@@ -1,3 +1,7 @@
+# 04.21 polkit-gnome-0.105
+50ecad37c8342fb4a52f590db7530621 polkit-gnome-0.105.tar.xz
+#								 polkit-gnome-0.105-consolidated_fixes-1.patch
+
 # 11.11 ISO Codes-4.17.0
 #
 f4b460577728ba331e078ad8bd246c98 iso-codes-v4.17.0.tar.gz

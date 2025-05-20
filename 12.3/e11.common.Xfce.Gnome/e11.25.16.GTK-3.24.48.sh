@@ -37,6 +37,7 @@
 #               e23.35.06 libwnck-43.2
 #               e23.35.08 libxfce4windowing-4.20.2
 #               e21.25.35 libnotify-0.8.4
+#               e11.41.14 XScreenSaver-6.09
 #               e11.28.01 adwaita-icon-theme-46.2           ???
 #               g12.40.03 Firefox-128.4.0esr (errata)       ???
 #

@@ -1,3 +1,7 @@
+# 04.21 polkit-gnome-0.105
+https://download.gnome.org/sources/polkit-gnome/0.105/polkit-gnome-0.105.tar.xz
+https://www.linuxfromscratch.org/patches/blfs/12.3/polkit-gnome-0.105-consolidated_fixes-1.patch
+
 # 11.11 ISO Codes-4.17.0
 # https://ftp.debian.org/debian/pool/main/i/iso-codes/iso-codes_4.16.0.orig.tar.xz
 #https://ftp2.osuosl.org/pub/blfs/conglomeration/iso-codes/iso-codes_4.16.0.orig.tar.xz

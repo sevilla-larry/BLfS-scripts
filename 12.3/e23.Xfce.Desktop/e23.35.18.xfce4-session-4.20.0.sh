@@ -11,9 +11,9 @@
 # Dependencies Recommended:
 #
 #               d10.11.04 desktop-file-utils-0.28
-#                         XScreenSaver-6.09         ???
+#               e11.41.14 XScreenSaver-6.09
 #               d10.11.16 shared-mime-info-2.4
-#                         polkit-gnome-0.105        ???
+#               e11.04.21 polkit-gnome-0.105
 #
 # Dependencies Runtime Required:
 #
@@ -61,7 +61,7 @@ make install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 update-desktop-database
 update-mime-database /usr/share/mime
 
-echo "read: https://www.linuxfromscratch.org/blfs/view/12.2/xfce/xfce4-session.html"
+echo "read: https://www.linuxfromscratch.org/blfs/view/12.3/xfce/xfce4-session.html"
 
 
 cd $SOURCES
