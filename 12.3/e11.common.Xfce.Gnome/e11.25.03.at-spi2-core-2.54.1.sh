@@ -4,24 +4,24 @@
 #
 # Dependencies Required:
 #
-#               d10.12.10 dbus-1.14.10
-#               d10.09.17 GLib-2.80.4
+#               d20.12.11 dbus-1.16.0
+#               d10.09.17 GLib-2.82.5
 #               d20.24.08 Xorg Libraries
 #
 # Dependencies Required Runtime:
 #
-#               e11.33.03 gsettings-desktop-schemas-46.1
+#               e11.33.03 gsettings-desktop-schemas-47.1    ???
 #
 
 #
 # Required by:
 #
 #               ???       GTK+-2.24.33  ???
-#               e11.25.17 GTK+-3.24.43
+#               e11.25.16 GTK-3.24.48
 #
 # Optional by:
 #
-#               f22.26.02 lightdm-1.32.0
+#               f22.26.02 lightdm-1.32.0                    ???
 #
 
 export PKG="at-spi2-core-2.54.1"
@@ -67,7 +67,8 @@ echo "4. Ninja Install ..." >> $LFSLOG_PROCESS
 echo "4. Ninja Install ..." >> $PKGLOG_ERROR
 ninja install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
-rm /tmp/at-spi-dbus-bus.service
+rm -v /tmp/at-spi-dbus-bus.service  \
+    >> $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 #Test needs to run in a graphical environment
 #

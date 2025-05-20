@@ -4,7 +4,7 @@
 #
 # Required by:
 #
-#               e10.25.38 Pango-1.54.0
+#               e10.25.37 Pango-1.56.1
 #               ??? 37.?? PCManFM       ???
 #
 

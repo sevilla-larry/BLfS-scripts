@@ -9,14 +9,14 @@
 #
 # Dependencies Optional:
 #
-#               d10.09.17 GLib-2.80.4
-#               d10.09.74 libxslt-1.1.42
+#               d10.09.17  GLib-2.82.5
+#               a.08.91.38 libxslt-1.1.43
 #
 
 #
 # Required by:
 #
-#               e23.35.12 xfce4-power-manager-4.18.4
+#               e23.35.14 xfce4-power-manager-4.20.0
 #                         lxqt-powermanagement
 #
 

@@ -21,7 +21,7 @@
 # Required by:
 #
 #               d20.24.08 Xorg.Libraries
-#               e21.25.38 Pango-1.54.0
+#               e21.25.37 Pango-1.56.1
 #
 # Recommended by:
 #

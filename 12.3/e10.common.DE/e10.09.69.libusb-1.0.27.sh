@@ -4,7 +4,7 @@
 #
 # Required by:
 #
-#               e10.12.36 UPower-1.90.4
+#               e10.12.37 UPower-1.90.7
 #
 
 #

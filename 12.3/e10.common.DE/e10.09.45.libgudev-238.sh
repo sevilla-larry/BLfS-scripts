@@ -11,7 +11,7 @@
 # Required by:
 #
 #               e23.35.11 thunar-volman-4.20.0  (NOT installed)
-#               e10.12.36 UPower-1.90.4     ???
+#               e10.12.37 UPower-1.90.7
 #
 # Recommended by:
 #

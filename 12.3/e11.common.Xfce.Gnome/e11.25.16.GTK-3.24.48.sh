@@ -4,10 +4,10 @@
 #
 # Dependencies Required:
 #
-#               e11.25.03 at-spi2-core-2.54.1   ???
-#               e10.25.10 gdk-pixbuf-2.42.12    ???
+#               e11.25.03 at-spi2-core-2.54.1
+#               e10.25.10 gdk-pixbuf-2.42.12
 #               d20.25.34 libepoxy-1.5.10
-#               e10.25.38 Pango-1.56.1          ???
+#               e10.25.37 Pango-1.56.1
 #
 # Dependencies Recommended:
 #

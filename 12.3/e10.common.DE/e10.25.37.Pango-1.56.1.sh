@@ -4,21 +4,21 @@
 #
 # Dependencies Required:
 #
-#               d10.10.05 Fontconfig-2.15.0
-#               e10.10.06 FriBidi-1.0.15
-#               d10.09.17 GLib-2.80.4
+#               d10.10.05 Fontconfig-2.16.0
+#               e10.10.06 FriBidi-1.0.16
+#               d10.09.17 GLib-2.82.5
 #
 # Dependencies Recommended:
 #
-#               e10.25.04 Cairo-1.18.0 ( needed )
+#               e10.25.04 Cairo-1.18.2 ( needed )
 #               d20.24.08 Xorg Libraries
 #
 
 #
 # Required by:
 #
-#               e21.25.17 GTK+-3.24.43
-#               e31.27.03 openbox-3.6.1
+#               e21.25.16 GTK-3.24.48
+#               e31.27.03 openbox-3.6.1             ???
 #
 
 export PKG="pango-1.56.1"

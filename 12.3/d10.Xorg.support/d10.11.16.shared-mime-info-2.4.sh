@@ -15,7 +15,7 @@
 #
 # Required by:
 #
-#               25.12 gdk-pixbuf-2.42.10    ???
+#               e10.25.10 gdk-pixbuf-2.42.12
 #
 # Runtime needed for test by: ( not implemented )
 #

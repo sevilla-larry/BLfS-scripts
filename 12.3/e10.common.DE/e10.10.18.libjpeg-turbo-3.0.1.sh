@@ -4,30 +4,30 @@
 #
 # Dependencies Required:
 #
-#               b11.13.03 CMake-3.30.2
+#               a.08.9x.?1.CMake-3.31.5
 #
 # Dependencies Recommended:
 #
-#               e21 13.37 yasm-1.3.0
+#               e10 13.37 yasm-1.3.0            ???
 #
 
 #
 # Required by:
 #
-#               e21.25.10 gdk-pixbuf-2.42.12
-#               e12.10.20 libmng-2.0.3
+#               e10.25.10 gdk-pixbuf-2.42.12
+#               e12.10.20 libmng-2.0.3          ???
 #
 # Recommended by:
 #
-#               e12.25.42 Qt-6.7.2
-#               e12.10.13 JasPer-4.2.4
-#               e12.10.27 libwebp-1.4.0
-#               g12.39.03 LibreOffice-24.8.0
+#               e12.25.42 Qt-6.7.2              ???
+#               e12.10.13 JasPer-4.2.4          ???
+#               e12.10.27 libwebp-1.4.0         ???
+#               g12.39.03 LibreOffice-24.8.0    ???
 #
 # Optional by:
 #
-#               e12.10.14 Little CMS-2.1.6
-#               e12.10.26 libtiff-4.6.0
+#               e12.10.14 Little CMS-2.1.6      ???
+#               e10.10.26 libtiff-4.7.0         ???
 #
 
 export PKG="libjpeg-turbo-3.0.1"

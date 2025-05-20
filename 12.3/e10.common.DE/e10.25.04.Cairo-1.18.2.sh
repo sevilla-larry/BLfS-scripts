@@ -28,7 +28,7 @@
 #
 # Recommended ( but needed ) by:
 #
-#               e10.25.38 Pango-1.54.0          ???
+#               e10.25.37 Pango-1.56.1
 #
 
 export PKG="cairo-1.18.2"

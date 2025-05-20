@@ -4,18 +4,24 @@
 #
 # Dependencies Required:
 #
-#               d10.09.17 GLib-2.80.4
+#               d10.09.17 GLib-2.82.5
 #               e10.10.18 libjpeg-turbo-3.0.1
-#               d10.10.22 libpng-1.6.43
+#               d10.10.22 libpng-1.6.46
 #               d10.11.16 shared-mime-info-2.4
+#
+# Dependencies Recommended:
+#
+#               d10.13.24.07 docutils-0.21.2
+#                         librsvg-2.59.2        ???
+#               e10.10.26 libtiff-4.7.0         ???
 #
 
 #
 # Required by:
 #
-#               e21.25.17 GTK+-3.24.43
-#               e10.25.48 xdg-desktop-portal-1.18.2
-#               ???       GTK+-2.24.33  ???
+#               e21.25.16 GTK-3.24.48
+#               e10.25.48 xdg-desktop-portal-1.18.2 ???
+#               ???       GTK+-2.24.33              ???
 #               ??? 25.13 gdk-pixbuf-xlib-2.40.2    ???
 #
 
@@ -68,7 +74,6 @@ echo "5. Ninja Install ..."
 echo "5. Ninja Install ..." >> $LFSLOG_PROCESS
 echo "5. Ninja Install ..." >> $PKGLOG_ERROR
 ninja install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
-
 
 
 cd $SOURCES

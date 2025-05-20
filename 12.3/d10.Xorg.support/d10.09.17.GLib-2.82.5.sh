@@ -38,10 +38,10 @@
 #               e23.35.07 xfce4-dev-tools-4.20.0
 #               e23.35.12 tumbler-4.20.0
 #               e10.09.45 libgudev-238
+#               e11.25.03 at-spi2-core-2.54.1
+#               e10.25.10 gdk-pixbuf-2.42.12
+#               e10.25.37 Pango-1.56.1
 #               37.02 libfm-extra-1.3.2             ???
-#               25.02 at-spi2-core-2.48.3           ???
-#               25.12 gdk-pixbuf-2.42.10            ???
-#               25.43 Pango-1.50.14                 ???
 #               09.07 dbus-glib-0.112               ???
 #               etc
 #
@@ -55,6 +55,7 @@
 # Optionally by:
 #
 #               e21.25.35 libnotify-0.8.4
+#               e10.12.37 UPower-1.90.7
 #
 
 export PKG="glib-2.82.5"
