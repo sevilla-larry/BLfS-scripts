@@ -10,7 +10,7 @@
 #
 # Dependencies Required Runtime:
 #
-#               e11.33.03 gsettings-desktop-schemas-47.1    ???
+#               e11.33.03 gsettings-desktop-schemas-47.1
 #
 
 #

@@ -31,6 +31,8 @@ https://people.freedesktop.org/~svu/libxklavier-5.4.tar.bz2
 
 # 28.01 adwaita-icon-theme-47.0
 https://download.gnome.org/sources/adwaita-icon-theme/47/adwaita-icon-theme-47.0.tar.xz
+# 28.06 gnome-themes-extra-3.28
+https://download.gnome.org/sources/gnome-themes-extra/3.28/gnome-themes-extra-3.28.tar.xz
 # 28.09 lxde-icon-theme-0.5.1
 https://downloads.sourceforge.net/lxde/lxde-icon-theme-0.5.1.tar.xz
 

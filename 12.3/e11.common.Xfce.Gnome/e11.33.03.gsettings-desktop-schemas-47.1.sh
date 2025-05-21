@@ -4,13 +4,13 @@
 #
 # Dependencies Required:
 #
-#               d10.09.17 GLib-2.80.4
+#               d10.09.17 GLib-2.82.5
 #
 
 #
 # Required Runtime by:
 #
-#               e21.25.03 at-spi2-core-2.52.0
+#               e11.25.03 at-spi2-core-2.54.1
 #
 
 export PKG="gsettings-desktop-schemas-47.1"

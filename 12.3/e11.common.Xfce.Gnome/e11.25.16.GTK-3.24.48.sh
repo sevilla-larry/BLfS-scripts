@@ -23,9 +23,8 @@
 # Dependencies Runtime: needed for current configuration
 #
 #               e11.28.01    adwaita-icon-theme-47.0 (recommended)
-#                            oxygen-icons-6.0.0             ???
 #               d20.24.28.04 DejaVu-fonts-ttf-2.37
-#                            gnome-themes-extra-3.28        ???
+#               e11.28.06    gnome-themes-extra-3.28
 #
 
 #
@@ -40,6 +39,7 @@
 #               e11.41.14 XScreenSaver-6.09
 #               e11.04.21 polkit-gnome-0.105
 #               e11.28.01 adwaita-icon-theme-47.0
+#               e11.28.06 gnome-themes-extra-3.28
 #               g12.40.03 Firefox-128.4.0esr (errata)       ???
 #
 # Recommended by:
@@ -119,7 +119,7 @@ cat > /etc/gtk-3.0/settings.ini << "EOF"    2>> $PKGLOG_ERROR
 [Settings]
 gtk-theme-name = Adwaita
 gtk-application-prefer-dark-theme=true
-gtk-icon-theme-name = oxygen
+gtk-icon-theme-name = Adwaita
 gtk-font-name = DejaVu Sans 12
 gtk-cursor-theme-size = 18
 gtk-toolbar-style = GTK_TOOLBAR_BOTH_HORIZ

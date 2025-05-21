@@ -5,6 +5,7 @@
 # Required at Runtime by:
 #
 #               d20.24.23 xterm-397
+#				e11.25.16 GTK-3.24.48
 #
 
 export PKG="dejavu-fonts-ttf-2.37"
