@@ -30,6 +30,7 @@
 # Recommended by:
 #
 #               d10.04.20 Polkit-126
+#               e13.12.02 AccountsService-23.13.9
 #
 
 #

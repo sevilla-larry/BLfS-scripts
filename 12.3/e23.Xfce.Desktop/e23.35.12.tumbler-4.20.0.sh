@@ -10,7 +10,7 @@
 #
 #               a.08.93.04 cURL-8.12.1
 #               d10.10.04  FreeType-2.13.3
-#               e21.25.10  gdk-pixbuf-2.42.12   ???
+#               e10.25.10  gdk-pixbuf-2.42.12
 #                          gst-plugins-base
 #               e21.10.18  libjpeg-turbo-3.0.1  ???
 #                          libgsf

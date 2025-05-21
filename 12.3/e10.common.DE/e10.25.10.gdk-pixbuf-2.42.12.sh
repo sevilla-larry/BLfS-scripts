@@ -24,6 +24,10 @@
 #               ???       GTK+-2.24.33              ???
 #               ??? 25.13 gdk-pixbuf-xlib-2.40.2    ???
 #
+# Optionally by:
+#
+#               e23.35.12 tumbler-4.20.0
+#
 
 export PKG="gdk-pixbuf-2.42.12"
 export PKGLOG_DIR=$LFSLOG/25.10

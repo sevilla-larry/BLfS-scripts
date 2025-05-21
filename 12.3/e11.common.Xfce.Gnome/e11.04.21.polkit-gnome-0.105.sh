@@ -4,7 +4,7 @@
 #
 # Dependencies Required:
 #
-#               e11.12.02 AccountsService-23.13.9
+#               e13.12.02 AccountsService-23.13.9
 #               e11.25.16 GTK-3.24.48
 #               d10.04.20 Polkit-126
 #

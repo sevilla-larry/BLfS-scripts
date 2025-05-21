@@ -1,0 +1,58 @@
+# 04.21 polkit-gnome-0.105
+https://download.gnome.org/sources/polkit-gnome/0.105/polkit-gnome-0.105.tar.xz
+https://www.linuxfromscratch.org/patches/blfs/12.3/polkit-gnome-0.105-consolidated_fixes-1.patch
+
+# 11.11 ISO Codes-4.17.0
+# https://ftp.debian.org/debian/pool/main/i/iso-codes/iso-codes_4.16.0.orig.tar.xz
+#https://ftp2.osuosl.org/pub/blfs/conglomeration/iso-codes/iso-codes_4.16.0.orig.tar.xz
+https://salsa.debian.org/iso-codes-team/iso-codes/-/archive/v4.17.0/iso-codes-v4.17.0.tar.gz
+
+# 13.01 Cbindgen-0.28.0
+https://github.com/mozilla/cbindgen/archive/v0.28.0/cbindgen-0.28.0.tar.gz
+# 13.23    Python Modules
+# 13.23.20 PyCairo-1.26.1
+https://github.com/pygobject/pycairo/releases/download/v1.26.1/pycairo-1.26.1.tar.gz
+# 13.23.23 PyGObject-3.50.0
+https://download.gnome.org/sources/pygobject/3.50/pygobject-3.50.0.tar.xz
+# 13.26 Rustc-1.85.0
+https://static.rust-lang.org/dist/rustc-1.85.0-src.tar.xz
+# 13.35 Vala-0.56.17
+https://download.gnome.org/sources/vala/0.56/vala-0.56.17.tar.xz
+
+# 25.03 at-spi2-core-2.54.1
+https://download.gnome.org/sources/at-spi2-core/2.54/at-spi2-core-2.54.1.tar.xz
+# 25.13 GLU-9.0.3
+https://archive.mesa3d.org/glu/glu-9.0.3.tar.xz
+# 25.16 Graphene-1.10.8
+https://download.gnome.org/sources/graphene/1.10/graphene-1.10.8.tar.xz
+# 25.17 GTK-3.24.48
+https://download.gnome.org/sources/gtk/3.24/gtk-3.24.48.tar.xz
+# 25.18 GTK-4.16.12
+https://download.gnome.org/sources/gtk/4.16/gtk-4.16.12.tar.xz
+https://www.linuxfromscratch.org/patches/blfs/12.3/gtk-4.16.12-libpng_1_6_45-1.patch
+# 25.36 libxklavier-5.4
+https://people.freedesktop.org/~svu/libxklavier-5.4.tar.bz2
+
+
+# 28.01 adwaita-icon-theme-47.0
+https://download.gnome.org/sources/adwaita-icon-theme/47/adwaita-icon-theme-47.0.tar.xz
+# 28.09 lxde-icon-theme-0.5.1
+https://downloads.sourceforge.net/lxde/lxde-icon-theme-0.5.1.tar.xz
+
+# 33.03 gsettings-desktop-schemas-47.1
+https://download.gnome.org/sources/gsettings-desktop-schemas/47/gsettings-desktop-schemas-47.1.tar.xz
+# 33.07 VTE-0.78.4
+https://gitlab.gnome.org/GNOME/vte/-/archive/0.78.4/vte-0.78.4.tar.gz
+
+# 41.14 XScreenSaver-6.09
+https://www.jwz.org/xscreensaver/xscreensaver-6.09.tar.gz
+
+# 42.27 libcanberra-0.30
+https://0pointer.de/lennart/projects/libcanberra/libcanberra-0.30.tar.xz
+https://www.linuxfromscratch.org/patches/blfs/12.2/libcanberra-0.30-wayland-1.patch
+# 42.37 libogg-1.3.5
+https://downloads.xiph.org/releases/ogg/libogg-1.3.5.tar.xz
+# 42.44 libvorbis-1.3.7
+https://downloads.xiph.org/releases/vorbis/libvorbis-1.3.7.tar.xz
+# 42.53 sound-theme-freedesktop-0.8
+https://people.freedesktop.org/~mccann/dist/sound-theme-freedesktop-0.8.tar.bz2

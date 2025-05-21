@@ -69,8 +69,8 @@
 #		e10 - Common to all DE's
 #		e11 - Common to Xfce & Gnome
 #		e12 - Common to LXQt & KDE
-#		e13 - Common to Gnome, LXQt & KDE
-#		e14 - Common to Xfce, Gnome & KDE
+#		e13 - Common to Xfce, Gnome & KDE
+#		e14 - Common to Gnome, LXQt & KDE
 #
 #		e21	- Xfce other Support
 #		e23 - Xfce Desktop
