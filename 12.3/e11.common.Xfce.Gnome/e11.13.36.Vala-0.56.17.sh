@@ -16,7 +16,7 @@
 # Recommended by:
 #
 #               e23.35.01 libxfce4util-4.20.0
-#               e13.12.02 AccountsService-23.13.9
+#               e11.12.02 AccountsService-23.13.9
 #               e11.10.24 librsvg-2.59.2
 #               f2.26.02  lightdm-1.32.0        ???
 #               g11.25.33 libhandy-1.8.3        ???

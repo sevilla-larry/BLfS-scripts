@@ -24,7 +24,7 @@
 #               d20.24.19 Xwayland-24.1.6
 #               d20.24.20 Xorg-Server-21.1.16
 #               e21.25.35 libnotify-0.8.4
-#               e13.12.02 AccountsService-23.13.9
+#               e11.12.02 AccountsService-23.13.9
 #
 
 export PKG="xmlto-0.0.29"

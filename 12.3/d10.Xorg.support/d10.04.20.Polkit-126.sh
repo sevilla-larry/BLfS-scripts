@@ -18,7 +18,7 @@
 # Required by:
 #
 #               e11.04.21 polkit-gnome-0.105
-#               e13.12.02 AccountsService-23.13.9
+#               e11.12.02 AccountsService-23.13.9
 #               ???.??.?? LXSession
 #
 # Runtime Recommended by:
