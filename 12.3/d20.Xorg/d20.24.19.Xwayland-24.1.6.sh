@@ -29,6 +29,13 @@
 #   read NOTES at: https://www.linuxfromscratch.org/blfs/view/12.3/x/xwayland.html
 #
 
+#
+# Optionally by:
+#
+#               e10.09.71 libxkbcommon-1.8.0
+#
+
+
 export PKG="xwayland-24.1.6"
 export PKGLOG_DIR=$LFSLOG/24.19
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log

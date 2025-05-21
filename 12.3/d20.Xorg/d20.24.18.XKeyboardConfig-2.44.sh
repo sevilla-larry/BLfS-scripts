@@ -14,9 +14,10 @@
 #
 
 #
-# Runtime Required by:
+# Required (runtime) by:
 #
 #               d20.24.20 Xorg-Server-21.1.16
+#               e10.09.71 libxkbcommon-1.8.0
 #
 
 export PKG="xkeyboard-config-2.44"

@@ -23,6 +23,11 @@
 #               d20.24.10 xcb-util-0.4.1
 #               d20.24.11 XCB Utilities
 #
+# Recommended by:
+#
+#               e10.09.71 libxkbcommon-1.8.0
+#
+
 
 export PKG="libxcb-1.17.0"
 export PKGLOG_DIR=$LFSLOG/24.07

@@ -15,6 +15,7 @@
 # Recommended by:
 #
 #               d20.24.12 Mesa-24.3.4
+#               e10.09.71 libxkbcommon-1.8.0
 #
 
 export PKG="wayland-protocols-1.40"

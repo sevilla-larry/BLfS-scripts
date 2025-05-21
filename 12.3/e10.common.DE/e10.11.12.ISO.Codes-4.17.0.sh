@@ -6,6 +6,10 @@
 #
 #               e11.25.36 libxklavier-5.4
 #
+# Recommended by:
+#
+#               e11.25.16 GTK-3.24.48
+#
 
 export PKG="iso-codes-v4.17.0"
 #export PKG1="iso-codes"

@@ -17,11 +17,12 @@
 #
 # Required by:
 #
-#               d10.09.98 Wayland-Protocols-1.36
+#               d10.09.98 Wayland-Protocols-1.40
 #
 # Recommended by:
 #
-#               e12.25.42 Qt-6.7.2
+#               e10.09.71 libxkbcommon-1.8.0
+#               e12.25.42 Qt-6.7.2                  ???
 #
 # Optionally by:
 #

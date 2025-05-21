@@ -1,4 +1,4 @@
-# d20.09.71.libxkbcommon-1.8.0.sh
+# e10.09.71.libxkbcommon-1.8.0.sh
 # Pass 2 with Xvfb
 #
 
@@ -25,7 +25,7 @@
 #
 # Recommended (but required) by:
 #
-#               e21.25.17 GTK+-3.24.43
+#               e11.25.16 GTK-3.24.48
 #
 # Recommended by:
 #

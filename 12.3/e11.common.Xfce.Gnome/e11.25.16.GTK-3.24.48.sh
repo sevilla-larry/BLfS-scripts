@@ -13,8 +13,8 @@
 #
 #               a.08.91.37 docbook-xsl-nons-1.79.2
 #               e10.28.07  hicolor-icon-theme-0.18 (test)
-#                          ISO.Codes-4.17.0                 ???
-#                          libxkbcommon-1.8.0               ???
+#               e10.11.12  ISO.Codes-4.17.0
+#               e10.09.71  libxkbcommon-1.8.0
 #               a.08.91.38 libxslt-1.1.43
 #               d10.09.97  Wayland-1.23.0
 #               d10.09.98  Wayland-Protocols-1.40
