@@ -20,6 +20,9 @@ https://download.osgeo.org/libtiff/tiff-4.7.0.tar.gz
 # 10.27 libwebp-1.5.0
 https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.5.0.tar.gz
 
+# 11.11 ISO Codes-4.17.0
+https://salsa.debian.org/iso-codes-team/iso-codes/-/archive/v4.17.0/iso-codes-v4.17.0.tar.gz
+
 # 12.36 UPower-1.90.7
 https://gitlab.freedesktop.org/upower/upower/-/archive/v1.90.7/upower-v1.90.7.tar.bz2
 

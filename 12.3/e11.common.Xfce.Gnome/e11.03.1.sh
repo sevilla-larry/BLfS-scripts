@@ -24,20 +24,6 @@ echo "."
 
 ###
 
-echo "e11.11.11.ISO.Codes-4.16.0"
-echo "e11.11.11.ISO.Codes-4.16.0" >> $LFSLOG_PROCESS
-
-time { bash e11.11.11.ISO.Codes-4.16.0.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
-
-###
-
 echo "e11.33.03.gsettings-desktop-schemas-46.1"
 echo "e11.33.03.gsettings-desktop-schemas-46.1" >> $LFSLOG_PROCESS
 

@@ -1,17 +1,17 @@
-# e11.11.12.ISO.Codes-4.17.0.sh
+# e10.11.12.ISO.Codes-4.17.0.sh
 #
 
 #
 # Required by:
 #
-#               f21.25.37.libxklavier-5.4.sh
+#               e11.25.36 libxklavier-5.4
 #
 
-#export PKG="iso-codes-4.17.0"
-export PKG1="iso-codes"
-export PKG2="4.17.0"
-export PKGtar=$PKG1"_"$PKG2
-export PKGdir=$PKG1"-"$PKG2
+export PKG="iso-codes-v4.17.0"
+#export PKG1="iso-codes"
+#export PKG2="4.17.0"
+#export PKGtar=$PKG1"_"$PKG2
+#export PKGdir=$PKG1"-"$PKG2
 export PKGLOG_DIR=$LFSLOG/11.12
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
@@ -28,8 +28,8 @@ mkdir $PKGLOG_DIR
 echo "1. Extract tar..."
 echo "1. Extract tar..." >> $LFSLOG_PROCESS
 echo "1. Extract tar..." >> $PKGLOG_ERROR
-tar xvf $PKGtar.orig.tar.xz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
-cd $PKGdir
+tar xvf $PKG.tar.gz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
+cd $PKG
  
 
 echo "2. Configure ..."
@@ -51,7 +51,7 @@ make check > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
 echo "5. Make Install ..."
 echo "5. Make Install ..." >> $LFSLOG_PROCESS
 echo "5. Make Install ..." >> $PKGLOG_ERROR
-make install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
+make install LN_S='ln -sfn' > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 
 cd $SOURCES
@@ -61,6 +61,5 @@ unset LFSLOG_PROCESS
 unset PKGLOG_INSTALL PKGLOG_BUILD PKGLOG_CONFIG
 unset PKGLOG_CHECK
 unset PKGLOG_ERROR PKGLOG_TAR
-unset PKGLOG_DIR
-# PKG
-unset PKG1 PKG2 PKGtar PKGdir
+unset PKGLOG_DIR PKG
+#unset PKG1 PKG2 PKGtar PKGdir

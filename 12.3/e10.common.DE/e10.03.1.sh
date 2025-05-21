@@ -36,6 +36,20 @@ echo "."
 
 ###
 
+echo "e10.11.12.ISO.Codes-4.17.0"
+echo "e10.11.12.ISO.Codes-4.17.0" >> $LFSLOG_PROCESS
+
+time { bash e10.11.12.ISO.Codes-4.17.0.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
 echo "e10.09.29.JSON-GLib-1.10.6"
 echo "e10.09.29.JSON-GLib-1.10.6" >> $LFSLOG_PROCESS
 
