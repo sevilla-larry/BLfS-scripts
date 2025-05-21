@@ -4,6 +4,12 @@
 
 # 10.24 librsvg-2.59.2
 6d495c8bb2ee0cb0a62856c790a67298 librsvg-2.59.2.tar.xz
+# 10.33 Poppler-25.02.0
+feae5e0715ed7738fcb4220730a3ff4c poppler-25.02.0.tar.xz
+67ee4a40aa830b1f6e2560ce5f6471ba poppler-data-0.4.12.tar.gz
+
+# 12.21 AccountsService-23.13.9
+03dccfe1b306b7ca19743e86d118e64d accountsservice-23.13.9.tar.xz
 
 # 13.01 Cbindgen-0.28.0
 0712d991fc8e65121924265d738db71d cbindgen-0.28.0.tar.gz

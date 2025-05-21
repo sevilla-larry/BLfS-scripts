@@ -1,6 +1,0 @@
-# 10.33 Poppler-25.02.0
-feae5e0715ed7738fcb4220730a3ff4c poppler-25.02.0.tar.xz
-67ee4a40aa830b1f6e2560ce5f6471ba poppler-data-0.4.12.tar.gz
-
-# 12.21 AccountsService-23.13.9
-03dccfe1b306b7ca19743e86d118e64d accountsservice-23.13.9.tar.xz

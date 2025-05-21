@@ -1,6 +1,0 @@
-# 10.33 Poppler-25.02.0
-https://poppler.freedesktop.org/poppler-25.02.0.tar.xz
-https://poppler.freedesktop.org/poppler-data-0.4.12.tar.gz
-
-# 12.21 AccountsService-23.13.9
-https://www.freedesktop.org/software/accountsservice/accountsservice-23.13.9.tar.xz
