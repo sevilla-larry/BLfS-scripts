@@ -2,6 +2,9 @@
 50ecad37c8342fb4a52f590db7530621 polkit-gnome-0.105.tar.xz
 #								 polkit-gnome-0.105-consolidated_fixes-1.patch
 
+# 10.24 librsvg-2.59.2
+6d495c8bb2ee0cb0a62856c790a67298 librsvg-2.59.2.tar.xz
+
 # 13.01 Cbindgen-0.28.0
 0712d991fc8e65121924265d738db71d cbindgen-0.28.0.tar.gz
 # 13.23    Python Modules
@@ -9,10 +12,6 @@
 36504ac01533ae14f0d2337516bbae2e pycairo-1.26.1.tar.gz
 # 13.23.23 PyGObject-3.50.0
 8f34e4bc1d7d57faf558180b0051c9ef pygobject-3.50.0.tar.xz
-# 13.26 Rustc-1.85.0
-#a0193e0a4925f772bd50f8d12e47860c rustc-1.85.0-src.tar.xz
-# 13.35 Vala-0.56.17
-134075855867fdd9c51ca7555c4951bb vala-0.56.17.tar.xz
 
 # 25.03 at-spi2-core-2.54.1
 a05ad6cf4a49b19964cc5eec363d2310 at-spi2-core-2.54.1.tar.xz

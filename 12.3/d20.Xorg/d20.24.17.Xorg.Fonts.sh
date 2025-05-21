@@ -13,6 +13,10 @@
 #               d20.24.19 Xwayland-24.1.6     ( font-util )
 #               d20.24.20 Xorg-Server-21.1.16 ( font-util )
 #
+# Optionally by:
+#
+#               e11.10.24 librsvg-2.59.2
+#
 
 #
 # based on: https://www.linuxfromscratch.org/blfs/view/12.3/x/x7font.html

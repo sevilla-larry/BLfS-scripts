@@ -2,6 +2,9 @@
 https://download.gnome.org/sources/polkit-gnome/0.105/polkit-gnome-0.105.tar.xz
 https://www.linuxfromscratch.org/patches/blfs/12.3/polkit-gnome-0.105-consolidated_fixes-1.patch
 
+# 10.24 librsvg-2.59.2
+https://download.gnome.org/sources/librsvg/2.59/librsvg-2.59.2.tar.xz
+
 # 13.01 Cbindgen-0.28.0
 https://github.com/mozilla/cbindgen/archive/v0.28.0/cbindgen-0.28.0.tar.gz
 # 13.23    Python Modules
@@ -9,9 +12,7 @@ https://github.com/mozilla/cbindgen/archive/v0.28.0/cbindgen-0.28.0.tar.gz
 https://github.com/pygobject/pycairo/releases/download/v1.26.1/pycairo-1.26.1.tar.gz
 # 13.23.23 PyGObject-3.50.0
 https://download.gnome.org/sources/pygobject/3.50/pygobject-3.50.0.tar.xz
-# 13.26 Rustc-1.85.0
-https://static.rust-lang.org/dist/rustc-1.85.0-src.tar.xz
-# 13.35 Vala-0.56.17
+# 13.36 Vala-0.56.17
 https://download.gnome.org/sources/vala/0.56/vala-0.56.17.tar.xz
 
 # 25.03 at-spi2-core-2.54.1

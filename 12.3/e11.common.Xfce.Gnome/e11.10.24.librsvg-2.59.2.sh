@@ -1,46 +1,47 @@
-# e10.25.04.Cairo-1.18.2.sh
+# e11.10.24.librsvg-2.59.2.sh
 #
 
 #
 # Dependencies Required:
 #
-#               d10.10.22 libpng-1.6.46
-#               d10.10.32 Pixman-0.44.2
+#               e10.25.04  Cairo-1.18.2
+#               e10.13.01  cargo-c-0.10.11
+#               e10.25.10  gdk-pixbuf-2.42.12
+#               e10.25.37  Pango-1.56.1
+#               e10.13.27  Rustc-1.85.0
+#               a.08.91.40 make-ca-1.16
 #
 # Dependencies Recommended:
 #
-#               d10.10.05 Fontconfig-2.16.0
 #               d10.09.17 GLib-2.82.5
-#               d20.24.08 Xorg Libraries
+#               e11.13.36 Vala-0.56.17
 #
 # Dependencies Optional:
 #
-#               d20.25.33  Libdrm-2.4.124
-#               a.08.91.08 libxml2-2.13.6
-#               a.08.91.09 LZO-2.10
+#               d20.24.17 Xorg Fonts
 #
 
 #
 # Required by:
 #
-#               e23.35.09 xfce4-panel-4.20.3
-#               e11.10.24 librsvg-2.59.2
-#               ??.13.24.18 PyCairo-1.18.2      ???
+#               e11.28.01 adwaita-icon-theme-47.0
 #
-# Recommended ( but needed ) by:
+# Recommended by:
 #
-#               e10.25.37 Pango-1.56.1
+#               g12.39.03 LibreOffice-24.8.0    ???
 #
 
-export PKG="cairo-1.18.2"
-export PKGLOG_DIR=$LFSLOG/25.04
+export PKG="librsvg-2.59.2"
+export PKGLOG_DIR=$LFSLOG/10.24
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
+export PKGLOG_CHECK=$PKGLOG_DIR/check.log
 export PKGLOG_INSTALL=$PKGLOG_DIR/install.log
 export PKGLOG_ERROR=$PKGLOG_DIR/error.log
+export PKGLOG_OTHERS=$PKGLOG_DIR/others.log
 export LFSLOG_PROCESS=$LFSLOG/process.log
-export SOURCES=`pwd`
+export SOURCES= `pwd`
 
 rm -r $PKGLOG_DIR 2> /dev/null
 mkdir $PKGLOG_DIR
@@ -51,6 +52,11 @@ echo "1. Extract tar..." >> $PKGLOG_ERROR
 tar xvf $PKG.tar.xz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
 
+
+sed -e "/OUTDIR/s|,| / 'librsvg-2.59.2', '--no-namespace-dir',|"    \
+    -e '/output/s|Rsvg-2.0|librsvg-2.59.2|'                         \
+    -i doc/meson.build                                              \
+     > $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
 
 mkdir build
 cd    build
@@ -68,17 +74,24 @@ echo "3. Ninja Build ..." >> $LFSLOG_PROCESS
 echo "3. Ninja Build ..." >> $PKGLOG_ERROR
 ninja > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 
-echo "4. Ninja Install ..."
-echo "4. Ninja Install ..." >> $LFSLOG_PROCESS
-echo "4. Ninja Install ..." >> $PKGLOG_ERROR
-ninja install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
+echo "4. Ninja Test ..."
+echo "4. Ninja Test ..." >> $LFSLOG_PROCESS
+echo "4. Ninja Test ..." >> $PKGLOG_ERROR
+ninja test > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
+# One test, Rust tests (rsvg), is known to fail.
 
+echo "5. Ninja Install ..."
+echo "5. Ninja Install ..." >> $LFSLOG_PROCESS
+echo "5. Ninja Install ..." >> $PKGLOG_ERROR
+ninja install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 
 cd $SOURCES
 rm -rf $PKG
 unset SOURCES
 unset LFSLOG_PROCESS
+unset PKGLOG_OTHERS
 unset PKGLOG_INSTALL PKGLOG_BUILD PKGLOG_CONFIG
+unset PKGLOG_CHECK
 unset PKGLOG_ERROR PKGLOG_TAR
 unset PKGLOG_DIR PKG

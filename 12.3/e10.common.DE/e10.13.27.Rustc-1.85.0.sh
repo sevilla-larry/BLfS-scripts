@@ -1,32 +1,34 @@
-# e11.13.26.Rustc-1.85.0.sh
+# e10.13.27.Rustc-1.85.0.sh
 #
 
 #
 # Dependencies Required:
 #
-#               b11.13.03 CMake-3.30.2
-#               b11.17.02 cURL-8.10.1
+#               a.08.9x.?1 CMake-3.31.5
+#               a.08.93.04 cURL-8.12.1
+#               a.08.91.40 make-ca-1.16
 #
 # Dependencies Recommended:
 #
-#               e11 09.63 libssh2-1.11.0
-#               d10.13.12.LLVM-18.1.7
-#               e10.22.05 SQLite-3.46.1
+#               a.08.91.68 libssh2-1.11.1
+#               d10.13.13  LLVM-19.1.7
+#               a.08.91.18 SQLite-3.49.1
 #
 # Dependencies Optional:
 #
-#               d10.13.09 Git-2.46.0
+#               a.08.93.05 Git-2.48.1
 #
 
 #
 # Required by:
 #
-#               g11.13.01 Cbindgen-0.27.0
-#               e11.10.24 librsvg-2.58.3
+#               e11.10.24 librsvg-2.59.2
+#               e10.13.01 cargo-c-0.10.11
+#               g11.13.01 Cbindgen-0.27.0           ???
 #
 
 export PKG="rustc-1.85.0-src"
-export PKGLOG_DIR=$LFSLOG/13.26
+export PKGLOG_DIR=$LFSLOG/13.27
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 #export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
@@ -47,9 +49,9 @@ tar xvf $PKG.tar.xz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
 
 
-mkdir -pv /opt/rustc-1.80.1         \
+mkdir -pv /opt/rustc-1.85.0         \
      > $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
-ln -svfn rustc-1.80.1 /opt/rustc    \
+ln -svfn rustc-1.85.0 /opt/rustc    \
     >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
 
 cat << EOF > config.toml    2>> $PKGLOG_ERROR
@@ -60,14 +62,19 @@ cat << EOF > config.toml    2>> $PKGLOG_ERROR
 # Tell x.py the editors have reviewed the content of this file
 # and updated it to follow the major changes of the building system,
 # so x.py will not warn us to do such a review.
-change-id = 125535
+change-id = 134650
 
 [llvm]
-# by default, rust will build for a myriad of architectures
-targets = "X86"
-
 # When using system llvm prefer shared libraries
 link-shared = true
+
+# Do not download pre-built LLVM, instead either use the system
+# LLVM or build LLVM from the shipped source.
+download-ci-llvm = false
+
+# If building the shipped LLVM source, only enable the x86 target
+# instead of all the targets supported by LLVM.
+targets = "X86"
 
 [build]
 # omit docs to save time and space (default is to build them)
@@ -82,83 +89,72 @@ locked-deps = true
 # Specify which extended tools (those from the default install).
 tools = ["cargo", "clippy", "rustdoc", "rustfmt"]
 
-# Use the source code shipped in the tarball for the dependencies.
-# The combination of this and the "locked-deps" entry avoids downloading
-# many crates from Internet, and makes the Rustc build more stable.
-vendor = true
-
 [install]
-prefix = "/opt/rustc-1.80.1"
-docdir = "share/doc/rustc-1.80.1"
+prefix = "/opt/rustc-1.85.0"
+docdir = "share/doc/rustc-1.85.0"
 
 [rust]
 channel = "stable"
-description = "for BLFS 12.2"
+description = "for BLFS 12.3"
 
 # Enable the same optimizations as the official upstream build.
 lto = "thin"
 codegen-units = 1
 
 [target.x86_64-unknown-linux-gnu]
-# NB the output of llvm-config (i.e. help options) may be
-# dumped to the screen when config.toml is parsed.
 llvm-config = "/usr/bin/llvm-config"
 
 [target.i686-unknown-linux-gnu]
-# NB the output of llvm-config (i.e. help options) may be
-# dumped to the screen when config.toml is parsed.
 llvm-config = "/usr/bin/llvm-config"
 EOF
+
+sed '/MirOpt/d' -i src/bootstrap/src/core/builder/mod.rs    \
+    >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
 
 echo "2. Python3 Build ..."
 echo "2. Python3 Build ..." >> $LFSLOG_PROCESS
 echo "2. Python3 Build ..." >> $PKGLOG_ERROR
-{ [ ! -e /usr/include/libssh2.h ] ||
-  export LIBSSH2_SYS_USE_PKG_CONFIG=1; }
-{ [ ! -e /usr/include/sqlite3.h ] ||
-  export LIBSQLITE3_SYS_USE_PKG_CONFIG=1; }
-python3 x.py build > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
+[ ! -e /usr/include/libssh2.h ] || export LIBSSH2_SYS_USE_PKG_CONFIG=1
+[ ! -e /usr/include/sqlite3.h ] || export LIBSQLITE3_SYS_USE_PKG_CONFIG=1
+./x.py build > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 
-echo "4. Python3 Check ..."
-echo "4. Python3 Check ..." >> $LFSLOG_PROCESS
-echo "4. Python3 Check ..." >> $PKGLOG_ERROR
-SSL_CERT_DIR=/etc/ssl/certs \
-python3 x.py test --verbose --no-fail-fast --keep-stage-std=1 | \
-    tee rustc-testlog 2>> $PKGLOG_ERROR
-    cat rustc-testlog   > $PKGLOG_CHECK
+echo "4. Python3 Test ..."
+echo "4. Python3 Test ..." >> $LFSLOG_PROCESS
+echo "4. Python3 Test ..." >> $PKGLOG_ERROR
+./x.py test --verbose --no-fail-fast | tee rustc-testlog    2>> $PKGLOG_ERROR
+cat rustc-testlog   > $PKGLOG_CHECK
 
-# Note 3 tests are known to fail
+# Note 6 tests in the bootstrap are known to fail
 # check for SIGSEGV or signal 11
-# see https://www.linuxfromscratch.org/blfs/view/12.2/general/rust.html
+# see https://www.linuxfromscratch.org/blfs/view/12.3/general/rust.html
+
+grep '^test result:' rustc-testlog |
+ awk '{sum1 += $4; sum2 += $6} END { print sum1 " passed; " sum2 " failed" }'   \
+ >> $PKGLOG_CHECK 2>> $PKGLOG_ERROR
 
 echo "5. Python3 Install ..."
 echo "5. Python3 Install ..." >> $LFSLOG_PROCESS
 echo "5. Python3 Install ..." >> $PKGLOG_ERROR
-python3 x.py install rustc std                      \
+./x.py install rustc std                        \
      > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
-install -vm755                                      \
-  build/host/stage1-tools/*/*/{cargo{,-clippy,-fmt},clippy-driver,rustfmt} \
-  /opt/rustc-1.80.1/bin                             \
-    >> $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
-install -vDm644                                     \
-  src/tools/cargo/src/etc/_cargo                    \
-  /opt/rustc-1.80.1/share/zsh/site-functions/_cargo \
-    >> $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
-install -vm644 src/tools/cargo/src/etc/man/*        \
-  /opt/rustc-1.80.1/share/man/man1                  \
+./x.py install --stage=1 cargo clippy rustfmt   \
     >> $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
-rm -fv /opt/rustc-1.80.1/share/doc/rustc-1.80.1/*.old   \
-    >> $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
+rm -fv /opt/rustc-1.85.0/share/doc/rustc-1.85.0/*.old   \
+    >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
 install -vm644 README.md                                \
-               /opt/rustc-1.80.1/share/doc/rustc-1.80.1 \
-    >> $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
+               /opt/rustc-1.85.0/share/doc/rustc-1.85.0 \
+    >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
 
 install -vdm755 /usr/share/zsh/site-functions           \
-    >> $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
+    >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
 ln -sfv /opt/rustc/share/zsh/site-functions/_cargo      \
         /usr/share/zsh/site-functions                   \
-    >> $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
+    >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
+
+mv -v   /etc/bash_completion.d/cargo                    \
+        /usr/share/bash-completion/completions          \
+    >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
 
 unset LIB{SSH2,SQLITE3}_SYS_USE_PKG_CONFIG
 

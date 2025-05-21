@@ -13,8 +13,6 @@ https://nodejs.org/dist/v22.14.0/node-v22.14.0.tar.xz
 
 # 10.10 GLM-1.0.1
 https://github.com/g-truc/glm/archive/1.0.1/glm-1.0.1.tar.gz
-# 10.24 librsvg-2.59.2
-https://download.gnome.org/sources/librsvg/2.59/librsvg-2.59.2.tar.xz
 # 10.31 OpenJPEG-2.5.3
 https://github.com/uclouvain/openjpeg/archive/v2.5.3/openjpeg-2.5.3.tar.gz
 

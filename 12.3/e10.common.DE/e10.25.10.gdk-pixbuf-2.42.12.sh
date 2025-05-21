@@ -20,6 +20,7 @@
 # Required by:
 #
 #               e21.25.16 GTK-3.24.48
+#               e11.10.24 librsvg-2.59.2
 #               e10.25.48 xdg-desktop-portal-1.18.2 ???
 #               ???       GTK+-2.24.33              ???
 #               ??? 25.13 gdk-pixbuf-xlib-2.40.2    ???
