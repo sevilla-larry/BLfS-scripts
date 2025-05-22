@@ -18,19 +18,18 @@
 #
 # a: LfS			- working
 #
-# c11: MariaDB		- 
-# c12: PostgreSQL	- 
-# c13: Apache		- 
-# c14: ProFTPD		- 
+# c11: MariaDB		- working
+# c12: PostgreSQL	- working
+# c13: Apache		- working
+# c14: ProFTPD		- working
 #
-# d20: Xorg			- 
+# d20: Xorg			- working
 #
 # e23: Xfce	with LightDM	- 
 #
-# g63: Xfce Apps    - 
+# g23: Xfce Apps    - 
 #                   ( some problem with Adwaita theme / no themes )
 #
-
 
 #
 #
@@ -101,21 +100,42 @@
 #
 #       f0	- Common to DM's
 #		f1	- GDM
-#		f2	- LightDM			compiled in e23.Xfce
+#		f2	- LightDM			compiled in e23.Xfce.Desktop
 #       f3	- SDDM
 #       f4	- LXDM			??? (from 11.3)	???
 #
 #
 # Group g - Xorg Applications
 #
-#		g00 - Common to all Applications Support
+#		g11 - Common Xorg Applications support
+#		g12 - Common Xorg Applications
+#		g13 - Common Xorg Applications Others / External
 #
-#		g11 - Common Xfce & Gnome Applications Support
-#		g12 - Common Xfce & Gnome Applications				Evince, Firefox, LibreOffice
+#		g21 - Xfce Applications support
+#		g22 - Xfce Applications										Mousepad, xarchiver
+#		g23 - Xfce Applications Others / External
 #
-#	(	g62 - Xfce Applications	) included in e23.Xfce
-#		g63 - Xfce Applications Other						Mousepad, xarchiver
+#		g31 - LXQt Applications support
+#		g32 - LXQt Applications
+#		g33 - LXQt Applications Others / External
 #
+#		g41 - Gnome Applications support
+#		g42 - Gnome Applications
+#		g43 - Gnome Applications Others / External
+#
+#		g51 - KDE Applications support
+#		g52 - KDE Applications
+#		g53 - KDE Applications Others / External
+#
+#		g61 - Common Xfce / Gnome Applications support
+#		g62 - Common Xfce / Gnome Applications						Evince, Firefox, LibreOffice
+#		g63 - Common Xfce / Gnome Applications Others / External
+#
+#		g71 - Common LXQt / KDE Applications support
+#		g72 - Common LXQt / KDE Applications
+#		g73 - Common LXQt / KDE Applications Other / External
+#
+
 
 
 #
@@ -164,6 +184,7 @@
 # Started: 2023/Sept/08
 # arch: x64, UEFI
 # Stopped: 2024/Feb
+
 
 
 # BLfS ver: 11.3
