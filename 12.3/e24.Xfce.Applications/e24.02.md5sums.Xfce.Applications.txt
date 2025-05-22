@@ -2,7 +2,5 @@
 ee4c672fc96c81fc8d540f66411ddc6e xfce4-terminal-1.1.4.tar.bz2
 # 36.04 Ristretto-0.13.3
 4d140fe456480d90f99018ba5b932116 ristretto-0.13.3.tar.bz2
-# 36.05 xfce4-dev-tools-4.20.0
-bea58046e67b4274c022fcff893fa350 xfce4-dev-tools-4.20.0.tar.bz2
-# 36.06 xfce4-notifyd-0.9.7
+# 36.05 xfce4-notifyd-0.9.7
 d5bfe1fd8e8da9d64367a1f520d88633 xfce4-notifyd-0.9.7.tar.bz2

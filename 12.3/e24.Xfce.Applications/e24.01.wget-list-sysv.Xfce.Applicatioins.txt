@@ -2,7 +2,5 @@
 https://archive.xfce.org/src/apps/xfce4-terminal/1.1/xfce4-terminal-1.1.4.tar.bz2
 # 36.04 Ristretto-0.13.3
 https://archive.xfce.org/src/apps/ristretto/0.13/ristretto-0.13.3.tar.bz2
-# 36.05 xfce4-dev-tools-4.20.0
-http://archive.xfce.org/src/xfce/xfce4-dev-tools/4.20/xfce4-dev-tools-4.20.0.tar.bz2
-# 36.06 xfce4-notifyd-0.9.7
+# 36.05 xfce4-notifyd-0.9.7
 https://archive.xfce.org/src/apps/xfce4-notifyd/0.9/xfce4-notifyd-0.9.7.tar.bz2

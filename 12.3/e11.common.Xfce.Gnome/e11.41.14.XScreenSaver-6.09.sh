@@ -9,7 +9,7 @@
 #
 # Dependencies Recommended:
 #
-#               e11.25.13 GLU-9.0.3         ???
+#               e11.25.13 GLU-9.0.3
 #
 # Dependencies Optional:
 #

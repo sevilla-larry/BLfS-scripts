@@ -12,10 +12,16 @@
 #               d10.10.04  FreeType-2.13.3
 #               e10.25.10  gdk-pixbuf-2.42.12
 #                          gst-plugins-base
-#               e21.10.18  libjpeg-turbo-3.0.1  ???
+#               e10.10.18  libjpeg-turbo-3.0.1
 #                          libgsf
 #               d10.10.22  libpng-1.6.46
-#                          Poppler
+#               e11.10.33  Poppler-25.02.0
+#
+
+#
+# Optionally by:
+#
+#               e23.35.12 tumbler-4.20.0
 #
 
 export PKG="tumbler-4.20.0"

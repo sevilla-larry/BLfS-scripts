@@ -1,16 +1,16 @@
-# e23.36.04.Ristretto-0.13.3.sh
+# e24.36.04.Ristretto-0.13.3.sh
 #
 
 #
 # Dependencies Required:
 #
-#               e10.10.16 libexif-0.6.24
-#               e23.35.03 libxfce4ui-4.18.6
+#               e10.10.16 libexif-0.6.25
+#               e23.35.03 libxfce4ui-4.20.0
 #
 #
 # Dependencies Optional (runtime):
 #
-#               e23.35.10 tumbler-4.18.2
+#               e23.35.12 tumbler-4.20.0
 #
 
 export PKG="ristretto-0.13.3"

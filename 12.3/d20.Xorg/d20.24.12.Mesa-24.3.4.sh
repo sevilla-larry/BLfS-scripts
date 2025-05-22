@@ -39,6 +39,7 @@
 #
 #               d20.24.14 Xorg Applications
 #               d20.25.34 libepoxy-1.5.10
+#               e11.25.13 GLU-9.0.3
 #
 # Recommended by:
 #

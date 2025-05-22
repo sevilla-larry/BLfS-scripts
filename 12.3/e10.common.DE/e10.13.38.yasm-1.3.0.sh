@@ -1,14 +1,20 @@
-# e21.13.38.yasm-1.3.0.sh
+# e10.13.38.yasm-1.3.0.sh
+#
+
+#
+# Dependencies Optional:
+#
+#               a.08.91.20.11 Cython-3.0.12
 #
 
 #
 # Recommended by:
 #
-#               e21.10.18 libjpeg-turbo-3.0.1
+#               e10.10.18 libjpeg-turbo-3.0.1
 #
 # Optionally by:
 #
-#               g12.40.03 Firefox-128.3.1esr
+#               g12.40.03 Firefox-128.3.1esr        ???
 #
 
 export PKG="yasm-1.3.0"

@@ -4,13 +4,14 @@
 #
 # Dependencies Required:
 #
-#               d20.24.16 Mesa-24.1.5
+#               d20.24.12 Mesa-24.3.4
 #
 
 #
 # Recommended by:
 #
-#               g12.39.03 LibreOffice-24.8.0
+#               e11.41.14 XScreenSaver-6.09
+#               g12.39.03 LibreOffice-24.8.0    ???
 #
 
 export PKG="glu-9.0.3"
@@ -58,7 +59,8 @@ echo "4. Ninja Install ..." >> $PKGLOG_ERROR
 ninja install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 rm -vf /usr/lib/libGLU.a    \
-            >> $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
+            >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
+
 
 cd $SOURCES
 rm -rf $PKG

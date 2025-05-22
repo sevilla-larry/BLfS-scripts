@@ -8,7 +8,9 @@
 #
 # Dependencies Recommended:
 #
-#               e10 13.37 yasm-1.3.0            ???
+#               NASM
+#                   or
+#               e10.13.38 yasm-1.3.0
 #
 
 #
@@ -27,6 +29,7 @@
 #
 # Optionally by:
 #
+#               e23.35.12 tumbler-4.20.0
 #               e10.10.14 Little CMS-2.17
 #               e10.10.26 libtiff-4.7.0
 #

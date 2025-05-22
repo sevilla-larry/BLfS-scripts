@@ -24,7 +24,7 @@
 #
 # Required by:
 #
-#               e24.36.05 xfce4-notifyd-0.9.6           ???
+#               e24.36.05 xfce4-notifyd-0.9.7
 #
 # Recommended by:
 #

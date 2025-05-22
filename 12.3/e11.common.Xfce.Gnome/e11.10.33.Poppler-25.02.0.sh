@@ -35,11 +35,15 @@
 #
 # Recommended by:
 #
-#               g12.39.03 LibreOffice-24.8.0
+#               g12.39.03 LibreOffice-24.8.0    ???
 #
 # Recommended ( but needed ) by:
 #
-#               g12.34.04 Evince-46.3.1
+#               g12.34.04 Evince-46.3.1         ???
+#
+# Optionally by:
+#
+#               e23.35.12 tumbler-4.20.0
 #
 
 export PKG="poppler-25.02.0"

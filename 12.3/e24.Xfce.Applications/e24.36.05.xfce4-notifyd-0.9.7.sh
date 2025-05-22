@@ -1,24 +1,25 @@
-# e23.36.06.xfce4-notifyd-0.9.7.sh
+# e24.36.05.xfce4-notifyd-0.9.7.sh
 #
 
 #
 # Dependencies Required:
 #
-#               e21.25.36 libnotify-0.8.3
-#               e23.35.03 libxfce4ui-4.18.6
-#               e11.42.48 libcanbera-0.30
-#               e23.36.05 xfce4-dev-tools-4.18.1
-#               e23.35.07 xfce4-panel-4.18.6
+#               e21.25.35 libnotify-0.8.4
+#               e23.35.03 libxfce4ui-4.20.0
+#               e11.42.26 libcanbera-0.30
+#               a.08.91.18 SQLite-3.49.1
+#               e23.35.07 xfce4-dev-tools-4.20.0
+#               e23.35.09 xfce4-panel-4.20.3
 #
 
 #
 # Required at Runtime by:
 #
-#               e21.25.36 libnotify-0.8.3
+#               e21.25.35 libnotify-0.8.4
 #
 
 export PKG="xfce4-notifyd-0.9.7"
-export PKGLOG_DIR=$LFSLOG/36.06
+export PKGLOG_DIR=$LFSLOG/36.05
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log

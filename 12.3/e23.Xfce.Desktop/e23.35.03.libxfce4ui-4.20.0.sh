@@ -23,6 +23,9 @@
 #               e23.35.05 Garcon-4.20.0
 #               e23.35.17 Xfwm4-4.20.0
 #               e23.35.18 xfce4-session-4.20.0
+#               e24.36.02 xfce4-terminal-1.1.4
+#               e24.36.04 Ristretto-0.13.3
+#               e24.36.05 xfce4-notifyd-0.9.7
 #
 
 export PKG="libxfce4ui-4.20.0"

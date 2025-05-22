@@ -1,11 +1,11 @@
-# e23.36.02.xfce4-terminal-1.1.4.sh
+# e24.36.02.xfce4-terminal-1.1.4.sh
 #
 
 #
 # Dependencies Required:
 #
-#               e23.35.03 libxfce4ui-4.18.6
-#               e11.33.07 VTE-0.76.4
+#               e23.35.03 libxfce4ui-4.20.0
+#               e11.33.07 VTE-0.78.4
 #
 
 export PKG="xfce4-terminal-1.1.4"

@@ -11,6 +11,12 @@
 #               e23.35.08 libxfce4windowing-4.20.2
 #
 
+#
+# Required by:
+#
+#               e24.36.05 xfce4-notifyd-0.9.7
+#
+
 export PKG="xfce4-panel-4.20.3"
 export PKGLOG_DIR=$LFSLOG/35.09
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log

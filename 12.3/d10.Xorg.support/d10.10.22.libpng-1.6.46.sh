@@ -18,6 +18,7 @@
 # Optional by:
 #
 #               d10.10.32 Pixman-0.44.2
+#               e23.35.12 tumbler-4.20.0
 #               e10.10.31 OpenJPEG-2.5.3
 #
 

@@ -7,6 +7,12 @@
 #               d10.09.17 GLib-2.82.5
 #
 
+#
+# Required by:
+#
+#               e24.36.05 xfce4-notifyd-0.9.7
+#
+
 export PKG="xfce4-dev-tools-4.20.0"
 export PKGLOG_DIR=$LFSLOG/35.07
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
