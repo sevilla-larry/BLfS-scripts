@@ -8,7 +8,7 @@
 #       or
 #               e11.25.18 GTK-4.14.5        ???
 #
-#               e11.10.24 librsvg-2.59.2
+#               e10.10.24 librsvg-2.59.2
 #
 # Dependencies Optional:
 #

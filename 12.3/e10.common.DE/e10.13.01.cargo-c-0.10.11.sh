@@ -17,7 +17,7 @@
 #
 # Required by:
 #
-#               e11.10.24 librsvg-2.59.2
+#               e10.10.24 librsvg-2.59.2
 #               g11.13.01 Cbindgen-0.27.0           ???
 #
 

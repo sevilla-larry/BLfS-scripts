@@ -12,8 +12,8 @@
 # Dependencies Recommended:
 #
 #               d10.13.24.07 docutils-0.21.2
-#                         librsvg-2.59.2        ???
-#               e10.10.26 libtiff-4.7.0         ???
+#               e11.10.24 librsvg-2.59.2
+#               e10.10.26 libtiff-4.7.0
 #
 
 #
@@ -28,6 +28,7 @@
 # Optionally by:
 #
 #               e23.35.12 tumbler-4.20.0
+#               e11.10.33 Poppler-25.02.0
 #
 
 export PKG="gdk-pixbuf-2.42.12"

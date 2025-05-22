@@ -1,11 +1,10 @@
 # e10.10.26.libtiff-4.7.0.sh
-# (errata)
 #
 
 #
 # Dependencies Recommended (required):
 #
-#               b11.13.03 CMake-3.30.2/5
+#               a.08.9x.?1 CMake-3.31.5
 #
 # Dependencies Optional:
 #
@@ -16,13 +15,16 @@
 #
 # Recommended by:
 #
-#               e12.25.42 Qt-6.7.2
-#               g12.39.03 LibreOffice-24.8.0
+#               e10.25.10 gdk-pixbuf-2.42.12
+#               e11.10.33 Poppler-25.02.0
+#               e12.25.42 Qt-6.7.2                  ???
+#               g12.39.03 LibreOffice-24.8.0        ???
 #
 # Optionally by:
 #
-#               e10.10.14 LittleCMS-2.16
-#               g12.34.04 Evince-46.3.1
+#               e10.10.14 Little CMS-2.17
+#               e11.10.31 OpenJPEG-2.5.3
+#               g12.34.04 Evince-46.3.1             ???
 #
 
 export PKG="tiff-4.7.0"

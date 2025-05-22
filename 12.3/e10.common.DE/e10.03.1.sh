@@ -36,6 +36,20 @@ echo "."
 
 ###
 
+echo "e10.13.36.Vala-0.56.17"
+echo "e10.13.36.Vala-0.56.17" >> $LFSLOG_PROCESS
+
+time { bash e10.13.36.Vala-0.56.17.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
 echo "e10.13.27.Rustc-1.85.0"
 echo "e10.13.27.Rustc-1.85.0" >> $LFSLOG_PROCESS
 

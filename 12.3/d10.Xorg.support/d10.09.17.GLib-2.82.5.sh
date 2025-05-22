@@ -41,9 +41,10 @@
 #               e11.25.03 at-spi2-core-2.54.1
 #               e10.25.10 gdk-pixbuf-2.42.12
 #               e10.25.37 Pango-1.56.1
-#               e11.13.36 Vala-0.56.17
+#               e10.13.36 Vala-0.56.17
 #               e11.25.36 libxklavier-5.4
 #               e11.33.03 gsettings-desktop-schemas-47.1
+#               e11.10.33 Poppler-25.02.0
 #               37.02 libfm-extra-1.3.2             ???
 #               09.07 dbus-glib-0.112               ???
 #               etc
@@ -53,7 +54,7 @@
 #               d10.10.12 harfBuzz-10.4.0
 #				e10.25.04 Cairo-1.18.2
 #               e11.12.02 AccountsService-23.13.9
-#               e11.10.24 librsvg-2.59.2
+#               e10.10.24 librsvg-2.59.2
 #               f2.26.02  lightdm-1.32.0            ???
 #               e12.25.42 Qt-6.7.2                  ???
 #

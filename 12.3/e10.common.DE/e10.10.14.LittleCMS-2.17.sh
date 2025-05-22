@@ -5,14 +5,19 @@
 # Dependencies Optional:
 #
 #               e10.10.18 libjpeg-turbo-3.0.1
-#               e10.10.26 libtiff-4.7.0 (errata)
+#               e10.10.26 libtiff-4.7.0
 #
 
 #
 # Recommended by:
 #
-#               e12.25.42 Qt-6.7.2
-#               g12.39.03 LibreOffice-24.8.0
+#               e11.10.33 Poppler-25.02.0
+#               e12.25.42 Qt-6.7.2              ???
+#               g12.39.03 LibreOffice-24.8.0    ???
+#
+# Optionally by:
+#
+#               e11.10.31 OpenJPEG-2.5.3
 #
 
 export PKG="lcms2-2.17"

@@ -10,7 +10,7 @@
 #
 #               d10.09.17 GLib-2.82.5
 #               d10.12.12 elogind-255.17
-#               e11.13.36 Vala-0.56.17
+#               e10.13.36 Vala-0.56.17
 #
 # Dependencies Optional:
 #

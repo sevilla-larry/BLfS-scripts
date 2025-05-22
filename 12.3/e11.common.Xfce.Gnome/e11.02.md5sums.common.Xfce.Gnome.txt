@@ -1,9 +1,12 @@
+# 04.08 GPGME-1.24.2
+2e0cc1df9f3da8c2a7d7c9dc33b7f0bf gpgme-1.24.2.tar.bz2
 # 04.21 polkit-gnome-0.105
 50ecad37c8342fb4a52f590db7530621 polkit-gnome-0.105.tar.xz
 #								 polkit-gnome-0.105-consolidated_fixes-1.patch
 
-# 10.24 librsvg-2.59.2
-6d495c8bb2ee0cb0a62856c790a67298 librsvg-2.59.2.tar.xz
+# 09.33 libassuan-3.0.2
+c6f1bf4bd2aaa79cd1635dcc070ba51a libassuan-3.0.2.tar.bz2
+
 # 10.33 Poppler-25.02.0
 feae5e0715ed7738fcb4220730a3ff4c poppler-25.02.0.tar.xz
 67ee4a40aa830b1f6e2560ce5f6471ba poppler-data-0.4.12.tar.gz

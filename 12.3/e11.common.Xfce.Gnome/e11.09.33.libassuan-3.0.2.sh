@@ -1,16 +1,16 @@
-# g11.09.33.libassuan-3.0.2.sh
+# e11.09.33.libassuan-3.0.2.sh
 #
 
 #
 # Dependencies Required
 #
-#               b10.09.43 libgpg-error-1.50
+#               a.08.91.34 libgpg-error-1.51
 #
 
 #
 # Required by:
 #
-#               g11.04.08 GPGME-1.23.2
+#               e11.04.08 GPGME-1.24.2
 #
 
 

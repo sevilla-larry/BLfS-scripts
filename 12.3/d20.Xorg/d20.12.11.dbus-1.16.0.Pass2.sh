@@ -30,9 +30,9 @@
 #
 #               d10.09.17 GLib-2.82.5
 #
-# Optional by:
+# Optionally by:
 #
-#               e11.13.36 Vala-0.56.17
+#               e10.13.36 Vala-0.56.17
 #               e31.27.03 openbox-3.6.1         ???
 #
 

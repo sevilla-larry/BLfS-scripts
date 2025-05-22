@@ -1,33 +1,35 @@
-# g11.10.33.Poppler-25.02.0.sh
+# e11.10.33.Poppler-25.02.0.sh
+#
+# with    GTK-3.xx
+# withOUT Qt-6.x
 #
 
 #
 # Dependencies Required:
 #
-#               b10.13.03 CMake-3.30.2
-#               d10.10.05 Fontconfig-2.15.0
-#               d10.09.17 GLib-2.80.4
+#               a.08.9x.?1 CMake-3.31.5
+#               d10.10.05  Fontconfig-2.16.0
+#               d10.09.17  GLib-2.82.5
 #
 # Dependencies Recommended:
 #
-#               b10.09.07 boost-1.86.0
-#               e10.25.04 Cairo-1.18.0
-#               g11.04.08 GPGME-1.23.2
-#               e10.10.14 Little CMS-2.16
-#               e10.10.18 libjpeg-turbo-3.0.1
-#               d10.10.22 libpng-1.6.43
-#               e10.10.26 libtiff-4.7.0         (errata)
-#               g11.04.17 NSS-3.103
-#               g11.10.31 OpenJPEG-2.5.2
-#               ??? Qt6
+#               a.08.91.23 boost-1.87.0
+#               e10.25.04  Cairo-1.18.2
+#               g11.04.08  GPGME-1.23.2          ???
+#               e10.10.14  Little CMS-2.17
+#               e10.10.18  libjpeg-turbo-3.0.1
+#               d10.10.22  libpng-1.6.46
+#               e10.10.26  libtiff-4.7.0
+#               a.08.91.32 NSS-3.108
+#               g11.10.31  OpenJPEG-2.5.2        ???
+#       withOUT Qt-6.x
 #
 # Dependencies Optional:
 #
-#               b10.17.02 cURL-8.10.1
-#               e10.25.10 gdk-pixbuf-2.42.12
-#               d10.13.09 Git-2.46.0
-#               e11.25.17 GTK+-3.24.43
-#               ??? Qt5
+#               a.08.93.04 cURL-8.12.1
+#               e10.25.10  gdk-pixbuf-2.42.12
+#               a.08.93.05 Git-2.48.1
+#               e11.25.16  GTK-3.24.48
 #
 
 #
@@ -106,9 +108,9 @@ echo "5. Ninja Install ..." >> $LFSLOG_PROCESS
 echo "5. Ninja Install ..." >> $PKGLOG_ERROR
 ninja install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
-install -v -m755 -d           /usr/share/doc/poppler-24.08.0    \
+install -v -m755 -d           /usr/share/doc/poppler-25.02.0    \
         >> $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
-cp -vr ../glib/reference/html /usr/share/doc/poppler-24.08.0    \
+cp -vr ../glib/reference/html /usr/share/doc/poppler-25.02.0    \
         >> $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 echo "6.1. Extract Encoding Data tar ..."
@@ -125,7 +127,6 @@ echo "6.2. Install Encoding Data ..." >> $PKGLOG_ERROR
 make prefix=/usr install    \
         >> $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
-cd ..
 
 cd $SOURCES
 rm -rf $PKG

@@ -50,6 +50,7 @@
 # Optionally by:
 #
 #               e11.28.09 lxde-icon-theme-0.5.1
+#               e11.10.33 Poppler-25.02.0
 #               e11.42.14 gstreamer-1.24.7                  ???
 #               e11.42.15 gst-plugins-base-1.24.7           ???
 #               e11.42.16 gst-plugins-good-1.24.7           ???

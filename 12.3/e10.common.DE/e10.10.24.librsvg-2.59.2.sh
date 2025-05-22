@@ -1,4 +1,4 @@
-# e11.10.24.librsvg-2.59.2.sh
+# e10.10.24.librsvg-2.59.2.sh
 #
 
 #
@@ -14,7 +14,7 @@
 # Dependencies Recommended:
 #
 #               d10.09.17 GLib-2.82.5
-#               e11.13.36 Vala-0.56.17
+#               e10.13.36 Vala-0.56.17
 #
 # Dependencies Optional:
 #
