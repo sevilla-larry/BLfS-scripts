@@ -5,7 +5,7 @@
 # Required by:
 #
 #               e33.37.18 libfm-qt-2.0.2
-#               g62.36.04 Ristretto-0.13.2 ???
+#               e24.36.04 Ristretto-0.13.3
 #
 
 export PKG="libexif-0.6.25"
@@ -34,7 +34,7 @@ echo "2. Configure ..." >> $LFSLOG_PROCESS
 echo "2. Configure ..." >> $PKGLOG_ERROR
 ./configure --prefix=/usr    \
             --disable-static \
-            --with-doc-dir=/usr/share/doc/libexif-0.6.24 \
+            --with-doc-dir=/usr/share/doc/libexif-0.6.25 \
           > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Make Build ..."

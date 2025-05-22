@@ -4,21 +4,23 @@
 #
 # Dependencies Required:
 #
-#               e11.25.17 GTK+-3.24.43
-#               b10.09.72 libxml2-2.13.3
-#               b15.09.83 PCRE2-10.44
+#               e11.25.16  GTK-3.24.48
+#               a.08.91.08 libxml2-2.13.6
+#               a.08.91.11 PCRE2-10.45
 #
 # Dependencies Recommended:
 #
-#               b10.09.24 icu-75.1
-#               d10.09.17 GLib-2.80.4
-#               e11.04.07 GnuTLS-3.8.7.1
+#               a.08.91.07 icu-76.1
+#               a.08.91.63 GnuTLS-3.8.9
+#               d10.09.17  GLib-2.82.5
+#               ???.25.17  GTK-4.16.12
+#               e10.13.36  Vala-0.56.17
 #
 
 #
-# Required Runtime by:
+# Required by:
 #
-#               g62.36.02 xfce4-terminal-1.1.3
+#               e24.36.02 xfce4-terminal-1.1.4
 #
 
 export PKG="vte-0.78.4"

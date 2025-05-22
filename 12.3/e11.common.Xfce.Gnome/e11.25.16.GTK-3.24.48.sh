@@ -40,6 +40,7 @@
 #               e11.04.21 polkit-gnome-0.105
 #               e11.28.01 adwaita-icon-theme-47.0
 #               e11.28.06 gnome-themes-extra-3.28
+#               e11.33.07 VTE-0.78.4
 #               g12.40.03 Firefox-128.4.0esr (errata)       ???
 #
 # Recommended by:
