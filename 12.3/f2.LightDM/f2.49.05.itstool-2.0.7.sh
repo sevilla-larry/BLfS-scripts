@@ -1,17 +1,17 @@
-# f21.49.05.itstool-2.0.7.sh
+# f2.49.05.itstool-2.0.7.sh
 #
 
 #
 # Dependencies Required:
 #
-#              d10.49.01 docbook-xml-4.5
+#               a.08.91.36 docbook-xml-4.5
 #
 
 #
 # Required by:
 #
-#               f22.26.02 lightdm-1.32.0
-#               ???.11.07 GTK-Doc-1.33.2    ???
+#               f2.26.02   lightdm-1.32.0
+#               ???.11.07  GTK-Doc-1.33.2
 #
 
 export PKG="itstool-2.0.7"

@@ -1,19 +1,27 @@
-# f22.26.02.lightdm-1.32.0.sh
+# f2.26.02.lightdm-1.32.0.sh
 #
 
 #
 # Dependencies Required:
 #
-#               e23.35.04 Exo-4.18.0
-#               d10.09.42 libgcrypt-1.11.0
-#               f21.49.05 itstool-2.0.7
-#               d20.24.24 Xorg-Server-21.1.13
+#               e23.35.04  Exo-4.20.0
+#               a.08.91.35 libgcrypt-1.11.0
+#               f2.49.05   itstool-2.0.7
+#               a.08.92.01 Linux-PAM-1.7.0
+#
+# Dependencies Required (Runtime):
+#
+#               d20.24.20 Xorg-Server-21.1.13
 #
 # Dependencies Recommended:
 #
-#               d10.09.17 GLib-2.80.4
-#               f21.25.37 libxklavier-5.4
-#               e11.13.35 Vala-0.56.17
+#               d10.09.17 GLib-2.82.5
+#               e11.25.36 libxklavier-5.4
+#               e11.13.36 Vala-0.56.17
+#
+# Dependencies Optional:
+#
+#               e11.12.02 AccountsService-23.13.9
 #
 # Dependencies Optional:
 #
@@ -55,7 +63,7 @@ sed -i s/systemd/elogind/ data/pam/*    \
 echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
 echo "2. Configure ..." >> $PKGLOG_ERROR
-ITSTOOL=/bin/true                           \
+#ITSTOOL=/bin/true                           \
 ./configure --prefix=/usr                   \
             --libexecdir=/usr/lib/lightdm   \
             --localstatedir=/var            \
