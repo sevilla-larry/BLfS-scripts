@@ -57,17 +57,6 @@ echo "."
 #
 ###
 
-echo "g11.42.02.alsa-lib-1.2.13"
-echo "g11.42.02.alsa-lib-1.2.13" >> $LFSLOG_PROCESS
-
-time { bash g11.42.02.alsa-lib-1.2.13.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
 
 echo "g11.42.03.alsa-plugins-1.2.12"
 echo "g11.42.03.alsa-plugins-1.2.12" >> $LFSLOG_PROCESS
