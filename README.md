@@ -108,6 +108,8 @@
 #
 # Group g - Xorg Applications
 #
+#		g00 - Common to all Applications Support
+#
 #		g11 - Common Xfce & Gnome Applications Support
 #		g12 - Common Xfce & Gnome Applications				Evince, Firefox, LibreOffice
 #
