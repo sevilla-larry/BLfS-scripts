@@ -17,7 +17,7 @@
 #
 # Optionally by:
 #
-#               e11.10.31 OpenJPEG-2.5.3
+#               e10.10.31 OpenJPEG-2.5.3
 #
 
 export PKG="lcms2-2.17"

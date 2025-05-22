@@ -21,6 +21,8 @@ eba77b69efac8fa8e8fc53f8c2cdad7c libexif-0.6.25.tar.bz2
 3a0fa4a270a4a192b08913f88d0cfbdd tiff-4.7.0.tar.gz
 # 10.27 libwebp-1.5.0
 8f659e426eaa2aeec4b36bc9ea43b3f3 libwebp-1.5.0.tar.gz
+# 10.31 OpenJPEG-2.5.3
+12ae257cb21738c41b5f6ca977d01081 openjpeg-2.5.3.tar.gz
 
 # 11.11 ISO Codes-4.17.0
 f4b460577728ba331e078ad8bd246c98 iso-codes-v4.17.0.tar.gz

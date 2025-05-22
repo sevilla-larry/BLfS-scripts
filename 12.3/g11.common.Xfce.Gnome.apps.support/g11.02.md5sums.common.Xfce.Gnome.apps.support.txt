@@ -8,8 +8,6 @@ d07b3d8369d7f9efdca59f7501dd1117 libatomic_ops-7.8.2.tar.gz
 
 # 10.10 GLM-1.0.1
 f824ac50e16310a95279032f82cbd341 glm-1.0.1.tar.gz
-# 10.31 OpenJPEG-2.5.3
-12ae257cb21738c41b5f6ca977d01081 openjpeg-2.5.3.tar.gz
 
 # 12.28->30 Raptor-2.0.16 Rasqal-0.9.33 Redland-1.0.17
 0a71f13b6eaa0a04bf411083d89d7bc2 raptor2-2.0.16.tar.gz

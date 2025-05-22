@@ -21,6 +21,8 @@ https://download.gnome.org/sources/librsvg/2.59/librsvg-2.59.2.tar.xz
 https://download.osgeo.org/libtiff/tiff-4.7.0.tar.gz
 # 10.27 libwebp-1.5.0
 https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.5.0.tar.gz
+# 10.31 OpenJPEG-2.5.3
+https://github.com/uclouvain/openjpeg/archive/v2.5.3/openjpeg-2.5.3.tar.gz
 
 # 11.11 ISO Codes-4.17.0
 https://salsa.debian.org/iso-codes-team/iso-codes/-/archive/v4.17.0/iso-codes-v4.17.0.tar.gz

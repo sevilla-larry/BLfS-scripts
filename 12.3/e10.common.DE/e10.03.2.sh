@@ -47,6 +47,20 @@ echo "."
 
 ###
 
+echo "e10.10.31.OpenJPEG-2.5.3"
+echo "e10.10.31.OpenJPEG-2.5.3" >> $LFSLOG_PROCESS
+
+time { bash e10.10.31.OpenJPEG-2.5.3.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
 echo "e10.10.24.librsvg-2.59.2"
 echo "e10.10.24.librsvg-2.59.2" >> $LFSLOG_PROCESS
 

@@ -18,7 +18,7 @@
 # Optional by:
 #
 #               d10.10.32 Pixman-0.44.2
-#               e11.10.31 OpenJPEG-2.5.3
+#               e10.10.31 OpenJPEG-2.5.3
 #
 
 export PKG="libpng-1.6.46"

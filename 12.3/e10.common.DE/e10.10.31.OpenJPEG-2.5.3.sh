@@ -1,4 +1,4 @@
-# e11.10.31.OpenJPEG-2.5.3.sh
+# e10.10.31.OpenJPEG-2.5.3.sh
 #
 
 #

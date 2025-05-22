@@ -23,7 +23,7 @@
 # Optionally by:
 #
 #               e10.10.14 Little CMS-2.17
-#               e11.10.31 OpenJPEG-2.5.3
+#               e10.10.31 OpenJPEG-2.5.3
 #               g12.34.04 Evince-46.3.1             ???
 #
 
