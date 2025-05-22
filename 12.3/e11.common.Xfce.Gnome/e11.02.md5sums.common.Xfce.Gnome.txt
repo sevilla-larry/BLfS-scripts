@@ -50,9 +50,5 @@ cdfc61b7021a43841845b8fb1593d28c vte-0.78.4.tar.gz
 # 42.27 libcanberra-0.30
 34cb7e4430afaf6f447c4ebdb9b42072 libcanberra-0.30.tar.xz
 #patch
-# 42.37 libogg-1.3.5
-3178c98341559657a15b185bf5d700a5 libogg-1.3.5.tar.xz
-# 42.44 libvorbis-1.3.7
-50902641d358135f06a8392e61c9ac77 libvorbis-1.3.7.tar.xz
 # 42.53 sound-theme-freedesktop-0.8
 d7387912cfd275282d1ec94483cb2f62 sound-theme-freedesktop-0.8.tar.bz2

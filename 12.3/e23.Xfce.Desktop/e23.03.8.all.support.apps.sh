@@ -8,18 +8,18 @@ bash e10.03.1.sh
 bash e10.03.2.sh
 bash e10.03.3.sh
 
-if	 [ "$WITH_SOUND" -eq 1 ]; then
+#if	 [ "$WITH_SOUND" -eq 1 ]; then
     bash e10.03.4.sh
-fi
+#fi
 
 # common apps to Xfce & Gnome
 bash e11.03.1.sh
 bash e11.03.2.sh
 bash e11.03.3.sh
 
-if	 [ "$WITH_SOUND" -eq 1 ]; then
+#if	 [ "$WITH_SOUND" -eq 1 ]; then
     bash e11.03.4.sh
-fi
+#fi
 
 # Xfce support apps
  bash e21.03.sh

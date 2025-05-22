@@ -26,6 +26,7 @@
 # Recommended (runtime) by:
 #
 #               d20.24.20 Xorg-Server-21.1.16
+#               e10.42.01 alsa-lib-1.2.13
 #
 # Recommended by:
 #

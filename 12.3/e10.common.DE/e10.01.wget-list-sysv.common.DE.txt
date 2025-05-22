@@ -47,7 +47,7 @@ https://download.gnome.org/sources/pango/1.56/pango-1.56.1.tar.xz
 # 28.07 hicolor-icon-theme-0.18
 https://icon-theme.freedesktop.org/releases/hicolor-icon-theme-0.18.tar.xz
 
-# 42.02--->04 alsa-*-1.2.13
+# 42.01--->03 alsa-*-1.2.13
 https://www.alsa-project.org/files/pub/lib/alsa-lib-1.2.13.tar.bz2
 https://www.alsa-project.org/files/pub/lib/alsa-ucm-conf-1.2.13.tar.bz2
 https://www.alsa-project.org/files/pub/plugins/alsa-plugins-1.2.12.tar.bz2
@@ -59,5 +59,9 @@ https://gstreamer.freedesktop.org/src/gst-plugins-good/gst-plugins-good-1.24.12.
 https://gstreamer.freedesktop.org/src/gst-plugins-bad/gst-plugins-bad-1.24.12.tar.xz
 # 42.40 libsndfile-1.2.2
 https://github.com/libsndfile/libsndfile/releases/download/1.2.2/libsndfile-1.2.2.tar.xz
+# 42.37 libogg-1.3.5
+https://downloads.xiph.org/releases/ogg/libogg-1.3.5.tar.xz
+# 42.44 libvorbis-1.3.7
+https://downloads.xiph.org/releases/vorbis/libvorbis-1.3.7.tar.xz
 # 42.49 PulseAudio-qt-17.0
 https://download.kde.org/stable/pulseaudio-qt/pulseaudio-qt-1.7.0.tar.xz

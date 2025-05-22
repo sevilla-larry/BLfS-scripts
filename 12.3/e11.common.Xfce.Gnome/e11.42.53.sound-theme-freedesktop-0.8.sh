@@ -4,7 +4,7 @@
 #
 # Recommended ( Run Time ) by:
 #
-#               e11.42.27 libcanbera-0.30
+#               e11.42.26 libcanbera-0.30
 #
 
 export PKG="sound-theme-freedesktop-0.8"
