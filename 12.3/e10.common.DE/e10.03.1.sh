@@ -8,24 +8,24 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
 #####
 
-echo "e10.13.16.NASM-2.16.03"
-echo "e10.13.16.NASM-2.16.03" >> $LFSLOG_PROCESS
-
-time { bash e10.13.16.NASM-2.16.03.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
+# echo "e10.13.16.NASM-2.16.03"
+# echo "e10.13.16.NASM-2.16.03" >> $LFSLOG_PROCESS
+#
+# time { bash e10.13.16.NASM-2.16.03.sh ; }
+#
+# date +"%Y/%b/%d %H:%M"
+# date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+#
+# echo "." >> $LFSLOG_PROCESS
+# echo "."
+# echo "."
 
 ###
 
-echo "e10.13.37.yasm-1.3.0"
-echo "e10.13.37.yasm-1.3.0" >> $LFSLOG_PROCESS
+echo "e10.13.38.yasm-1.3.0"
+echo "e10.13.38.yasm-1.3.0" >> $LFSLOG_PROCESS
 
-time { bash e10.13.37.yasm-1.3.0.sh ; }
+time { bash e10.13.38.yasm-1.3.0.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
@@ -92,20 +92,6 @@ echo "."
 
 ###
 
-echo "e10.09.29.JSON-GLib-1.10.6"
-echo "e10.09.29.JSON-GLib-1.10.6" >> $LFSLOG_PROCESS
-
-time { bash e10.09.29.JSON-GLib-1.10.6.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
-
-###
-
 echo "e10.09.45.libgudev-238"
 echo "e10.09.45.libgudev-238" >> $LFSLOG_PROCESS
 
@@ -134,8 +120,22 @@ echo "."
 
 ###
 
-echo "d20.09.71.libxkbcommon-1.8.0 - Pass 2"
-echo "d20.09.71.libxkbcommon-1.8.0 - Pass 2" >> $LFSLOG_PROCESS
+echo "e10.12.37.UPower-1.90.7"
+echo "e10.12.37.UPower-1.90.7" >> $LFSLOG_PROCESS
+
+time { bash e10.12.37.UPower-1.90.7.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "e10.09.71.libxkbcommon-1.8.0 - Pass 2"
+echo "e10.09.71.libxkbcommon-1.8.0 - Pass 2" >> $LFSLOG_PROCESS
 
 time { bash e10.09.71.libxkbcommon-1.8.0.sh ; }
 
@@ -194,6 +194,104 @@ echo "e10.28.07.hicolor-icon-theme-0.18"
 echo "e10.28.07.hicolor-icon-theme-0.18" >> $LFSLOG_PROCESS
 
 time { bash e10.28.07.hicolor-icon-theme-0.18.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "e10.10.26.libtiff-4.7.0"
+echo "e10.10.26.libtiff-4.7.0" >> $LFSLOG_PROCESS
+
+time { bash e10.10.26.libtiff-4.7.0.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "e10.10.14.LittleCMS-2.17"
+echo "e10.10.14.LittleCMS-2.17" >> $LFSLOG_PROCESS
+
+time { bash e10.10.14.LittleCMS-2.17.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "e10.10.31.OpenJPEG-2.5.3"
+echo "e10.10.31.OpenJPEG-2.5.3" >> $LFSLOG_PROCESS
+
+time { bash e10.10.31.OpenJPEG-2.5.3.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "e10.25.10.gdk-pixbuf-2.42.12"
+echo "e10.25.10.gdk-pixbuf-2.42.12" >> $LFSLOG_PROCESS
+
+time { bash e10.25.10.gdk-pixbuf-2.42.12.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "e10.25.04.Cairo-1.18.2"
+echo "e10.25.04.Cairo-1.18.2" >> $LFSLOG_PROCESS
+
+time { bash e10.25.04.Cairo-1.18.2.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "e10.25.37.Pango-1.56.1"
+echo "e10.25.37.Pango-1.56.1" >> $LFSLOG_PROCESS
+
+time { bash e10.25.37.Pango-1.56.1.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "e10.10.24.librsvg-2.59.2"
+echo "e10.10.24.librsvg-2.59.2" >> $LFSLOG_PROCESS
+
+time { bash e10.10.24.librsvg-2.59.2 ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
