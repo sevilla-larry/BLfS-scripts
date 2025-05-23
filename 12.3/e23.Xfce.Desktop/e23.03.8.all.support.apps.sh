@@ -6,10 +6,8 @@
 # common apps to all Desktop Environments
 bash e10.03.1.sh
 bash e10.03.2.sh
-bash e10.03.3.sh
 
 #if	 [ "$WITH_SOUND" -eq 1 ]; then
-    bash e10.03.4.sh
 #fi
 
 # common apps to Xfce & Gnome

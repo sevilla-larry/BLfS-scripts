@@ -8,6 +8,20 @@ export LFSLOG_PROCESS=$LFSLOG/process.log
 
 #####
 
+# echo "e10.13.16.NASM-2.16.03"
+# echo "e10.13.16.NASM-2.16.03" >> $LFSLOG_PROCESS
+#
+# time { bash e10.13.16.NASM-2.16.03.sh ; }
+#
+# date +"%Y/%b/%d %H:%M"
+# date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+#
+# echo "." >> $LFSLOG_PROCESS
+# echo "."
+# echo "."
+
+###
+
 # echo "e10.09.29.JSON-GLib-1.10.6"
 # echo "e10.09.29.JSON-GLib-1.10.6" >> $LFSLOG_PROCESS
 #
