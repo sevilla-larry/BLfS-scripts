@@ -8,7 +8,7 @@
 #
 # Dependencies Recommended:
 #
-#               alsa-lib-1.2.13             ???
+#               e10.42.01 alsa-lib-1.2.13
 #               gstreamer-1.24.12           ???
 #               e11.25.16 GTK-3.24.48
 #

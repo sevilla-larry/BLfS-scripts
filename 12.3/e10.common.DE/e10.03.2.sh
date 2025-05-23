@@ -263,7 +263,7 @@ echo "."
 echo "e10.10.24.librsvg-2.59.2"
 echo "e10.10.24.librsvg-2.59.2" >> $LFSLOG_PROCESS
 
-time { bash e10.10.24.librsvg-2.59.2 ; }
+time { bash e10.10.24.librsvg-2.59.2.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

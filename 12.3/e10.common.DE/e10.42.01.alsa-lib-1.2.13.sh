@@ -30,7 +30,7 @@
 #
 
 export PKG="alsa-lib-1.2.13"
-export PKGLOG_DIR=$LFSLOG/42.02
+export PKGLOG_DIR=$LFSLOG/42.01
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log

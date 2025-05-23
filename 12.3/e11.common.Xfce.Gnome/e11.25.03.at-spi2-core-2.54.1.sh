@@ -48,9 +48,9 @@ cd $PKG
 mkdir build
 cd    build
 
-echo "2. Meson ..."
-echo "2. Meson ..." >> $LFSLOG_PROCESS
-echo "2. Meson ..." >> $PKGLOG_ERROR
+echo "2. Meson Setup ..."
+echo "2. Meson Setup ..." >> $LFSLOG_PROCESS
+echo "2. Meson Setup ..." >> $PKGLOG_ERROR
 meson setup ..                  \
       --prefix=/usr             \
       --buildtype=release       \
