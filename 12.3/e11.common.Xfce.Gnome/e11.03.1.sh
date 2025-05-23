@@ -10,10 +10,10 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
 #####
 
-echo "e11.33.03.gsettings-desktop-schemas-46.1"
-echo "e11.33.03.gsettings-desktop-schemas-46.1" >> $LFSLOG_PROCESS
+echo "e11.09.33.libassuan-3.0.2"
+echo "e11.09.33.libassuan-3.0.2" >> $LFSLOG_PROCESS
 
-time { bash e11.33.03.gsettings-desktop-schemas-46.1.sh ; }
+time { bash e11.09.33.libassuan-3.0.2.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
@@ -24,10 +24,38 @@ echo "."
 
 ###
 
-echo "e11.25.03.at-spi2-core-2.52.0"
-echo "e11.25.03.at-spi2-core-2.52.0" >> $LFSLOG_PROCESS
+echo "e11.04.08.GPGME-1.24.2"
+echo "e11.04.08.GPGME-1.24.2" >> $LFSLOG_PROCESS
 
-time { bash e11.25.03.at-spi2-core-2.52.0.sh ; }
+time { bash e11.04.08.GPGME-1.24.2.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "e11.33.03.gsettings-desktop-schemas-47.1"
+echo "e11.33.03.gsettings-desktop-schemas-47.1" >> $LFSLOG_PROCESS
+
+time { bash e11.33.03.gsettings-desktop-schemas-47.1.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "e11.25.03.at-spi2-core-2.54.1"
+echo "e11.25.03.at-spi2-core-2.54.1" >> $LFSLOG_PROCESS
+
+time { bash e11.25.03.at-spi2-core-2.54.1.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
@@ -66,10 +94,10 @@ echo "."
 
 ###
 
-echo "e11.28.01.adwaita-icon-theme-46.2"
-echo "e11.28.01.adwaita-icon-theme-46.2" >> $LFSLOG_PROCESS
+echo "e11.28.01.adwaita-icon-theme-47.0"
+echo "e11.28.01.adwaita-icon-theme-47.0" >> $LFSLOG_PROCESS
 
-time { bash e11.28.01.adwaita-icon-theme-46.2.sh ; }
+time { bash e11.28.01.adwaita-icon-theme-47.0.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
@@ -94,10 +122,10 @@ echo "."
 
 ###
 
-echo "e11.33.07.VTE-0.76.4"
-echo "e11.33.07.VTE-0.76.4" >> $LFSLOG_PROCESS
+echo "e11.10.33.Poppler-25.02.0"
+echo "e11.10.33.Poppler-25.02.0" >> $LFSLOG_PROCESS
 
-time { bash e11.33.07.VTE-0.76.4.sh ; }
+time { bash e11.10.33.Poppler-25.02.0.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
@@ -126,6 +154,62 @@ echo "e11.41.14.XScreenSaver-6.09"
 echo "e11.41.14.XScreenSaver-6.09" >> $LFSLOG_PROCESS
 
 time { bash e11.41.14.XScreenSaver-6.09.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "e11.25.36.libxklavier-5.4"
+echo "e11.25.36.libxklavier-5.4" >> $LFSLOG_PROCESS
+
+time { bash e11.25.36.libxklavier-5.4.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "e11.33.07.VTE-0.78.4"
+echo "e11.33.07.VTE-0.78.4" >> $LFSLOG_PROCESS
+
+time { bash e11.33.07.VTE-0.78.4.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "e11.12.02.AccountsService-23.13.9"
+echo "e11.12.02.AccountsService-23.13.9" >> $LFSLOG_PROCESS
+
+time { bash e11.12.02.AccountsService-23.13.9.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "e11.04.21.polkit-gnome-0.105"
+echo "e11.04.21.polkit-gnome-0.105" >> $LFSLOG_PROCESS
+
+time { bash e11.04.21.polkit-gnome-0.105.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

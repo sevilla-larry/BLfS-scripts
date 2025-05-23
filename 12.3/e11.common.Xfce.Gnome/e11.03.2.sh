@@ -1,5 +1,7 @@
 # e11.03.2.sh
 #
+# sound group
+#
 
 export LFSLOG_PROCESS=$LFSLOG/process.log
 
@@ -8,10 +10,24 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
 #####
 
-echo "e13.12.02.AccountsService-23.13.9"
-echo "e13.12.02.AccountsService-23.13.9" >> $LFSLOG_PROCESS
+echo "e11.42.53.sound-theme-freedesktop-0.8"
+echo "e11.42.53.sound-theme-freedesktop-0.8" >> $LFSLOG_PROCESS
 
-time { bash e13.12.02.AccountsService-23.13.9.sh ; }
+time { bash e11.42.53.sound-theme-freedesktop-0.8.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "e11.42.26.libcanberra-0.30"
+echo "e11.42.26.libcanberra-0.30" >> $LFSLOG_PROCESS
+
+time { bash e11.42.26.libcanberra-0.30.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
