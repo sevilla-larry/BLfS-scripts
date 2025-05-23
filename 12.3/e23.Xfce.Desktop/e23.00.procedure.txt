@@ -19,12 +19,12 @@ A. Preparation
 
         ###
 
-        wget --input-file=e11.01.wget-list-sysv.common.DE.txt           --continue --directory-prefix=/sources
+        wget --input-file=e10.01.wget-list-sysv.common.DE.txt           --continue --directory-prefix=/sources
         wget --input-file=e11.01.wget-list-sysv.common.Xfce.Gnome.txt   --continue --directory-prefix=/sources
         wget --input-file=e21.01.wget-list-sysv.Xfce.support.txt        --continue --directory-prefix=/sources
-        wget --input-file=e23.01.wget-list-sysv.Xfce.Desktop.txt                --continue --directory-prefix=/sources
-        wget --input-file=e24.01.wget-list-sysv.Xfce.Applications.txt                --continue --directory-prefix=/sources
-        wget --input-file=f2.01.wget-list-sysv.LightDM.txt             --continue --directory-prefix=/sources
+        wget --input-file=e23.01.wget-list-sysv.Xfce.Desktop.txt        --continue --directory-prefix=/sources
+        wget --input-file=e24.01.wget-list-sysv.Xfce.Applications.txt   --continue --directory-prefix=/sources
+        wget --input-file=f2.01.wget-list-sysv.LightDM.txt              --continue --directory-prefix=/sources
 
         ###
 
