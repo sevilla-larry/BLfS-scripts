@@ -80,11 +80,50 @@ B.  Generate BLFS - Xfce Support Apps
         ( display )
         root [ /sources ]#
 
-  B.03. Support Applications
+  B.03. Support Applications - Part 1
 
         ###
 
-        bash e23.03.8.all.support.apps.sh
+        # bash e23.03.8.1.support.apps.sh
+        bash e10.03.1.sh # RustC
+
+        # after RustC
+
+        reboot
+
+        ###
+
+  B.04. Support Applications - Part 2
+
+        ###
+
+        export LFSLOG=/var/log/blfs
+
+        export MAKEFLAGS="-j$(nproc)"
+        export NPROC="$(nproc)"
+
+        export XORG_PREFIX="/usr"
+
+        export XORG_CONFIG="--prefix=$XORG_PREFIX --sysconfdir=/etc \
+                            --localstatedir=/var --disable-static"
+
+        source /etc/profile.d/rustc.sh
+
+        ###
+
+        echo $XORG_PREFIX     # /usr
+        echo $XORG_CONFIG     # --prefix=/usr --sysconfdir=/etc --localstatedir=/var --disable-static
+        echo $LFSLOG          # /var/log/blfs
+        echo $MAKEFLAGS       # -j$(nproc)
+        echo $NPROC           # $(nproc)
+
+        echo $SHELL           # /bin/bash
+        ls -l /bin/sh         # bash
+        ls -l /usr/bin/awk    # gawk
+
+        cd /sources
+
+        bash e23.03.8.2.support.apps.sh
 
         ###
 
