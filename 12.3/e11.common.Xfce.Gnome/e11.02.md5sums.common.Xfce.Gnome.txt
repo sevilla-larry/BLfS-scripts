@@ -14,24 +14,12 @@ feae5e0715ed7738fcb4220730a3ff4c poppler-25.02.0.tar.xz
 # 12.21 AccountsService-23.13.9
 03dccfe1b306b7ca19743e86d118e64d accountsservice-23.13.9.tar.xz
 
-# 13.01 Cbindgen-0.28.0
-0712d991fc8e65121924265d738db71d cbindgen-0.28.0.tar.gz
-# 13.23    Python Modules
-# 13.23.20 PyCairo-1.26.1
-36504ac01533ae14f0d2337516bbae2e pycairo-1.26.1.tar.gz
-# 13.23.23 PyGObject-3.50.0
-8f34e4bc1d7d57faf558180b0051c9ef pygobject-3.50.0.tar.xz
-
 # 25.03 at-spi2-core-2.54.1
 a05ad6cf4a49b19964cc5eec363d2310 at-spi2-core-2.54.1.tar.xz
 # 25.13 GLU-9.0.3
 06a4fff9179a98ea32ef41b6d83f6b19 glu-9.0.3.tar.xz
-# 25.16 Graphene-1.10.8
-169e3c507b5a5c26e9af492412070b81 graphene-1.10.8.tar.xz
 # 25.17 GTK-3.24.48
 61b8af1ffb255cdabd44629cd2a05793 gtk-3.24.48.tar.xz
-# 25.18 GTK-4.16.12
-0f2b154a0b05e4ca94a05aaeb7e1f3fb gtk-4.16.12.tar.xz
 # 25.36 libxklavier-5.4
 13af74dcb6011ecedf1e3ed122bd31fa libxklavier-5.4.tar.bz2
 
@@ -55,3 +43,19 @@ cdfc61b7021a43841845b8fb1593d28c vte-0.78.4.tar.gz
 #patch
 # 42.53 sound-theme-freedesktop-0.8
 d7387912cfd275282d1ec94483cb2f62 sound-theme-freedesktop-0.8.tar.bz2
+
+#####
+
+# 13.01 Cbindgen-0.28.0
+#0712d991fc8e65121924265d738db71d cbindgen-0.28.0.tar.gz
+# 13.23    Python Modules
+# 13.23.20 PyCairo-1.26.1
+#36504ac01533ae14f0d2337516bbae2e pycairo-1.26.1.tar.gz
+# 13.23.23 PyGObject-3.50.0
+#8f34e4bc1d7d57faf558180b0051c9ef pygobject-3.50.0.tar.xz
+
+# 25.16 Graphene-1.10.8
+#169e3c507b5a5c26e9af492412070b81 graphene-1.10.8.tar.xz
+# 25.18 GTK-4.16.12
+#0f2b154a0b05e4ca94a05aaeb7e1f3fb gtk-4.16.12.tar.xz
+#                                 gtk-4.16.12-libpng_1_6_45-1.patch
