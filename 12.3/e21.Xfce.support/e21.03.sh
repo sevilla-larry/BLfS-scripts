@@ -33,10 +33,10 @@ echo "."
 
 ###
 
-echo "e21.25.44.startup-notification-0.12"
-echo "e21.25.44.startup-notification-0.12" >> $LFSLOG_PROCESS
+echo "e21.25.42.startup-notification-0.12"
+echo "e21.25.42.startup-notification-0.12" >> $LFSLOG_PROCESS
 
-time { bash e21.25.44.startup-notification-0.12.sh ; }
+time { bash e21.25.42.startup-notification-0.12.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
