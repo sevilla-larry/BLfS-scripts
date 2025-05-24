@@ -116,6 +116,7 @@ B.  Generate BLFS - Xfce Support Apps
         echo $LFSLOG          # /var/log/blfs
         echo $MAKEFLAGS       # -j$(nproc)
         echo $NPROC           # $(nproc)
+        echo $PATH            # /opt/rustc/bin:...
 
         echo $SHELL           # /bin/bash
         ls -l /bin/sh         # bash
