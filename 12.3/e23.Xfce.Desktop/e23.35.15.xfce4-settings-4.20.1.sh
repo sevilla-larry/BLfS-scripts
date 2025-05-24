@@ -43,20 +43,21 @@ tar xvf $PKG.tar.bz2 > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
 
 
-if	 [ "$WITH_SOUND" -eq 1 ]; then
- 	export SOUND_PARAMETER="--enable-sound-settings"
-else
-    export SOUND_PARAMETER=""
-fi
+#if	 [ "$WITH_SOUND" -eq 1 ]; then
+# 	export SOUND_PARAMETER="--enable-sound-settings"
+#else
+#    export SOUND_PARAMETER=""
+#fi
 
 echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
 echo "2. Configure ..." >> $PKGLOG_ERROR
-./configure --prefix=/usr       \
-            --sysconfdir=/etc   \
-            $SOUND_PARAMETER    \
+./configure --prefix=/usr               \
+            --sysconfdir=/etc           \
+            --enable-sound-settings     \
             --enable-pluggable-dialogs  \
             > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+#            $SOUND_PARAMETER            \
 #           possible need libcanberra-0.30
 #           --enable-sound-settings: Use this switch to enable sound settings in GUI.
 #           --enable-pluggable-dialogs: Use this switch to enable support for embedded settings dialogs.

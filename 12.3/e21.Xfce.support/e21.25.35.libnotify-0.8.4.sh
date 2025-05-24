@@ -78,9 +78,9 @@ ninja install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 if [ -e /usr/share/doc/libnotify ]; then
   rm -vrf /usr/share/doc/libnotify-0.8.4    \
-        >> $PKLOG_OTHERS 2>> $PKGLOG_ERROR
+        >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
   mv -v   /usr/share/doc/libnotify{,-0.8.4} \
-        >> $PKLOG_OTHERS 2>> $PKGLOG_ERROR
+        >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
 fi
 
 
