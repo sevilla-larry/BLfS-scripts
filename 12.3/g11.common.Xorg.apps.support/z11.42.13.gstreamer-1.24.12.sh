@@ -1,31 +1,25 @@
-# g11.42.16.gst-plugins-good-1.24.12.sh
-# (errata)
+# g11.42.13.gstreamer-1.24.12.sh
 #
 
 #
 # Dependencies Required:
 #
-#               g11.42.15 gst-plugins-base-1.24.7
-#
-# Dependencies Recommended:
-#
-#               e10.25.04 Cairo-1.18.0
-#               e10.25.10 gdk-pixbuf-2.42.12
+#               d10.09.17 GLib-2.82.5
 #
 # Dependencies Optional:
 #
-#               e11.25.17 GTK+-3.24.43
-#               d10.09.97 Wayland-1.23.0
+#               e11.25.16 GTK-3.24.48
+#               e10.13.27 Rustc-1.85.0
 #
 
 #
-# Recommended ( but needed by ):
+# Required by:
 #
-#               e11.25.18 GTK-4.14.5
+#               g11.42.15 gst-plugins-base-1.24.12
 #
 
-export PKG="gst-plugins-good-1.24.12"
-export PKGLOG_DIR=$LFSLOG/42.16
+export PKG="gstreamer-1.24.12"
+export PKGLOG_DIR=$LFSLOG/42.13
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
@@ -51,9 +45,10 @@ cd    build
 echo "2. Meson Setup ..."
 echo "2. Meson Setup ..." >> $LFSLOG_PROCESS
 echo "2. Meson Setup ..." >> $PKGLOG_ERROR
-meson setup ..                  \
-      --prefix=/usr             \
-      --buildtype=release       \
+meson setup ..              \
+      --prefix=/usr         \
+      --buildtype=release   \
+      -D gst_debug=false    \
       > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Ninja Build ..."

@@ -26,6 +26,10 @@
 #               e10.13.01 cargo-c-0.10.11
 #               g11.13.01 Cbindgen-0.27.0           ???
 #
+# Optionally by:
+#
+#               g11.42.13 gstreamer-1.24.12
+#
 
 export PKG="rustc-1.85.0-src"
 export PKGLOG_DIR=$LFSLOG/13.27

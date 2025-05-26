@@ -41,6 +41,8 @@
 #               e11.28.01 adwaita-icon-theme-47.0
 #               e11.28.06 gnome-themes-extra-3.28
 #               e11.33.07 VTE-0.78.4
+#               g42.41.12 xarchiver-0.5.4.23
+#               g22.34.04 Evince-46.3.1
 #               g12.40.03 Firefox-128.4.0esr (errata)       ???
 #
 # Recommended by:
@@ -52,10 +54,10 @@
 #
 #               e11.28.09 lxde-icon-theme-0.5.1
 #               e11.10.33 Poppler-25.02.0
-#               e11.42.14 gstreamer-1.24.7                  ???
-#               e11.42.15 gst-plugins-base-1.24.7           ???
-#               e11.42.16 gst-plugins-good-1.24.7           ???
-#               e11.42.17 gst-plugins-bad-1.24.7            ???
+#               g11.42.13 gstreamer-1.24.12
+#               e11.42.14 gst-plugins-base-1.24.12
+#               e11.42.15 gst-plugins-good-1.24.12
+#               e11.42.16 gst-plugins-bad-1.24.12
 #
 
 export PKG="gtk-3.24.48"

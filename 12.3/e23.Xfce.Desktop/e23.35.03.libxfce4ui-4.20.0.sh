@@ -26,6 +26,7 @@
 #               e24.36.02 xfce4-terminal-1.1.4
 #               e24.36.04 Ristretto-0.13.3
 #               e24.36.05 xfce4-notifyd-0.9.7
+#               g42.06.07 Mousepad-0.6.3
 #
 
 export PKG="libxfce4ui-4.20.0"

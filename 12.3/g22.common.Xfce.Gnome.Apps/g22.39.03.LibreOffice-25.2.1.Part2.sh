@@ -1,6 +1,6 @@
-# g12.39.03.LibreOffice-24.8.0.Part2.sh
+# g12.39.03.LibreOffice-25.2.1.Part2.sh
 #
-# Part1 - as root, "install"
+# Part2 - as root, "install"
 #
 
 #
@@ -26,7 +26,7 @@
 #               g11.25.13 GLU-9.0.3
 #               g11.04.08 GPGME-1.23.2
 #               ??? Graphite
-#               g11.42.15 gst-plugins-base-1.24.7
+#               g11.42.14 gst-plugins-base-1.24.12  (excluded)
 #               e11.25.17 GTK+-3.24.43
 #               d10.10.12 harfBuzz-9.0.0
 #               b10.09.24 icu-75.1

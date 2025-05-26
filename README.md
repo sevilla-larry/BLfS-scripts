@@ -111,29 +111,29 @@
 #		g12 - Common Xorg Applications
 #		g13 - Common Xorg Applications Others / External
 #
-#		g21 - Xfce Applications support
-#		g22 - Xfce Applications										Mousepad, xarchiver
-#		g23 - Xfce Applications Others / External
+#		g21 - Common Xfce / Gnome Applications support
+#		g22 - Common Xfce / Gnome Applications						Evince, Firefox, LibreOffice
+#		g23 - Common Xfce / Gnome Applications Others / External
 #
-#		g31 - LXQt Applications support
-#		g32 - LXQt Applications
-#		g33 - LXQt Applications Others / External
+#		g31 - Common LXQt / KDE Applications support
+#		g32 - Common LXQt / KDE Applications
+#		g33 - Common LXQt / KDE Applications Other / External
 #
-#		g41 - Gnome Applications support
-#		g42 - Gnome Applications
-#		g43 - Gnome Applications Others / External
+#		g41 - Xfce Applications support
+#		g42 - Xfce Applications										Mousepad, xarchiver
+#		g43 - Xfce Applications Others / External
 #
-#		g51 - KDE Applications support
-#		g52 - KDE Applications
-#		g53 - KDE Applications Others / External
+#		g51 - LXQt Applications support
+#		g52 - LXQt Applications
+#		g53 - LXQt Applications Others / External
 #
-#		g61 - Common Xfce / Gnome Applications support
-#		g62 - Common Xfce / Gnome Applications						Evince, Firefox, LibreOffice
-#		g63 - Common Xfce / Gnome Applications Others / External
+#		g61 - Gnome Applications support
+#		g62 - Gnome Applications
+#		g63 - Gnome Applications Others / External
 #
-#		g71 - Common LXQt / KDE Applications support
-#		g72 - Common LXQt / KDE Applications
-#		g73 - Common LXQt / KDE Applications Other / External
+#		g71 - KDE Applications support
+#		g72 - KDE Applications
+#		g73 - KDE Applications Others / External
 #
 
 

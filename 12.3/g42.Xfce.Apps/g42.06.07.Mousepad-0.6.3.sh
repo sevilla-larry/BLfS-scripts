@@ -1,13 +1,14 @@
-# g63.06.07.Mousepad-0.6.2.sh
+# g42.06.07.Mousepad-0.6.3.sh
 #
 
 #
 # Dependencies Required:
 #
-#               g11.25.23 gtksourceview4-4.8.4
+#               g21.25.22 gtksourceview4-4.8.4
+#               e23.35.03 libxfce4ui-4.20.0
 #
 
-export PKG="mousepad-0.6.2"
+export PKG="mousepad-0.6.3"
 export PKGLOG_DIR=$LFSLOG/06.07
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log

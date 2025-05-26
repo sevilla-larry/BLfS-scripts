@@ -1,28 +1,28 @@
-# g12.34.04.Evince-46.3.1.sh
+# g22.34.04.Evince-46.3.1.sh
 #
 
 #
 # Dependencies Required:
 #
-#               e11.28.01 adwaita-icon-theme-46.2
-#               e11.33.03 gsettings-desktop-schemas-46.1
-#               e11.25.17 GTK+-3.24.43
-#               f21.49.05 itstool-2.0.7
-#               g11.25.33 libhandy-1.8.3
-#               b10.09.72 libxml2-2.13.3
-#               g11.10.31 OpenJPEG-2.5.2
+#               e11.28.01  adwaita-icon-theme-47.0
+#               e11.33.03  gsettings-desktop-schemas-47.1
+#               e11.25.16  GTK-3.24.48
+#               f2.49.05   itstool-2.0.7
+#               g21.25.32  libhandy-1.8.3
+#               a.08.91.08 libxml2-2.13.6
+#               e10.10.31  OpenJPEG-2.5.3
 #
 # Dependencies Recommended:
 #
-#               d10.09.17 GLib-2.80.4
+#               d10.09.17 GLib-2.82.5
 #
 # Dependencies Recommended ( but needed ):
 #
-#               e11.10.33 Poppler-24.08.0
+#               e11.10.33 Poppler-25.02.0 GTK
 #
 # Dependencies Optional:
 #
-#               g11.42.15 gst-plugins-base-1.24.7
+#   ???         g11.42.15 gst-plugins-base-1.24.12
 #               e10.10.26 libtiff-4.7.0
 #
 
@@ -67,8 +67,6 @@ echo "3. Ninja Build ..."
 echo "3. Ninja Build ..." >> $LFSLOG_PROCESS
 echo "3. Ninja Build ..." >> $PKGLOG_ERROR
 ninja > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
-
-# complex test
 
 echo "4. Ninja Install ..."
 echo "4. Ninja Install ..." >> $LFSLOG_PROCESS

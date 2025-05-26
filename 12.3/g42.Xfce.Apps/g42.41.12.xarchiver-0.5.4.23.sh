@@ -1,10 +1,18 @@
-# g63.41.12.xarchiver-0.5.4.23.sh
+# g42.41.12.xarchiver-0.5.4.23.sh
 #
 
 #
 # Dependencies Required:
 #
-#               e11.25.17 GTK+-3.24.43
+#               e11.25.16 GTK-3.24.48
+#
+# Dependencies Optional:
+#
+#               e10.12.01  7zip-24.09
+#               cpio
+#               a.08.91.09 LZO-2.10
+#               unrar
+#               a.08.91.04 Zip-3.0
 #
 
 export PKG="xarchiver-0.5.4.23"

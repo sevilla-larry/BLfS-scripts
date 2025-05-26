@@ -15,6 +15,9 @@
 #               a.08.93.05 Git-2.48.1
 #
 
+# Required by:
+#
+#               g22.34.04 Evince-46.3.1
 #
 # Runtime needed by:
 #

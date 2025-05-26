@@ -1,5 +1,5 @@
 # 06.07 Mousepad-0.6.2
-3ad46198202d2696cac27d5a0f08bab0 mousepad-0.6.2.tar.bz2
+6e46d6a22e0656fbddf2655d1e9dfc1f mousepad-0.6.3.tar.bz2
 
 # 41.12 xarchiver-0.5.4.23
 bfdace2b113417e1bc77ef304280d103 xarchiver-0.5.4.23.tar.gz

@@ -26,7 +26,7 @@
 #               g11.25.13 GLU-9.0.3
 #               g11.04.08 GPGME-1.23.2
 #               ??? Graphite
-#               g11.42.15 gst-plugins-base-1.24.7
+#               g11.42.14 gst-plugins-base-1.24.12  (excluded)
 #               e11.25.17 GTK+-3.24.43
 #               d10.10.12 harfBuzz-9.0.0
 #               b10.09.24 icu-75.1
@@ -115,6 +115,7 @@ echo "2. Autogen Configure ..." >> $PKGLOG_ERROR
              --with-lang='en-US'            \
              --with-help                    \
              --with-myspell-dicts           \
+             --with-system-boost            \
              --without-java                 \
              --without-junit                \
              --without-system-dicts         \
@@ -125,6 +126,7 @@ echo "2. Autogen Configure ..." >> $PKGLOG_ERROR
              --disable-mariadb-sdbc         \
              --disable-postgresql-sdbc      \
              --disable-firebird-sdbc        \
+             --disable-gstreamer-1-0        \
              --enable-release-build=yes     \
              --enable-python=system         \
              --enable-lto                   \

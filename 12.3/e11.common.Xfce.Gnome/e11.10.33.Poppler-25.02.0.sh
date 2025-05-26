@@ -39,7 +39,7 @@
 #
 # Recommended ( but needed ) by:
 #
-#               g12.34.04 Evince-46.3.1         ???
+#               g22.34.04 Evince-46.3.1
 #
 # Optionally by:
 #
