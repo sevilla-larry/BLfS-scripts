@@ -1,10 +1,10 @@
-# g11.42.11.FLAC-1.5.0.sh
+# g11.42.10.FLAC-1.5.0.sh
 #
 
 #
 # Dependencies Optional:
 #
-#               e11.42.37 libogg-1.3.5
+#               e10.42.37 libogg-1.3.5
 #
 
 #
@@ -14,7 +14,7 @@
 #
 
 export PKG="flac-1.5.0"
-export PKGLOG_DIR=$LFSLOG/42.11
+export PKGLOG_DIR=$LFSLOG/42.10
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
@@ -39,7 +39,7 @@ echo "2. Configure ..." >> $LFSLOG_PROCESS
 echo "2. Configure ..." >> $PKGLOG_ERROR
 ./configure --prefix=/usr                       \
             --disable-thorough-tests            \
-            --docdir=/usr/share/doc/flac-1.4.3  \
+            --docdir=/usr/share/doc/flac-1.5.0  \
             > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Make Build ..."

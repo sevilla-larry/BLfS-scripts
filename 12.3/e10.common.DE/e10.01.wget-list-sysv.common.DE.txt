@@ -30,6 +30,9 @@ https://gitlab.freedesktop.org/upower/upower/-/archive/v1.90.7/upower-v1.90.7.ta
 
 # 13.01 cargo-c-0.10.11
 https://github.com/lu-zero/cargo-c/archive/v0.10.11/cargo-c-0.10.11.tar.gz
+# 13.17 NASM-2.16.03
+https://www.nasm.us/pub/nasm/releasebuilds/2.16.03/nasm-2.16.03.tar.xz
+https://www.nasm.us/pub/nasm/releasebuilds/2.16.03/nasm-2.16.03-xdoc.tar.xz
 # 13.26 Rustc-1.85.0
 https://static.rust-lang.org/dist/rustc-1.85.0-src.tar.xz
 # 13.36 Vala-0.56.17

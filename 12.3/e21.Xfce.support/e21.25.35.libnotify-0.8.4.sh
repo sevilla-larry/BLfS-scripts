@@ -21,7 +21,7 @@
 #
 #               e23.35.14 xfce4-power-manager-4.20.0
 #               e24.36.05 xfce4-notifyd-0.9.7
-#               g12.40.03 Firefox-128.4.0esr (errata)   ???
+#               g22.40.03 Firefox-128.7.0esr
 #
 # Recommended by:
 #

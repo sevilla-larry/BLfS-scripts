@@ -31,6 +31,8 @@
 #               d20.12.11 dbus-1.16.0.Pass2 ( dbus-launch )
 #				e10.25.04 Cairo-1.18.2
 #               e10.25.37 Pango-1.56.1
+#               g11.42.49 PulseAudio-17.0
+#               g11.42.52 SDL2-2.30.11
 #
 
 #

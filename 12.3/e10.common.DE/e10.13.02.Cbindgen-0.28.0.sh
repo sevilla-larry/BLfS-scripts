@@ -1,19 +1,20 @@
-# e11.13.01.Cbindgen-0.28.0.sh
+# e10.13.02.Cbindgen-0.28.0.sh
 #
 
 #
 # Dependencies Required:
 #
-#               e11.13.26 Rustc-1.80.1
+#               e10.13.27 Rustc-1.85.0
+#
 
 #
 # Required by:
 #
-#               g12.40.03 Firefox-128.4.0esr (errata)
+#               g22.40.03 Firefox-128.7.0esr
 #
 
 export PKG="cbindgen-0.28.0"
-export PKGLOG_DIR=$LFSLOG/13.01
+export PKGLOG_DIR=$LFSLOG/13.02
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log

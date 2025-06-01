@@ -40,6 +40,10 @@
 #               d20.24.22   twm-1.0.12
 #               f22.26.02   lightdm-1.32.0
 #
+# Required Runtime by:
+#
+#               f2.26.02  lightdm-1.32.0
+#
 # Optionally by:
 #
 #               e10.09.71 libxkbcommon-1.8.0

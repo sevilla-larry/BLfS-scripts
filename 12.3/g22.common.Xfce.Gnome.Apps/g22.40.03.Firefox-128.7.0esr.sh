@@ -1,33 +1,34 @@
-# g12.40.03.Firefox-128.7.0esr.sh
-# (errata)
+# g22.40.03.Firefox-128.7.0esr.sh
 #
 
 #
 # Dependencies Required:
 #
-#               g11.13.01 Cbindgen-0.27.0
-#               e11.25.17 GTK+-3.24.43
-#               e21.25.36 libnotify-0.8.3
-#               d10.13.12 LLVM-18.1.7       ??? 19.1.0 svn
-#               g11.09.80 Node.js-20.18.0   (svn)
-#               g11.42.49 PulseAudio-17.0
-#               g11.13.21 Python-3.13.0     (errata)
-#               e21.25.44 startup-notification-0.12
-#               d10.12.36 UnZip-6.0
+#               e10.13.02  Cbindgen-0.28.0
+#               e11.25.16  GTK-3.24.48
+#               e21.25.35  libnotify-0.8.4
+#               a.08.91.12 libarchive-3.7.7
+#               d10.13.13  LLVM-19.1.7
+#               g11.09.80  Node.js-22.14.0
+#               g11.42.49  PulseAudio-17.0
+#               a.08.91.19 Python-3.1{2,3}.x
+#               e21.25.42  startup-notification-0.12
 #
 # Dependencies Recommended:
 #
-#               b10.09.24 icu-75.1
-#               b11.17.07 libevent-2.1.12
-#               g11.42.45 libvpx-1.14.1
-#               e10.10.27 libwebp-1.4.0
-#               e10.13.16 NASM-2.16.03
-#               g11.04.17 nss-3.103
+#               a.08.91.07 icu-76.1
+#               a.08.91.14 libevent-2.1.12
+#               g11.42.45  libvpx-1.15.0
+#               g11.10.27  libwebp-1.5.0
+#               e10.13.17  NASM-2.16.03
+#               a.08.91.32 NSS-3.108
 #
 # Dependencies Optional:
 #
-#               b11.17.02 cURL-8.11.1       (errata)
-#               e10.13.37 yasm-1.3.0
+#               a.08.93.04 cURL-8.12.1
+#               a.08.91.71 pciutils-3.13.0
+#               a.08.93.02 WGet-1.25.0
+#               e10.13.37  yasm-1.3.0
 #
 
 export PKG="firefox-128.7.0"
@@ -149,10 +150,6 @@ done
 
 sed -i 's/icu-i18n/icu-uc &/' js/moz.configure  \
         >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
-
-#Fix a build issue that occurs due to changes in Python (?11.x/13.x?)
-# patch -Np1 -i ../firefox-128.5.2esr-upstream_fixes-1.patch  \
-#        >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
 
 # if GLS was installed
 # echo "AIzaSyDxKL42zsPjbke5O8_rPVpVrLrJ8aeE9rQ" > google-key

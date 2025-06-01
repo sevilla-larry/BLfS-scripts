@@ -4,9 +4,15 @@
 #
 # Dependencies Recommended:
 #
-#               e11.42.44 libvorbis-1.3.7
-#               g11.42.02 alsa-lib-1.2.12   ???
-#               e10.22.05 SQLite-3.46.1
+#               g11.42.10 FLAC-1.5.0
+#               g11.42.47 Opus-1.5.2
+#               e10.42.44 libvorbis-1.3.7
+#
+# Dependencies Optional:
+#
+#               e10.42.01  alsa-lib-1.2.13
+#               g11.42.55  Speex-1.2.1
+#               a.08.91.18 SQLite-3.49.1
 #
 
 #

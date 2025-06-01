@@ -18,7 +18,7 @@
 # Recommended (but needed) by:
 #
 #               e23.35.15 xfce4-settings-4.20.1
-#               f22.26.02 lightdm-1.32.0        ???
+#               f2.26.02  lightdm-1.32.0
 #
 
 export PKG="libxklavier-5.4"

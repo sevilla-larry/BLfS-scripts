@@ -1,4 +1,4 @@
-# g11.42.44.Opus-1.5.2.sh
+# g11.42.47.Opus-1.5.2.sh
 #
 
 #
@@ -8,7 +8,7 @@
 #
 
 export PKG="opus-1.5.2"
-export PKGLOG_DIR=$LFSLOG/42.44
+export PKGLOG_DIR=$LFSLOG/42.47
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log

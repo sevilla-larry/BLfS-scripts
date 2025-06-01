@@ -22,6 +22,10 @@
 #
 #               e11.04.21 polkit-gnome-0.105
 #
+# Recommended by:
+#
+#               f2.26.02  lightdm-1.32.0
+#
 
 export PKG="accountsservice-23.13.9"
 export PKGLOG_DIR=$LFSLOG/12.02

@@ -16,6 +16,7 @@
 #
 #               d20.24.12 Mesa-24.3.4
 #               e10.09.71 libxkbcommon-1.8.0
+#               g11.42.52 SDL2-2.30.11
 #
 
 export PKG="wayland-protocols-1.40"

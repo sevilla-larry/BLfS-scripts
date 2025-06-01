@@ -10,13 +10,18 @@
 #
 # Required (hidden) by:
 #
-#               g12.40.03 Firefox-128.4.0esr (errata)	???
+#               g22.40.03 Firefox-128.7.0esr
 #
 #
 # Recommended by:
 #
 #				e11.42.26 libcanberra-0.30
-#               g11.42.49 PulseAudio-17.0				???
+#               g11.42.49 PulseAudio-17.0
+#
+# Optionally by:
+#
+#               g11.42.40 libsndfile-1.2.2
+#               g11.42.52 SDL2-2.30.11
 #
 
 #

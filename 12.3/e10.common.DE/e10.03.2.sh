@@ -8,6 +8,20 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
 #####
 
+echo "e10.13.17.NASM-2.16.03"
+echo "e10.13.17.NASM-2.16.03" >> $LFSLOG_PROCESS
+
+time { bash e10.13.17.NASM-2.16.03.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
 echo "e10.13.38.yasm-1.3.0"
 echo "e10.13.38.yasm-1.3.0" >> $LFSLOG_PROCESS
 
@@ -40,6 +54,20 @@ echo "e10.13.01.cargo-c-0.10.11"
 echo "e10.13.01.cargo-c-0.10.11" >> $LFSLOG_PROCESS
 
 time { bash e10.13.01.cargo-c-0.10.11.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "e10.13.02.Cbindgen-0.28.0"
+echo "e10.13.02.Cbindgen-0.28.0" >> $LFSLOG_PROCESS
+
+time { bash e10.13.02.Cbindgen-0.28.0.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

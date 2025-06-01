@@ -2,9 +2,6 @@
 #d4bf13ddd1e6d607d039d39286f9e3d0 json-glib-1.10.6.tar.xz
 # 10.27 libwebp-1.5.0
 #8f659e426eaa2aeec4b36bc9ea43b3f3 libwebp-1.5.0.tar.gz
-# 13.16 NASM-2.16.03
-#2b8c72c52eee4f20085065e68ac83b55 nasm-2.16.03.tar.xz
-#                                 nasm-2.16.03-xdoc.tar.xz
 
 # 42.01--->03 alsa-*-1.2.13
 #71fce75baa38efab4e32e40db0a33716 alsa-plugins-1.2.12.tar.bz2

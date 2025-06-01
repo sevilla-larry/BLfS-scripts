@@ -5,6 +5,11 @@
 # Required by:
 #
 #               e10.42.44 libvorbis-1.3.7
+#               g11.42.55 Speex-1.2.1
+#
+# Optionally by:
+#
+#               g11.42.10 FLAC-1.5.0
 #
 
 export PKG="libogg-1.3.5"

@@ -17,7 +17,7 @@
 #               e23.35.11 thunar-volman-4.20.0
 #               e23.35.15 xfce4-settings-4.20.1
 #               e23.35.16 Xfdesktop-4.20.1
-#               f22.26.02 lightdm-1.32.0        ???
+#               f2.26.02  lightdm-1.32.0
 #
 
 export PKG="exo-4.20.0"

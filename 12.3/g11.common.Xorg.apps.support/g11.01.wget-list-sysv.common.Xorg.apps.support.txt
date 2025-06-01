@@ -2,9 +2,6 @@
 #https://download.gnome.org/sources/json-glib/1.10/json-glib-1.10.6.tar.xz
 # 10.27 libwebp-1.5.0
 #https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.5.0.tar.gz
-# 13.16 NASM-2.16.03
-#https://www.nasm.us/pub/nasm/releasebuilds/2.16.03/nasm-2.16.03.tar.xz
-#https://www.nasm.us/pub/nasm/releasebuilds/2.16.03/nasm-2.16.03-xdoc.tar.xz
 
 # 42.01--->03 alsa-*-1.2.13
 #https://www.alsa-project.org/files/pub/lib/alsa-ucm-conf-1.2.13.tar.bz2

@@ -21,7 +21,7 @@
 #
 # Optional by:
 #
-#               f22.26.02 lightdm-1.32.0                    ???
+#               f2.26.02  lightdm-1.32.0
 #
 
 export PKG="at-spi2-core-2.54.1"

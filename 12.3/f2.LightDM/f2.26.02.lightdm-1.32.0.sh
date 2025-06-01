@@ -11,13 +11,13 @@
 #
 # Dependencies Required (Runtime):
 #
-#               d20.24.20 Xorg-Server-21.1.13
+#               d20.24.20 Xorg-Server-21.1.16
 #
 # Dependencies Recommended:
 #
 #               d10.09.17 GLib-2.82.5
 #               e11.25.36 libxklavier-5.4
-#               e11.13.36 Vala-0.56.17
+#               e10.13.36 Vala-0.56.17
 #
 # Dependencies Optional:
 #
@@ -25,7 +25,7 @@
 #
 # Dependencies Optional:
 #
-#               e21.25.03 at-spi2-core-2.52.0
+#               e11.25.03 at-spi2-core-2.54.1
 #
 
 export PKG="lightdm-1.32.0"

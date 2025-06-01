@@ -1,21 +1,27 @@
-# g11.04.01.c-ares-1.34.4.sh
-# svn due to errata of Firefox
+# g11.42.45.libvpx-1.15.0.sh
 #
 
 #
-# Dependencies Required:
+# Dependencies Recommended:
 #
-#               b11.13.03 CMake-3.30.2
+#               e10.13.38  yasm-1.3.0
+#           or  e10.13.17  NASM-2.16.03
+#               a.08.91.03 Which-2.23
+#
+# Dependencies Optional:
+#
+#               a.08.93.04 cURL-8.12.1
+#               a.08.91.40 make-ca-1.16
 #
 
 #
 # Recommended by:
 #
-#               g11.09.80 Node.js-20.18.0 (svn)
+#               g22.40.03 Firefox-128.7.0esr
 #
 
-export PKG="c-ares-1.34.4"
-export PKGLOG_DIR=$LFSLOG/17.01
+export PKG="libvpx-1.15.0"
+export PKGLOG_DIR=$LFSLOG/42.45
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
@@ -34,26 +40,37 @@ echo "1. Extract tar..." >> $LFSLOG_PROCESS
 echo "1. Extract tar..." >> $PKGLOG_ERROR
 tar xvf $PKG.tar.gz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
- 
 
-mkdir    build
-cd       build
+
+sed -i 's/cp -p/cp/' build/make/Makefile    \
+            > $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
+
+mkdir libvpx-build
+cd    libvpx-build
 
 echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
 echo "2. Configure ..." >> $PKGLOG_ERROR
-cmake -D CMAKE_INSTALL_PREFIX=/usr  \
-      ..                            \
-      > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+../configure --prefix=/usr      \
+             --enable-shared    \
+             --disable-static   \
+             > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Make Build ..."
 echo "3. Make Build ..." >> $LFSLOG_PROCESS
-echo "3. Make Build ..." >> $PKGLOG_ERROR 
+echo "3. Make Build ..." >> $PKGLOG_ERROR
 make > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 
-echo "4. Make Install ..."
-echo "4. Make Install ..." >> $LFSLOG_PROCESS
-echo "4. Make Install ..." >> $PKGLOG_ERROR
+echo "4. Make Test ..."
+echo "4. Make Test ..." >> $LFSLOG_PROCESS
+echo "4. Make Test ..." >> $PKGLOG_ERROR
+# -j1 due to test uses swap space intensively
+LD_LIBRARY_PATH=. make -j1 test \
+            > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
+
+echo "5. Make Install ..."
+echo "5. Make Install ..." >> $LFSLOG_PROCESS
+echo "5. Make Install ..." >> $PKGLOG_ERROR
 make install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 

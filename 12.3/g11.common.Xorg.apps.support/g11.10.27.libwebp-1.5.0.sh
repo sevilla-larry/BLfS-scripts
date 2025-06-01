@@ -1,21 +1,25 @@
-# g11.09.80.Node.js-22.14.0.sh
-# svn due to errata of Firefox
+# e10.10.27.libwebp-1.5.0.sh
 #
 
 #
 # Dependencies Recommended:
 #
-#               b10.09.24 icu-75.1
+#               e10.10.18 libjpeg-turbo-3.0.1
+#               d10.10.22 libpng-1.6.46
+#               e10.10.26 libtiff-4.7.0
+#               g11.42.52 SDL2-2.30.11
 #
 
 #
-# Required by:
+# Recommended by:
 #
-#               g12.40.03 Firefox-128.4.0esr (errata)
+#               g22.40.03 Firefox-128.7.0esr
+#               e12.25.42 Qt-6.7.2              ???
+#               g22.39.03 LibreOffice-24.8.0    ???
 #
 
-export PKG="node-v22.14.0"
-export PKGLOG_DIR=$LFSLOG/09.80
+export PKG="libwebp-1.5.0"
+export PKGLOG_DIR=$LFSLOG/10.27
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
@@ -23,7 +27,7 @@ export PKGLOG_CHECK=$PKGLOG_DIR/check.log
 export PKGLOG_INSTALL=$PKGLOG_DIR/install.log
 export PKGLOG_ERROR=$PKGLOG_DIR/error.log
 export LFSLOG_PROCESS=$LFSLOG/process.log
-export SOURCES= `pwd`
+export SOURCES=`pwd`
 
 rm -r $PKGLOG_DIR 2> /dev/null
 mkdir $PKGLOG_DIR
@@ -31,40 +35,31 @@ mkdir $PKGLOG_DIR
 echo "1. Extract tar..."
 echo "1. Extract tar..." >> $LFSLOG_PROCESS
 echo "1. Extract tar..." >> $PKGLOG_ERROR
-tar xvf $PKG.tar.xz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
+tar xvf $PKG.tar.gz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
-
+ 
 
 echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
 echo "2. Configure ..." >> $PKGLOG_ERROR
 ./configure --prefix=/usr           \
-            --shared-brotli         \
-            --shared-cares          \
-            --shared-libuv          \
-            --shared-openssl        \
-            --shared-nghttp2        \
-            --shared-zlib           \
-            --with-intl=system-icu  \
-            > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+            --enable-libwebpmux     \
+            --enable-libwebpdemux   \
+            --enable-libwebpdecoder \
+            --enable-libwebpextras  \
+            --enable-swap-16bit-csp \
+            --disable-static        \
+          > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Make Build ..."
 echo "3. Make Build ..." >> $LFSLOG_PROCESS
 echo "3. Make Build ..." >> $PKGLOG_ERROR
 make > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 
-echo "4. Make Test ..."
-echo "4. Make Test ..." >> $LFSLOG_PROCESS
-echo "4. Make Test ..." >> $PKGLOG_ERROR
-make test-only > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
-
-echo "5. Make Install ..."
-echo "5. Make Install ..." >> $LFSLOG_PROCESS
-echo "5. Make Install ..." >> $PKGLOG_ERROR
+echo "4. Make Install ..."
+echo "4. Make Install ..." >> $LFSLOG_PROCESS
+echo "4. Make Install ..." >> $PKGLOG_ERROR
 make install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
-
-ln -sf node /usr/share/doc/node-20.18.0 \
-        >> $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 
 cd $SOURCES

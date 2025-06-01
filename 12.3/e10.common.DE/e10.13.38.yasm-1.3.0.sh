@@ -11,10 +11,11 @@
 # Recommended by:
 #
 #               e10.10.18 libjpeg-turbo-3.0.1
+#               g11.42.45 libvpx-1.15.0
 #
 # Optionally by:
 #
-#               g12.40.03 Firefox-128.3.1esr        ???
+#               g22.40.03 Firefox-128.7.0esr
 #
 
 export PKG="yasm-1.3.0"

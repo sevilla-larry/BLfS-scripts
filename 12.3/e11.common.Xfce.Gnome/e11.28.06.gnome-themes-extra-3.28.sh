@@ -1,5 +1,7 @@
 # e11.28.06.gnome-themes-extra-3.28.sh
 #
+# Note: adwaita theme (including Dark) is HERE
+#
 
 #
 # Dependencies Required:

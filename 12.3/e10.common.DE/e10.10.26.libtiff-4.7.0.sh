@@ -9,7 +9,7 @@
 # Dependencies Optional:
 #
 #               e10.10.18 libjpeg-turbo-3.0.1
-#           ??? e10.10.27 libwebp-1.4.0 (circular)
+#           ??? e10.10.27 libwebp-1.5.0         ??? (circular)
 #
 
 #
@@ -17,6 +17,7 @@
 #
 #               e10.25.10 gdk-pixbuf-2.42.12
 #               e11.10.33 Poppler-25.02.0
+#               g11.10.27 libwebp-1.5.0
 #               e12.25.42 Qt-6.7.2                  ???
 #               g12.39.03 LibreOffice-24.8.0        ???
 #

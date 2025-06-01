@@ -30,6 +30,9 @@ d5eeb9af086f696bb55bb979a7fb06ca upower-v1.90.7.tar.bz2
 
 # 13.01 cargo-c-0.10.11
 727bcba75cf4e65313bb3a1b084bb57e cargo-c-0.10.11.tar.gz
+# 13.17 NASM-2.16.03
+2b8c72c52eee4f20085065e68ac83b55 nasm-2.16.03.tar.xz
+#                                nasm-2.16.03-xdoc.tar.xz
 # 13.26 Rustc-1.85.0
 a0193e0a4925f772bd50f8d12e47860c rustc-1.85.0-src.tar.xz
 # 13.36 Vala-0.56.17

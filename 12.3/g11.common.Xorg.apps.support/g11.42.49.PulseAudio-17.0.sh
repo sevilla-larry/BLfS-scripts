@@ -8,21 +8,24 @@
 #
 # Dependencies Recommended:
 #
-#               g11.42.02 alsa-lib-1.2.12   ???
-#               d20.12.10 dbus-1.14.10
-#               d10.12.11 elogind-255.5
-#               d10.09.17 GLib-2.80.4
+#               e10.42.01 alsa-lib-1.2.13
+#               d20.12.11 dbus-1.16.0
+#               d10.12.12 elogind-255.17
+#               d10.09.17 GLib-2.82.5
+#               g11.42.55 Speex-1.2.1
 #               d20.24.08 Xorg Libraries
 #
 # Dependencies Optional:
 #
-#               e21.25.17 GTK+-3.24.43
+#               gst
+#               e11.25.16 GTK-3.24.48
+#               g11.42.52 SDL2-2.30.11
 #
 
 #
 # Required by:
 #
-#               g12.40.03 Firefox-128.4.0esr (errata)
+#               g22.40.03 Firefox-128.7.0esr
 #
 
 export PKG="pulseaudio-17.0"

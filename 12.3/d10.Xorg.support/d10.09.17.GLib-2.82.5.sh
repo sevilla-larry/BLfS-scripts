@@ -58,7 +58,8 @@
 #               e10.10.24 librsvg-2.59.2
 #               e11.33.07 VTE-0.78.4
 #               g22.34.04 Evince-46.3.1
-#               f2.26.02  lightdm-1.32.0            ???
+#               f2.26.02  lightdm-1.32.0
+#               g11.42.49 PulseAudio-17.0
 #               e12.25.42 Qt-6.7.2                  ???
 #
 # Optionally by:
