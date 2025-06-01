@@ -1,24 +1,26 @@
-# g11.09.09.CLucene-2.3.3.4.sh
+# g11.12.28.Raptor-2.0.16.sh
 #
 
 #
 # Dependencies Required:
 #
-#               b10.13.03 CMake-3.30.2
+#               a.08.93.04 cURL-8.12.1
+#               a.08.91.38 libxslt-1.1.43 (errata)
 #
-# Dependencies Recommended:
+# Dependencies Optional:
 #
-#               b10.09.07 boost-1.86.0
-#
-
-#
-# Recommended by:
-#
-#               g12.39.03 LibreOffice-24.8.0
+#               a.08.91.07 icu-76.1
 #
 
-export PKG="clucene-core-2.3.3.4"
-export PKGLOG_DIR=$LFSLOG/09.09
+
+#
+# Required by:
+#
+#               g11.12.29 Rasqal-0.9.33
+#
+
+export PKG="raptor2-2.0.16"
+export PKGLOG_DIR=$LFSLOG/12.28
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
@@ -27,7 +29,7 @@ export PKGLOG_INSTALL=$PKGLOG_DIR/install.log
 export PKGLOG_ERROR=$PKGLOG_DIR/error.log
 export PKGLOG_OTHERS=$PKGLOG_DIR/others.log
 export LFSLOG_PROCESS=$LFSLOG/process.log
-export SOURCES= `pwd`
+export SOURCES=`pwd`
 
 rm -r $PKGLOG_DIR 2> /dev/null
 mkdir $PKGLOG_DIR
@@ -39,32 +41,30 @@ tar xvf $PKG.tar.gz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
 
 
-patch -Np1 -i ../clucene-2.3.3.4-contribs_lib-1.patch   \
-             > $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
-
-sed -i '/Misc.h/a #include <ctime>' \
-            src/core/CLucene/document/DateTools.cpp     \
-            >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
-
-mkdir build
-cd    build
+sed -i 's/20627/20627 \&\& LIBXML_VERSION < 21100/' \
+        src/raptor_libxml.c                         \
+        > $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
 
 echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
 echo "2. Configure ..." >> $PKGLOG_ERROR
-cmake -D CMAKE_INSTALL_PREFIX=/usr  \
-      -D BUILD_CONTRIBS_LIB=ON      \
-      ..                            \
-      > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+./configure --prefix=/usr       \
+            --disable-static    \
+            > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Make Build ..."
 echo "3. Make Build ..." >> $LFSLOG_PROCESS
 echo "3. Make Build ..." >> $PKGLOG_ERROR
 make > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 
-echo "4. Make Install ..."
-echo "4. Make Install ..." >> $LFSLOG_PROCESS
-echo "4. Make Install ..." >> $PKGLOG_ERROR
+echo "4. Make Check ..."
+echo "4. Make Check ..." >> $LFSLOG_PROCESS
+echo "4. Make Check ..." >> $PKGLOG_ERROR
+make check > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
+
+echo "5. Make Install ..."
+echo "5. Make Install ..." >> $LFSLOG_PROCESS
+echo "5. Make Install ..." >> $PKGLOG_ERROR
 make install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 

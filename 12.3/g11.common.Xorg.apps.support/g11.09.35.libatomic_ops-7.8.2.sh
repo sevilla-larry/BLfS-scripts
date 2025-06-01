@@ -1,35 +1,22 @@
-# g11.12.30.Redland-1.0.17.sh
+# g11.09.35.libatomic_ops-7.8.2.sh
 #
-
-#
-# Dependencies Required:
-#
-#               g11.12.29 Rasqal-0.9.33
-#
-# Dependencies Optional:
-#
-#               b10.22.05 SQLite-3.46.1
-#               c11.22.03 MariaDB-10.11.8   (currently NOT used)
-#               c12.22.04 PostgreSQL-16.4   (currently NOT used)
-
 
 #
 # Recommended by:
 #
-#               g12.39.03 LibreOffice-24.8.0
+#               g22.39.03 LibreOffice-25.2.1
 #
 
-export PKG="redland-1.0.17"
-export PKGLOG_DIR=$LFSLOG/12.30
+export PKG="libatomic_ops-7.8.2"
+export PKGLOG_DIR=$LFSLOG/09.35
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
 export PKGLOG_CHECK=$PKGLOG_DIR/check.log
 export PKGLOG_INSTALL=$PKGLOG_DIR/install.log
 export PKGLOG_ERROR=$PKGLOG_DIR/error.log
-#export PKGLOG_OTHERS=$PKGLOG_DIR/others.log
 export LFSLOG_PROCESS=$LFSLOG/process.log
-export SOURCES= `pwd`
+export SOURCES=`pwd`
 
 rm -r $PKGLOG_DIR 2> /dev/null
 mkdir $PKGLOG_DIR
@@ -45,7 +32,9 @@ echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
 echo "2. Configure ..." >> $PKGLOG_ERROR
 ./configure --prefix=/usr       \
+            --enable-shared     \
             --disable-static    \
+            --docdir=/usr/share/doc/libatomic_ops-7.8.2 \
             > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Make Build ..."
@@ -68,7 +57,6 @@ cd $SOURCES
 rm -rf $PKG
 unset SOURCES
 unset LFSLOG_PROCESS
-#unset PKGLOG_OTHERS
 unset PKGLOG_INSTALL PKGLOG_BUILD PKGLOG_CONFIG
 unset PKGLOG_CHECK
 unset PKGLOG_ERROR PKGLOG_TAR

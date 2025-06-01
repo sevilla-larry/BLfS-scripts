@@ -161,7 +161,7 @@ B.  Generate BLFS - Xfce Apps
         ### Environment
 
         # Install destination
-        export LO_PREFIX=/opt/libreoffice-24.8.0.3
+        export LO_PREFIX=/opt/libreoffice-25.2.1.2
 
         su - user
 
@@ -183,7 +183,7 @@ B.  Generate BLFS - Xfce Apps
         export XORG_CONFIG="--prefix=$XORG_PREFIX --sysconfdir=/etc \
                             --localstatedir=/var --disable-static"
 
-        export LO_PREFIX=/opt/libreoffice-24.8.0.3
+        export LO_PREFIX=/opt/libreoffice-25.2.1.2
 
         cd /sources
 
@@ -195,7 +195,7 @@ B.  Generate BLFS - Xfce Apps
 
         cd /sources
 
-        # export LO_PREFIX=/opt/libreoffice-24.8.0.3
+        # export LO_PREFIX=/opt/libreoffice-25.2.1.2
 
         bash g12.03.4.2.sh
 

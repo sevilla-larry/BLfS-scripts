@@ -8,7 +8,7 @@
 #
 # Dependencies Optional:
 #
-#               b10.09.42 libgcrypt-1.11.0
+#               a.08.91.35 libgcrypt-1.11.0
 #
 
 
@@ -28,7 +28,7 @@ export PKGLOG_INSTALL=$PKGLOG_DIR/install.log
 export PKGLOG_ERROR=$PKGLOG_DIR/error.log
 #export PKGLOG_OTHERS=$PKGLOG_DIR/others.log
 export LFSLOG_PROCESS=$LFSLOG/process.log
-export SOURCES= `pwd`
+export SOURCES=`pwd`
 
 rm -r $PKGLOG_DIR 2> /dev/null
 mkdir $PKGLOG_DIR

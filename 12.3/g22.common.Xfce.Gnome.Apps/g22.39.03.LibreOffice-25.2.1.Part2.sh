@@ -6,54 +6,56 @@
 #
 # Dependencies Required:
 #
-#               g11.13.18.01 Archive::Zip-1.68
-#               b10.12.36 UnZip-6.0
-#               a.08.91Z  WGet-1.24.5
-#               a.08.92E  Which-2.21
-#               b10.12.41 Zip-3.0
+#               g11.13.19.01 Archive::Zip-1.68
+#               a.08.91.12   libarchive-3.7.7
+#               a.08.93.02   WGet-1.25.0
+#               a.08.91.03   Which-2.23
+#               a.08.91.04   Zip-3.0
 #
 # Dependencies Recommended:
 #
-#               ???. apache-ant             java
-#               b10.09.07 boost-1.86.0
-#               g11.09.09 CLucene-2.3.3.4
-#               ??? Cups                    no printing
-#               b10.17.02 cURL-8.10.1
-#               d20.25.35 libepoxy-1.5.10
-#               e10.10.18 libjpeg-turbo-3.0.1
-#               d10.13.12.LLVM-18.1.7
-#               g11.10.10 GLM-1.0.1
-#               g11.25.13 GLU-9.0.3
-#               g11.04.08 GPGME-1.23.2
-#               ??? Graphite
-#               g11.42.14 gst-plugins-base-1.24.12  (excluded)
-#               e11.25.17 GTK+-3.24.43
-#               d10.10.12 harfBuzz-9.0.0
-#               b10.09.24 icu-75.1
-#               g11.09.35 libatomic_ops-7.8.2
-#               e10.10.14 Little CMS-2.16
-#               g11.10.24 librsvg-2.58.3
-#               e10.10.26 libtiff-4.7.0
-#               e10.10.27 libwebp-1.4.0
-#               b10.09.72 libxml2-2.13.3
-#               b10.09.74 libxslt-1.1.42
-#               d10.13.23.12 lxml-5.3.0
-#               d20.24.16 Mesa-24.1.5
-#               g11.04.17 NSS-3.103
-#               ??? OpenLDAP
-#               g11.10.33 Poppler-24.08.0
-#               c12.22.04 PostgreSQL-16.4           ( not used )
-#               g11.12.30 Redland-1.0.17
-#               b10.11.21 unixODBC-2.3.12
+#               ???          apache-ant (java)          ???
+#               a.08.91.23   boost-1.87.0
+#               g11.09.09    CLucene-2.3.3.4
+#               ???          Cups                       ???
+#               a.08.93.04   cURL-8.12.1
+#               d20.25.34    libepoxy-1.5.10
+#               e10.10.18    libjpeg-turbo-3.0.1
+#               d10.13.13    LLVM-19.1.7
+#               g11.10.10    GLM-1.0.1
+#               e11.25.13    GLU-9.0.3
+#               e11.04.08    GPGME-1.24.2
+#               d10.10.11    Graphite2-1.3.14
+#           ??? g11.42.14    gst-plugins-base-1.24.12   ???
+#               e11.25.16    GTK-3.24.48
+#               d10.10.12    harfBuzz-10.4.0
+#               a.08.91.07   icu-76.1
+#               g11.09.35    libatomic_ops-7.8.2
+#               e10.10.14    LittleCMS-2.17
+#               e10.10.24    librsvg-2.59.2
+#               e10.10.26    libtiff-4.7.0
+#               g11.10.27    libwebp-1.5.0
+#               a.08.91.08   libxml2-2.13.6
+#               a.08.91.38   libxslt-1.1.43
+#               d10.13.24.12 lxml-5.3.1
+#               d20.24.12    Mesa-24.3.4
+#               a.08.91.32   NSS-3.108
+#               ???          OpenLDAP                   ???
+#               e11.10.33    Poppler-25.02.0 (GTK)
+#               c12.22.04    PostgreSQL-17.4        (not used)
+#               g11.12.30    Redland-1.0.17
+#               b10.11.21    unixODBC-2.3.12
 #
 # Dependencies Optional:
 #
-#               d10.11.04 desktop-file-utils-0.27
-#               c11.22.03 MariaDB-10.11.8           ( not used )
-#               e10.13.16 NASM-2.16.03
+#               d10.11.04  desktop-file-utils-0.28
+#               c11.22.03  MariaDB-11.4.5           (not used)
+#               e10.13.17  NASM-2.16.03
+#               a.08.91.40 make-ca-1.16
+#               ???        Qt-6.x                       ???
 #
 
-export PKG="libreoffice-24.8.0.3"
+export PKG="libreoffice-25.2.1.2"
 export PKGLOG_DIR=$LFSLOG/39.03
 #export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 #export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
@@ -63,6 +65,7 @@ export PKGLOG_INSTALL=$PKGLOG_DIR/install.log
 export PKGLOG_ERROR=$PKGLOG_DIR/error.log
 #export PKGLOG_OTHERS=$PKGLOG_DIR/others.log
 export LFSLOG_PROCESS=$LFSLOG/process.log
+export SOURCES=`pwd`
 
 # rm -r $PKGLOG_DIR 2> /dev/null - don't delete
 # mkdir $PKGLOG_DIR
@@ -116,8 +119,9 @@ update-desktop-database \
             >> $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 
-cd ..
+cd $SOURCES
 rm -rf $PKG
+unset SOURCES
 unset LFSLOG_PROCESS
 #unset PKGLOG_OTHERS
 unset PKGLOG_INSTALL

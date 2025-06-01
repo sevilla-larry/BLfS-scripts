@@ -1,35 +1,35 @@
-# g11.12.28.Raptor-2.0.16.sh
+# g11.12.30.Redland-1.0.17.sh
 #
 
 #
 # Dependencies Required:
 #
-#               b10.17.02 cURL-8.10.1
-#               b10.09.74 libxslt-1.1.42
+#               g11.12.29 Rasqal-0.9.33
 #
 # Dependencies Optional:
 #
-#               b10.09.24 icu-75.1
-#
+#               a.08.91.18 SQLite-3.49.1
+#               c11.22.03  MariaDB-11.4.5   (currently NOT used)
+#               c12.22.04  PostgreSQL-17.4  (currently NOT used)
 
 
 #
-# Required by:
+# Recommended by:
 #
-#               g11.12.29 Rasqal-0.9.33
+#               g22.39.03 LibreOffice-25.2.1
 #
 
-export PKG="raptor2-2.0.16"
-export PKGLOG_DIR=$LFSLOG/12.28
+export PKG="redland-1.0.17"
+export PKGLOG_DIR=$LFSLOG/12.30
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
 export PKGLOG_CHECK=$PKGLOG_DIR/check.log
 export PKGLOG_INSTALL=$PKGLOG_DIR/install.log
 export PKGLOG_ERROR=$PKGLOG_DIR/error.log
-export PKGLOG_OTHERS=$PKGLOG_DIR/others.log
+#export PKGLOG_OTHERS=$PKGLOG_DIR/others.log
 export LFSLOG_PROCESS=$LFSLOG/process.log
-export SOURCES= `pwd`
+export SOURCES=`pwd`
 
 rm -r $PKGLOG_DIR 2> /dev/null
 mkdir $PKGLOG_DIR
@@ -40,10 +40,6 @@ echo "1. Extract tar..." >> $PKGLOG_ERROR
 tar xvf $PKG.tar.gz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
 
-
-sed -i 's/20627/20627 \&\& LIBXML_VERSION < 21100/' \
-        src/raptor_libxml.c                         \
-        > $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
 
 echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
@@ -72,7 +68,7 @@ cd $SOURCES
 rm -rf $PKG
 unset SOURCES
 unset LFSLOG_PROCESS
-unset PKGLOG_OTHERS
+#unset PKGLOG_OTHERS
 unset PKGLOG_INSTALL PKGLOG_BUILD PKGLOG_CONFIG
 unset PKGLOG_CHECK
 unset PKGLOG_ERROR PKGLOG_TAR

@@ -4,7 +4,7 @@
 #
 # Recommended by:
 #
-#               g12.39.03 LibreOffice-24.8.0
+#               g22.39.03 LibreOffice-25.2.1
 #
 
 export PKG="glm-1.0.1"
@@ -13,7 +13,7 @@ export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_INSTALL=$PKGLOG_DIR/install.log
 export PKGLOG_ERROR=$PKGLOG_DIR/error.log
 export LFSLOG_PROCESS=$LFSLOG/process.log
-export SOURCES= `pwd`
+export SOURCES=`pwd`
 
 rm -r $PKGLOG_DIR 2> /dev/null
 mkdir $PKGLOG_DIR
