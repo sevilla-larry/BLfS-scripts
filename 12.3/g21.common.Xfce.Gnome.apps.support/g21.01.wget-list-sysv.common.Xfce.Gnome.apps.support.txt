@@ -1,41 +1,4 @@
-# 09.09 CLucene-2.3.3.4
-https://downloads.sourceforge.net/clucene/clucene-core-2.3.3.4.tar.gz
-https://www.linuxfromscratch.org/patches/blfs/12.2/clucene-2.3.3.4-contribs_lib-1.patch
-# 09.35 libatomic_ops-7.8.2
-https://github.com/ivmai/libatomic_ops/releases/download/v7.8.2/libatomic_ops-7.8.2.tar.gz
-# 09.80 Node.js-22.14.0
-https://nodejs.org/dist/v22.14.0/node-v22.14.0.tar.xz
-
-# 10.10 GLM-1.0.1
-https://github.com/g-truc/glm/archive/1.0.1/glm-1.0.1.tar.gz
-
-# 12.28->30 Raptor-2.0.16 Rasqal-0.9.33 Redland-1.0.17
-https://download.librdf.org/source/raptor2-2.0.16.tar.gz
-https://download.librdf.org/source/rasqal-0.9.33.tar.gz
-https://download.librdf.org/source/redland-1.0.17.tar.gz
-# 13.18 Perl Modules
-# 13.18.01 Archive::Zip-1.68
-https://www.cpan.org/authors/id/P/PH/PHRED/Archive-Zip-1.68.tar.gz
-# 13.21 Python-3.13.2
-https://www.python.org/ftp/python/3.13.2/Python-3.13.2.tar.xz
-https://www.python.org/ftp/python/doc/3.13.2/python-3.13.2-docs-html.tar.bz2
-# 13.21 Python-3.12.8
-https://www.python.org/ftp/python/3.12.8/Python-3.12.8.tar.xz
-https://www.python.org/ftp/python/doc/3.12.8/python-3.12.8-docs-html.tar.bz2
-# 13.21 Python-3.13.1
-https://www.python.org/ftp/python/3.13.1/Python-3.13.1.tar.xz
-https://www.python.org/ftp/python/doc/3.13.1/python-3.13.1-docs-html.tar.bz2
-# 13.26 Rustc-1.85.0
-https://static.rust-lang.org/dist/rustc-1.85.0-src.tar.xz
-
 # 25.23 gtksourceview4-4.8.4
 https://download.gnome.org/sources/gtksourceview/4.8/gtksourceview-4.8.4.tar.xz
 # 25.33 libhandy-1.8.3
 https://download.gnome.org/sources/libhandy/1.8/libhandy-1.8.3.tar.xz
-
-# 42.11 FLAC-1.5.0
-https://github.com/xiph/flac/releases/download/1.5.0/flac-1.5.0.tar.xz
-# 42.44 Opus-1.5.2
-https://downloads.xiph.org/releases/opus/opus-1.5.2.tar.gz
-# 42.45 libvpx-1.15.0
-https://github.com/webmproject/libvpx/archive/v1.15.0/libvpx-1.15.0.tar.gz

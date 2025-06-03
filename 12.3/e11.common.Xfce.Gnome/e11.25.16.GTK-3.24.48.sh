@@ -48,7 +48,7 @@
 # Recommended by:
 #
 #               e11.42.26 libcanberra-0.30
-#               g12.39.03 LibreOffice-24.8.0                ???
+#               g22.39.03 LibreOffice-25.2.1
 #
 # Optionally by:
 #

@@ -14,8 +14,8 @@
 # Recommended by:
 #
 #               g22.40.03 Firefox-128.7.0esr
+#               g22.39.03 LibreOffice-25.2.1
 #               e12.25.42 Qt-6.7.2              ???
-#               g22.39.03 LibreOffice-24.8.0    ???
 #
 
 export PKG="libwebp-1.5.0"

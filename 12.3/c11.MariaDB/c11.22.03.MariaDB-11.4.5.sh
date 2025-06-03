@@ -25,6 +25,10 @@
 #
 
 #
+# Recommended by:
+#
+#               g22.39.03 LibreOffice-25.2.1
+#
 # Optional by:
 #
 #               c13.09.05 Apr-Util-1.6.3    (Apache)

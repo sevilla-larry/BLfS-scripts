@@ -18,8 +18,8 @@
 # Recommended by:
 #
 #               d10.10.04 FreeType-2.13.3
+#               g22.39.03 LibreOffice-25.2.1
 #               e12.25.42 Qt-6.7.2
-#               g12.39.03 LibreOffice-24.8.0
 #
 # Note on Cairo
 #

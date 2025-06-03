@@ -1,7 +1,44 @@
+# 09.09 CLucene-2.3.3.4
+48d647fbd8ef8889e5a7f422c1bfda94 clucene-core-2.3.3.4.tar.gz
+#patch
+# 09.35 libatomic_ops-7.8.2
+d07b3d8369d7f9efdca59f7501dd1117 libatomic_ops-7.8.2.tar.gz
+# 09.80 Node.js-22.14.0
+46fbebddd5da0ded77ec54ebb5134b3e node-v22.14.0.tar.xz
+
+# 10.10 GLM-1.0.1
+f824ac50e16310a95279032f82cbd341 glm-1.0.1.tar.gz
+# 10.27 libwebp-1.5.0
+8f659e426eaa2aeec4b36bc9ea43b3f3 libwebp-1.5.0.tar.gz
+
+# 12.28->30 Raptor-2.0.16 Rasqal-0.9.33 Redland-1.0.17
+0a71f13b6eaa0a04bf411083d89d7bc2 raptor2-2.0.16.tar.gz
+1f5def51ca0026cd192958ef07228b52 rasqal-0.9.33.tar.gz
+e5be03eda13ef68aabab6e42aa67715e redland-1.0.17.tar.gz
+
+# 13.18 Perl Modules
+# 13.18.01 Archive::Zip-1.68
+a33993309322164867c99e04a4000ee3 Archive-Zip-1.68.tar.gz
+
+# 42.11 FLAC-1.5.0
+0bb45bcf74338b00efeec121fff27367 flac-1.5.0.tar.xz
+# 42.40 libsndfile-1.2.2
+04e2e6f726da7c5dc87f8cf72f250d04 libsndfile-1.2.2.tar.xz
+# 42.45 libvpx-1.15.0
+6d2b7b8e1c06f4b10ae63ca22491f8a4 libvpx-1.15.0.tar.gz
+# 42.47 Opus-1.5.2
+c40b3a1fbdbb9a7aa178600b88200c76 opus-1.5.2.tar.gz
+# 42.49 PulseAudio-17.0
+c4a3596a26ff4b9dcd0c394dd1d4f8ee pulseaudio-17.0.tar.xz
+# 42.52 SDL2-2.30.11
+bea190b480f6df249db29eb3bacfe41e SDL2-2.30.11.tar.gz
+# 42.55 Speex-1.2.1
+fe7bf610883ff202092b92c72fe0fe3e speex-1.2.1.tar.gz
+e6eb5ddef743a362c8018f260b91dca5 speexdsp-1.2.1.tar.gz
+
+
 # 09.29 JSON-GLib-1.10.6
 #d4bf13ddd1e6d607d039d39286f9e3d0 json-glib-1.10.6.tar.xz
-# 10.27 libwebp-1.5.0
-#8f659e426eaa2aeec4b36bc9ea43b3f3 libwebp-1.5.0.tar.gz
 
 # 42.01--->03 alsa-*-1.2.13
 #71fce75baa38efab4e32e40db0a33716 alsa-plugins-1.2.12.tar.bz2
@@ -11,7 +48,5 @@
 #e94ad24344068e3c61aed6a41a0d172d gst-plugins-base-1.24.12.tar.xz
 #af0d85f4dda9f750086516d834a17a8c gst-plugins-good-1.24.10.tar.xz
 #f2e4b24dca97397158e496059ec65ce6 gst-plugins-bad-1.24.12.tar.xz
-# 42.40 libsndfile-1.2.2
-#04e2e6f726da7c5dc87f8cf72f250d04 libsndfile-1.2.2.tar.xz
 # 42.49 PulseAudio-qt-17.0
 #247fcc8c7876f84c8a13d1601d388fc2 pulseaudio-qt-17.0.tar.xz

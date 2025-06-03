@@ -18,8 +18,8 @@
 #               e10.25.10 gdk-pixbuf-2.42.12
 #               e11.10.33 Poppler-25.02.0
 #               g11.10.27 libwebp-1.5.0
+#               g22.39.03 LibreOffice-25.2.1
 #               e12.25.42 Qt-6.7.2                  ???
-#               g12.39.03 LibreOffice-24.8.0        ???
 #
 # Optionally by:
 #

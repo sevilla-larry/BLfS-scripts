@@ -16,7 +16,7 @@
 #
 #               d20.24.19 Xwayland-24.1.6
 #               d20.24.20 Xorg-Server-21.1.16
-#             ? g12.39.03 LibreOffice-24.8.0
+#               g22.39.03 LibreOffice-25.2.1
 #
 
 export PKG="libepoxy-1.5.10"

@@ -12,6 +12,12 @@
 #               d10.10.12 harfBuzz-10.4.0
 #
 
+#
+# Recommended by:
+#
+#               g22.39.03 LibreOffice-25.2.1
+#
+
 export PKG="graphite2-1.3.14"
 export PKGLOG_DIR=$LFSLOG/10.11.2
 #export PKGLOG_TAR=$PKGLOG_DIR/tar.log

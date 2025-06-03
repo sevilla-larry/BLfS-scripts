@@ -10,7 +10,7 @@
 #
 # Recommended by:
 #
-#               g12.39.03 LibreOffice-24.8.0
+#               g22.39.03 LibreOffice-25.2.1
 #
 # Optional by:
 #

@@ -23,7 +23,7 @@
 # Recommended by:
 #
 #               e10.13.27 Rustc-1.85.0
-#               g12.39.03??? LibreOffice-24.8.0             ???
+#               g22.39.03 LibreOffice-25.2.1
 #
 # Recommended ( but needed ) by:
 #

@@ -1,7 +1,40 @@
-# 09.29 JSON-GLib-1.10.6
-#https://download.gnome.org/sources/json-glib/1.10/json-glib-1.10.6.tar.xz
+# 09.09 CLucene-2.3.3.4
+https://downloads.sourceforge.net/clucene/clucene-core-2.3.3.4.tar.gz
+https://www.linuxfromscratch.org/patches/blfs/12.2/clucene-2.3.3.4-contribs_lib-1.patch
+# 09.35 libatomic_ops-7.8.2
+https://github.com/ivmai/libatomic_ops/releases/download/v7.8.2/libatomic_ops-7.8.2.tar.gz
+# 09.80 Node.js-22.14.0
+https://nodejs.org/dist/v22.14.0/node-v22.14.0.tar.xz
+
+# 10.10 GLM-1.0.1
+https://github.com/g-truc/glm/archive/1.0.1/glm-1.0.1.tar.gz
 # 10.27 libwebp-1.5.0
-#https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.5.0.tar.gz
+https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.5.0.tar.gz
+
+# 12.28->30 Raptor-2.0.16 Rasqal-0.9.33 Redland-1.0.17
+https://download.librdf.org/source/raptor2-2.0.16.tar.gz
+https://download.librdf.org/source/rasqal-0.9.33.tar.gz
+https://download.librdf.org/source/redland-1.0.17.tar.gz
+
+# 13.19 Perl Modules
+# 13.19.01 Archive::Zip-1.68
+https://www.cpan.org/authors/id/P/PH/PHRED/Archive-Zip-1.68.tar.gz
+
+# 42.10 FLAC-1.5.0
+https://github.com/xiph/flac/releases/download/1.5.0/flac-1.5.0.tar.xz
+# 42.40 libsndfile-1.2.2
+https://github.com/libsndfile/libsndfile/releases/download/1.2.2/libsndfile-1.2.2.tar.xz
+# 42.45 libvpx-1.15.0
+https://github.com/webmproject/libvpx/archive/v1.15.0/libvpx-1.15.0.tar.gz
+# 42.47 Opus-1.5.2
+https://downloads.xiph.org/releases/opus/opus-1.5.2.tar.gz
+# 42.49 PulseAudio-17.0
+https://www.freedesktop.org/software/pulseaudio/releases/pulseaudio-17.0.tar.xz
+# 42.52 SDL2-2.30.11
+https://www.libsdl.org/release/SDL2-2.30.11.tar.gz
+# 42.55 Speex-1.2.1
+https://downloads.xiph.org/releases/speex/speex-1.2.1.tar.gz
+https://downloads.xiph.org/releases/speex/speexdsp-1.2.1.tar.gz
 
 # 42.01--->03 alsa-*-1.2.13
 #https://www.alsa-project.org/files/pub/lib/alsa-ucm-conf-1.2.13.tar.bz2
@@ -12,7 +45,8 @@
 #https://gstreamer.freedesktop.org/src/gst-plugins-base/gst-plugins-base-1.24.12.tar.xz
 #https://gstreamer.freedesktop.org/src/gst-plugins-good/gst-plugins-good-1.24.12.tar.xz
 #https://gstreamer.freedesktop.org/src/gst-plugins-bad/gst-plugins-bad-1.24.12.tar.xz
-# 42.40 libsndfile-1.2.2
-#https://github.com/libsndfile/libsndfile/releases/download/1.2.2/libsndfile-1.2.2.tar.xz
 # 42.49 PulseAudio-qt-17.0
 #https://download.kde.org/stable/pulseaudio-qt/pulseaudio-qt-1.7.0.tar.xz
+
+# 09.29 JSON-GLib-1.10.6
+#https://download.gnome.org/sources/json-glib/1.10/json-glib-1.10.6.tar.xz
