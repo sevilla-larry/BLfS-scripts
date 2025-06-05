@@ -36,9 +36,9 @@ for i in Bundles/{Alone,Alone7z,Format7zF,SFXCon} UI/Console; do
         >> $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 done
 
-echo "3. Make Install ..."
-echo "3. Make Install ..." >> $LFSLOG_PROCESS
-echo "3. Make Install ..." >> $PKGLOG_ERROR
+echo "3. Install ..."
+echo "3. Install ..." >> $LFSLOG_PROCESS
+echo "3. Install ..." >> $PKGLOG_ERROR
 install -vDm755 CPP/7zip/Bundles/Alone{/b/g/7za,7z/b/g/7zr} \
                 CPP/7zip/Bundles/Format7zF/b/g/7z.so        \
                 CPP/7zip/UI/Console/b/g/7z                  \
@@ -52,10 +52,10 @@ install -vm755  CPP/7zip/Bundles/SFXCon/b/g/7zCon   \
 (for i in 7z 7za 7zr; do
     cat > /usr/bin/$i << EOF 2>> $PKGLOG_ERROR || exit
 #!/bin/sh
-exec /usr/lib/7zip/$i "\$@" >> $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
+exec /usr/lib/7zip/$i "\$@"
 EOF
-    chmod -v 755 /usr/bin/$i >> $PKGLOG_INSTALL 2>> $PKGLOG_ERROR|| exit
-done) &&
+    chmod -v 755 /usr/bin/$i >> $PKGLOG_INSTALL 2>> $PKGLOG_ERROR || exit
+done)
 
 cp -rv DOC -T /usr/share/doc/7zip-24.09 >> $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
