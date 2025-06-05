@@ -30,6 +30,8 @@ d5eeb9af086f696bb55bb979a7fb06ca upower-v1.90.7.tar.bz2
 
 # 13.01 cargo-c-0.10.11
 727bcba75cf4e65313bb3a1b084bb57e cargo-c-0.10.11.tar.gz
+# 13.02 Cbindgen-0.28.0
+0712d991fc8e65121924265d738db71d cbindgen-0.28.0.tar.gz
 # 13.17 NASM-2.16.03
 2b8c72c52eee4f20085065e68ac83b55 nasm-2.16.03.tar.xz
 #                                nasm-2.16.03-xdoc.tar.xz
