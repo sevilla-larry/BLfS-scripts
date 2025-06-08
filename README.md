@@ -25,10 +25,9 @@
 #
 # d20: Xorg			- working
 #
-# e23: Xfce	with LightDM	- 
+# e23: Xfce	with LightDM	- working
 #
-# g23: Xfce Apps    - 
-#                   ( some problem with Adwaita theme / no themes )
+# g42: Xfce Apps    - 
 #
 
 #
@@ -68,8 +67,8 @@
 #		e10 - Common to all DE's
 #		e11 - Common to Xfce & Gnome
 #		e12 - Common to LXQt & KDE
-#		e13 - Common to Xfce, Gnome & KDE
-#		e14 - Common to Gnome, LXQt & KDE
+#	?	e13 - Common to Xfce, Gnome & KDE
+#	?	e14 - Common to Gnome, LXQt & KDE
 #
 #		e21	- Xfce other Support
 #		e23 - Xfce Desktop
@@ -120,19 +119,19 @@
 #		g33 - Common LXQt / KDE Applications Other / External
 #
 #		g41 - Xfce Applications support
-#		g42 - Xfce Applications										Mousepad, xarchiver
+#		g42 - Xfce Applications	Additional					        Mousepad, archiver
 #		g43 - Xfce Applications Others / External
 #
 #		g51 - LXQt Applications support
-#		g52 - LXQt Applications
+#		g52 - LXQt Applications Additional
 #		g53 - LXQt Applications Others / External
 #
 #		g61 - Gnome Applications support
-#		g62 - Gnome Applications
+#		g62 - Gnome Applications Additional
 #		g63 - Gnome Applications Others / External
 #
 #		g71 - KDE Applications support
-#		g72 - KDE Applications
+#		g72 - KDE Applications Additional
 #		g73 - KDE Applications Others / External
 #
 

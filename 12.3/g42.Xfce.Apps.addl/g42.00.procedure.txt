@@ -8,23 +8,26 @@ A. Preparation
 
         copy all script files from the following to /sources
 
-            1. g11.common.Xfce.Gnome.apps.support
-            2. g12.common.Xfce.Gnome.Apps
-            3. g63.Xfce.Apps.other
+            1. g11.common.Xorg.apps.support
+            2. g21.common.Xfce.Gnome.apps.support
+            3. g22.common.Xfce.Gnome.Apps
+            4. g42.Xfce.Apps.addl
 
   A.03. Download packages
 
         ###
 
-        wget --input-file=g11.01.wget-list-sysv.common.Xfce.Gnome.apps.support.txt  --continue --directory-prefix=/sources
-        wget --input-file=g12.01.wget-list-sysv.common.Xfce.Gnome.Apps.txt          --continue --directory-prefix=/sources
-        wget --input-file=g63.01.wget-list-sysv.Xfce.apps.other.txt                 --continue --directory-prefix=/sources
+        wget --input-file=g11.01.wget-list-sysv.common.Xorg.apps.support.txt        --continue --directory-prefix=/sources
+        wget --input-file=g21.01.wget-list-sysv.common.Xfce.Gnome.apps.support.txt  --continue --directory-prefix=/sources
+        wget --input-file=g22.01.wget-list-sysv.common.Xfce.Gnome.Apps.txt          --continue --directory-prefix=/sources
+        wget --input-file=g42.01.wget-list-sysv.Xfce.Apps.addl.txt                  --continue --directory-prefix=/sources
 
         ###
 
-        md5sum -c g11.02.md5sums.common.Xfce.Gnome.apps.support.txt
-        md5sum -c g12.02.md5sums.common.Xfce.Gnome.Apps.txt
-        md5sum -c g63.02.md5sums.Xfce.apps.other.txt
+        md5sum -c g11.02.md5sums.common.Xorg.apps.support.txt
+        md5sum -c g21.02.md5sums.common.Xfce.Gnome.apps.support.txt
+        md5sum -c g22.02.md5sums.common.Xfce.Gnome.Apps.txt
+        md5sum -c g42.02.md5sums.Xfce.Apps.addl.txt
 
         ###
 
