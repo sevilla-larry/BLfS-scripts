@@ -2,7 +2,9 @@
 https://downloads.sourceforge.net/clucene/clucene-core-2.3.3.4.tar.gz
 https://www.linuxfromscratch.org/patches/blfs/12.2/clucene-2.3.3.4-contribs_lib-1.patch
 # 09.35 libatomic_ops-7.8.2
-https://github.com/ivmai/libatomic_ops/releases/download/v7.8.2/libatomic_ops-7.8.2.tar.gz
+https://github.com/bdwgc/libatomic_ops/releases/download/v7.8.2/libatomic_ops-7.8.2.tar.gz
+#https://github.com/ivmai/libatomic_ops/releases/download/v7.8.2/libatomic_ops-7.8.2.tar.gz
+#https://www.hboehm.info/gc/gc_source/libatomic_ops-7.8.2.tar.gz
 # 09.80 Node.js-22.14.0
 https://nodejs.org/dist/v22.14.0/node-v22.14.0.tar.xz
 
