@@ -46,7 +46,7 @@
 #               d20.42.41 libva-2.22.0              for PCs
 #               d20.24.19 Xwayland-24.1.6
 #               g22.39.03 LibreOffice-25.2.1
-#             ? e12.25.42 Qt-6.7.2
+#               e12.25.42 Qt-6.7.2              ???
 #
 # Recommended Runtime by:
 #

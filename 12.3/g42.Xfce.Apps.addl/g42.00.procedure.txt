@@ -58,65 +58,7 @@ B.  Generate BLFS - Xfce Apps
 
         ###
 
-        echo $XORG_PREFIX     # /usr
-        echo $XORG_CONFIG     # --prefix=/usr --sysconfdir=/etc --localstatedir=/var --disable-static
-        echo $LFSLOG          # /var/log/blfs
-        echo $MAKEFLAGS       # -j$(nproc)
-        echo $NPROC           # $(nproc)
-
-        echo $SHELL           # /bin/bash
-        ls -l /bin/sh         # bash
-        ls -l /usr/bin/awk    # gawk
-
-        cd /sources
-
-        ###
-
-        ( display )
-        root [ /sources ]#
-
-        ###
-
-        bash g42.03.8.1.support.apps.sh
-
-      # bash g11.03.34.sh
-      # select same Python version installed during LfS creation
-        bash g11.03.34.py.3.11.sh
-        bash g11.03.34.py.3.12.sh
-        bash g11.03.34.py.3.13.sh
-
-        # after Rustc
-
-        reboot
-
-  B.02. Part 2 - after Rustc
-
-        ( Note: change the MAKEFLAGS based on the number of threads )
-
-        ###
-
-        ### for VMs/VBs
-        #  ALL
-        export MAKEFLAGS="-j$(nproc)"
-        export NPROC="$(nproc)"
-
-        ### for PC, MAKEFLAGS = procs / 2
-        ###export MAKEFLAGS="-j$(($(nproc)/2))" # PC
-        ###export NPROC="$(($(nproc)/2))"
-
-        export LFSLOG=/var/log/blfs
-
-        ###
-        #   same as XOrg Environment
-        ###
-        export XORG_PREFIX="/usr"
-
-        export XORG_CONFIG="--prefix=$XORG_PREFIX --sysconfdir=/etc \
-                            --localstatedir=/var --disable-static"
-
         source /etc/profile.d/rustc.sh
-
-        ###
 
         echo $XORG_PREFIX     # /usr
         echo $XORG_CONFIG     # --prefix=/usr --sysconfdir=/etc --localstatedir=/var --disable-static
@@ -138,18 +80,14 @@ B.  Generate BLFS - Xfce Apps
 
         ###
 
-        bash g63.03.8.2.support.apps.sh
+        bash g42.03.8.support.apps.sh
 
-        bash g63.03.9.all.apps.sh
+        bash g42.03.9.all.apps.sh
         # LibreOffice excluded
-
-        # bash g63.03.9.1.small.apps.sh   # basic Apps
-        # bash g63.03.9.2.Evince.sh       # Evince
-        # bash g63.03.9.3.Firefox.sh      # Firefox
 
         ###
 
-  B.03. Part 3 - LibreOffice - should be build as user
+  B.02. Part 2 - LibreOffice - should be build as user
 
         ### Ensure permission are correct
 
@@ -192,7 +130,7 @@ B.  Generate BLFS - Xfce Apps
 
         ###
 
-        bash g12.03.4.1.sh
+        bash g22.03.4.1.sh
 
         exit    # logout as user, back to root
 
@@ -200,6 +138,6 @@ B.  Generate BLFS - Xfce Apps
 
         # export LO_PREFIX=/opt/libreoffice-25.2.1.2
 
-        bash g12.03.4.2.sh
+        bash g22.03.4.2.sh
 
         ###

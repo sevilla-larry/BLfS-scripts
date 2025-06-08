@@ -1,4 +1,4 @@
-# g63.03.Group2.sh
+# g42.03.2.sh
 #
 
 export LFSLOG_PROCESS=$LFSLOG/process.log

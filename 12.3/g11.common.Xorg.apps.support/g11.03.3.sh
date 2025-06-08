@@ -1,6 +1,6 @@
 # g11.03.3.sh
 #
-# Firefox support apps
+# LibreOffice support apps
 #
 
 export LFSLOG_PROCESS=$LFSLOG/process.log
@@ -10,26 +10,10 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
 #####
 
-echo "g11.13.01.Cbindgen-0.28.0"
-echo "g11.13.01.Cbindgen-0.28.0" >> $LFSLOG_PROCESS
+echo "g11.13.19.01.Archive.Zip-1.68"
+echo "g11.13.19.01.Archive.Zip-1.68" >> $LFSLOG_PROCESS
 
-time { bash g11.13.01.Cbindgen-0.28.0.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
-
-###
-#    Node.js group
-###
-
-echo "g11.17.01.c-ares-1.34.4"
-echo "g11.17.01.c-ares-1.34.4" >> $LFSLOG_PROCESS
-
-time { bash g11.17.01.c-ares-1.34.4.sh ; }
+time { bash g11.13.19.01.Archive.Zip-1.68.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
@@ -40,40 +24,10 @@ echo "."
 
 ###
 
-echo "g11.09.80.Node.js-22.14.0"
-echo "g11.09.80.Node.js-22.14.0" >> $LFSLOG_PROCESS
+echo "g11.09.09.CLucene-2.3.3.4"
+echo "g11.09.09.CLucene-2.3.3.4" >> $LFSLOG_PROCESS
 
-time { bash g11.09.80.Node.js-22.14.0.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
-
-###
-#   PulseAudio group
-#
-###
-
-
-echo "g11.42.03.alsa-plugins-1.2.12"
-echo "g11.42.03.alsa-plugins-1.2.12" >> $LFSLOG_PROCESS
-
-time { bash g11.42.03.alsa-plugins-1.2.12.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
-
-echo "g11.42.04.alsa-utils-1.2.13"
-echo "g11.42.04.alsa-utils-1.2.13" >> $LFSLOG_PROCESS
-
-time { bash g11.42.04.alsa-utils-1.2.13.sh ; }
+time { bash g11.09.09.CLucene-2.3.3.4.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
@@ -84,24 +38,10 @@ echo "."
 
 ###
 
-echo "g11.42.11.FLAC-1.5.0"
-echo "g11.42.11.FLAC-1.5.0" >> $LFSLOG_PROCESS
+echo "g11.10.10.GLM-1.0.1"
+echo "g11.10.10.GLM-1.0.1" >> $LFSLOG_PROCESS
 
-time { bash g11.42.11.FLAC-1.5.0.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
-
-###
-
-echo "g11.42.44.Opus-1.5.2"
-echo "g11.42.44.Opus-1.5.2" >> $LFSLOG_PROCESS
-
-time { bash g11.42.44.Opus-1.5.2.sh ; }
+time { bash g11.10.10.GLM-1.0.1.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
@@ -112,24 +52,10 @@ echo "."
 
 ###
 
-echo "g11.42.40.libsndfile-1.2.2"
-echo "g11.42.40.libsndfile-1.2.2" >> $LFSLOG_PROCESS
+echo "g11.09.35.libatomic_ops-7.8.2"
+echo "g11.09.35.libatomic_ops-7.8.2" >> $LFSLOG_PROCESS
 
-time { bash g11.42.40.libsndfile-1.2.2.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
-
-###
-
-echo "g11.42.49.PulseAudio-17.0"
-echo "g11.42.49.PulseAudio-17.0" >> $LFSLOG_PROCESS
-
-time { bash g11.42.49.PulseAudio-17.0.sh ; }
+time { bash g11.09.35.libatomic_ops-7.8.2.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
@@ -140,10 +66,38 @@ echo "."
 
 ###
 
-echo "g11.42.45.libvpx-1.15.0"
-echo "g11.42.45.libvpx-1.15.0" >> $LFSLOG_PROCESS
+echo "g11.12.28.Raptor-2.0.16"
+echo "g11.12.28.Raptor-2.0.16" >> $LFSLOG_PROCESS
 
-time { bash g11.42.45.libvpx-1.15.0.sh ; }
+time { bash g11.12.28.Raptor-2.0.16.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "g11.12.29.Rasqal-0.9.33"
+echo "g11.12.29.Rasqal-0.9.33" >> $LFSLOG_PROCESS
+
+time { bash g11.12.29.Rasqal-0.9.33.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "g11.12.30.Redland-1.0.17"
+echo "g11.12.30.Redland-1.0.17" >> $LFSLOG_PROCESS
+
+time { bash g11.12.30.Redland-1.0.17.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
