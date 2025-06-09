@@ -18,6 +18,7 @@
 #
 
 export PKG1="speex-1.2.1"
+export PKG2="speexdsp-1.2.1"
 export PKGLOG_DIR=$LFSLOG/42.55
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
@@ -25,6 +26,7 @@ export PKGLOG_BUILD=$PKGLOG_DIR/build.log
 #export PKGLOG_CHECK=$PKGLOG_DIR/check.log
 export PKGLOG_INSTALL=$PKGLOG_DIR/install.log
 export PKGLOG_ERROR=$PKGLOG_DIR/error.log
+export PKGLOG_OTHERS=$PKGLOG_DIR/others.log
 export LFSLOG_PROCESS=$LFSLOG/process.log
 export SOURCES=`pwd`
 
@@ -37,6 +39,9 @@ echo "1. Extract main tar..." >> $PKGLOG_ERROR
 tar xvf $PKG1.tar.gz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG1
 
+
+sed -i '/cat confdefs.h/ s/+//' configure   \
+        > $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
 
 echo "2. Configure main ..."
 echo "2. Configure main ..." >> $LFSLOG_PROCESS
@@ -108,7 +113,8 @@ rm -rf $PKG1
 rm -rf $PKG2
 unset SOURCES
 unset LFSLOG_PROCESS
+unset PKGLOG_OTHERS
 unset PKGLOG_INSTALL PKGLOG_BUILD PKGLOG_CONFIG
 #unset PKGLOG_CHECK
 unset PKGLOG_ERROR PKGLOG_TAR
-unset PKGLOG_DIR PKG
+unset PKGLOG_DIR PKG1 PKG2
