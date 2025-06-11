@@ -1,4 +1,4 @@
-# g22.03.4.1.sh
+# g22.03.2.1.sh
 #
 
 export LFSLOG_PROCESS=$LFSLOG/process.log

@@ -42,7 +42,7 @@
 #               e11.28.06 gnome-themes-extra-3.28
 #               e11.33.07 VTE-0.78.4
 #               g42.41.12 xarchiver-0.5.4.23
-#               g22.34.04 Evince-46.3.1
+#               g42.34.04 Evince-46.3.1
 #               g22.40.03 Firefox-128.7.0esr
 #
 # Recommended by:

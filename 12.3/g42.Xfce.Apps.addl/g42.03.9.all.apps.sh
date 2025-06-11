@@ -8,10 +8,10 @@ bash g42.03.1.sh
 bash g42.03.2.sh
 
 # Evince
-bash g22.03.1.sh
+bash g42.03.3.sh
 
 # Firefox
-bash g22.03.2.sh
+bash g22.03.1.sh
 
 # LibreOffice
-# bash g22.03.3.sh
+# bash g22.03.2.sh

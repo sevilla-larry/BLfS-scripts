@@ -17,7 +17,7 @@
 
 # Required by:
 #
-#               g22.34.04 Evince-46.3.1
+#               g42.34.04 Evince-46.3.1
 #
 # Runtime needed by:
 #

@@ -1,4 +1,4 @@
-# g22.03.4.2.sh
+# g42.03.3.sh
 #
 
 export LFSLOG_PROCESS=$LFSLOG/process.log
@@ -8,10 +8,10 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
 #####
 
-echo "g22.39.03.LibreOffice-25.2.1.Part2"
-echo "g22.39.03.LibreOffice-25.2.1.Part2" >> $LFSLOG_PROCESS
+echo "g42.34.04.Evince-46.3.1"
+echo "g42.34.04.Evince-46.3.1" >> $LFSLOG_PROCESS
 
-time { bash g22.39.03.LibreOffice-25.2.1.Part2.sh ; }
+time { bash g42.34.04.Evince-46.3.1.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

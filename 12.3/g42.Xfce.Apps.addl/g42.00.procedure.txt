@@ -130,7 +130,7 @@ B.  Generate BLFS - Xfce Apps
 
         ###
 
-        bash g22.03.4.1.sh
+        bash g22.03.2.1.sh
 
         exit    # logout as user, back to root
 
@@ -138,6 +138,6 @@ B.  Generate BLFS - Xfce Apps
 
         # export LO_PREFIX=/opt/libreoffice-25.2.1.2
 
-        bash g22.03.4.2.sh
+        bash g22.03.2.2.sh
 
         ###

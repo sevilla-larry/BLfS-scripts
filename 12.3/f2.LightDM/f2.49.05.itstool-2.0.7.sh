@@ -11,7 +11,7 @@
 # Required by:
 #
 #               f2.26.02  lightdm-1.32.0
-#               g22.34.04 Evince-46.3.1
+#               g42.34.04 Evince-46.3.1
 #               ???.11.07 GTK-Doc-1.33.2
 #
 
