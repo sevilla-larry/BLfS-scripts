@@ -66,73 +66,73 @@
 #
 #		e10 - Common to all DE's
 #		e11 - Common to Xfce & Gnome
-#		e12 - Common to LXQt & KDE
-#	?	e13 - Common to Xfce, Gnome & KDE
-#	?	e14 - Common to Gnome, LXQt & KDE
+#	?	e12 - Common to LXQt & KDE
+#	???	e13 - Common to Xfce, Gnome & KDE
+#	???	e14 - Common to Gnome, LXQt & KDE
 #
-#		e21	- Xfce other Support
+#		e21	- Xfce support
 #		e23 - Xfce Desktop
 #		e24 - Xfce Applications
 #
-#		e31	- LXQt other Support
-#		e32 - KF5, Plasma, & Misc Dependecies
-#		e33	- LXQt Desktop Components
-#		e34 - LXQt Applications
+#	?	e31	- LXQt support
+#	?	e32 - KF5, Plasma, & Misc Dependecies
+#	?	e33	- LXQt Desktop Components
+#	?	e34 - LXQt Applications
 #
-#       e41	- Gnome other Support
-#		e42	- Gnome Libraries
-#		e43	- Gnome Desktop Components
-#		e44 - Gnome Applications
+#   ?	e41	- Gnome support
+#	?	e42	- Gnome Libraries
+#	?	e43	- Gnome Desktop Components
+#	?	e44 - Gnome Applications
 #
-#       e51	- KDE other Support
-#		e52 - KDE Preliminaries
-#		e53 - KDE Frameworks 6
-#		e54	- KDE Frameworks 6 Based Applications
-#		e55 - KDE Plasma
+#   ?	e51	- KDE support
+#	?	e52 - KDE Preliminaries
+#	?	e53 - KDE Frameworks 6
+#	?	e54	- KDE Frameworks 6 Based Applications
+#	?	e55 - KDE Plasma
 #
-#		e61 - LXDE Support
-#		e63 - LXDE Desktop	???	from 12.0	???
-#		e64 - LXDE Applications
+#	???	e61 - LXDE Support
+#	???	e63 - LXDE Desktop	???	from 12.0	???
+#	???	e64 - LXDE Applications
 #
 #
 # Group f - Display Manager
 #
-#       f0	- Common to DM's
-#		f1	- GDM
+#   ???	f0	- Common to DM's
+#	???	f1	- GDM
 #		f2	- LightDM			compiled in e23.Xfce.Desktop
-#       f3	- SDDM
-#       f4	- LXDM			??? (from 11.3)	???
+#   ?	f3	- SDDM
+#   ???	f4	- LXDM			??? (from 11.3)	???
 #
 #
 # Group g - Xorg Applications
 #
 #		g11 - Common Xorg Applications support
-#		g12 - Common Xorg Applications
-#		g13 - Common Xorg Applications Others / External
+#	?	g12 - Common Xorg Applications
+#	?	g13 - Common Xorg Applications Others / External
 #
-#		g21 - Common Xfce / Gnome Applications support
+#	?	g21 - Common Xfce / Gnome Applications support
 #		g22 - Common Xfce / Gnome Applications						Evince, Firefox, LibreOffice
-#		g23 - Common Xfce / Gnome Applications Others / External
+#	?	g23 - Common Xfce / Gnome Applications Others / External
 #
-#		g31 - Common LXQt / KDE Applications support
-#		g32 - Common LXQt / KDE Applications
-#		g33 - Common LXQt / KDE Applications Other / External
+#	?	g31 - Common LXQt / KDE Applications support
+#	?	g32 - Common LXQt / KDE Applications
+#	?	g33 - Common LXQt / KDE Applications Other / External
 #
-#		g41 - Xfce Applications support
+#	?	g41 - Xfce Applications support
 #		g42 - Xfce Applications	Additional					        Mousepad, archiver
-#		g43 - Xfce Applications Others / External
+#	?	g43 - Xfce Applications Others / External
 #
-#		g51 - LXQt Applications support
-#		g52 - LXQt Applications Additional
-#		g53 - LXQt Applications Others / External
+#	?	g51 - LXQt Applications support
+#	?	g52 - LXQt Applications Additional
+#	?	g53 - LXQt Applications Others / External
 #
-#		g61 - Gnome Applications support
-#		g62 - Gnome Applications Additional
-#		g63 - Gnome Applications Others / External
+#	?	g61 - Gnome Applications support
+#	?	g62 - Gnome Applications Additional
+#	?	g63 - Gnome Applications Others / External
 #
-#		g71 - KDE Applications support
-#		g72 - KDE Applications Additional
-#		g73 - KDE Applications Others / External
+#	?	g71 - KDE Applications support
+#	?	g72 - KDE Applications Additional
+#	?	g73 - KDE Applications Others / External
 #
 
 
