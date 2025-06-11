@@ -83,6 +83,34 @@ echo "."
 
 ###
 
+echo "g11.43.04.LAME-3.100"
+echo "g11.43.04.LAME-3.100" >> $LFSLOG_PROCESS
+
+time { bash g11.43.04.LAME-3.100.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "g11.43.05.mpg123-1.32.10"
+echo "g11.43.05.mpg123-1.32.10" >> $LFSLOG_PROCESS
+
+time { bash g11.43.05.mpg123-1.32.10.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
 echo "g11.42.40.libsndfile-1.2.2"
 echo "g11.42.40.libsndfile-1.2.2" >> $LFSLOG_PROCESS
 
