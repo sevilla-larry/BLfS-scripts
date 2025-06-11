@@ -46,6 +46,6 @@ VIII. GNOME
 33.42 gnome-shell-47.4
 33.43 gnome-shell-extensions-47.4
 33.44 gnome-session-47.0.1
-33.35 gnome-tweaks-46.1
-33.36 gnome-user-docs-47.2
-33.37 Yelp-42.2
+33.45 gnome-tweaks-46.1
+33.46 gnome-user-docs-47.2
+33.47 Yelp-42.2

@@ -38,6 +38,11 @@ bea190b480f6df249db29eb3bacfe41e SDL2-2.30.11.tar.gz
 fe7bf610883ff202092b92c72fe0fe3e speex-1.2.1.tar.gz
 e6eb5ddef743a362c8018f260b91dca5 speexdsp-1.2.1.tar.gz
 
+# 43.04 LAME-3.100
+83e260acbe4389b54fe08e0bdbf7cddb lame-3.100.tar.gz
+# 43.05 mpg123-1.32.10
+f6d1a69dbf340c8d889b64772e8e0a61 mpg123-1.32.10.tar.bz2
+
 
 # 09.29 JSON-GLib-1.10.6
 #d4bf13ddd1e6d607d039d39286f9e3d0 json-glib-1.10.6.tar.xz

@@ -38,6 +38,11 @@ https://www.libsdl.org/release/SDL2-2.30.11.tar.gz
 https://downloads.xiph.org/releases/speex/speex-1.2.1.tar.gz
 https://downloads.xiph.org/releases/speex/speexdsp-1.2.1.tar.gz
 
+# 43.04 LAME-3.100
+https://downloads.sourceforge.net/lame/lame-3.100.tar.gz
+# 43.05 mpg123-1.32.10
+https://downloads.sourceforge.net/mpg123/mpg123-1.32.10.tar.bz2
+
 
 # 09.29 JSON-GLib-1.10.6
 #https://download.gnome.org/sources/json-glib/1.10/json-glib-1.10.6.tar.xz
