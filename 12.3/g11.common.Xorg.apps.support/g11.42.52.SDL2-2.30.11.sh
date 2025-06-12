@@ -30,7 +30,7 @@ export PKGLOG_BUILD=$PKGLOG_DIR/build.log
 export PKGLOG_INSTALL=$PKGLOG_DIR/install.log
 export PKGLOG_ERROR=$PKGLOG_DIR/error.log
 export LFSLOG_PROCESS=$LFSLOG/process.log
-export SOURCES=`pwd`
+export SOURCESDIR=`pwd`
 
 rm -r $PKGLOG_DIR 2> /dev/null
 mkdir $PKGLOG_DIR
@@ -62,9 +62,9 @@ rm -v /usr/lib/libSDL2*.a   \
     >> $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
     
 
-cd $SOURCES
+cd $SOURCESDIR
 rm -rf $PKG
-unset SOURCES
+unset SOURCESDIR
 unset LFSLOG_PROCESS
 unset PKGLOG_INSTALL PKGLOG_BUILD PKGLOG_CONFIG
 #unset PKGLOG_CHECK

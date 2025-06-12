@@ -43,7 +43,7 @@ sed -i -e 's/^\(\s*hardcode_libdir_flag_spec\s*=\).*/\1/'   \
 echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
 echo "2. Configure ..." >> $PKGLOG_ERROR
-../configure --prefix=/usr      \
+./configure --prefix=/usr      \
              --enable-mp3rtp    \
              --disable-static   \
              > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
