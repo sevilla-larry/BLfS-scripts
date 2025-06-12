@@ -112,7 +112,7 @@ echo "2. Autogen Configure ..." >> $PKGLOG_ERROR
              --sysconfdir=/etc              \
              --with-vendor=BLFS             \
              --with-lang='en en-US'         \
-             --with-help                    \
+             --with-help=html               \
              --with-myspell-dicts           \
              --without-java                 \
              --without-junit                \
