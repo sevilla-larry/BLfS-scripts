@@ -56,6 +56,7 @@ meson setup --prefix=/usr       \
             --buildtype=release \
             -D examples=false   \
             -D gtk_doc=false    \
+            -D vapi=true        \
             ..                  \
     > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
@@ -63,7 +64,6 @@ echo "3. Ninja Build ..."
 echo "3. Ninja Build ..." >> $LFSLOG_PROCESS
 echo "3. Ninja Build ..." >> $PKGLOG_ERROR 
 ninja > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
-
 
 echo "4. Ninja Test ..."
 echo "4. Ninja Test ..." >> $LFSLOG_PROCESS

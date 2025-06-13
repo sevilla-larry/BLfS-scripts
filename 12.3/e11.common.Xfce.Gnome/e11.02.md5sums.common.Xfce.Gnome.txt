@@ -44,6 +44,9 @@ cdfc61b7021a43841845b8fb1593d28c vte-0.78.4.tar.gz
 # 42.53 sound-theme-freedesktop-0.8
 d7387912cfd275282d1ec94483cb2f62 sound-theme-freedesktop-0.8.tar.bz2
 
+# 49.05 itstool-2.0.7
+267a3bdc72a2d8abb1b824f2ea32ee9b itstool-2.0.7.tar.bz2
+
 #####
 
 # 13.01 Cbindgen-0.28.0

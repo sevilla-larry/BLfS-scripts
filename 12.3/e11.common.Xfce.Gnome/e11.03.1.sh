@@ -10,6 +10,20 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
 #####
 
+echo "e11.49.05.itstool-2.0.7"
+echo "e11.49.05.itstool-2.0.7" >> $LFSLOG_PROCESS
+
+time { bash e11.49.05.itstool-2.0.7.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
 echo "e11.09.33.libassuan-3.0.2"
 echo "e11.09.33.libassuan-3.0.2" >> $LFSLOG_PROCESS
 

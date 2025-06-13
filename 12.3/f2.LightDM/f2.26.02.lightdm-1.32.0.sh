@@ -6,7 +6,7 @@
 #
 #               e23.35.04  Exo-4.20.0
 #               a.08.91.35 libgcrypt-1.11.0
-#               f2.49.05   itstool-2.0.7
+#               e11.49.05  itstool-2.0.7
 #               a.08.92.01 Linux-PAM-1.7.0
 #
 # Dependencies Required (Runtime):

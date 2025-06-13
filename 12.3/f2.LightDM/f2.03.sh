@@ -10,20 +10,6 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
 #####
 
-echo "f2.49.05.itstool-2.0.7"
-echo "f2.49.05.itstool-2.0.7" >> $LFSLOG_PROCESS
-
-time { bash f2.49.05.itstool-2.0.7.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
-
-###
-
 echo "f2.26.02.lightdm-1.32.0"
 echo "f2.26.02.lightdm-1.32.0" >> $LFSLOG_PROCESS
 
