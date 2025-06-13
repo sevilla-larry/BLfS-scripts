@@ -9,8 +9,19 @@
 #
 # Dependencies Recommended:
 #
-#               b10.09.42.libgcrypt-1-11.0
-#               e11.13.35 Vala-0.56.17
+#               a.08.91.35 libgcrypt-1.11.0
+#            or a.08.91.63 GnuTLS-3.8.9
+#               e10.13.36  Vala-0.56.17
+#
+# Dependencies Optional:
+#
+#               a.08.91.36 docbook-xml-4.5
+#               a.08.91.37 docbook-xsl-nons-1.79.2
+#               a.08.91.38 libxslt-1.1.43
+#
+# Dependencies Runtime:
+#
+#               gnome-keyring-46.2
 #
 
 #
@@ -23,10 +34,11 @@ export PKGLOG_DIR=$LFSLOG/33.04
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
+export PKGLOG_CHECK=$PKGLOG_DIR/check.log
 export PKGLOG_INSTALL=$PKGLOG_DIR/install.log
 export PKGLOG_ERROR=$PKGLOG_DIR/error.log
 export LFSLOG_PROCESS=$LFSLOG/process.log
-export SOURCES= `pwd`
+export SOURCES=`pwd`
 
 rm -r $PKGLOG_DIR 2> /dev/null
 mkdir $PKGLOG_DIR
@@ -60,11 +72,18 @@ echo "4. Ninja Install ..." >> $LFSLOG_PROCESS
 echo "4. Ninja Install ..." >> $PKGLOG_ERROR
 ninja install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
+echo "5. Ninja Test ..."
+echo "5. Ninja Test ..." >> $LFSLOG_PROCESS
+echo "5. Ninja Test ..." >> $PKGLOG_ERROR
+dbus-run-session ninja test \
+    > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
+
 
 cd $SOURCES
 rm -rf $PKG
 unset SOURCES
 unset LFSLOG_PROCESS
 unset PKGLOG_INSTALL PKGLOG_BUILD PKGLOG_CONFIG
+unset PKGLOG_CHECK
 unset PKGLOG_ERROR PKGLOG_TAR
 unset PKGLOG_DIR PKG

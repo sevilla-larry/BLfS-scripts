@@ -6,12 +6,18 @@
 #
 #               xxx.xx.xx JSON-GLib-1.10.6
 #               xxx.xx.xx libsoup-3.6.4
-#               xxx.xx.xx make-ca-1.15
+#               a.08.91.40 make-ca-1.16
 #                        
 #
 # Dependencies Recommended:
 #
 #               d10.09.17 GLib-2.82.5
+#
+# Dependencies Optional:
+#
+#                           libadwaita-1.6.4
+#                           gtksourceview5-5.14.2
+#               e10.13.36  Vala-0.56.17
 #
 
 #
@@ -24,10 +30,11 @@ export PKGLOG_DIR=$LFSLOG/33.05
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
+export PKGLOG_CHECK=$PKGLOG_DIR/check.log
 export PKGLOG_INSTALL=$PKGLOG_DIR/install.log
 export PKGLOG_ERROR=$PKGLOG_DIR/error.log
 export LFSLOG_PROCESS=$LFSLOG/process.log
-export SOURCES= `pwd`
+export SOURCES=`pwd`
 
 rm -r $PKGLOG_DIR 2> /dev/null
 mkdir $PKGLOG_DIR
@@ -57,9 +64,15 @@ echo "3. Ninja Build ..." >> $LFSLOG_PROCESS
 echo "3. Ninja Build ..." >> $PKGLOG_ERROR 
 ninja > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 
-echo "4. Ninja Install ..."
-echo "4. Ninja Install ..." >> $LFSLOG_PROCESS
-echo "4. Ninja Install ..." >> $PKGLOG_ERROR
+
+echo "4. Ninja Test ..."
+echo "4. Ninja Test ..." >> $LFSLOG_PROCESS
+echo "4. Ninja Test ..." >> $PKGLOG_ERROR
+ninja test > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
+
+echo "5. Ninja Install ..."
+echo "5. Ninja Install ..." >> $LFSLOG_PROCESS
+echo "5. Ninja Install ..." >> $PKGLOG_ERROR
 ninja install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 
@@ -68,5 +81,6 @@ rm -rf $PKG
 unset SOURCES
 unset LFSLOG_PROCESS
 unset PKGLOG_INSTALL PKGLOG_BUILD PKGLOG_CONFIG
+unset PKGLOG_CHECK
 unset PKGLOG_ERROR PKGLOG_TAR
 unset PKGLOG_DIR PKG

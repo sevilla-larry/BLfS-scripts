@@ -5,9 +5,10 @@
 #
 # Dependencies Recommended:
 #
-#               d10.09.17 GLib-2.82.5
-#               xxx.xx.xx libarchive-3.7.7
-#               xxx.xx.xx libgcrypt-1.11.0
+#               d10.09.17  GLib-2.82.5
+#               a.08.91.12 libarchive-3.7.7
+#               a.08.91.35 libgcrypt-1.11.0
+#
 
 #
 # Required by:
@@ -22,7 +23,7 @@ export PKGLOG_BUILD=$PKGLOG_DIR/build.log
 export PKGLOG_INSTALL=$PKGLOG_DIR/install.log
 export PKGLOG_ERROR=$PKGLOG_DIR/error.log
 export LFSLOG_PROCESS=$LFSLOG/process.log
-export SOURCES= `pwd`
+export SOURCES=`pwd`
 
 rm -r $PKGLOG_DIR 2> /dev/null
 mkdir $PKGLOG_DIR
