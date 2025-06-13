@@ -7,6 +7,10 @@
 #               g21.25.22 gtksourceview4-4.8.4
 #               e23.35.03 libxfce4ui-4.20.0
 #
+# Dependencies Recommended (but required):
+#
+#               g21.09.23 gspell-1.14.0
+
 
 export PKG="mousepad-0.6.3"
 export PKGLOG_DIR=$LFSLOG/06.07

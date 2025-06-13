@@ -22,6 +22,20 @@ echo "." >> $LFSLOG_PROCESS
 echo "."
 echo "."
 
+###
+
+echo "g21.09.23.gspell-1.14.0"
+echo "g21.09.23.gspell-1.14.0" >> $LFSLOG_PROCESS
+
+time { bash g21.09.23.gspell-1.14.0.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
 #####
 
 unset LFSLOG_PROCESS

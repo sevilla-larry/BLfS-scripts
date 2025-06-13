@@ -1,6 +1,11 @@
+# 09.06 Aspell-0.60.8.1
+https://ftp.gnu.org/gnu/aspell/aspell-0.60.8.1.tar.gz
+https://ftp.gnu.org/gnu/aspell/dict/en/aspell6-en-2020.12.07-0.tar.bz2
 # 09.09 CLucene-2.3.3.4
 https://downloads.sourceforge.net/clucene/clucene-core-2.3.3.4.tar.gz
 https://www.linuxfromscratch.org/patches/blfs/12.2/clucene-2.3.3.4-contribs_lib-1.patch
+# 09.13 enchant-2.8.2
+https://github.com/rrthomas/enchant/releases/download/v2.8.2/enchant-2.8.2.tar.gz
 # 09.35 libatomic_ops-7.8.2
 https://github.com/bdwgc/libatomic_ops/releases/download/v7.8.2/libatomic_ops-7.8.2.tar.gz
 #https://github.com/ivmai/libatomic_ops/releases/download/v7.8.2/libatomic_ops-7.8.2.tar.gz

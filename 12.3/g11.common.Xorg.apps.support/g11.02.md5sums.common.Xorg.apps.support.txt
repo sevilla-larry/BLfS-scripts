@@ -1,6 +1,11 @@
+# 09.06 Aspell-0.60.8.1
+187bd142f522ada555c7aa6b9cbf56e6 aspell-0.60.8.1.tar.gz
+#								 aspell6-en-2020.12.07-0.tar.bz2
 # 09.09 CLucene-2.3.3.4
 48d647fbd8ef8889e5a7f422c1bfda94 clucene-core-2.3.3.4.tar.gz
 #patch
+# 09.13 enchant-2.8.2
+92dcfe06febc92a3d4bbff4e08b08d3d enchant-2.8.2.tar.gz
 # 09.35 libatomic_ops-7.8.2
 d07b3d8369d7f9efdca59f7501dd1117 libatomic_ops-7.8.2.tar.gz
 #
