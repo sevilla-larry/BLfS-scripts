@@ -8,5 +8,7 @@ fe89767a933839ec9c784a73f6a0585c libreoffice-dictionaries-25.2.1.2.tar.xz
 ff2232d569cc9d6ad6a59eea2e57dc86 libreoffice-translations-25.2.1.2.tar.xz
 #patch
 
-# 40.03 Firefox-128.7.0esr (errata)
-aab1f335242b809813d1d4b754d10c0b firefox-128.7.0esr.source.tar.xz
+# 40.03 Firefox-128.7.0esr
+# aab1f335242b809813d1d4b754d10c0b firefox-128.7.0esr.source.tar.xz
+# 40.03 Firefox-128.11.0esr (errata)
+0c47aafa4d9bf5cd13617343335913b8 firefox-128.11.0esr.source.tar.xz

@@ -50,6 +50,10 @@ e6eb5ddef743a362c8018f260b91dca5 speexdsp-1.2.1.tar.gz
 # 43.05 mpg123-1.32.10
 f6d1a69dbf340c8d889b64772e8e0a61 mpg123-1.32.10.tar.bz2
 
+# 44.01 FFmpeg-7.1
+#623aa63a72139a82ccb99cd6ee477b94 ffmpeg-7.1.tar.xz
+#								  ffmpeg-7.1-chromium_method-1.patch
+#								  ffmpeg-7.1-texinfo_fix-1.patch
 
 # 09.29 JSON-GLib-1.10.6
 #d4bf13ddd1e6d607d039d39286f9e3d0 json-glib-1.10.6.tar.xz

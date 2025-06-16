@@ -1,4 +1,5 @@
-# g22.40.03.Firefox-128.7.0esr.sh
+# g22.40.03.Firefox-128.11.0esr.sh
+# (errata)
 #
 
 #
@@ -7,7 +8,7 @@
 #               e10.13.02  Cbindgen-0.28.0
 #               e11.25.16  GTK-3.24.48
 #               e21.25.35  libnotify-0.8.4
-#               a.08.91.12 libarchive-3.7.7
+#               a.08.91.12 libarchive-3.8.1 (errata)
 #               d10.13.13  LLVM-19.1.7
 #               g11.09.80  Node.js-22.14.0
 #               g11.42.49  PulseAudio-17.0
@@ -18,20 +19,20 @@
 #
 #               a.08.91.07 icu-76.1
 #               a.08.91.14 libevent-2.1.12
-#               g11.42.45  libvpx-1.15.0
+#               g11.42.45  libvpx-1.15.2    (errata)
 #               g11.10.27  libwebp-1.5.0
 #               e10.13.17  NASM-2.16.03
 #               a.08.91.32 NSS-3.108
 #
 # Dependencies Optional:
 #
-#               a.08.93.04 cURL-8.12.1
+#               a.08.93.04 cURL-8.14.1      (errata)
 #               a.08.91.71 pciutils-3.13.0
 #               a.08.93.02 WGet-1.25.0
 #               e10.13.38  yasm-1.3.0
 #
 
-export PKG="firefox-128.7.0"
+export PKG="firefox-128.11.0"
 export PKG0=$PKG"esr.source"
 export PKGLOG_DIR=$LFSLOG/40.03
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log

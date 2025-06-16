@@ -50,6 +50,10 @@ https://downloads.sourceforge.net/lame/lame-3.100.tar.gz
 # 43.05 mpg123-1.32.10
 https://downloads.sourceforge.net/mpg123/mpg123-1.32.10.tar.bz2
 
+# 44.01 FFmpeg-7.1
+#https://ffmpeg.org/releases/ffmpeg-7.1.tar.xz
+#https://www.linuxfromscratch.org/patches/blfs/12.3/ffmpeg-7.1-chromium_method-1.patch
+#https://www.linuxfromscratch.org/patches/blfs/12.3/ffmpeg-7.1-texinfo_fix-1.patch
 
 # 09.29 JSON-GLib-1.10.6
 #https://download.gnome.org/sources/json-glib/1.10/json-glib-1.10.6.tar.xz
