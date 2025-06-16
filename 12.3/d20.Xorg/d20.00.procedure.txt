@@ -211,11 +211,21 @@ C.  Generate BLFS - Graphical Components / Environments
             allowed_users=anybody
             needs_root_rights=yes
 
-        reboot
+        exit ### or logout # to user
+
+        $$$
+
+        $$$ due to some bug, user needs to create .cache in user's home directory
+
+        mkdir ~/.cache
+
+        sudo reboot
+
+        $$$
 
   C.04. [BLFS 24] Graphical Environments - Xorg - Runtime
 
-        # login as user
+        $$$ login as user
 
         startx
 

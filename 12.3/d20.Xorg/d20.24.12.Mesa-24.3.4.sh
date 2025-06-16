@@ -143,7 +143,7 @@ case "$COMPUTER_TYPE" in
         export VULKAN_DRIVERS=
 #        export VULKAN_DRIVERS=swrast
         ;;
-    "C")
+    "PC")
         export GALLIUM_DRIVERS=crocus
 #        export VULKAN_DRIVERS=intel_hasvk
         ;;
