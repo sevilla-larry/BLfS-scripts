@@ -10,10 +10,10 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
 #####
 
-echo "c12.22.04.PostgreSQL-17.4"
-echo "c12.22.04.PostgreSQL-17.4" >> $LFSLOG_PROCESS
+echo "c12.22.04.PostgreSQL-17.5"
+echo "c12.22.04.PostgreSQL-17.5" >> $LFSLOG_PROCESS
 
-time { bash c12.22.04.PostgreSQL-17.4.sh ; }
+time { bash c12.22.04.PostgreSQL-17.5.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

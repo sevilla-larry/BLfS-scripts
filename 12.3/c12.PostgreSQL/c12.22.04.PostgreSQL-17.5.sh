@@ -1,4 +1,5 @@
-# c12.22.04.PostgreSQL-17.4.sh
+# c12.22.04.PostgreSQL-17.5.sh
+# (errata)
 #
 
 #
@@ -21,7 +22,7 @@
 #               c14.20.04 ProFTPD-1.3.8b
 #
 
-export PKG="postgresql-17.4"
+export PKG="postgresql-17.5"
 export PKGLOG_DIR=$LFSLOG/22.04
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
@@ -59,7 +60,7 @@ echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
 echo "2. Configure ..." >> $PKGLOG_ERROR
 ./configure --prefix=/usr          \
-            --docdir=/usr/share/doc/postgresql-17.4 \
+            --docdir=/usr/share/doc/postgresql-17.5 \
             > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Make Build ..."

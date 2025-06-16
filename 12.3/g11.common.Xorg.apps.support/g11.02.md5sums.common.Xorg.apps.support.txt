@@ -32,7 +32,9 @@ a33993309322164867c99e04a4000ee3 Archive-Zip-1.68.tar.gz
 # 42.40 libsndfile-1.2.2
 04e2e6f726da7c5dc87f8cf72f250d04 libsndfile-1.2.2.tar.xz
 # 42.45 libvpx-1.15.0
-6d2b7b8e1c06f4b10ae63ca22491f8a4 libvpx-1.15.0.tar.gz
+# 6d2b7b8e1c06f4b10ae63ca22491f8a4 libvpx-1.15.0.tar.gz
+# 42.45 libvpx-1.15.2	(errata)
+4c7a93808c12b359733430c8377b7fcf libvpx-1.15.2.tar.gz
 # 42.47 Opus-1.5.2
 c40b3a1fbdbb9a7aa178600b88200c76 opus-1.5.2.tar.gz
 # 42.49 PulseAudio-17.0

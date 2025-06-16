@@ -51,7 +51,9 @@ d950171ac5ea4a1a20cb8f6eb9f1c8eb llvm-third-party-19.1.7.src.tar.xz
 # 13.23.07 docutils-0.21.2
 c4064e1e0e3cd142951fd2b95b830874 docutils-0.21.2.tar.gz
 # 13.23.12 lxml-5.3.1
-9d94cc157fb6db0c062ef80cdc0ed307 lxml-5.3.1.tar.gz
+# 9d94cc157fb6db0c062ef80cdc0ed307 lxml-5.3.1.tar.gz
+# 13.23.12 lxml-5.4.0	(errata)
+687bd12393569b435290da6c599664f9 lxml-5.4.0.tar.gz
 
 # 49.06 xmlto-0.0.29
 556f2642cdcd005749bd4c08bc621c37 xmlto-0.0.29.tar.gz

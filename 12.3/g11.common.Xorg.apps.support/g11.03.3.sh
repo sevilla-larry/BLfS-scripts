@@ -26,10 +26,10 @@ echo "."
 
 ###
 
-echo "g11.42.45.libvpx-1.15.0"
-echo "g11.42.45.libvpx-1.15.0" >> $LFSLOG_PROCESS
+echo "g11.42.45.libvpx-1.15.2"
+echo "g11.42.45.libvpx-1.15.2" >> $LFSLOG_PROCESS
 
-time { bash g11.42.45.libvpx-1.15.0.sh ; }
+time { bash g11.42.45.libvpx-1.15.2.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

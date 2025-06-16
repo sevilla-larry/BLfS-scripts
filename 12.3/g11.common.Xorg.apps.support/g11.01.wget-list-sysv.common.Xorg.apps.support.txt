@@ -32,7 +32,9 @@ https://github.com/xiph/flac/releases/download/1.5.0/flac-1.5.0.tar.xz
 # 42.40 libsndfile-1.2.2
 https://github.com/libsndfile/libsndfile/releases/download/1.2.2/libsndfile-1.2.2.tar.xz
 # 42.45 libvpx-1.15.0
-https://github.com/webmproject/libvpx/archive/v1.15.0/libvpx-1.15.0.tar.gz
+# https://github.com/webmproject/libvpx/archive/v1.15.0/libvpx-1.15.0.tar.gz
+# 42.45 libvpx-1.15.2	(errata)
+https://github.com/webmproject/libvpx/archive/v1.15.2/libvpx-1.15.2.tar.gz
 # 42.47 Opus-1.5.2
 https://downloads.xiph.org/releases/opus/opus-1.5.2.tar.gz
 # 42.49 PulseAudio-17.0

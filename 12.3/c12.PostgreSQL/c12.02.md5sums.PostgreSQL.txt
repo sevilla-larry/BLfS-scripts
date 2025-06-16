@@ -1,2 +1,4 @@
 # 22.04 PostgreSQL-17.4
-4d5f4119cabe4adeb5ce8b5377928578 postgresql-17.4.tar.bz2
+# 4d5f4119cabe4adeb5ce8b5377928578 postgresql-17.4.tar.bz2
+# 22.04 PostgreSQL-17.5		(errata)
+8831df48f22433ef3a3b53d20b47acea postgresql-17.5.tar.bz2

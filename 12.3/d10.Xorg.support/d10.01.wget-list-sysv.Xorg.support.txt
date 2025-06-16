@@ -51,7 +51,9 @@ https://github.com/llvm/llvm-project/releases/download/llvmorg-19.1.7/compiler-r
 # 13.23.07 docutils-0.21.2
 https://files.pythonhosted.org/packages/source/d/docutils/docutils-0.21.2.tar.gz
 # 13.23.12 lxml-5.3.1
-https://files.pythonhosted.org/packages/source/l/lxml/lxml-5.3.1.tar.gz
+# https://files.pythonhosted.org/packages/source/l/lxml/lxml-5.3.1.tar.gz
+# 13.23.12 lxml-5.4.0	(errata)
+https://files.pythonhosted.org/packages/source/l/lxml/lxml-5.4.0.tar.gz
 
 # 49.06 xmlto-0.0.29
 https://pagure.io/xmlto/archive/0.0.29/xmlto-0.0.29.tar.gz

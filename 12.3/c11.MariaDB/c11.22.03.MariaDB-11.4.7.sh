@@ -1,4 +1,5 @@
-# c11.22.03.MariaDB-11.4.5.sh
+# c11.22.03.MariaDB-11.4.7.sh
+# (errata)
 #
 
 #
@@ -25,10 +26,6 @@
 #
 
 #
-# Recommended by:
-#
-#               g22.39.03 LibreOffice-25.2.1
-#
 # Optional by:
 #
 #               c13.09.05 Apr-Util-1.6.3    (Apache)
@@ -36,7 +33,7 @@
 #               g22.39.03 LibreOffice-25.2.1    (not used)
 #
 
-export PKG="mariadb-11.4.5"
+export PKG="mariadb-11.4.7"
 export PKGLOG_DIR=$LFSLOG/22.03
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
@@ -75,8 +72,8 @@ echo "2. CMake Configure ..." >> $PKGLOG_ERROR
 cmake -D CMAKE_BUILD_TYPE=Release                       \
       -D CMAKE_INSTALL_PREFIX=/usr                      \
       -D GRN_LOG_PATH=/var/log/groonga.log              \
-      -D INSTALL_DOCDIR=share/doc/mariadb-11.4.5        \
-      -D INSTALL_DOCREADMEDIR=share/doc/mariadb-11.4.5  \
+      -D INSTALL_DOCDIR=share/doc/mariadb-11.4.7        \
+      -D INSTALL_DOCREADMEDIR=share/doc/mariadb-11.4.7  \
       -D INSTALL_MANDIR=share/man                       \
       -D INSTALL_MYSQLSHAREDIR=share/mariadb            \
       -D INSTALL_MYSQLTESTDIR=share/mariadb/test        \
@@ -93,6 +90,7 @@ cmake -D CMAKE_BUILD_TYPE=Release                       \
       -D WITH_EMBEDDED_SERVER=ON                        \
       -D SKIP_TESTS=ON                                  \
       -D TOKUDB_OK=0                                    \
+      -W no-dev                                         \
       ..                                                \
       > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 

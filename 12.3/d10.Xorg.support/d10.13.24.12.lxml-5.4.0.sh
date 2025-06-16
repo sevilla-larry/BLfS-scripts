@@ -1,4 +1,5 @@
-# d10.13.24.12.lxml-5.3.1.sh
+# d10.13.24.12.lxml-5.4.0.sh
+# (errata)
 #
 
 #
@@ -17,7 +18,7 @@
 #               d10.12.12 elogind-255.17
 #
 
-export PKG="lxml-5.3.1"
+export PKG="lxml-5.4.0"
 export PKGLOG_DIR=$LFSLOG/13.24.12
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log

@@ -1,4 +1,5 @@
-# g11.42.45.libvpx-1.15.0.sh
+# g11.42.45.libvpx-1.15.2.sh
+# (errata)
 #
 
 #
@@ -10,8 +11,8 @@
 #
 # Dependencies Optional:
 #
-#               a.08.93.04 cURL-8.12.1
-#               a.08.91.40 make-ca-1.16
+#               a.08.93.04 cURL-8.14.1  (errata)
+#               a.08.91.40 make-ca-1.16 (errata)
 #
 
 #
@@ -20,7 +21,7 @@
 #               g22.40.03 Firefox-128.7.0esr
 #
 
-export PKG="libvpx-1.15.0"
+export PKG="libvpx-1.15.2"
 export PKGLOG_DIR=$LFSLOG/42.45
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log

@@ -10,10 +10,10 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
 #####
 
-echo "c11.22.03.MariaDB-11.4.5"
-echo "c11.22.03.MariaDB-11.4.5" >> $LFSLOG_PROCESS
+echo "c11.22.03.MariaDB-11.4.7"
+echo "c11.22.03.MariaDB-11.4.7" >> $LFSLOG_PROCESS
 
-time { bash c11.22.03.MariaDB-11.4.5.sh ; }
+time { bash c11.22.03.MariaDB-11.4.7.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
