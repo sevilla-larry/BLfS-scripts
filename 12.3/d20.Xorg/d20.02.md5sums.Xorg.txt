@@ -53,16 +53,16 @@ f8bffb37b6dcbb9757c2a8f7484e5085 xterm-397.tgz
 
 # 25.12 Glslang-15.1.0
 # 2bf049666f223732fc18d6c8b16b98cf glslang-15.1.0.tar.gz
-# 25.34 Libdrm-2.4.124
+# 25.33 Libdrm-2.4.124
 78f7f7ee6aff711696d4b34465b40728 libdrm-2.4.124.tar.xz
-# 25.35 libepoxy-1.5.10
+# 25.34 libepoxy-1.5.10
 10c635557904aed5239a4885a7c4efb7 libepoxy-1.5.10.tar.xz
 # 25.43 Vulkan-Headers-1.4.304
 # d3a2b80defd95f06387ff78029d8452e Vulkan-Headers-1.4.304.tar.gz
 # 25.44 Vulkan-Loader-1.4.304
 # bda057142f094da44dfa8efbf342f503 Vulkan-Loader-1.4.304.tar.gz
 
-# 42.22 intel-vaapi-driver-2.4.1.sh / CPU/iGPU i7-4790
+# 42.21 intel-vaapi-driver-2.4.1.sh / CPU/iGPU i7-4790
 073fce0f409559109ad2dd0a6531055d intel-vaapi-driver-2.4.1.tar.bz2
 # 42.41 libva-2.22.0 (errata, wrong MD5sum)
 8dba13313d724b5e930f06e65b7437e2 libva-2.22.0.tar.gz

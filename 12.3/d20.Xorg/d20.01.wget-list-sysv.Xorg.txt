@@ -62,7 +62,7 @@ https://download.gnome.org/sources/libepoxy/1.5/libepoxy-1.5.10.tar.xz
 # 25.44 Vulkan-Loader-1.4.304
 # https://github.com/KhronosGroup/Vulkan-Loader/archive/v1.4.304/Vulkan-Loader-1.4.304.tar.gz
 
-# 42.22 intel-vaapi-driver-2.4.1.sh / CPU/iGPU i7-4790
+# 42.21 intel-vaapi-driver-2.4.1.sh / CPU/iGPU i7-4790
 # https://github.com/intel/intel-vaapi-driver/releases/download/2.4.1/intel-vaapi-driver-2.4.1.tar.bz2
 # 42.41 libva-2.22.0
 # https://github.com/intel/libva/archive/2.22.0/libva-2.22.0.tar.gz
