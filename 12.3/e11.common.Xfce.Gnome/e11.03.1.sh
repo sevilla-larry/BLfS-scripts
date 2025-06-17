@@ -192,20 +192,6 @@ echo "."
 
 ###
 
-echo "e11.33.07.VTE-0.78.4"
-echo "e11.33.07.VTE-0.78.4" >> $LFSLOG_PROCESS
-
-time { bash e11.33.07.VTE-0.78.4.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
-
-###
-
 echo "e11.12.02.AccountsService-23.13.9"
 echo "e11.12.02.AccountsService-23.13.9" >> $LFSLOG_PROCESS
 
