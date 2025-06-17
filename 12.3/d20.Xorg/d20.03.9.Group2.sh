@@ -21,15 +21,15 @@ bash d20.03.1.Part04.09-10.sh
 bash d20.03.1.Part05.11.sh
 bash d20.03.1.Part06.25.33.sh
 
-# if	[ "$COMPUTER_TYPE" = "PC" ]; then
-# 	bash d20.03.1.Part07.42-1.PC.sh
-# fi
+if	[ "$COMPUTER_TYPE" = "PC" ]; then
+	bash d20.03.1.Part07.42-1.PC.sh
+fi
 
 bash d20.03.1.Part08.12.sh
 
-# if	[ "$COMPUTER_TYPE" = "PC" ]; then
-# 	bash d20.03.1.Part09.42-2.PC.sh
-# fi
+if	[ "$COMPUTER_TYPE" = "PC" ]; then
+	bash d20.03.1.Part09.42-2.PC.sh
+fi
 
 bash d20.03.1.Part10.13.sh
 bash d20.03.1.Part11.14.sh

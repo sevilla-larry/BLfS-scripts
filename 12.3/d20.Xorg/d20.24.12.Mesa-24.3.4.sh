@@ -145,7 +145,7 @@ case "$COMPUTER_TYPE" in
         ;;
     "PC")
         export GALLIUM_DRIVERS=crocus
-#        export VULKAN_DRIVERS=intel_hasvk
+        export VULKAN_DRIVERS=intel_hasvk
         ;;
     *)
         echo "Error: COMPUTER_TYPE must be VM, VB or PC"

@@ -13,19 +13,33 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
 #####
 
-# echo "d20.42.41.libva-2.22.0 - before Mesa"
-# echo "d20.42.41.libva-2.22.0 - before Mesa" >> $LFSLOG_PROCESS
-#
-# export PKGPASS=1
-# time { bash d20.42.41.libva-2.22.0.sh ; }
-# unset PKGPASS
-# 
-# date +"%Y/%b/%d %H:%M"
-# date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+echo "d20.42.41.libva-2.22.0 - before Mesa"
+echo "d20.42.41.libva-2.22.0 - before Mesa" >> $LFSLOG_PROCESS
 
-# echo "." >> $LFSLOG_PROCESS
-# echo "."
-# echo "."
+export PKGPASS=1
+time { bash d20.42.41.libva-2.22.0.sh ; }
+unset PKGPASS
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "d20.42.42.libvdpau-1.5"
+echo "d20.42.42.libvdpau-1.5" >> $LFSLOG_PROCESS
+
+time { bash d20.42.42.libvdpau-1.5.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
 
 ###
 
@@ -110,20 +124,6 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 echo "." >> $LFSLOG_PROCESS
 echo "."
 echo "."
-
-###
-
-# echo "d20.42.42.libvdpau-1.5"
-# echo "d20.42.42.libvdpau-1.5" >> $LFSLOG_PROCESS
-#
-# time { bash d20.42.42.libvdpau-1.5.sh ; }
-#
-# date +"%Y/%b/%d %H:%M"
-# date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-#
-# echo "." >> $LFSLOG_PROCESS
-# echo "."
-# echo "."
 
 #####
 
