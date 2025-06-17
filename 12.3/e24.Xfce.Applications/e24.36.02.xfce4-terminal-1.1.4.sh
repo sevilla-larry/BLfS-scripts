@@ -5,7 +5,7 @@
 # Dependencies Required:
 #
 #               e23.35.03 libxfce4ui-4.20.0
-#               e11.33.07 VTE-0.78.4
+#               e21.33.07 VTE-0.78.4
 #
 
 export PKG="xfce4-terminal-1.1.4"
