@@ -1,12 +1,12 @@
 # 09.71 libxkbcommon-1.8.0
 e63cb7f5a395a1575246717882b96664 libxkbcommon-1.8.0.tar.gz
 # 09.90 SPIRV-Headers-1.4.304.1
-# 7421a1530b7a8187a17d0a80547fa44c SPIRV-Headers-vulkan-sdk-1.4.304.1.tar.gz
+7421a1530b7a8187a17d0a80547fa44c SPIRV-Headers-vulkan-sdk-1.4.304.1.tar.gz
 # 09.91 SPIRV-Tools-1.4.304.1
-# b7fe16af4e1954b5479f3c55ca3eea9b SPIRV-Tools-vulkan-sdk-1.4.304.1.tar.gz
+b7fe16af4e1954b5479f3c55ca3eea9b SPIRV-Tools-vulkan-sdk-1.4.304.1.tar.gz
 
 # 13.24.16 ply-3.11
-# 6465f602e656455affcd7c5734c638f8 ply-3.11.tar.gz
+6465f602e656455affcd7c5734c638f8 ply-3.11.tar.gz
 
 # 24.02 ---> .07
 5f683a1966834b0a6ae07b3680bcb863 util-macros-1.20.2.tar.xz

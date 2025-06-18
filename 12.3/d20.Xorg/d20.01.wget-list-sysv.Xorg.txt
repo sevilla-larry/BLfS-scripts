@@ -1,12 +1,12 @@
 # 09.71 libxkbcommon-1.8.0
 https://github.com/lfs-book/libxkbcommon/archive/v1.8.0/libxkbcommon-1.8.0.tar.gz
 # 09.90 SPIRV-Headers-1.4.304.1
-# https://github.com/KhronosGroup/SPIRV-Headers/archive/vulkan-sdk-1.4.304.1/SPIRV-Headers-vulkan-sdk-1.4.304.1.tar.gz
+https://github.com/KhronosGroup/SPIRV-Headers/archive/vulkan-sdk-1.4.304.1/SPIRV-Headers-vulkan-sdk-1.4.304.1.tar.gz
 # 09.91 SPIRV-Tools-1.4.304.1
-# https://github.com/KhronosGroup/SPIRV-Tools/archive/vulkan-sdk-1.4.304.1/SPIRV-Tools-vulkan-sdk-1.4.304.1.tar.gz
+https://github.com/KhronosGroup/SPIRV-Tools/archive/vulkan-sdk-1.4.304.1/SPIRV-Tools-vulkan-sdk-1.4.304.1.tar.gz
 
 # 13.24.16 ply-3.11
-# https://files.pythonhosted.org/packages/source/p/ply/ply-3.11.tar.gz
+https://files.pythonhosted.org/packages/source/p/ply/ply-3.11.tar.gz
 
 # 24.02 ---> .07
 https://www.x.org/pub/individual/util/util-macros-1.20.2.tar.xz
