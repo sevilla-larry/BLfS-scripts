@@ -5,10 +5,10 @@
 # Dependencies Required:
 #
 #               e42.33.01.Gcr-3.41.2
-#               xxx.xx.xx JSON-GLib-1.10.6
-#               xxx.xx.xx libadwaita-1.6.4
-#               e42.33.05.rest-0.9.1
-#               e11.13.35 Vala-0.56.17
+#               e13.09.29 JSON-GLib-1.10.6
+#               xxx.25.28 libadwaita-1.6.4
+#               e42.33.05 rest-0.9.1
+#               e11.13.36 Vala-0.56.17
 #
 # Dependencies Recommended:
 #
@@ -53,7 +53,7 @@ meson setup --prefix=/usr           \
             -D google_client_secret=5ntt6GbbkjnTVXx-MSxbmx5e     \
             -D google_client_id=595013732528-llk8trb03f0ldpqq6nprjp1s79596646.apps.googleusercontent.com    \
             ..                      \
-    > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+            > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Ninja Build ..."
 echo "3. Ninja Build ..." >> $LFSLOG_PROCESS

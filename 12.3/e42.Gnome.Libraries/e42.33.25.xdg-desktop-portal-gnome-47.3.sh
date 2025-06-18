@@ -5,9 +5,12 @@
 # Dependencies Required:
 #
 #                e42.33.12.gnome-desktop-44.1
-#                xxx.xx.xx GTK-4.16.12
-#                xxx.xx.xx libadwaita-1.6.4
-#                xxx.xx.xx xdg-desktop-portal-1.20.0
+#                e41.25.17 GTK-4.16.12
+#                xxx.25.28 libadwaita-1.6.4
+#                e13.25.48 xdg-desktop-portal-1.20.0
+#
+# Dependencies Required (runtime):
+#
 #                xxx.xx.xx xdg-desktop-portal-gtk-1.15.2
 #                   
 
@@ -23,6 +26,7 @@ export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
 export PKGLOG_INSTALL=$PKGLOG_DIR/install.log
 export PKGLOG_ERROR=$PKGLOG_DIR/error.log
+export PKGLOG_OTHERS=$PKGLOG_DIR/others.log
 export LFSLOG_PROCESS=$LFSLOG/process.log
 export SOURCES=`pwd`
 
@@ -46,7 +50,7 @@ meson setup --prefix=/usr           \
             --buildtype=release     \
             -D systemduserunitdir=/tmp \
             ..
-    > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+            > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Ninja Build ..."
 echo "3. Ninja Build ..." >> $LFSLOG_PROCESS
@@ -58,13 +62,15 @@ echo "4. Ninja Install ..." >> $LFSLOG_PROCESS
 echo "4. Ninja Install ..." >> $PKGLOG_ERROR
 ninja install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
-rm -vf /tmp/*.service
+rm -vf /tmp/*.service   \
+            >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
 
 
 cd $SOURCES
 rm -rf $PKG
 unset SOURCES
 unset LFSLOG_PROCESS
+unset PKGLOG_OTHERS
 unset PKGLOG_INSTALL PKGLOG_BUILD PKGLOG_CONFIG
 unset PKGLOG_ERROR PKGLOG_TAR
 unset PKGLOG_DIR PKG

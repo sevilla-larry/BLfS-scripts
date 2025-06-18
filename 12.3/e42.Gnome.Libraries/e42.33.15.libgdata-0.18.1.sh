@@ -4,14 +4,14 @@
 # Dependencies Required:
 #
 #               xxx.xx.xx libsoup-2.74.3
-#               e42.33.14.gnome-online-accounts-3.52.3.1
-#               xxx.xx.xx GTK-3.24.48
-#               xxx.xx.xx JSON-GLib-1.10.6
-#               e11.13.35 Vala-0.56.17
+#               e42.33.14 gnome-online-accounts-3.52.3.1
+#               e11.25.16 GTK-3.24.48
+#               e13.09.29 JSON-GLib-1.10.6
+#               e10.13.36 Vala-0.56.17
 #
 # Dependencies Recommended:
 #
-#               e42.33.01.Gcr-3.41.2
+#               e42.33.01 Gcr-3.41.2
 #               d10.09.17 GLib-2.82.5
 #
 
@@ -51,7 +51,7 @@ meson setup --prefix=/usr           \
             -D gtk_doc=false        \
             -D always_build_tests=false \
             ..                      \
-    > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+            > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Ninja Build ..."
 echo "3. Ninja Build ..." >> $LFSLOG_PROCESS

@@ -4,17 +4,20 @@
 #
 # Dependencies Required:
 #
-#               xxx.xx.xx JSON-GLib-1.10.6
+#               e13.09.29 JSON-GLib-1.10.6
 #               e11.13.35 Vala-0.56.17
 #
 # Dependencies Recommended:
 #
-#                d10.09.17 GLib-2.82.5
-#                xxx.xx.xx ICU-76.1
-#                xxx.xx.xx libsoup-3.6.4
-#                xxx.xx.xx localsearch-3.8.2
-#                xxx.xx.xx PyGObject-3.50.0
-#                xxx.xx.xx SQLite-3.49.1
+#               d10.09.17  GLib-2.82.5
+#               a.08.91.07 icu-76.1
+#                           libsoup-2.74.3
+#                           PyGObject-3.50.0
+#               a.08.91.18 SQLite-3.49.1
+#
+# Dependencies Recommended (runtime)
+#
+#               e42.33.23 localsearch-3.8.2
 #               
 
 #
@@ -29,6 +32,7 @@ export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
 export PKGLOG_INSTALL=$PKGLOG_DIR/install.log
 export PKGLOG_ERROR=$PKGLOG_DIR/error.log
+export PKGLOG_OTHERS=$PKGLOG_DIR/others.log
 export LFSLOG_PROCESS=$LFSLOG/process.log
 export SOURCES=`pwd`
 
@@ -42,6 +46,12 @@ tar xvf $PKG.tar.xz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
 
 
+mv -v docs/reference/libtracker-sparql/doc/{Tsparql-3.0,tinysparql-3.8.2}   \
+        >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
+sed '/docs_name/s/Tsparql-3.0/tinysparql-3.8.2/'    \
+    -i docs/reference/libtracker-sparql/meson.build \
+        >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
+
 mkdir build
 cd    build
 
@@ -53,7 +63,7 @@ meson setup --prefix=/usr           \
             -D man=false                   \
             -D systemd_user_services=false \
             ..
-    > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+            > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Ninja Build ..."
 echo "3. Ninja Build ..." >> $LFSLOG_PROCESS
@@ -65,11 +75,24 @@ echo "4. Ninja Install ..." >> $LFSLOG_PROCESS
 echo "4. Ninja Install ..." >> $PKGLOG_ERROR
 ninja install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
+echo "5. Meson Configure Test ..."
+echo "5. Meson Configure Test ..." >> $LFSLOG_PROCESS
+echo "5. Meson Configure Test ..." >> $PKGLOG_ERROR
+ meson configure -D debug=true  \
+             > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
+
+echo "6. Ninja Test ..."
+echo "6. Ninja Test ..." >> $LFSLOG_PROCESS
+echo "6. Ninja Test ..." >> $PKGLOG_ERROR
+LC_ALL=C ninja test             \
+            >> $PKGLOG_CHECK 2>> $PKGLOG_ERROR
+
 
 cd $SOURCES
 rm -rf $PKG
 unset SOURCES
 unset LFSLOG_PROCESS
+unset PKGLOG_OTHERS
 unset PKGLOG_INSTALL PKGLOG_BUILD PKGLOG_CONFIG
 unset PKGLOG_ERROR PKGLOG_TAR
 unset PKGLOG_DIR PKG

@@ -4,8 +4,8 @@
 #
 # Dependencies Required:
 #
-#               xxx.xx.xx libarchive-3.7.7
-#               xxx.xx.xx GTK-3.24.48
+#               a.08.91.12 libarchive-3.8.1 (errata)
+#               e11.25.16  GTK-3.24.48
 #
 # Dependencies Recommended:
 #
@@ -22,6 +22,7 @@ export PKGLOG_DIR=$LFSLOG/33.11
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
+export PKGLOG_CHECK=$PKGLOG_DIR/check.log
 export PKGLOG_INSTALL=$PKGLOG_DIR/install.log
 export PKGLOG_ERROR=$PKGLOG_DIR/error.log
 export LFSLOG_PROCESS=$LFSLOG/process.log
@@ -48,16 +49,21 @@ meson setup --prefix=/usr           \
             -D vapi=true            \
             -D tests=true           \
             ..                      \
-    > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+            > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Ninja Build ..."
 echo "3. Ninja Build ..." >> $LFSLOG_PROCESS
 echo "3. Ninja Build ..." >> $PKGLOG_ERROR 
 ninja > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 
-echo "4. Ninja Install ..."
-echo "4. Ninja Install ..." >> $LFSLOG_PROCESS
-echo "4. Ninja Install ..." >> $PKGLOG_ERROR
+echo "4. Ninja Test ..."
+echo "4. Ninja Test ..." >> $LFSLOG_PROCESS
+echo "4. Ninja Test ..." >> $PKGLOG_ERROR
+ninja test > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
+
+echo "5. Ninja Install ..."
+echo "5. Ninja Install ..." >> $LFSLOG_PROCESS
+echo "5. Ninja Install ..." >> $PKGLOG_ERROR
 ninja install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 
@@ -66,5 +72,6 @@ rm -rf $PKG
 unset SOURCES
 unset LFSLOG_PROCESS
 unset PKGLOG_INSTALL PKGLOG_BUILD PKGLOG_CONFIG
+unset PKGLOG_CHECK
 unset PKGLOG_ERROR PKGLOG_TAR
 unset PKGLOG_DIR PKG

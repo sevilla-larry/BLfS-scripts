@@ -7,19 +7,23 @@
 #               xxx.xx.xx Exempi-2.6.5
 #               xxx.xx.xx gexiv2-0.14.3
 #               xxx.xx.xx gst-plugins-base-1.24.12
-#               xxx.xx.xx tinysparql-3.8.2
+#               e42.33.22 tinysparql-3.8.2
 #
 # Dependencies Recommended:
 #
-#                xxx.xx.xx giflib-5.2.2
-#                xxx.xx.xx gst-libav-2.24.12
-#                xxx.xx.xx ICU-76.1
-#                xxx.xx.xx libexif-0.6.25
-#                xxx.xx.xx libgxps-0.3.2
-#                xxx.xx.xx libseccomp-2.6.0
-#                xxx.xx.xx Poppler-25.02.0
-#                xxx.xx.xx UPower-1.90.7
+#               xxx.xx.xx  giflib-5.2.2
+#               xxx.xx.xx  gst-libav-2.24.12
+#               a.08.91.07 icu-76.1
+#               e10.10.16  libexif-0.6.25
+#               xxx.xx.xx  libgxps-0.3.2
+#               xxx.xx.xx  libseccomp-2.6.0
+#               e11.10.33  Poppler-25.02.0 (GTK)
+#               e10.12.37  UPower-1.90.7
 #               
+# Dependencies Optional:
+#
+#                           DConf-0.40.0
+#
 
 #
 # Required by:
@@ -52,22 +56,33 @@ cd    build
 echo "2. Meson Setup ..."
 echo "2. Meson Setup ..." >> $LFSLOG_PROCESS
 echo "2. Meson Setup ..." >> $PKGLOG_ERROR
-meson setup --prefix=/usr           \
-            --buildtype=release     \
-            -D systemd_user_services=false \
-            -D man=false                   \
-            -D miner_rss=false             \
+meson setup --prefix=/usr                   \
+            --buildtype=release             \
+            -D systemd_user_services=false  \
+            -D man=false                    \
+            -D miner_rss=false              \
+            -D battery_detection=none       \
             .. 
-    > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+            > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Ninja Build ..."
 echo "3. Ninja Build ..." >> $LFSLOG_PROCESS
 echo "3. Ninja Build ..." >> $PKGLOG_ERROR 
 ninja > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 
-echo "4. Ninja Install ..."
-echo "4. Ninja Install ..." >> $LFSLOG_PROCESS
-echo "4. Ninja Install ..." >> $PKGLOG_ERROR
+echo "4. Ninja Test ..."
+echo "4. Ninja Test ..." >> $LFSLOG_PROCESS
+echo "4. Ninja Test ..." >> $PKGLOG_ERROR
+dbus-run-session env                \
+    LC_ALL=C.UTF-8                  \
+    TRACKER_TESTS_AWAIT_TIMEOUT=20  \
+    ninja test > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
+cat ~/tracker-tests     >> $PKGLOG_CHECK
+rm -vrf ~/tracker-tests >> $PKGLOG_CHECK 2>> $PKGLOG_ERROR
+
+echo "5. Ninja Install ..."
+echo "5. Ninja Install ..." >> $LFSLOG_PROCESS
+echo "5. Ninja Install ..." >> $PKGLOG_ERROR
 ninja install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 

@@ -4,14 +4,13 @@
 #
 # Dependencies Required:
 #
-#               xxx.xx.xx libcanberra-0.30
+#               e11.42.26 libcanberra-0.30
 #
 # Dependencies Recommended:
 #
-#                d10.09.17 GLib-2.82.5
-#                e11.13.35 Vala-0.56.17
-#               
-#               
+#               d10.09.17 GLib-2.82.5
+#               e11.13.36 Vala-0.56.17
+#
 
 #
 # Required by:
@@ -47,7 +46,7 @@ echo "2. Meson Setup ..." >> $PKGLOG_ERROR
 meson setup --prefix=/usr           \
             --buildtype=release     \
             ..
-    > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+            > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Ninja Build ..."
 echo "3. Ninja Build ..." >> $LFSLOG_PROCESS
