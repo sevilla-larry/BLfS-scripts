@@ -5,12 +5,12 @@
 # Dependencies Required:
 #
 #               d10.09.17 GLib-2.82.5
-#               xxx.xx.xx GTK-3.24.48
+#               e11.25.16 GTK-3.24.48
 #
 # Dependencies Recommended:
 #
-#               xxx.xx.xx libxml2-2.13.6
-#               xxx.xx.xx PyGObject-3.50.0
+#               a.08.91.08 libxml2-2.14.3 (errata)
+#               xxx.xx.xx  PyGObject-3.50.0
 #               
 
 #
@@ -48,16 +48,21 @@ meson setup --prefix=/usr           \
             --buildtype=release     \
             --wrap-mode=nofallback  \
             ..                      \
-    > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+            > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Ninja Build ..."
 echo "3. Ninja Build ..." >> $LFSLOG_PROCESS
 echo "3. Ninja Build ..." >> $PKGLOG_ERROR 
 ninja > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 
-echo "4. Ninja Install ..."
-echo "4. Ninja Install ..." >> $LFSLOG_PROCESS
-echo "4. Ninja Install ..." >> $PKGLOG_ERROR
+echo "4. Ninja Test ..."
+echo "4. Ninja Test ..." >> $LFSLOG_PROCESS
+echo "4. Ninja Test ..." >> $PKGLOG_ERROR
+ninja test > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
+
+echo "5. Ninja Install ..."
+echo "5. Ninja Install ..." >> $LFSLOG_PROCESS
+echo "5. Ninja Install ..." >> $PKGLOG_ERROR
 ninja install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 

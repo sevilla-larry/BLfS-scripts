@@ -21,7 +21,6 @@
 #
 # Required by:
 #
-#               e24.36.02 xfce4-terminal-1.1.4
 #
 
 export PKG="vte-0.78.4"
@@ -55,7 +54,7 @@ echo "2. Meson Setup ..." >> $PKGLOG_ERROR
 meson setup --prefix=/usr       \
             --buildtype=release \
             -D _systemd=false   \
-    > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+            > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 #            -D gnutls=false     \
 
 echo "3. Ninja Build ..."

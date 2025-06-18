@@ -4,13 +4,15 @@
 #
 # Dependencies Required:
 #
-#               xxx.xx.xx Cairo-1.18.2
-#               xxx.xx.xx dbus-1.16.0
+#               e10.25.04 Cairo-1.18.2
+#               d20.12.11 dbus-1.16.0
 #               d10.09.17 GLib-2.82.5
+#                          SpiderMonkey (Firefox-128.11.0)
 #
 # Dependencies Recommended:
 #
-#               xxx.xx.xx GTK-3.24.48
+#               e11.25.16 GTK-3.24.48
+#               e41.25.17 GTK-4.16.12
 #
 
 #
@@ -38,8 +40,8 @@ tar xvf $PKG.tar.xz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
 
 
-mkdir build
-cd    build
+mkdir gjs-build
+cd    gjs-build
 
 echo "2. Meson Setup ..."
 echo "2. Meson Setup ..." >> $LFSLOG_PROCESS
@@ -48,12 +50,14 @@ meson setup --prefix=/usr           \
             --buildtype=release     \
             --wrap-mode=nofallback  \
             ..                      \
-    > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+            > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Ninja Build ..."
 echo "3. Ninja Build ..." >> $LFSLOG_PROCESS
 echo "3. Ninja Build ..." >> $PKGLOG_ERROR 
 ninja > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
+
+# test in a graphical session
 
 echo "4. Ninja Install ..."
 echo "4. Ninja Install ..." >> $LFSLOG_PROCESS

@@ -1,6 +1,9 @@
+# 33.A Libraries
+# 33.01 to 33.25
+
 40a754ba44d5e95e4d07656d6302900c gcr-3.41.2.tar.xz
 d8a71f8cb0390bc353f52ded3f9a6733 gcr-4.3.1.tar.xz
-cf4431e4d8ada7a6e73a46f80f553f06 gsettings-desktop-schemas-47.1.tar.xz
+#cf4431e4d8ada7a6e73a46f80f553f06 gsettings-desktop-schemas-47.1.tar.xz
 e7139fca939c50309eba74280e7048ac libsecret-0.21.6.tar.xz
 b997b83232be3814a1b78530c5700df9 rest-0.9.1.tar.xz
 69dc2cf0e61e6df71ed45156b24b14da totem-pl-parser-3.26.6.tar.xz

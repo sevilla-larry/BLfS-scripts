@@ -5,21 +5,22 @@
 # Dependencies Required:
 #
 #               xxx.xx.xx libical-3.0.19
-#               xxx.xx.xx libsecret-0.21.6
-#               xxx.xx.xx nss-3.108
-#               xxx.xx.xx SQLite-3.49.1
-#                        
+#               e42.33.04 libsecret-0.21.6
+#               a.08.91.32 NSS-3.108
+#               a.08.91.18 SQLite-3.49.1
 #
 # Dependencies Recommended:
 #
-#              xxx.xx.xx gnome-online-accounts-3.52.3.1
-#              d10.09.17 Glib-2.82.5
-#              xxx.xx.xx GTK-3.24.48
-#              xxx.xx.xx GTK-4.16.12
-#              xxx.xx.xx ICU-76.1
-#              xxx.xx.xx libcanberra-0.30
-#              e42.33.18 libgweather-4.4.4
-#              e11.13.35 Vala-0.56.17
+#               e42.33.14  gnome-online-accounts-3.52.3.1
+#               d10.09.17  GLib-2.82.5
+#               e11.25.16  GTK-3.24.48
+#          ???  e41.25.17  GTK-4.16.12
+#               a.08.91.07 icu-76.1
+#               e11.42.26  libcanberra-0.30
+#          ???  e42.33.18  libgweather-4.4.4
+#               e10.13.36  Vala-0.56.17
+#                           WebKitGTK-2.46.6
+#
 
 #
 # Required by:
@@ -76,6 +77,11 @@ echo "4. Ninja Install ..."
 echo "4. Ninja Install ..." >> $LFSLOG_PROCESS
 echo "4. Ninja Install ..." >> $PKGLOG_ERROR
 ninja install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
+
+echo "5. Ninja Test ..."
+echo "5. Ninja Test ..." >> $LFSLOG_PROCESS
+echo "5. Ninja Test ..." >> $PKGLOG_ERROR
+ninja test > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
 
 
 cd $SOURCES

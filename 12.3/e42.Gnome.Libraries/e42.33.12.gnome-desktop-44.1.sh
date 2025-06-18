@@ -4,14 +4,14 @@
 #
 # Dependencies Required:
 #
-#               xxx.xx.xx gsettings-desktop-schemas-47.1
-#               xxx.xx.xx GTK-3.24.48
-#               xxx.xx.xx GTK-4.16.12
-#               xxx.xx.xx ISO Codes-4.17.0
-#               xxx.xx.xx itstool-2.0.7
-#               xxx.xx.xx libseccomp-2.6.0
-#               b10.09.72 libxml2-2.13.3
-#               xxx.xx.xx xkeyboard-config-2.44
+#               e11.33.03  gsettings-desktop-schemas-47.1
+#               e11.25.16  GTK-3.24.48
+#               e41.25.17  GTK-4.16.12
+#               e10.11.12  ISO.Codes-4.17.0
+#               e11.49.05  itstool-2.0.7
+#               xxx.xx.xx  libseccomp-2.6.0
+#               a.08.91.08 libxml2-2.14.3
+#               d20.24.18  XKeyboardConfig-2.44
 #
 # Dependencies Recommended:
 #
@@ -53,7 +53,7 @@ echo "2. Meson Setup ..." >> $PKGLOG_ERROR
 meson setup --prefix=/usr           \
             --buildtype=release     \
             ..                      \
-    > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+            > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Ninja Build ..."
 echo "3. Ninja Build ..." >> $LFSLOG_PROCESS

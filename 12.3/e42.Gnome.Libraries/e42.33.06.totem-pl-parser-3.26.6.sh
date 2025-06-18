@@ -11,8 +11,9 @@
 # Dependencies Optional:
 #
 #               a.08.9x.?1 CMake-3.31.5
+#                           Gvfs-1.56.1
 #               a.08.91.40 make-ca-1.16
-#s
+#
 
 #
 # Required by:
@@ -49,7 +50,7 @@ echo "2. Meson Setup ..." >> $PKGLOG_ERROR
 meson setup --prefix=/usr       \
             --buildtype=release \
             ..                  \
-    > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+            > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Ninja Build ..."
 echo "3. Ninja Build ..." >> $LFSLOG_PROCESS
