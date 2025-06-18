@@ -11,6 +11,7 @@
 # Dependencies Optional:
 #
 #               a.08.9x.?1 CMake-3.31.5
+#                           Gvfs-1.56.1
 #               a.08.91.40 make-ca-1.16
 #
 
