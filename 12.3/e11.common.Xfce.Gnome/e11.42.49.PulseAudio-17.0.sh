@@ -1,10 +1,11 @@
-# g11.42.49.PulseAudio-17.0.sh
+# e11.42.49.PulseAudio-17.0.sh
+# GTK-3.* version
 #
 
 #
 # Dependencies Required:
 #
-#               g11.42.40 libsndfile-1.2.2
+#               e10.42.40 libsndfile-1.2.2
 #
 # Dependencies Recommended:
 #
@@ -12,20 +13,23 @@
 #               d20.12.11 dbus-1.16.0
 #               d10.12.12 elogind-255.17
 #               d10.09.17 GLib-2.82.5
-#               g11.42.55 Speex-1.2.1
+#               e10.42.55 Speex-1.2.1
 #               d20.24.08 Xorg Libraries
 #
 # Dependencies Optional:
 #
 #               gst
 #               e11.25.16 GTK-3.24.48
-#               g11.42.52 SDL2-2.30.11
 #
 
 #
 # Required by:
 #
 #               g22.40.03 Firefox-128.7.0esr
+#
+# Optionally by:
+#
+#               g11.42.52 SDL2-2.30.11
 #
 
 export PKG="pulseaudio-17.0"

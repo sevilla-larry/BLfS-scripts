@@ -1,24 +1,26 @@
-# g11.42.40.libsndfile-1.2.2.sh
+# e10.42.40.libsndfile-1.2.2.sh
 #
 
 #
 # Dependencies Recommended:
 #
-#               g11.42.10 FLAC-1.5.0
-#               g11.42.47 Opus-1.5.2
+#               e10.42.10 FLAC-1.5.0
+#               e10.42.47 Opus-1.5.2
 #               e10.42.44 libvorbis-1.3.7
 #
 # Dependencies Optional:
 #
 #               e10.42.01  alsa-lib-1.2.13
-#               g11.42.55  Speex-1.2.1
+#               e10.43.04  LAME-3.100
+#               e10.43.05  mpg123-1.32.10
+#               e10.42.55  Speex-1.2.1
 #               a.08.91.18 SQLite-3.49.1
 #
 
 #
 # Required by:
 #
-#               g11.42.49 PulseAudio-17.0
+#               e11.42.49 PulseAudio-17.0
 #
 
 export PKG="libsndfile-1.2.2"

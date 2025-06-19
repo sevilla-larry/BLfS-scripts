@@ -14,7 +14,7 @@
 #
 # Recommended by:
 #
-#               g11.42.40 libsndfile-1.2.2
+#               e10.42.40 libsndfile-1.2.2
 #
 
 export PKG="libvorbis-1.3.7"

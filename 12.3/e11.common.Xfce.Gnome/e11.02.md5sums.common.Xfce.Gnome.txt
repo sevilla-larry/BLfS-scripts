@@ -43,6 +43,8 @@ cf4431e4d8ada7a6e73a46f80f553f06 gsettings-desktop-schemas-47.1.tar.xz
 # 42.27 libcanberra-0.30
 34cb7e4430afaf6f447c4ebdb9b42072 libcanberra-0.30.tar.xz
 #patch
+# 42.49 PulseAudio-17.0
+c4a3596a26ff4b9dcd0c394dd1d4f8ee pulseaudio-17.0.tar.xz
 # 42.53 sound-theme-freedesktop-0.8
 d7387912cfd275282d1ec94483cb2f62 sound-theme-freedesktop-0.8.tar.bz2
 

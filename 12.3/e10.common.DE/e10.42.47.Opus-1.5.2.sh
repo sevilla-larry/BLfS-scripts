@@ -1,10 +1,10 @@
-# g11.42.47.Opus-1.5.2.sh
+# e10.42.47.Opus-1.5.2.sh
 #
 
 #
 # Recommended by:
 #
-#               g11.42.40 libsndfile-1.2.2
+#               e10.42.40 libsndfile-1.2.2
 #
 
 export PKG="opus-1.5.2"

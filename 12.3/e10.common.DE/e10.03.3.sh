@@ -50,6 +50,90 @@ echo "." >> $LFSLOG_PROCESS
 echo "."
 echo "."
 
+###
+
+echo "e10.42.10.FLAC-1.5.0"
+echo "e10.42.10.FLAC-1.5.0" >> $LFSLOG_PROCESS
+
+time { bash e10.42.10.FLAC-1.5.0.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "e10.42.47.Opus-1.5.2"
+echo "e10.42.47.Opus-1.5.2" >> $LFSLOG_PROCESS
+
+time { bash e10.42.47.Opus-1.5.2.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "e10.42.55.Speex-1.2.1"
+echo "e10.42.55.Speex-1.2.1" >> $LFSLOG_PROCESS
+
+time { bash e10.42.55.Speex-1.2.1.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "e10.43.04.LAME-3.100"
+echo "e10.43.04.LAME-3.100" >> $LFSLOG_PROCESS
+
+time { bash e10.43.04.LAME-3.100.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "e10.43.05.mpg123-1.32.10"
+echo "e10.43.05.mpg123-1.32.10" >> $LFSLOG_PROCESS
+
+time { bash e10.43.05.mpg123-1.32.10.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "e10.42.40.libsndfile-1.2.2"
+echo "e10.42.40.libsndfile-1.2.2" >> $LFSLOG_PROCESS
+
+time { bash e10.42.40.libsndfile-1.2.2.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
 #####
 
 unset LFSLOG_PROCESS

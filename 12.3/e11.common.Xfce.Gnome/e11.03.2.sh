@@ -10,6 +10,20 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
 #####
 
+echo "e11.42.49.PulseAudio-17.0"
+echo "e11.42.49.PulseAudio-17.0" >> $LFSLOG_PROCESS
+
+time { bash e11.42.49.PulseAudio-17.0.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
 echo "e11.42.53.sound-theme-freedesktop-0.8"
 echo "e11.42.53.sound-theme-freedesktop-0.8" >> $LFSLOG_PROCESS
 

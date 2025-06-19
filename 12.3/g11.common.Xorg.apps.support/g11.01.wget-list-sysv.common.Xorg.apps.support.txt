@@ -27,28 +27,12 @@ https://download.librdf.org/source/redland-1.0.17.tar.gz
 # 13.19.01 Archive::Zip-1.68
 https://www.cpan.org/authors/id/P/PH/PHRED/Archive-Zip-1.68.tar.gz
 
-# 42.10 FLAC-1.5.0
-https://github.com/xiph/flac/releases/download/1.5.0/flac-1.5.0.tar.xz
-# 42.40 libsndfile-1.2.2
-https://github.com/libsndfile/libsndfile/releases/download/1.2.2/libsndfile-1.2.2.tar.xz
 # 42.45 libvpx-1.15.0
 # https://github.com/webmproject/libvpx/archive/v1.15.0/libvpx-1.15.0.tar.gz
 # 42.45 libvpx-1.15.2	(errata)
 https://github.com/webmproject/libvpx/archive/v1.15.2/libvpx-1.15.2.tar.gz
-# 42.47 Opus-1.5.2
-https://downloads.xiph.org/releases/opus/opus-1.5.2.tar.gz
-# 42.49 PulseAudio-17.0
-https://www.freedesktop.org/software/pulseaudio/releases/pulseaudio-17.0.tar.xz
 # 42.52 SDL2-2.30.11
 https://www.libsdl.org/release/SDL2-2.30.11.tar.gz
-# 42.55 Speex-1.2.1
-https://downloads.xiph.org/releases/speex/speex-1.2.1.tar.gz
-https://downloads.xiph.org/releases/speex/speexdsp-1.2.1.tar.gz
-
-# 43.04 LAME-3.100
-https://downloads.sourceforge.net/lame/lame-3.100.tar.gz
-# 43.05 mpg123-1.32.10
-https://downloads.sourceforge.net/mpg123/mpg123-1.32.10.tar.bz2
 
 # 44.01 FFmpeg-7.1
 #https://ffmpeg.org/releases/ffmpeg-7.1.tar.xz

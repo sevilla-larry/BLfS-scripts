@@ -1,17 +1,17 @@
-# g11.43.04.LAME-3.100.sh
+# e10.43.04.LAME-3.100.sh
 #
 
 #
 # Dependencies Optional:
 #
-#           ??? g11.42.40 libsndfile-1.2.2  circular
+#           ??? e10.42.40 libsndfile-1.2.2  circular
 #               e10.13.17 NASM-2.16.03
 #
 
 #
 # Optionally by:
 #
-#               g11.42.40 libsndfile-1.2.2
+#               e10.42.40 libsndfile-1.2.2
 #
 
 export PKG="lame-3.100"

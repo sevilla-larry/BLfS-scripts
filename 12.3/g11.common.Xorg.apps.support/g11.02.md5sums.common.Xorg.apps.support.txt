@@ -27,28 +27,12 @@ e5be03eda13ef68aabab6e42aa67715e redland-1.0.17.tar.gz
 # 13.18.01 Archive::Zip-1.68
 a33993309322164867c99e04a4000ee3 Archive-Zip-1.68.tar.gz
 
-# 42.11 FLAC-1.5.0
-0bb45bcf74338b00efeec121fff27367 flac-1.5.0.tar.xz
-# 42.40 libsndfile-1.2.2
-04e2e6f726da7c5dc87f8cf72f250d04 libsndfile-1.2.2.tar.xz
 # 42.45 libvpx-1.15.0
 # 6d2b7b8e1c06f4b10ae63ca22491f8a4 libvpx-1.15.0.tar.gz
 # 42.45 libvpx-1.15.2	(errata)
 4c7a93808c12b359733430c8377b7fcf libvpx-1.15.2.tar.gz
-# 42.47 Opus-1.5.2
-c40b3a1fbdbb9a7aa178600b88200c76 opus-1.5.2.tar.gz
-# 42.49 PulseAudio-17.0
-c4a3596a26ff4b9dcd0c394dd1d4f8ee pulseaudio-17.0.tar.xz
 # 42.52 SDL2-2.30.11
 bea190b480f6df249db29eb3bacfe41e SDL2-2.30.11.tar.gz
-# 42.55 Speex-1.2.1
-fe7bf610883ff202092b92c72fe0fe3e speex-1.2.1.tar.gz
-e6eb5ddef743a362c8018f260b91dca5 speexdsp-1.2.1.tar.gz
-
-# 43.04 LAME-3.100
-83e260acbe4389b54fe08e0bdbf7cddb lame-3.100.tar.gz
-# 43.05 mpg123-1.32.10
-f6d1a69dbf340c8d889b64772e8e0a61 mpg123-1.32.10.tar.bz2
 
 # 44.01 FFmpeg-7.1
 #623aa63a72139a82ccb99cd6ee477b94 ffmpeg-7.1.tar.xz

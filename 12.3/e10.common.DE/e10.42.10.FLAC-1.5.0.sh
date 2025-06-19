@@ -1,25 +1,20 @@
-# g11.43.05.mpg123-1.32.10.sh
+# e10.42.10.FLAC-1.5.0.sh
 #
 
-#
-# Dependencies Recommended:
-#
-#               e10.42.01 alsa-lib-1.2.13
 #
 # Dependencies Optional:
 #
-#           ??? g11.42.49 PulseAudio-17.0   circular
-#           ??? g11.42.52 SDL2-2.30.11      circular
+#               e10.42.37 libogg-1.3.5
 #
 
 #
-# Optionally by:
+# Recommended by:
 #
-#               g11.42.40 libsndfile-1.2.2
+#               e10.42.40 libsndfile-1.2.2
 #
 
-export PKG="mpg123-1.32.10"
-export PKGLOG_DIR=$LFSLOG/43.05
+export PKG="flac-1.5.0"
+export PKGLOG_DIR=$LFSLOG/42.10
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
@@ -35,14 +30,16 @@ mkdir $PKGLOG_DIR
 echo "1. Extract tar..."
 echo "1. Extract tar..." >> $LFSLOG_PROCESS
 echo "1. Extract tar..." >> $PKGLOG_ERROR
-tar xvf $PKG.tar.bz2 > $PKGLOG_TAR 2>> $PKGLOG_ERROR
+tar xvf $PKG.tar.xz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
 
 
 echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
 echo "2. Configure ..." >> $PKGLOG_ERROR
-./configure --prefix=/usr    \
+./configure --prefix=/usr                       \
+            --disable-thorough-tests            \
+            --docdir=/usr/share/doc/flac-1.5.0  \
             > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Make Build ..."

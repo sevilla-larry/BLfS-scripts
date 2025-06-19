@@ -16,11 +16,11 @@
 # Recommended by:
 #
 #				e11.42.26 libcanberra-0.30
-#               g11.42.49 PulseAudio-17.0
+#               e11.42.49 PulseAudio-17.0
 #
 # Optionally by:
 #
-#               g11.42.40 libsndfile-1.2.2
+#               e10.42.40 libsndfile-1.2.2
 #               g11.42.52 SDL2-2.30.11
 #
 

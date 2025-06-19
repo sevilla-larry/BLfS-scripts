@@ -43,6 +43,8 @@ https://www.jwz.org/xscreensaver/xscreensaver-6.09.tar.gz
 # 42.27 libcanberra-0.30
 https://0pointer.de/lennart/projects/libcanberra/libcanberra-0.30.tar.xz
 https://www.linuxfromscratch.org/patches/blfs/12.2/libcanberra-0.30-wayland-1.patch
+# 42.49 PulseAudio-17.0
+https://www.freedesktop.org/software/pulseaudio/releases/pulseaudio-17.0.tar.xz
 # 42.53 sound-theme-freedesktop-0.8
 https://people.freedesktop.org/~mccann/dist/sound-theme-freedesktop-0.8.tar.bz2
 

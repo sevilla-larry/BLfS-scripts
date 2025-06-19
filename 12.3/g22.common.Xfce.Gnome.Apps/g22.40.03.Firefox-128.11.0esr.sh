@@ -11,7 +11,7 @@
 #               a.08.91.12 libarchive-3.8.1 (errata)
 #               d10.13.13  LLVM-19.1.7
 #               g11.09.80  Node.js-22.14.0
-#               g11.42.49  PulseAudio-17.0
+#               e11.42.49  PulseAudio-17.0
 #               a.08.91.19 Python-3.1{2,3}.x
 #               e21.25.42  startup-notification-0.12
 #

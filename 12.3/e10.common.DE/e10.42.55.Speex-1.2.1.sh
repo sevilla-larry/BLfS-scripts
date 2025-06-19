@@ -1,4 +1,4 @@
-# g11.42.55.Speex-1.2.1.sh
+# e10.42.55.Speex-1.2.1.sh
 #
 
 #
@@ -10,11 +10,11 @@
 #
 # Recommended by:
 #
-#               g11.42.49 PulseAudio-17.0
+#               e11.42.49 PulseAudio-17.0
 #
 # Optionally by:
 #
-#               g11.42.40 libsndfile-1.2.2
+#               e10.42.40 libsndfile-1.2.2
 #
 
 export PKG1="speex-1.2.1"

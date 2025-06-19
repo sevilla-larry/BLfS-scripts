@@ -12,7 +12,8 @@
 #
 #               e10.42.01 alsa-lib-1.2.13
 #               e10.13.17 NASM-2.16.03
-#               g11.42.49 PulseAudio-17.0
+#               e11.42.49 PulseAudio-17.0 (GTK)
+#           ??? ?11.42.49 PulseAudio-17.0 (???)
 #
 
 #
