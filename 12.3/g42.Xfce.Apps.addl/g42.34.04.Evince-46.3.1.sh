@@ -8,7 +8,7 @@
 #               e11.33.03  gsettings-desktop-schemas-47.1
 #               e11.25.16  GTK-3.24.48
 #               e11.49.05  itstool-2.0.7
-#               g21.25.32  libhandy-1.8.3
+#               e11.25.32  libhandy-1.8.3
 #               a.08.91.08 libxml2-2.13.6
 #               e10.10.31  OpenJPEG-2.5.3
 #

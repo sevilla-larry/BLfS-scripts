@@ -20,6 +20,8 @@ a05ad6cf4a49b19964cc5eec363d2310 at-spi2-core-2.54.1.tar.xz
 06a4fff9179a98ea32ef41b6d83f6b19 glu-9.0.3.tar.xz
 # 25.17 GTK-3.24.48
 61b8af1ffb255cdabd44629cd2a05793 gtk-3.24.48.tar.xz
+# 25.32 libhandy-1.8.3
+af586a91ff6d4093a6e7e283dfab5f7f libhandy-1.8.3.tar.xz
 # 25.36 libxklavier-5.4
 13af74dcb6011ecedf1e3ed122bd31fa libxklavier-5.4.tar.bz2
 

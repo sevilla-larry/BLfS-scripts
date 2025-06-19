@@ -1,6 +1,4 @@
 # 09.23 gspell-1.14.0
 282c1ed7213a657e47de663fd2a081db gspell-1.14.0.tar.xz
-# 25.23 gtksourceview4-4.8.4
+# 25.22 gtksourceview4-4.8.4
 2bf056caaae27654ec3a5930dd5597d3 gtksourceview-4.8.4.tar.xz
-# 25.33 libhandy-1.8.3
-af586a91ff6d4093a6e7e283dfab5f7f libhandy-1.8.3.tar.xz

@@ -1,6 +1,4 @@
 # 09.23 gspell-1.14.0
 https://download.gnome.org/sources/gspell/1.14/gspell-1.14.0.tar.xz
-# 25.23 gtksourceview4-4.8.4
+# 25.22 gtksourceview4-4.8.4
 https://download.gnome.org/sources/gtksourceview/4.8/gtksourceview-4.8.4.tar.xz
-# 25.33 libhandy-1.8.3
-https://download.gnome.org/sources/libhandy/1.8/libhandy-1.8.3.tar.xz

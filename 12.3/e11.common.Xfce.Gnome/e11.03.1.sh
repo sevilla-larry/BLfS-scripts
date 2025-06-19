@@ -136,6 +136,20 @@ echo "."
 
 ###
 
+echo "e11.25.32.libhandy-1.8.3"
+echo "e11.25.32.libhandy-1.8.3" >> $LFSLOG_PROCESS
+
+time { bash e11.25.32.libhandy-1.8.3.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
 echo "e11.10.33.Poppler-25.02.0"
 echo "e11.10.33.Poppler-25.02.0" >> $LFSLOG_PROCESS
 

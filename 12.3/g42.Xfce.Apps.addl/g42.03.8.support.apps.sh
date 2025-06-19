@@ -9,7 +9,7 @@ bash g21.03.1.sh
 
 # Evince support
 # libhandy 
-bash g21.03.2.sh
+#bash g21.03.2.sh
 
 # common Firefox & LibreOffice support
 # libwebp group including PulseAudio

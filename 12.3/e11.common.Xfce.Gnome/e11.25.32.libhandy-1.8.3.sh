@@ -1,4 +1,4 @@
-# g21.25.32.libhandy-1.8.3.sh
+# e11.25.32.libhandy-1.8.3.sh
 #
 
 #
@@ -15,6 +15,7 @@
 # Required by:
 #
 #               g42.34.04 Evince-46.3.1
+#               e43.33.31 DConf-Editor-45.0.1
 #
 
 export PKG="libhandy-1.8.3"
