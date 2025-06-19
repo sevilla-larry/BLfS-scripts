@@ -23,7 +23,7 @@
 #               d20.12.11 dbus-1.16.0
 #               d20.24.19 Xwayland-24.1.6
 #               d20.24.20 Xorg-Server-21.1.16
-#               e21.25.35 libnotify-0.8.4
+#               e11.25.35 libnotify-0.8.4
 #               e11.12.02 AccountsService-23.13.9
 #               e10.13.17 NASM-2.16.03
 #

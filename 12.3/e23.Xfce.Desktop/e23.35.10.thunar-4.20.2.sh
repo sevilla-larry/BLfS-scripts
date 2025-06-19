@@ -9,7 +9,7 @@
 # Dependencies Recommended:
 #
 #               e10.09.45  libgudev-238
-#               e21.25.35  libnotify-0.8.4
+#               e11.25.35  libnotify-0.8.4
 #               a.08.91.11 PCRE2-10.45
 #
 # Required Runtime:

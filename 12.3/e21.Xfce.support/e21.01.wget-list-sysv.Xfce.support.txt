@@ -1,8 +1,6 @@
 # 09.41 libdisplay-info-0.2.0
 https://gitlab.freedesktop.org/emersion/libdisplay-info/-/releases/0.2.0/downloads/libdisplay-info-0.2.0.tar.xz
 
-# 25.35 libnotify-0.8.4
-https://download.gnome.org/sources/libnotify/0.8/libnotify-0.8.4.tar.xz
 # 25.42 startup-notification-0.12
 https://www.freedesktop.org/software/startup-notification/releases/startup-notification-0.12.tar.gz
 

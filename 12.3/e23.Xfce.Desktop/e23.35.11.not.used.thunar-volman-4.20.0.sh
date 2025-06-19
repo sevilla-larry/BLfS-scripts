@@ -9,7 +9,7 @@
 #
 # Dependencies Recommended:
 #
-#               e21.25.35 libnotify-0.8.4
+#               e11.25.35 libnotify-0.8.4
 #
 # Runtime recommended:
 #

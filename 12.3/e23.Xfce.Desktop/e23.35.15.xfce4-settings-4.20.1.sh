@@ -14,7 +14,7 @@
 # Dependencies Recommended:
 #
 #               e11.42.26 libcanberra-0.30
-#               e21.25.35 libnotify-0.8.4
+#               e11.25.35 libnotify-0.8.4
 #               e11.25.36 libxklavier-5.4
 #
 # Dependencies Optional:

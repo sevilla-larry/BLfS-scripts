@@ -10,7 +10,7 @@
 #
 # Dependencies Recommended:
 #
-#               e21.25.35 libnotify-0.8.4
+#               e11.25.35 libnotify-0.8.4
 #               e21.25.42 startup-notification-0.12
 #               e23.35.10 thunar-4.20.2
 #

@@ -22,6 +22,8 @@ https://archive.mesa3d.org/glu/glu-9.0.3.tar.xz
 https://download.gnome.org/sources/gtk/3.24/gtk-3.24.48.tar.xz
 # 25.32 libhandy-1.8.3
 https://download.gnome.org/sources/libhandy/1.8/libhandy-1.8.3.tar.xz
+# 25.35 libnotify-0.8.4
+https://download.gnome.org/sources/libnotify/0.8/libnotify-0.8.4.tar.xz
 # 25.36 libxklavier-5.4
 https://people.freedesktop.org/~svu/libxklavier-5.4.tar.bz2
 

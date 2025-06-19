@@ -7,7 +7,7 @@
 #
 #               e10.13.02  Cbindgen-0.28.0
 #               e11.25.16  GTK-3.24.48
-#               e21.25.35  libnotify-0.8.4
+#               e11.25.35  libnotify-0.8.4
 #               a.08.91.12 libarchive-3.8.1 (errata)
 #               d10.13.13  LLVM-19.1.7
 #               g11.09.80  Node.js-22.14.0

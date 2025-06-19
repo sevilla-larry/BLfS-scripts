@@ -4,7 +4,7 @@
 #
 # Dependencies Required:
 #
-#               e21.25.35 libnotify-0.8.4
+#               e11.25.35 libnotify-0.8.4
 #               e23.35.03 libxfce4ui-4.20.0
 #               e11.42.26 libcanbera-0.30
 #               a.08.91.18 SQLite-3.49.1
