@@ -18,7 +18,7 @@
 # Dependencies Recommended (runtime)
 #
 #               e42.33.23 localsearch-3.8.2
-#               
+#
 
 #
 # Required by:
@@ -30,6 +30,7 @@ export PKGLOG_DIR=$LFSLOG/33.22
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
+export PKGLOG_CHECK=$PKGLOG_DIR/check.log
 export PKGLOG_INSTALL=$PKGLOG_DIR/install.log
 export PKGLOG_ERROR=$PKGLOG_DIR/error.log
 export PKGLOG_OTHERS=$PKGLOG_DIR/others.log
@@ -58,11 +59,11 @@ cd    build
 echo "2. Meson Setup ..."
 echo "2. Meson Setup ..." >> $LFSLOG_PROCESS
 echo "2. Meson Setup ..." >> $PKGLOG_ERROR
-meson setup --prefix=/usr           \
-            --buildtype=release     \
-            -D man=false                   \
-            -D systemd_user_services=false \
-            ..
+meson setup --prefix=/usr                   \
+            --buildtype=release             \
+            -D man=false                    \
+            -D systemd_user_services=false  \
+            ..                              \
             > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Ninja Build ..."
@@ -94,5 +95,6 @@ unset SOURCES
 unset LFSLOG_PROCESS
 unset PKGLOG_OTHERS
 unset PKGLOG_INSTALL PKGLOG_BUILD PKGLOG_CONFIG
+unset PKGLOG_CHECK
 unset PKGLOG_ERROR PKGLOG_TAR
 unset PKGLOG_DIR PKG

@@ -1,7 +1,6 @@
 # e42.33.13.gnome-menus-3.36.0.sh
 #
 
-#                        
 #
 # Dependencies Required:
 #
@@ -36,9 +35,9 @@ cd $PKG
 echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
 echo "2. Configure ..." >> $PKGLOG_ERROR
-./configure --prefix=/usr           \
-            --sysconfdir=/etc       \
-            --disable-static        \
+./configure --prefix=/usr       \
+            --sysconfdir=/etc   \
+            --disable-static    \
             >> $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Make Build ..."

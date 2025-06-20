@@ -1,7 +1,6 @@
 # e42.33.17.libgtop-2.41.3.sh
 #
 
-#                        
 #
 # Dependencies Required:
 #
@@ -37,8 +36,8 @@ cd $PKG
 echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
 echo "2. Configure ..." >> $PKGLOG_ERROR
-./configure --prefix=/usr           \
-            --disable-static        \
+./configure --prefix=/usr       \
+            --disable-static    \
             > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Make Build ..."

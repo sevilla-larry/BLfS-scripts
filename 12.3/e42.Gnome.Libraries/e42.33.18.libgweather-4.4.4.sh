@@ -14,7 +14,7 @@
 #               d10.09.17  GLib-2.82.5
 #               a.08.91.08 libxml2-2.14.3 (errata)
 #               e10.13.36  Vala-0.56.17
-#               
+#
 
 #
 # Required by:
@@ -48,10 +48,10 @@ cd    build
 echo "2. Meson Setup ..."
 echo "2. Meson Setup ..." >> $LFSLOG_PROCESS
 echo "2. Meson Setup ..." >> $PKGLOG_ERROR
-meson setup --prefix=/usr           \
-            --buildtype=release     \
-            -D gtk_doc=false        \
-            ..                      \
+meson setup --prefix=/usr       \
+            --buildtype=release \
+            -D gtk_doc=false    \
+            ..                  \
             > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Ninja Build ..."

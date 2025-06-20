@@ -19,7 +19,7 @@
 #               xxx.xx.xx  libseccomp-2.6.0
 #               e11.10.33  Poppler-25.02.0 (GTK)
 #               e10.12.37  UPower-1.90.7
-#               
+#
 # Dependencies Optional:
 #
 #                           DConf-0.40.0
@@ -35,6 +35,7 @@ export PKGLOG_DIR=$LFSLOG/33.23
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
+export PKGLOG_CHECK=$PKGLOG_DIR/check.log
 export PKGLOG_INSTALL=$PKGLOG_DIR/install.log
 export PKGLOG_ERROR=$PKGLOG_DIR/error.log
 export LFSLOG_PROCESS=$LFSLOG/process.log
@@ -62,7 +63,7 @@ meson setup --prefix=/usr                   \
             -D man=false                    \
             -D miner_rss=false              \
             -D battery_detection=none       \
-            .. 
+            ..                              \
             > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Ninja Build ..."
@@ -91,5 +92,6 @@ rm -rf $PKG
 unset SOURCES
 unset LFSLOG_PROCESS
 unset PKGLOG_INSTALL PKGLOG_BUILD PKGLOG_CONFIG
+unset PKGLOG_CHECK
 unset PKGLOG_ERROR PKGLOG_TAR
 unset PKGLOG_DIR PKG

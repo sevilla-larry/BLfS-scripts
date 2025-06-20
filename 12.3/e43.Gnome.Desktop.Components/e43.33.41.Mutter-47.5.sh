@@ -4,19 +4,36 @@
 #
 # Dependencies Required:
 #
-#                   e43.33.38 gnome-settings-daemon-47.2
-#                   xxx.xx.xx graphene-1.10.8
-#                   xxx.xx.xx libei-1.3.0
-#                   xxx.xx.xx libxcvt-0.1.3
-#                   xxx.xx.xx libxkbcommon-1.8.0
-#                   xxx.xx.xx pipewire-1.2.7
-
+#               e43.33.38 gnome-settings-daemon-47.2
+#               e41.25.15 graphene-1.10.8
+#               xxx.xx.xx libei-1.3.0
+#               d20.24.09 libxcvt-0.1.3
+#               e10.09.71 libxkbcommon-1.8.0
+#               xxx.xx.xx pipewire-1.2.7
+#
 # Dependencies Recommended:
 #
-#                   xxx.xx.xx desktop-file-utils-0.28
-#                   d10.09.17 GLib-2.82.5
-#                   xxx.xx.xx libdisplay-info-0.2.0
-#                   xxx.xx.xx startup-notification-0.12
+#               d10.11.04 desktop-file-utils-0.28
+#               d10.09.17 GLib-2.82.5
+#               e11.09.41 libdisplay-info-0.2.0
+#               e11.25.42 startup-notification-0.12
+#
+# Dependencies Recommended (Required for Wayland):
+#
+#               d20.24.21.3 libinput-1.27.1
+#               d10.09.97   Wayland-1.23.0
+#               d10.09.98   Wayland-Protocols-1.40
+#               d20.24.19   Xwayland-24.1.6
+#
+# Dependencies Optional:
+#
+#               d20.24.20 Xorg-Server-21.1.16
+#               Xvfb from
+#                   d20.24.20 Xorg-Server-21.1.16
+#                or
+#                   d20.24.19 Xwayland-24.1.6
+#
+
 #
 # Required by:
 #
@@ -48,21 +65,23 @@ cd    build
 echo "2. Meson Setup ..."
 echo "2. Meson Setup ..." >> $LFSLOG_PROCESS
 echo "2. Meson Setup ..." >> $PKGLOG_ERROR
-meson setup --prefix=/usr        \
-            --buildtype=release  \
-             -D tests=disabled   \
-             -D profiler=false   \
-            ..                   \
-    > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+meson setup --prefix=/usr       \
+            --buildtype=release \
+            -D tests=disabled   \
+            -D profiler=false   \
+            ..                  \
+            > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Ninja Build ..."
 echo "3. Ninja Build ..." >> $LFSLOG_PROCESS
 echo "3. Ninja Build ..." >> $PKGLOG_ERROR 
 ninja > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 
-echo "5. Ninja Install ..."
-echo "5. Ninja Install ..." >> $LFSLOG_PROCESS
-echo "5. Ninja Install ..." >> $PKGLOG_ERROR
+# Tests require an active X or wayland session
+
+echo "4. Ninja Install ..."
+echo "4. Ninja Install ..." >> $LFSLOG_PROCESS
+echo "4. Ninja Install ..." >> $PKGLOG_ERROR
 ninja install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 

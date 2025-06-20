@@ -1,4 +1,8 @@
+# 33.B GNOME Desktop Components
+# 33.31 to 33.47
+
 https://download.gnome.org/sources/dconf/0.40/dconf-0.40.0.tar.xz
+https://download.gnome.org/sources/dconf-editor/45/dconf-editor-45.0.1.tar.xz
 https://download.gnome.org/sources/gnome-backgrounds/47/gnome-backgrounds-47.0.tar.xz
 https://download.gnome.org/sources/gvfs/1.56/gvfs-1.56.1.tar.xz
 https://download.gnome.org/sources/gexiv2/0.14/gexiv2-0.14.3.tar.xz

@@ -4,15 +4,15 @@
 #
 # Dependencies Required:
 #
-#                e42.33.12.gnome-desktop-44.1
-#                e41.25.17 GTK-4.16.12
-#                xxx.25.28 libadwaita-1.6.4
-#                e13.25.48 xdg-desktop-portal-1.20.0
+#               e42.33.12.gnome-desktop-44.1
+#               e41.25.17 GTK-4.16.12
+#               xxx.25.28 libadwaita-1.6.4
+#               e13.25.48 xdg-desktop-portal-1.20.0
 #
 # Dependencies Required (runtime):
 #
-#                xxx.xx.xx xdg-desktop-portal-gtk-1.15.2
-#                   
+#               xxx.xx.xx xdg-desktop-portal-gtk-1.15.2
+#
 
 #
 # Required by:
@@ -46,10 +46,10 @@ cd    build
 echo "2. Meson Setup ..."
 echo "2. Meson Setup ..." >> $LFSLOG_PROCESS
 echo "2. Meson Setup ..." >> $PKGLOG_ERROR
-meson setup --prefix=/usr           \
-            --buildtype=release     \
-            -D systemduserunitdir=/tmp \
-            ..
+meson setup --prefix=/usr               \
+            --buildtype=release         \
+            -D systemduserunitdir=/tmp  \
+            ..                          \
             > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Ninja Build ..."

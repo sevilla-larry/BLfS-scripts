@@ -4,15 +4,19 @@
 #
 # Dependencies Required:
 #
-#                   xxx.xx.xx GTK-4.16.12
-#                   e42.33.24 gsound-1.0.3
-#                   xxx.xx.xx libnotify-0.8.4
-#                   xxx.xx.xx UPower-1.90.7
-
+#               e41.25.17 GTK-4.16.12
+#               e42.33.24 gsound-1.0.3
+#               e11.25.35 libnotify-0.8.4
+#               e10.12.37 UPower-1.90.7
+#
 # Dependecies Recommended:
 #
-#                   d10.09.17 GLib-4.16.12
-#                   xxx.xx.xx libadwaita-1.6.4       
+#               d10.09.17 GLib-4.16.12
+#               xxx.xx.xx libadwaita-1.6.4
+#
+# Dependecies Runtime:
+#
+#               xxx.xx.xx BlueZ-5.79
 #
 
 #

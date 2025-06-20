@@ -1,4 +1,4 @@
-# 33.A Libraries
+# 33.A GNOME Libraries
 # 33.01 to 33.25
 
 https://download.gnome.org/sources/gcr/3.41/gcr-3.41.2.tar.xz

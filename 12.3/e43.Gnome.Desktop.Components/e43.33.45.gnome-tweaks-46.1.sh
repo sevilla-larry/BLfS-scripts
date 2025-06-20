@@ -4,12 +4,14 @@
 #
 # Dependencies Required:
 #
-#                   xxx.xx.xx GTK-4.16.12
-#                   xxx.xx.xx gsettings-desktop-schemas-47.1
-#                   xxx.xx.xx libadwaita-1.6.4
-#                   xxx.xx.xx libgudev-238
-#                   xxx.xx.xx PyGObject-3.50.0
-#                   xxx.xx.xx sound-theme-freedesktop-0.8
+#               e41.25.17 GTK-4.16.12
+#               e11.33.03 gsettings-desktop-schemas-47.1
+#               xxx.25.28 libadwaita-1.6.4
+#               e10.09.45 libgudev-238
+#               xxx.xx.xx PyGObject-3.50.0
+#               e11.42.53 sound-theme-freedesktop-0.8
+#
+
 #
 # Required by:
 #
@@ -41,10 +43,10 @@ cd    build
 echo "2. Meson Setup ..."
 echo "2. Meson Setup ..." >> $LFSLOG_PROCESS
 echo "2. Meson Setup ..." >> $PKGLOG_ERROR
-meson setup --prefix=/usr        \
-            --buildtype=release  \
-            ..                   \
-    > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+meson setup --prefix=/usr       \
+            --buildtype=release \
+            ..                  \
+            > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Ninja Build ..."
 echo "3. Ninja Build ..." >> $LFSLOG_PROCESS

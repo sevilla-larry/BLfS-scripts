@@ -1,4 +1,4 @@
-# e10.25.48.xdg-desktop-portal-1.18.4.sh
+# e13.25.48.xdg-desktop-portal-1.18.4.sh
 # errata
 #
 

@@ -5,7 +5,6 @@
 # Dependencies Required:
 #
 #               d10.09.17 GLib-2.82.5
-#                        
 #
 # Dependencies Recommended:
 #

@@ -4,23 +4,39 @@
 #
 # Dependencies Required:
 #
-#                   xxx.xx.xx Gcr-4.3.1
-#                   xxx.xx.xx evolution-data-server-3.54.3
-#                   xxx.xx.xx Gjs-1.82.1
-#                   xxx.xx.xx gnome-desktop-44.1
-#                   xxx.xx.xx ibus-1.5.31
-#                   e43.33.41 Mutter-47.5
-#                   xxx.xx.xx Polkit-126
-#                   xxx.xx.xx startup-notification-0.12
-
+#               e42.33.21 evolution-data-server-3.54.3
+#               e42.33.02 Gcr-4.3.1
+#               e42.33.10 Gjs-1.82.1
+#               e42.33.12 gnome-desktop-44.1
+#               xxx.xx.xx ibus-1.5.31
+#               e43.33.41 Mutter-47.5
+#               d10.04.20 Polkit-126
+#               e11.25.42 startup-notification-0.12
+#
 # Dependencies Recommended:
 #
-#                   xxx.xx.xx desktop-file-utils-0.28
-#                   e42.33.11.gnome-autoar-0.4.5
-#                   e43.33.36.gnome-bluetooth-47.1
-#                   xxx.xx.xx gst-plugins-base-1.24.12
-#                   xxx.xx.xx NetworkManager-1.50.0
-#                   xxx.xx.xx power-profiles-daemon-0.30
+#               d10.11.04 desktop-file-utils-0.28
+#               e42.33.11 gnome-autoar-0.4.5
+#             ? e43.33.36 gnome-bluetooth-47.1
+#               e41.42.14 gst-plugins-base-1.24.12
+#               xxx.xx.xx NetworkManager-1.50.0
+#               xxx.xx.xx power-profiles-daemon-0.30
+#
+# Dependencies Required (Runtime):
+#
+#               e11.28.01 adwaita-icon-theme-47.0
+#               e43.33.31 DConf-0.40.0
+#               d10.12.12 elogind-255.17
+#               xxx.xx.xx GDM-47.0
+#               e43.33.40 gnome-control-center-47.4
+#               e42.33.18 libgweather-4.4.4
+#
+# Dependencies Recommended (Runtime):
+#
+#               xxx.xx.xx blocaled-0.7
+#               e42.33.13 gnome-menus-3.36.0
+#
+
 #
 # Required by:
 #
@@ -52,17 +68,19 @@ cd    build
 echo "2. Meson Setup ..."
 echo "2. Meson Setup ..." >> $LFSLOG_PROCESS
 echo "2. Meson Setup ..." >> $PKGLOG_ERROR
-meson setup --prefix=/usr        \
-            --buildtype=release  \
-             -D systemd=false    \
-             -D tests=false      \
-            ..                   \
-    > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+meson setup --prefix=/usr       \
+            --buildtype=release \
+            -D systemd=false    \
+            -D tests=false      \
+            ..                  \
+            > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Ninja Build ..."
 echo "3. Ninja Build ..." >> $LFSLOG_PROCESS
 echo "3. Ninja Build ..." >> $PKGLOG_ERROR 
 ninja > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
+
+# Tests, ensure Mutter is installed after running its test suite
 
 echo "4. Ninja Install ..."
 echo "4. Ninja Install ..." >> $LFSLOG_PROCESS

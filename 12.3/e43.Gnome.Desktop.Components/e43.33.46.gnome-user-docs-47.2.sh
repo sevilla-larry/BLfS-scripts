@@ -1,12 +1,13 @@
 # e43.33.46.gnome-user-docs-47.2.sh
 #
 
-#                        
 #
 # Dependencies Required:
 #
-#               xxx.xx.xx itstool-2.0.7 
-#               xxx.xx.xx libxml2-2.13.6
+#               e11.49.05  itstool-2.0.7 
+#               a.08.91.08 libxml2-2.13.6
+#
+
 #
 # Required by:
 #
@@ -32,21 +33,20 @@ tar xvf $PKG.tar.xz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
 
 
-mkdir build
-cd    build
-
 echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
 echo "2. Configure ..." >> $PKGLOG_ERROR
-autoreconf -fiv                 \
-            > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
-    ./configure --prefix=/usr           \
-                ..
-           >> $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+./configure --prefix=/usr   \
+            >> $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
-echo "3. Make Install ..."
-echo "3. Make Install ..." >> $LFSLOG_PROCESS
-echo "3. Make Install ..." >> $PKGLOG_ERROR
+echo "3. Make Build ..."
+echo "3. Make Build ..." >> $LFSLOG_PROCESS
+echo "3. Make Build ..." >> $PKGLOG_ERROR
+make > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
+
+echo "4. Make Install ..."
+echo "4. Make Install ..." >> $LFSLOG_PROCESS
+echo "4. Make Install ..." >> $PKGLOG_ERROR
 make install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 

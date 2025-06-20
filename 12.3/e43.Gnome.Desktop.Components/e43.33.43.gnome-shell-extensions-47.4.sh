@@ -4,7 +4,8 @@
 #
 # Dependencies Required:
 #
-#                   xxx.xx.xx libgtop-2.41.3
+#               e42.33.17 libgtop-2.41.3
+#
 
 #
 # Required by:
@@ -37,9 +38,9 @@ cd    build
 echo "2. Meson Setup ..."
 echo "2. Meson Setup ..." >> $LFSLOG_PROCESS
 echo "2. Meson Setup ..." >> $PKGLOG_ERROR
-meson setup --prefix=/usr        \
-            ..                   \
-    > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+meson setup --prefix=/usr   \
+            ..              \
+            > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Ninja Build ..."
 echo "3. Ninja Build ..." >> $LFSLOG_PROCESS

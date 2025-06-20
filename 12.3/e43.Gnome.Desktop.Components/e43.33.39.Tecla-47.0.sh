@@ -4,8 +4,9 @@
 #
 # Dependencies Required:
 #
-#                   xxx.xx.xx libxkbcommon-1.8.0
-#                   xxx.xx.xx libadwaita-1.6.4
+#               xxx.xx.xx libadwaita-1.6.4
+#               e10.09.71 libxkbcommon-1.8.0
+#
 
 #
 # Required by:
@@ -41,7 +42,7 @@ echo "2. Meson Setup ..." >> $PKGLOG_ERROR
 meson setup --prefix=/usr       \
             --buildtype=release \
             ..                  \
-    > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+            > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Ninja Build ..."
 echo "3. Ninja Build ..." >> $LFSLOG_PROCESS

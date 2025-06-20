@@ -32,6 +32,7 @@ export PKGLOG_DIR=$LFSLOG/33.21
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
+export PKGLOG_CHECK=$PKGLOG_DIR/check.log
 export PKGLOG_INSTALL=$PKGLOG_DIR/install.log
 export PKGLOG_ERROR=$PKGLOG_DIR/error.log
 export LFSLOG_PROCESS=$LFSLOG/process.log
@@ -53,19 +54,19 @@ cd    build
 echo "2. CMake Setup ..."
 echo "2. CMake Setup ..." >> $LFSLOG_PROCESS
 echo "2. CMake Setup ..." >> $PKGLOG_ERROR
-cmake -D CMAKE_INSTALL_PREFIX=/usr    \
-      -D SYSCONF_INSTALL_DIR=/etc     \
-      -D ENABLE_VALA_BINDINGS=ON      \
-      -D ENABLE_INSTALLED_TESTS=ON    \
-      -D WITH_OPENLDAP=OFF            \
-      -D WITH_KRB5=OFF                \
-      -D ENABLE_INTROSPECTION=ON      \
-      -D ENABLE_GTK_DOC=OFF           \
-      -D WITH_LIBDB=OFF               \
-      -D WITH_SYSTEMDUSERUNITDIR=no   \
-      -W no-dev                       \
-      -G Ninja                        \
-      ..                              \
+cmake -D CMAKE_INSTALL_PREFIX=/usr  \
+      -D SYSCONF_INSTALL_DIR=/etc   \
+      -D ENABLE_VALA_BINDINGS=ON    \
+      -D ENABLE_INSTALLED_TESTS=ON  \
+      -D WITH_OPENLDAP=OFF          \
+      -D WITH_KRB5=OFF              \
+      -D ENABLE_INTROSPECTION=ON    \
+      -D ENABLE_GTK_DOC=OFF         \
+      -D WITH_LIBDB=OFF             \
+      -D WITH_SYSTEMDUSERUNITDIR=no \
+      -W no-dev                     \
+      -G Ninja                      \
+      ..                            \
       > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Ninja Build ..."
@@ -89,5 +90,6 @@ rm -rf $PKG
 unset SOURCES
 unset LFSLOG_PROCESS
 unset PKGLOG_INSTALL PKGLOG_BUILD PKGLOG_CONFIG
+unset PKGLOG_CHECK
 unset PKGLOG_ERROR PKGLOG_TAR
 unset PKGLOG_DIR PKG

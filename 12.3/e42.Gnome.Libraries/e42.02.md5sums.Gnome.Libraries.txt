@@ -1,4 +1,4 @@
-# 33.A Libraries
+# 33.A GNOME Libraries
 # 33.01 to 33.25
 
 40a754ba44d5e95e4d07656d6302900c gcr-3.41.2.tar.xz

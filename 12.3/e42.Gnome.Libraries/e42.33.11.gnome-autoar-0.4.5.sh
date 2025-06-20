@@ -44,11 +44,11 @@ cd    build
 echo "2. Meson Setup ..."
 echo "2. Meson Setup ..." >> $LFSLOG_PROCESS
 echo "2. Meson Setup ..." >> $PKGLOG_ERROR
-meson setup --prefix=/usr           \
-            --buildtype=release     \
-            -D vapi=true            \
-            -D tests=true           \
-            ..                      \
+meson setup --prefix=/usr       \
+            --buildtype=release \
+            -D vapi=true        \
+            -D tests=true       \
+            ..                  \
             > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Ninja Build ..."

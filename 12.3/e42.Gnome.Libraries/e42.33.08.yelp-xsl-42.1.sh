@@ -1,7 +1,6 @@
 # e42.33.08.yelp-xsl-42.1.sh
 #
 
-#                        
 #
 # Dependencies Required:
 #
