@@ -13,7 +13,7 @@
 #               g11.09.80  Node.js-22.14.0
 #               e11.42.49  PulseAudio-17.0
 #               a.08.91.19 Python-3.1{2,3}.x
-#               e21.25.42  startup-notification-0.12
+#               e11.25.42  startup-notification-0.12
 #
 # Dependencies Recommended:
 #

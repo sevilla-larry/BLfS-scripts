@@ -1,8 +1,2 @@
-# 09.41 libdisplay-info-0.2.0
-160d4159a7805823cf0b3b4f86dfa8d4 libdisplay-info-0.2.0.tar.xz
-
-# 25.42 startup-notification-0.12
-2cd77326d4dcaed9a5a23a1232fb38e9 startup-notification-0.12.tar.gz
-
 # 33.07 VTE-0.78.4
 cdfc61b7021a43841845b8fb1593d28c vte-0.78.4.tar.gz

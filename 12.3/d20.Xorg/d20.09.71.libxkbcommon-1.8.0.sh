@@ -19,13 +19,13 @@
 #               Xvfb from
 #                   d20.24.20 Xorg-Server-21.1.16
 #                or
-#                   d20.24.23 Xwayland-24.1.6
+#                   d20.24.19 Xwayland-24.1.6
 #
 
 #
 # Recommended (but required) by:
 #
-#               e21.25.17 GTK+-3.24.43
+#               e11.25.16 GTK+-3.24.48
 #
 # Recommended by:
 #

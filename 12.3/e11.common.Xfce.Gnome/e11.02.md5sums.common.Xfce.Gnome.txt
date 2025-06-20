@@ -6,6 +6,8 @@
 
 # 09.33 libassuan-3.0.2
 c6f1bf4bd2aaa79cd1635dcc070ba51a libassuan-3.0.2.tar.bz2
+# 09.41 libdisplay-info-0.2.0
+160d4159a7805823cf0b3b4f86dfa8d4 libdisplay-info-0.2.0.tar.xz
 
 # 10.33 Poppler-25.02.0
 feae5e0715ed7738fcb4220730a3ff4c poppler-25.02.0.tar.xz
@@ -26,6 +28,8 @@ af586a91ff6d4093a6e7e283dfab5f7f libhandy-1.8.3.tar.xz
 00e2b66b100ea57106dee8988c40fe77 libnotify-0.8.4.tar.xz
 # 25.36 libxklavier-5.4
 13af74dcb6011ecedf1e3ed122bd31fa libxklavier-5.4.tar.bz2
+# 25.42 startup-notification-0.12
+2cd77326d4dcaed9a5a23a1232fb38e9 startup-notification-0.12.tar.gz
 
 # 28.01 adwaita-icon-theme-47.0
 b3863567f8019b056695cb51f4e0abc4 adwaita-icon-theme-47.0.tar.xz

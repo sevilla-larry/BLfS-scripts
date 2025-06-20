@@ -4,8 +4,8 @@
 #
 # Dependencies Required:
 #
-#               e21.25.16 GTK-3.24.48
-#               e21.09.41 libdisplay-info-0.2.0
+#               e11.25.16 GTK-3.24.48
+#               e11.09.41 libdisplay-info-0.2.0
 #               e23.35.06 libwnck-43.2
 #               e23.35.07 xfce4-dev-tools-4.20.0
 #

@@ -9,7 +9,7 @@
 #
 # Dependencies Recommended:
 #
-#               e21.25.42 startup-notification-0.12
+#               e11.25.42 startup-notification-0.12
 #
 # Dependencies optional:
 #

@@ -22,5 +22,3 @@ VIII. GNOME
 34.18 Gucharmap-16.0.2
 34.19 Seahorse-47.0.1
 34.20 Snapshot-47.1
-
-

@@ -12,7 +12,7 @@
 #
 #               d20.24.11 XCB Utilities
 #               d20.24.14 Xorg Applications
-#               e21.25.42 startup-notification-0.12
+#               e11.25.42 startup-notification-0.12
 #
 
 export PKG="xcb-util-0.4.1"
