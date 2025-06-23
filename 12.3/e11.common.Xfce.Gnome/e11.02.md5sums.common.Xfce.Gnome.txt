@@ -51,6 +51,8 @@ cf4431e4d8ada7a6e73a46f80f553f06 gsettings-desktop-schemas-47.1.tar.xz
 4c7a93808c12b359733430c8377b7fcf libvpx-1.15.2.tar.gz
 # 42.49 PulseAudio-17.0
 c4a3596a26ff4b9dcd0c394dd1d4f8ee pulseaudio-17.0.tar.xz
+# 42.52 SDL2-2.30.11
+bea190b480f6df249db29eb3bacfe41e SDL2-2.30.11.tar.gz
 # 42.53 sound-theme-freedesktop-0.8
 d7387912cfd275282d1ec94483cb2f62 sound-theme-freedesktop-0.8.tar.bz2
 

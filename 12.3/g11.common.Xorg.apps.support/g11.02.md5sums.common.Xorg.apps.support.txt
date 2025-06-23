@@ -27,8 +27,6 @@ e5be03eda13ef68aabab6e42aa67715e redland-1.0.17.tar.gz
 # 13.18.01 Archive::Zip-1.68
 a33993309322164867c99e04a4000ee3 Archive-Zip-1.68.tar.gz
 
-# 42.52 SDL2-2.30.11
-bea190b480f6df249db29eb3bacfe41e SDL2-2.30.11.tar.gz
 
 # 44.01 FFmpeg-7.1
 #623aa63a72139a82ccb99cd6ee477b94 ffmpeg-7.1.tar.xz

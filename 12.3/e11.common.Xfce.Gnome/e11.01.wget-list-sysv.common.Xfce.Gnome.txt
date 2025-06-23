@@ -51,6 +51,8 @@ https://www.linuxfromscratch.org/patches/blfs/12.2/libcanberra-0.30-wayland-1.pa
 https://github.com/webmproject/libvpx/archive/v1.15.2/libvpx-1.15.2.tar.gz
 # 42.49 PulseAudio-17.0
 https://www.freedesktop.org/software/pulseaudio/releases/pulseaudio-17.0.tar.xz
+# 42.52 SDL2-2.30.11
+https://www.libsdl.org/release/SDL2-2.30.11.tar.gz
 # 42.53 sound-theme-freedesktop-0.8
 https://people.freedesktop.org/~mccann/dist/sound-theme-freedesktop-0.8.tar.bz2
 
