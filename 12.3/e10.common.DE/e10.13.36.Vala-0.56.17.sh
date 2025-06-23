@@ -22,6 +22,7 @@
 #               e42.33.07 VTE-0.78.4
 #               f2.26.02  lightdm-1.32.0
 #               e11.25.32 libhandy-1.8.3
+#               e42.33.01 Gcr-3.41.2
 #               ???.37.04 libfm-1.3.2           ???
 #
 # Optionally ( but needed ) by:

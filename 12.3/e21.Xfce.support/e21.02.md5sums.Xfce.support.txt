@@ -1,2 +1,5 @@
+# 28.01 adwaita-icon-theme-47.0
+b3863567f8019b056695cb51f4e0abc4 adwaita-icon-theme-47.0.tar.xz
+
 # 33.07 VTE-0.78.4
 cdfc61b7021a43841845b8fb1593d28c vte-0.78.4.tar.gz

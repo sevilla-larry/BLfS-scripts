@@ -11,7 +11,7 @@
 # Recommended by:
 #
 #               e10.10.18 libjpeg-turbo-3.0.1
-#               g11.42.45 libvpx-1.15.0
+#               e11.42.45 libvpx-1.15.0
 #
 # Optionally by:
 #

@@ -31,8 +31,6 @@ af586a91ff6d4093a6e7e283dfab5f7f libhandy-1.8.3.tar.xz
 # 25.42 startup-notification-0.12
 2cd77326d4dcaed9a5a23a1232fb38e9 startup-notification-0.12.tar.gz
 
-# 28.01 adwaita-icon-theme-47.0
-b3863567f8019b056695cb51f4e0abc4 adwaita-icon-theme-47.0.tar.xz
 # 28.06 gnome-themes-extra-3.28
 f9f2c6c521948da427f702372e16f826 gnome-themes-extra-3.28.tar.xz
 # 28.09 lxde-icon-theme-0.5.1

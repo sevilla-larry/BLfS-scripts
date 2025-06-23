@@ -22,7 +22,7 @@
 #
 # Dependencies Runtime: needed for current configuration
 #
-#               e11.28.01    adwaita-icon-theme-47.0 (recommended)
+#               e21.28.01    adwaita-icon-theme-47.0 (recommended)
 #               d20.24.28.04 DejaVu-fonts-ttf-2.37
 #               e11.28.06    gnome-themes-extra-3.28
 #
@@ -39,9 +39,9 @@
 #               e11.25.35 libnotify-0.8.4
 #               e11.41.14 XScreenSaver-6.09
 #               e11.04.21 polkit-gnome-0.105
-#               e11.28.01 adwaita-icon-theme-47.0
+#               e21.28.01 adwaita-icon-theme-47.0
 #               e11.28.06 gnome-themes-extra-3.28
-#               e11.33.07 VTE-0.78.4
+#               e21.33.07 VTE-0.78.4
 #               g42.41.12 xarchiver-0.5.4.23
 #               g42.34.04 Evince-46.3.1
 #               g22.40.03 Firefox-128.7.0esr
@@ -50,6 +50,7 @@
 #
 #               e11.42.26 libcanberra-0.30
 #               g22.39.03 LibreOffice-25.2.1
+#               e42.33.01 Gcr-3.41.2
 #
 # Optionally by:
 #

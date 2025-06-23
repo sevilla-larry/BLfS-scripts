@@ -1,12 +1,12 @@
-# e11.28.01.adwaita-icon-theme-47.0.sh
+# e21.28.01.adwaita-icon-theme-47.0.sh
+# withOut GTK-4.*
 #
 
 #
 # Dependencies Required:
 #
 #               e11.25.16 GTK-3.24.48
-#       or
-#               e11.25.18 GTK-4.14.5        ???
+#           ??? e41.25.18 GTK-4.14.5    ???
 #
 #               e10.10.24 librsvg-2.59.2
 #
@@ -15,6 +15,7 @@
 #               a.08.93.05 Git-2.48.1
 #
 
+#
 # Required by:
 #
 #               g42.34.04 Evince-46.3.1
@@ -22,7 +23,7 @@
 # Runtime needed by:
 #
 #               e11.25.16 GTK-3.24.48
-#               e11.25.18 GTK-4.14.5        ???
+#           ??? e41.25.18 GTK-4.14.5    ???
 #
 
 export PKG="adwaita-icon-theme-47.0"

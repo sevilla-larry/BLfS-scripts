@@ -10,7 +10,7 @@
 #
 # Recommended by:
 #
-#               g11.42.45 libvpx-1.15.0
+#               e11.42.45 libvpx-1.15.0
 #               g22.40.03 Firefox-128.7.0esr
 #
 # Optionally by:

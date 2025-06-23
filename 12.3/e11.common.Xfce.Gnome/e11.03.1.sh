@@ -136,20 +136,6 @@ echo "."
 
 ###
 
-echo "e11.28.01.adwaita-icon-theme-47.0"
-echo "e11.28.01.adwaita-icon-theme-47.0" >> $LFSLOG_PROCESS
-
-time { bash e11.28.01.adwaita-icon-theme-47.0.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
-
-###
-
 echo "e11.28.06.gnome-themes-extra-3.28"
 echo "e11.28.06.gnome-themes-extra-3.28" >> $LFSLOG_PROCESS
 
