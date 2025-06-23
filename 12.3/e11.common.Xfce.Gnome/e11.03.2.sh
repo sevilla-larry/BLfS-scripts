@@ -50,6 +50,20 @@ echo "." >> $LFSLOG_PROCESS
 echo "."
 echo "."
 
+###
+
+echo "e11.42.45.libvpx-1.15.2"
+echo "e11.42.45.libvpx-1.15.2" >> $LFSLOG_PROCESS
+
+time { bash e11.42.45.libvpx-1.15.2.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
 #####
 
 unset LFSLOG_PROCESS

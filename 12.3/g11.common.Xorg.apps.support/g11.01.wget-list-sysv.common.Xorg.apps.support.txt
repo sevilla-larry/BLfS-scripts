@@ -27,10 +27,6 @@ https://download.librdf.org/source/redland-1.0.17.tar.gz
 # 13.19.01 Archive::Zip-1.68
 https://www.cpan.org/authors/id/P/PH/PHRED/Archive-Zip-1.68.tar.gz
 
-# 42.45 libvpx-1.15.0
-# https://github.com/webmproject/libvpx/archive/v1.15.0/libvpx-1.15.0.tar.gz
-# 42.45 libvpx-1.15.2	(errata)
-https://github.com/webmproject/libvpx/archive/v1.15.2/libvpx-1.15.2.tar.gz
 # 42.52 SDL2-2.30.11
 https://www.libsdl.org/release/SDL2-2.30.11.tar.gz
 

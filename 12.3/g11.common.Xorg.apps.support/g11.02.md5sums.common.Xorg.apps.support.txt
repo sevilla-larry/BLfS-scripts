@@ -27,10 +27,6 @@ e5be03eda13ef68aabab6e42aa67715e redland-1.0.17.tar.gz
 # 13.18.01 Archive::Zip-1.68
 a33993309322164867c99e04a4000ee3 Archive-Zip-1.68.tar.gz
 
-# 42.45 libvpx-1.15.0
-# 6d2b7b8e1c06f4b10ae63ca22491f8a4 libvpx-1.15.0.tar.gz
-# 42.45 libvpx-1.15.2	(errata)
-4c7a93808c12b359733430c8377b7fcf libvpx-1.15.2.tar.gz
 # 42.52 SDL2-2.30.11
 bea190b480f6df249db29eb3bacfe41e SDL2-2.30.11.tar.gz
 

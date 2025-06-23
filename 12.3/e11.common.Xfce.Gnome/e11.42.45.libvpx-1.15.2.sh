@@ -1,4 +1,4 @@
-# g11.42.45.libvpx-1.15.2.sh
+# e11.42.45.libvpx-1.15.2.sh
 # (errata)
 #
 
