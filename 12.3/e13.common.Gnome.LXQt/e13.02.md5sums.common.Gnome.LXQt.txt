@@ -1,2 +1,5 @@
+# 09.29 JSON-GLib-1.10.6
+d4bf13ddd1e6d607d039d39286f9e3d0 json-glib-1.10.6.tar.xz
+
 # 25.48 xdg-desktop-portal-1.18.4
 4ebe7be08961456544d0ceeca22a03ea xdg-desktop-portal-1.18.4.tar.xz

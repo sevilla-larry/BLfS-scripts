@@ -1,21 +1,21 @@
-# e10.09.29.JSON-GLib-1.10.6.sh
-# svn due to errata of e10.25.48 xdg-desktop-portal-1.18.4
+# e13.09.29.JSON-GLib-1.10.6.sh
+#
 #
 
 #
 # Dependencies Required:
 #
-#               d10.09.17 GLib-2.80.4 (??? GLib-2.82.2 ???)
+#               d10.09.17 GLib-2.82.5
 #
 
 #
 # Required by:
 #
-#               e13.25.48 xdg-desktop-portal-1.18.4 errata
+#           ??? e13.25.48 xdg-desktop-portal-1.18.4 ???
 #
 # Optionally by:
 #
-#               e11.42.17 gst-plugins-bad-1.24.7
+#               e41.42.17 gst-plugins-bad-1.24.12
 #
 
 export PKG="json-glib-1.10.6"
@@ -48,7 +48,7 @@ echo "2. Meson Setup ..." >> $PKGLOG_ERROR
 meson setup --prefix=/usr       \
             --buildtype=release \
             ..                  \
-        > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+            > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Ninja Build ..."
 echo "3. Ninja Build ..." >> $LFSLOG_PROCESS

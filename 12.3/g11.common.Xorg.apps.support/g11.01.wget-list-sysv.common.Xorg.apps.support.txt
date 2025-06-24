@@ -31,9 +31,6 @@ https://www.cpan.org/authors/id/P/PH/PHRED/Archive-Zip-1.68.tar.gz
 #https://www.linuxfromscratch.org/patches/blfs/12.3/ffmpeg-7.1-chromium_method-1.patch
 #https://www.linuxfromscratch.org/patches/blfs/12.3/ffmpeg-7.1-texinfo_fix-1.patch
 
-# 09.29 JSON-GLib-1.10.6
-#https://download.gnome.org/sources/json-glib/1.10/json-glib-1.10.6.tar.xz
-
 # 42.01--->03 alsa-*-1.2.13
 #https://www.alsa-project.org/files/pub/plugins/alsa-plugins-1.2.12.tar.bz2
 #https://www.alsa-project.org/files/pub/utils/alsa-utils-1.2.13.tar.bz2

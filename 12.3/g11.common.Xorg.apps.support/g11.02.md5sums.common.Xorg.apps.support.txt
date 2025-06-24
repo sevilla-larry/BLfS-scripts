@@ -31,9 +31,6 @@ a33993309322164867c99e04a4000ee3 Archive-Zip-1.68.tar.gz
 #								  ffmpeg-7.1-chromium_method-1.patch
 #								  ffmpeg-7.1-texinfo_fix-1.patch
 
-# 09.29 JSON-GLib-1.10.6
-#d4bf13ddd1e6d607d039d39286f9e3d0 json-glib-1.10.6.tar.xz
-
 # 42.01--->03 alsa-*-1.2.13
 #71fce75baa38efab4e32e40db0a33716 alsa-plugins-1.2.12.tar.bz2
 #c04cdabee211a88bf3c6c2f45b2a4f3e alsa-utils-1.2.13.tar.bz2
