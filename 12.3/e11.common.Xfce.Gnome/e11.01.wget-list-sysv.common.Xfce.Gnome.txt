@@ -9,6 +9,8 @@ https://www.gnupg.org/ftp/gcrypt/libassuan/libassuan-3.0.2.tar.bz2
 # 09.41 libdisplay-info-0.2.0
 https://gitlab.freedesktop.org/emersion/libdisplay-info/-/releases/0.2.0/downloads/libdisplay-info-0.2.0.tar.xz
 
+# 10.27 libwebp-1.5.0
+https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.5.0.tar.gz
 # 10.33 Poppler-25.02.0
 https://poppler.freedesktop.org/poppler-25.02.0.tar.xz
 https://poppler.freedesktop.org/poppler-data-0.4.12.tar.gz

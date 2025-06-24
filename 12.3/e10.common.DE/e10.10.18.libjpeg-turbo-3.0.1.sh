@@ -8,9 +8,8 @@
 #
 # Dependencies Recommended:
 #
-#               NASM
-#                   or
-#               e10.13.38 yasm-1.3.0
+#               e10.13.17 NASM-2.16.03
+#            or e10.13.38 yasm-1.3.0
 #
 
 #
@@ -22,7 +21,7 @@
 # Recommended by:
 #
 #               e11.10.33 Poppler-25.02.0
-#               g11.10.27 libwebp-1.5.0
+#               e11.10.27 libwebp-1.5.0
 #               g22.39.03 LibreOffice-25.2.1
 #               e12.25.42 Qt-6.7.2              ???
 #               e12.10.13 JasPer-4.2.4          ???

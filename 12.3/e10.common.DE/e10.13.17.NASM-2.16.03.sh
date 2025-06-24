@@ -15,7 +15,7 @@
 #
 # Optionally by:
 #
-#               g11.42.52 SDL2-2.30.11
+#               e11.42.52 SDL2-2.30.11
 #               g22.39.03 LibreOffice-25.2.1
 #
 

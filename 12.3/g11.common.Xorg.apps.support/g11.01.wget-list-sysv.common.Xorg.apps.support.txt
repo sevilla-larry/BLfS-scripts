@@ -15,8 +15,6 @@ https://nodejs.org/dist/v22.14.0/node-v22.14.0.tar.xz
 
 # 10.10 GLM-1.0.1
 https://github.com/g-truc/glm/archive/1.0.1/glm-1.0.1.tar.gz
-# 10.27 libwebp-1.5.0
-https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.5.0.tar.gz
 
 # 12.28->30 Raptor-2.0.16 Rasqal-0.9.33 Redland-1.0.17
 https://download.librdf.org/source/raptor2-2.0.16.tar.gz

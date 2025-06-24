@@ -19,7 +19,7 @@
 #
 # Recommended by:
 #
-#               g11.10.27 libwebp-1.5.0
+#               e11.10.27 libwebp-1.5.0
 #
 
 export PKG="SDL2-2.30.11"

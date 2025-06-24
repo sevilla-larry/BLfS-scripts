@@ -29,7 +29,7 @@
 #
 # Recommended by:
 #
-#               g11.42.52 SDL2-2.30.11
+#               e11.42.52 SDL2-2.30.11
 #               e12.25.42 Qt-6.7.2
 #
 # Optional (required for test) by:

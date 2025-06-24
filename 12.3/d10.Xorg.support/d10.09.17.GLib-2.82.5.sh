@@ -45,6 +45,7 @@
 #               e11.25.36 libxklavier-5.4
 #               e11.33.03 gsettings-desktop-schemas-47.1
 #               e11.10.33 Poppler-25.02.0
+#               e42.33.01 Gcr-3.41.2
 #               g11.42.13 gstreamer-1.24.12
 #               37.02 libfm-extra-1.3.2             ???
 #               09.07 dbus-glib-0.112               ???
