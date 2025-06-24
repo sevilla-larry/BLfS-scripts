@@ -9,23 +9,27 @@
 # Dependencies Recommended:
 #
 #               e10.25.04 Cairo-1.18.2
-#                           FLAC
+#               e10.42.11 FLAC-1.4.3
 #               e10.25.10 gdk-pixbuf-2.42.12
-#                           libvpx
-#                           NASM
-#                           PulseAudio
+#               e10.43.04 LAME-3.100
+#               e41.17.18 libsoup-3.6.5 (errata)
+#               e11.42.45 libvpx-1.15.2
+#               e10.43.05 mpg123-1.32.10
+#               e10.13.17 NASM-2.16.03
+#               e11.42.49 PulseAudio-17.0
 #
 # Dependencies Optional:
 #
 #               e11.25.16 GTK-3.24.48
 #                           Qt-6.x
+#               e10.42.55 Speex-1.2.1
 #               d10.09.97 Wayland-1.23.0
 #
 
 #
-# Recommended ( but needed by ):
+# Recommended Runtime by:
 #
-#               e11.25.18 GTK-4.14.5    ???
+#               e11.25.17 GTK-4.16.12
 #
 
 export PKG="gst-plugins-good-1.24.12"

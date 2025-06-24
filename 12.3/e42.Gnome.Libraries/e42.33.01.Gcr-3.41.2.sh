@@ -10,9 +10,9 @@
 #
 # Dependencies Recommended:
 #
-#               e10.04.06  GnuPG-2.4.7   ???
+#           ??? e41.04.06  GnuPG-2.4.7  (deferred due to OpenLDAP)
 #               e11.25.16  GTK-3.24.48
-#                           libsecret
+#               e42.33.04  libsecret-0.21.6
 #               a.08.91.38 libxslt-1.1.43 (errata)
 #               e10.13.36  Vala-0.56.17
 #

@@ -1,34 +1,26 @@
-# e42.33.02.Gcr-4.3.1.sh
+# e41.17.04.glib-networking-2.80.1.sh
 #
 
 #
 # Dependencies Required:
 #
 #               d10.09.17  GLib-2.82.5
-#               a.08.91.35 libgcrypt-1.11.0
-#               a.08.91.39 p11-kit-0.25.5
+#               a.08.91.63 GnuTLS-3.8.9
 #
 # Dependencies Recommended:
 #
-#           ??? e41.04.06  GnuPG-2.4.7  (deferred due to OpenLDAP)
-#               e41.25.17  GTK-4.16.12
-#               e42.33.04  libsecret-0.21.6
-#               a.08.91.38 libxslt-1.1.43 (errata)
-#               a.08.92.12 OpenSSH-9.9p2
-#               e10.13.36  Vala-0.56.17
-#
-# Dependencies Optional:
-#
-#               a.08.91.63 GnuTLS-3.8.9
+#               e11.33.03  gsettings-desktop-schemas-47.1
+#               a.08.91.40 make-ca-1.16 (errata)
 #
 
 #
 # Required by:
 #
+#               e41.17.18 libsoup-3.6.5 (errata)
 #
 
-export PKG="gcr-4.3.1"
-export PKGLOG_DIR=$LFSLOG/33.02
+export PKG="glib-networking-2.80.1"
+export PKGLOG_DIR=$LFSLOG/17.04
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
@@ -48,21 +40,22 @@ tar xvf $PKG.tar.xz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
 
 
-mkdir build
-cd    build
+mkdir build 
+cd    build 
 
 echo "2. Meson Setup ..."
 echo "2. Meson Setup ..." >> $LFSLOG_PROCESS
 echo "2. Meson Setup ..." >> $PKGLOG_ERROR
-meson setup --prefix=/usr       \
-            --buildtype=release \
-            -D gtk_doc=false    \
-            ..                  \
-            > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+meson setup                 \
+      --prefix=/usr         \
+      --buildtype=release   \
+      -D libproxy=disabled  \
+      ..                    \
+      > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Ninja Build ..."
 echo "3. Ninja Build ..." >> $LFSLOG_PROCESS
-echo "3. Ninja Build ..." >> $PKGLOG_ERROR 
+echo "3. Ninja Build ..." >> $PKGLOG_ERROR
 ninja > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 
 echo "4. Ninja Test ..."

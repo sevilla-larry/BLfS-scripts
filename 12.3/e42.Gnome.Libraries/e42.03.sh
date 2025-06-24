@@ -196,17 +196,17 @@ echo "."
 
 ###
 
-echo "e42.33.15.libgdata-0.18.1"
-echo "e42.33.15.libgdata-0.18.1" >> $LFSLOG_PROCESS
-
-time { bash e42.33.15.libgdata-0.18.1.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
+# echo "e42.33.15.libgdata-0.18.1"
+# echo "e42.33.15.libgdata-0.18.1" >> $LFSLOG_PROCESS
+#
+# time { bash e42.33.15.libgdata-0.18.1.sh ; }
+#
+# date +"%Y/%b/%d %H:%M"
+# date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+#
+# echo "." >> $LFSLOG_PROCESS
+# echo "."
+# echo "."
 
 ###
 

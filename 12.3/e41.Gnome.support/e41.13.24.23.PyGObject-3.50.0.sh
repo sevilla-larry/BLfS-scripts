@@ -1,4 +1,4 @@
-# e11.13.23.23.PyGObject-3.48.2.sh
+# e41.13.24.23.PyGObject-3.50.0.sh
 #
 
 #
@@ -6,16 +6,24 @@
 #
 #               d10.09.17 GLib-2.80.4
 #
+# Dependencies Recommended:
+#
+#               e41.13.24.20 PyCairo-1.26.1
+#
+# Dependencies Optional:
+#
+#               a.08.91.20.10 Pytest-8.3.4
+#
 
 #
 # Required by:
 #
-#               e11.25.18 GTK-4.14.5
+#               e41.25.17 GTK-4.16.12
 #
 
 
-export PKG="pygobject-3.48.2"
-export PKGLOG_DIR=$LFSLOG/13.23.23
+export PKG="pygobject-3.50.0"
+export PKGLOG_DIR=$LFSLOG/13.24.23
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
@@ -24,6 +32,7 @@ export PKGLOG_INSTALL=$PKGLOG_DIR/install.log
 export PKGLOG_ERROR=$PKGLOG_DIR/error.log
 export PKGLOG_OTHERS=$PKGLOG_DIR/others.log
 export LFSLOG_PROCESS=$LFSLOG/process.log
+export SOURCES=`pwd`
 
 rm -r $PKGLOG_DIR 2> /dev/null
 mkdir $PKGLOG_DIR
@@ -49,7 +58,7 @@ echo "2. Meson Setup ..." >> $PKGLOG_ERROR
 meson setup --prefix=/usr       \
             --buildtype=release \
             ..                  \
-    > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+            > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Ninja Build ..."
 echo "3. Ninja Build ..." >> $LFSLOG_PROCESS
@@ -67,8 +76,9 @@ echo "5. Ninja Install ..." >> $PKGLOG_ERROR
 ninja install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 
-cd ..
+cd $SOURCES
 rm -rf $PKG
+unset SOURCES
 unset LFSLOG_PROCESS
 unset PKGLOG_OTHERS
 unset PKGLOG_INSTALL PKGLOG_BUILD PKGLOG_CONFIG

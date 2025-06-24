@@ -4,7 +4,7 @@
 #
 # Dependencies Required:
 #
-#               e11.42.13 gstreamer-1.24.12
+#               e41.42.13 gstreamer-1.24.12
 #
 # Dependencies Recommended:
 #
@@ -23,16 +23,17 @@
 #
 # Dependencies Optional:
 #
-#               e11.25.15 Graphene-1.10.8
+#               e41.25.15 Graphene-1.10.8
 #               e11.25.16 GTK-3.24.48
-#                         Opus
+#               e10.42.47 Opus-1.5.2
+#               e11.42.52 SDL2-2.30.11
 #
 
 #
 # Required by:
 #
-#               e11.42.15 gst-plugins-good-1.24.12
-#               e11.42.16 gst-plugins-bad-1.24.12
+#               e41.42.15 gst-plugins-good-1.24.12
+#               e41.42.16 gst-plugins-bad-1.24.12
 #
 # Recommended by:
 #
@@ -83,14 +84,14 @@ ninja > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 
 # Tests require X terminal running
 #
-#echo "4. Ninja Test ..."
-#echo "4. Ninja Test ..." >> $LFSLOG_PROCESS
-#echo "4. Ninja Test ..." >> $PKGLOG_ERROR
-#ninja test > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
+echo "4. Ninja Test ..."
+echo "4. Ninja Test ..." >> $LFSLOG_PROCESS
+echo "4. Ninja Test ..." >> $PKGLOG_ERROR
+ninja test > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
 
-echo "4. Ninja Install ..."
-echo "4. Ninja Install ..." >> $LFSLOG_PROCESS
-echo "4. Ninja Install ..." >> $PKGLOG_ERROR
+echo "5. Ninja Install ..."
+echo "5. Ninja Install ..." >> $LFSLOG_PROCESS
+echo "5. Ninja Install ..." >> $PKGLOG_ERROR
 ninja install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 

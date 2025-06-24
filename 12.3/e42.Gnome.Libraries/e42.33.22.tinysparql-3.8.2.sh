@@ -11,7 +11,7 @@
 #
 #               d10.09.17  GLib-2.82.5
 #               a.08.91.07 icu-76.1
-#                           libsoup-2.74.3
+#               e41.17.18 libsoup-3.6.5 (errata)
 #                           PyGObject-3.50.0
 #               a.08.91.18 SQLite-3.49.1
 #
@@ -21,8 +21,9 @@
 #
 
 #
-# Required by:
+# Optionally by:
 #
+#               e41.25.17 GTK-4.16.12
 #
 
 export PKG="tinysparql-3.8.2"

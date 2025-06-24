@@ -1,44 +1,34 @@
-# e11.42.17.gst-plugins-bad-1.24.7.sh
+# e41.13.24.20.PyCairo-1.26.1.sh
 #
 
 #
 # Dependencies Required:
 #
-#               e11.42.15 gst-plugins-base-1.24.7
-#
-# Dependencies Recommended:
-#
-#               d20.42.41 libva-2.22.0      PC
+#               e10.25.04 Cairo-1.18.2
 #
 # Dependencies Optional:
 #
-#               b11.17.02 cURL-8.10.1
-#               e11.25.17 GTK+-3.24.43
-#               e11.42.16 gst-plugins-good-1.24.7
-#               e11.09.29 JSON-Glib-1.8.0
-#               e10.10.14 Little CMS-2.16
-#               e10.10.16 libexif-0.6.24
-#               e10.10.27 libwebp-1.4.0
-#               e10.09.71 libxkbcommon-1.7.0
-#               e11.04.16 Nettle-3.10
-#               d10.09.97 Wayland-1.23.0
+#               a.08.91.20.10 Pytest-8.3.4
 #
 
 #
-# Recommended ( but needed by ):
+# Recommended by:
 #
-#               e11.25.18 GTK-4.14.5
+#               e41.13.24.23 PyGObject-3.50.0
 #
 
-export PKG="gst-plugins-bad-1.24.7"
-export PKGLOG_DIR=$LFSLOG/42.17
+
+export PKG="pycairo-1.26.1"
+export PKGLOG_DIR=$LFSLOG/13.24.20
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
 export PKGLOG_CHECK=$PKGLOG_DIR/check.log
 export PKGLOG_INSTALL=$PKGLOG_DIR/install.log
 export PKGLOG_ERROR=$PKGLOG_DIR/error.log
+#export PKGLOG_OTHERS=$PKGLOG_DIR/others.log
 export LFSLOG_PROCESS=$LFSLOG/process.log
+export SOURCES=`pwd`
 
 rm -r $PKGLOG_DIR 2> /dev/null
 mkdir $PKGLOG_DIR
@@ -46,28 +36,26 @@ mkdir $PKGLOG_DIR
 echo "1. Extract tar..."
 echo "1. Extract tar..." >> $LFSLOG_PROCESS
 echo "1. Extract tar..." >> $PKGLOG_ERROR
-tar xvf $PKG.tar.xz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
+tar xvf $PKG.tar.gz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
 
 
-mkdir build 
-cd    build 
+mkdir build
+cd    build
 
 echo "2. Meson Setup ..."
 echo "2. Meson Setup ..." >> $LFSLOG_PROCESS
 echo "2. Meson Setup ..." >> $PKGLOG_ERROR
-meson setup ..                  \
-      --prefix=/usr             \
-      --buildtype=release       \
-      -D gpl=enabled            \
-      > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+meson setup --prefix=/usr       \
+            --buildtype=release \
+            ..                  \
+            > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Ninja Build ..."
 echo "3. Ninja Build ..." >> $LFSLOG_PROCESS
-echo "3. Ninja Build ..." >> $PKGLOG_ERROR
+echo "3. Ninja Build ..." >> $PKGLOG_ERROR 
 ninja > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 
-# Several tests need a terminal emulator
 echo "4. Ninja Test ..."
 echo "4. Ninja Test ..." >> $LFSLOG_PROCESS
 echo "4. Ninja Test ..." >> $PKGLOG_ERROR
@@ -79,10 +67,11 @@ echo "5. Ninja Install ..." >> $PKGLOG_ERROR
 ninja install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 
-cd ..
-cd ..
+cd $SOURCES
 rm -rf $PKG
+unset SOURCES
 unset LFSLOG_PROCESS
+#unset PKGLOG_OTHERS
 unset PKGLOG_INSTALL PKGLOG_BUILD PKGLOG_CONFIG
 unset PKGLOG_CHECK
 unset PKGLOG_ERROR PKGLOG_TAR

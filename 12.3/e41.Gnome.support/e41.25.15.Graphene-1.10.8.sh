@@ -10,19 +10,23 @@
 #
 # Required by:
 #
-#           ??? e11.25.18 GTK-4.14.5
+#               e41.25.18 GTK-4.14.5
+#
+# Optionally by:
+#
+#               e41.42.14.gst-plugins-base-1.24.12
 #
 
 
 export PKG="graphene-1.10.8"
-export PKGLOG_DIR=$LFSLOG/25.16
+export PKGLOG_DIR=$LFSLOG/25.15
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
 export PKGLOG_CHECK=$PKGLOG_DIR/check.log
 export PKGLOG_INSTALL=$PKGLOG_DIR/install.log
 export PKGLOG_ERROR=$PKGLOG_DIR/error.log
-export PKGLOG_OTHERS=$PKGLOG_DIR/others.log
+#export PKGLOG_OTHERS=$PKGLOG_DIR/others.log
 export LFSLOG_PROCESS=$LFSLOG/process.log
 export SOURCES= `pwd`
 
@@ -45,7 +49,7 @@ echo "2. Meson Setup ..." >> $PKGLOG_ERROR
 meson setup --prefix=/usr       \
             --buildtype=release \
             ..                  \
-    > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+            > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Ninja Build ..."
 echo "3. Ninja Build ..." >> $LFSLOG_PROCESS
@@ -67,7 +71,7 @@ cd $SOURCES
 rm -rf $PKG
 unset SOURCES
 unset LFSLOG_PROCESS
-unset PKGLOG_OTHERS
+#unset PKGLOG_OTHERS
 unset PKGLOG_INSTALL PKGLOG_BUILDPKGLOG_CONFIG
 unset PKGLOG_CHECK
 unset PKGLOG_ERROR PKGLOG_TAR

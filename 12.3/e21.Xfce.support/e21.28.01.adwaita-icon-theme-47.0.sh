@@ -6,8 +6,7 @@
 # Dependencies Required:
 #
 #               e11.25.16 GTK-3.24.48
-#           ??? e41.25.18 GTK-4.14.5    ???
-#
+#           ??? e41.25.18 GTK-4.16.12   OFF
 #               e10.10.24 librsvg-2.59.2
 #
 # Dependencies Optional:
@@ -23,11 +22,11 @@
 # Runtime needed by:
 #
 #               e11.25.16 GTK-3.24.48
-#           ??? e41.25.18 GTK-4.14.5    ???
+#           ??? e41.25.18 GTK-4.16.12   OFF
 #
 
 export PKG="adwaita-icon-theme-47.0"
-export PKGLOG_DIR=$LFSLOG/28.01
+export PKGLOG_DIR=$LFSLOG/28.01.1
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
@@ -52,9 +51,9 @@ cd    build
 echo "2. Meson Setup ..."
 echo "2. Meson Setup ..." >> $LFSLOG_PROCESS
 echo "2. Meson Setup ..." >> $PKGLOG_ERROR
-meson setup     --prefix=/usr       \
-                ..                  \
-        > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+meson setup --prefix=/usr   \
+            ..              \
+            > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Ninja Build ..."
 echo "3. Ninja Build ..." >> $LFSLOG_PROCESS
