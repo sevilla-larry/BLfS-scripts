@@ -15,4 +15,5 @@ d6d7e371c2eef21ffc55f1259fbaecba gnome-shell-47.4.tar.xz
 b234428ca39e494db57fb88613c71f6f gnome-session-47.0.1.tar.xz
 1c770b4db46b037338e0501a6c5cc813 gnome-tweaks-46.1.tar.xz
 bc60cd81f0bbb03b85dd12580cfd565c gnome-user-docs-47.2.tar.xz
-3792122c4ab90725716cd88e9274f0f6 yelp-42.2.tar.xz
+#3792122c4ab90725716cd88e9274f0f6 yelp-42.2.tar.xz
+55f5edc7e1d52797a8fba23540fa72c1 yelp-42.3.tar.xz

@@ -8,14 +8,15 @@ https://download.gnome.org/sources/libsecret/0.21/libsecret-0.21.6.tar.xz
 https://download.gnome.org/sources/rest/0.9/rest-0.9.1.tar.xz
 https://download.gnome.org/sources/totem-pl-parser/3.26/totem-pl-parser-3.26.6.tar.xz
 https://gitlab.gnome.org/GNOME/vte/-/archive/0.78.4/vte-0.78.4.tar.gz
-https://download.gnome.org/sources/yelp-xsl/42/yelp-xsl-42.1.tar.xz
+#https://download.gnome.org/sources/yelp-xsl/42/yelp-xsl-42.1.tar.xz
+https://download.gnome.org/sources/yelp-xsl/42/yelp-xsl-42.4.tar.xz
 https://download.gnome.org/sources/geocode-glib/3.26/geocode-glib-3.26.4.tar.xz
 https://download.gnome.org/sources/gjs/1.82/gjs-1.82.1.tar.xz
 https://download.gnome.org/sources/gnome-autoar/0.4/gnome-autoar-0.4.5.tar.xz
 https://download.gnome.org/sources/gnome-desktop/44/gnome-desktop-44.1.tar.xz
 https://download.gnome.org/sources/gnome-menus/3.36/gnome-menus-3.36.0.tar.xz
 https://download.gnome.org/sources/gnome-online-accounts/3.52/gnome-online-accounts-3.52.3.1.tar.xz
-https://download.gnome.org/sources/libgdata/0.18/libgdata-0.18.1.tar.xz
+#https://download.gnome.org/sources/libgdata/0.18/libgdata-0.18.1.tar.xz
 https://download.gnome.org/sources/libgee/0.20/libgee-0.20.8.tar.xz
 https://download.gnome.org/sources/libgtop/2.41/libgtop-2.41.3.tar.xz
 https://download.gnome.org/sources/libgweather/4.4/libgweather-4.4.4.tar.xz

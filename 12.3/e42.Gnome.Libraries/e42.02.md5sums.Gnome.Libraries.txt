@@ -8,14 +8,15 @@ e7139fca939c50309eba74280e7048ac libsecret-0.21.6.tar.xz
 b997b83232be3814a1b78530c5700df9 rest-0.9.1.tar.xz
 69dc2cf0e61e6df71ed45156b24b14da totem-pl-parser-3.26.6.tar.xz
 cdfc61b7021a43841845b8fb1593d28c vte-0.78.4.tar.gz
-c41858c78e34bb8b68a535657a3e15d9 yelp-xsl-42.1.tar.xz
+#c41858c78e34bb8b68a535657a3e15d9 yelp-xsl-42.1.tar.xz
+e0f6ed43c206bb205057d0adf76e83bd yelp-xsl-42.4.tar.xz
 4c0dcdb7ee1222435b20acd3d7b68cd1 geocode-glib-3.26.4.tar.xz
 3ebc85da56719932d4d8f713ffbcf786 gjs-1.82.1.tar.xz
 c8028c4df62c059418d4bdcde345cbe2 gnome-autoar-0.4.5.tar.xz
 eda77690fcb351558ea0d1716a55e90b gnome-desktop-44.1.tar.xz
 a8fd71fcf31a87fc799d80396a526829 gnome-menus-3.36.0.tar.xz
 f14d6d5be4b0af4458bba52f6ffb95d7 gnome-online-accounts-3.52.3.1.tar.xz
-92b058d1a0af5d1b96c86c21820f1eff libgdata-0.18.1.tar.xz
+#92b058d1a0af5d1b96c86c21820f1eff libgdata-0.18.1.tar.xz
 e8e37df1c7a93aa5ba08be12ae7e7cad libgee-0.20.8.tar.xz
 465db9f4f695c298d9c48dcf7f32a9c0 libgtop-2.41.3.tar.xz
 42c548a6d45f79c2120b0a0df8a74e68 libgweather-4.4.4.tar.xz
