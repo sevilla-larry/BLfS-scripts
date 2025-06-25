@@ -19,7 +19,7 @@
 #
 # Recommended by:
 #
-#               d20.24.20 Xorg-Server-21.1.16
+#               d20.24.20 Xorg-Server-21.1.18   (errata)
 #               e11.42.49 PulseAudio-17.0
 #               e12.25.42 Qt-6.7.2              ???
 #

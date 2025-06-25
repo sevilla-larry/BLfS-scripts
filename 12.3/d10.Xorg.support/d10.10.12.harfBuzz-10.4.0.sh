@@ -18,7 +18,7 @@
 # Recommended by:
 #
 #               d10.10.04 FreeType-2.13.3
-#               g22.39.03 LibreOffice-25.2.1
+#               g22.39.03 LibreOffice-25.2.3	(errata)
 #               e12.25.42 Qt-6.7.2              ???
 #
 # Note on Cairo

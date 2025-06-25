@@ -1,4 +1,4 @@
-# g12.39.03.LibreOffice-25.2.1.Part1.sh
+# g22.39.03.LibreOffice-25.2.3.Part1.sh
 #
 # Part1 - as user, up to "build"
 #
@@ -7,7 +7,7 @@
 # Dependencies Required:
 #
 #               g11.13.19.01 Archive::Zip-1.68
-#               a.08.91.12   libarchive-3.7.7
+#               a.08.91.12   libarchive-3.8.1   (errata)
 #               a.08.93.02   WGet-1.25.0
 #               a.08.91.03   Which-2.23
 #               a.08.91.04   Zip-3.0
@@ -18,7 +18,7 @@
 #               a.08.91.23   boost-1.87.0
 #               g11.09.09    CLucene-2.3.3.4
 #               ???          Cups                       ???
-#               a.08.93.04   cURL-8.12.1
+#               a.08.93.04   cURL-8.14.1        (errata)
 #               d20.25.34    libepoxy-1.5.10
 #               e10.10.18    libjpeg-turbo-3.0.1
 #               d10.13.13    LLVM-19.1.7
@@ -26,7 +26,7 @@
 #               e11.25.13    GLU-9.0.3
 #               e11.04.08    GPGME-1.24.2
 #               d10.10.11    Graphite2-1.3.14
-#           ??? g11.42.14    gst-plugins-base-1.24.12   ???
+#           ??? e41.42.14    gst-plugins-base-1.26.2    ???
 #               e11.25.16    GTK-3.24.48
 #               d10.10.12    harfBuzz-10.4.0
 #               a.08.91.07   icu-76.1
@@ -35,27 +35,31 @@
 #               e10.10.24    librsvg-2.59.2
 #               e10.10.26    libtiff-4.7.0
 #               e11.10.27    libwebp-1.5.0
-#               a.08.91.08   libxml2-2.13.6
-#               a.08.91.38   libxslt-1.1.43
-#               d10.13.24.12 lxml-5.3.1
+#               a.08.91.08   libxml2-2.14.3     (errata)
+#               a.08.91.38   libxslt-1.1.43     (errata)
+#               d10.13.24.12 lxml-5.4.0         (errata)
 #               d20.24.12    Mesa-24.3.4
 #               a.08.91.32   NSS-3.108
 #               ???          OpenLDAP                   ???
 #               e11.10.33    Poppler-25.02.0 (GTK)
-#               c12.22.04    PostgreSQL-17.4        (not used)
+#               c12.22.04  PostgreSQL-17.5      (errata) (not used)
 #               g11.12.30    Redland-1.0.17
 #               b10.11.21    unixODBC-2.3.12
 #
 # Dependencies Optional:
 #
+#         Gnome e43.33.31  DConf-0.40.0
 #               d10.11.04  desktop-file-utils-0.28
-#               c11.22.03  MariaDB-11.4.5           (not used)
+#         Gnome e42.33.21  evolution-data-server-3.54.3
+#               a.08.91.63 GnuTLS-3.8.9
+#         Gnome e41.25.17  GTK-4.16.12
+#               c11.22.03 MariaDB-11.4.7        (errata) (not used)
 #               e10.13.17  NASM-2.16.03
 #               a.08.91.40 make-ca-1.16
 #               ???        Qt-6.x                       ???
 #
 
-export PKG="libreoffice-25.2.1.2"
+export PKG="libreoffice-25.2.3.2"
 export PKGLOG_DIR=$LFSLOG/39.03
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
@@ -77,32 +81,38 @@ tar xvf $PKG.tar.xz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
 
 
-patch -Np1 -i ../libreoffice-25.2.1.2-icu76_fixes-1.patch   \
-			 > $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
+patch -Np1 -i ../libreoffice-25.2.3.2-icu76_fixes-1.patch   \
+            >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
+patch -Np1 -i ../libreoffice-25.2.3.2-poppler_fixes-1.patch \
+            >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
+
 sed -i '/icuuc \\/a zlib\\'						    \
 			writerperfect/Library_wpftdraw.mk	    \
 			>> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
 sed -i "/distro-install-file-lists/d" Makefile.in   \
 			>> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
-sed -e "/gzip -f/d"   \
-    -e "s|.1.gz|.1|g" \
+sed -e "/gzip -f/d"                                 \
+    -e "s|.1.gz|.1|g"                               \
     -i bin/distro-install-desktop-integration       \
 			>> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
 
-install -v -dm755 external/tarballs	\
+install -v -dm755 external/tarballs	                        \
 			>> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
-ln -sv ../../../libreoffice-dictionaries-25.2.1.2.tar.xz external/tarballs/	\
+ln -sv ../../../libreoffice-dictionaries-25.2.3.2.tar.xz    \
+                external/tarballs/                          \
 			>> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
-ln -sv ../../../libreoffice-help-25.2.1.2.tar.xz         external/tarballs/	\
+ln -sv ../../../libreoffice-help-25.2.3.2.tar.xz            \
+                external/tarballs/                          \
 			>> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
-ln -sv ../../../libreoffice-translations-25.2.1.2.tar.xz external/tarballs/	\
+ln -sv ../../../libreoffice-translations-25.2.3.2.tar.xz    \
+                external/tarballs/                          \
 			>> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
 
-ln -sv src/libreoffice-help-25.2.1.2/helpcontent2/			\
+ln -sv src/libreoffice-help-25.2.3.2/helpcontent2/			\
 			>> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
-ln -sv src/libreoffice-dictionaries-25.2.1.2/dictionaries/	\
+ln -sv src/libreoffice-dictionaries-25.2.3.2/dictionaries/	\
 			>> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
-ln -sv src/libreoffice-translations-25.2.1.2/translations/	\
+ln -sv src/libreoffice-translations-25.2.3.2/translations/	\
 			>> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
 
 echo "2. Autogen Configure ..."

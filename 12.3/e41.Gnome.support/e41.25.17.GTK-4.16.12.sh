@@ -18,9 +18,9 @@
 # Dependencies Recommended:
 #
 #               e11.28.01 adwaita-icon-theme-47.0   (settings keys)
-#               e41.42.16 gst-plugins-bad-1.24.12
-#           ??? e41.11.06 glslc from shaderc-2024.4 ???
-#               e41.42.15 gst-plugins-good-1.24.12  (runtime)
+#               e41.42.16 gst-plugins-bad-1.26.2    (errata)
+#           ??? e41.11.06 glslc from shaderc-2024.4 (PCs)   ???
+#               e41.42.15 gst-plugins-good-1.26.2   (errata) (runtime)
 #               e10.28.07 hicolor-icon-theme-0.18   (test)
 #               e11.10.24 librsvg-2.59.2
 #               d20.25.44 Vulkan-Loader-1.4.304     (PCs)
@@ -41,6 +41,10 @@
 # Recommended by:
 #
 #               e42.33.02 Gcr-4.3.1
+#
+# Optionally by:
+#
+#               g22.39.03 LibreOffice-25.2.3	(errata)
 #
 
 export PKG="gtk-4.14.5"

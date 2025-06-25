@@ -18,12 +18,12 @@
 #
 # Required by:
 #
-#               g22.40.03 Firefox-128.7.0esr
+#               g22.40.03 Firefox-128.11.0esr   (errata)
 #
 # Recommended by:
 #
 #               e10.13.27 Rustc-1.85.0
-#               g22.39.03 LibreOffice-25.2.1
+#               g22.39.03 LibreOffice-25.2.3	(errata)
 #
 # Recommended ( but needed ) by:
 #

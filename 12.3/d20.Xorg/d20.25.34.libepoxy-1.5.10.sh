@@ -10,13 +10,14 @@
 #
 # Required by:
 #
-#               GTK 3
+#               e11.25.16 GTK-3.24.48
+#               e41.25.17 GTK-4.16.12
 #
 # Recommended ( but needed ) by:
 #
-#               d20.24.19 Xwayland-24.1.6
-#               d20.24.20 Xorg-Server-21.1.16
-#               g22.39.03 LibreOffice-25.2.1
+#               d20.24.19 Xwayland-24.1.8       (errata)
+#               d20.24.20 Xorg-Server-21.1.18   (errata)
+#               g22.39.03 LibreOffice-25.2.3	(errata)
 #
 
 export PKG="libepoxy-1.5.10"

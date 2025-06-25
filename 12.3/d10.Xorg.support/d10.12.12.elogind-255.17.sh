@@ -19,13 +19,13 @@
 #
 # Dependencies Optional:
 #
-#               d10.13.24.12 lxml-5.3.1
+#               d10.13.24.12 lxml-5.4.0         (errata)
 #
 
 #
 # Recommended (runtime) by:
 #
-#               d20.24.20 Xorg-Server-21.1.16
+#               d20.24.20 Xorg-Server-21.1.18   (errata)
 #               e10.42.01 alsa-lib-1.2.13
 #
 # Recommended by:

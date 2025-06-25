@@ -8,8 +8,8 @@
 #
 # Dependencies optional:
 #
-#               c11.22.03  MariaDB-11.4.5
-#               c12.22.04  PostgreSQL-17.4
+#               c11.22.03  MariaDB-11.4.7       (errata)
+#               c12.22.04  PostgreSQL-17.5      (errata)
 #               a.08.91.18 SQLite-3.49.1
 #               b10.11.21  unixODBC-2.3.12
 #

@@ -27,7 +27,7 @@
 # Dependencies Recommended:
 #
 #               d20.25.12 Glslang-15.1.0            for PCs
-#           ??  d20.42.41 libva-2.22.0              for PCs
+#               d20.42.41 libva-2.22.0              for PCs
 #               d10.13.13 LLVM-19.1.7
 #               d10.09.98 Wayland-Protocols-1.40
 #               d20.25.44 Vulkan-Loader-1.4.304     for PCs
@@ -38,14 +38,15 @@
 # Required by:
 #
 #               d20.24.14 Xorg Applications
+#               d20.24.20 Xorg-Server-21.1.18   (errata) (implied)
 #               d20.25.34 libepoxy-1.5.10
 #               e11.25.13 GLU-9.0.3
 #
 # Recommended by:
 #
 #               d20.42.41 libva-2.22.0              for PCs
-#               d20.24.19 Xwayland-24.1.6
-#               g22.39.03 LibreOffice-25.2.1
+#               d20.24.19 Xwayland-24.1.8       (errata)
+#               g22.39.03 LibreOffice-25.2.3	(errata)
 #               e12.25.42 Qt-6.7.2              ???
 #
 # Recommended Runtime by:

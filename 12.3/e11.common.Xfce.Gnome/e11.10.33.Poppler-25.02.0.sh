@@ -35,7 +35,7 @@
 #
 # Recommended by:
 #
-#               g22.39.03 LibreOffice-25.2.1
+#               g22.39.03 LibreOffice-25.2.3	(errata)
 #
 # Recommended ( but needed ) by:
 #

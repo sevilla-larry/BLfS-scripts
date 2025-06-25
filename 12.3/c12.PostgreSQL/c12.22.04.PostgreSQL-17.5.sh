@@ -6,15 +6,15 @@
 # Dependencies Optional:
 #
 #               a.08.91.07.icu-76.1
-#               a.08.91.08 libxml2-2.13.6
-#               a.08.91.38 libxslt-1.1.43
-#               a.08.92.01 Linux-PAM-1.7.0
+#               a.08.91.08 libxml2-2.14.3   (errata)
+#               a.08.91.38 libxslt-1.1.43   (errata)
+#               a.08.92.01 Linux-PAM-1.7.1  (errata)
 #
 
 #
 # Recommended by:
 #
-#               g22.39.03 LibreOffice-25.2.1    (not used)
+#               g22.39.03 LibreOffice-25.2.3	(errata) (not used)
 #
 # Optional by:
 #

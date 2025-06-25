@@ -1,4 +1,5 @@
-# d20.24.20.Xorg-Server-21.1.16.sh
+# d20.24.20.Xorg-Server-21.1.18.sh
+# errata
 #
 
 #
@@ -7,13 +8,13 @@
 #               d20.24.09 libxcvt-0.1.3
 #               d10.10.32 Pixman-0.44.2
 #               d20.24.17 Xorg Fonts - font-util
+#               d20.24.12 Mesa-24.3.4           (implied)
 #
 # Dependencies Recommended (but neeeded):
 #
 #               d20.12.11  dbus-1.16.0.Pass2
 #               d20.25.34  libepoxy-1.5.10
 #               a.08.91.15 libtirpc-1.3.6
-#               d20.24.12  Mesa-24.3.4              (implied)
 #
 # Dependencies Runtime Required:
 #
@@ -38,11 +39,11 @@
 #               d20.24.21.2 Xorg Evdev Driver 2.11.0
 #               d20.24.21.4 Xorg Libinput Driver 1.5.0
 #               d20.24.22   twm-1.0.12
-#               f22.26.02   lightdm-1.32.0
+#               f2.26.02    lightdm-1.32.0
 #
 # Required Runtime by:
 #
-#               f2.26.02  lightdm-1.32.0
+#               f2.26.02    lightdm-1.32.0
 #
 # Optionally by:
 #
@@ -77,7 +78,7 @@
 #   read NOTES at: https://www.linuxfromscratch.org/blfs/view/12.3/x/xorg-server.html
 #
 
-export PKG="xorg-server-21.1.16"
+export PKG="xorg-server-21.1.18"
 export PKGLOG_DIR=$LFSLOG/24.20
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log

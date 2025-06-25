@@ -44,12 +44,12 @@
 #               e21.33.07 VTE-0.78.4
 #               g42.41.12 xarchiver-0.5.4.23
 #               g42.34.04 Evince-46.3.1
-#               g22.40.03 Firefox-128.7.0esr
+#               g22.40.03 Firefox-128.11.0esr   (errata)
 #
 # Recommended by:
 #
 #               e11.42.26 libcanberra-0.30
-#               g22.39.03 LibreOffice-25.2.1
+#               g22.39.03 LibreOffice-25.2.3	(errata)
 #               e42.33.01 Gcr-3.41.2
 #
 # Optionally by:

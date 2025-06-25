@@ -1,4 +1,4 @@
-# g12.39.03.LibreOffice-25.2.1.Part2.sh
+# g22.39.03.LibreOffice-25.2.3.Part2.sh
 #
 # Part2 - as root, "install"
 #
@@ -26,7 +26,7 @@
 #               e11.25.13    GLU-9.0.3
 #               e11.04.08    GPGME-1.24.2
 #               d10.10.11    Graphite2-1.3.14
-#           ??? g11.42.14    gst-plugins-base-1.24.12   ???
+#           ??? e41.42.14    gst-plugins-base-1.26.2    ???
 #               e11.25.16    GTK-3.24.48
 #               d10.10.12    harfBuzz-10.4.0
 #               a.08.91.07   icu-76.1
@@ -35,9 +35,9 @@
 #               e10.10.24    librsvg-2.59.2
 #               e10.10.26    libtiff-4.7.0
 #               g11.10.27    libwebp-1.5.0
-#               a.08.91.08   libxml2-2.13.6
-#               a.08.91.38   libxslt-1.1.43
-#               d10.13.24.12 lxml-5.3.1
+#               a.08.91.08   libxml2-2.14.3     (errata)
+#               a.08.91.38   libxslt-1.1.43     (errata)
+#               d10.13.24.12 lxml-5.4.0         (errata)
 #               d20.24.12    Mesa-24.3.4
 #               a.08.91.32   NSS-3.108
 #               ???          OpenLDAP                   ???
@@ -48,7 +48,11 @@
 #
 # Dependencies Optional:
 #
+#         Gnome e43.33.31  DConf-0.40.0
 #               d10.11.04  desktop-file-utils-0.28
+#         Gnome e42.33.21  evolution-data-server-3.54.3
+#               a.08.91.63 GnuTLS-3.8.9
+#         Gnome e41.25.17  GTK-4.16.12
 #               c11.22.03  MariaDB-11.4.5           (not used)
 #               e10.13.17  NASM-2.16.03
 #               a.08.91.40 make-ca-1.16

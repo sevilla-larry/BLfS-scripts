@@ -11,7 +11,7 @@
 # Recommended by:
 #
 #               e11.41.14 XScreenSaver-6.09
-#               g22.39.03 LibreOffice-25.2.1
+#               g22.39.03 LibreOffice-25.2.3	(errata)
 #
 
 export PKG="glu-9.0.3"

@@ -4,11 +4,11 @@
 #
 # Recommended by:
 #
-#               g22.39.03 LibreOffice-25.2.1
+#               g22.39.03 LibreOffice-25.2.3	(errata)
 #
 # Optionally by:
 #
-#               c11.22.03 MariaDB-11.4.5
+#               c11.22.03 MariaDB-11.4.7        (errata)
 #               c13.09.05 Apr-Util-1.6.3
 #
 

@@ -17,8 +17,9 @@
 #
 
 #
-# Required by:
+# Optionally by:
 #
+#               g22.39.03 LibreOffice-25.2.3	(errata)
 #
 
 export PKG="DConf-0.40.0"

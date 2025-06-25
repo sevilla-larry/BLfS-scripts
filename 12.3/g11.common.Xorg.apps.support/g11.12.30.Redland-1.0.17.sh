@@ -16,7 +16,7 @@
 #
 # Recommended by:
 #
-#               g22.39.03 LibreOffice-25.2.1
+#               g22.39.03 LibreOffice-25.2.3	(errata)
 #
 
 export PKG="redland-1.0.17"

@@ -10,13 +10,13 @@
 #
 # Recommended by:
 #
-#               e11.42.45 libvpx-1.15.0
-#               g22.40.03 Firefox-128.7.0esr
+#               e11.42.45 libvpx-1.15.2         (errata)
+#               g22.40.03 Firefox-128.11.0esr   (errata)
 #
 # Optionally by:
 #
 #               e11.42.52 SDL2-2.30.11
-#               g22.39.03 LibreOffice-25.2.1
+#               g22.39.03 LibreOffice-25.2.3	(errata)
 #
 
 export PKG="nasm-2.16.03"

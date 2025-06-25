@@ -17,9 +17,8 @@
 #
 #           PASS=2 already installed
 #               Xvfb from
-#                   d20.24.20 Xorg-Server-21.1.16
-#                or
-#                   d20.24.19 Xwayland-24.1.6
+#                   d20.24.20 Xorg-Server-21.1.18   (errata)
+#                or d20.24.19 Xwayland-24.1.8       (errata)
 #
 
 #

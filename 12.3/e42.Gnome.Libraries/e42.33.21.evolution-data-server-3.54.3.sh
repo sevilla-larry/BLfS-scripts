@@ -14,17 +14,18 @@
 #               e42.33.14  gnome-online-accounts-3.52.3.1
 #               d10.09.17  GLib-2.82.5
 #               e11.25.16  GTK-3.24.48
-#          ???  e41.25.17  GTK-4.16.12
+#               e41.25.17  GTK-4.16.12
 #               a.08.91.07 icu-76.1
 #               e11.42.26  libcanberra-0.30
-#          ???  e42.33.18  libgweather-4.4.4
+#               e42.33.18  libgweather-4.4.4
 #               e10.13.36  Vala-0.56.17
 #                           WebKitGTK-2.46.6
 #
 
 #
-# Required by:
+# Optionally by:
 #
+#               g22.39.03 LibreOffice-25.2.3	(errata)
 #
 
 export PKG="evolution-data-server-3.54.3"

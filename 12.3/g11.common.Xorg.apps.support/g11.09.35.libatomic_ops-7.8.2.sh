@@ -4,7 +4,7 @@
 #
 # Recommended by:
 #
-#               g22.39.03 LibreOffice-25.2.1
+#               g22.39.03 LibreOffice-25.2.3	(errata)
 #
 
 export PKG="libatomic_ops-7.8.2"

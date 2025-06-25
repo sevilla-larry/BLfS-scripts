@@ -4,13 +4,13 @@
 #
 # Dependencies Recommended:
 #
-#               a.08.91.12 libarchive-3.7.7
+#               a.08.91.12 libarchive-3.8.1		(errata)
 #
 
 #
 # Required by:
 #
-#               g22.39.03 LibreOffice-25.2.1
+#               g22.39.03 LibreOffice-25.2.3	(errata)
 #
 
 export PKG="Archive-Zip-1.68"

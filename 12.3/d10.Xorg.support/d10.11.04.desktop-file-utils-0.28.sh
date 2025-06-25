@@ -14,7 +14,7 @@
 #
 # Optionally by:
 #
-#               g22.39.03 LibreOffice-25.2.1
+#               g22.39.03 LibreOffice-25.2.3	(errata)
 #
 
 export PKG="desktop-file-utils-0.28"

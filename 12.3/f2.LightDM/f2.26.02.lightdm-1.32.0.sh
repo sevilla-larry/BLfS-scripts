@@ -11,7 +11,7 @@
 #
 # Dependencies Required (Runtime):
 #
-#               d20.24.20 Xorg-Server-21.1.16
+#               d20.24.20 Xorg-Server-21.1.18   (errata)
 #
 # Dependencies Recommended:
 #

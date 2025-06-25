@@ -31,10 +31,13 @@ https://www.x.org/pub/individual/data/xcursor-themes-1.0.7.tar.xz
 # 24.17 Xorg Fonts
 # 24.18 ---> .20
 https://www.x.org/pub/individual/data/xkeyboard-config/xkeyboard-config-2.44.tar.xz
-https://www.x.org/pub/individual/xserver/xwayland-24.1.6.tar.xz
-https://www.x.org/pub/individual/xserver/xorg-server-21.1.16.tar.xz
+# https://www.x.org/pub/individual/xserver/xwayland-24.1.6.tar.xz
+https://www.x.org/pub/individual/xserver/xwayland-24.1.8.tar.xz
+# https://www.x.org/pub/individual/xserver/xorg-server-21.1.16.tar.xz
+https://www.x.org/pub/individual/xserver/xorg-server-21.1.18.tar.xz
 ### No TearFree will be installed
 ###https://www.linuxfromscratch.org/patches/blfs/12.3/xorg-server-21.1.16-tearfree_backport-1.patch
+###https://www.linuxfromscratch.org/patches/blfs/svn/xorg-server-21.1.18-tearfree_backport-1.patch
 # 24.21.1 ---> .4 Xorg Input Drivers
 https://www.freedesktop.org/software/libevdev/libevdev-1.13.3.tar.xz
 https://www.x.org/pub/individual/driver/xf86-input-evdev-2.11.0.tar.xz

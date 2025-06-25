@@ -23,7 +23,7 @@
 #
 # Runtime Required by:
 #
-#               d20.24.19 Xwayland-24.1.6
+#               d20.24.19 Xwayland-24.1.8   (errata)
 #
 # Optional (required for test) by:
 #

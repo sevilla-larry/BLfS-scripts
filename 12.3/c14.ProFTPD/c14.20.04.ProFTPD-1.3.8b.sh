@@ -5,10 +5,10 @@
 # Dependencies optional:
 #
 #               a.08.92.03 Libcap-2.73.with.PAM
-#               a.08.92.01 Linux-PAM-1.7.0
-#               c11.22.03  MariaDB-10.11.8
+#               a.08.92.01 Linux-PAM-1.7.1      (errata)
+#               c11.22.03  MariaDB-11.4.7       (errata)
 #               a.08.91.11 PCRE2-10.45
-#               c12.22.04  PostgreSQL-16.4
+#               c12.22.04  PostgreSQL-17.5      (errata)
 #
 
 export PKG="proftpd-1.3.8b"

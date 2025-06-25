@@ -5,13 +5,13 @@
 # Dependencies Required:
 #
 #               d20.24.21.3 libinput-1.27.1
-#               d20.24.20   Xorg-Server-21.1.16
+#               d20.24.20   Xorg-Server-21.1.18 (errata)
 #
 
 #
 # Runtime Recommended by:
 #
-#               d20.24.20   Xorg-Server-21.1.16
+#               d20.24.20   Xorg-Server-21.1.18 (errata)
 #
 
 export PKG="xf86-input-libinput-1.5.0"
