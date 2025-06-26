@@ -1,4 +1,4 @@
-# g11.09.06.Aspell-0.60.8.1.sh
+# e11.09.06.Aspell-0.60.8.1.sh
 #
 
 #
@@ -10,7 +10,7 @@
 #
 # Recommended by:
 #
-#               g11.09.13 enchant-2.8.2
+#               e11.09.13 enchant-2.8.2
 #
 
 export PKG="aspell-0.60.8.1"

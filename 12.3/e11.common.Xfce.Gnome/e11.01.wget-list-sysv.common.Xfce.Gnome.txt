@@ -1,3 +1,8 @@
+# 09.06 Aspell-0.60.8.1
+https://ftp.gnu.org/gnu/aspell/aspell-0.60.8.1.tar.gz
+https://ftp.gnu.org/gnu/aspell/dict/en/aspell6-en-2020.12.07-0.tar.bz2
+# 09.13 enchant-2.8.2
+https://github.com/rrthomas/enchant/releases/download/v2.8.2/enchant-2.8.2.tar.gz
 # 04.08 GPGME-1.24.2
 https://www.gnupg.org/ftp/gcrypt/gpgme/gpgme-1.24.2.tar.bz2
 # 04.21 polkit-gnome-0.105

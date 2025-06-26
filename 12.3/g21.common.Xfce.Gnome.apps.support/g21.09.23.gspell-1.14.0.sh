@@ -4,7 +4,7 @@
 #
 # Dependencies Required:
 #
-#               g11.09.13  enchant-2.8.2
+#               e11.09.13  enchant-2.8.2
 #               a.08.91.07 icu-76.1
 #               e11.25.16  GTK-3.24.48
 #

@@ -1,3 +1,8 @@
+# 09.06 Aspell-0.60.8.1
+187bd142f522ada555c7aa6b9cbf56e6 aspell-0.60.8.1.tar.gz
+#								 aspell6-en-2020.12.07-0.tar.bz2
+# 09.13 enchant-2.8.2
+92dcfe06febc92a3d4bbff4e08b08d3d enchant-2.8.2.tar.gz
 # 04.08 GPGME-1.24.2
 2e0cc1df9f3da8c2a7d7c9dc33b7f0bf gpgme-1.24.2.tar.bz2
 # 04.21 polkit-gnome-0.105

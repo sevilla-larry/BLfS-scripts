@@ -55,6 +55,8 @@
 #
 
 #
+# Kernel Configuration
+#
 # Device Drivers --->
 #   Graphics support --->
 #     <*/M>   Direct Rendering Manager (XFree86 4.1.0 and higher DRI support) --->

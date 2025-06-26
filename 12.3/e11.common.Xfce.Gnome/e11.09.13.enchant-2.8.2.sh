@@ -1,4 +1,4 @@
-# g11.09.13.enchant-2.8.2.sh
+# e11.09.13.enchant-2.8.2.sh
 #
 
 #
@@ -8,7 +8,7 @@
 #
 # Dependencies Recommended:
 #
-#               g11.09.06 Aspell-0.60.8.1
+#               e11.09.06 Aspell-0.60.8.1
 #
 
 #

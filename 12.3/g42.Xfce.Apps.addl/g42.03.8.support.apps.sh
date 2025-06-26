@@ -3,7 +3,7 @@
 
 # Mousepad support
 # Aspell & enchant
-bash g11.03.1.sh
+# bash g11.03.1.sh -> to e11
 # gtksourceview4 & gspell
 bash g21.03.1.sh
 
