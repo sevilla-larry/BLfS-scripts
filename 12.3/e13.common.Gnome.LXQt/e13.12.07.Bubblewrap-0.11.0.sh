@@ -1,4 +1,4 @@
-# e41.12.07.Bubblewrap-0.11.0.sh
+# e13.12.07.Bubblewrap-0.11.0.sh
 #
 
 #
@@ -12,6 +12,7 @@
 # Recommended by:
 #
 #               e42.33.12 gnome-desktop-44.1
+#               e43.33.35 Nautilus-47.2
 #
 
 #

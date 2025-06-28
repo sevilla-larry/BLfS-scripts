@@ -4,7 +4,7 @@
 #
 # Dependencies Required:
 #
-#               xxx.xx.xx  bubblewrap-0.11.0
+#               e13.12.07  bubblewrap-0.11.0
 #               e43.33.34  gexiv2-0.14.3
 #               e42.33.11  gnome-autoar-0.4.5
 #               e42.33.12  gnome-desktop-44.1

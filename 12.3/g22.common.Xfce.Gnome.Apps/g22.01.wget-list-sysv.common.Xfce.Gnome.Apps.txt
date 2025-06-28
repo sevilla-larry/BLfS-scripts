@@ -18,4 +18,6 @@ https://www.linuxfromscratch.org/patches/blfs/svn/libreoffice-25.2.3.2-poppler_f
 # 40.03 Firefox-128.7.0esr
 # https://archive.mozilla.org/pub/firefox/releases/128.7.0esr/source/firefox-128.7.0esr.source.tar.xz
 # 40.03 Firefox-128.11.0esr (errata)
-https://archive.mozilla.org/pub/firefox/releases/128.11.0esr/source/firefox-128.11.0esr.source.tar.xz
+# https://archive.mozilla.org/pub/firefox/releases/128.11.0esr/source/firefox-128.11.0esr.source.tar.xz
+# 40.03 Firefox-140.0esr	(errata)
+https://archive.mozilla.org/pub/firefox/releases/140.0esr/source/firefox-140.0esr.source.tar.xz

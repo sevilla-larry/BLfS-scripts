@@ -18,4 +18,6 @@ e017e3544751c2442020f4d10a39e24d evince-46.3.1.tar.xz
 # 40.03 Firefox-128.7.0esr
 # aab1f335242b809813d1d4b754d10c0b firefox-128.7.0esr.source.tar.xz
 # 40.03 Firefox-128.11.0esr (errata)
-0c47aafa4d9bf5cd13617343335913b8 firefox-128.11.0esr.source.tar.xz
+# 0c47aafa4d9bf5cd13617343335913b8 firefox-128.11.0esr.source.tar.xz
+# 40.03 Firefox-140.0esr	(errata)
+4d50cef9d5df6aa4e27afcfc23147a71 firefox-140.0esr.source.tar.xz

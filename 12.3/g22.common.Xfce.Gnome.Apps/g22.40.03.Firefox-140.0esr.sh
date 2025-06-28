@@ -1,4 +1,4 @@
-# g22.40.03.Firefox-128.11.0esr.sh
+# g22.40.03.Firefox-140.0esr.sh
 # (errata)
 #
 
@@ -27,12 +27,13 @@
 # Dependencies Optional:
 #
 #               a.08.93.04 cURL-8.14.1      (errata)
+#               e11.44.01  FFmpeg-7.1       (runtime)
 #               a.08.91.71 pciutils-3.13.0
 #               a.08.93.02 WGet-1.25.0
 #               e10.13.38  yasm-1.3.0
 #
 
-export PKG="firefox-128.11.0"
+export PKG="firefox-140.0"
 export PKG0=$PKG"esr.source"
 export PKGLOG_DIR=$LFSLOG/40.03
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
@@ -141,16 +142,23 @@ ac_add_options --without-wasm-sandboxed-libraries
 unset MOZ_TELEMETRY_REPORTING
 
 mk_add_options MOZ_OBJDIR=@TOPSRCDIR@/firefox-build-dir
+
+# By default firefox will attempt to use the window class firefox-default on
+# launch. This makes the icon not work properly because wayland does not
+# support the X11 property  class header. Change the remoting name to fix this.
+# This is also reflected in the .desktop file where StartupWMClass is set to
+# firefox.
+MOZ_APP_REMOTINGNAME=firefox
 EOF
 
 # ICU was installed
-for i in {43..47}; do
-   sed -i '/ZWJ/s/}/,CLASS_CHARACTER&/' intl/lwbrk/LineBreaker.cpp  \
-        >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
-done
+# for i in {43..47}; do
+#   sed -i '/ZWJ/s/}/,CLASS_CHARACTER&/' intl/lwbrk/LineBreaker.cpp  \
+#        >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
+# done
 
-sed -i 's/icu-i18n/icu-uc &/' js/moz.configure  \
-        >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
+# sed -i 's/icu-i18n/icu-uc &/' js/moz.configure  \
+#        >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
 
 # if GLS was installed
 # echo "AIzaSyDxKL42zsPjbke5O8_rPVpVrLrJ8aeE9rQ" > google-key
@@ -172,6 +180,39 @@ export MACH_BUILD_PYTHON_NATIVE_PACKAGE_SOURCE=none
 
 unset MACH_BUILD_PYTHON_NATIVE_PACKAGE_SOURCE
 unset MOZBUILD_STATE_PATH
+
+# Configuring Firefox
+
+mkdir -pv /usr/share/applications   \
+        >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
+mkdir -pv /usr/share/pixmaps        \
+        >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
+
+MIMETYPE="text/xml;text/mml;text/html;"
+MIMETYPE+="application/xhtml+xml;application/vnd.mozilla.xul+xml;"
+MIMETYPE+="x-scheme-handler/http;x-scheme-handler/https"
+
+cat > /usr/share/applications/firefox.desktop << EOF    2>> $PKGLOG_ERROR
+[Desktop Entry]
+Encoding=UTF-8
+Name=Firefox Web Browser
+Comment=Browse the World Wide Web
+GenericName=Web Browser
+Exec=firefox %u
+Terminal=false
+Type=Application
+Icon=firefox
+Categories=GNOME;GTK;Network;WebBrowser;
+MimeType=$MIMETYPE
+StartupNotify=true
+StartupWMClass=firefox
+EOF
+
+unset MIMETYPE
+
+ln -sfv /usr/lib/firefox/browser/chrome/icons/default/default128.png    \
+        /usr/share/pixmaps/firefox.png                                  \
+        >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
 
 
 cd $SOURCES

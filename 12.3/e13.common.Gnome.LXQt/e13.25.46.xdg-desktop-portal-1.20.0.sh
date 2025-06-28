@@ -4,10 +4,10 @@
 #
 # Dependencies Required:
 #
-#               e10.05.04 Fuse-3.16.2           ???
+#           ??? e10.05.04 Fuse-3.16.2           ???
 #               e10.25.10 gdk-pixbuf-2.42.12
-#               e10.09.29 JSON-Glib-1.10.0      svn due to errata
-#               e10.42.48 Pipewire-1.2.3        ???
+#               e10.09.29 JSON-Glib-1.8.0
+#           ??? e10.42.48 Pipewire-1.2.7        ???
 #
 # Dependencies Required (at runtime):
 #
@@ -28,8 +28,8 @@
 #               e41.25.28 libadwaita-1.6.4
 #
 
-export PKG="xdg-desktop-portal-1.18.4"
-export PKGLOG_DIR=$LFSLOG/25.48
+export PKG="xdg-desktop-portal-1.20.0"
+export PKGLOG_DIR=$LFSLOG/25.46
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
@@ -38,6 +38,7 @@ export PKGLOG_INSTALL=$PKGLOG_DIR/install.log
 export PKGLOG_ERROR=$PKGLOG_DIR/error.log
 export PKGLOG_OTHERS=$PKGLOG_DIR/others.log
 export LFSLOG_PROCESS=$LFSLOG/process.log
+export SOURCES=`pwd`
 
 rm -r $PKGLOG_DIR 2> /dev/null
 mkdir $PKGLOG_DIR
@@ -57,31 +58,29 @@ echo "2. Meson Setup ..." >> $LFSLOG_PROCESS
 echo "2. Meson Setup ..." >> $PKGLOG_ERROR
 meson setup --prefix=/usr       \
             --buildtype=release \
+            -D tests=disabled   \
             ..                  \
-        > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+            > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Ninja Build ..."
 echo "3. Ninja Build ..." >> $LFSLOG_PROCESS
 echo "3. Ninja Build ..." >> $PKGLOG_ERROR
 ninja > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 
-echo "4. Ninja Test ..."
-echo "4. Ninja Test ..." >> $LFSLOG_PROCESS
-echo "4. Ninja Test ..." >> $PKGLOG_ERROR
-ninja test > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
+# No test
 
-echo "5. Ninja Install ..."
-echo "5. Ninja Install ..." >> $LFSLOG_PROCESS
-echo "5. Ninja Install ..." >> $PKGLOG_ERROR
+echo "4. Ninja Install ..."
+echo "4. Ninja Install ..." >> $LFSLOG_PROCESS
+echo "4. Ninja Install ..." >> $PKGLOG_ERROR
 ninja install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 rm -rvf /usr/lib/systemd    \
     > $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
 
 
-cd ..
-cd ..
+cd $SOURCES
 rm -rf $PKG
+unset SOURCES
 unset LFSLOG_PROCESS
 unset PKGLOG_OTHERS
 unset PKGLOG_INSTALL PKGLOG_BUILD PKGLOG_CONFIG

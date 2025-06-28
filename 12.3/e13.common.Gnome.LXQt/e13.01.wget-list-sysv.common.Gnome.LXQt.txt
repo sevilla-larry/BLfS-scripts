@@ -1,5 +1,8 @@
 # 09.29 JSON-GLib-1.10.6
 https://download.gnome.org/sources/json-glib/1.10/json-glib-1.10.6.tar.xz
 
+# 12.07 Bubblewrap-0.11.0
+https://github.com/containers/bubblewrap/releases/download/v0.11.0/bubblewrap-0.11.0.tar.xz
+
 # 25.48 xdg-desktop-portal-1.18.4
 https://github.com/flatpak/xdg-desktop-portal/releases/download/1.18.4/xdg-desktop-portal-1.18.4.tar.xz

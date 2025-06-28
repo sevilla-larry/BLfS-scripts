@@ -22,10 +22,24 @@ echo "."
 
 ###
 
-echo "e13.25.48.xdg-desktop-portal-1.18.2"
-echo "e13.25.48.xdg-desktop-portal-1.18.2" >> $LFSLOG_PROCESS
+echo "e13.12.07.Bubblewrap-0.11.0"
+echo "e13.12.07.Bubblewrap-0.11.0" >> $LFSLOG_PROCESS
 
-time { bash e13.25.48.xdg-desktop-portal-1.18.2.sh ; }
+time { bash e13.12.07.Bubblewrap-0.11.0.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "e13.25.46.xdg-desktop-portal-1.20.0"
+echo "e13.25.46.xdg-desktop-portal-1.20.0" >> $LFSLOG_PROCESS
+
+time { bash e13.25.46.xdg-desktop-portal-1.20.0.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
