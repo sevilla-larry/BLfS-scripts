@@ -9,11 +9,6 @@ https://github.com/yaml/libyaml/releases/download/0.2.5/yaml-0.2.5.tar.gz
 # 11.12 lsof-4.99.0
 https://github.com/lsof-org/lsof/releases/download/4.99.0/lsof-4.99.0.tar.gz
 
-# 13.14 Lua-5.4.7
-https://www.lua.org/ftp/lua-5.4.7.tar.gz
-https://www.lua.org/tests/lua-5.4.7-tests.tar.gz
-https://www.linuxfromscratch.org/patches/blfs/12.2/lua-5.4.7-shared_library-1.patch
-
 # 13.21 Python-3.11.1
 https://www.python.org/ftp/python/3.11.11/Python-3.11.1.tar.xz
 https://www.python.org/ftp/python/doc/3.11.1/python-3.11.1-docs-html.tar.bz2

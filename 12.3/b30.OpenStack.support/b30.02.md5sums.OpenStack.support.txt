@@ -9,11 +9,6 @@ bb15429d8fb787e7d3f1c83ae129a999 yaml-0.2.5.tar.gz
 # 11.12 lsof-4.99.0
 8c858675f6d6e137df9b4e26ad6c46e8 lsof-4.99.0.tar.gz
 
-# 13.14 Lua-5.4.7
-fc3f3291353bbe6ee6dec85ee61331e8 lua-5.4.7.tar.gz
-5fcf34336004f83de447c79958ea678e lua-5.4.7-tests.tar.gz
-#patch
-
 # 13.21 Python-3.11.1
 4efe92adf28875c77d3b9b2e8d3bc44a Python-3.11.11.tar.xz
 05959e9b8e5d392ca7c8c873245c6bdd python-3.11.11-docs-html.tar.bz2

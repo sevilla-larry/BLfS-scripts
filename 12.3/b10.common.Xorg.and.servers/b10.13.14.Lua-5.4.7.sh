@@ -1,10 +1,11 @@
-# b30.13.14.Lua-5.4.7.sh
+# b10.13.14.Lua-5.4.7.sh
 #
 
 #
 # Recommended by:
 #
 #               b30.16.05 Nmap-7.95
+#               e13.42.58 Wireplumber-0.5.8
 #
 
 export PKG="lua-5.4.7"

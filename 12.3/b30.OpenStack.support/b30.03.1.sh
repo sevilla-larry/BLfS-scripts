@@ -64,20 +64,6 @@ echo "."
 
 ###
 
-echo "b30.13.14.Lua-5.4.7"
-echo "b30.13.14.Lua-5.4.7" >> $LFSLOG_PROCESS
-
-time { bash b30.13.14.Lua-5.4.7.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
-
-###
-
 echo "b30.16.05.Nmap-7.95"
 echo "b30.16.05.Nmap-7.95" >> $LFSLOG_PROCESS
 
