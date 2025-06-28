@@ -4,10 +4,9 @@
 #
 # Dependencies Required:
 #
-#               xxx.xx.xx JSON-GLib-1.10.6
-#               xxx.xx.xx libsoup-3.6.4
-#               a.08.91.40 make-ca-1.16
-#                        
+#               e13.09.29  JSON-GLib-1.10.6
+#               e41.17.18  libsoup-3.6.5    (errata)
+#               a.08.91.40 make-ca-1.16     (errata)
 #
 # Dependencies Recommended:
 #
@@ -15,8 +14,8 @@
 #
 # Dependencies Optional:
 #
-#                           libadwaita-1.6.4
-#                           gtksourceview5-5.14.2
+#               e41.25.28 libadwaita-1.6.4
+#           ??? e41.25.23 gtksourceview5-5.14.2 (deferred)
 #               e10.13.36  Vala-0.56.17
 #
 

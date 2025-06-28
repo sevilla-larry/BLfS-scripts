@@ -21,7 +21,6 @@
 #               e41.25.17 GTK-4.16.12
 #
 
-
 export PKG="pygobject-3.50.0"
 export PKGLOG_DIR=$LFSLOG/13.24.23
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log

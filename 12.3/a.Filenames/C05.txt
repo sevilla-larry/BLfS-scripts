@@ -1,0 +1,24 @@
+II. Post LFS Configuration and Extra Software
+
+05. File Systems and Disk Management
+
+05.01 About initramfs
+05.02 btrfs-progs-6.13
+05.03 dosfstools-4.2
+05.04 Fuse-3.16.2
+05.05 jfsutils-1.1.15
+05.06 LVM2-2.03.30
+05.07 About Logical Volume Management (LVM)
+05.08 About RAID
+05.09 mdadm-4.3
+05.10 ntfs-3g-2022.10.3
+05.11 gptfdisk-1.0.10
+05.12 parted-3.6
+05.13 smartmontools-7.4
+05.14 sshfs-3.7.3
+05.15 xfsprogs-6.13.0
+05.16 Packages for UEFI Boot
+05.17 efivar-39
+05.18 efibootmgr-18
+05.19 GRUB-2.12 for EFI
+05.20 Using GRUB to Set Up the Boot Process with UEFI

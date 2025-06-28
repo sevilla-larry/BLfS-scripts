@@ -17,7 +17,6 @@
 #               e41.42.14.gst-plugins-base-1.24.12
 #
 
-
 export PKG="graphene-1.10.8"
 export PKGLOG_DIR=$LFSLOG/25.15
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log

@@ -1,0 +1,12 @@
+IV. Networking
+
+16. Networking Utilities
+
+16.01 Avahi-0.8
+16.02 BIND Utilities-9.20.6
+16.03 NetworkManager-1.50.0
+16.04 network-manager-applet-1.34.0
+16.05 Nmap-7.95
+16.06 Traceroute-2.1.6
+16.07 Whois-5.4.3
+16.08 Wireshark-4.4.5

@@ -20,13 +20,14 @@
 #
 # Dependencies Runtime:
 #
-#               gnome-keyring-46.2
+#               e43.33.37 gnome-keyring-46.2
 #
 
 #
 # Recommended by:
 #
 #               e42.33.01 Gcr-3.41.2
+#               e42.33.02 Gcr-4.3.1
 #
 
 export PKG="libsecret-0.21.6"

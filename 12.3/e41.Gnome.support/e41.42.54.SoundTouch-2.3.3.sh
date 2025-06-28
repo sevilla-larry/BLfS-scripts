@@ -6,7 +6,7 @@
 #
 #               e41.42.16 gst-plugins-bad-1.24.12
 #
-#
+
 export PKG="soundtouch"
 export PKG0="-2.3.3"
 export PKGLOG_DIR=$LFSLOG/09.79

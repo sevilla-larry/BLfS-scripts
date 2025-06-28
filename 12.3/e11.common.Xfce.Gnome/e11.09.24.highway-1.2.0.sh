@@ -1,31 +1,27 @@
-# e41.13.24.20.PyCairo-1.26.1.sh
+# e11.09.24.highway-1.2.0.sh
 #
 
 #
 # Dependencies Required:
 #
-#               e10.25.04 Cairo-1.18.2
-#
-# Dependencies Optional:
-#
-#               a.08.91.20.10 Pytest-8.3.4
+#               a.08.9x.?1 CMake-3.31.5
 #
 
 #
-# Recommended by:
+# Required by:
 #
-#               e41.13.24.23 PyGObject-3.50.0
+#               e11.10.19 libjxl-0.11.1
 #
 
-export PKG="pycairo-1.26.1"
-export PKGLOG_DIR=$LFSLOG/13.24.20
+export PKG="highway-1.2.0"
+export PKGLOG_DIR=$LFSLOG/09.24
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
 export PKGLOG_CHECK=$PKGLOG_DIR/check.log
 export PKGLOG_INSTALL=$PKGLOG_DIR/install.log
-export PKGLOG_ERROR=$PKGLOG_DIR/error.log
 #export PKGLOG_OTHERS=$PKGLOG_DIR/others.log
+export PKGLOG_ERROR=$PKGLOG_DIR/error.log
 export LFSLOG_PROCESS=$LFSLOG/process.log
 export SOURCES=`pwd`
 
@@ -42,27 +38,25 @@ cd $PKG
 mkdir build
 cd    build
 
-echo "2. Meson Setup ..."
-echo "2. Meson Setup ..." >> $LFSLOG_PROCESS
-echo "2. Meson Setup ..." >> $PKGLOG_ERROR
-meson setup --prefix=/usr       \
-            --buildtype=release \
-            ..                  \
-            > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+echo "2. CMake Configure ..."
+echo "2. CMake Configure ..." >> $LFSLOG_PROCESS
+echo "2. CMake Configure ..." >> $PKGLOG_ERROR
+cmake -D CMAKE_INSTALL_PREFIX=/usr  \
+      -D CMAKE_BUILD_TYPE=Release   \
+      -D BUILD_TESTING=OFF          \
+      -D BUILD_SHARED_LIBS=ON       \
+      -G Ninja                      \
+      ..                            \
+      > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Ninja Build ..."
 echo "3. Ninja Build ..." >> $LFSLOG_PROCESS
-echo "3. Ninja Build ..." >> $PKGLOG_ERROR 
+echo "3. Ninja Build ..." >> $PKGLOG_ERROR
 ninja > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 
-echo "4. Ninja Test ..."
-echo "4. Ninja Test ..." >> $LFSLOG_PROCESS
-echo "4. Ninja Test ..." >> $PKGLOG_ERROR
-ninja test > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
-
-echo "5. Ninja Install ..."
-echo "5. Ninja Install ..." >> $LFSLOG_PROCESS
-echo "5. Ninja Install ..." >> $PKGLOG_ERROR
+echo "4. Ninja Install ..."
+echo "4. Ninja Install ..." >> $LFSLOG_PROCESS
+echo "4. Ninja Install ..." >> $PKGLOG_ERROR
 ninja install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 

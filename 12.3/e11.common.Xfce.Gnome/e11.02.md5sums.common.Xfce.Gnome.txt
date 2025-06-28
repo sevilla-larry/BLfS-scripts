@@ -9,11 +9,19 @@
 50ecad37c8342fb4a52f590db7530621 polkit-gnome-0.105.tar.xz
 #								 polkit-gnome-0.105-consolidated_fixes-1.patch
 
+# 09.24 highway-1.2.0
+8b3d090a2d081730b40bca5ae0d65f11 highway-1.2.0.tar.gz
 # 09.33 libassuan-3.0.2
 c6f1bf4bd2aaa79cd1635dcc070ba51a libassuan-3.0.2.tar.bz2
 # 09.41 libdisplay-info-0.2.0
 160d4159a7805823cf0b3b4f86dfa8d4 libdisplay-info-0.2.0.tar.xz
 
+# 10.08 giflib-5.2.2
+913dd251492134e235ee3c9a91987a4d giflib-5.2.2.tar.gz
+# 10.15 libavif-1.2.0
+ec292cb8d51c0aa02f9fd5ef2419c853 libavif-1.2.0.tar.gz
+# 10.19 libjxl-0.11.1
+8f26fc954c2d9cb377544a5f029182ef libjxl-0.11.1.tar.gz
 # 10.27 libwebp-1.5.0
 8f659e426eaa2aeec4b36bc9ea43b3f3 libwebp-1.5.0.tar.gz
 # 10.33 Poppler-25.02.0
@@ -49,6 +57,12 @@ cf4431e4d8ada7a6e73a46f80f553f06 gsettings-desktop-schemas-47.1.tar.xz
 # 41.14 XScreenSaver-6.09
 1f0e2b1698bc2a6ecfe9b668e4b75c3d xscreensaver-6.09.tar.gz
 
+# 42.09 fdk-aac-2.0.3
+f43e593991caefdce509ad837d3301bd fdk-aac-2.0.3.tar.gz
+# 42.24 libaom-3.12.0
+aabd9c71c7d52c837ec276156d5a953f libaom-3.12.0.tar.gz
+# 42.25 libass-0.17.3
+baed6dfc87bed705c1955cc6b932d7f6 libass-0.17.3.tar.xz
 # 42.27 libcanberra-0.30
 34cb7e4430afaf6f447c4ebdb9b42072 libcanberra-0.30.tar.xz
 #patch
@@ -62,6 +76,10 @@ c4a3596a26ff4b9dcd0c394dd1d4f8ee pulseaudio-17.0.tar.xz
 bea190b480f6df249db29eb3bacfe41e SDL2-2.30.11.tar.gz
 # 42.53 sound-theme-freedesktop-0.8
 d7387912cfd275282d1ec94483cb2f62 sound-theme-freedesktop-0.8.tar.bz2
+# 42.59 x264-20250212
+9fc19d8e9641d24639c9f6075add56d2 x264-20250212.tar.xz
+# 42.60 x265-4.1
+f1c3c80248d8574378a4aac8f374f6de x265_4.1.tar.gz
 
 # 49.05 itstool-2.0.7
 267a3bdc72a2d8abb1b824f2ea32ee9b itstool-2.0.7.tar.bz2

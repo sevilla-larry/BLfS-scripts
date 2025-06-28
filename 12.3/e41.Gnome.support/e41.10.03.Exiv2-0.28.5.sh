@@ -1,37 +1,36 @@
-# e41.25.28.libadwaita-1.6.4.sh
+# e41.10.03.Exiv2-0.28.5.sh
 #
 
 #
 # Dependencies Required:
 #
-#               e41.09.02 AppStream-1.0.4
-#               e41.25.17 GTK-4.16.12
-#               e41.10.37 sassc-3.6.2
+#               a.08.9x.?1 CMake-3.31.5
 #
 # Dependencies Recommended:
 #
-#               e10.13.36 Vala-0.56.17
+#               a.08.91.22.brotli-1.1.0
+#               a.08.93.04 cURL-8.14.1      (errata)
+#               e41.09.26  inih-58
 #
 # Dependencies Optional:
 #
-#           ??? e13.25.46 xdg-desktop-portal-1.20.0 (deferred)
+#               a.08.91.38 libxslt-1.1.43   (errata)
 #
 
 #
-# Optionally by:
+# Required by:
 #
-#               e42.33.05 rest-0.9.1
+#               e43.33.34 gexiv2-0.14.3
 #
 
-export PKG="libadwaita-1.6.4"
-export PKGLOG_DIR=$LFSLOG/25.28
+export PKG="exiv2-0.28.5"
+export PKGLOG_DIR=$LFSLOG/10.03
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
 export PKGLOG_CHECK=$PKGLOG_DIR/check.log
 export PKGLOG_INSTALL=$PKGLOG_DIR/install.log
 export PKGLOG_ERROR=$PKGLOG_DIR/error.log
-#export PKGLOG_OTHERS=$PKGLOG_DIR/others.log
 export LFSLOG_PROCESS=$LFSLOG/process.log
 export SOURCES=`pwd`
 
@@ -48,13 +47,19 @@ cd $PKG
 mkdir build
 cd    build
 
-echo "2. Meson Setup ..."
-echo "2. Meson Setup ..." >> $LFSLOG_PROCESS
-echo "2. Meson Setup ..." >> $PKGLOG_ERROR
-meson setup --prefix=/usr       \
-            --buildtype=release \
-            ..                  \
-            > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+echo "2. Configure ..."
+echo "2. Configure ..." >> $LFSLOG_PROCESS
+echo "2. Configure ..." >> $PKGLOG_ERROR
+cmake -D CMAKE_INSTALL_PREFIX=/usr      \
+      -D CMAKE_BUILD_TYPE=Release       \
+      -D EXIV2_ENABLE_VIDEO=yes         \
+      -D EXIV2_ENABLE_WEBREADY=yes      \
+      -D EXIV2_ENABLE_CURL=yes          \
+      -D EXIV2_BUILD_SAMPLES=no         \
+      -D CMAKE_SKIP_INSTALL_RPATH=ON    \
+      -G Ninja                          \
+      ..                                \
+      > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Ninja Build ..."
 echo "3. Ninja Build ..." >> $LFSLOG_PROCESS
@@ -76,7 +81,6 @@ cd $SOURCES
 rm -rf $PKG
 unset SOURCES
 unset LFSLOG_PROCESS
-#unset PKGLOG_OTHERS
 unset PKGLOG_INSTALL PKGLOG_BUILD PKGLOG_CONFIG
 unset PKGLOG_CHECK
 unset PKGLOG_ERROR PKGLOG_TAR

@@ -92,6 +92,146 @@ echo "." >> $LFSLOG_PROCESS
 echo "."
 echo "."
 
+###
+
+echo "e11.42.24.libaom-3.12.0"
+echo "e11.42.24.libaom-3.12.0" >> $LFSLOG_PROCESS
+
+time { bash e11.42.24.libaom-3.12.0.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "e11.10.15.libavif-1.2.0"
+echo "e11.10.15.libavif-1.2.0" >> $LFSLOG_PROCESS
+
+time { bash e11.10.15.libavif-1.2.0.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "e11.09.24.highway-1.2.0"
+echo "e11.09.24.highway-1.2.0" >> $LFSLOG_PROCESS
+
+time { bash e11.09.24.highway-1.2.0.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "e11.10.08.giflib-5.2.2"
+echo "e11.10.08.giflib-5.2.2" >> $LFSLOG_PROCESS
+
+time { bash e11.10.08.giflib-5.2.2.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "e11.10.19.libjxl-0.11.1"
+echo "e11.10.19.libjxl-0.11.1" >> $LFSLOG_PROCESS
+
+time { bash e11.10.19.libjxl-0.11.1.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo ""
+echo "" >> $LFSLOG_PROCESS
+
+time { bash .sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo ""
+echo "" >> $LFSLOG_PROCESS
+
+time { bash .sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo ""
+echo "" >> $LFSLOG_PROCESS
+
+time { bash .sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo ""
+echo "" >> $LFSLOG_PROCESS
+
+time { bash .sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo ""
+echo "" >> $LFSLOG_PROCESS
+
+time { bash .sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
 #####
 
 unset LFSLOG_PROCESS

@@ -9,11 +9,19 @@ https://www.gnupg.org/ftp/gcrypt/gpgme/gpgme-1.24.2.tar.bz2
 https://download.gnome.org/sources/polkit-gnome/0.105/polkit-gnome-0.105.tar.xz
 https://www.linuxfromscratch.org/patches/blfs/12.3/polkit-gnome-0.105-consolidated_fixes-1.patch
 
+# 09.24 highway-1.2.0
+https://github.com/google/highway/archive/1.2.0/highway-1.2.0.tar.gz
 # 09.33 libassuan-3.0.2
 https://www.gnupg.org/ftp/gcrypt/libassuan/libassuan-3.0.2.tar.bz2
 # 09.41 libdisplay-info-0.2.0
 https://gitlab.freedesktop.org/emersion/libdisplay-info/-/releases/0.2.0/downloads/libdisplay-info-0.2.0.tar.xz
 
+# 10.08 giflib-5.2.2
+https://sourceforge.net/projects/giflib/files/giflib-5.2.2.tar.gz
+# 10.15 libavif-1.2.0
+https://github.com/AOMediaCodec/libavif/archive/v1.2.0/libavif-1.2.0.tar.gz
+# 10.19 libjxl-0.11.1
+https://github.com/libjxl/libjxl/archive/v0.11.1/libjxl-0.11.1.tar.gz
 # 10.27 libwebp-1.5.0
 https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.5.0.tar.gz
 # 10.33 Poppler-25.02.0
@@ -49,6 +57,12 @@ https://download.gnome.org/sources/gsettings-desktop-schemas/47/gsettings-deskto
 # 41.14 XScreenSaver-6.09
 https://www.jwz.org/xscreensaver/xscreensaver-6.09.tar.gz
 
+# 42.09 fdk-aac-2.0.3
+https://downloads.sourceforge.net/opencore-amr/fdk-aac-2.0.3.tar.gz
+# 42.24 libaom-3.12.0
+https://storage.googleapis.com/aom-releases/libaom-3.12.0.tar.gz
+# 42.25 libass-0.17.3
+https://github.com/libass/libass/releases/download/0.17.3/libass-0.17.3.tar.xz
 # 42.27 libcanberra-0.30
 https://0pointer.de/lennart/projects/libcanberra/libcanberra-0.30.tar.xz
 https://www.linuxfromscratch.org/patches/blfs/12.2/libcanberra-0.30-wayland-1.patch
@@ -62,6 +76,10 @@ https://www.freedesktop.org/software/pulseaudio/releases/pulseaudio-17.0.tar.xz
 https://www.libsdl.org/release/SDL2-2.30.11.tar.gz
 # 42.53 sound-theme-freedesktop-0.8
 https://people.freedesktop.org/~mccann/dist/sound-theme-freedesktop-0.8.tar.bz2
+# 42.59 x264-20250212
+https://anduin.linuxfromscratch.org/BLFS/x264/x264-20250212.tar.xz
+# 42.60 x265-4.1
+https://bitbucket.org/multicoreware/x265_git/downloads/x265_4.1.tar.gz
 
 # 49.05 itstool-2.0.7
 https://files.itstool.org/itstool/itstool-2.0.7.tar.bz2
