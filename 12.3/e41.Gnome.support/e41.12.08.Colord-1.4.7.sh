@@ -25,6 +25,10 @@
 #
 
 #
+# Recommended by:
+#
+#               e43.33.38 gnome-settings-daemon-47.2
+#
 # Optionally by:
 #
 #               e41.25.17 GTK-4.16.12

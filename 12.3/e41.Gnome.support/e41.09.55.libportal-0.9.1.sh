@@ -1,24 +1,40 @@
-# e43.34.01.Baobab-47.0.sh
+# e41.09.55.libportal-0.9.1.sh
 #
 
 #
 # Dependencies Required:
 #
-#                   xxx.xx.xx adwaita-icon-theme-47.0
-#                   xxx.xx.xx GTK-4.16.12
-#                   xxx.xx.xx itstool-2.0.7
-#                   xxx.xx.xx libadwaita-1.6.4
-#                   e11.13.35 Vala-0.56.17
+#               d10.09.17 GLib-2.82.5
+#
+# Dependencies Recommended:
+#
+#               e11.25.16 GTK-3.24.48
+#               e41.25.17 GTK-4.16.12
+#
+# Dependencies Recommended (Runtime):
+#
+#               e13.25.46 xdg-desktop-portal-1.20.0
+#               e41.25.47 xdg-desktop-portal-gtk-1.15.2
+#               e42.33.25 xdg-desktop-portal-gnome-47.3
+#
+# Dependencies Optional:
+#
+#               a.08.91.20.10 Pytest-8.3.4
+#               e10.13.36     Vala-0.56.17
+#
+
 #
 # Required by:
 #
+#               e43.33.35 Nautilus-47.2
 #
 
-export PKG="baobab-47.0"
-export PKGLOG_DIR=$LFSLOG/34.01
+export PKG="libportal-0.9.1"
+export PKGLOG_DIR=$LFSLOG/09.55
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
+export PKGLOG_CHECK=$PKGLOG_DIR/check.log
 export PKGLOG_INSTALL=$PKGLOG_DIR/install.log
 export PKGLOG_ERROR=$PKGLOG_DIR/error.log
 export LFSLOG_PROCESS=$LFSLOG/process.log
@@ -40,15 +56,21 @@ cd    build
 echo "2. Meson Setup ..."
 echo "2. Meson Setup ..." >> $LFSLOG_PROCESS
 echo "2. Meson Setup ..." >> $PKGLOG_ERROR
-meson setup --prefix=/usr        \
-            --buildtype=release  \
-            ..                   \
-    > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+meson setup --prefix=/usr       \
+            --buildtype=release \
+            -D docs=false       \
+            ..                  \
+            > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Ninja Build ..."
 echo "3. Ninja Build ..." >> $LFSLOG_PROCESS
 echo "3. Ninja Build ..." >> $PKGLOG_ERROR 
 ninja > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
+
+echo "4. Ninja Test ..."
+echo "4. Ninja Test ..." >> $LFSLOG_PROCESS
+echo "4. Ninja Test ..." >> $PKGLOG_ERROR
+ninja test > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
 
 echo "5. Ninja Install ..."
 echo "5. Ninja Install ..." >> $LFSLOG_PROCESS
@@ -61,5 +83,6 @@ rm -rf $PKG
 unset SOURCES
 unset LFSLOG_PROCESS
 unset PKGLOG_INSTALL PKGLOG_BUILD PKGLOG_CONFIG
+unset PKGLOG_CHECK
 unset PKGLOG_ERROR PKGLOG_TAR
 unset PKGLOG_DIR PKG
