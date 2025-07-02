@@ -9,12 +9,12 @@
 # Dependencies Recommended:
 #
 #               e10.42.01 alsa-lib-1.2.13
-#               gstreamer-1.24.12           ???
+#           ??? gstreamer-1.24.12           ???
 #               e11.25.16 GTK-3.24.48
 #
 # Dependencies Optional:
 #
-#               PulseAudio-17.0             ???
+#               e11.42.49 PulseAudio-17.0
 #
 # Dependencies Recommended ( Run Time ):
 #

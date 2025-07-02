@@ -29,6 +29,7 @@
 # Recommended by:
 #
 #               e42.33.01 Gcr-3.41.2
+#               e42.33.02 Gcr-4.3.1
 #
 
 export PKG="gnupg-2.4.7"

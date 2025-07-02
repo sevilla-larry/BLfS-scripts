@@ -164,24 +164,10 @@ echo "."
 
 ###
 
-echo ""
-echo "" >> $LFSLOG_PROCESS
+echo "e11.42.60.x265-4.1"
+echo "e11.42.60.x265-4.1" >> $LFSLOG_PROCESS
 
-time { bash .sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
-
-###
-
-echo ""
-echo "" >> $LFSLOG_PROCESS
-
-time { bash .sh ; }
+time { bash e11.42.60.x265-4.1.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
@@ -192,24 +178,10 @@ echo "."
 
 ###
 
-echo ""
-echo "" >> $LFSLOG_PROCESS
+echo "e11.42.59.x264-20250212"
+echo "e11.42.59.x264-20250212" >> $LFSLOG_PROCESS
 
-time { bash .sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
-
-###
-
-echo ""
-echo "" >> $LFSLOG_PROCESS
-
-time { bash .sh ; }
+time { bash e11.42.59.x264-20250212.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
@@ -220,10 +192,24 @@ echo "."
 
 ###
 
-echo ""
-echo "" >> $LFSLOG_PROCESS
+echo "e11.42.25.libass-0.17.3"
+echo "e11.42.25.libass-0.17.3" >> $LFSLOG_PROCESS
 
-time { bash .sh ; }
+time { bash e11.42.25.libass-0.17.3.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "e11.44.01.FFmpeg-7.1"
+echo "e11.44.01.FFmpeg-7.1" >> $LFSLOG_PROCESS
+
+time { bash e11.44.01.FFmpeg-7.1.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

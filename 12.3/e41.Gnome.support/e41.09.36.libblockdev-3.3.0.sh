@@ -1,6 +1,27 @@
 # e41.09.36.libblockdev-3.3.0.sh
 #
 
+#
+# Dependencies Required:
+#
+#               d10.09.17 GLib-2.82.5
+#
+# Dependencies Recommended:
+#
+#           ??? e41.04.04 cryptsetup-2.7.5
+#               e41.09.30 keyutils-1.6.3
+#           ??? e41.09.34 libatasmart-0.19
+#               e41.09.37 libbytesize-2.11
+#           ??? e41.09.53 libnvme-1.11.1
+#           ??? e41.05.06 LVM2-2.03.30
+#
+
+#
+# Required by:
+#
+#               e41.12.35 UDisks-2.10.1
+#
+
 export PKG="libblockdev-3.3.0"
 export PKGLOG_DIR=$LFSLOG/09.36
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log

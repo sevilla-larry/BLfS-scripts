@@ -1,18 +1,32 @@
-# e41.09.26.inih-58.sh
+# e41.25.29.libei-1.3.0.sh
 #
 
 #
-# Recommended by:
+# Dependencies Required:
 #
-#               e41.10.03 Exiv2-0.28.5
+#               a.08.91.20.16 Attrs-25.1.0
+#               d10.12.12     elogind-255.17
+#
+#
+# Dependencies Optional:
+#
+#               d20.24.21.1 libevdev-1.13.2
+#               e10.09.71   libxkbcommon-1.8.0
+#               a.08.91.08  libxml2-2.14.3      (errata)
 #
 
-export PKG="inih-58"
-export PKGLOG_DIR=$LFSLOG/09.26
+#
+# Required by:
+#
+#               e43.33.41 Mutter-47.5
+#
+
+export PKG="libei-1.3.0"
+export PKGLOG_DIR=$LFSLOG/25.29
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
-#export PKGLOG_CHECK=$PKGLOG_DIR/check.log
+export PKGLOG_CHECK=$PKGLOG_DIR/check.log
 export PKGLOG_INSTALL=$PKGLOG_DIR/install.log
 export PKGLOG_ERROR=$PKGLOG_DIR/error.log
 export LFSLOG_PROCESS=$LFSLOG/process.log
@@ -36,8 +50,9 @@ echo "2. Meson Setup ..." >> $LFSLOG_PROCESS
 echo "2. Meson Setup ..." >> $PKGLOG_ERROR
 meson setup --prefix=/usr               \
             --buildtype=release         \
-            ..                          \
+            -D tests=disabled           \
             > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+#            ..                          \
 
 echo "3. Ninja Build ..."
 echo "3. Ninja Build ..." >> $LFSLOG_PROCESS
@@ -55,6 +70,6 @@ rm -rf $PKG
 unset SOURCES
 unset LFSLOG_PROCESS
 unset PKGLOG_INSTALL PKGLOG_BUILD PKGLOG_CONFIG
-#unset PKGLOG_CHECK
+unset PKGLOG_CHECK
 unset PKGLOG_ERROR PKGLOG_TAR
 unset PKGLOG_DIR PKG
