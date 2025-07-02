@@ -1,10 +1,10 @@
-# b30.09.51.liblinear-248.sh
+# b10.09.51.liblinear-248.sh
 #
 
 #
 # Recommended by:
 #
-#               b30.16.05 Nmap-7.95
+#               b10.16.05 Nmap-7.95
 #
 
 export PKG="liblinear-248"
@@ -39,9 +39,9 @@ echo "3. Copy Install ..." >> $LFSLOG_PROCESS
 echo "3. Copy Install ..." >> $PKGLOG_ERROR
 install -vm644 linear.h /usr/include			\
 		>> $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
-install -vm755 liblinear.so.5 /usr/lib			\
+install -vm755 liblinear.so.6 /usr/lib			\
 		>> $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
-ln -sfv liblinear.so.5 /usr/lib/liblinear.so	\
+ln -sfv liblinear.so.6 /usr/lib/liblinear.so	\
 		>> $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 

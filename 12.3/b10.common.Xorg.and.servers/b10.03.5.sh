@@ -78,6 +78,90 @@ echo "." >> $LFSLOG_PROCESS
 echo "."
 echo "."
 
+###
+
+echo "b10.13.24.41.build-1.2.2.post1"
+echo "b10.13.24.41.build-1.2.2.post1" >> $LFSLOG_PROCESS
+
+time { bash b10.13.24.41.build-1.2.2.post1.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "b10.15.04.Net-tools-2.10"
+echo "b10.15.04.Net-tools-2.10" >> $LFSLOG_PROCESS
+
+time { bash b10.15.04.Net-tools-2.10.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "b10.09.51.liblinear-248"
+echo "b10.09.51.liblinear-248" >> $LFSLOG_PROCESS
+
+time { bash b10.09.51.liblinear-248.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "b10.17.11.libnl-3.11.0"
+echo "b10.17.11.libnl-3.11.0" >> $LFSLOG_PROCESS
+
+time { bash b10.17.11.libnl-3.11.0.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "b10.17.14.libpcap-1.10.5"
+echo "b10.17.14.libpcap-1.10.5" >> $LFSLOG_PROCESS
+
+time { bash b10.17.14.libpcap-1.10.5.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "b10.16.05.Nmap-7.95"
+echo "b10.16.05.Nmap-7.95" >> $LFSLOG_PROCESS
+
+time { bash b10.16.05.Nmap-7.95.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
 #####
 
 unset LFSLOG_PROCESS

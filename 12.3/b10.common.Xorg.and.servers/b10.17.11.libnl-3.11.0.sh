@@ -1,10 +1,10 @@
-# b30.17.11.libnl-3.11.0.sh
+# b10.17.11.libnl-3.11.0.sh
 #
 
 #
 # Optionally by:
 #
-#               b30.17.14 libpcap-1.10.5
+#               b10.17.14 libpcap-1.10.5
 #
 
 #
@@ -99,10 +99,12 @@ echo "5. Make Install ..." >> $LFSLOG_PROCESS
 echo "5. Make Install ..." >> $PKGLOG_ERROR
 make install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
-mkdir -vp /usr/share/doc/libnl-3.10.0   \
+mkdir -vp /usr/share/doc/libnl-3.11.0   \
     >> $PKGLOG_OTHERS 2>> PKGLOG_ERROR
-tar -xf ../libnl-doc-3.10.0.tar.gz --strip-components=1 --no-same-owner \
-    -C  /usr/share/doc/libnl-3.10.0     \
+tar -xf ../libnl-doc-3.11.0.tar.gz      \
+    --strip-components=1                \
+    --no-same-owner                     \
+    -C /usr/share/doc/libnl-3.11.0      \
     >> $PKGLOG_OTHERS 2>> PKGLOG_ERROR
 
 

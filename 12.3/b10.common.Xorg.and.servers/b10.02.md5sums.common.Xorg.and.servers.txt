@@ -1,3 +1,5 @@
+# 09.51 liblinear-248
+14116244e09667b393094ce757203d31 liblinear-248.tar.gz
 # 09.76 libyaml-0.2.5
 bb15429d8fb787e7d3f1c83ae129a999 yaml-0.2.5.tar.gz
 
@@ -15,3 +17,17 @@ fc3f3291353bbe6ee6dec85ee61331e8 lua-5.4.7.tar.gz
 1c074ff5828dff3a3ecfa0e0f9de2e63 psutil-7.0.0.tar.gz
 # 13.24.28 PyYAML-6.0.2
 9600ee49b2b4e1a0237cf4173b6dc594 pyyaml-6.0.2.tar.gz
+# 13.24.41 build-1.2.2.post1
+5492ba887b363f483d64a11bbec0c34a build-1.2.2.post1.tar.gz
+
+# 15.04 Net-tools-2.10
+78aae762c95e2d731faf88d482e4cde5 net-tools-2.10.tar.xz
+
+# 16.05 Nmap-7.95
+b481d293e53b20278d5370458da9a950 nmap-7.95.tar.bz2
+
+# 17.11 libnl-3.11.0
+0a5eb82b494c411931a47638cb0dba51 libnl-3.11.0.tar.gz
+5c74044c92f2eb08de69cce88714cd1b libnl-doc-3.11.0.tar.gz
+# 17.14 libpcap-1.10.5
+0dc69ed81464e7a255715fa685daf134 libpcap-1.10.5.tar.gz

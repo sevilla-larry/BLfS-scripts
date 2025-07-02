@@ -1,4 +1,10 @@
-# b30.15.04.Net-tools-2.10.sh
+# b10.15.04.Net-tools-2.10.sh
+#
+
+#
+# Recommended by:
+#
+#               e44.34.12 gnome-nettool-42.0
 #
 
 export PKG="net-tools-2.10"

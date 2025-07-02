@@ -39,3 +39,6 @@ III. General Libraries and Utilities
 13.24.33 six-1.17.0
 13.24.34 sphinx-8.2.1
 13.24.35 sphinx_rtd_theme-3.0.2
+
+* additional from pypi.org
+13.24.41 build-1.2.2.post1

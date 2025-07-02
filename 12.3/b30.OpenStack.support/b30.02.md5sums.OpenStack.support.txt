@@ -1,8 +1,6 @@
 # 04.09 iptables-1.8.11
 44191ce12055da9790a92429c771ba50 iptables-1.8.11.tar.xz
 
-# 09.51 liblinear-248
-14116244e09667b393094ce757203d31 liblinear-248.tar.gz
 # 09.76 libyaml-0.2.5
 bb15429d8fb787e7d3f1c83ae129a999 yaml-0.2.5.tar.gz
 
@@ -38,15 +36,3 @@ e5769d4ab610491ac561c84fde4cf4a7 msgpack-1.1.0.tar.gz
 c6ee254bcdf1e2fdb13d87e0ee4166ba pytz-2025.1.tar.gz
 # 13.25.34 Urllib3-2.3.0
 6388afd062cf2e1ef27843738629dbc1 urllib3-2.3.0.tar.gz
-
-# 15.04 Net-tools-2.10
-78aae762c95e2d731faf88d482e4cde5 net-tools-2.10.tar.xz
-
-# 16.05 Nmap-7.95
-b481d293e53b20278d5370458da9a950 nmap-7.95.tar.bz2
-
-# 17.11 libnl-3.11.0
-0a5eb82b494c411931a47638cb0dba51 libnl-3.11.0.tar.gz
-5c74044c92f2eb08de69cce88714cd1b libnl-doc-3.11.0.tar.gz
-# 17.14 libpcap-1.10.5
-0dc69ed81464e7a255715fa685daf134 libpcap-1.10.5.tar.gz
