@@ -17,7 +17,9 @@ fc3f3291353bbe6ee6dec85ee61331e8 lua-5.4.7.tar.gz
 1c074ff5828dff3a3ecfa0e0f9de2e63 psutil-7.0.0.tar.gz
 # 13.24.28 PyYAML-6.0.2
 9600ee49b2b4e1a0237cf4173b6dc594 pyyaml-6.0.2.tar.gz
-# 13.24.41 build-1.2.2.post1
+# 13.24.41 pyproject_hooks-1.2.0
+ed3dd1b984339e83e35f676d7169c192 pyproject_hooks-1.2.0.tar.gz
+# 13.24.42 build-1.2.2.post1
 5492ba887b363f483d64a11bbec0c34a build-1.2.2.post1.tar.gz
 
 # 15.04 Net-tools-2.10

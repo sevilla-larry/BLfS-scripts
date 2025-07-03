@@ -41,4 +41,5 @@ III. General Libraries and Utilities
 13.24.35 sphinx_rtd_theme-3.0.2
 
 * additional from pypi.org
-13.24.41 build-1.2.2.post1
+13.24.41 pyproject_hooks-1.2.0
+13.24.42 build-1.2.2.post1
