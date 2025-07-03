@@ -1,4 +1,5 @@
 # e41.12.35.UDisks-2.10.1.sh
+# errata sed fix
 #
 
 #
@@ -52,6 +53,10 @@ echo "1. Extract tar..." >> $PKGLOG_ERROR
 tar xvf $PKG.tar.bz2 > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
 
+
+sed -i 's/fstype, NULL/fstype, "nodev,nosuid"/' \
+    src/udiskslinuxfilesystemhelpers.c          \
+    >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
 
 echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS

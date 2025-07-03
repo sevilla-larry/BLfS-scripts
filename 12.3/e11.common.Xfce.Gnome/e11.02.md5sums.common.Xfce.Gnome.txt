@@ -1,14 +1,14 @@
-# 09.06 Aspell-0.60.8.1
-187bd142f522ada555c7aa6b9cbf56e6 aspell-0.60.8.1.tar.gz
-#								 aspell6-en-2020.12.07-0.tar.bz2
-# 09.13 enchant-2.8.2
-92dcfe06febc92a3d4bbff4e08b08d3d enchant-2.8.2.tar.gz
 # 04.08 GPGME-1.24.2
 2e0cc1df9f3da8c2a7d7c9dc33b7f0bf gpgme-1.24.2.tar.bz2
 # 04.21 polkit-gnome-0.105
 50ecad37c8342fb4a52f590db7530621 polkit-gnome-0.105.tar.xz
 #								 polkit-gnome-0.105-consolidated_fixes-1.patch
 
+# 09.06 Aspell-0.60.8.1
+187bd142f522ada555c7aa6b9cbf56e6 aspell-0.60.8.1.tar.gz
+#								 aspell6-en-2020.12.07-0.tar.bz2
+# 09.13 enchant-2.8.2
+92dcfe06febc92a3d4bbff4e08b08d3d enchant-2.8.2.tar.gz
 # 09.24 highway-1.2.0
 8b3d090a2d081730b40bca5ae0d65f11 highway-1.2.0.tar.gz
 # 09.33 libassuan-3.0.2
@@ -18,6 +18,8 @@ c6f1bf4bd2aaa79cd1635dcc070ba51a libassuan-3.0.2.tar.bz2
 
 # 10.08 giflib-5.2.2
 913dd251492134e235ee3c9a91987a4d giflib-5.2.2.tar.gz
+#                                giflib-5.2.2-upstream_fixes-1.patch
+#                                giflib-5.2.2-security_fixes-1.patch
 # 10.15 libavif-1.2.0
 ec292cb8d51c0aa02f9fd5ef2419c853 libavif-1.2.0.tar.gz
 # 10.19 libjxl-0.11.1

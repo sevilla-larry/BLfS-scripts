@@ -1,11 +1,11 @@
-# e41.42.14.gst-plugins-base-1.26.2.sh
+# e41.42.14.gst-plugins-base-1.26.3.sh
 # errata
 #
 
 #
 # Dependencies Required:
 #
-#               e41.42.13 gstreamer-1.26.2
+#               e41.42.13 gstreamer-1.26.3
 #
 # Dependencies Recommended:
 #
@@ -33,8 +33,8 @@
 #
 # Required by:
 #
-#               e41.42.15 gst-plugins-good-1.26.2   (errata)
-#               e41.42.16 gst-plugins-bad-1.26.2    (errata)
+#               e41.42.15 gst-plugins-good-1.26.3   (errata)
+#               e41.42.16 gst-plugins-bad-1.26.3    (errata)
 #
 # Recommended by:
 #
@@ -45,7 +45,7 @@
 #               g42.34.04 Evince-46.3.1
 #
 
-export PKG="gst-plugins-base-1.26.2"
+export PKG="gst-plugins-base-1.26.3"
 export PKGLOG_DIR=$LFSLOG/42.14
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log

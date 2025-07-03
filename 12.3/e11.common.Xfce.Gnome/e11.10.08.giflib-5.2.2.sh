@@ -1,5 +1,5 @@
 # e11.10.08.giflib-5.2.2.sh
-#
+# errata patch
 
 #
 # Dependencies Optional:
@@ -36,7 +36,10 @@ cd $PKG
 
 
 patch -Np1 -i ../giflib-5.2.2-upstream_fixes-1.patch    \
-         > $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
+        >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
+
+patch -Np1 -i ../giflib-5.2.2-security_fixes-1.patch    \
+        >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
 
 cp -v pic/gifgrid.gif doc/giflib-logo.gif               \
         >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
@@ -45,6 +48,11 @@ echo "2. Make Build ..."
 echo "2. Make Build ..." >> $LFSLOG_PROCESS
 echo "2. Make Build ..." >> $PKGLOG_ERROR
 make > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
+
+echo "3. Make Check ..."
+echo "3. Make Check ..." >> $LFSLOG_PROCESS
+echo "3. Make Check ..." >> $PKGLOG_ERROR
+make check > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
 
 echo "4. Make Install ..."
 echo "4. Make Install ..." >> $LFSLOG_PROCESS
