@@ -1,28 +1,28 @@
 # e43.34.03.EOG-47.0.sh
 #
 
-#                        
 #
 # Dependencies Required:
 #
-#               xxx.xx.xx adwaita-icon-theme-47.0
-#               xxx.xx.xx Exempi-2.6.5
-#               xxx.xx.xx gnome-desktop-44.1
-#               xxx.xx.xx libhandy-1.8.3
-#               xxx.xx.xx libjpeg-turbo-3.0.1
-#               xxx.xx.xx libpeas-1.36.0
-#               xxx.xx.xx shared-mime-info-2.4
+#               e41.28.01 adwaita-icon-theme-47.0
+#               e41.09.14 Exempi-2.6.5
+#               e42.33.12 gnome-desktop-44.1
+#               e11.25.32 libhandy-1.8.3
+#               e10.10.18 libjpeg-turbo-3.0.1
+#               e42.33.19 libpeas-1.36.0
+#               d10.11.16 shared-mime-info-2.4
 #
 # Dependencies Recommended:
 #
 #               d10.09.17 GLib-2.82.5
-#               xxx.xx.xx Little CMS-2.17
-#               xxx.xx.xx libexif-0.6.25
-#               xxx.xx.xx librsvg-2.59.2
-#               xxx.xx.xx webp-pixbuf-loader-0.2.7
-
-# Required by:
+#               e10.10.14 Little CMS-2.16
+#               e10.10.16 libexif-0.6.25
+#               e10.10.24 librsvg-2.59.2
+#               e41.10.38 webp-pixbuf-loader-0.2.7
 #
+# Dependencies Optional:
+#
+#               e41.09.55 libportal-0.9.1
 #
 
 export PKG="eog-47.0"

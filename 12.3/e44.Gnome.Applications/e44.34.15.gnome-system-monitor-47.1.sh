@@ -1,20 +1,19 @@
 # e43.34.15.gnome-system-monitor-47.1.sh
 #
 
-#                        
 #
 # Dependencies Required:
 #
-#                  xxx.xx.xx adwaita-icon-theme-47.0
-#                  xxx.xx.xx Gtkmm-4.16.0
-#                  xxx.xx.xx itstool-2.0.7
-#                  xxx.xx.xx libgtop-2.41.3
-#                  xxx.xx.xx libadwaita-1.6.4
-#                  xxx.xx.xx librsvg-2.59.2
+#               e41.28.01 adwaita-icon-theme-47.0
+#               e41.25.19 Gtkmm-4.16.0
+#               e11.49.05 itstool-2.0.7
+#               e42.33.17 libgtop-2.41.3
+#               e41.25.28 libadwaita-1.6.4
 #
+# Dependencies Optional:
 #
-# Required by:
-#
+#               e41.09.03 appstream-glib-0.8.3
+#               d10.11.04 desktop-file-utils-0.28
 #
 
 export PKG="gnome-system-monitor-47.1"
@@ -36,6 +35,7 @@ echo "1. Extract tar..." >> $PKGLOG_ERROR
 tar xvf $PKG.tar.xz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
 
+
 mkdir build
 cd    build
 
@@ -46,7 +46,7 @@ meson setup --prefix=/usr            \
             -D systemd=false         \
             --buildtype=release      \
             ..                       \
-    > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+            > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Ninja Build ..."
 echo "3. Ninja Build ..." >> $LFSLOG_PROCESS

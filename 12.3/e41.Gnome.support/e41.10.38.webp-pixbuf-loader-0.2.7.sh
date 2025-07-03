@@ -1,27 +1,28 @@
-# e43.34.08.gnome-color-manager-3.36.2.sh
+# e41.10.38.webp-pixbuf-loader-0.2.7.sh
 #
 
 #
 # Dependencies Required:
 #
-#               e41.12.08 colord-1.4.7
-#               e11.25.16 GTK-3.24.48
-#               e11.49.05 itstool-2.0.7
-#               e10.10.14 Little CMS-2.16
-#
-# Dependencies Recommended:
-#
-#               d10.11.04 desktop-file-utils-0.28
+#               e10.25.10 gdk-pixbuf-2.42.12
+#               e11.10.27 libwebp-1.5.0
 #
 
-export PKG="gnome-color-manager-3.36.2"
-export PKGLOG_DIR=$LFSLOG/34.08
+#
+# Recommended by:
+#
+#               e44.34.03 EOG-47.0
+#
+
+export PKG="webp-pixbuf-loader-0.2.7"
+export PKGLOG_DIR=$LFSLOG/10.38
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
 export PKGLOG_CHECK=$PKGLOG_DIR/check.log
 export PKGLOG_INSTALL=$PKGLOG_DIR/install.log
 export PKGLOG_ERROR=$PKGLOG_DIR/error.log
+export PKGLOG_OTHERS=$PKGLOG_DIR/others.log
 export LFSLOG_PROCESS=$LFSLOG/process.log
 export SOURCES=`pwd`
 
@@ -31,7 +32,7 @@ mkdir $PKGLOG_DIR
 echo "1. Extract tar..."
 echo "1. Extract tar..." >> $LFSLOG_PROCESS
 echo "1. Extract tar..." >> $PKGLOG_ERROR
-tar xvf $PKG.tar.xz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
+tar xvf $PKG.tar.gz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
 
 
@@ -41,9 +42,9 @@ cd    build
 echo "2. Meson Setup ..."
 echo "2. Meson Setup ..." >> $LFSLOG_PROCESS
 echo "2. Meson Setup ..." >> $PKGLOG_ERROR
-meson setup --prefix=/usr        \
-            --buildtype=release  \
-            ..                   \
+meson setup --prefix=/usr       \
+            --buildtype=release \
+            ..                  \
             > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Ninja Build ..."
@@ -61,11 +62,15 @@ echo "5. Ninja Install ..." >> $LFSLOG_PROCESS
 echo "5. Ninja Install ..." >> $PKGLOG_ERROR
 ninja install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
+gdk-pixbuf-query-loaders --update-cache \
+    > $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
+
 
 cd $SOURCES
 rm -rf $PKG
 unset SOURCES
 unset LFSLOG_PROCESS
+unset PKGLOG_OTHERS
 unset PKGLOG_INSTALL PKGLOG_BUILD PKGLOG_CONFIG
 unset PKGLOG_CHECK
 unset PKGLOG_ERROR PKGLOG_TAR

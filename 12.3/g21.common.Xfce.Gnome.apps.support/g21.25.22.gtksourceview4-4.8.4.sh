@@ -9,7 +9,7 @@
 # Dependencies Recommended:
 #
 #               d10.09.17  GLib-2.82.5
-#               a.08.91.08 libxml2-2.13.6
+#               a.08.91.08 libxml2-2.14.3   (errata)
 #
 # Dependencies Optional (but Required):
 #
@@ -17,7 +17,7 @@
 #
 # Dependencies Optional:
 #
-#               f2.49.05 itstool-2.0.7
+#               e11.49.05 itstool-2.0.7
 #
 
 #
@@ -57,7 +57,7 @@ echo "2. Meson Setup ..." >> $PKGLOG_ERROR
 meson setup --prefix=/usr       \
             --buildtype=release \
             ..                  \
-        > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+            > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Ninja Build ..."
 echo "3. Ninja Build ..." >> $LFSLOG_PROCESS

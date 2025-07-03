@@ -5,6 +5,7 @@
 # Recommended by:
 #
 #               e44.34.12 gnome-nettool-42.0
+#				openstack
 #
 
 export PKG="net-tools-2.10"

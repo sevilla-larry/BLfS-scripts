@@ -1,21 +1,30 @@
-# e43.34.08.gnome-color-manager-3.36.2.sh
+# e41.25.20.gtk-vnc-1.5.0.sh
 #
 
 #
 # Dependencies Required:
 #
-#               e41.12.08 colord-1.4.7
+#               a.08.91.63 GnuTLS-3.8.9
 #               e11.25.16 GTK-3.24.48
-#               e11.49.05 itstool-2.0.7
-#               e10.10.14 Little CMS-2.16
+#               a.08.91.35 libgcrypt-1.11.0
 #
 # Dependencies Recommended:
 #
-#               d10.11.04 desktop-file-utils-0.28
+#               e10.13.36 Vala-0.56.17
+#
+# Dependencies Optional:
+#
+#               e11.42.49 PulseAudio-17.0
 #
 
-export PKG="gnome-color-manager-3.36.2"
-export PKGLOG_DIR=$LFSLOG/34.08
+#
+# Required by:
+#
+#               e44.34.09 gnome-connections-46.0
+#
+
+export PKG="gtk-vnc-1.5.0"
+export PKGLOG_DIR=$LFSLOG/25.20
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log

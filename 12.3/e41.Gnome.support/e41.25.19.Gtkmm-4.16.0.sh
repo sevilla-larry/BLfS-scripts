@@ -1,21 +1,25 @@
-# e43.34.08.gnome-color-manager-3.36.2.sh
+# e41.25.19.Gtkmm-4.16.0.sh
 #
 
 #
 # Dependencies Required:
 #
-#               e41.12.08 colord-1.4.7
-#               e11.25.16 GTK-3.24.48
-#               e11.49.05 itstool-2.0.7
-#               e10.10.14 Little CMS-2.16
+#               e41.25.17 GTK-4.16.12
+#               e41.25.39 Pangomm-2.56.1
 #
-# Dependencies Recommended:
+# Dependencies Optional:
 #
-#               d10.11.04 desktop-file-utils-0.28
+#               d20.25.44 Vulkan-Loader-1.4.304 (PCs)
 #
 
-export PKG="gnome-color-manager-3.36.2"
-export PKGLOG_DIR=$LFSLOG/34.08
+#
+# Required by:
+#
+#               e41.12.08 colord-1.4.7
+#
+
+export PKG="gtkmm-4.16.0"
+export PKGLOG_DIR=$LFSLOG/25.19
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
@@ -34,17 +38,18 @@ echo "1. Extract tar..." >> $PKGLOG_ERROR
 tar xvf $PKG.tar.xz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
 
-
-mkdir build
-cd    build
+                  
+mkdir gtkmm4-build
+cd    gtkmm4-build
 
 echo "2. Meson Setup ..."
 echo "2. Meson Setup ..." >> $LFSLOG_PROCESS
 echo "2. Meson Setup ..." >> $PKGLOG_ERROR
-meson setup --prefix=/usr        \
-            --buildtype=release  \
-            ..                   \
-            > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+meson setup                 \
+      --prefix=/usr         \
+      --buildtype=release   \
+      ..                    \
+      > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Ninja Build ..."
 echo "3. Ninja Build ..." >> $LFSLOG_PROCESS

@@ -87,7 +87,7 @@ echo "4. Ninja Install ..." >> $LFSLOG_PROCESS
 echo "4. Ninja Install ..." >> $PKGLOG_ERROR
 ninja install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
-# configure GDM
+echo "Note: need to configure GDM and add bootscript"
 # https://www.linuxfromscratch.org/blfs/view/12.3/x/gdm.html
 
 

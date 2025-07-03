@@ -15,6 +15,10 @@
 #           ??? e41.09.53 libnvme-1.11.1
 #           ??? e41.05.06 LVM2-2.03.30
 #
+# Dependencies Optional:
+#
+#               e13.09.29 JSON-GLib-1.10.6
+#
 
 #
 # Required by:

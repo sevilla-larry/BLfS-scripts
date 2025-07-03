@@ -7,7 +7,6 @@
 #               a.08.91.20.16 Attrs-25.1.0
 #               d10.12.12     elogind-255.17
 #
-#
 # Dependencies Optional:
 #
 #               d20.24.21.1 libevdev-1.13.2

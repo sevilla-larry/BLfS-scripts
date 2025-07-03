@@ -61,7 +61,7 @@ meson setup --prefix=/usr                   \
             --wrap-mode=nodownload          \
             -D systemduserunitdir=no        \
             ..                              \
-        > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+            > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Ninja Build ..."
 echo "3. Ninja Build ..." >> $LFSLOG_PROCESS

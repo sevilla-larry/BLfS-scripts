@@ -1,21 +1,20 @@
 # e43.34.10.gnome-disk-utility-46.1.sh
 #
 
-#                        
 #
 # Dependencies Required:
 #
-#                  e43.33.38 gnome-settings-daemon-47.2
-#                  xxx.xx.xx libdvdread-6.1.3
-#                  xxx.xx.xx libpwquality-1.4.5
-#                  xxx.xx.xx itstool-2.0.7
-#                  xxx.xx.xx libhandy-1.8.3
-#                  xxx.xx.xx libsecret-0.21.6
-#                  e11.13.35 UDisks-2.10.1
+#               e43.33.38 gnome-settings-daemon-47.2
+#               e11.49.05 itstool-2.0.7
+#           ??? e41.42.30 Libdvdread-6.1.3
+#               e11.25.32 libhandy-1.8.3
+#           ??? e41.04.14 libpwquality-1.4.5
+#               e42.33.04 libsecret-0.21.6
+#               e41.12.35 UDisks-2.10.1
 #
+# Dependencies Optional:
 #
-# Required by:
-#
+#               e41.09.03 appstream-glib-0.8.3
 #
 
 export PKG="gnome-disk-utility-46.1"
@@ -46,9 +45,9 @@ echo "2. Meson Setup ..." >> $LFSLOG_PROCESS
 echo "2. Meson Setup ..." >> $PKGLOG_ERROR
 meson setup --prefix=/usr           \
             --buildtype=release     \
-            -Dlogind=libelogind     \
+            -D logind=libelogind    \
             ..                      \
-    > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+            > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Ninja Build ..."
 echo "3. Ninja Build ..." >> $LFSLOG_PROCESS
