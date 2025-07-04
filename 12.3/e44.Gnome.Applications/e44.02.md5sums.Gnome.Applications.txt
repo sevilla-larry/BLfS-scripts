@@ -1,14 +1,17 @@
+# 34. GNOME Applications
+# 34.01 to 34.20
+
 e11446a330a74fd5637c503f6c46ef7c baobab-47.0.tar.xz
-ae48248dd36f89282d573eb7a0a1391f brasero-3.12.3.tar.xz
+#ae48248dd36f89282d573eb7a0a1391f brasero-3.12.3.tar.xz
 af0f617adbe8eabcdc3a926aae4ddaa7 eog-47.0.tar.xz
 e017e3544751c2442020f4d10a39e24d evince-46.3.1.tar.xz
-5e2bb6cc4a3c6b4563edf7ac507d8cce evolution-3.54.3.tar.xz
+#5e2bb6cc4a3c6b4563edf7ac507d8cce evolution-3.54.3.tar.xz
 8d996d0adbfde93dac1624226493f4e2 file-roller-44.5.tar.xz
 3c7f14fd01b093e4b1a5abf870d17c5e gnome-calculator-47.1.tar.xz
 b23a411d3ab754da6ebc967716a971dc gnome-color-manager-3.36.2.tar.xz
 dcd819bfb15af4652842fb6b91fb9c7f gnome-connections-46.0.tar.xz
 bfc4d0cfbf186ba5bd487f3fddbf07d2 gnome-disk-utility-46.1.tar.xz
-4df1707adc13aefabc349d8adda941b9 gnome-maps-47.4.tar.xz
+#4df1707adc13aefabc349d8adda941b9 gnome-maps-47.4.tar.xz
 ba99489e9e3a1af03e9f2719acac7beb gnome-nettool-42.0.tar.xz
 c7e33249b59c6082312909f65739912e gnome-power-manager-43.0.tar.xz
 3d0199188d8ba07399e468a61e0174e8 gnome-screenshot-41.0.tar.xz
@@ -16,5 +19,5 @@ f6e69d246adc5445228c82011fac118a gnome-system-monitor-47.1.tar.xz
 31091beb0965c03a9d129095d1d7aca7 gnome-terminal-3.54.2.tar.gz
 860b86e104dc575421c378a5cc5ffb73 gnome-weather-47.0.tar.xz
 b349d3a7d5606a934a1a5fe71a7550f0 gucharmap-16.0.2.tar.bz2
-18cd36abd8d2e25c236934be64c8b916 seahorse-47.0.1.tar.xz
-cfae2acf42f18677e6cd7bd716571bd7 snapshot-47.1.tar.xz
+#18cd36abd8d2e25c236934be64c8b916 seahorse-47.0.1.tar.xz
+#cfae2acf42f18677e6cd7bd716571bd7 snapshot-47.1.tar.xz

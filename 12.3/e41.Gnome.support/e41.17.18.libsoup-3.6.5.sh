@@ -33,7 +33,7 @@
 #               e42.33.22 tinysparql-3.8.2.sh
 #
 
-export PKG="libsoup-3.6.4"
+export PKG="libsoup-3.6.5"
 export PKGLOG_DIR=$LFSLOG/17.18
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log

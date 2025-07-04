@@ -1,14 +1,17 @@
+# 34. GNOME Applications
+# 34.01 to 34.20
+
 https://download.gnome.org/sources/baobab/47/baobab-47.0.tar.xz
-https://download.gnome.org/sources/brasero/3.12/brasero-3.12.3.tar.xz
+#https://download.gnome.org/sources/brasero/3.12/brasero-3.12.3.tar.xz
 https://download.gnome.org/sources/eog/47/eog-47.0.tar.xz
 https://download.gnome.org/sources/evince/46/evince-46.3.1.tar.xz
-https://download.gnome.org/sources/evolution/3.54/evolution-3.54.3.tar.xz
+#https://download.gnome.org/sources/evolution/3.54/evolution-3.54.3.tar.xz
 https://download.gnome.org/sources/file-roller/44/file-roller-44.5.tar.xz
 https://download.gnome.org/sources/gnome-calculator/47/gnome-calculator-47.1.tar.xz
 https://download.gnome.org/sources/gnome-color-manager/3.36/gnome-color-manager-3.36.2.tar.xz
 https://download.gnome.org/sources/gnome-connections/46/gnome-connections-46.0.tar.xz
 https://download.gnome.org/sources/gnome-disk-utility/46/gnome-disk-utility-46.1.tar.xz
-https://download.gnome.org/sources/gnome-maps/47/gnome-maps-47.4.tar.xz
+#https://download.gnome.org/sources/gnome-maps/47/gnome-maps-47.4.tar.xz
 https://download.gnome.org/sources/gnome-nettool/42/gnome-nettool-42.0.tar.xz
 https://download.gnome.org/sources/gnome-power-manager/43/gnome-power-manager-43.0.tar.xz
 https://download.gnome.org/sources/gnome-screenshot/41/gnome-screenshot-41.0.tar.xz
@@ -16,5 +19,5 @@ https://download.gnome.org/sources/gnome-system-monitor/47/gnome-system-monitor-
 https://gitlab.gnome.org/GNOME/gnome-terminal/-/archive/3.54.2/gnome-terminal-3.54.2.tar.gz
 https://download.gnome.org/sources/gnome-weather/47/gnome-weather-47.0.tar.xz
 https://gitlab.gnome.org/GNOME/gucharmap/-/archive/16.0.2/gucharmap-16.0.2.tar.bz2
-https://download.gnome.org/sources/seahorse/47/seahorse-47.0.1.tar.xz
-https://download.gnome.org/sources/snapshot/47/snapshot-47.1.tar.xz
+#https://download.gnome.org/sources/seahorse/47/seahorse-47.0.1.tar.xz
+#https://download.gnome.org/sources/snapshot/47/snapshot-47.1.tar.xz

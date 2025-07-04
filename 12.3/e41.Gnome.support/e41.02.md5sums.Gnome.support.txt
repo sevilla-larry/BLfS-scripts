@@ -1,0 +1,146 @@
+# 09.01 Abseil-cpp-20250127.0
+dbc174bbc144525c45101a36d4027e7d abseil-cpp-20250127.0.tar.gz
+# 09.02 AppStream-1.0.5			(errata)
+c28c3e6d4b0f96812b6a1e2f99006e38 AppStream-1.0.5.tar.xz
+# 09.03 appstream-glib-0.8.3
+2ffd46eff1c16f31e435849b706c2287 appstream-glib-0.8.3.tar.xz
+# 09.14 Exempi-2.6.6			(errata)
+f955e63dbd7b91c016f802c678e0e773 exempi-2.6.6.tar.xz
+# 09.19 GLibmm-2.82.0
+b24b3ee3e7943c779f1193cce6dda34e glibmm-2.82.0.tar.xz
+# 09.26 inih-58
+5c9725320ad2c79e0b1f76568bd0ff24 inih-r58.tar.gz
+# 09.28 JSON-C-0.18
+e6593766de7d8aa6e3a7e67ebf1e522f json-c-0.18.tar.gz
+# 09.30 keyutils-1.6.3
+6b70b2b381c1b6d9adfaf66d5d3e7c00 keyutils-1.6.3.tar.gz
+# 09.36 libblockdev-3.3.1		(errata)
+9a1d1d44e78af1693abf5cd23fa4ce58 libblockdev-3.3.1.tar.gz
+# 09.37 libbytesize-2.11
+b9a24d3a7b576e67cab729195c26f6e5 libbytesize-2.11.tar.gz
+# 09.40 libdaemon-0.14
+509dc27107c21bcd9fbf2f95f5669563 libdaemon-0.14.tar.gz
+# 09.46 libgusb-0.4.9
+354a3227334991ea4e924843c144bd82 libgusb-0.4.9.tar.xz
+# 09.47 libical-3.0.19
+f671e38e804bf467347807d8c8d057f7 libical-3.0.19.tar.gz
+# 09.55 libportal-0.9.1
+0c63ee25d2e2986ce4df544fe8149046 libportal-0.9.1.tar.xz
+# 09.61 libsigc++-3.6.0
+b7205d5465ac15fbc0c781d39b4011be libsigc++-3.6.0.tar.xz
+# 09.68 liburcu-0.15.1
+5a6a892f0eea86728b4eb6dea07ed190 userspace-rcu-0.15.1.tar.bz2
+# 09.73 libxmlb-0.3.21
+6f83ad887ffacaa1f393650845eb8a1b libxmlb-0.3.21.tar.xz
+# 09.85 Protobuf-29.3
+4bc7da60038e4b10de416415c7988ec7 protobuf-29.3.tar.gz
+# 09.86 Protobuf-c-1.5.1
+0c02b1bb2b20bb9fc3489fe9e3df354b protobuf-c-1.5.1.tar.gz
+# 09.89 SpiderMonkey from firefox-128.11.0	(errata)
+0c47aafa4d9bf5cd13617343335913b8 firefox-128.11.0esr.source.tar.xz
+
+# 10.03 Exiv2-0.28.5
+f8de9495e03f06be5152ecae3a82815c exiv2-0.28.5.tar.gz
+# 10.17 libgxps-0.3.2
+0527ac7c8c405445e96a5baa6019a0c3 libgxps-0.3.2.tar.xz
+# 10.37 sassc-3.6.2
+4c3b06ce2979f2a9f0a35093e501d8bb sassc-3.6.2.tar.gz
+afda97284d75a030cabadf5b9f998a3b libsass-3.6.6.tar.gz
+# 10.38 webp-pixbuf-loader-0.2.7
+e97025dc70178877dbd041776f151947 webp-pixbuf-loader-0.2.7.tar.gz
+
+# 11.10 ibus-1.5.31
+3d685af1010d871bb858dc8a8aabb5c4 ibus-1.5.31.tar.gz
+#								 UCD.zip
+# 11.22 xdg-dbus-proxy-0.1.6
+6d38a1b6bba80a3134270204558ba17e xdg-dbus-proxy-0.1.6.tar.xz
+
+# 12.08 Colord-1.4.7
+94bd795efa1931a34990345e4ac439a8 colord-1.4.7.tar.xz
+#								 colord-1.4.7-upstream_fixes-1.patch
+# 12.09 cpio-2.15
+3394d444ca1905ea56c94b628b706a0b cpio-2.15.tar.bz2
+# 12.13 blocaled-0.7
+cb3edd8c96539fb1042b68cb63e45e12 blocaled-0.7.tar.xz
+# 12.27 Power-profiles-daemon-0.30
+b72dbed7159cbeff972e9a20ddcc7388 power-profiles-daemon-0.30.tar.gz
+# 12.35 UDisks-2.10.1
+613af9bfea52cde74d2ac34d96de544d udisks-2.10.1.tar.bz2
+
+# 13.24.06 D-Bus Python-1.3.2
+33be8a4a766e1c7c9a377b8f934ce21a dbus-python-1.3.2.tar.gz
+# 13.24.20 PyCairo-1.26.1
+36504ac01533ae14f0d2337516bbae2e pycairo-1.26.1.tar.gz
+# 13.24.22 Pygments-2.19.1
+5e6e00a0f63b9f3b63edfa260f71b1b5 pygments-2.19.1.tar.gz
+# 13.24.23 PyGObject-3.50.0
+8f34e4bc1d7d57faf558180b0051c9ef pygobject-3.50.0.tar.xz
+# 13.26 Ruby-3.4.2
+63a56b170246fcf0198a5eaba57dd46c ruby-3.4.2.tar.xz
+# 13.35 unifdef-2.12
+b225312c110cd2600ca7166bd0419751 unifdef-2.12.tar.gz
+
+# 16.01 Avahi-0.8
+229c6aa30674fc43c202b22c5f8c2be7 avahi-0.8.tar.gz
+#								 avahi-0.8-ipv6_race_condition_fix-1.patch
+# 16.02 BIND Utilities-9.20.6
+193d9dad97f1fee3127eed7ccd93153f bind-9.20.6.tar.xz
+# 16.06 Traceroute-2.1.6
+94b41044978f4f57c373adc5a32c42d7 traceroute-2.1.6.tar.gz
+# 16.07 Whois-5.4.3
+381dce8db7c6e38ef013b5d6527f494c whois-5.4.3.tar.gz
+
+# 17.03 GeoClue-2.7.2
+d58d6f3286a6b3ace395fc36468aace2 geoclue-2.7.2.tar.bz2
+# 17.04 glib-networking-2.80.1
+405e6c058723217a1307ba8415615f9d glib-networking-2.80.1.tar.xz
+# 17.18 libsoup-3.6.5			(errata)
+181a474d783492e3f5f7cbfb047bcecd libsoup-3.6.5.tar.xz
+
+# 25.06 libcairomm-1.18.0
+4c7afc4ab5177655724ea4b31794db30 cairomm-1.18.0.tar.xz
+# 25.07 colord-gtk-0.3.1
+d436740c06e42af421384f16b2a9a0a7 colord-gtk-0.3.1.tar.xz
+# 25.15 Graphene-1.10.8
+169e3c507b5a5c26e9af492412070b81 graphene-1.10.8.tar.xz
+# 25.17 GTK-4.16.12
+0f2b154a0b05e4ca94a05aaeb7e1f3fb gtk-4.16.12.tar.xz
+#								 gtk-4.16.12-libpng_1_6_45-1.patch
+# 25.19 Gtkmm-4.16.0
+d2161c39f2be1ac0c1285cd8e0c63b6c gtkmm-4.16.0.tar.xz
+# 25.20 gtk-vnc-1.5.0
+6e9815e7960636e95f626a3f164eb01d gtk-vnc-1.5.0.tar.xz
+# 25.23 gtksourceview5-5.14.2
+2eaf1b453b3a9bcba89d63994f3e78b1 gtksourceview-5.14.2.tar.xz
+# 25.28 libadwaita-1.6.4
+8c8fe1e64c361eb5a84d60f61147fbf9 libadwaita-1.6.4.tar.xz
+# 25.29 libei-1.3.0
+aeaffcb5afb5ad0bb9981eb93c4cd610 libei-1.3.0.tar.gz
+# 25.39 Pangomm-2.56.1
+f3003015d87cb56c9cf731fa7a920a24 pangomm-2.56.1.tar.xz
+# 25.45 WebKitGTK-2.46.6
+10b5b88ffe8611202c45cfdc10a2bd72 webkitgtk-2.46.6.tar.xz
+# 25.47 xdg-desktop-portal-gtk-1.15.2
+a84f2748611383cd1d1731542de7bce0 xdg-desktop-portal-gtk-1.15.2.tar.xz
+
+# 28.01 adwaita-icon-theme-47.0
+b3863567f8019b056695cb51f4e0abc4 adwaita-icon-theme-47.0.tar.xz
+
+# 42.13 gstreamer-1.26.3		(errata)
+acdd5cade55477da368b4bc537e5da46 gstreamer-1.26.3.tar.xz
+# 42.14 gst-plugins-base-1.26.3	(errata)
+31bf664cb59446693dc58d764a4497a3 gst-plugins-base-1.26.3.tar.xz
+# 42.15 gst-plugins-good-1.26.3	(errata)
+bf676f8c8018f321c749b1e19add87be gst-plugins-good-1.26.3.tar.xz
+# 42.16 gst-plugins-bad-1.26.3	(errata)
+7b2a84899b9479c8d5b3e61c5c7d3780 gst-plugins-bad-1.26.3.tar.xz
+# 42.18 gst-libav-1.26.3		(errata)
+ab4728a59a4bc3a063043cce9869c865 gst-libav-1.26.3.tar.xz
+# 42.48 Pipewire-1.2.7
+244a64d8873a868d102b2dd02c964906 pipewire-1.2.7.tar.bz2
+# 42.54 SoundTouch-2.3.3
+489c1050315965f69a9c0ad949744d73 soundtouch-2.3.3.tar.gz
+# 42.57 v4l-utils-1.28.1
+6716de513a1fd2e1edb404a46a455855 v4l-utils-1.28.1.tar.xz
+# 42.58 Wireplumber-0.5.8
+a2cbfe6885da8dcbeacbba05f62bcf67 wireplumber-0.5.8.tar.bz2

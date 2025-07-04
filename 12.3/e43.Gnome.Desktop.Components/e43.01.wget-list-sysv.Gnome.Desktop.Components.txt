@@ -7,7 +7,7 @@ https://download.gnome.org/sources/gnome-backgrounds/47/gnome-backgrounds-47.0.t
 https://download.gnome.org/sources/gvfs/1.56/gvfs-1.56.1.tar.xz
 https://download.gnome.org/sources/gexiv2/0.14/gexiv2-0.14.3.tar.xz
 https://download.gnome.org/sources/nautilus/47/nautilus-47.2.tar.xz
-https://download.gnome.org/sources/gnome-bluetooth/47/gnome-bluetooth-47.1.tar.xz
+#https://download.gnome.org/sources/gnome-bluetooth/47/gnome-bluetooth-47.1.tar.xz
 https://download.gnome.org/sources/gnome-keyring/46/gnome-keyring-46.2.tar.xz
 https://download.gnome.org/sources/gnome-settings-daemon/47/gnome-settings-daemon-47.2.tar.xz
 https://download.gnome.org/sources/tecla/47/tecla-47.0.tar.xz

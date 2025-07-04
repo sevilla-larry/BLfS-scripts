@@ -26,7 +26,7 @@
 #
 
 export PKG="adwaita-icon-theme-47.0"
-export PKGLOG_DIR=$LFSLOG/28.01.1
+export PKGLOG_DIR=$LFSLOG/28.01
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log

@@ -19,7 +19,7 @@
 #               e41.25.28 libadwaita-1.6.4
 #
 
-export PKG="AppStream-1.0.4"
+export PKG="AppStream-1.0.5"
 export PKGLOG_DIR=$LFSLOG/09.02
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log

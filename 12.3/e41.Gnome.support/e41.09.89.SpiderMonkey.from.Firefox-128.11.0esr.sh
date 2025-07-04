@@ -22,7 +22,7 @@
 
 export PKG="firefox-128.11.0"
 export PKG0=$PKG"esr.source"
-export PKGLOG_DIR=$LFSLOG/40.03
+export PKGLOG_DIR=$LFSLOG/09.89
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log

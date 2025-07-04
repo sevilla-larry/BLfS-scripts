@@ -1,10 +1,13 @@
+# 33.B GNOME Desktop Components
+# 33.31 to 33.47
+
 ac8db20b0d6b996d4bbbeb96463d01f0 dconf-0.40.0.tar.xz
 82b2f5d396e95757ad7eaf89c82decd6 dconf-editor-45.0.1.tar.xz
 c763f03aef289a3cd32c8049bf58443e gnome-backgrounds-47.0.tar.xz
 5ba12cd02b17c058aa71adc39c5eb6cf gvfs-1.56.1.tar.xz
 d4ca9614baa0bc30d142bcad65f09910 gexiv2-0.14.3.tar.xz
 731bc0b5189c8ea9853d51c10c8764f7 nautilus-47.2.tar.xz
-715b4767b46b4c4b24a231358d0de83e gnome-bluetooth-47.1.tar.xz
+#715b4767b46b4c4b24a231358d0de83e gnome-bluetooth-47.1.tar.xz
 7a8ab16a87f03ca05fc176925fcce649 gnome-keyring-46.2.tar.xz
 39babcea9c9eb5fd7809cbc685cd282c gnome-settings-daemon-47.2.tar.xz
 68233c486bfe8b86f759fdd9ae1be00a tecla-47.0.tar.xz

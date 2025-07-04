@@ -7,8 +7,8 @@
 #               e41.16.02 BIND Utilities-9.20.6
 #
 
-export PKG="liburcu-0.15.1"
-export PKGLOG_DIR=$LFSLOG/09.63
+export PKG="userspace-rcu-0.15.1"
+export PKGLOG_DIR=$LFSLOG/09.68
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
