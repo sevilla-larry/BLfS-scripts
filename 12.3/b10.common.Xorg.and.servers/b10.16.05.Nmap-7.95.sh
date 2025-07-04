@@ -1,4 +1,5 @@
 # b10.16.05.Nmap-7.95.sh
+# without-ZenMap
 #
 
 #
