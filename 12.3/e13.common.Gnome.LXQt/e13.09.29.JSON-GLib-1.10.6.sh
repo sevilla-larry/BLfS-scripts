@@ -11,7 +11,7 @@
 #
 # Required by:
 #
-#           ??? e13.25.48 xdg-desktop-portal-1.18.4 ???
+#               e13.25.46 xdg-desktop-portal-1.20.0
 #
 # Optionally by:
 #

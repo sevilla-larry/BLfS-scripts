@@ -6,16 +6,20 @@
 #
 #           ??? e10.05.04 Fuse-3.16.2           ???
 #               e10.25.10 gdk-pixbuf-2.42.12
-#               e10.09.29 JSON-Glib-1.8.0
+#               e13.09.29 JSON-Glib-1.10.6
 #           ??? e10.42.48 Pipewire-1.2.7        ???
+#
+# Dependencies Recommended:
+#
+#               e13.12.07 Bubblewrap-0.11.0
 #
 # Dependencies Required (at runtime):
 #
-#               d20.12.10 dbus-1.14.10
+#               d20.12.11 dbus-1.16.0
 #
 # Needed at runtime:
 #
-#               ???.??.?? xdg-desktop-portal-{gtk,gnome,lxqt}
+#               xxx.xx.xx xdg-desktop-portal-{gtk,gnome,lxqt}
 #
 
 #

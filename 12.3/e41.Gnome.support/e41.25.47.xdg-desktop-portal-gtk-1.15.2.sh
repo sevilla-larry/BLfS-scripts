@@ -15,6 +15,7 @@
 #
 # Required (at runtime) by:
 #
+#               e13.25.46 xdg-desktop-portal-1.20.0
 #               e42.33.25 xdg-desktop-portal-gnome-47.3
 #
 

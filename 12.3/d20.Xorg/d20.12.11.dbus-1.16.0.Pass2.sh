@@ -30,6 +30,7 @@
 # Runtime needed by:
 #
 #               d10.09.17 GLib-2.82.5
+#               e13.25.46 xdg-desktop-portal-1.20.0
 #
 # Optionally by:
 #
