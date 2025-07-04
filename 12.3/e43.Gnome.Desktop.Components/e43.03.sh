@@ -6,19 +6,10 @@
 export LFSLOG_PROCESS=$LFSLOG/process.log
 
 #####
-
-echo "e43.33.31.DConf-0.40.0"
-echo "e43.33.31.DConf-0.40.0" >> $LFSLOG_PROCESS
-
-time { bash e43.33.31.DConf-0.40.0.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
-
+#
+#	e43.33.31.DConf-0.40.0
+#	moved to E41
+#
 ###
 
 echo "e43.33.32.gnome-backgrounds-47.0"
@@ -49,8 +40,8 @@ echo "."
 
 ###
 #
-#	build ahead in e42.03.sh:
-#		e43.33.34.gexiv2-0.14.3
+#	e43.33.34.gexiv2-0.14.3
+#	moved to E42
 #
 ###
 
@@ -194,8 +185,8 @@ echo "."
 
 ###
 #
-#	build ahead:
-#		e43.33.44.gnome-session-47.0.1
+#	e43.33.44.gnome-session-47.0.1
+#	moved UPs
 #
 ###
 

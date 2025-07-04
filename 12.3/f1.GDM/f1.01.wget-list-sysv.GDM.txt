@@ -1,0 +1,2 @@
+# 26.01 GDM-47.0
+https://download.gnome.org/sources/gdm/47/gdm-47.0.tar.xz

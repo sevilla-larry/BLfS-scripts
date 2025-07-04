@@ -65,18 +65,19 @@ echo "2. Configure ..." >> $PKGLOG_ERROR
     --sysconfdir=/etc       \
     --localstatedir=/var    \
     --disable-static        \
-    --disable-libevent      \
     --disable-mono          \
     --disable-monodoc       \
     --disable-python        \
     --disable-qt3           \
     --disable-qt4           \
     --disable-qt5           \
-    --enable-core-docs      \
+    --disable-core-docs     \
     --with-distro=none      \
     --with-systemdsystemunitdir=no  \
     --with-dbus-system-address='unix:path=/run/dbus/system_bus_socket'  \
     > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+#    --disable-libevent      \
+#    --enable-core-docs      \
 
 echo "3. Make Build ..."
 echo "3. Make Build ..." >> $LFSLOG_PROCESS

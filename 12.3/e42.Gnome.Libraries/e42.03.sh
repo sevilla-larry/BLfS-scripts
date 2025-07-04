@@ -7,20 +7,6 @@ export LFSLOG_PROCESS=$LFSLOG/process.log
 
 #####
 
-echo "e42.33.04.libsecret-0.21.6"
-echo "e42.33.04.libsecret-0.21.6" >> $LFSLOG_PROCESS
-
-time { bash e42.33.04.libsecret-0.21.6.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
-
-###
-
 echo "e42.33.01.Gcr-3.41.2"
 echo "e42.33.01.Gcr-3.41.2" >> $LFSLOG_PROCESS
 
@@ -51,8 +37,10 @@ echo "."
 #
 #	e11.33.03.gsettings-desktop-schemas-47.1
 #
-#	build ahead:
-#		e42.33.04.libsecret-0.21.6
+###
+#
+#	e42.33.04.libsecret-0.21.6
+#	moved to E41
 #
 ###
 
@@ -153,19 +141,10 @@ echo "."
 echo "."
 
 ###
-
-echo "e42.33.12.gnome-desktop-44.1"
-echo "e42.33.12.gnome-desktop-44.1" >> $LFSLOG_PROCESS
-
-time { bash e42.33.12.gnome-desktop-44.1.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
-
+#
+#	e42.33.12.gnome-desktop-44.1
+#	moved to E41
+#
 ###
 
 echo "e42.33.13.gnome-menus-3.36.0"
@@ -293,19 +272,10 @@ echo "."
 echo "."
 
 ###
-
-echo "e42.33.22.tinysparql-3.8.2"
-echo "e42.33.22.tinysparql-3.8.2" >> $LFSLOG_PROCESS
-
-time { bash e42.33.22.tinysparql-3.8.2.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
-
+#
+#   e42.33.22.tinysparql-3.8.2
+#	moved to E41
+#
 ###
 
 echo "e43.33.34.gexiv2-0.14.3"

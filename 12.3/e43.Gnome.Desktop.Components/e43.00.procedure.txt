@@ -1,0 +1,220 @@
+A. Preparation
+
+  A.01. ( Assumming XOrg is already running )
+
+        cd /sources
+
+  A.02. Copy all script files
+
+        copy all script files from the following to /sources
+
+            1. e10.common.DE
+            2. e11.common.Xfce.Gnome
+            3. e13.common.Gnome.LXQt
+            4. e41.Gnome.support
+            5. e42.Gnome.Libraries
+            6. e43.Gnome.Desktop.Components
+            7. e44.Gnome.Applications
+            8. f1.GDM
+
+  A.03. Download packages
+
+        ###
+
+        wget --input-file=e10.01.wget-list-sysv.common.DE.txt                   --continue --directory-prefix=/sources
+        wget --input-file=e11.01.wget-list-sysv.common.Xfce.Gnome.txt           --continue --directory-prefix=/sources
+        wget --input-file=e13.01.wget-list-sysv.common.Gnome.LXQt.txt           --continue --directory-prefix=/sources
+        wget --input-file=e41.01.wget-list-sysv.Gnome.support.txt               --continue --directory-prefix=/sources
+        wget --input-file=e42.01.wget-list-sysv.Gnome.Libraries.txt             --continue --directory-prefix=/sources
+        wget --input-file=e43.01.wget-list-sysv.Gnome.Desktop.Components.txt    --continue --directory-prefix=/sources
+        wget --input-file=e44.01.wget-list-sysv.Gnome.Applications              --continue --directory-prefix=/sources
+        wget --input-file=f1.01.wget-list-sysv.GDM.txt                          --continue --directory-prefix=/sources
+
+        ###
+
+        md5sum -c e10.02.md5sums.common.DE.txt
+        md5sum -c e11.02.md5sums.common.Xfce.Gnome.txt
+        md5sum -c e13.02.md5sums.common.Gnome.LXQt.txt
+        md5sum -c e41.02.md5sums.Gnome.support.txt
+        md5sum -c e42.02.md5sums.Gnome.Libraries.txt
+        md5sum -c e43.02.md5sums.Gnome.Desktop.Components.txt
+        md5sum -c e44.02.md5sums.Gnome.Applications.txt
+        md5sum -c f1.02.md5sums.GDM.txt
+
+        ###
+
+  A.04. Setting Up the Environment
+        ( Note: change the MAKEFLAGS based on the number of threads )
+
+        ###
+
+        export LFSLOG=/var/log/blfs
+
+        export MAKEFLAGS="-j$(nproc)"
+        export NPROC="$(nproc)"
+
+        ###
+        #   same as XOrg Environment
+        ###
+        export XORG_PREFIX="/usr"
+
+        export XORG_CONFIG="--prefix=$XORG_PREFIX --sysconfdir=/etc \
+                            --localstatedir=/var --disable-static"
+
+        ###
+
+B.  Generate BLFS - Gnome Support Apps
+
+  B.01. Setup / Checking Environment - Part 1
+
+        ###
+
+        echo $XORG_PREFIX     # /usr
+        echo $XORG_CONFIG     # --prefix=/usr --sysconfdir=/etc --localstatedir=/var --disable-static
+        echo $LFSLOG          # /var/log/blfs
+        echo $MAKEFLAGS       # -j$(nproc)
+        echo $NPROC           # $(nproc)
+
+        echo $SHELL           # /bin/bash
+        ls -l /bin/sh         # bash
+        ls -l /usr/bin/awk    # gawk
+
+        cd /sources
+
+        ###
+
+        ( display )
+        root [ /sources ]#
+
+  B.03. Support Applications - Part 1
+
+        ###
+
+        # bash e43.03.8.1.support.apps.sh
+        bash e10.03.1.sh # RustC
+
+        # after RustC
+
+        reboot
+
+        ###
+
+  B.04. Support Applications - Part 2
+
+        ###
+
+        export LFSLOG=/var/log/blfs
+
+        export MAKEFLAGS="-j$(nproc)"
+        export NPROC="$(nproc)"
+
+        export XORG_PREFIX="/usr"
+
+        export XORG_CONFIG="--prefix=$XORG_PREFIX --sysconfdir=/etc \
+                            --localstatedir=/var --disable-static"
+
+        source /etc/profile.d/rustc.sh
+
+        ###
+
+        echo $XORG_PREFIX     # /usr
+        echo $XORG_CONFIG     # --prefix=/usr --sysconfdir=/etc --localstatedir=/var --disable-static
+        echo $LFSLOG          # /var/log/blfs
+        echo $MAKEFLAGS       # -j$(nproc)
+        echo $NPROC           # $(nproc)
+        echo $PATH            # /opt/rustc/bin:...
+
+        echo $SHELL           # /bin/bash
+        ls -l /bin/sh         # bash
+        ls -l /usr/bin/awk    # gawk
+
+        cd /sources
+
+        bash e43.03.8.2.support.apps.sh
+
+        # boot scripts
+        cd /mnt/Src/lfs.src/blfs-bootscripts-20250225       # VM/VB
+        cd /usr/src/lfs/blfs-bootscripts-20250225           # PC
+
+        make install-avahi
+
+        reboot
+
+        ###
+
+  B.05. Support Applications - Part 3
+
+        ###
+
+        export LFSLOG=/var/log/blfs
+
+        export MAKEFLAGS="-j$(nproc)"
+        export NPROC="$(nproc)"
+
+        export XORG_PREFIX="/usr"
+
+        export XORG_CONFIG="--prefix=$XORG_PREFIX --sysconfdir=/etc \
+                            --localstatedir=/var --disable-static"
+
+        source /etc/profile.d/rustc.sh
+
+        ###
+
+        echo $XORG_PREFIX     # /usr
+        echo $XORG_CONFIG     # --prefix=/usr --sysconfdir=/etc --localstatedir=/var --disable-static
+        echo $LFSLOG          # /var/log/blfs
+        echo $MAKEFLAGS       # -j$(nproc)
+        echo $NPROC           # $(nproc)
+        echo $PATH            # /opt/rustc/bin:...
+
+        echo $SHELL           # /bin/bash
+        ls -l /bin/sh         # bash
+        ls -l /usr/bin/awk    # gawk
+
+        cd /sources
+
+        bash e43.03.8.3.support.apps.sh
+
+        ###
+
+C.  Generate BLFS - Gnome
+
+  C.01. [BLFS 35] Gnome Desktop
+
+        ###
+
+        bash e43.03.9.all.main.sh
+
+        ###
+
+  C.02. [BLFS 26] GDM bootscripts
+
+        ###
+
+        cd /mnt/Src/lfs.src/blfs-bootscripts-20250225       # VM/VB
+        cd /usr/src/lfs/blfs-bootscripts-20250225           # PC
+
+        make install-gdm
+
+        cp -v /etc/inittab{,-orig}
+        sed -i '/initdefault/ s/3/5/' /etc/inittab
+
+        #sed /initdefault/s/3/5/ -i /etc/inittab
+
+        ###
+
+  C.03. [BLFS] Gnome Desktop - startup
+
+        ###
+
+        exit    # logout as root
+
+        # as user
+
+        cat > ~/.xinitrc << "EOF"
+        dbus-run-session gnome-session
+        EOF
+
+        sudo reboot
+
+        ###
