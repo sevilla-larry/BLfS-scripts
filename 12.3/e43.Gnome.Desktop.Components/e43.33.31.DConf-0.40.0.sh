@@ -17,6 +17,10 @@
 #
 
 #
+# Recommended by:
+#
+#               e41.11.10 ibus-1.5.31
+#
 # Optionally by:
 #
 #               g22.39.03 LibreOffice-25.2.3	(errata)

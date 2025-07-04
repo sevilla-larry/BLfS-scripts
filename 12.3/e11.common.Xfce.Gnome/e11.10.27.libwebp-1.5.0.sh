@@ -11,6 +11,10 @@
 #
 
 #
+# Required by:
+#
+#               e41.10.38 webp-pixbuf-loader-0.2.7
+#
 # Recommended by:
 #
 #               g22.40.03 Firefox-128.11.0esr   (errata)

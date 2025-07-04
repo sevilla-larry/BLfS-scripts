@@ -17,7 +17,7 @@
 #
 # Required by:
 #
-#               e41.12.08 colord-1.4.7
+#               e41.12.08 Colord-1.4.7
 #
 
 export PKG="libgusb-0.4.9"

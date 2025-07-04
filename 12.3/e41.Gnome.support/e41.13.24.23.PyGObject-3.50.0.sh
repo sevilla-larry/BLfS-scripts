@@ -19,6 +19,13 @@
 # Required by:
 #
 #               e41.25.17 GTK-4.16.12
+#               e41.12.27 Power-profiles-daemon-0.30
+#
+# Optionally by:
+#
+#               e41.09.47 libical-3.0.19
+#               e41.11.10 ibus-1.5.31
+#               e41.12.35 UDisks-2.10.1
 #
 
 export PKG="pygobject-3.50.0"

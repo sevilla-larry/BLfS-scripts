@@ -5,6 +5,7 @@
 # Required by:
 #
 #               e11.25.36 libxklavier-5.4
+#               e41.11.10 ibus-1.5.31
 #
 # Recommended by:
 #

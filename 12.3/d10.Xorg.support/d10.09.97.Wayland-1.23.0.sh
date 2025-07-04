@@ -27,6 +27,7 @@
 # Optionally by:
 #
 #               d20.42.41.libva-2.22.0
+#               e41.11.10 ibus-1.5.31
 #
 
 export PKG="wayland-1.23.0"

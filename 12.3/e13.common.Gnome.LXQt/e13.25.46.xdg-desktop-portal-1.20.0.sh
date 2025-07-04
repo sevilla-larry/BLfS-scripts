@@ -27,6 +27,10 @@
 #
 #               e33.37.34 xdg-desktop-portal-lxqt-1.0.2
 #
+# Recommended (Runtime):
+#
+#               e41.09.55 libportal-0.9.1
+#
 # Opionally by:
 #
 #               e41.25.28 libadwaita-1.6.4

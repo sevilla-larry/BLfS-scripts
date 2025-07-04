@@ -1,6 +1,5 @@
 # e13.09.29.JSON-GLib-1.10.6.sh
 #
-#
 
 #
 # Dependencies Required:
@@ -12,10 +11,13 @@
 # Required by:
 #
 #               e13.25.46 xdg-desktop-portal-1.20.0
+#               e41.09.46 libgusb-0.4.9
+#               e41.17.03 GeoClue-2.7.2
 #
 # Optionally by:
 #
 #               e41.42.17 gst-plugins-bad-1.24.12
+#               e41.09.36 libblockdev-3.3.0
 #
 
 export PKG="json-glib-1.10.6"

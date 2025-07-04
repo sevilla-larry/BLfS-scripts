@@ -29,6 +29,8 @@
 #               e23.35.11 thunar-volman-4.20.0 (not used)
 #               e23.35.15 xfce4-settings-4.20.1
 #               e23.35.16 Xfdesktop-4.20.1
+#               e41.11.10 ibus-1.5.31
+#               e41.17.03 GeoClue-2.7.2
 #
 
 export PKG="libnotify-0.8.4"

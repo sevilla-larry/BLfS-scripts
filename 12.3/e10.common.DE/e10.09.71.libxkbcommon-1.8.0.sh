@@ -35,6 +35,10 @@
 #
 #               d20.24.18 XKeyboardConfig-2.44
 #
+# Optionally by:
+#
+#               e41.11.10 ibus-1.5.31
+#
 
 export PKG="libxkbcommon-1.8.0"
 export PKGLOG_DIR=$LFSLOG/09.71.2

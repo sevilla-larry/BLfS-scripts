@@ -12,6 +12,10 @@
 #
 #               g42.34.04 Evince-46.3.1
 #
+# Recommended by:
+#
+#               e41.17.04 glib-networking-2.80.1
+#
 # Required Runtime by:
 #
 #               e11.25.03 at-spi2-core-2.54.1

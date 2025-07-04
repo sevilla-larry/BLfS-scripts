@@ -13,6 +13,10 @@
 #
 
 #
+# Required by:
+#
+#               e41.10.17 libgxps-0.3.2
+#
 # Recommended by:
 #
 #               e10.25.10 gdk-pixbuf-2.42.12

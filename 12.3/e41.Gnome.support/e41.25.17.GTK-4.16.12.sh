@@ -40,6 +40,8 @@
 #
 # Recommended by:
 #
+#               e41.09.55 libportal-0.9.1
+#               e41.11.10 ibus-1.5.31
 #               e42.33.02 Gcr-4.3.1
 #
 # Optionally by:

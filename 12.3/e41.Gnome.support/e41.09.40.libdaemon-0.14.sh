@@ -8,6 +8,10 @@
 #
 
 #
+# Required by:
+#
+#               e41.12.13 blocaled-0.7
+#
 # Recommended by:
 #
 #               e41.16.01 Avahi-0.8

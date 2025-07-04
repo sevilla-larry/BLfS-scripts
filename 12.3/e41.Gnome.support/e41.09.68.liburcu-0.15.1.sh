@@ -2,7 +2,7 @@
 #
 
 #
-# Recommended by:
+# Required by:
 #
 #               e41.16.02 BIND Utilities-9.20.6
 #

@@ -15,6 +15,11 @@
 #
 #               e41.12.35 UDisks-2.10.1
 #
+# Optionally by:
+#
+#               e41.11.10 ibus-1.5.31
+#               e41.12.35 UDisks-2.10.1
+#
 
 export PKG="dbus-python-1.3.2"
 export PKGLOG_DIR=$LFSLOG/13.24.06

@@ -14,8 +14,10 @@
 #
 # Required by:
 #
-#               e21.25.03 at-spi2-core-2.52.0
+#               e21.25.03    at-spi2-core-2.52.0
 #               09.07 dbus-glib-0.112           ???
+#               e41.12.08    Colord-1.4.7
+#               e41.13.24.06 D-Bus.Python-1.3.2
 #
 # Recommended by:
 #
@@ -36,6 +38,10 @@
 #
 #               e10.13.36 Vala-0.56.17
 #               e31.27.03 openbox-3.6.1         ???
+#
+# Optional (runtime) by:
+#
+#               e41.12.35 UDisks-2.10.1
 #
 
 #

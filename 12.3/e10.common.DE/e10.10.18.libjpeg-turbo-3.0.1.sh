@@ -16,6 +16,7 @@
 # Required by:
 #
 #               e10.25.10 gdk-pixbuf-2.42.12
+#               e41.10.17 libgxps-0.3.2
 #               e12.10.20 libmng-2.0.3          ???
 #
 # Recommended by:

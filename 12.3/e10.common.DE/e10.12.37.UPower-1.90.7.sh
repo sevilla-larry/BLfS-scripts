@@ -17,6 +17,7 @@
 # Required by:
 #
 #               e23.35.14 xfce4-power-manager-4.20.0
+#               e41.12.27 Power-profiles-daemon-0.30
 #                         lxqt-powermanagement
 #
 # Optionally by:

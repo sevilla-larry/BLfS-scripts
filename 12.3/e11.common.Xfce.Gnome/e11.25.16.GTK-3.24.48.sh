@@ -45,11 +45,16 @@
 #               g42.41.12 xarchiver-0.5.4.23
 #               g42.34.04 Evince-46.3.1
 #               g22.40.03 Firefox-128.11.0esr   (errata)
+#               e41.09.03 appstream-glib-0.8.3
+#               e41.10.17 libgxps-0.3.2
 #
 # Recommended by:
 #
 #               e11.42.26 libcanberra-0.30
 #               g22.39.03 LibreOffice-25.2.3	(errata)
+#               e41.09.55 libportal-0.9.1
+#               e41.11.10 ibus-1.5.31
+#               e41.16.01 Avahi-0.8
 #               e42.33.01 Gcr-3.41.2
 #
 # Optionally by:

@@ -48,6 +48,17 @@
 #               e42.33.01 Gcr-3.41.2
 #               e41.42.13 gstreamer-1.24.12
 #               e13.09.29 JSON-GLib-1.10.6
+#               e41.09.19 GLibmm-2.82.0
+#               e41.09.36 libblockdev-3.3.1
+#               e41.09.55 libportal-0.9.1
+#               e41.09.73 libxmlb-0.3.21
+#               e41.11.22 xdg-dbus-proxy-0.1.6
+#               e41.12.08 Colord-1.4.7
+#               e41.12.35 UDisks-2.10.1
+#               e41.13.24.06 D-Bus.Python-1.3.2
+#               e41.13.24.23 PyGObject-3.50.0
+#               e41.16.01 Avahi-0.8
+#               e41.17.04 glib-networking-2.80.1
 #               37.02 libfm-extra-1.3.2             ???
 #               09.07 dbus-glib-0.112               ???
 #               etc
@@ -62,6 +73,10 @@
 #               f2.26.02  lightdm-1.32.0
 #               e11.42.49 PulseAudio-17.0
 #               g42.34.04 Evince-46.3.1
+#               e41.09.46 libgusb-0.4.9
+#               e41.09.47 libical-3.0.19
+#               e41.11.10 ibus-1.5.31
+#               e41.17.18 libsoup-3.6.5 (errata)
 #               e12.25.42 Qt-6.7.2                  ???
 #
 # Optionally by:

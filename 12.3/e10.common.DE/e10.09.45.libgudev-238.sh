@@ -12,6 +12,8 @@
 #
 #               e23.35.11 thunar-volman-4.20.0  (NOT installed)
 #               e10.12.37 UPower-1.90.7
+#               e41.12.08 Colord-1.4.7
+#               e41.12.35 UDisks-2.10.1
 #
 # Recommended by:
 #

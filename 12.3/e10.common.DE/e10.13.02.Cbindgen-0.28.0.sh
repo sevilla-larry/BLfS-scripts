@@ -10,7 +10,8 @@
 #
 # Required by:
 #
-#               g22.40.03 Firefox-128.11.0esr (errata)
+#               g22.40.03 Firefox-140.0esr						(errata)
+#				e41.09.89 SpiderMonkey.from.Firefox-128.11.0esr	(errata)
 #
 
 export PKG="cbindgen-0.28.0"

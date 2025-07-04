@@ -19,6 +19,10 @@
 #
 #               e11.04.21 polkit-gnome-0.105
 #               e11.12.02 AccountsService-23.13.9
+#               e41.12.08 Colord-1.4.7
+#               e41.12.13 blocaled-0.7
+#               e41.12.27 Power-profiles-daemon-0.30
+#               e41.12.35 UDisks-2.10.1
 #               ???.??.?? LXSession
 #
 # Runtime Recommended by:

@@ -18,6 +18,10 @@
 #               e13.25.46 xdg-desktop-portal-1.20.0
 #               e42.33.25 xdg-desktop-portal-gnome-47.3
 #
+# Recommended (Runtime):
+#
+#               e41.09.55 libportal-0.9.1
+#
 
 export PKG="xdg-desktop-portal-gtk-1.15.2"
 export PKGLOG_DIR=$LFSLOG/25.47

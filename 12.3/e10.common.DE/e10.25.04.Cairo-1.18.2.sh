@@ -23,9 +23,9 @@
 #
 # Required by:
 #
-#               e23.35.09 xfce4-panel-4.20.3
-#               e10.10.24 librsvg-2.59.2
-#               ??.13.24.18 PyCairo-1.18.2      ???
+#               e23.35.09    xfce4-panel-4.20.3
+#               e10.10.24    librsvg-2.59.2
+#               e41.13.24.20 PyCairo-1.26.1
 #
 # Recommended ( but needed ) by:
 #

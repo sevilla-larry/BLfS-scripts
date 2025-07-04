@@ -4,9 +4,9 @@
 #
 # Dependencies Required:
 #
-#               d10.04.20 Polkit-126
+#               d10.04.20    Polkit-126
 #               e41.13.24.23 PyGObject-3.50.0
-#               e10.12.37 UPower-1.90.7
+#               e10.12.37    UPower-1.90.7
 #
 
 #

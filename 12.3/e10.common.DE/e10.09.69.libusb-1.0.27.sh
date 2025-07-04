@@ -5,6 +5,7 @@
 # Required by:
 #
 #               e10.12.37 UPower-1.90.7
+#               e41.09.46 libgusb-0.4.9
 #
 
 #

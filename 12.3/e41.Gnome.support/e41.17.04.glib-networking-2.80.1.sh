@@ -18,6 +18,10 @@
 #
 #               e41.17.18 libsoup-3.6.5 (errata)
 #
+# Optionally by:
+#
+#               e41.09.19 GLibmm-2.82.0
+#
 
 export PKG="glib-networking-2.80.1"
 export PKGLOG_DIR=$LFSLOG/17.04

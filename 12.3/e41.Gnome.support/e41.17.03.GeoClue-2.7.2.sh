@@ -5,7 +5,7 @@
 # Dependencies Required:
 #
 #               e13.09.29 JSON-GLib-1.10.6
-#               e41.17.18 libsoup-3.6.5
+#               e41.17.18 libsoup-3.6.5         (errata)
 #
 # Dependencies Recommended:
 #
@@ -13,6 +13,7 @@
 #               e11.25.35 libnotify-0.8.4
 #           ??? e41.12.22 ModemManager-1.18.12  (deferred)
 #               e10.13.36 Vala-0.56.17
+#
 
 #
 # Recommended by:

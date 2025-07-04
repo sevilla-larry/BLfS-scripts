@@ -27,6 +27,10 @@
 #
 
 #
+# Required by:
+#
+#               e41.17.03 GeoClue-2.7.2
+#
 # Recommended by:
 #
 #               e41.42.15 gst-plugins-good-1.24.12

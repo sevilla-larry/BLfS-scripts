@@ -4,7 +4,7 @@
 #
 # Dependencies Required:
 #
-#               e11.11.12 ISO Codes-4.17.0
+#               e10.11.12 ISO Codes-4.17.0
 #               e10.13.36 Vala-0.56.17
 #
 # Dependencies Recommended:

@@ -13,6 +13,10 @@
 #
 
 #
+# Required by:
+#
+#               e41.11.10 ibus-1.5.31
+#
 # Recommended by:
 #
 #               e23.35.01 libxfce4util-4.20.0
@@ -22,6 +26,11 @@
 #               e42.33.07 VTE-0.78.4
 #               f2.26.02  lightdm-1.32.0
 #               e11.25.32 libhandy-1.8.3
+#               e41.09.46 libgusb-0.4.9
+#               e41.09.47 libical-3.0.19
+#               e41.12.08 Colord-1.4.7
+#               e41.17.03 GeoClue-2.7.2
+#               e41.17.18 libsoup-3.6.5 (errata)
 #               e42.33.01 Gcr-3.41.2
 #               ???.37.04 libfm-1.3.2           ???
 #
@@ -33,6 +42,7 @@
 # Optionally by:
 #
 #               e11.25.36 libxklavier-5.4
+#               e41.09.55 libportal-0.9.1
 #
 
 export PKG="vala-0.56.17"

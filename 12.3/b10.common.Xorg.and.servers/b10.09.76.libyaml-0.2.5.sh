@@ -5,6 +5,12 @@
 # Required by:
 #
 #               b10.13.24.28 PyYAML-6.0.2
+#               e41.09.02    AppStream-1.0.5
+#               e41.13.26    Ruby-3.4.2
+#
+# Optionally by:
+#
+#               e41.09.03 appstream-glib-0.8.3
 #
 
 export PKG="yaml-0.2.5"

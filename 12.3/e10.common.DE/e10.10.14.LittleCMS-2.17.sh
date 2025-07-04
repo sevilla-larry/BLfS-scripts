@@ -9,6 +9,11 @@
 #
 
 #
+# Required by:
+#
+#               e41.10.17 libgxps-0.3.2
+#               e41.12.08 Colord-1.4.7
+#
 # Recommended by:
 #
 #               e11.10.33 Poppler-25.02.0
