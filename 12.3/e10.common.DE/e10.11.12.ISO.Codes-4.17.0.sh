@@ -6,10 +6,12 @@
 #
 #               e11.25.36 libxklavier-5.4
 #               e41.11.10 ibus-1.5.31
+#               e41.25.17 GTK-4.16.12
 #
 # Recommended by:
 #
 #               e11.25.16 GTK-3.24.48
+#               e41.42.15 gst-plugins-base-1.26.3   (errata)
 #
 
 export PKG="iso-codes-v4.17.0"

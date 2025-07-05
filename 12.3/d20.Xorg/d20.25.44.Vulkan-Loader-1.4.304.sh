@@ -1,4 +1,5 @@
 # d20.25.44.Vulkan-Loader-1.4.304.sh
+# for PCs with CPU/iGPU Intel 4th Gen & up
 #
 
 #
@@ -26,6 +27,15 @@
 # Recommended by:
 #
 #               d20.24.12 Mesa-24.3.4
+#               e41.25.17 GTK-4.16.12
+#
+# Optionally by:
+#
+#               e11.44.01 FFmpeg-7.1
+#               e41.25.19 Gtkmm-4.16.0
+#               e41.25.23 gtksourceview5-5.14.2
+#               e41.42.16 gst-plugins-bad-1.26.3    (errata)
+#               e41.42.48 Pipewire-1.2.7
 #
 
 export PKG="Vulkan-Loader-1.4.304"

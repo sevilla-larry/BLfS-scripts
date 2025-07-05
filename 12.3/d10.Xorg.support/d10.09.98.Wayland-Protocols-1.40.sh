@@ -11,12 +11,14 @@
 # Required by:
 #
 #               d20.24.19 Xwayland-24.1.8   (errata)
+#               e41.25.17 GTK-4.16.12
 #
 # Recommended by:
 #
 #               d20.24.12 Mesa-24.3.4
 #               e10.09.71 libxkbcommon-1.8.0
 #               e11.42.52 SDL2-2.30.11
+#               e41.42.15 gst-plugins-base-1.26.3   (errata)
 #
 
 export PKG="wayland-protocols-1.40"

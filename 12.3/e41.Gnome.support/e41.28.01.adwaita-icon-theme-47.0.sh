@@ -17,7 +17,11 @@
 #
 # Required by:
 #
-#               g42.34.04 Evince-46.3.1
+#               e44.34.04 Evince-46.3.1
+#
+# Recommended by:
+#
+#               e41.25.17 GTK-4.16.12
 #
 # Runtime needed by:
 #

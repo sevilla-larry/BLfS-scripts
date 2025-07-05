@@ -6,10 +6,10 @@
 #
 #           ??? e41.12.06 BlueZ-5.79
 #               d20.12.11 dbus-1.16.0
-#               e41.42.13 gstreamer-1.26.2          (errata)
-#               e41.42.14 gst-plugins-base-1.26.2   (errata)
+#               e41.42.13 gstreamer-1.26.3          (errata)
+#               e41.42.14 gst-plugins-base-1.26.3   (errata)
 #               e11.42.49 PulseAudio-17.0
-#               e41.42.50 SBC-2.0
+#           ??? e41.42.50 SBC-2.0
 #               e41.42.57 v4l-utils-1.28.1
 #
 # Dependencies Recommended (runtime):
@@ -26,7 +26,7 @@
 #               d20.24.07 libxcb-1.17.0
 #               e10.42.40 libsndfile-1.2.2
 #               e10.09.69 libusb-1.0.27
-#               e10.42.44 Opus-1.5.2
+#               e10.42.47 Opus-1.5.2
 #               e11.42.52 SDL2-2.30.11
 #               d20.25.44 Vulkan-Loader-1.4.304
 #               d20.24.08 Xorg Libraries
@@ -36,6 +36,7 @@
 # Required by:
 #
 #               e43.33.41 Mutter-47.5
+#               e41.42.58 Wireplumber-0.5.8
 #
 
 export PKG="pipewire-1.2.7"

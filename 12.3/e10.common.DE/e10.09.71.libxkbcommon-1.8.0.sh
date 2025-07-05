@@ -22,6 +22,10 @@
 #
 
 #
+# Required by:
+#
+#               e41.25.17 GTK-4.16.12
+#
 # Recommended (but required) by:
 #
 #               e11.25.16 GTK-3.24.48
@@ -38,6 +42,8 @@
 # Optionally by:
 #
 #               e41.11.10 ibus-1.5.31
+#               e41.25.29 libei-1.3.0
+#               e41.42.16 gst-plugins-bad-1.26.3    (errata)
 #
 
 export PKG="libxkbcommon-1.8.0"

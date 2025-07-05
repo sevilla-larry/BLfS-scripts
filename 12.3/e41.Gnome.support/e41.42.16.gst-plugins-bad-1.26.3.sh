@@ -38,6 +38,10 @@
 #
 
 #
+# Required by:
+#
+#               e41.25.45 WebKitGTK-2.46.6
+#
 # Recommended ( but needed by ):
 #
 #               e11.25.18 GTK-4.14.5

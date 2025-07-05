@@ -47,6 +47,12 @@
 #               g22.40.03 Firefox-128.11.0esr   (errata)
 #               e41.09.03 appstream-glib-0.8.3
 #               e41.10.17 libgxps-0.3.2
+#               e41.25.07 colord-gtk-0.3.1
+#               e41.25.20 gtk-vnc-1.5.0
+#               e41.25.23 gtksourceview5-5.14.2
+#               e41.25.45 WebKitGTK-2.46.6
+#               e41.25.47 xdg-desktop-portal-gtk-1.15.2
+#               e41.28.01 adwaita-icon-theme-47.0
 #
 # Recommended by:
 #
@@ -62,10 +68,10 @@
 #               e11.28.09 lxde-icon-theme-0.5.1
 #               e11.10.33 Poppler-25.02.0 (GTK)
 #               e11.42.49 PulseAudio-17.0 (GTK)
-#               g11.42.13 gstreamer-1.24.12         ???
-#               e11.42.14 gst-plugins-base-1.24.12  ???
-#               e11.42.15 gst-plugins-good-1.24.12  ???
-#               e11.42.16 gst-plugins-bad-1.24.12   ???
+#               e41.42.13 gstreamer-1.26.3          (errata)
+#               e41.42.14 gst-plugins-base-1.26.3   (errata)
+#               e41.42.15 gst-plugins-good-1.26.3   (errata)
+#               e41.42.16 gst-plugins-bad-1.26.3    (errata)
 #
 
 export PKG="gtk-3.24.48"

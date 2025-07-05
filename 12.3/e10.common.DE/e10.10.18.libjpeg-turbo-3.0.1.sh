@@ -17,13 +17,16 @@
 #
 #               e10.25.10 gdk-pixbuf-2.42.12
 #               e41.10.17 libgxps-0.3.2
+#               e11.10.19 libjxl-0.11.1
 #               e12.10.20 libmng-2.0.3          ???
 #
 # Recommended by:
 #
 #               e11.10.33 Poppler-25.02.0
 #               e11.10.27 libwebp-1.5.0
-#               g22.39.03 LibreOffice-25.2.3	(errata)
+#               g22.39.03 LibreOffice-25.2.3	    (errata)
+#               e41.42.15 gst-plugins-base-1.26.3   (errata)
+#               e41.42.57 v4l-utils-1.28.1
 #               e12.25.42 Qt-6.7.2              ???
 #               e12.10.13 JasPer-4.2.4          ???
 #

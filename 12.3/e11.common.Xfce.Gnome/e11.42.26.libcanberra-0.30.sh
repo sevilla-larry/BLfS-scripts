@@ -30,6 +30,10 @@
 #
 #               e23.35.15 xfce4-settings-4.20.1
 #
+# Optionally by:
+#
+#               e41.42.48 Pipewire-1.2.7
+#
 
 export PKG="libcanberra-0.30"
 export PKGLOG_DIR=$LFSLOG/42.26

@@ -23,6 +23,7 @@
 #
 #               d20.24.20 Xorg-Server-21.1.18   (errata)
 #               e11.42.49 PulseAudio-17.0
+#               e41.42.48 Pipewire-1.2.7
 #               e12.25.42 Qt-6.7.2              ???
 #
 # Recommended (runtime) by:

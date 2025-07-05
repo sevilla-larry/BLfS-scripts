@@ -27,8 +27,15 @@
 #               e13.25.46 xdg-desktop-portal-1.20.0
 #               e41.09.03 appstream-glib-0.8.3
 #               e41.10.38 webp-pixbuf-loader-0.2.7
+#               e41.25.17 GTK-4.16.12
 #               ???       GTK+-2.24.33              ???
 #               ??? 25.13 gdk-pixbuf-xlib-2.40.2    ???
+#
+# Recommended by:
+#
+#               e41.42.15 gst-plugins-good-1.26.3   (errata)
+#               e11.10.15 libavif-1.2.0
+#               e11.10.19 libjxl-0.11.1
 #
 # Optionally by:
 #

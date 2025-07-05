@@ -5,6 +5,13 @@
 # Recommended by:
 #
 #               e10.42.40 libsndfile-1.2.2
+#               e11.44.01 FFmpeg-7.1
+#
+# Optionally by:
+#
+#               e41.42.15 gst-plugins-base-1.26.3   (errata)
+#               e41.42.16 gst-plugins-bad-1.26.3    (errata)
+#               e41.42.48 Pipewire-1.2.7
 #
 
 export PKG="opus-1.5.2"

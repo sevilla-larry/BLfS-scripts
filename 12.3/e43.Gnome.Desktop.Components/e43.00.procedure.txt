@@ -158,6 +158,14 @@ B.  Generate BLFS - Gnome Support Apps
 
         source /etc/profile.d/rustc.sh
 
+        # Computer types
+        #
+        # 1. VM - QEMU/KVM Virtual Machine
+        # 2. VB - VirtualBox
+        # 3. PC - Personal Computer / Physical Computer / Desktop
+        #
+        export COMPUTER_TYPE="VM"
+
         ###
 
         echo $XORG_PREFIX     # /usr
@@ -165,6 +173,7 @@ B.  Generate BLFS - Gnome Support Apps
         echo $LFSLOG          # /var/log/blfs
         echo $MAKEFLAGS       # -j$(nproc)
         echo $NPROC           # $(nproc)
+        echo $COMPUTER_TYPE   # VM or VB or PC
         echo $PATH            # /opt/rustc/bin:...
 
         echo $SHELL           # /bin/bash

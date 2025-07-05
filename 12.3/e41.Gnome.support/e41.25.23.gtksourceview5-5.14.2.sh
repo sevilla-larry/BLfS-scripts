@@ -24,7 +24,7 @@
 #
 # Required by:
 #
-#               g42.06.07 Mousepad-0.6.3
+#               e44.34.07 gnome-calculator-47.1
 #
 
 export PKG="gtksourceview-5.14.2"

@@ -5,7 +5,7 @@
 # Dependencies Required:
 #
 #               e42.33.14 AccountsService-23.13.9                 
-#               xxx.xx.xx colord-gtk-0.3.1
+#               e41.25.07 colord-gtk-0.3.1
 #               xxx.xx.xx Cups-2.4.11
 #             ? e43.33.36 gnome-bluetooth-47.1
 #               e42.33.14 gnome-online-accounts-3.52.3.1

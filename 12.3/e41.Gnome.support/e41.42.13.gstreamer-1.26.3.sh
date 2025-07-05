@@ -18,6 +18,10 @@
 #
 #               e41.42.15 gst-plugins-base-1.26.3   (errata)
 #
+# Recommended by:
+#
+#               e41.42.48 Pipewire-1.2.7
+#
 
 export PKG="gstreamer-1.26.3"
 export PKGLOG_DIR=$LFSLOG/42.13

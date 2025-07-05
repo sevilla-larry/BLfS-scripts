@@ -8,6 +8,7 @@
 #
 # Recommended by:
 #
+#               e41.25.45 WebKitGTK-2.46.6
 #               ??? 37.10 lxde-common-0.99.2
 #               ??? GTK+-2.24.33                ???
 #
@@ -18,6 +19,7 @@
 # Test needed by:
 #
 #               e11.25.16 GTK-3.24.48
+#               e41.25.17 GTK-4.16.12
 #
 
 export PKG="hicolor-icon-theme-0.18"

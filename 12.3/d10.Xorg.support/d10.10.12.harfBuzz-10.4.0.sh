@@ -21,8 +21,13 @@
 #               g22.39.03 LibreOffice-25.2.3	(errata)
 #               e12.25.42 Qt-6.7.2              ???
 #
-# Note on Cairo
+# Optionally by:
 #
+#               e41.25.45 WebKitGTK-2.46.6
+#               e11.42.25 libass-0.17.3
+#
+
+# Note on Cairo
 # Read: https://linuxfromscratch.org/blfs/view/12.2/general/harfbuzz.html
 #
 

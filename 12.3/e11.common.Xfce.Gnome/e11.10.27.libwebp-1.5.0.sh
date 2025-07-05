@@ -14,12 +14,19 @@
 # Required by:
 #
 #               e41.10.38 webp-pixbuf-loader-0.2.7
+#               e41.25.45 WebKitGTK-2.46.6
 #
 # Recommended by:
 #
 #               g22.40.03 Firefox-128.11.0esr   (errata)
 #               g22.39.03 LibreOffice-25.2.3	(errata)
 #               e12.25.42 Qt-6.7.2              ???
+#
+# Optionally by:
+#
+#               e11.10.19 libjxl-0.11.1
+#               e11.44.01 FFmpeg-7.1
+#               e41.42.16 gst-plugins-bad-1.26.3    (errata)
 #
 
 export PKG="libwebp-1.5.0"

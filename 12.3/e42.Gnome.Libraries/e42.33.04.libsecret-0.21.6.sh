@@ -24,6 +24,10 @@
 #
 
 #
+# Required by:
+#
+#               e41.25.45 WebKitGTK-2.46.6
+#
 # Recommended by:
 #
 #               e42.33.01 Gcr-3.41.2

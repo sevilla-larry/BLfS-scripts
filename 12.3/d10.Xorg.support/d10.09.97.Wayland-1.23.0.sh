@@ -28,6 +28,9 @@
 #
 #               d20.42.41.libva-2.22.0
 #               e41.11.10 ibus-1.5.31
+#               e41.25.45 WebKitGTK-2.46.6
+#               e41.42.15 gst-plugins-good-1.26.3   (errata)
+#               e41.42.16 gst-plugins-bad-1.26.3    (errata)
 #
 
 export PKG="wayland-1.23.0"

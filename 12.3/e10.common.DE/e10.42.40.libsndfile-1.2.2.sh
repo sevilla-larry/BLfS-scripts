@@ -22,6 +22,11 @@
 #
 #               e11.42.49 PulseAudio-17.0
 #
+# Optionally by:
+#
+#               e41.42.16 gst-plugins-bad-1.26.3    (errata)
+#               e41.42.48 Pipewire-1.2.7
+#
 
 export PKG="libsndfile-1.2.2"
 export PKGLOG_DIR=$LFSLOG/42.40

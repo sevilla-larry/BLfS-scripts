@@ -13,6 +13,8 @@
 #
 #               e41.10.17 libgxps-0.3.2
 #               e41.12.08 Colord-1.4.7
+#               e41.25.45 WebKitGTK-2.46.6
+#               e11.10.19 libjxl-0.11.1
 #
 # Recommended by:
 #
@@ -23,6 +25,7 @@
 # Optionally by:
 #
 #               e10.10.31 OpenJPEG-2.5.3
+#               e41.42.16 gst-plugins-bad-1.26.3    (errata)
 #
 
 export PKG="lcms2-2.17"

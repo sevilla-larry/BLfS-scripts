@@ -7,6 +7,10 @@
 #               e10.42.44 libvorbis-1.3.7
 #               e10.42.55 Speex-1.2.1
 #
+# Recommended by:
+#
+#               e41.42.15 gst-plugins-base-1.26.3   (errata)
+#
 # Optionally by:
 #
 #               e10.42.10 FLAC-1.5.0

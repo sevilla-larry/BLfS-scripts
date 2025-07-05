@@ -27,6 +27,10 @@
 #
 #               e10.09.71 libxkbcommon-1.8.0
 #
+# Optionally by:
+#
+#               e41.42.48 Pipewire-1.2.7
+#
 
 
 export PKG="libxcb-1.17.0"

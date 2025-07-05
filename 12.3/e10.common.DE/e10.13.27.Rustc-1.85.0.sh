@@ -28,7 +28,7 @@
 #
 # Optionally by:
 #
-#               g11.42.13 gstreamer-1.24.12
+#               e41.42.13 gstreamer-1.26.3          (errata)
 #               e41.13.26 Ruby-3.4.2
 #
 

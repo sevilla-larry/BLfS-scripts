@@ -7,6 +7,10 @@
 #               d20.24.21.2 Xorg Evdev Driver 2.11.0
 #               d20.24.21.3 libinput-1.27.1
 #
+# Optionally by:
+#
+#               e41.25.29 libei-1.3.0
+#
 
 #
 # Kernel config

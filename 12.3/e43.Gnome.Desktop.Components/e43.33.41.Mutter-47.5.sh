@@ -6,10 +6,10 @@
 #
 #               e43.33.38 gnome-settings-daemon-47.2
 #               e41.25.15 graphene-1.10.8
-#               xxx.xx.xx libei-1.3.0
+#               e41.25.29 libei-1.3.0
 #               d20.24.09 libxcvt-0.1.3
 #               e10.09.71 libxkbcommon-1.8.0
-#               xxx.xx.xx pipewire-1.2.7
+#               e41.42.48 Pipewire-1.2.7
 #
 # Dependencies Recommended:
 #

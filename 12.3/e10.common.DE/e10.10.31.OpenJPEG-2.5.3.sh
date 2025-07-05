@@ -18,6 +18,12 @@
 # Required by:
 #
 #               g42.34.04 Evince-46.3.1
+#               e41.25.45 WebKitGTK-2.46.6
+#
+# Optionally by:
+#
+#               e11.44.01 FFmpeg-7.1
+#               e41.42.16 gst-plugins-bad-1.26.3    (errata)
 #
 
 export PKG="openjpeg-2.5.3"

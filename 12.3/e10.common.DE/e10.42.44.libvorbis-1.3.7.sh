@@ -15,6 +15,8 @@
 # Recommended by:
 #
 #               e10.42.40 libsndfile-1.2.2
+#               e11.44.01 FFmpeg-7.1
+#               e41.42.15 gst-plugins-base-1.26.3   (errata)
 #
 
 export PKG="libvorbis-1.3.7"

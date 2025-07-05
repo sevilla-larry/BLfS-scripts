@@ -10,11 +10,11 @@
 #
 # Required by:
 #
-#               e41.25.18 GTK-4.14.5
+#               e41.25.17 GTK-4.16.12
 #
 # Optionally by:
 #
-#               e41.42.14.gst-plugins-base-1.24.12
+#               e41.42.15 gst-plugins-base-1.26.3   (errata)
 #
 
 export PKG="graphene-1.10.8"

@@ -16,6 +16,10 @@
 #
 #               g21.09.23 gspell-1.14.0
 #
+# Recommended by:
+#
+#               e41.25.45 WebKitGTK-2.46.6
+#
 
 export PKG="enchant-2.8.2"
 export PKGLOG_DIR=$LFSLOG/09.13

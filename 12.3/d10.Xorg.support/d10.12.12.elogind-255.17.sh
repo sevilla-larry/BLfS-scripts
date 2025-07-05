@@ -22,9 +22,12 @@
 #               d10.13.24.12 lxml-5.4.0         (errata)
 #
 
+#
 # Required by:
 #
 #               e41.09.02 AppStream-1.0.5
+#               e41.25.29 libei-1.3.0
+#               e41.42.58 Wireplumber-0.5.8
 #
 # Recommended (runtime) by:
 #

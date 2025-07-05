@@ -21,6 +21,10 @@
 #
 #               e41.17.03 GeoClue-2.7.2
 #
+# Optionally by:
+#
+#               e41.42.48 Pipewire-1.2.7
+#
 
 export PKG="avahi-0.8"
 export PKGLOG_DIR=$LFSLOG/16.01

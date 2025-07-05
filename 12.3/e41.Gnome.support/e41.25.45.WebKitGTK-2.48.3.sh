@@ -8,8 +8,8 @@
 #
 #               e10.25.04  Cairo-1.18.2
 #               a.08.9x.?1 CMake-3.31.5
-#               e41.42.14  gst-plugins-base-1.26.2   (errata)
-#               e41.42.16  gst-plugins-bad-1.26.2    (errata)
+#               e41.42.14  gst-plugins-base-1.26.3   (errata)
+#               e41.42.16  gst-plugins-bad-1.26.3    (errata)
 #               e11.25.16  GTK-3.24.48
 #               e41.25.17  GTK-4.16.12
 #               a.08.91.07 icu-76.1
@@ -29,13 +29,13 @@
 # 
 # Dependencies Recommended:
 #
-#               e13.12.07  bubblewrap-0.11.0
+#               e13.12.07  Bubblewrap-0.11.0
 #               e11.09.13  enchant-2.8.2
 #               e41.17.03  GeoClue-2.7.2
 #               d10.09.17  GLib-2.82.5
 #               e10.28.07  hicolor-icon-theme-0.18
-#               e41.10.15  libavif-1.2.0
-#               e41.10.19  libjxl-0.11.1
+#               e11.10.15  libavif-1.2.0
+#               e11.10.19  libjxl-0.11.1
 #               a.08.91.21 libseccomp-2.6.0
 #               e41.11.22  xdg-dbus-proxy-0.1.6
 #

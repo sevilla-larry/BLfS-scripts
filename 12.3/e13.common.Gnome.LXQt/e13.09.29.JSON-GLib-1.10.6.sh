@@ -16,7 +16,7 @@
 #
 # Optionally by:
 #
-#               e41.42.17 gst-plugins-bad-1.24.12
+#               e41.42.16 gst-plugins-bad-1.26.3    (errata)
 #               e41.09.36 libblockdev-3.3.0
 #
 

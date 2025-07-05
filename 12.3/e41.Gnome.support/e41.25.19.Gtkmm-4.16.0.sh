@@ -15,7 +15,7 @@
 #
 # Required by:
 #
-#               e41.12.08 colord-1.4.7
+#               e44.34.15 gnome-system-monitor-47.1
 #
 
 export PKG="gtkmm-4.16.0"

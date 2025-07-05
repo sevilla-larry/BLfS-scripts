@@ -20,6 +20,13 @@
 # Recommended by:
 #
 #               e11.10.27 libwebp-1.5.0
+#               e11.44.01 FFmpeg-7.1
+#
+# Optionally by:
+#
+#               e41.42.15 gst-plugins-base-1.26.3   (errata)
+#               e41.42.48 Pipewire-1.2.7
+#               e41.42.57 v4l-utils-1.28.1
 #
 
 export PKG="SDL2-2.30.11"

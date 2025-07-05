@@ -14,7 +14,7 @@
 #
 # Dependencies Optional:
 #
-#           ??? e13.25.46 xdg-desktop-portal-1.20.0 (deferred)
+#              e13.25.46 xdg-desktop-portal-1.20.0
 #
 
 #

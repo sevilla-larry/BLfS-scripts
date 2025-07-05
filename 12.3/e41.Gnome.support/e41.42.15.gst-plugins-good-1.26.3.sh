@@ -32,6 +32,10 @@
 #
 #               e11.25.17 GTK-4.16.12
 #
+# Optionally by:
+#
+#               e41.42.16 gst-plugins-bad-1.26.3    (errata)
+#
 
 export PKG="gst-plugins-good-1.26.3"
 export PKGLOG_DIR=$LFSLOG/42.15

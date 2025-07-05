@@ -7,7 +7,7 @@
 #               e10.10.06 FriBidi-1.0.16
 #               e10.25.10 gdk-pixbuf-2.42.12
 #               e41.25.15 Graphene-1.10.8
-#               e11.11.12 ISO Codes-4.17.0
+#               e10.11.12 ISO Codes-4.17.0
 #               d20.25.34 libepoxy-1.5.10
 #               e10.09.71 libxkbcommon-1.8.0
 #               e10.25.37 Pango-1.56.1
@@ -17,18 +17,18 @@
 #
 # Dependencies Recommended:
 #
-#               e11.28.01 adwaita-icon-theme-47.0   (settings keys)
-#               e41.42.16 gst-plugins-bad-1.26.2    (errata)
-#           ??? e41.11.06 glslc from shaderc-2024.4 (PCs)   ???
-#               e41.42.15 gst-plugins-good-1.26.2   (errata) (runtime)
+#               e41.28.01 adwaita-icon-theme-47.0   (settings keys)
+#               e41.42.16 gst-plugins-bad-1.26.3    (errata)
+#               e41.11.06 glslc from shaderc-2024.4 (PCs)
+#               e41.42.15 gst-plugins-good-1.26.3   (errata) (runtime)
 #               e10.28.07 hicolor-icon-theme-0.18   (test)
-#               e11.10.24 librsvg-2.59.2
+#               e10.10.24 librsvg-2.59.2
 #               d20.25.44 Vulkan-Loader-1.4.304     (PCs)
 #
 # Dependencies Optional:
 #
 #               e41.12.08 colord-1.4.7
-#               e41.09.39 libcloudproviders-0.3.6
+#           ??? e41.09.39 libcloudproviders-0.3.6   ???
 #               e42.33.22 tinysparql-3.8.2
 #
 
@@ -36,13 +36,17 @@
 # Required by:
 #
 #               e42.33.07 VTE-0.76.4
-#
+#               e41.25.19 Gtkmm-4.16.0
+#               e41.25.28 libadwaita-1.6.4
+#               e41.25.45 WebKitGTK-2.46.6
+#               e41.28.01 adwaita-icon-theme-47.0
 #
 # Recommended by:
 #
 #               e41.09.55 libportal-0.9.1
 #               e41.11.10 ibus-1.5.31
 #               e42.33.02 Gcr-4.3.1
+#               e41.25.07 colord-gtk-0.3.1
 #
 # Optionally by:
 #

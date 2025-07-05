@@ -25,6 +25,10 @@
 #
 
 #
+# Required by:
+#
+#               e41.25.07 colord-gtk-0.3.1
+#
 # Recommended by:
 #
 #               e43.33.38 gnome-settings-daemon-47.2

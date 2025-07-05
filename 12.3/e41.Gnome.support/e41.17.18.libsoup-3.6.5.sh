@@ -30,6 +30,7 @@
 # Required by:
 #
 #               e41.17.03 GeoClue-2.7.2
+#               e41.25.45 WebKitGTK-2.46.6
 #
 # Recommended by:
 #

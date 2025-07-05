@@ -19,7 +19,17 @@
 #
 #               e21.25.16 GTK-3.24.48
 #               e10.10.24 librsvg-2.59.2
+#               e41.25.17 GTK-4.16.12
+#               e41.25.39 Pangomm-2.56.1
 #               e31.27.03 openbox-3.6.1             ???
+#
+# Recommended by:
+#
+#               e41.42.15 gst-plugins-base-1.26.3   (errata)
+#
+# Optionally by:
+#
+#               e41.42.16 gst-plugins-bad-1.26.3    (errata)
 #
 
 export PKG="pango-1.56.1"

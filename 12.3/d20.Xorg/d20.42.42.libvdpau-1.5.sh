@@ -1,4 +1,5 @@
 # d20.42.42.libvdpau-1.5.sh
+# for PCs with CPU/iGPU Intel 4th Gen & up
 #
 
 #
@@ -21,6 +22,7 @@
 # Recommended by:
 #
 #               d20.24.12 Mesa-24.3.4
+#               e11.44.01 FFmpeg-7.1
 #
 
 export PKG="libvdpau-1.5"

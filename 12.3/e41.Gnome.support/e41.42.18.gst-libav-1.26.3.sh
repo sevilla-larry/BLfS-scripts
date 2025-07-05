@@ -5,7 +5,7 @@
 #
 # Dependencies Required:
 #
-#               e41.44.01 FFmpeg-7.1
+#               e11.44.01 FFmpeg-7.1
 #               e41.42.14 gst-plugins-base-1.26.3   (errata)
 #
 # Dependencies Recommended:

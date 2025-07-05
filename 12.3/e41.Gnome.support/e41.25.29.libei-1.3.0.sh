@@ -9,7 +9,7 @@
 #
 # Dependencies Optional:
 #
-#               d20.24.21.1 libevdev-1.13.2
+#               d20.24.21.1 libevdev-1.13.3
 #               e10.09.71   libxkbcommon-1.8.0
 #               a.08.91.08  libxml2-2.14.3      (errata)
 #

@@ -6,6 +6,10 @@
 #
 #               e41.42.16 gst-plugins-bad-1.24.12
 #
+# Recommended by:
+#
+#               e41.42.16 gst-plugins-bad-1.26.3    (errata)
+#
 
 export PKG="soundtouch"
 export PKG0="-2.3.3"

@@ -17,6 +17,10 @@
 #
 #               e41.10.15 libavif-1.2.0
 #
+# Recommended by:
+#
+#               e11.44.01 FFmpeg-7.1
+#
 
 export PKG="libaom-3.12.0"
 export PKGLOG_DIR=$LFSLOG/42.24

@@ -32,12 +32,16 @@
 #               e41.17.03 GeoClue-2.7.2
 #               e41.17.18 libsoup-3.6.5 (errata)
 #               e42.33.01 Gcr-3.41.2
+#               e41.25.07 colord-gtk-0.3.1
+#               e41.25.20 gtk-vnc-1.5.0
+#               e41.25.28 libadwaita-1.6.4
 #               ???.37.04 libfm-1.3.2           ???
 #
 # Optionally ( but needed ) by:
 #
 #               e23.35.02 Xfconf-4.20.0
 #               g21.25.23 gtksourceview4-4.8.4  ???
+#               e41.25.23 gtksourceview5-5.14.2
 #
 # Optionally by:
 #

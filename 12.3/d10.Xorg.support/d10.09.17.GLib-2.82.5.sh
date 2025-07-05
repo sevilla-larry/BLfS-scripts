@@ -45,6 +45,7 @@
 #               e11.25.36 libxklavier-5.4
 #               e11.33.03 gsettings-desktop-schemas-47.1
 #               e11.10.33 Poppler-25.02.0
+#               e11.09.13 enchant-2.8.2
 #               e42.33.01 Gcr-3.41.2
 #               e41.42.13 gstreamer-1.24.12
 #               e13.09.29 JSON-GLib-1.10.6
@@ -59,6 +60,10 @@
 #               e41.13.24.23 PyGObject-3.50.0
 #               e41.16.01 Avahi-0.8
 #               e41.17.04 glib-networking-2.80.1
+#               e41.25.15 Graphene-1.10.8
+#               e41.25.17 GTK-4.16.12
+#               e41.42.13 gstreamer-1.26.3
+#               e41.42.58 Wireplumber-0.5.8
 #               37.02 libfm-extra-1.3.2             ???
 #               09.07 dbus-glib-0.112               ???
 #               etc
@@ -77,6 +82,10 @@
 #               e41.09.47 libical-3.0.19
 #               e41.11.10 ibus-1.5.31
 #               e41.17.18 libsoup-3.6.5 (errata)
+#               e41.25.07 colord-gtk-0.3.1
+#               e41.25.23 gtksourceview5-5.14.2
+#               e41.25.45 WebKitGTK-2.46.6
+#               e41.42.15 gst-plugins-base-1.26.3   (errata)
 #               e12.25.42 Qt-6.7.2                  ???
 #
 # Optionally by:

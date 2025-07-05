@@ -12,6 +12,7 @@
 # Recommended by:
 #
 #               g22.39.03 LibreOffice-25.2.3	(errata)
+#               e41.42.58 Wireplumber-0.5.8
 #
 # Optional by:
 #

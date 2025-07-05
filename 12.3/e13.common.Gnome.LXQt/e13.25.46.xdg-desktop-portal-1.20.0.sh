@@ -23,6 +23,10 @@
 #
 
 #
+# Required by:
+#
+#               e41.25.47 xdg-desktop-portal-gtk-1.15.2
+#
 # Required (at runtime) by:
 #
 #               e33.37.34 xdg-desktop-portal-lxqt-1.0.2

@@ -35,10 +35,13 @@
 #
 #               e41.42.15 gst-plugins-good-1.26.3   (errata)
 #               e41.42.16 gst-plugins-bad-1.26.3    (errata)
+#               e41.25.45 WebKitGTK-2.46.6
+#               e41.42.18 gst-libav-2.26.3          (errata)
 #
 # Recommended by:
 #
 #               g22.39.03 LibreOffice-25.2.1    (errata)
+#               e41.42.48 Pipewire-1.2.7
 #
 # Optionally by:
 #

@@ -1,4 +1,5 @@
 # d20.25.43.Vulkan-Headers-1.4.304.sh
+# for PCs with CPU/iGPU Intel 4th Gen & up
 #
 
 #

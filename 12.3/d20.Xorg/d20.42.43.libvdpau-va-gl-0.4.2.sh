@@ -1,4 +1,5 @@
 # d20.42.43.libvdpau-va-gl-0.4.2.sh
+# for PCs with CPU/iGPU Intel 4th Gen & up
 #
 
 #
@@ -14,6 +15,10 @@
 # Recommended Runtime by:
 #
 #               d20.42.42 libvdpau-1.5
+#
+# Recommended by:
+#
+#               e11.44.01 FFmpeg-7.1
 #
 
 export PKG="libvdpau-va-gl-0.4.2"

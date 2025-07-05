@@ -27,6 +27,11 @@
 # Recommended by:
 #
 #				e10.25.04 Cairo-1.18.2
+#               e11.42.25 libass-0.17.3
+#
+# Optionally by:
+#
+#               e11.44.01 FFmpeg-7.1
 #
 
 export PKG="fontconfig-2.16.0"

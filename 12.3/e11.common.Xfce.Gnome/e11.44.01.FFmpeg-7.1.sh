@@ -11,7 +11,7 @@
 #               e10.43.04 LAME-3.100
 #               e10.42.44 libvorbis-1.3.7
 #               e11.42.45 libvpx-1.15.0
-#               e10.42.44 Opus-1.5.2
+#               e10.42.47 Opus-1.5.2
 #               e11.42.59 x264-20250212
 #               e11.42.60 x265-4.1
 #               e10.13.17 NASM-2.16.03
@@ -34,7 +34,7 @@
 #               d10.10.05  Fontconfig-2.16.0
 #               e10.10.06  FriBidi-1.0.16
 #               d20.25.33  Libdrm-2.4.124
-#               e41.10.19  libjxl-0.11.1
+#               e11.10.19  libjxl-0.11.1
 #               e11.10.27  libwebp-1.5.0
 #               e10.10.31  OpenJPEG-2.5.3
 #               a.08.91.63 GnuTLS-3.8.9
@@ -47,11 +47,12 @@
 #
 # Required by:
 #
-#               e41.42.18 gst-libav-1.26.2
+#               e41.42.18 gst-libav-2.26.3     (errata)
 #
 # Optionally by:
 #
 #               g22.40.03 Firefox-128.11.0esr
+#               e41.42.48 Pipewire-1.2.7
 #
 
 export PKG="ffmpeg-7.1"

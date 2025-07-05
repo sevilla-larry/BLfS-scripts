@@ -1,4 +1,5 @@
 # d20.25.12.Glslang-15.1.0.sh
+# for PCs with CPU/iGPU Intel 4th Gen & up
 #
 
 #

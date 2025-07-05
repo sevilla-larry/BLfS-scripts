@@ -1,6 +1,5 @@
 # d20.42.21.intel-vaapi-driver-2.4.1.sh
-#
-# CPU/iGPU i7-4790
+# for PCs with CPU/iGPU Intel 4th Gen & up
 #
 
 #

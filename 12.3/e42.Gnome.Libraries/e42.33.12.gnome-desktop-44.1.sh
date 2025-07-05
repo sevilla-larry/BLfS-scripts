@@ -22,6 +22,7 @@
 #
 # Required by:
 #
+#               e41.25.47 xdg-desktop-portal-gtk-1.15.2
 #
 
 export PKG="gnome-desktop-44.1"

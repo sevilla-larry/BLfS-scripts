@@ -1,4 +1,5 @@
 # d20.09.90.SPIRV-Headers-1.4.304.1.sh
+# for PCs with CPU/iGPU Intel 4th Gen & up
 #
 
 #

@@ -1,4 +1,5 @@
 # d20.42.41.libva-2.22.0.sh
+# for PCs with CPU/iGPU Intel 2th Gen & up
 #
 
 #
@@ -32,6 +33,10 @@
 # Recommended by:
 #
 #               d20.24.12 Mesa-24.3.4   (Pass #1)
+#               e11.44.01 FFmpeg-7.1
+#               e41.42.16 gst-plugins-bad-1.26.3    (errata)
+#
+
 #
 # read: https://www.linuxfromscratch.org/blfs/view/12.3/multimedia/libva.html
 #

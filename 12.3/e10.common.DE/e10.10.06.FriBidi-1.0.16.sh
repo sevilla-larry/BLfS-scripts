@@ -5,7 +5,13 @@
 # Required by:
 #
 #               e10.25.37 Pango-1.56.1
+#               e41.25.17 GTK-4.16.12
+#               e11.42.25 libass-0.17.3
 #               ??? 37.?? PCManFM       ???
+#
+# Optionally by:
+#
+#               e11.44.01 FFmpeg-7.1
 #
 
 export PKG="fribidi-1.0.16"

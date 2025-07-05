@@ -25,11 +25,18 @@
 #
 # Required by:
 #
-#               g22.40.03 Firefox-128.11.0esr   (errata)
+#               g22.40.03 Firefox-128.11.0esr       (errata)
+#
+# Recommended by:
+#
+#               e41.42.15 gst-plugins-good-1.26.3   (errata)
+#               e41.42.48 Pipewire-1.2.7
 #
 # Optionally by:
 #
 #               e11.42.52 SDL2-2.30.11
+#               e11.44.01 FFmpeg-7.1
+#               e41.25.20 gtk-vnc-1.5.0
 #
 
 export PKG="pulseaudio-17.0"
