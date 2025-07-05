@@ -4,21 +4,22 @@
 #
 # Dependencies Required:
 #
-#               xxx.xx.xx geocode-glib-3.26.4
-#               e11.25.16 GTK-3.24.48
-#               xxx.xx.xx libsoup-3.6.4
-#               xxx.xx.xx PyGObject-3.50.0
+#               e42.33.09    geocode-glib-3.26.4
+#               e11.25.16    GTK-3.24.48
+#               e41.17.18    libsoup-3.6.5      (errata)
+#               e41.13.24.23 PyGObject-3.50.0
 #
 # Dependencies Recommended:
 #
 #               d10.09.17  GLib-2.82.5
-#               a.08.91.08 libxml2-2.14.3 (errata)
+#               a.08.91.08 libxml2-2.14.3       (errata)
 #               e10.13.36  Vala-0.56.17
 #
 
 #
-# Required by:
+# Recommended by:
 #
+#               e42.33.21 evolution-data-server-3.54.3
 #
 
 export PKG="libgweather-4.4.4"

@@ -6,12 +6,12 @@
 #
 #               e42.33.12.gnome-desktop-44.1
 #               e41.25.17 GTK-4.16.12
-#               xxx.25.28 libadwaita-1.6.4
+#               e41.25.28 libadwaita-1.6.4
 #               e13.25.48 xdg-desktop-portal-1.20.0
 #
 # Dependencies Required (runtime):
 #
-#               xxx.xx.xx xdg-desktop-portal-gtk-1.15.2
+#               e41.25.47 xdg-desktop-portal-gtk-1.15.2
 #
 
 #

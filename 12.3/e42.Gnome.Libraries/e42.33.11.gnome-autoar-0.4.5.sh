@@ -12,11 +12,6 @@
 #               e11.13.35 Vala-0.56.17
 #
 
-#
-# Required by:
-#
-#
-
 export PKG="gnome-autoar-0.4.5"
 export PKGLOG_DIR=$LFSLOG/33.11
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log

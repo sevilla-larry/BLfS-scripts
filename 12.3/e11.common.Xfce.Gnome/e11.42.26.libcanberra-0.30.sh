@@ -25,10 +25,12 @@
 # Required by:
 #
 #               e24.36.05 xfce4-notifyd-0.9.7
+#               e42.33.24 GSound-1.0.3
 #
 # Recommended by:
 #
 #               e23.35.15 xfce4-settings-4.20.1
+#               e42.33.21 evolution-data-server-3.54.3
 #
 # Optionally by:
 #

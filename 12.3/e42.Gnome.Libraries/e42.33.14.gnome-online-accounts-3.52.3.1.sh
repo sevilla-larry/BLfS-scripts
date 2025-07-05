@@ -6,9 +6,9 @@
 #
 #               e42.33.01.Gcr-3.41.2
 #               e13.09.29 JSON-GLib-1.10.6
-#               xxx.25.28 libadwaita-1.6.4
+#               e41.25.28 libadwaita-1.6.4
 #               e42.33.05 rest-0.9.1
-#               e11.13.36 Vala-0.56.17
+#               e10.13.36 Vala-0.56.17
 #
 # Dependencies Recommended:
 #
@@ -16,8 +16,9 @@
 #
 
 #
-# Required by:
+# Recommended by:
 #
+#               e42.33.21 evolution-data-server-3.54.3
 #
 
 export PKG="gnome-online-accounts-3.52.3.1"

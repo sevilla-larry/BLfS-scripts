@@ -18,6 +18,7 @@
 #               09.07 dbus-glib-0.112           ???
 #               e41.12.08    Colord-1.4.7
 #               e41.13.24.06 D-Bus.Python-1.3.2
+#               e42.33.10    Gjs-1.82.1
 #
 # Recommended by:
 #

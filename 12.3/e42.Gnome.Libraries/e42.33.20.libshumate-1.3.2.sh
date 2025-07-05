@@ -4,18 +4,13 @@
 #
 # Dependencies Required:
 #
-#               xxx.xx.xx GTK-4.16.12
-#               xxx.xx.xx libsoup-3.6.4
-#               xxx.xx.xx Protobuf-c-1.5.1
+#               e41.25.17 GTK-4.16.12
+#               e41.17.18 libsoup-3.6.5     (errata)
+#               e41.09.86 Protobuf-c-1.5.1
 #
 # Dependencies Recommended:
 #
 #               d10.09.17 GLib-2.82.5
-#
-
-#
-# Required by:
-#
 #
 
 export PKG="libshumate-1.3.2"

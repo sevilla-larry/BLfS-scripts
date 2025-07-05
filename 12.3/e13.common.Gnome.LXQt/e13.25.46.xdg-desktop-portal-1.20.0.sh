@@ -26,6 +26,7 @@
 # Required by:
 #
 #               e41.25.47 xdg-desktop-portal-gtk-1.15.2
+#               e42.33.25 xdg-desktop-portal-gnome-47.3
 #
 # Required (at runtime) by:
 #

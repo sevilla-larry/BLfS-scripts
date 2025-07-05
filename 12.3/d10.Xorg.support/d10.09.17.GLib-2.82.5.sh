@@ -46,7 +46,6 @@
 #               e11.33.03 gsettings-desktop-schemas-47.1
 #               e11.10.33 Poppler-25.02.0
 #               e11.09.13 enchant-2.8.2
-#               e42.33.01 Gcr-3.41.2
 #               e41.42.13 gstreamer-1.24.12
 #               e13.09.29 JSON-GLib-1.10.6
 #               e41.09.19 GLibmm-2.82.0
@@ -64,6 +63,14 @@
 #               e41.25.17 GTK-4.16.12
 #               e41.42.13 gstreamer-1.26.3
 #               e41.42.58 Wireplumber-0.5.8
+#               e42.33.01 Gcr-3.41.2
+#               e42.33.02 Gcr-4.3.1
+#               e42.33.04 libsecret-0.21.6
+#               e42.33.10 Gjs-1.82.1
+#               e42.33.13 gnome-menus-3.36.0
+#               e42.33.16 libgee-0.20.8
+#               e42.33.17 libgtop-2.41.3
+#               e42.33.19 libpeas-1.36.0
 #               37.02 libfm-extra-1.3.2             ???
 #               09.07 dbus-glib-0.112               ???
 #               etc
@@ -75,6 +82,7 @@
 #               e11.12.02 AccountsService-23.13.9
 #               e10.10.24 librsvg-2.59.2
 #               e11.33.07 VTE-0.78.4
+#               e42.33.07 VTE-0.76.4
 #               f2.26.02  lightdm-1.32.0
 #               e11.42.49 PulseAudio-17.0
 #               g42.34.04 Evince-46.3.1
@@ -86,6 +94,16 @@
 #               e41.25.23 gtksourceview5-5.14.2
 #               e41.25.45 WebKitGTK-2.46.6
 #               e41.42.15 gst-plugins-base-1.26.3   (errata)
+#               e42.33.05 rest-0.9.1
+#               e42.33.06 totem-pl-parser-3.26.6
+#               e42.33.09 geocode-glib-3.26.4
+#               e42.33.12 gnome-desktop-44.1
+#               e42.33.14 gnome-online-accounts-3.52.3.1
+#               e42.33.18 libgweather-4.4.4
+#               e42.33.20 libshumate-1.3.2
+#               e42.33.21 evolution-data-server-3.54.3
+#               e42.33.22 tinysparql-3.8.2
+#               e42.33.24 GSound-1.0.3
 #               e12.25.42 Qt-6.7.2                  ???
 #
 # Optionally by:

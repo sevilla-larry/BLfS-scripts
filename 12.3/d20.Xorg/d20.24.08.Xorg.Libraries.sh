@@ -24,6 +24,7 @@
 #               e10.25.10 gdk-pixbuf-xlib-2.42.12
 #               e11.25.42 startup-notification-0.12
 #               e11.25.36 libxklavier-5.4
+#               e42.33.17 libgtop-2.41.3
 #
 # Recommended by:
 #

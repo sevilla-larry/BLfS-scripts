@@ -9,7 +9,7 @@
 #               e41.25.17  GTK-4.16.12
 #               e10.11.12  ISO.Codes-4.17.0
 #               e11.49.05  itstool-2.0.7
-#               xxx.xx.xx  libseccomp-2.6.0
+#               a.08.91.21 libseccomp-2.6.0
 #               a.08.91.08 libxml2-2.14.3
 #               d20.24.18  XKeyboardConfig-2.44
 #
@@ -23,6 +23,7 @@
 # Required by:
 #
 #               e41.25.47 xdg-desktop-portal-gtk-1.15.2
+#               e42.33.25 xdg-desktop-portal-gnome-47.3
 #
 
 export PKG="gnome-desktop-44.1"

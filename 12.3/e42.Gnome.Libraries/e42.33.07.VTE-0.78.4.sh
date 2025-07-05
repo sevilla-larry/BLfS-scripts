@@ -14,7 +14,7 @@
 #               a.08.91.07 icu-76.1
 #               a.08.91.63 GnuTLS-3.8.9
 #               d10.09.17  GLib-2.82.5
-#          ???  ???.25.17  GTK-4.16.12 ???
+#               e41.25.17  GTK-4.16.12
 #               e10.13.36  Vala-0.56.17
 #
 
@@ -22,9 +22,10 @@
 # Required by:
 #
 #
+#
 
 export PKG="vte-0.78.4"
-export PKGLOG_DIR=$LFSLOG/33.07.2
+export PKGLOG_DIR=$LFSLOG/33.07
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log

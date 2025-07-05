@@ -9,13 +9,8 @@
 #
 # Dependencies Recommended:
 #
-#               a.08.91.08 libxml2-2.14.3 (errata)
-#               xxx.xx.xx  PyGObject-3.50.0
-#
-
-#
-# Required by:
-#
+#               a.08.91.08   libxml2-2.14.3 (errata)
+#               e41.13.24.23 PyGObject-3.50.0
 #
 
 export PKG="libpeas-1.36.0"

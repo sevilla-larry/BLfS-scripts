@@ -15,11 +15,6 @@
 #               a.08.91.40 make-ca-1.16
 #
 
-#
-# Required by:
-#
-#
-
 export PKG="totem-pl-parser-3.26.6"
 export PKGLOG_DIR=$LFSLOG/33.06
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log

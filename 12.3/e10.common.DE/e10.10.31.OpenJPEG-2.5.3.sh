@@ -20,6 +20,10 @@
 #               g42.34.04 Evince-46.3.1
 #               e41.25.45 WebKitGTK-2.46.6
 #
+# Recommended by:
+#
+#               e11.10.33 Poppler-25.02.0
+#
 # Optionally by:
 #
 #               e11.44.01 FFmpeg-7.1

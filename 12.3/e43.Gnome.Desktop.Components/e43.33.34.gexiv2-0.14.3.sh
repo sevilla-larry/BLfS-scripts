@@ -14,6 +14,7 @@
 #
 # Required by:
 #
+#               e42.33.23 localsearch-3.8.2
 #
 
 export PKG="gexiv2-0.14.3"

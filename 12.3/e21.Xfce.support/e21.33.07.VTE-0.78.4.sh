@@ -25,7 +25,7 @@
 #
 
 export PKG="vte-0.78.4"
-export PKGLOG_DIR=$LFSLOG/33.07.1
+export PKGLOG_DIR=$LFSLOG/33.07
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log

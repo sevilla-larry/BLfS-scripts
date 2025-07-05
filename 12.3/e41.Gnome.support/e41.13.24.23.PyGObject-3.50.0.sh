@@ -20,6 +20,12 @@
 #
 #               e41.25.17 GTK-4.16.12
 #               e41.12.27 Power-profiles-daemon-0.30
+#               e42.33.18 libgweather-4.4.4
+#
+# Recommended by:
+#
+#               e42.33.19 libpeas-1.36.0
+#               e42.33.22 tinysparql-3.8.2
 #
 # Optionally by:
 #

@@ -9,12 +9,7 @@
 # Dependencies Recommended:
 #
 #               d10.09.17 GLib-2.82.5
-#               e11.13.36 Vala-0.56.17
-#
-
-#
-# Required by:
-#
+#               e10.13.36 Vala-0.56.17
 #
 
 export PKG="gsound-1.0.3"

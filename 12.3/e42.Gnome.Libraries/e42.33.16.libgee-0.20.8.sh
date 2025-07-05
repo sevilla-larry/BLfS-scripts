@@ -5,12 +5,7 @@
 # Dependencies Required:
 #
 #               d10.09.17 GLib-2.82.5
-#               e11.13.35 Vala-0.56.17
-#
-
-#
-# Required by:
-#
+#               e10.13.35 Vala-0.56.17
 #
 
 export PKG="libgee-0.20.8"

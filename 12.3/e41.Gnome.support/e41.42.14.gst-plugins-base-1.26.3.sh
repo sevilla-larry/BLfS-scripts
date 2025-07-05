@@ -37,6 +37,7 @@
 #               e41.42.16 gst-plugins-bad-1.26.3    (errata)
 #               e41.25.45 WebKitGTK-2.46.6
 #               e41.42.18 gst-libav-2.26.3          (errata)
+#               e42.33.23 localsearch-3.8.2
 #
 # Recommended by:
 #

@@ -15,6 +15,7 @@
 #               e42.33.12 gnome-desktop-44.1
 #               e43.33.35 Nautilus-47.2
 #               e41.25.45 WebKitGTK-2.46.6
+#               e42.33.12 gnome-desktop-44.1
 #
 
 #

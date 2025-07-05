@@ -4,30 +4,31 @@
 #
 # Dependencies Required:
 #
-#               xxx.xx.xx Exempi-2.6.5
-#               xxx.xx.xx gexiv2-0.14.3
-#               xxx.xx.xx gst-plugins-base-1.24.12
+#               e41.09.14 Exempi-2.6.5
+#               e43.33.34 gexiv2-0.14.3
+#               e41.42.14 gst-plugins-base-1.26.3   (errata)
 #               e42.33.22 tinysparql-3.8.2
 #
 # Dependencies Recommended:
 #
-#               xxx.xx.xx  giflib-5.2.2
+#               e11.10.08  giflib-5.2.2
 #               e41.42.18  gst-libav-2.26.3     (errata)
 #               a.08.91.07 icu-76.1
 #               e10.10.16  libexif-0.6.25
-#               xxx.xx.xx  libgxps-0.3.2
-#               xxx.xx.xx  libseccomp-2.6.0
+#               e41.10.17  libgxps-0.3.2
+#               a.08.91.21 libseccomp-2.6.0
 #               e11.10.33  Poppler-25.02.0 (GTK)
 #               e10.12.37  UPower-1.90.7
 #
 # Dependencies Optional:
 #
-#                           DConf-0.40.0
+#               e43.33.31 DConf-0.40.0
 #
 
 #
-# Required by:
+# Recommended (runtime) by:
 #
+#               e42.33.22 tinysparql-3.8.2
 #
 
 export PKG="localsearch-3.8.2"

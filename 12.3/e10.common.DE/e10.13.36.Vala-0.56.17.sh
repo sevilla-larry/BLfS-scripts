@@ -16,6 +16,9 @@
 # Required by:
 #
 #               e41.11.10 ibus-1.5.31
+#               e42.33.14 gnome-online-accounts-3.52.3.1
+#               e42.33.16 libgee-0.20.8
+#               e42.33.22 tinysparql-3.8.2
 #
 # Recommended by:
 #
@@ -31,10 +34,16 @@
 #               e41.12.08 Colord-1.4.7
 #               e41.17.03 GeoClue-2.7.2
 #               e41.17.18 libsoup-3.6.5 (errata)
-#               e42.33.01 Gcr-3.41.2
 #               e41.25.07 colord-gtk-0.3.1
 #               e41.25.20 gtk-vnc-1.5.0
 #               e41.25.28 libadwaita-1.6.4
+#               e42.33.01 Gcr-3.41.2
+#               e42.33.02 Gcr-4.3.1
+#               e42.33.04 libsecret-0.21.6
+#               e42.33.11 gnome-autoar-0.4.5
+#               e42.33.18 libgweather-4.4.4
+#               e42.33.21 evolution-data-server-3.54.3
+#               e42.33.24 GSound-1.0.3
 #               ???.37.04 libfm-1.3.2           ???
 #
 # Optionally ( but needed ) by:
@@ -47,6 +56,7 @@
 #
 #               e11.25.36 libxklavier-5.4
 #               e41.09.55 libportal-0.9.1
+#               e42.33.05 rest-0.9.1
 #
 
 export PKG="vala-0.56.17"

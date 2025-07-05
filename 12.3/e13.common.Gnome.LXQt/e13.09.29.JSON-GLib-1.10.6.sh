@@ -13,6 +13,10 @@
 #               e13.25.46 xdg-desktop-portal-1.20.0
 #               e41.09.46 libgusb-0.4.9
 #               e41.17.03 GeoClue-2.7.2
+#               e42.33.05 rest-0.9.1
+#               e42.33.09 geocode-glib-3.26.4
+#               e42.33.14 gnome-online-accounts-3.52.3.1
+#               e42.33.22 tinysparql-3.8.2
 #
 # Optionally by:
 #

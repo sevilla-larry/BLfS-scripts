@@ -14,6 +14,10 @@
 #
 
 #
+# Required by:
+#
+#               e42.33.12 gnome-desktop-44.1
+#
 # Required (runtime) by:
 #
 #               d20.24.20 Xorg-Server-21.1.18   (errata)

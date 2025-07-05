@@ -40,6 +40,9 @@
 #               e41.25.28 libadwaita-1.6.4
 #               e41.25.45 WebKitGTK-2.46.6
 #               e41.28.01 adwaita-icon-theme-47.0
+#               e42.33.12 gnome-desktop-44.1
+#               e42.33.20 libshumate-1.3.2
+#               e42.33.25 xdg-desktop-portal-gnome-47.3
 #
 # Recommended by:
 #
@@ -47,6 +50,8 @@
 #               e41.11.10 ibus-1.5.31
 #               e42.33.02 Gcr-4.3.1
 #               e41.25.07 colord-gtk-0.3.1
+#               e42.33.10 Gjs-1.82.1
+#               e42.33.21 evolution-data-server-3.54.3
 #
 # Optionally by:
 #

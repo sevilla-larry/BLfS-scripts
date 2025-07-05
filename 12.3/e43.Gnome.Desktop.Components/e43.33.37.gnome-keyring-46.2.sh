@@ -15,8 +15,9 @@
 #
 
 #
-# Required by:
+# Required Runtime by:
 #
+#               e42.33.04  libsecret-0.21.6
 #
 
 export PKG="gnome-keyring-46.2"

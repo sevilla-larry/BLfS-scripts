@@ -7,17 +7,12 @@
 #               e10.25.04 Cairo-1.18.2
 #               d20.12.11 dbus-1.16.0
 #               d10.09.17 GLib-2.82.5
-#                          SpiderMonkey (Firefox-128.11.0)
+#               e41.09.89 SpiderMonkey (Firefox-128.11.0esr) (errata)
 #
 # Dependencies Recommended:
 #
 #               e11.25.16 GTK-3.24.48
 #               e41.25.17 GTK-4.16.12
-#
-
-#
-# Required by:
-#
 #
 
 export PKG="gjs-1.82.1"

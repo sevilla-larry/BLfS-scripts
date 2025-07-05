@@ -22,11 +22,6 @@
 #               a.08.91.63 GnuTLS-3.8.9
 #
 
-#
-# Required by:
-#
-#
-
 export PKG="gcr-4.3.1"
 export PKGLOG_DIR=$LFSLOG/33.02
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log

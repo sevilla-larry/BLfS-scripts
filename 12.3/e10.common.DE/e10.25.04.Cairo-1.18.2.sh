@@ -28,6 +28,7 @@
 #               e41.13.24.20 PyCairo-1.26.1
 #               e41.25.06    libcairomm-1.18.0
 #               e41.25.45    WebKitGTK-2.46.6
+#               e42.33.10    Gjs-1.82.1
 #
 # Recommended ( but needed ) by:
 #

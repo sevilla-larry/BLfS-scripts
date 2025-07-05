@@ -4,8 +4,8 @@
 #
 # Dependencies Required:
 #
-#               xxx.xx.xx JSON-GLib-1.10.6
-#               xxx.xx.xx libsoup-3.6.5     (errata)
+#               e13.09.29 JSON-GLib-1.10.6
+#               e41.17.18 libsoup-3.6.5     (errata)
 #
 # Dependencies Recommended:
 #
@@ -15,6 +15,7 @@
 #
 # Required by:
 #
+#               e42.33.18 libgweather-4.4.4
 #
 
 export PKG="geocode-glib-3.26.4"

@@ -20,6 +20,10 @@
 #               e41.12.27 Power-profiles-daemon-0.30
 #                         lxqt-powermanagement
 #
+# Recommended by:
+#
+#               e42.33.23 localsearch-3.8.2
+#
 # Optionally by:
 #
 #               e23.35.15 xfce4-settings-4.20.1

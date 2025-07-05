@@ -7,11 +7,6 @@
 #               d10.09.17 GLib-2.82.5
 #
 
-#
-# Required by:
-#
-#
-
 export PKG="gnome-menus-3.36.0"
 export PKGLOG_DIR=$LFSLOG/33.13
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log

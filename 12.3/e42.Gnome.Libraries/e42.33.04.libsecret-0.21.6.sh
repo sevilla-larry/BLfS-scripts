@@ -27,6 +27,7 @@
 # Required by:
 #
 #               e41.25.45 WebKitGTK-2.46.6
+#               e42.33.21 evolution-data-server-3.54.3
 #
 # Recommended by:
 #

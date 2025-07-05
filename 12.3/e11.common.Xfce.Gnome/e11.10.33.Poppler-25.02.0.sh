@@ -21,7 +21,8 @@
 #               d10.10.22  libpng-1.6.46
 #               e10.10.26  libtiff-4.7.0
 #               a.08.91.32 NSS-3.108
-#               g11.10.31  OpenJPEG-2.5.2        ???
+#               e10.10.31  OpenJPEG-2.5.2
+#               e42.33.23  localsearch-3.8.2
 #       withOUT Qt-6.x
 #
 # Dependencies Optional:

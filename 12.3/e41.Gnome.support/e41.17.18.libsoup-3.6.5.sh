@@ -31,6 +31,10 @@
 #
 #               e41.17.03 GeoClue-2.7.2
 #               e41.25.45 WebKitGTK-2.46.6
+#               e42.33.05 rest-0.9.1
+#               e42.33.09 geocode-glib-3.26.4
+#               e42.33.18 libgweather-4.4.4
+#               e42.33.20 libshumate-1.3.2
 #
 # Recommended by:
 #

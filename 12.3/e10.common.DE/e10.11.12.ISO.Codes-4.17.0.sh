@@ -7,6 +7,7 @@
 #               e11.25.36 libxklavier-5.4
 #               e41.11.10 ibus-1.5.31
 #               e41.25.17 GTK-4.16.12
+#               e42.33.12 gnome-desktop-44.1
 #
 # Recommended by:
 #

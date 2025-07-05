@@ -5,21 +5,25 @@
 # Dependencies Required:
 #
 #               e13.09.29 JSON-GLib-1.10.6
-#               e11.13.35 Vala-0.56.17
+#               e10.13.35 Vala-0.56.17
 #
 # Dependencies Recommended:
 #
-#               d10.09.17  GLib-2.82.5
-#               a.08.91.07 icu-76.1
-#               e41.17.18 libsoup-3.6.5 (errata)
-#                           PyGObject-3.50.0
-#               a.08.91.18 SQLite-3.49.1
+#               d10.09.17    GLib-2.82.5
+#               a.08.91.07   icu-76.1
+#               e41.17.18    libsoup-3.6.5 (errata)
+#               e41.13.24.23 PyGObject-3.50.0
+#               a.08.91.18   SQLite-3.49.1
 #
 # Dependencies Recommended (runtime)
 #
 #               e42.33.23 localsearch-3.8.2
 #
 
+#
+# Required by:
+#
+#               e42.33.23 localsearch-3.8.2
 #
 # Optionally by:
 #

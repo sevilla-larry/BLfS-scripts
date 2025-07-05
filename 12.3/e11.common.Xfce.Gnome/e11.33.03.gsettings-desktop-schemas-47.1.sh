@@ -11,6 +11,7 @@
 # Required by:
 #
 #               g42.34.04 Evince-46.3.1
+#               e42.33.12 gnome-desktop-44.1
 #
 # Recommended by:
 #

@@ -7,6 +7,10 @@
 #               e33.37.18 libfm-qt-2.0.2
 #               e24.36.04 Ristretto-0.13.3
 #
+# Recommended by:
+#
+#               e42.33.23 localsearch-3.8.2
+#
 # Optionally by:
 #
 #               e41.42.16 gst-plugins-bad-1.26.3    (errata)

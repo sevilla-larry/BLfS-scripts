@@ -26,6 +26,10 @@
 #
 #               e44.34.07 gnome-calculator-47.1
 #
+# Optionally by:
+#
+#               e42.33.05 rest-0.9.1
+#
 
 export PKG="gtksourceview-5.14.2"
 export PKGLOG_DIR=$LFSLOG/25.23

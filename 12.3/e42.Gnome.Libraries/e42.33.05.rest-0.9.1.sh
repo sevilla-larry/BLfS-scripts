@@ -15,13 +15,14 @@
 # Dependencies Optional:
 #
 #               e41.25.28 libadwaita-1.6.4
-#           ??? e41.25.23 gtksourceview5-5.14.2 (deferred)
-#               e10.13.36  Vala-0.56.17
+#               e41.25.23 gtksourceview5-5.14.2
+#               e10.13.36 Vala-0.56.17
 #
 
 #
 # Required by:
 #
+#               e42.33.14 gnome-online-accounts-3.52.3.1
 #
 
 export PKG="rest-0.9.1"

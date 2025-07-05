@@ -18,6 +18,11 @@
 #
 
 #
+# Required by:
+#
+#               e42.33.14 gnome-online-accounts-3.52.3.1
+#               e42.33.25 xdg-desktop-portal-gnome-47.3
+#
 # Optionally by:
 #
 #               e42.33.05 rest-0.9.1

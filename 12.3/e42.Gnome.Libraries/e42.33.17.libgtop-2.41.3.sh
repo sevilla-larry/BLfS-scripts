@@ -8,11 +8,6 @@
 #               d20.24.08 Xorg Libraries
 #
 
-#
-# Required by:
-#
-#
-
 export PKG="libgtop-2.41.3"
 export PKGLOG_DIR=$LFSLOG/33.17
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log

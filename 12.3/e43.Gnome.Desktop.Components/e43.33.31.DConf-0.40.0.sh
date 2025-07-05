@@ -24,6 +24,7 @@
 # Optionally by:
 #
 #               g22.39.03 LibreOffice-25.2.3	(errata)
+#               e42.33.23 localsearch-3.8.2
 #
 
 export PKG="DConf-0.40.0"

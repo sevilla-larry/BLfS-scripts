@@ -20,6 +20,7 @@
 #
 # Required by:
 #
+#               e42.33.14 gnome-online-accounts-3.52.3.1
 #
 
 export PKG="gcr-3.41.2"

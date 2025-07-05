@@ -4,8 +4,8 @@
 #
 # Dependencies Required:
 #
-#               xxx.xx.xx libical-3.0.19
-#               e42.33.04 libsecret-0.21.6
+#               e41.09.47  libical-3.0.19
+#               e42.33.04  libsecret-0.21.6
 #               a.08.91.32 NSS-3.108
 #               a.08.91.18 SQLite-3.49.1
 #
@@ -19,7 +19,7 @@
 #               e11.42.26  libcanberra-0.30
 #               e42.33.18  libgweather-4.4.4
 #               e10.13.36  Vala-0.56.17
-#                           WebKitGTK-2.46.6
+#               e41.25.45  WebKitGTK-2.48.3 (GTK-4) (errata)
 #
 
 #
