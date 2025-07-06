@@ -23,10 +23,15 @@
 #
 #               e41.25.17 GTK-4.16.12
 #
-# Runtime needed by:
+# Required/needed Runtime by:
 #
 #               e11.25.16 GTK-3.24.48
 #               e41.25.17 GTK-4.16.12
+#               e43.33.42 gnome-shell-47.4
+#
+# Recommended Runtime by:
+#
+#               e43.33.35 Nautilus-47.2
 #
 
 export PKG="adwaita-icon-theme-47.0"

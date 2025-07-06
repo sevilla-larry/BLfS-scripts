@@ -27,6 +27,7 @@
 #               e11.12.02 AccountsService-23.13.9
 #               e10.13.17 NASM-2.16.03
 #               e11.10.08 giflib-5.2.2
+#               e43.33.44 gnome-session-47.0.1
 #
 
 export PKG="xmlto-0.0.29"

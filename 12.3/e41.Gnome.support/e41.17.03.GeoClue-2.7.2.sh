@@ -16,6 +16,10 @@
 #
 
 #
+# Required by:
+#
+#				e43.33.38 gnome-settings-daemon-47.2
+#
 # Recommended by:
 #
 #               e41.25.45 WebKitGTK-2.46.6

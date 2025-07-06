@@ -8,10 +8,13 @@
 #
 
 #
+# Required by:
+#
+#				e43.33.38 gnome-settings-daemon-47.2
+#
 # Required (hidden) by:
 #
 #               g22.40.03 Firefox-128.7.0esr
-#
 #
 # Recommended by:
 #

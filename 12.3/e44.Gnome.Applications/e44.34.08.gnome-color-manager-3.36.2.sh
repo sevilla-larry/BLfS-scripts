@@ -14,6 +14,12 @@
 #               d10.11.04 desktop-file-utils-0.28
 #
 
+#
+# Optionally (Runtime) by:
+#
+#               e43.33.40 gnome-control-center-47.4
+#
+
 export PKG="gnome-color-manager-3.36.2"
 export PKGLOG_DIR=$LFSLOG/34.08
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log

@@ -18,6 +18,8 @@
 #
 #               e23.35.14 xfce4-power-manager-4.20.0
 #               e41.12.27 Power-profiles-daemon-0.30
+#				e43.33.38 gnome-settings-daemon-47.2
+#               e43.33.44 gnome-session-47.0.1
 #                         lxqt-powermanagement
 #
 # Recommended by:

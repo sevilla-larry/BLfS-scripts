@@ -21,6 +21,7 @@
 #               e41.25.17 GTK-4.16.12
 #               e41.12.27 Power-profiles-daemon-0.30
 #               e42.33.18 libgweather-4.4.4
+#               e43.33.45 gnome-tweaks-46.1
 #
 # Recommended by:
 #

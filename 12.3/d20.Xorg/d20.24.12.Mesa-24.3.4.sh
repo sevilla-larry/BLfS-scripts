@@ -42,6 +42,7 @@
 #               d20.25.34 libepoxy-1.5.10
 #               e11.25.13 GLU-9.0.3
 #               e41.25.45 WebKitGTK-2.46.6
+#               e43.33.44 gnome-session-47.0.1
 #
 # Recommended by:
 #

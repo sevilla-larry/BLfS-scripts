@@ -8,6 +8,13 @@
 #
 
 #
+# Recommended by:
+#
+#               e43.33.35 Nautilus-47.2
+#               e43.33.41 Mutter-47.5
+#               e43.33.42 gnome-shell-47.4
+#               e43.33.47 Yelp-42.3             (errata)
+#
 # Runtime needed for test by: ( not implemented )
 #
 #               d10.09.17 GLib-2.82.5

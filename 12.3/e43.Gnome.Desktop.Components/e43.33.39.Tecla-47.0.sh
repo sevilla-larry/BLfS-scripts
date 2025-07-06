@@ -4,13 +4,14 @@
 #
 # Dependencies Required:
 #
-#               xxx.xx.xx libadwaita-1.6.4
+#               e41.25.28 libadwaita-1.6.4
 #               e10.09.71 libxkbcommon-1.8.0
 #
 
 #
 # Required by:
 #
+#               e43.33.40 gnome-control-center-47.4
 #
 
 export PKG="tecla-47.0"

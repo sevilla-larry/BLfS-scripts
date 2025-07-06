@@ -23,6 +23,7 @@
 #               e41.12.13 blocaled-0.7
 #               e41.12.27 Power-profiles-daemon-0.30
 #               e41.12.35 UDisks-2.10.1
+#               e43.33.42 gnome-shell-47.4
 #               ???.??.?? LXSession
 #
 # Runtime Recommended by:

@@ -26,6 +26,7 @@
 #
 #               e24.36.05 xfce4-notifyd-0.9.7
 #               e42.33.24 GSound-1.0.3
+#				e43.33.38 gnome-settings-daemon-47.2
 #
 # Recommended by:
 #

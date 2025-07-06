@@ -8,11 +8,6 @@
 #               a.08.91.08 libxml2-2.13.6
 #
 
-#
-# Required by:
-#
-#
-
 export PKG="gnome-user-docs-47.2"
 export PKGLOG_DIR=$LFSLOG/33.46
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log

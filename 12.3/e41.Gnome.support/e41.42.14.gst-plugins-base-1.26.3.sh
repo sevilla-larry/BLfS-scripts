@@ -43,6 +43,8 @@
 #
 #               g22.39.03 LibreOffice-25.2.1    (errata)
 #               e41.42.48 Pipewire-1.2.7
+#               e43.33.35 Nautilus-47.2
+#               e43.33.42 gnome-shell-47.4
 #
 # Optionally by:
 #

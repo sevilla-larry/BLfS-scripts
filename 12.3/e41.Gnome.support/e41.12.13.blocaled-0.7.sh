@@ -12,6 +12,9 @@
 # Recommended (Runtime) by:
 #
 #               e42.33.21 evolution-data-server-3.54.3
+#				e43.33.38 gnome-settings-daemon-47.2
+#               e43.33.40 gnome-control-center-47.4
+#               e43.33.42 gnome-shell-47.4
 #
 
 export PKG="blocaled-0.7"

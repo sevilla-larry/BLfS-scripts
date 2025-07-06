@@ -23,6 +23,7 @@
 #               d20.24.08 Xorg.Libraries
 #               e21.25.37 Pango-1.56.1
 #               e11.10.33 Poppler-25.02.0
+#				e43.33.38 gnome-settings-daemon-47.2
 #
 # Recommended by:
 #

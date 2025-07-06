@@ -12,6 +12,8 @@
 #
 #               g42.34.04 Evince-46.3.1
 #               e42.33.12 gnome-desktop-44.1
+#               e43.33.45 gnome-tweaks-46.1
+#               e43.33.47 Yelp-42.3             (errata)
 #
 # Recommended by:
 #

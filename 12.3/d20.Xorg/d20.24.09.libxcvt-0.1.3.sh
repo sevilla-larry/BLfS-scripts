@@ -12,6 +12,7 @@
 #
 #               d20.24.19 Xwayland-24.1.8       (errata)
 #               d20.24.20 Xorg-Server-21.1.18   (errata)
+#               e43.33.41 Mutter-47.5
 #
 
 export PKG="libxcvt-0.1.3"

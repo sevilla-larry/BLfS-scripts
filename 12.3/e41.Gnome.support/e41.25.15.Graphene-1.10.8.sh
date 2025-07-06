@@ -11,6 +11,7 @@
 # Required by:
 #
 #               e41.25.17 GTK-4.16.12
+#               e43.33.41 Mutter-47.5
 #
 # Optionally by:
 #

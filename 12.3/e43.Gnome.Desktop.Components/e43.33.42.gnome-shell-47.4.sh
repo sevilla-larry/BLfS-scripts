@@ -8,7 +8,7 @@
 #               e42.33.02 Gcr-4.3.1
 #               e42.33.10 Gjs-1.82.1
 #               e42.33.12 gnome-desktop-44.1
-#               xxx.xx.xx ibus-1.5.31
+#               d41.11.10 ibus-1.5.31
 #               e43.33.41 Mutter-47.5
 #               d10.04.20 Polkit-126
 #               e11.25.42 startup-notification-0.12
@@ -17,29 +17,30 @@
 #
 #               d10.11.04 desktop-file-utils-0.28
 #               e42.33.11 gnome-autoar-0.4.5
-#             ? e43.33.36 gnome-bluetooth-47.1
-#               e41.42.14 gst-plugins-base-1.24.12
-#               xxx.xx.xx NetworkManager-1.50.0
-#               xxx.xx.xx power-profiles-daemon-0.30
+#           ??? e43.33.36 gnome-bluetooth-47.1
+#               e41.42.14 gst-plugins-base-1.26.3   (errata)
+#           ??? xxx.16.03 NetworkManager-1.50.0
+#               e41.12.27 power-profiles-daemon-0.30
 #
 # Dependencies Required (Runtime):
 #
-#               e11.28.01 adwaita-icon-theme-47.0
+#               e41.28.01 adwaita-icon-theme-47.0
 #               e43.33.31 DConf-0.40.0
 #               d10.12.12 elogind-255.17
-#               xxx.xx.xx GDM-47.0
+#                f1.26.01 GDM-47.0
 #               e43.33.40 gnome-control-center-47.4
 #               e42.33.18 libgweather-4.4.4
 #
 # Dependencies Recommended (Runtime):
 #
-#               xxx.xx.xx blocaled-0.7
+#               e41.12.13 blocaled-0.7
 #               e42.33.13 gnome-menus-3.36.0
 #
 
 #
-# Required by:
+# Optionally (Runtime) by:
 #
+#               e43.33.40 gnome-control-center-47.4
 #
 
 export PKG="gnome-shell-47.4"

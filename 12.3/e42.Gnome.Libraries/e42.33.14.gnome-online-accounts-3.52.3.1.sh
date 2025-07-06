@@ -16,9 +16,17 @@
 #
 
 #
+# Required by:
+#
+#               e43.33.40 gnome-control-center-47.4
+#
 # Recommended by:
 #
 #               e42.33.21 evolution-data-server-3.54.3
+#
+# Optionally by:
+#
+#               e43.33.33 Gvfs-1.56.1
 #
 
 export PKG="gnome-online-accounts-3.52.3.1"

@@ -48,6 +48,9 @@
 # Optionally by:
 #
 #               e10.09.71 libxkbcommon-1.8.0
+#				e43.33.38 gnome-settings-daemon-47.2
+#               e43.33.40 gnome-control-center-47.4
+#               e43.33.41 Mutter-47.5
 #
 
 #

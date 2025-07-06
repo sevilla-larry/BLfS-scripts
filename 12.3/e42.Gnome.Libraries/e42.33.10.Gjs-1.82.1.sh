@@ -15,6 +15,12 @@
 #               e41.25.17 GTK-4.16.12
 #
 
+#
+# Required by:
+#
+#               e43.33.42 gnome-shell-47.4
+#
+
 export PKG="gjs-1.82.1"
 export PKGLOG_DIR=$LFSLOG/33.10
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log

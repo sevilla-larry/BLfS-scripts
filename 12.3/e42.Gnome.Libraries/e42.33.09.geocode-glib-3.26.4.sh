@@ -16,6 +16,7 @@
 # Required by:
 #
 #               e42.33.18 libgweather-4.4.4
+#				e43.33.38 gnome-settings-daemon-47.2
 #
 
 export PKG="geocode-glib-3.26.4"

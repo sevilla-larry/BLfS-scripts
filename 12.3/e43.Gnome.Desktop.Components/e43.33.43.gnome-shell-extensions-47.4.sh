@@ -7,11 +7,6 @@
 #               e42.33.17 libgtop-2.41.3
 #
 
-#
-# Required by:
-#
-#
-
 export PKG="gnome-shell-extensions-47.4"
 export PKGLOG_DIR=$LFSLOG/33.43
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log

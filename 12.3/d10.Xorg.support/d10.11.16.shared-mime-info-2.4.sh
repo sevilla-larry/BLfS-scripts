@@ -16,6 +16,7 @@
 # Required by:
 #
 #               e10.25.10 gdk-pixbuf-2.42.12
+#               e43.33.40 gnome-control-center-47.4
 #
 # Runtime needed for test by: ( not implemented )
 #

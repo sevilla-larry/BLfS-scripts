@@ -17,6 +17,7 @@
 #               e42.33.09 geocode-glib-3.26.4
 #               e42.33.14 gnome-online-accounts-3.52.3.1
 #               e42.33.22 tinysparql-3.8.2
+#               e43.33.44 gnome-session-47.0.1
 #
 # Optionally by:
 #

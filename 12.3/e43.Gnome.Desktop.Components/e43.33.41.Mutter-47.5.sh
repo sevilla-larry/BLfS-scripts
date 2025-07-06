@@ -23,20 +23,19 @@
 #               d20.24.21.3 libinput-1.27.1
 #               d10.09.97   Wayland-1.23.0
 #               d10.09.98   Wayland-Protocols-1.40
-#               d20.24.19   Xwayland-24.1.6
+#               d20.24.19   Xwayland-24.1.8         (errata)
 #
 # Dependencies Optional:
 #
-#               d20.24.20 Xorg-Server-21.1.16
 #               Xvfb from
-#                   d20.24.20 Xorg-Server-21.1.16
-#                or
-#                   d20.24.19 Xwayland-24.1.6
+#                   d20.24.20 Xorg-Server-21.1.18   (errata)
+#                or d20.24.19 Xwayland-24.1.8       (errata)
 #
 
 #
 # Required by:
 #
+#               e43.33.42 gnome-shell-47.4
 #
 
 export PKG="mutter-47.5"

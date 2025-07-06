@@ -4,37 +4,33 @@
 #
 # Dependencies Required:
 #
-#               e13.12.07  bubblewrap-0.11.0
+#               e13.12.07  Bubblewrap-0.11.0
 #               e43.33.34  gexiv2-0.14.3
 #               e42.33.11  gnome-autoar-0.4.5
 #               e42.33.12  gnome-desktop-44.1
-#               xxx.xx.xx  libadwaita-1.6.4
+#               e41.25.28  libadwaita-1.6.4
 #               e11.25.35  libnotify-0.8.4
-#               xxx.xx.xx  libportal-0.9.1
+#               e41.09.55  libportal-0.9.1
 #               a.08.91.21 libseccomp-2.6.0
 #               e42.33.22  tinysparql-3.8.2
 #
 # Dependencies Recommended:
 #
 #               d10.11.04 desktop-file-utils-0.28
-#               xxx.xx.xx Exempi-2.6.5   
+#               e41.09.14 Exempi-2.6.6              (errata)
 #               d10.09.17 Glib-2.82.5  
-#               xxx.xx.xx gst-plugins-base-1.24.12
-#               xxx.xx.xx libcloudproviders-0.3.6 
+#               e41.42.14 gst-plugins-base-1.26.3   (errata)
+#           ??? e41.09.39 libcloudproviders-0.3.6 
 #               e10.10.16 libexif-0.6.25
 #
 # Dependencies Recommended (Runtime):
 #
-#               e11.28.01 adwaita-icon-theme-47.0
+#               e41.28.01 adwaita-icon-theme-47.0
 #               e43.33.33 Gvfs-1.56.1
 #
 # Dependencies Optional (tests):
 #
 #               e42.33.23 localsearch-3.8.2
-
-#
-# Required by:
-#
 #
 
 export PKG="nautilus-47.2"

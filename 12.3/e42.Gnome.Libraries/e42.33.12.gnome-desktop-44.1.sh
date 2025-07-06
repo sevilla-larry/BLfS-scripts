@@ -24,6 +24,10 @@
 #
 #               e41.25.47 xdg-desktop-portal-gtk-1.15.2
 #               e42.33.25 xdg-desktop-portal-gnome-47.3
+#               e43.33.35 Nautilus-47.2
+#				e43.33.38 gnome-settings-daemon-47.2
+#               e43.33.42 gnome-shell-47.4
+#               e43.33.44 gnome-session-47.0.1
 #
 
 export PKG="gnome-desktop-44.1"

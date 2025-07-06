@@ -44,6 +44,8 @@
 #               e42.33.18 libgweather-4.4.4
 #               e42.33.21 evolution-data-server-3.54.3
 #               e42.33.24 GSound-1.0.3
+#               e43.33.31 DConf-0.40.0
+#               e43.33.34 gexiv2-0.14.3
 #               ???.37.04 libfm-1.3.2           ???
 #
 # Optionally ( but needed ) by:

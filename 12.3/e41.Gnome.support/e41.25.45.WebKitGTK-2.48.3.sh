@@ -48,7 +48,7 @@
 #
 # Required by:
 #
-#               e43.33.47 Yelp-42.3
+#               e43.33.47 Yelp-42.3             (errata)
 #
 # Recommended by:
 #

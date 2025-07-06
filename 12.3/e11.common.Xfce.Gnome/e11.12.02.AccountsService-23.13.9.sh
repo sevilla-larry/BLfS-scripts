@@ -21,6 +21,7 @@
 # Required by:
 #
 #               e11.04.21 polkit-gnome-0.105
+#               e43.33.40 gnome-control-center-47.4
 #
 # Recommended by:
 #

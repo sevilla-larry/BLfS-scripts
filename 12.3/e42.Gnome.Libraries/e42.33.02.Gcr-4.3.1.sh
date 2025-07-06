@@ -22,6 +22,14 @@
 #               a.08.91.63 GnuTLS-3.8.9
 #
 
+#
+# Required by:
+#
+#               e43.33.33 Gvfs-1.56.1
+#				e43.33.38 gnome-settings-daemon-47.2
+#               e43.33.42 gnome-shell-47.4
+#
+
 export PKG="gcr-4.3.1"
 export PKGLOG_DIR=$LFSLOG/33.02
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log

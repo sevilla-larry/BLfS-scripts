@@ -2,9 +2,17 @@
 #
 
 #
-# Recommended ( Run Time ) by:
+# Required by:
+#
+#               e43.33.45 gnome-tweaks-46.1
+#
+# Recommended ( Runtime ) by:
 #
 #               e11.42.26 libcanbera-0.30
+#
+# Optionally (Runtime) by:
+#
+#               e43.33.40 gnome-control-center-47.4
 #
 
 export PKG="sound-theme-freedesktop-0.8"

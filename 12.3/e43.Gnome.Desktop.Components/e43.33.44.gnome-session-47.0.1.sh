@@ -20,8 +20,9 @@
 #
 
 #
-# Required by:
+# Optionally by:
 #
+#				e43.33.38 gnome-settings-daemon-47.2
 #
 
 export PKG="gnome-session-47.0.1"

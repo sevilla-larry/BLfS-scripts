@@ -12,6 +12,12 @@
 #               e10.13.36 Vala-0.56.17
 #
 
+#
+# Required by:
+#
+#               e43.33.40 gnome-control-center-47.4
+#
+
 export PKG="gsound-1.0.3"
 export PKGLOG_DIR=$LFSLOG/33.24
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log

@@ -22,6 +22,10 @@
 #
 #               e42.33.14 gnome-online-accounts-3.52.3.1
 #               e42.33.25 xdg-desktop-portal-gnome-47.3
+#               e43.33.35 Nautilus-47.2
+#               e43.33.39 Tecla-47.0
+#               e43.33.40 gnome-control-center-47.4
+#               e43.33.45 gnome-tweaks-46.1
 #
 # Optionally by:
 #

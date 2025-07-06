@@ -11,7 +11,7 @@
 #               e10.10.14  LittleCMS-2.17
 #               e10.10.18  libjpeg-turbo-3.0.1
 #               d10.10.22  libpng-1.6.46
-#
+#               
 # Dependencies Recommended:
 #
 #               e10.25.10 gdk-pixbuf-2.42.12
@@ -23,6 +23,10 @@
 #               e11.44.01 FFmpeg-7.1
 #
 
+#
+# Required by:
+#
+#               e43.33.32 gnome-backgrounds-47.0
 #
 # Recommended by:
 #

@@ -19,6 +19,9 @@
 #               e41.12.08    Colord-1.4.7
 #               e41.13.24.06 D-Bus.Python-1.3.2
 #               e42.33.10    Gjs-1.82.1
+#               e43.33.31    DConf-0.40.0
+#               e43.33.33    Gvfs-1.56.1
+#               e43.33.37    gnome-keyring-46.2
 #
 # Recommended by:
 #

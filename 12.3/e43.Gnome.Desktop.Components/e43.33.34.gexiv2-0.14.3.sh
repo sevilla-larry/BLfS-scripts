@@ -4,17 +4,18 @@
 #
 # Dependencies Required:
 #
-#               xxx.xx.xx Exiv2-0.28.5
+#               e41.10.03 Exiv2-0.28.5
 #
 # Dependencies Recommended:
 #
-#               e11.13.36 Vala-0.56.17         
+#               e10.13.36 Vala-0.56.17         
 #
 
 #
 # Required by:
 #
 #               e42.33.23 localsearch-3.8.2
+#               e43.33.35 Nautilus-47.2
 #
 
 export PKG="gexiv2-0.14.3"

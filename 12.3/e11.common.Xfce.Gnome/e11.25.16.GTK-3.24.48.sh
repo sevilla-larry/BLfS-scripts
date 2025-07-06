@@ -58,6 +58,7 @@
 #               e42.33.12 gnome-desktop-44.1
 #               e42.33.18 libgweather-4.4.4
 #               e42.33.19 libpeas-1.36.0
+#               e43.33.31 DConf-0.40.0
 #
 # Recommended by:
 #
@@ -69,6 +70,7 @@
 #               e42.33.01 Gcr-3.41.2
 #               e42.33.10 Gjs-1.82.1
 #               e42.33.21 evolution-data-server-3.54.3
+#               e43.33.33 Gvfs-1.56.1
 #
 # Optionally by:
 #

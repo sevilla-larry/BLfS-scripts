@@ -15,7 +15,8 @@
 # Required by:
 #
 #               g42.34.04 Evince-46.3.1
-#               e43.33.31 DConf-Editor-45.0.1
+#               e43.33.31 DConf-0.40.0
+#               e43.33.47 Yelp-42.3             (errata)
 #
 
 export PKG="libhandy-1.8.3"

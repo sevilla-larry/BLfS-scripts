@@ -12,6 +12,7 @@
 # Required by:
 #
 #               g22.40.03 Firefox-128.11.0esr   (errata)
+#               e43.33.42 gnome-shell-47.4
 #
 # Recommended by:
 #
@@ -19,6 +20,7 @@
 #               e23.35.06 libwnck-43.2
 #               e23.35.16 Xfdesktop-4.20.1
 #               e23.35.17 Xfwm4-4.20.0
+#               e43.33.41 Mutter-47.5
 #
 
 export PKG="startup-notification-0.12"

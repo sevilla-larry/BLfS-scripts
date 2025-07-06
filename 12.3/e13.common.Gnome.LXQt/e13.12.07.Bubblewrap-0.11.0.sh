@@ -9,6 +9,10 @@
 #
 
 #
+# Required by:
+#
+#               e43.33.35 Nautilus-47.2
+#
 # Recommended by:
 #
 #               e13.25.46 xdg-desktop-portal-1.20.0

@@ -7,27 +7,27 @@
 #               e10.42.01 alsa-lib-1.2.13
 #               d10.10.05 Fontconfig-2.16.0
 #               e42.33.02 Gcr-4.3.1
-#               xxx.xx.xx GeoClue-2.7.2
+#               e41.17.03 GeoClue-2.7.2
 #               e42.33.09 geocode-glib-3.26.4
 #               e42.33.12 gnome-desktop-44.1
 #               e11.42.26 libcanberra-0.30
 #               e42.33.18 libgweather-4.4.4
-#               e11.25.32 libnotify-0.8.4
-#           ??? xxx.xx.xx libwacom-2.14.0
+#               e11.25.35 libnotify-0.8.4
+#           ??? xxx.09.75 libwacom-2.14.0
 #               e11.42.49 PulseAudio-17.0 (GTK)
 #               e10.12.37 UPower-1.90.7
 #
 # Dependencies Recommended:
 #
-#               xxx.xx.xx  colord-1.4.7
-#           ??? xxx.xx.xx  Cups-2.4.11
-#               xxx.xx.xx  NetworkManager-1.50.0
+#               e41.12.08  colord-1.4.7
+#           ??? xxx.46.01  Cups-2.4.11
+#           ??? xxx.16.03  NetworkManager-1.50.0
 #               a.08.91.32 nss-3.108
 #               d10.09.97  Wayland-1.23.0
 #
 # Dependencies Recommended (Runtime):
 #
-#               xxx.xx.xx blocaled-0.7
+#               e41.12.13 blocaled-0.7
 #
 # Dependencies Optional:
 #
@@ -40,6 +40,8 @@
 #
 # Required by:
 #
+#               e43.33.40 gnome-control-center-47.4
+#               e43.33.41 Mutter-47.5
 #
 
 export PKG="gnome-settings-daemon-47.2"

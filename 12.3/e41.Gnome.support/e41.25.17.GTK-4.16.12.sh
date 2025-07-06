@@ -43,6 +43,7 @@
 #               e42.33.12 gnome-desktop-44.1
 #               e42.33.20 libshumate-1.3.2
 #               e42.33.25 xdg-desktop-portal-gnome-47.3
+#               e43.33.45 gnome-tweaks-46.1
 #
 # Recommended by:
 #

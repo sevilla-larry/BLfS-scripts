@@ -26,6 +26,11 @@
 #               d20.12.10 dbus-1.16.0
 #
 
+
+#
+# Required by:
+#
+#               e43.33.40 gnome-control-center-47.4
 #
 # Recommended by:
 #

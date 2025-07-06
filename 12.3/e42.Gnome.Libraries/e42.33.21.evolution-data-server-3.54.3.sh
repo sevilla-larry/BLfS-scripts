@@ -23,6 +23,10 @@
 #
 
 #
+# Required by:
+#
+#               e43.33.42 gnome-shell-47.4
+#
 # Optionally by:
 #
 #               g22.39.03 LibreOffice-25.2.3	(errata)

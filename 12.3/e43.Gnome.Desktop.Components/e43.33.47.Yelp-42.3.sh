@@ -15,10 +15,6 @@
 #               d10.11.04 desktop-file-utils-0.28
 #
 
-# Required by:
-#
-#
-
 export PKG="yelp-42.3"
 export PKGLOG_DIR=$LFSLOG/33.47
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log

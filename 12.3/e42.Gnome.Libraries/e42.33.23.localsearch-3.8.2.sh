@@ -30,6 +30,10 @@
 #
 #               e42.33.22 tinysparql-3.8.2
 #
+# Optionally by:
+#
+#               e43.33.35 Nautilus-47.2
+#
 
 export PKG="localsearch-3.8.2"
 export PKGLOG_DIR=$LFSLOG/33.23

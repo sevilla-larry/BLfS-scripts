@@ -15,6 +15,7 @@
 #               e41.09.02 AppStream-1.0.5
 #               e42.33.08 yelp-xsl-42.4     (errata)
 #               e42.33.12 gnome-desktop-44.1
+#               e43.33.46 gnome-user-docs-47.2
 #               ???.11.07 GTK-Doc-1.33.2
 #
 

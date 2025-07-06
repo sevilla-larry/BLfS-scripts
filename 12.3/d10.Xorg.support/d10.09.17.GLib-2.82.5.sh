@@ -71,6 +71,8 @@
 #               e42.33.16 libgee-0.20.8
 #               e42.33.17 libgtop-2.41.3
 #               e42.33.19 libpeas-1.36.0
+#               e43.33.31 DConf-0.40.0
+#               e43.33.33 Gvfs-1.56.1
 #               37.02 libfm-extra-1.3.2             ???
 #               09.07 dbus-glib-0.112               ???
 #               etc
@@ -104,6 +106,8 @@
 #               e42.33.21 evolution-data-server-3.54.3
 #               e42.33.22 tinysparql-3.8.2
 #               e42.33.24 GSound-1.0.3
+#               e43.33.35 Nautilus-47.2
+#               e43.33.41 Mutter-47.5
 #               e12.25.42 Qt-6.7.2                  ???
 #
 # Optionally by:

@@ -10,6 +10,7 @@
 # Recommended by:
 #
 #               e42.33.23 localsearch-3.8.2
+#               e43.33.35 Nautilus-47.2
 #
 # Optionally by:
 #

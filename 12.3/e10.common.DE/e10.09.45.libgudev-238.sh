@@ -15,11 +15,13 @@
 #               e41.12.08 Colord-1.4.7
 #               e41.12.35 UDisks-2.10.1
 #               e41.25.45 WebKitGTK-2.46.6
+#               e43.33.45 gnome-tweaks-46.1
 #
 # Recommended by:
 #
 #               e23.35.10 thunar-4.20.2
 #               e41.42.15 gst-plugins-base-1.26.3   (errata)
+#               e43.33.33 Gvfs-1.56.1
 #
 # Optionally by:
 #

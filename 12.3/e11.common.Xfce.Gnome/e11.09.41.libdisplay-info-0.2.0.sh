@@ -12,6 +12,10 @@
 #
 #               e23.35.08 libxfce4windowing-4.20.2
 #
+# Recommended by:
+#
+#               e43.33.41 Mutter-47.5
+#
 
 export PKG="libdisplay-info-0.2.0"
 export PKGLOG_DIR=$LFSLOG/09.41

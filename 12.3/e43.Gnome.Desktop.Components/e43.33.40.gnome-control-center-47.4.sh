@@ -4,49 +4,49 @@
 #
 # Dependencies Required:
 #
-#               e42.33.14 AccountsService-23.13.9                 
+#               e11.12.02 AccountsService-23.13.9                 
 #               e41.25.07 colord-gtk-0.3.1
-#               xxx.xx.xx Cups-2.4.11
-#             ? e43.33.36 gnome-bluetooth-47.1
+#           ??? xxx.46.01 Cups-2.4.11
+#           ??? e43.33.36 gnome-bluetooth-47.1
 #               e42.33.14 gnome-online-accounts-3.52.3.1
 #               e43.33.38 gnome-settings-daemon-47.2
 #               e42.33.24 gsound-1.0.3
-#               xxx.xx.xx libadwaita-1.6.4
+#               e41.25.28 libadwaita-1.6.4
 #               e42.33.17 libgtop-2.41.3
-#               xxx.xx.xx libnma-1.10.6
-#               xxx.xx.xx libpwquality-1.4.5
-#             ? xxx.xx.xx MIT KerberosV5-1.21.3
-#             ? xxx.xx.xx ModemManager-1.18.12
-#             ? xxx.xx.xx Samba-4.21.4
+#           ??? xxx.17.12 libnma-1.10.6
+#           ??? xxx.04.14 libpwquality-1.4.5
+#           ??? xxx.04.15 MIT KerberosV5-1.21.3
+#           ??? xxx.12.22 ModemManager-1.18.12
+#           ??? xxx.15.10 Samba-4.21.4
 #               d10.11.16 shared-mine-info-2.4
 #               e43.33.39 Tecla-47.0
-#               xxx.xx.xx UDisks-2.10.1
+#               e41.12.35 UDisks-2.10.1
 #
 # Dependencies Recommended:
 #
-#               xxx.xx.xx ibus-1.5.31
+#               e41.11.10 ibus-1.5.31
 #
 # Dependencies Recommended (Runtime):
 #
-#               xxx.xx.xx blocaled-0.7
+#               e41.12.13 blocaled-0.7
 #
 # Dependencies Optional:
 #
 #               Xvfb from
-#                   d20.24.20 Xorg-Server-21.1.16
-#                or
-#                   d20.24.19 Xwayland-24.1.6
+#                   d20.24.20 Xorg-Server-21.1.18   (errata)
+#                or d20.24.19 Xwayland-24.1.8       (errata)
 #
 # Dependencies Optional (Runtime):
 #
-#                           gnome-color-manager-3.36.2
-#                           gnome-shell-47.4
+#               e44.34.08 gnome-color-manager-3.36.2
+#               e43.33.42 gnome-shell-47.4
 #               e11.42.53 sound-theme-freedesktop-0.8
 #
 
 #
-# Required by:
+# Required Runtime by:
 #
+#               e43.33.42 gnome-shell-47.4
 #
 
 export PKG="gnome-control-center-47.4"

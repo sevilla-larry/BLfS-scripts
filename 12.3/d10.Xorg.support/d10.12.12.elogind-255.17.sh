@@ -28,6 +28,11 @@
 #               e41.09.02 AppStream-1.0.5
 #               e41.25.29 libei-1.3.0
 #               e41.42.58 Wireplumber-0.5.8
+#               e43.33.44 gnome-session-47.0.1
+#
+# Required Runtime by:
+#
+#               e43.33.42 gnome-shell-47.4
 #
 # Recommended (runtime) by:
 #
@@ -41,6 +46,7 @@
 #               e11.42.49 PulseAudio-17.0
 #               e41.12.08 Colord-1.4.7
 #               e41.12.35 UDisks-2.10.1
+#               e43.33.33 Gvfs-1.56.1
 #
 
 #

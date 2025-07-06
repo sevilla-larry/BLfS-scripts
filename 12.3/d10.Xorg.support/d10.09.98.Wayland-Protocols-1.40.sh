@@ -19,6 +19,7 @@
 #               e10.09.71 libxkbcommon-1.8.0
 #               e11.42.52 SDL2-2.30.11
 #               e41.42.15 gst-plugins-base-1.26.3   (errata)
+#               e43.33.41 Mutter-47.5
 #
 
 export PKG="wayland-protocols-1.40"

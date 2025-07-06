@@ -13,6 +13,10 @@
 #
 #               e42.33.23 localsearch-3.8.2
 #
+# Recommended by:
+#
+#               e43.33.35 Nautilus-47.2
+#
 
 export PKG="exempi-2.6.6"
 export PKGLOG_DIR=$LFSLOG/09.14
