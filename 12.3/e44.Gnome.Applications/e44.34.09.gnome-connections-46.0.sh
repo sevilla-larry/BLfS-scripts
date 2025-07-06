@@ -10,7 +10,7 @@
 #               e11.49.05 itstool-2.0.7
 #               e11.25.32 libhandy-1.8.3
 #               e42.33.04 libsecret-0.21.6
-#               e10.13.36 Vala-0.56.17
+#               e11.13.36 Vala-0.56.17
 #
 
 export PKG="gnome-connections-46.0"

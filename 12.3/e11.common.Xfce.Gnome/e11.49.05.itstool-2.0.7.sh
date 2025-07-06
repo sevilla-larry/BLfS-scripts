@@ -12,10 +12,21 @@
 #
 #               f2.26.02  lightdm-1.32.0
 #               g42.34.04 Evince-46.3.1
+#               e44.34.04 Evince-46.3.1
 #               e41.09.02 AppStream-1.0.5
 #               e42.33.08 yelp-xsl-42.4     (errata)
 #               e42.33.12 gnome-desktop-44.1
 #               e43.33.46 gnome-user-docs-47.2
+#               e44.34.01 Baobab-47.0
+#               e44.34.06 File-Roller-44.5
+#               e44.34.07 gnome-calculator-47.1
+#               e44.34.08 gnome-color-manager-3.36.2
+#               e44.34.09 gnome-connections-46.0
+#               e44.34.10 gnome-disk-utility-46.1
+#               e44.34.12 gnome-nettool-42.0
+#               e44.34.15 gnome-system-monitor-47.1
+#               e44.34.16 gnome-terminal-3.54.2
+#               e44.34.18 Gucharmap-16.0.2
 #               ???.11.07 GTK-Doc-1.33.2
 #
 

@@ -18,7 +18,7 @@
 #               a.08.91.07 icu-76.1
 #               e11.42.26  libcanberra-0.30
 #               e42.33.18  libgweather-4.4.4
-#               e10.13.36  Vala-0.56.17
+#               e11.13.36  Vala-0.56.17
 #               e41.25.45  WebKitGTK-2.48.3 (GTK-4) (errata)
 #
 

@@ -8,7 +8,7 @@
 #               e13.09.29 JSON-GLib-1.10.6
 #               e41.25.28 libadwaita-1.6.4
 #               e42.33.05 rest-0.9.1
-#               e10.13.36 Vala-0.56.17
+#               e11.13.36 Vala-0.56.17
 #
 # Dependencies Recommended:
 #

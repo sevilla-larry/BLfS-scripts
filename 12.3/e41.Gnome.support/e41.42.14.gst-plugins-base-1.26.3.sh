@@ -49,6 +49,7 @@
 # Optionally by:
 #
 #               g42.34.04 Evince-46.3.1
+#               e44.34.04 Evince-46.3.1
 #
 
 export PKG="gst-plugins-base-1.26.3"

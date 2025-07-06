@@ -7,7 +7,7 @@
 #
 #               e11.25.16 GTK-3.24.48
 #           ??? e41.25.18 GTK-4.16.12   OFF
-#               e10.10.24 librsvg-2.59.2
+#               e11.10.24 librsvg-2.59.2
 #
 # Dependencies Optional:
 #

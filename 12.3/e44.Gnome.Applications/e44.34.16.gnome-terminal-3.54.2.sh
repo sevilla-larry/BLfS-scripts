@@ -14,7 +14,7 @@
 # Dependencies Recommended:
 #
 #               e43.33.42 gnome-shell-47.4
-#               e43.33.36 Nautilus-47.2
+#               e43.33.35 Nautilus-47.2
 #
 # Dependencies Optional:
 #

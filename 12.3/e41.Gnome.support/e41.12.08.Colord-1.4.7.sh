@@ -15,7 +15,7 @@
 # Dependencies Recommended:
 #
 #               d10.12.12 elogind-255.17
-#               e10.13.36 Vala-0.56.17
+#               e11.13.36 Vala-0.56.17
 #
 # Dependencies Optional:
 #
@@ -27,7 +27,8 @@
 #
 # Required by:
 #
-#               e41.25.07 colord-gtk-0.3.1
+#               e41.25.07 Colord-gtk-0.3.1
+#               e44.34.08 gnome-color-manager-3.36.2
 #
 # Recommended by:
 #

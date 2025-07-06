@@ -31,6 +31,7 @@
 # Required by:
 #
 #               e43.33.40 gnome-control-center-47.4
+#               e44.34.10 gnome-disk-utility-46.1
 #
 # Recommended by:
 #

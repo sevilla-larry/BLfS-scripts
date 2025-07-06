@@ -45,6 +45,7 @@
 #               e42.33.07 VTE-0.76.4
 #               g42.41.12 xarchiver-0.5.4.23
 #               g42.34.04 Evince-46.3.1
+#               e44.34.04 Evince-46.3.1
 #               g22.40.03 Firefox-128.11.0esr   (errata)
 #               e41.09.03 appstream-glib-0.8.3
 #               e41.10.17 libgxps-0.3.2
@@ -59,6 +60,11 @@
 #               e42.33.18 libgweather-4.4.4
 #               e42.33.19 libpeas-1.36.0
 #               e43.33.31 DConf-0.40.0
+#               e44.34.08 gnome-color-manager-3.36.2
+#               e44.34.12 gnome-nettool-42.0
+#               e44.34.13 gnome-power-manager-43.0
+#               e44.34.14 gnome-screenshot-41.0
+#               e44.34.18 Gucharmap-16.0.2
 #
 # Recommended by:
 #

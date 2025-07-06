@@ -5,7 +5,13 @@
 # Dependencies Required:
 #
 #               d10.09.17 GLib-2.82.5
-#               e10.13.35 Vala-0.56.17
+#               e11.13.35 Vala-0.56.17
+#
+
+#
+# Required by:
+#
+#               e44.34.07 gnome-calculator-47.1
 #
 
 export PKG="libgee-0.20.8"

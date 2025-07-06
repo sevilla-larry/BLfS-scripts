@@ -8,7 +8,7 @@
 #               e41.25.17 GTK-4.16.12
 #               e11.49.05 itstool-2.0.7
 #               e41.25.28 libadwaita-1.6.4
-#               e10.13.36 Vala-0.56.17
+#               e11.13.36 Vala-0.56.17
 #
 
 export PKG="baobab-47.0"

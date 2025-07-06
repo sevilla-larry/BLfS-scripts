@@ -41,7 +41,7 @@
 #
 # Optionally by:
 #
-#               e10.13.36 Vala-0.56.17
+#               e11.13.36 Vala-0.56.17
 #               e31.27.03 openbox-3.6.1         ???
 #
 # Optional (runtime) by:

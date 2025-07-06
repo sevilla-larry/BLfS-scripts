@@ -8,6 +8,14 @@
 #               e11.49.05 itstool-2.0.7
 #               e42.33.17 libgtop-2.41.3
 #
+# Dependencies Runtime:
+#
+#               e41.16.02 BIND Utilities-9.20.6
+#               b10.16.05 Nmap-7.95
+#               b10.15.04 Net-tools-2.10
+#               e41.16.06 Traceroute-2.1.6
+#               e41.16.07 Whois-5.4.3
+#
 
 export PKG="gnome-nettool-42.0"
 export PKGLOG_DIR=$LFSLOG/34.12

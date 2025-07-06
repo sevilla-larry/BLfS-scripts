@@ -13,6 +13,12 @@
 #               e41.13.24.23 PyGObject-3.50.0
 #
 
+#
+# Required by:
+#
+#               e44.34.03 EOG-47.0
+#
+
 export PKG="libpeas-1.36.0"
 export PKGLOG_DIR=$LFSLOG/33.19
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log

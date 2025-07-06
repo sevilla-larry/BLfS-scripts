@@ -8,12 +8,18 @@
 #
 
 #
+# Required by:
+#
+#               e44.34.18 Gucharmap-16.0.2
+#
 # Recommended by:
 #
 #               e43.33.35 Nautilus-47.2
 #               e43.33.41 Mutter-47.5
 #               e43.33.42 gnome-shell-47.4
 #               e43.33.47 Yelp-42.3             (errata)
+#               e44.34.06 File-Roller-44.5
+#               e44.34.08 gnome-color-manager-3.36.2
 #
 # Runtime needed for test by: ( not implemented )
 #
@@ -22,6 +28,8 @@
 # Optionally by:
 #
 #               g22.39.03 LibreOffice-25.2.3	(errata)
+#               e44.34.15 gnome-system-monitor-47.1
+#               e44.34.16 gnome-terminal-3.54.2
 #
 
 export PKG="desktop-file-utils-0.28"

@@ -30,6 +30,7 @@
 #               e10.10.14 Little CMS-2.17
 #               e10.10.31 OpenJPEG-2.5.3
 #               g42.34.04 Evince-46.3.1
+#               e44.34.04 Evince-46.3.1
 #
 
 export PKG="tiff-4.7.0"

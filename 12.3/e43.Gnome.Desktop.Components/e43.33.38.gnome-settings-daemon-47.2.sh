@@ -42,6 +42,7 @@
 #
 #               e43.33.40 gnome-control-center-47.4
 #               e43.33.41 Mutter-47.5
+#               e44.34.10 gnome-disk-utility-46.1
 #
 
 export PKG="gnome-settings-daemon-47.2"

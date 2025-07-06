@@ -41,7 +41,7 @@
 #               e11.25.03 at-spi2-core-2.54.1
 #               e10.25.10 gdk-pixbuf-2.42.12
 #               e10.25.37 Pango-1.56.1
-#               e10.13.36 Vala-0.56.17
+#               e11.13.36 Vala-0.56.17
 #               e11.25.36 libxklavier-5.4
 #               e11.33.03 gsettings-desktop-schemas-47.1
 #               e11.10.33 Poppler-25.02.0
@@ -82,12 +82,13 @@
 #               d10.10.12 harfBuzz-10.4.0
 #				e10.25.04 Cairo-1.18.2
 #               e11.12.02 AccountsService-23.13.9
-#               e10.10.24 librsvg-2.59.2
+#               e11.10.24 librsvg-2.59.2
 #               e11.33.07 VTE-0.78.4
 #               e42.33.07 VTE-0.76.4
 #               f2.26.02  lightdm-1.32.0
 #               e11.42.49 PulseAudio-17.0
 #               g42.34.04 Evince-46.3.1
+#               e44.34.04 Evince-46.3.1
 #               e41.09.46 libgusb-0.4.9
 #               e41.09.47 libical-3.0.19
 #               e41.11.10 ibus-1.5.31
@@ -108,6 +109,8 @@
 #               e42.33.24 GSound-1.0.3
 #               e43.33.35 Nautilus-47.2
 #               e43.33.41 Mutter-47.5
+#               e44.34.03 EOG-47.0
+#               e44.34.18 Gucharmap-16.0.2
 #               e12.25.42 Qt-6.7.2                  ???
 #
 # Optionally by:

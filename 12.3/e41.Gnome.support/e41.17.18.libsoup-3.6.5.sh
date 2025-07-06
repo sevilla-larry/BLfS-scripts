@@ -14,7 +14,7 @@
 # Dependencies Recommended:
 #
 #               d10.09.17 GLib-2.82.5
-#               e10.13.36 Vala-0.56.17
+#               e11.13.36 Vala-0.56.17
 #
 # Dependencies Optional (required for test suite):
 #
@@ -35,6 +35,7 @@
 #               e42.33.09 geocode-glib-3.26.4
 #               e42.33.18 libgweather-4.4.4
 #               e42.33.20 libshumate-1.3.2
+#               e44.34.07 gnome-calculator-47.1
 #
 # Recommended by:
 #

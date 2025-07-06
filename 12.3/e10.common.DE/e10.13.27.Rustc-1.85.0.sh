@@ -22,7 +22,7 @@
 #
 # Required by:
 #
-#               e10.10.24 librsvg-2.59.2
+#               e11.10.24 librsvg-2.59.2
 #               e10.13.01 cargo-c-0.10.11
 #               e10.13.02 Cbindgen-0.28.0
 #

@@ -24,6 +24,8 @@ https://www.linuxfromscratch.org/patches/blfs/svn/giflib-5.2.2-security_fixes-1.
 https://github.com/AOMediaCodec/libavif/archive/v1.2.0/libavif-1.2.0.tar.gz
 # 10.19 libjxl-0.11.1
 https://github.com/libjxl/libjxl/archive/v0.11.1/libjxl-0.11.1.tar.gz
+# 10.24 librsvg-2.59.2
+https://download.gnome.org/sources/librsvg/2.59/librsvg-2.59.2.tar.xz
 # 10.27 libwebp-1.5.0
 https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.5.0.tar.gz
 # 10.33 Poppler-25.02.0
@@ -32,6 +34,9 @@ https://poppler.freedesktop.org/poppler-data-0.4.12.tar.gz
 
 # 12.21 AccountsService-23.13.9
 https://www.freedesktop.org/software/accountsservice/accountsservice-23.13.9.tar.xz
+
+# 13.36 Vala-0.56.17
+https://download.gnome.org/sources/vala/0.56/vala-0.56.17.tar.xz
 
 # 25.03 at-spi2-core-2.54.1
 https://download.gnome.org/sources/at-spi2-core/2.54/at-spi2-core-2.54.1.tar.xz

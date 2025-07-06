@@ -2,9 +2,12 @@
 #
 
 #
-# Recommended by:
+# Required Runtime by:
 #
 #               e44.34.12 gnome-nettool-42.0
+#
+# Recommended by:
+#
 #				openstack
 #
 

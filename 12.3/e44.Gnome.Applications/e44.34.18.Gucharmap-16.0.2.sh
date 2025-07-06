@@ -1,18 +1,24 @@
 # e43.34.18.Gucharmap-16.0.2.sh
 #
 
-#                        
 #
 # Dependencies Required:
 #
-#                  xxx.xx.xx GeoClue-2.7.2
-#                  xxx.xx.xx Gjs-1.82.1
-#                  xxx.xx.xx libadwaita-1.6.4
-#                  e42.33.18 libgweather-4.4.4
+#               d10.11.04  desktop-file-utils-0.28
+#               e11.33.03  gsettings-desktop-schemas-47.1
+#               e11.25.16  GTK-3.24.48
+#               e11.49.05  itstool-2.0.7
+#               a.08.91.12 libarchive-3.8.1
+#               a.08.91.11 PCRE2-10.45
 #
+# Dependencies Recommended:
 #
-# Required by:
+#               d10.09.17 GLib-2.82.5
+#               e11.13.36 Vala-0.56.17
 #
+# Dependencies Optional:
+#
+#               e41.09.03 appstream-glib-0.8.3
 #
 
 export PKG="Gucharmap-16.0.2"

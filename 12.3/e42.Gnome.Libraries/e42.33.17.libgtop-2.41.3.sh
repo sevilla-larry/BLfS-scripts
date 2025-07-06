@@ -13,6 +13,8 @@
 #
 #               e43.33.40 gnome-control-center-47.4
 #               e43.33.43 gnome-shell-extensions-47.4
+#               e44.34.12 gnome-nettool-42.0
+#               e44.34.15 gnome-system-monitor-47.1
 #
 
 export PKG="libgtop-2.41.3"

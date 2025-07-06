@@ -13,13 +13,14 @@
 #
 #               d10.09.17  GLib-2.82.5
 #               a.08.91.08 libxml2-2.14.3       (errata)
-#               e10.13.36  Vala-0.56.17
+#               e11.13.36  Vala-0.56.17
 #
 
 #
 # Required by:
 #
 #				e43.33.38 gnome-settings-daemon-47.2
+#               e44.34.17 gnome-weather-47.0
 #
 # Recommended by:
 #

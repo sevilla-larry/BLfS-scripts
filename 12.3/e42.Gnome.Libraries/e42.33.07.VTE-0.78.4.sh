@@ -15,13 +15,13 @@
 #               a.08.91.63 GnuTLS-3.8.9
 #               d10.09.17  GLib-2.82.5
 #               e41.25.17  GTK-4.16.12
-#               e10.13.36  Vala-0.56.17
+#               e11.13.36  Vala-0.56.17
 #
 
 #
 # Required by:
 #
-#
+#               e44.34.16 gnome-terminal-3.54.2
 #
 
 export PKG="vte-0.78.4"

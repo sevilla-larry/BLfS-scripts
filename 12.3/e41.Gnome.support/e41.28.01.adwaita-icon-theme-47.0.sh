@@ -7,7 +7,7 @@
 #
 #               e11.25.16 GTK-3.24.48
 #            or e41.25.17 GTK-4.16.12
-#               e10.10.24 librsvg-2.59.2
+#               e11.10.24 librsvg-2.59.2
 #
 # Dependencies Optional:
 #
@@ -17,7 +17,10 @@
 #
 # Required by:
 #
+#               e44.34.01 Baobab-47.0
+#               e44.34.03 EOG-47.0
 #               e44.34.04 Evince-46.3.1
+#               e44.34.15 gnome-system-monitor-47.1
 #
 # Recommended by:
 #

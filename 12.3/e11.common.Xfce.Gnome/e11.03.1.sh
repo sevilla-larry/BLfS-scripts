@@ -10,6 +10,34 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
 #####
 
+echo "e11.13.36.Vala-0.56.17"
+echo "e11.13.36.Vala-0.56.17" >> $LFSLOG_PROCESS
+
+time { bash e11.13.36.Vala-0.56.17.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "e11.10.24.librsvg-2.59.2"
+echo "e11.10.24.librsvg-2.59.2" >> $LFSLOG_PROCESS
+
+time { bash e11.10.24.librsvg-2.59.2.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
 echo "e11.09.06.Aspell-0.60.8.1"
 echo "e11.09.06.Aspell-0.60.8.1" >> $LFSLOG_PROCESS
 

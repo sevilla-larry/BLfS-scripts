@@ -8,15 +8,21 @@
 #
 # Dependencies Recommended:
 #
-#               e10.13.36 Vala-0.56.17
+#               e11.13.36 Vala-0.56.17
 #
 
 #
 # Required by:
 #
 #               g42.34.04 Evince-46.3.1
+#               e44.34.04 Evince-46.3.1
 #               e43.33.31 DConf-0.40.0
 #               e43.33.47 Yelp-42.3             (errata)
+#               e44.34.03 EOG-47.0
+#               e44.34.09 gnome-connections-46.0
+#               e44.34.10 gnome-disk-utility-46.1
+#               e44.34.14 gnome-screenshot-41.0
+#               e44.34.16 gnome-terminal-3.54.2
 #
 
 export PKG="libhandy-1.8.3"

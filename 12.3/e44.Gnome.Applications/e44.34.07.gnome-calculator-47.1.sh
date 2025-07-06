@@ -15,10 +15,6 @@
 #               e11.13.35 Vala-0.56.17
 #
 
-# Required by:
-#
-#
-
 export PKG="gnome-calculator-47.1"
 export PKGLOG_DIR=$LFSLOG/34.07
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log

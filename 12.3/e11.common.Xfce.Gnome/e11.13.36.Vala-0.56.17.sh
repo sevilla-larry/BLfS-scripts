@@ -1,4 +1,4 @@
-# e10.13.36.Vala-0.56.17.sh
+# e11.13.36.Vala-0.56.17.sh
 #
 
 #
@@ -19,12 +19,14 @@
 #               e42.33.14 gnome-online-accounts-3.52.3.1
 #               e42.33.16 libgee-0.20.8
 #               e42.33.22 tinysparql-3.8.2
+#               e44.34.01 Baobab-47.0
+#               e44.34.09 gnome-connections-46.0
 #
 # Recommended by:
 #
 #               e23.35.01 libxfce4util-4.20.0
 #               e11.12.02 AccountsService-23.13.9
-#               e10.10.24 librsvg-2.59.2
+#               e11.10.24 librsvg-2.59.2
 #               e21.33.07 VTE-0.78.4
 #               e42.33.07 VTE-0.78.4
 #               f2.26.02  lightdm-1.32.0
@@ -46,12 +48,14 @@
 #               e42.33.24 GSound-1.0.3
 #               e43.33.31 DConf-0.40.0
 #               e43.33.34 gexiv2-0.14.3
+#               e44.34.07 gnome-calculator-47.1
+#               e44.34.18 Gucharmap-16.0.2
 #               ???.37.04 libfm-1.3.2           ???
 #
 # Optionally ( but needed ) by:
 #
 #               e23.35.02 Xfconf-4.20.0
-#               g21.25.23 gtksourceview4-4.8.4  ???
+#               g21.25.23 gtksourceview4-4.8.4
 #               e41.25.23 gtksourceview5-5.14.2
 #
 # Optionally by:

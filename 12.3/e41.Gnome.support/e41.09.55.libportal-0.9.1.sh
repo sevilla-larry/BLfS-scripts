@@ -20,13 +20,21 @@
 # Dependencies Optional:
 #
 #               a.08.91.20.10 Pytest-8.3.4
-#               e10.13.36     Vala-0.56.17
+#               e11.13.36     Vala-0.56.17
 #
 
 #
 # Required by:
 #
 #               e43.33.35 Nautilus-47.2
+#
+# Recommended by:
+#
+#               e44.34.06 File-Roller-44.5
+#
+# Optionally by:
+#
+#               e44.34.03 EOG-47.0
 #
 
 export PKG="libportal-0.9.1"

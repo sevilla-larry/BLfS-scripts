@@ -10,7 +10,7 @@
 #
 #               a.08.91.35 libgcrypt-1.11.0
 #            or a.08.91.63 GnuTLS-3.8.9
-#               e10.13.36  Vala-0.56.17
+#               e11.13.36  Vala-0.56.17
 #
 # Dependencies Optional:
 #
@@ -29,6 +29,8 @@
 #               e41.25.45 WebKitGTK-2.46.6
 #               e42.33.21 evolution-data-server-3.54.3
 #               e43.33.33 Gvfs-1.56.1
+#               e44.34.09 gnome-connections-46.0
+#               e44.34.10 gnome-disk-utility-46.1
 #
 # Recommended by:
 #

@@ -10,7 +10,7 @@
 #
 # Dependencies Recommended:
 #
-#               e10.13.36 Vala-0.56.17
+#               e11.13.36 Vala-0.56.17
 #
 # Dependencies Optional:
 #
@@ -26,6 +26,14 @@
 #               e43.33.39 Tecla-47.0
 #               e43.33.40 gnome-control-center-47.4
 #               e43.33.45 gnome-tweaks-46.1
+#               e44.34.01 Baobab-47.0
+#               e44.34.07 gnome-calculator-47.1
+#               e44.34.15 gnome-system-monitor-47.1
+#               e44.34.17 gnome-weather-47.0
+#
+# Recommended by:
+#
+#               e44.34.06 File-Roller-44.5
 #
 # Optionally by:
 #

@@ -12,13 +12,14 @@
 #               e41.16.01 Avahi-0.8
 #               e11.25.35 libnotify-0.8.4
 #           ??? e41.12.22 ModemManager-1.18.12  (deferred)
-#               e10.13.36 Vala-0.56.17
+#               e11.13.36 Vala-0.56.17
 #
 
 #
 # Required by:
 #
 #				e43.33.38 gnome-settings-daemon-47.2
+#               e44.34.17 gnome-weather-47.0
 #
 # Recommended by:
 #

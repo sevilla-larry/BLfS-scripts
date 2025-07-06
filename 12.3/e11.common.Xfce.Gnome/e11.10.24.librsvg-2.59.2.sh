@@ -1,4 +1,4 @@
-# e10.10.24.librsvg-2.59.2.sh
+# e11.10.24.librsvg-2.59.2.sh
 #
 
 #
@@ -14,7 +14,7 @@
 # Dependencies Recommended:
 #
 #               d10.09.17 GLib-2.82.5
-#               e10.13.36 Vala-0.56.17
+#               e11.13.36 Vala-0.56.17
 #
 # Dependencies Optional:
 #
@@ -32,6 +32,7 @@
 #
 #               g22.39.03 LibreOffice-25.2.3	(errata)
 #               e41.25.17 GTK-4.16.12
+#               e44.34.03 EOG-47.0
 #
 # Optionally by:
 #

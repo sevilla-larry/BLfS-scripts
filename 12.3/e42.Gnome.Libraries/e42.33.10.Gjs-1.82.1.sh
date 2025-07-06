@@ -19,6 +19,7 @@
 # Required by:
 #
 #               e43.33.42 gnome-shell-47.4
+#               e44.34.17 gnome-weather-47.0
 #
 
 export PKG="gjs-1.82.1"

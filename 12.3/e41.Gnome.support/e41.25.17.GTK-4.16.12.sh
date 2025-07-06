@@ -22,7 +22,7 @@
 #               e41.11.06 glslc from shaderc-2024.4 (PCs)
 #               e41.42.15 gst-plugins-good-1.26.3   (errata) (runtime)
 #               e10.28.07 hicolor-icon-theme-0.18   (test)
-#               e10.10.24 librsvg-2.59.2
+#               e11.10.24 librsvg-2.59.2
 #               d20.25.44 Vulkan-Loader-1.4.304     (PCs)
 #
 # Dependencies Optional:
@@ -44,6 +44,8 @@
 #               e42.33.20 libshumate-1.3.2
 #               e42.33.25 xdg-desktop-portal-gnome-47.3
 #               e43.33.45 gnome-tweaks-46.1
+#               e44.34.01 Baobab-47.0
+#               e44.34.06 File-Roller-44.5
 #
 # Recommended by:
 #

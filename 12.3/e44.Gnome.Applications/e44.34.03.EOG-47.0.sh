@@ -17,7 +17,7 @@
 #               d10.09.17 GLib-2.82.5
 #               e10.10.14 Little CMS-2.16
 #               e10.10.16 libexif-0.6.25
-#               e10.10.24 librsvg-2.59.2
+#               e11.10.24 librsvg-2.59.2
 #               e41.10.38 webp-pixbuf-loader-0.2.7
 #
 # Dependencies Optional:

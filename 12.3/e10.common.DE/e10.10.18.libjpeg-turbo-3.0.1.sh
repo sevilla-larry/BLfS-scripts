@@ -19,6 +19,7 @@
 #               e41.10.17 libgxps-0.3.2
 #               e11.10.19 libjxl-0.11.1
 #               e12.10.20 libmng-2.0.3          ???
+#               e44.34.03 EOG-47.0
 #
 # Recommended by:
 #

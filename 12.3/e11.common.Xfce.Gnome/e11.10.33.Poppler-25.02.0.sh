@@ -41,6 +41,7 @@
 # Recommended ( but needed ) by:
 #
 #               g42.34.04 Evince-46.3.1
+#               e44.34.04 Evince-46.3.1
 #
 # Optionally by:
 #

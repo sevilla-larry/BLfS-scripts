@@ -20,7 +20,7 @@
 #               e13.09.29  JSON-Glib-1.10.6
 #               e10.10.14  LittleCMS-2.17
 #               e10.10.16  libexif-0.6.25
-#               e10.10.24  librsvg-2.59.2
+#               e11.10.24  librsvg-2.59.2
 #               e10.42.40  libsndfile-1.2.2
 #               a.08.91.68 libssh2-1.11.1
 #               e10.09.69  libusb-1.0.27

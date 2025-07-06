@@ -17,7 +17,7 @@
 #
 #               d10.09.17 GLib-2.82.5
 #               e11.25.36 libxklavier-5.4
-#               e10.13.36 Vala-0.56.17
+#               e11.13.36 Vala-0.56.17
 #
 # Dependencies Optional:
 #

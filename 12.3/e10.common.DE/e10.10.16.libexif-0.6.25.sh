@@ -11,6 +11,7 @@
 #
 #               e42.33.23 localsearch-3.8.2
 #               e43.33.35 Nautilus-47.2
+#               e44.34.03 EOG-47.0
 #
 # Optionally by:
 #

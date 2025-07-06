@@ -32,7 +32,7 @@
 #               a.08.91.07   icu-76.1
 #               g11.09.35    libatomic_ops-7.8.2
 #               e10.10.14    LittleCMS-2.17
-#               e10.10.24    librsvg-2.59.2
+#               e11.10.24    librsvg-2.59.2
 #               e10.10.26    libtiff-4.7.0
 #               e11.10.27    libwebp-1.5.0
 #               a.08.91.08   libxml2-2.14.3     (errata)

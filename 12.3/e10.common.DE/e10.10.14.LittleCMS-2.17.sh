@@ -15,11 +15,13 @@
 #               e41.12.08 Colord-1.4.7
 #               e41.25.45 WebKitGTK-2.46.6
 #               e11.10.19 libjxl-0.11.1
+#               e44.34.08 gnome-color-manager-3.36.2
 #
 # Recommended by:
 #
 #               e11.10.33 Poppler-25.02.0
 #               g22.39.03 LibreOffice-25.2.3	(errata)
+#               e44.34.03 EOG-47.0
 #               e12.25.42 Qt-6.7.2              ???
 #
 # Optionally by:

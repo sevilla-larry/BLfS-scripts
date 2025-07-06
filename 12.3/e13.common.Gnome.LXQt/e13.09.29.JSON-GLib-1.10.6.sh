@@ -19,6 +19,10 @@
 #               e42.33.22 tinysparql-3.8.2
 #               e43.33.44 gnome-session-47.0.1
 #
+# Recommended by:
+#
+#               e44.34.06 File-Roller-44.5
+#
 # Optionally by:
 #
 #               e41.42.16 gst-plugins-bad-1.26.3    (errata)

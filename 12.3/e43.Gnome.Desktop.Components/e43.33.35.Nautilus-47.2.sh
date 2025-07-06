@@ -33,6 +33,13 @@
 #               e42.33.23 localsearch-3.8.2
 #
 
+#
+# Recommended by:
+#
+#               e44.34.06 File-Roller-44.5
+#               e44.34.16 gnome-terminal-3.54.2
+#
+
 export PKG="nautilus-47.2"
 export PKGLOG_DIR=$LFSLOG/33.35
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log

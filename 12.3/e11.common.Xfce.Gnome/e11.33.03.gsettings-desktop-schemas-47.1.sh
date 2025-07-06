@@ -11,9 +11,12 @@
 # Required by:
 #
 #               g42.34.04 Evince-46.3.1
+#               e44.34.04 Evince-46.3.1
 #               e42.33.12 gnome-desktop-44.1
 #               e43.33.45 gnome-tweaks-46.1
 #               e43.33.47 Yelp-42.3             (errata)
+#               e44.34.16 gnome-terminal-3.54.2
+#               e44.34.18 Gucharmap-16.0.2
 #
 # Recommended by:
 #

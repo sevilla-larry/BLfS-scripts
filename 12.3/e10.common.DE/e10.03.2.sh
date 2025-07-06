@@ -36,20 +36,6 @@ echo "."
 
 ###
 
-echo "e10.13.36.Vala-0.56.17"
-echo "e10.13.36.Vala-0.56.17" >> $LFSLOG_PROCESS
-
-time { bash e10.13.36.Vala-0.56.17.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
-
-###
-
 echo "e10.13.01.cargo-c-0.10.11"
 echo "e10.13.01.cargo-c-0.10.11" >> $LFSLOG_PROCESS
 
@@ -292,20 +278,6 @@ echo "e10.25.37.Pango-1.56.1"
 echo "e10.25.37.Pango-1.56.1" >> $LFSLOG_PROCESS
 
 time { bash e10.25.37.Pango-1.56.1.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
-
-###
-
-echo "e10.10.24.librsvg-2.59.2"
-echo "e10.10.24.librsvg-2.59.2" >> $LFSLOG_PROCESS
-
-time { bash e10.10.24.librsvg-2.59.2.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

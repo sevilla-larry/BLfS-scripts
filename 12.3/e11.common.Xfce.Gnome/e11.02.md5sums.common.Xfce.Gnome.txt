@@ -24,6 +24,8 @@ c6f1bf4bd2aaa79cd1635dcc070ba51a libassuan-3.0.2.tar.bz2
 ec292cb8d51c0aa02f9fd5ef2419c853 libavif-1.2.0.tar.gz
 # 10.19 libjxl-0.11.1
 8f26fc954c2d9cb377544a5f029182ef libjxl-0.11.1.tar.gz
+# 10.24 librsvg-2.59.2
+6d495c8bb2ee0cb0a62856c790a67298 librsvg-2.59.2.tar.xz
 # 10.27 libwebp-1.5.0
 8f659e426eaa2aeec4b36bc9ea43b3f3 libwebp-1.5.0.tar.gz
 # 10.33 Poppler-25.02.0
@@ -32,6 +34,9 @@ feae5e0715ed7738fcb4220730a3ff4c poppler-25.02.0.tar.xz
 
 # 12.21 AccountsService-23.13.9
 03dccfe1b306b7ca19743e86d118e64d accountsservice-23.13.9.tar.xz
+
+# 13.36 Vala-0.56.17
+134075855867fdd9c51ca7555c4951bb vala-0.56.17.tar.xz
 
 # 25.03 at-spi2-core-2.54.1
 a05ad6cf4a49b19964cc5eec363d2310 at-spi2-core-2.54.1.tar.xz

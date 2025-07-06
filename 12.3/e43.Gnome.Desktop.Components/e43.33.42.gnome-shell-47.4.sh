@@ -38,6 +38,10 @@
 #
 
 #
+# Recommended by:
+#
+#               e44.34.16 gnome-terminal-3.54.2
+#
 # Optionally (Runtime) by:
 #
 #               e43.33.40 gnome-control-center-47.4

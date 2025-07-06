@@ -17,6 +17,7 @@
 # Required by:
 #
 #               e41.25.28 libadwaita-1.6.4
+#               e44.34.09 gnome-connections-46.0
 #
 
 export PKG="AppStream-1.0.5"

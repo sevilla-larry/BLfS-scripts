@@ -12,10 +12,14 @@
 #
 # Dependencies Recommended:
 #
-#               e10.13.36  Vala-0.56.17
+#               e11.13.36  Vala-0.56.17
 #               a.08.91.38 libxslt-1.1.43 (errata)
 #
 
+#
+# Required by:
+#
+#               e44.34.16 gnome-terminal-3.54.2
 #
 # Recommended by:
 #

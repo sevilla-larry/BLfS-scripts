@@ -18,6 +18,7 @@
 # Required by:
 #
 #               g42.34.04 Evince-46.3.1
+#               e44.34.04 Evince-46.3.1
 #               e41.25.45 WebKitGTK-2.46.6
 #
 # Recommended by:

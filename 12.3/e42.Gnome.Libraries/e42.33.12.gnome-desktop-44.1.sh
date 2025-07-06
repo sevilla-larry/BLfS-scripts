@@ -28,6 +28,7 @@
 #				e43.33.38 gnome-settings-daemon-47.2
 #               e43.33.42 gnome-shell-47.4
 #               e43.33.44 gnome-session-47.0.1
+#               e44.34.03 EOG-47.0
 #
 
 export PKG="gnome-desktop-44.1"
