@@ -11,7 +11,7 @@
 #               a.08.91.12 libarchive-3.8.1 (errata)
 #               d10.13.13  LLVM-19.1.7
 #               g11.09.80  Node.js-22.14.0
-#               e11.42.49  PulseAudio-17.0
+#               e10.42.49  PulseAudio-17.0
 #               a.08.91.19 Python-3.1{2,3}.x
 #               e11.25.42  startup-notification-0.12
 #
@@ -20,7 +20,7 @@
 #               a.08.91.07 icu-76.1
 #               a.08.91.14 libevent-2.1.12
 #               e11.42.45  libvpx-1.15.2    (errata)
-#               e11.10.27  libwebp-1.5.0
+#               e10.10.27  libwebp-1.5.0
 #               e10.13.17  NASM-2.16.03
 #               a.08.91.32 NSS-3.108
 #

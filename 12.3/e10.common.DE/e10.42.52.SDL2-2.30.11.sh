@@ -1,4 +1,4 @@
-# e11.42.52.SDL2-2.30.11.sh
+# e10.42.52.SDL2-2.30.11.sh
 #
 
 #
@@ -12,19 +12,18 @@
 #
 #               e10.42.01 alsa-lib-1.2.13
 #               e10.13.17 NASM-2.16.03
-#               e11.42.49 PulseAudio-17.0 (GTK)
-#           ??? ?11.42.49 PulseAudio-17.0 (???)
+#               e10.42.49 PulseAudio-17.0
 #
 
 #
 # Recommended by:
 #
-#               e11.10.27 libwebp-1.5.0
+#               e10.10.27 libwebp-1.5.0
 #               e11.44.01 FFmpeg-7.1
 #
 # Optionally by:
 #
-#               e41.42.15 gst-plugins-base-1.26.3   (errata)
+#               e41.42.14 gst-plugins-base-1.26.3   (errata)
 #               e41.42.48 Pipewire-1.2.7
 #               e41.42.57 v4l-utils-1.28.1
 #

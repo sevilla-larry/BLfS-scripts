@@ -26,8 +26,6 @@ ec292cb8d51c0aa02f9fd5ef2419c853 libavif-1.2.0.tar.gz
 8f26fc954c2d9cb377544a5f029182ef libjxl-0.11.1.tar.gz
 # 10.24 librsvg-2.59.2
 6d495c8bb2ee0cb0a62856c790a67298 librsvg-2.59.2.tar.xz
-# 10.27 libwebp-1.5.0
-8f659e426eaa2aeec4b36bc9ea43b3f3 libwebp-1.5.0.tar.gz
 # 10.33 Poppler-25.02.0
 feae5e0715ed7738fcb4220730a3ff4c poppler-25.02.0.tar.xz
 67ee4a40aa830b1f6e2560ce5f6471ba poppler-data-0.4.12.tar.gz
@@ -77,10 +75,6 @@ baed6dfc87bed705c1955cc6b932d7f6 libass-0.17.3.tar.xz
 # 6d2b7b8e1c06f4b10ae63ca22491f8a4 libvpx-1.15.0.tar.gz
 # 42.45 libvpx-1.15.2	(errata)
 4c7a93808c12b359733430c8377b7fcf libvpx-1.15.2.tar.gz
-# 42.49 PulseAudio-17.0
-c4a3596a26ff4b9dcd0c394dd1d4f8ee pulseaudio-17.0.tar.xz
-# 42.52 SDL2-2.30.11
-bea190b480f6df249db29eb3bacfe41e SDL2-2.30.11.tar.gz
 # 42.53 sound-theme-freedesktop-0.8
 d7387912cfd275282d1ec94483cb2f62 sound-theme-freedesktop-0.8.tar.bz2
 # 42.59 x264-20250212

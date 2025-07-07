@@ -34,7 +34,7 @@
 #               e10.10.14    LittleCMS-2.17
 #               e11.10.24    librsvg-2.59.2
 #               e10.10.26    libtiff-4.7.0
-#               e11.10.27    libwebp-1.5.0
+#               e10.10.27    libwebp-1.5.0
 #               a.08.91.08   libxml2-2.14.3     (errata)
 #               a.08.91.38   libxslt-1.1.43     (errata)
 #               d10.13.24.12 lxml-5.4.0         (errata)

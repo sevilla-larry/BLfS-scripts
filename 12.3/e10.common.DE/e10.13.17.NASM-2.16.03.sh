@@ -24,7 +24,7 @@
 #
 # Optionally by:
 #
-#               e11.42.52 SDL2-2.30.11
+#               e10.42.52 SDL2-2.30.11
 #               g22.39.03 LibreOffice-25.2.3	(errata)
 #
 

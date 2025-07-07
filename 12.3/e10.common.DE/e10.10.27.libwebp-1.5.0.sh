@@ -1,4 +1,4 @@
-# e11.10.27.libwebp-1.5.0.sh
+# e10.10.27.libwebp-1.5.0.sh
 #
 
 #
@@ -7,7 +7,7 @@
 #               e10.10.18 libjpeg-turbo-3.0.1
 #               d10.10.22 libpng-1.6.46
 #               e10.10.26 libtiff-4.7.0
-#               e11.42.52 SDL2-2.30.11
+#               e10.42.52 SDL2-2.30.11
 #
 
 #
@@ -20,7 +20,7 @@
 #
 #               g22.40.03 Firefox-128.11.0esr   (errata)
 #               g22.39.03 LibreOffice-25.2.3	(errata)
-#               e12.25.42 Qt-6.7.2              ???
+#               e12.25.40 Qt-6.9.1              (errata/svn)
 #
 # Optionally by:
 #

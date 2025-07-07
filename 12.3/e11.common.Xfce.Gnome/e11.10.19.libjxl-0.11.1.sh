@@ -19,7 +19,7 @@
 # Dependencies Optional:
 #
 #               e11.10.15 libavif-1.2.0
-#               e11.10.27 libwebp-1.5.0
+#               e10.10.27 libwebp-1.5.0
 #               e11.44.01 FFmpeg-7.1
 #
 

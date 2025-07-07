@@ -27,7 +27,7 @@
 # Optionally by:
 #
 #               e10.42.40 libsndfile-1.2.2
-#               e11.42.52 SDL2-2.30.11
+#               e10.42.52 SDL2-2.30.11
 #               e41.42.48 Pipewire-1.2.7
 #
 

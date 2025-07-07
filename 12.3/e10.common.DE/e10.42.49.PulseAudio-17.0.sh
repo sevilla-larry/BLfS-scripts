@@ -1,5 +1,4 @@
-# e11.42.49.PulseAudio-17.0.sh
-# GTK-3.* version
+# e10.42.49.PulseAudio-17.0.sh
 #
 
 #
@@ -19,7 +18,7 @@
 # Dependencies Optional:
 #
 #               gst
-#               e11.25.16 GTK-3.24.48
+#            NO e11.25.16 GTK-3.24.48
 #
 
 #
@@ -35,7 +34,7 @@
 #
 # Optionally by:
 #
-#               e11.42.52 SDL2-2.30.11
+#               e10.42.52 SDL2-2.30.11
 #               e11.44.01 FFmpeg-7.1
 #               e41.25.20 gtk-vnc-1.5.0
 #

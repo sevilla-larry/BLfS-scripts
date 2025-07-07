@@ -24,7 +24,7 @@
 #               e10.42.40  libsndfile-1.2.2
 #               a.08.91.68 libssh2-1.11.1
 #               e10.09.69  libusb-1.0.27
-#               e11.10.27  libwebp-1.5.0
+#               e10.10.27  libwebp-1.5.0
 #               e10.09.71  libxkbcommon-1.8.0
 #               a.08.91.08 libxml2-2.14.3   (errata)
 #               a.08.91.10 Nettle-3.10.1

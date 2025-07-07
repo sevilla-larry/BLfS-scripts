@@ -18,7 +18,7 @@
 #               e42.33.04  libsecret-0.21.6
 #               e41.17.18  libsoup-3.6.5             (errata)
 #               a.08.91.33 libtasn1-4.20.0
-#               e11.10.27  libwebp-1.5.0
+#               e10.10.27  libwebp-1.5.0
 #               d20.24.12  Mesa-24.3.4
 #               e10.10.31  OpenJPEG-2.5.3
 #               e41.13.26  Ruby-3.4.2

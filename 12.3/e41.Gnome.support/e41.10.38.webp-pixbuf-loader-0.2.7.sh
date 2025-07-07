@@ -5,7 +5,7 @@
 # Dependencies Required:
 #
 #               e10.25.10 gdk-pixbuf-2.42.12
-#               e11.10.27 libwebp-1.5.0
+#               e10.10.27 libwebp-1.5.0
 #
 
 #

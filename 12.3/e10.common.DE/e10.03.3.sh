@@ -134,6 +134,48 @@ echo "." >> $LFSLOG_PROCESS
 echo "."
 echo "."
 
+###
+
+echo "e10.42.49.PulseAudio-17.0"
+echo "e10.42.49.PulseAudio-17.0" >> $LFSLOG_PROCESS
+
+time { bash e10.42.49.PulseAudio-17.0.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "e10.42.52.SDL2-2.30.11"
+echo "e10.42.52.SDL2-2.30.11" >> $LFSLOG_PROCESS
+
+time { bash e10.42.52.SDL2-2.30.11.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "e10.10.27.libwebp-1.5.0"
+echo "e10.10.27.libwebp-1.5.0" >> $LFSLOG_PROCESS
+
+time { bash e10.10.27.libwebp-1.5.0.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
 #####
 
 unset LFSLOG_PROCESS

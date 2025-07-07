@@ -17,7 +17,7 @@
 #               e11.42.45 libvpx-1.15.2
 #               e10.43.05 mpg123-1.32.10
 #               e10.13.17 NASM-2.16.03
-#               e11.42.49 PulseAudio-17.0
+#               e10.42.49 PulseAudio-17.0
 #
 # Dependencies Optional:
 #

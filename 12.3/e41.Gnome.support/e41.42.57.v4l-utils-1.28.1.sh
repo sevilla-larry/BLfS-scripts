@@ -10,7 +10,7 @@
 #
 # Dependencies Optional:
 #
-#               e11.42.52 SDL2-2.30.11
+#               e10.42.52 SDL2-2.30.11
 #
 
 #

@@ -21,7 +21,7 @@
 #
 #               e10.42.01 alsa-lib-1.2.13
 #               d20.42.41 libva-2.22.0
-#               e11.42.52 SDL2-2.30.11
+#               e10.42.52 SDL2-2.30.11
 #
 # Dependencies Recommended for systems with Intel Video:
 #
@@ -35,10 +35,10 @@
 #               e10.10.06  FriBidi-1.0.16
 #               d20.25.33  Libdrm-2.4.124
 #               e11.10.19  libjxl-0.11.1
-#               e11.10.27  libwebp-1.5.0
+#               e10.10.27  libwebp-1.5.0
 #               e10.10.31  OpenJPEG-2.5.3
 #               a.08.91.63 GnuTLS-3.8.9
-#               e11.42.49  PulseAudio-17.0
+#               e10.42.49  PulseAudio-17.0
 #               e10.42.55  Speex-1.2.1
 #               d20.25.44  Vulkan-Loader-1.4.304    PCs
 #               d20.24.xx  Graphical Environment

@@ -14,7 +14,7 @@
 #               e42.33.18 libgweather-4.4.4
 #               e11.25.35 libnotify-0.8.4
 #           ??? xxx.09.75 libwacom-2.14.0
-#               e11.42.49 PulseAudio-17.0 (GTK)
+#               e10.42.49 PulseAudio-17.0
 #               e10.12.37 UPower-1.90.7
 #
 # Dependencies Recommended:

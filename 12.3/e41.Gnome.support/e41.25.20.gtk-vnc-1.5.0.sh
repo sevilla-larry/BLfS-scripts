@@ -14,7 +14,7 @@
 #
 # Dependencies Optional:
 #
-#               e11.42.49 PulseAudio-17.0
+#               e10.42.49 PulseAudio-17.0
 #
 
 #
