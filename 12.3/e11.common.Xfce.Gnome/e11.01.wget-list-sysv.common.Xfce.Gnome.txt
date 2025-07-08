@@ -84,19 +84,3 @@ https://bitbucket.org/multicoreware/x265_git/downloads/x265_4.1.tar.gz
 
 # 49.05 itstool-2.0.7
 https://files.itstool.org/itstool/itstool-2.0.7.tar.bz2
-
-#####
-
-# 13.01 Cbindgen-0.28.0
-#https://github.com/mozilla/cbindgen/archive/v0.28.0/cbindgen-0.28.0.tar.gz
-# 13.23    Python Modules
-# 13.23.20 PyCairo-1.26.1
-#https://github.com/pygobject/pycairo/releases/download/v1.26.1/pycairo-1.26.1.tar.gz
-# 13.23.23 PyGObject-3.50.0
-#https://download.gnome.org/sources/pygobject/3.50/pygobject-3.50.0.tar.xz
-
-# 25.16 Graphene-1.10.8
-#https://download.gnome.org/sources/graphene/1.10/graphene-1.10.8.tar.xz
-# 25.18 GTK-4.16.12
-#https://download.gnome.org/sources/gtk/4.16/gtk-4.16.12.tar.xz
-#https://www.linuxfromscratch.org/patches/blfs/12.3/gtk-4.16.12-libpng_1_6_45-1.patch

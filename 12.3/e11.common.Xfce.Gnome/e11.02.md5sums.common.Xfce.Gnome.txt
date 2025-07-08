@@ -84,19 +84,3 @@ f1c3c80248d8574378a4aac8f374f6de x265_4.1.tar.gz
 
 # 49.05 itstool-2.0.7
 267a3bdc72a2d8abb1b824f2ea32ee9b itstool-2.0.7.tar.bz2
-
-#####
-
-# 13.01 Cbindgen-0.28.0
-#0712d991fc8e65121924265d738db71d cbindgen-0.28.0.tar.gz
-# 13.23    Python Modules
-# 13.23.20 PyCairo-1.26.1
-#36504ac01533ae14f0d2337516bbae2e pycairo-1.26.1.tar.gz
-# 13.23.23 PyGObject-3.50.0
-#8f34e4bc1d7d57faf558180b0051c9ef pygobject-3.50.0.tar.xz
-
-# 25.16 Graphene-1.10.8
-#169e3c507b5a5c26e9af492412070b81 graphene-1.10.8.tar.xz
-# 25.18 GTK-4.16.12
-#0f2b154a0b05e4ca94a05aaeb7e1f3fb gtk-4.16.12.tar.xz
-#                                 gtk-4.16.12-libpng_1_6_45-1.patch

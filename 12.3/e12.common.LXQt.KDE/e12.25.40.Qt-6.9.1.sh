@@ -1,4 +1,5 @@
-# e12.25.40.Qt-6.8.2.sh
+# e12.25.40.Qt-6.9.1.sh
+# errata/svn
 #
 
 #
@@ -9,41 +10,40 @@
 #
 # Dependencies Recommended:
 #
-#               d10.12.10 dbus-1.14.10
-#               e12.09.11 double-conversion-3.3.0
-#               ??? e12.42.02 alsa-lib-1.2.12           ??? audio
-#               ??? e12.46.01 Cups-2.4.10               ??? printing
-#               d10.09.17 GLib-2.80.4
-#               ??? e12.42.15 gst-plugins-base-1.24.7   ??? streaming
-#               d10.10.12 harfBuzz-9.0.0
-#               b10.09.24 icu-75.1
-#               e12.10.13 JasPer-4.2.4
-#               e10.10.18 libjpeg-turbo-3.0.1
-#               d20.24.25.1.3 libinput-1.26.1
-#               e12.10.20 libmng-2.0.3
-#               d10.10.22 libpng-1.6.43
-#               e12.10.26 libtiff-4.7.0 (errata)
-#               e12.10.27 libwebp-1.4.0
-#               e10.09.71 libxkbcommon-1.7.0
-#               d20.24.16 Mesa-24.1.5
-#               d10.09.79 mtdev-1.1-7
-#               b15.09.83 PCRE2-10.44
-#               e10.22.05 SQLite-3.46.1
-#               d10.09.97 Wayland-1.23.0
-#               d20.24.15 xcb-util-cursor-0.1.4
-#               d20.24.11 xcb-util-image-0.4.1
-#               d20.24.12 xcb-util-keysyms-0.4.1
-#               d20.24.13 xcb-util-renderutil-0.3.10
-#               d20.24.14 xcb-util-wm-0.4.2
+#               e10.42.02   alsa-lib-1.2.13
+#               a.08.91.40  make-ca-1.16         (errata)
+#           ??? e10.46.01   Cups-2.4.11
+#               d20.12.11   dbus-1.16.0
+#               e12.09.11   Double-conversion-3.3.1
+#               d10.09.17   GLib-2.82.5
+#           ??? e12.42.14   gst-plugins-base-1.26.3
+#               d10.10.12   harfBuzz-10.4.0
+#               a.08.91.07  icu-76.1
+#               e12.10.13   jasper-4.2.4
+#               e10.10.18   libjpeg-turbo-3.0.1
+#               d20.24.21.3 libinput-1.27.1
+#               e12.10.20   libmng-2.0.3
+#               d10.10.22   libpng-1.6.46
+#               e10.10.26   libtiff-4.7.0
+#               e10.10.27   libwebp-1.5.0
+#               e10.09.71   libxkbcommon-1.8.0
+#               d20.24.12   Mesa-24.3.4
+#               d10.09.79   mtdev-1.1-7
+#               a.08.91.11  PCRE2-10.45
+#               a.08.91.18  SQLite-3.49.1
+#               d10.09.97   Wayland-1.23.0
+#               d20.24.11   XCB.Utilities
 #
 
 #
 # Required by:
 #
-#               e33 LXQt Desktop
+#               e32.37.xx KF6 Plasma misc
+#               e33.37.xx LXQt Desktop Components
+#               e34.38.xx LXQt Applications
 #
 
-export PKG="qt-everywhere-src-6.8.2"
+export PKG="qt-everywhere-src-6.9.1"
 export PKGLOG_DIR=$LFSLOG/25.40
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
@@ -53,6 +53,7 @@ export PKGLOG_INSTALL=$PKGLOG_DIR/install.log
 export PKGLOG_ERROR=$PKGLOG_DIR/error.log
 export PKGLOG_OTHERS=$PKGLOG_DIR/others.log
 export LFSLOG_PROCESS=$LFSLOG/process.log
+export SOURCES=`pwd`
 
 rm -r $PKGLOG_DIR 2> /dev/null
 mkdir $PKGLOG_DIR
@@ -76,12 +77,12 @@ echo "2. Configure ..." >> $PKGLOG_ERROR
             -system-sqlite          \
             -nomake examples        \
             -no-rpath               \
+            -no-sbom                \
             -syslog                 \
             -skip qt3d              \
             -skip qtquick3dphysics  \
             -skip qtwebengine       \
     > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
-#            -W no-dev               \
 
 echo "3. Ninja Build ..."
 echo "3. Ninja Build ..." >> $LFSLOG_PROCESS
@@ -197,8 +198,9 @@ export QT6DIR
 EOF
 
 
-cd ..
+cd $SOURCES
 rm -rf $PKG
+unset SOURCES
 unset LFSLOG_PROCESS
 unset PKGLOG_OTHERS
 unset PKGLOG_INSTALL PKGLOG_BUILD PKGLOG_CONFIG

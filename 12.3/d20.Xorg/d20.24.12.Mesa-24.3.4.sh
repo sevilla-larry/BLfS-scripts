@@ -50,7 +50,7 @@
 #               d20.24.19 Xwayland-24.1.8           (errata)
 #               g22.39.03 LibreOffice-25.2.3	    (errata)
 #               e41.42.15 gst-plugins-base-1.26.3   (errata)
-#               e12.25.42 Qt-6.7.2              ???
+#               e12.25.40 Qt-6.9.1                  (errata/svn)
 #
 # Recommended Runtime by:
 #

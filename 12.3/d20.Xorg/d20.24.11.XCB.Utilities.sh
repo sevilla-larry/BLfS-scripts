@@ -9,6 +9,10 @@
 #
 
 #
+# Recommended by:
+#
+#               e12.25.40 Qt-6.9.1          (errata/svn)
+#
 # Optionally by:
 #
 #               d20.24.20 Xorg-Server-21.1.18

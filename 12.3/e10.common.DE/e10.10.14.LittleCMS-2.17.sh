@@ -16,6 +16,7 @@
 #               e41.25.45 WebKitGTK-2.46.6
 #               e11.10.19 libjxl-0.11.1
 #               e44.34.08 gnome-color-manager-3.36.2
+#               e12.10.20 libmng-2.0.3
 #
 # Recommended by:
 #

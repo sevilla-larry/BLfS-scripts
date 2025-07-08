@@ -25,6 +25,7 @@
 #               e11.25.42 startup-notification-0.12
 #               e11.25.36 libxklavier-5.4
 #               e42.33.17 libgtop-2.41.3
+#               e12.25.40 Qt-6.9.1          (errata/svn)
 #
 # Recommended by:
 #

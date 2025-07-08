@@ -111,7 +111,7 @@
 #               e43.33.41 Mutter-47.5
 #               e44.34.03 EOG-47.0
 #               e44.34.18 Gucharmap-16.0.2
-#               e12.25.42 Qt-6.7.2                  ???
+#               e12.25.40 Qt-6.9.1          (errata/svn)
 #
 # Optionally by:
 #

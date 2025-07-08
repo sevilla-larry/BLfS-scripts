@@ -19,7 +19,7 @@
 #
 #               d10.10.04 FreeType-2.13.3
 #               g22.39.03 LibreOffice-25.2.3	(errata)
-#               e12.25.42 Qt-6.7.2              ???
+#               e12.25.40 Qt-6.9.1          (errata/svn)
 #
 # Optionally by:
 #

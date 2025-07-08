@@ -4,13 +4,13 @@
 #
 # Dependencies Required:
 #
-#               b11.13.03 CMake-3.30.2
+#               a.08.9x.?1 CMake-3.31.5
 #
 
 #
 # Recommended by:
 #
-#               e12.25.42 Qt-6.7.2
+#               e12.25.40 Qt-6.9.1          (errata/svn)
 #
 
 export PKG="double-conversion-3.3.1"
@@ -22,6 +22,7 @@ export PKGLOG_CHECK=$PKGLOG_DIR/check.log
 export PKGLOG_INSTALL=$PKGLOG_DIR/install.log
 export PKGLOG_ERROR=$PKGLOG_DIR/error.log
 export LFSLOG_PROCESS=$LFSLOG/process.log
+export SOURCES=`pwd`
 
 rm -r $PKGLOG_DIR 2> /dev/null
 mkdir $PKGLOG_DIR
@@ -61,9 +62,9 @@ echo "5. Make Install ..." >> $PKGLOG_ERROR
 make install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 
-cd ..
-cd ..
+cd $SOURCES
 rm -rf $PKG
+unset SOURCES
 unset LFSLOG_PROCESS
 unset PKGLOG_INSTALL PKGLOG_BUILD PKGLOG_CONFIG
 unset PKGLOG_CHECK

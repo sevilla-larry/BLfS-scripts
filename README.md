@@ -67,7 +67,7 @@
 #		e10 - Common to all DE's
 #		e11 - Common to Xfce & Gnome
 #	??	e12 - Common to LXQt & KDE
-#	?? 	e13 - Common to Gnome & LXQt
+#	 	e13 - Common to Gnome & LXQt
 #	???	e14 - Common to Xfce, Gnome & KDE
 #
 #		e21	- Xfce support
@@ -75,14 +75,14 @@
 #		e24 - Xfce Applications
 #
 #	?	e31	- LXQt support
-#	?	e32 - KF5, Plasma, & Misc Dependecies
+#	?	e32 - KF6, Plasma, & Misc Dependecies
 #	?	e33	- LXQt Desktop Components
 #	?	e34 - LXQt Applications
 #
-#   ?	e41	- Gnome support
-#	?	e42	- Gnome Libraries
-#	?	e43	- Gnome Desktop Components
-#	?	e44 - Gnome Applications
+#		e41	- Gnome support
+#		e42	- Gnome Libraries
+#		e43	- Gnome Desktop Components
+#		e44 - Gnome Applications
 #
 #   ?	e51	- KDE support
 #	?	e52 - KDE Preliminaries

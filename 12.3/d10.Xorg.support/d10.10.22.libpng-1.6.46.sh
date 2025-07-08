@@ -15,7 +15,7 @@
 #               e11.10.33 Poppler-25.02.0
 #               e10.10.27 libwebp-1.5.0
 #               e41.42.15 gst-plugins-base-1.26.3   (errata)
-#               e12.25.42 Qt-6.7.2              ???
+#               e12.25.40 Qt-6.9.1          (errata/svn)
 #
 # Optional by:
 #
