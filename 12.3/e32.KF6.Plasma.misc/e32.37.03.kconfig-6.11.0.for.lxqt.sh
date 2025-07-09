@@ -1,18 +1,15 @@
-# e32.37.02.kwindowsystem-6.5.0.for.lxqt.sh
+# e32.37.03.kconfig-6.5.0.for.lxqt.sh
 #
 
 #
 # Dependencies Required:
 #
-#               e12.29.02 extra-cmake-modules-6.5.0
-#               e12.29.06 plasma-wayland-protocols-1.13.0
-#               e12.25.42 Qt-6.7.2
-#               d20.24.08 Xorg Libraries
-#               b11.13.03 CMake-3.30.2 (not documented)
+#               e12.29.02 extra-cmake-modules-6.11.0
+#               e12.25.40 Qt-6.9.1          (errata/svn)
 #
 
-export PKG="kwindowsystem-6.5.0"
-export PKGLOG_DIR=$LFSLOG/37.02
+export PKG="kconfig-6.5.0"
+export PKGLOG_DIR=$LFSLOG/37.03
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
@@ -20,6 +17,7 @@ export PKGLOG_BUILD=$PKGLOG_DIR/build.log
 export PKGLOG_INSTALL=$PKGLOG_DIR/install.log
 export PKGLOG_ERROR=$PKGLOG_DIR/error.log
 export LFSLOG_PROCESS=$LFSLOG/process.log
+export SOURCES=`pwd`
 
 rm -r $PKGLOG_DIR 2> /dev/null
 mkdir $PKGLOG_DIR
@@ -37,11 +35,13 @@ cd    build
 echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
 echo "2. Configure ..." >> $PKGLOG_ERROR
-cmake -D CMAKE_INSTALL_PREFIX=/usr  \
-      -D CMAKE_BUILD_TYPE=Release   \
-      -D BUILD_TESTING=OFF          \
-      -W no-dev                     \
-      ..                            \
+cmake -D CMAKE_INSTALL_PREFIX=/usr          \
+      -D CMAKE_BUILD_TYPE=Release           \
+      -D CMAKE_INSTALL_LIBEXECDIR=libexec   \
+      -D KDE_INSTALL_USE_QT_SYS_PATHS=ON    \
+      -D BUILD_TESTING=OFF                  \
+      -W no-dev                             \
+      ..                                    \
       > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Make Build ..."
@@ -55,9 +55,9 @@ echo "4. Make Install ..." >> $PKGLOG_ERROR
 make install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 
-cd ..
-cd ..
+cd $SOURCES
 rm -rf $PKG
+unset SOURCES
 unset LFSLOG_PROCESS
 unset PKGLOG_INSTALL PKGLOG_BUILD PKGLOG_CONFIG
 #unset PKGLOG_CHECK

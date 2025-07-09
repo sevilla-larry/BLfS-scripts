@@ -4,9 +4,8 @@
 #
 # Dependencies Required:
 #
-#               e12.29.02 extra-cmake-modules-6.5.0
-#               e12.25.42 Qt-6.7.2
-#               b11.13.03 CMake-3.30.2 (not documented)
+#               e12.29.02 extra-cmake-modules-6.11.0
+#               e12.25.40 Qt-6.9.1          (errata/svn)
 #
 
 export PKG="solid-6.5.0"
@@ -18,6 +17,7 @@ export PKGLOG_BUILD=$PKGLOG_DIR/build.log
 export PKGLOG_INSTALL=$PKGLOG_DIR/install.log
 export PKGLOG_ERROR=$PKGLOG_DIR/error.log
 export LFSLOG_PROCESS=$LFSLOG/process.log
+export SOURCES=`pwd`
 
 rm -r $PKGLOG_DIR 2> /dev/null
 mkdir $PKGLOG_DIR
@@ -55,9 +55,9 @@ echo "4. Make Install ..." >> $PKGLOG_ERROR
 make install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 
-cd ..
-cd ..
+cd $SOURCES
 rm -rf $PKG
+unset SOURCES
 unset LFSLOG_PROCESS
 unset PKGLOG_INSTALL PKGLOG_BUILD PKGLOG_CONFIG
 #unset PKGLOG_CHECK

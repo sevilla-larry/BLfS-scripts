@@ -1,25 +1,24 @@
-# e32.37.06.kwayland-6.1.4.for.lxqt.sh
+# e32.37.07.libkscreen-6.1.4.for.lxqt.sh
 #
 
 #
 # Dependencies Required:
 #
-#               e12.29.02 extra-cmake-modules-6.5.0
-#               d20.24.16 Mesa-24.1.5
-#               e12.29.06 plasma-wayland-protocols-1.13.0
-#               e12.25.42 Qt-6.7.2
-#               b11.13.03 CMake-3.30.2 (not documented)
+#               e12.29.06 plasma-wayland-protocols-1.16.0
+#               e12.25.40 Qt-6.9.1          (errata/svn)
 #
 
-export PKG="kwayland-6.1.4"
-export PKGLOG_DIR=$LFSLOG/37.06
+export PKG="libkscreen-6.1.4"
+export PKGLOG_DIR=$LFSLOG/37.07
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
 #export PKGLOG_CHECK=$PKGLOG_DIR/check.log
 export PKGLOG_INSTALL=$PKGLOG_DIR/install.log
 export PKGLOG_ERROR=$PKGLOG_DIR/error.log
+export PKGLOG_OTHERS=$PKGLOG_DIR/others.log
 export LFSLOG_PROCESS=$LFSLOG/process.log
+export SOURCES=`pwd`
 
 rm -r $PKGLOG_DIR 2> /dev/null
 mkdir $PKGLOG_DIR
@@ -56,11 +55,15 @@ echo "4. Make Install ..." >> $LFSLOG_PROCESS
 echo "4. Make Install ..." >> $PKGLOG_ERROR
 make install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
+rm -v /usr/lib/systemd/user/plasma-kscreen.service  \
+            > $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
 
-cd ..
-cd ..
+
+cd $SOURCES
 rm -rf $PKG
+unset SOURCES
 unset LFSLOG_PROCESS
+unset PKGLOG_OTHERS
 unset PKGLOG_INSTALL PKGLOG_BUILD PKGLOG_CONFIG
 #unset PKGLOG_CHECK
 unset PKGLOG_ERROR PKGLOG_TAR

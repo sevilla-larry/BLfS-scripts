@@ -1,0 +1,12 @@
+X. LXQt
+
+38. LXQt Applications
+
+38.01 lximage-qt-2.1.1
+38.02 lxqt-archiver-1.1.0
+38.03 lxqt-notificationd-2.1.1
+38.04 pavucontrol-qt-2.1.0
+38.05 qps-2.10.0
+38.06 qtermwidget-2.1.0
+38.07 qterminal-2.1.0
+38.08 screengrab-2.9.0
