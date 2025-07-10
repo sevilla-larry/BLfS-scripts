@@ -7,6 +7,10 @@
 
 # 10.06 FriBidi-1.0.16
 333ad150991097a627755b752b87f9ff fribidi-1.0.16.tar.xz
+# 10.08 giflib-5.2.2
+913dd251492134e235ee3c9a91987a4d giflib-5.2.2.tar.gz
+#                                giflib-5.2.2-upstream_fixes-1.patch
+#                                giflib-5.2.2-security_fixes-1.patch
 # 10.14 Little CMS-2.17
 9f44275ee8ac122817e94fdc50ecce13 lcms2-2.17.tar.gz
 # 10.16 libexif-0.6.25

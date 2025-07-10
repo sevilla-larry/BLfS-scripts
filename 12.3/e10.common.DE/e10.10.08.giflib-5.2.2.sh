@@ -1,5 +1,6 @@
-# e11.10.08.giflib-5.2.2.sh
+# e10.10.08.giflib-5.2.2.sh
 # errata patch
+#
 
 #
 # Dependencies Optional:
@@ -12,6 +13,10 @@
 #
 #               e11.10.19 libjxl-0.11.1
 #               e42.33.23 localsearch-3.8.2
+#
+# Optionally by:
+#
+#               e10.10.27 libwebp-1.5.0
 #
 
 export PKG="giflib-5.2.2"

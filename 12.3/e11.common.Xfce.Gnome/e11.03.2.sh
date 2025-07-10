@@ -94,20 +94,6 @@ echo "."
 
 ###
 
-echo "e11.10.08.giflib-5.2.2"
-echo "e11.10.08.giflib-5.2.2" >> $LFSLOG_PROCESS
-
-time { bash e11.10.08.giflib-5.2.2.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
-
-###
-
 echo "e11.10.19.libjxl-0.11.1"
 echo "e11.10.19.libjxl-0.11.1" >> $LFSLOG_PROCESS
 

@@ -11,7 +11,7 @@
 #
 # Dependencies Recommended:
 #
-#               e11.10.08  giflib-5.2.2
+#               e10.10.08  giflib-5.2.2
 #               e41.42.18  gst-libav-2.26.3     (errata)
 #               a.08.91.07 icu-76.1
 #               e10.10.16  libexif-0.6.25

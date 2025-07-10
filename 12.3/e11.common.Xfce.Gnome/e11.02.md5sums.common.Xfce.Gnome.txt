@@ -16,10 +16,6 @@ c6f1bf4bd2aaa79cd1635dcc070ba51a libassuan-3.0.2.tar.bz2
 # 09.41 libdisplay-info-0.2.0
 160d4159a7805823cf0b3b4f86dfa8d4 libdisplay-info-0.2.0.tar.xz
 
-# 10.08 giflib-5.2.2
-913dd251492134e235ee3c9a91987a4d giflib-5.2.2.tar.gz
-#                                giflib-5.2.2-upstream_fixes-1.patch
-#                                giflib-5.2.2-security_fixes-1.patch
 # 10.15 libavif-1.2.0
 ec292cb8d51c0aa02f9fd5ef2419c853 libavif-1.2.0.tar.gz
 # 10.19 libjxl-0.11.1

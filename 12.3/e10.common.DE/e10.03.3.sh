@@ -164,6 +164,20 @@ echo "."
 
 ###
 
+echo "e10.10.08.giflib-5.2.2"
+echo "e10.10.08.giflib-5.2.2" >> $LFSLOG_PROCESS
+
+time { bash e10.10.08.giflib-5.2.2.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
 echo "e10.10.27.libwebp-1.5.0"
 echo "e10.10.27.libwebp-1.5.0" >> $LFSLOG_PROCESS
 

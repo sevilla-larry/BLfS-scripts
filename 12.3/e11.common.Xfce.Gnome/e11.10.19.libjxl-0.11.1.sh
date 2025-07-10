@@ -6,7 +6,7 @@
 #
 #               a.08.91.22.brotli-1.1.0
 #               a.08.9x.?1 CMake-3.31.5
-#               e11.10.08  giflib-5.2.2
+#               e10.10.08  giflib-5.2.2
 #               e11.09.24  highway-1.2.0
 #               e10.10.14  LittleCMS-2.17
 #               e10.10.18  libjpeg-turbo-3.0.1

@@ -7,6 +7,10 @@ https://github.com/libusb/libusb/releases/download/v1.0.27/libusb-1.0.27.tar.bz2
 
 # 10.06 FriBidi-1.0.16
 https://github.com/fribidi/fribidi/releases/download/v1.0.16/fribidi-1.0.16.tar.xz
+# 10.08 giflib-5.2.2
+https://sourceforge.net/projects/giflib/files/giflib-5.2.2.tar.gz
+https://www.linuxfromscratch.org/patches/blfs/12.3/giflib-5.2.2-upstream_fixes-1.patch
+https://www.linuxfromscratch.org/patches/blfs/svn/giflib-5.2.2-security_fixes-1.patch
 # 10.14 Little CMS-2.17
 https://github.com/mm2/Little-CMS/releases/download/lcms2.17/lcms2-2.17.tar.gz
 # 10.16 libexif-0.6.25

@@ -9,6 +9,10 @@
 #               e10.10.26 libtiff-4.7.0
 #               e10.42.52 SDL2-2.30.11
 #
+# Dependencies Optional:
+#
+#               e10.10.08  giflib-5.2.2
+#
 
 #
 # Required by:
