@@ -26,7 +26,7 @@
 # Optionally by:
 #
 #               e41.42.16 gst-plugins-bad-1.26.3    (errata)
-#               e41.09.36 libblockdev-3.3.0
+#               e13.09.36 libblockdev-3.3.0
 #
 
 export PKG="json-glib-1.10.6"

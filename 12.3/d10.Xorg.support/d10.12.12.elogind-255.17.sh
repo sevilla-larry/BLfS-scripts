@@ -45,7 +45,7 @@
 #               e11.12.02 AccountsService-23.13.9
 #               e11.42.49 PulseAudio-17.0
 #               e11.12.08 Colord-1.4.7
-#               e41.12.35 UDisks-2.10.1
+#               e13.12.35 UDisks-2.10.1
 #               e43.33.33 Gvfs-1.56.1
 #
 

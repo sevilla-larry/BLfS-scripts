@@ -17,8 +17,8 @@
 #
 # Dependencies Optional:
 #
-#               e41.13.24.06 D-Bus Python-1.3.2
-#               e41.13.24.23 PyGObject-3.50.0
+#               e13.13.24.06 D-Bus Python-1.3.2
+#               e13.13.24.23 PyGObject-3.50.0
 #               e10.09.71    libxkbcommon-1.8.0
 #               d10.09.97    Wayland-1.23.0
 #

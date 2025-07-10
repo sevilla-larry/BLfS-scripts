@@ -145,62 +145,6 @@ echo "."
 
 ###
 
-echo "e41.13.24.06.D-Bus.Python-1.3.2"
-echo "e41.13.24.06.D-Bus.Python-1.3.2" >> $LFSLOG_PROCESS
-
-time { bash e41.13.24.06.D-Bus.Python-1.3.2.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
-
-###
-
-echo "e41.13.24.20.PyCairo-1.26.1"
-echo "e41.13.24.20.PyCairo-1.26.1" >> $LFSLOG_PROCESS
-
-time { bash e41.13.24.20.PyCairo-1.26.1.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
-
-###
-
-echo "e41.13.24.22.Pygments-2.19.1"
-echo "e41.13.24.22.Pygments-2.19.1" >> $LFSLOG_PROCESS
-
-time { bash e41.13.24.22.Pygments-2.19.1.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
-
-###
-
-echo "e41.13.24.23.PyGObject-3.50.0"
-echo "e41.13.24.23.PyGObject-3.50.0" >> $LFSLOG_PROCESS
-
-time { bash e41.13.24.23.PyGObject-3.50.0.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
-
-###
-
 echo "e42.33.04.libsecret-0.21.6"
 echo "e42.33.04.libsecret-0.21.6" >> $LFSLOG_PROCESS
 
@@ -527,62 +471,6 @@ echo "e41.25.47.xdg-desktop-portal-gtk-1.15.2"
 echo "e41.25.47.xdg-desktop-portal-gtk-1.15.2" >> $LFSLOG_PROCESS
 
 time { bash e41.25.47.xdg-desktop-portal-gtk-1.15.2.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
-
-###
-
-echo "e41.09.37.libbytesize-2.11"
-echo "e41.09.37.libbytesize-2.11" >> $LFSLOG_PROCESS
-
-time { bash e41.09.37.libbytesize-2.11.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
-
-###
-
-echo "e41.09.30.keyutils-1.6.3"
-echo "e41.09.30.keyutils-1.6.3" >> $LFSLOG_PROCESS
-
-time { bash e41.09.30.keyutils-1.6.3.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
-
-###
-
-echo "e41.09.36.libblockdev-3.3.1"
-echo "e41.09.36.libblockdev-3.3.1" >> $LFSLOG_PROCESS
-
-time { bash e41.09.36.libblockdev-3.3.1.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
-
-###
-
-echo "e41.12.35.UDisks-2.10.1"
-echo "e41.12.35.UDisks-2.10.1" >> $LFSLOG_PROCESS
-
-time { bash e41.12.35.UDisks-2.10.1.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

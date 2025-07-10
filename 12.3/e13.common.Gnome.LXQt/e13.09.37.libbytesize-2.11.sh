@@ -1,17 +1,17 @@
-# e41.09.37.libbytesize-2.11.sh
+# e13.09.37.libbytesize-2.11.sh
 #
 
 #
 # Dependencies Required:
 #
 #               a.08.91.11   PCRE2-10.45
-#               e41.13.24.22 Pygments-2.19.1
+#               e13.13.24.22 Pygments-2.19.1
 #
 
 #
 # Recommended by:
 #
-#               e41.09.36 libblockdev-3.3.0
+#               e13.09.36 libblockdev-3.3.0
 #
 
 export PKG="libbytesize-2.11"

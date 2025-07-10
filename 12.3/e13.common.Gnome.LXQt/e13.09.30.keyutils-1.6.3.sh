@@ -1,10 +1,10 @@
-# e41.09.30.keyutils-1.6.3.sh
+# e13.09.30.keyutils-1.6.3.sh
 #
 
 #
 # Recommended by:
 #
-#               e41.09.36 libblockdev-3.3.0
+#               e13.09.36 libblockdev-3.3.0
 #
 
 #

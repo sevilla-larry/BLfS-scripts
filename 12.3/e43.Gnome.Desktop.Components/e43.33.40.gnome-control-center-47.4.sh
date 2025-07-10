@@ -20,7 +20,7 @@
 #           ??? xxx.15.10 Samba-4.21.4
 #               d10.11.16 shared-mine-info-2.4
 #               e43.33.39 Tecla-47.0
-#               e41.12.35 UDisks-2.10.1
+#               e13.12.35 UDisks-2.10.1
 #
 # Dependencies Recommended:
 #

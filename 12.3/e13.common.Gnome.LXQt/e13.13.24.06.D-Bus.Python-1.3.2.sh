@@ -1,4 +1,4 @@
-# e41.13.24.06.D-Bus.Python-1.3.2.sh
+# e13.13.24.06.D-Bus.Python-1.3.2.sh
 #
 
 #
@@ -13,12 +13,13 @@
 #
 # Recommended by:
 #
-#               e41.12.35 UDisks-2.10.1
+# Optionally (for the integraion tests) by:
+#
+#               e13.12.35 UDisks-2.10.1
 #
 # Optionally by:
 #
 #               e41.11.10 ibus-1.5.31
-#               e41.12.35 UDisks-2.10.1
 #
 
 export PKG="dbus-python-1.3.2"

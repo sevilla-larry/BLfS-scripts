@@ -7,7 +7,7 @@
 #               e42.33.09    geocode-glib-3.26.4
 #               e11.25.16    GTK-3.24.48
 #               e41.17.18    libsoup-3.6.5      (errata)
-#               e41.13.24.23 PyGObject-3.50.0
+#               e13.13.24.23 PyGObject-3.50.0
 #
 # Dependencies Recommended:
 #

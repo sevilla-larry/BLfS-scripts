@@ -11,7 +11,7 @@
 #               d20.25.34 libepoxy-1.5.10
 #               e10.09.71 libxkbcommon-1.8.0
 #               e10.25.37 Pango-1.56.1
-#               e41.13.24.23 PyGObject-3.50.0
+#               e13.13.24.23 PyGObject-3.50.0
 #               d10.09.98 Wayland-Protocols-1.40
 #               d10.09.17 GLib-2.82.5
 #

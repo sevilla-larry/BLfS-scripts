@@ -1,4 +1,4 @@
-# e41.12.35.UDisks-2.10.1.sh
+# e13.12.35.UDisks-2.10.1.sh
 # errata sed fix
 #
 
@@ -6,7 +6,7 @@
 # Dependencies Required:
 #
 #           ??? e41.09.34 libatasmart-0.19      (deferred)
-#               e41.09.36 libblockdev-3.3.0
+#               e13.09.36 libblockdev-3.3.0
 #               e10.09.45 libgudev-238
 #               d10.04.20 Polkit-126
 #               d10.09.17 GLib-2.82.5
@@ -15,11 +15,14 @@
 #
 #               d10.12.12 elogind-255.17
 #
+# Dependencies Optional (for the integration tests):
+#
+#               e13.13.24.06 D-Bus Python-1.3.2
+#               e13.13.24.23 PyGObject-3.50.0
+#
 # Dependencies Optional:
 #
-#               e41.13.24.06 D-Bus Python-1.3.2
 #               a.08.91.38   libxslt-1.1.43     (errata)
-#               e41.13.24.23 PyGObject-3.50.0
 #
 # Dependencies Optional Runtime:
 #

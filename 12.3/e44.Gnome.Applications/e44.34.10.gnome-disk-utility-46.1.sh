@@ -10,7 +10,7 @@
 #               e11.25.32 libhandy-1.8.3
 #           ??? e41.04.14 libpwquality-1.4.5
 #               e42.33.04 libsecret-0.21.6
-#               e41.12.35 UDisks-2.10.1
+#               e13.12.35 UDisks-2.10.1
 #
 # Dependencies Optional:
 #

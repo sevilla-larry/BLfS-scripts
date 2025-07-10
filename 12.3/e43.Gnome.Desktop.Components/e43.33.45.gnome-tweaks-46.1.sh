@@ -8,7 +8,7 @@
 #               e11.33.03 gsettings-desktop-schemas-47.1
 #               e41.25.28 libadwaita-1.6.4
 #               e10.09.45 libgudev-238
-#               e41.13.24.23 PyGObject-3.50.0
+#               e13.13.24.23 PyGObject-3.50.0
 #               e11.42.53 sound-theme-freedesktop-0.8
 #
 

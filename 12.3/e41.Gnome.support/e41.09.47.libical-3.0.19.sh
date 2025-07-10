@@ -14,7 +14,7 @@
 # Dependencies Optional:
 #
 #               a.08.91.07   icu-76.1
-#               e41.13.24.23 PyGObject-3.50.0
+#               e13.13.24.23 PyGObject-3.50.0
 #
 
 #

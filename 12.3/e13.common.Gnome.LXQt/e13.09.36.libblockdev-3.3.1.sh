@@ -1,4 +1,4 @@
-# e41.09.36.libblockdev-3.3.1.sh
+# e13.09.36.libblockdev-3.3.1.sh
 # errata
 #
 
@@ -10,9 +10,9 @@
 # Dependencies Recommended:
 #
 #           ??? e41.04.04 cryptsetup-2.7.5
-#               e41.09.30 keyutils-1.6.3
+#               e13.09.30 keyutils-1.6.3
 #           ??? e41.09.34 libatasmart-0.19
-#               e41.09.37 libbytesize-2.11
+#               e13.09.37 libbytesize-2.11
 #           ??? e41.09.53 libnvme-1.11.1
 #           ??? e41.05.06 LVM2-2.03.30
 #
@@ -24,7 +24,7 @@
 #
 # Required by:
 #
-#               e41.12.35 UDisks-2.10.1
+#               e13.12.35 UDisks-2.10.1
 #
 
 export PKG="libblockdev-3.3.1"

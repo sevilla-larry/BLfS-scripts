@@ -14,7 +14,7 @@
 #
 # Required by:
 #
-#               e41.09.37 libbytesize-2.11
+#               e13.09.37 libbytesize-2.11
 #
 
 export PKG="pygments-2.19.1"
