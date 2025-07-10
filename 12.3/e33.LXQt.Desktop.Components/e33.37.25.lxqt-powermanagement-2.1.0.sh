@@ -1,15 +1,17 @@
-# e33.37.22.lxqt-qtplugin-2.1.0.sh
+# e33.37.25.lxqt-powermanagement-2.1.0.sh
 #
 
 #
 # Dependencies Required:
 #
-#               e33.37.13 liblxqt-2.0.0
-#               e33.37.20 libdbusmenu-lxqt-0.1.0
+#   liblxqt
+#   kidletime
+#   solid
+#   UPower
 #
 
-export PKG="lxqt-qtplugin-2.1.0"
-export PKGLOG_DIR=$LFSLOG/37.22
+export PKG="lxqt-powermanagement-2.1.0"
+export PKGLOG_DIR=$LFSLOG/37.25
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log

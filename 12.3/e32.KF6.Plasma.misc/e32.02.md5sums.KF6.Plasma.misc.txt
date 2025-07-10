@@ -1,0 +1,10 @@
+# 37.02 ---> .09
+
+0fe4524579013c8e9fcf7adf43ea844e kwindowsystem-6.11.0.tar.xz
+b0e4142ee55abf3cb38fe6cdf5a0fe71 kconfig-6.11.0.tar.xz
+05d5c3b1277129f4e5fa1e3db9077e10 solid-6.11.0.tar.xz
+16d30e56e423668c27bfcbd2425a19da kidletime-6.11.0.tar.xz
+425782c861e1b1bf0bb49a782b402cd6 kwayland-6.3.2.tar.xz
+1a23a3c130d5a73e851556638e05c86a libkscreen-6.3.2.tar.xz
+f56e4b5f766ddf07974646305e32f86e layer-shell-qt-6.3.2.tar.xz
+04d4224cb01712207b85af05a255b6fc muparser-2.3.5.tar.gz

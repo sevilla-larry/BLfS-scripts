@@ -1,9 +1,0 @@
-# 37.02 ---> .09
-https://download.kde.org/stable/frameworks/6.5/kwindowsystem-6.5.0.tar.xz
-https://download.kde.org/stable/frameworks/6.5/kconfig-6.5.0.tar.xz
-https://download.kde.org/stable/frameworks/6.5/solid-6.5.0.tar.xz
-https://download.kde.org/stable/frameworks/6.5/kidletime-6.5.0.tar.xz
-http://download.kde.org/stable/plasma/6.1.4/kwayland-6.1.4.tar.xz
-http://download.kde.org/stable/plasma/6.1.4/libkscreen-6.1.4.tar.xz
-http://download.kde.org/stable/plasma/6.1.4/layer-shell-qt-6.1.4.tar.xz
-https://github.com/beltoforion/muparser/archive/v2.3.4/muparser-2.3.4.tar.gz

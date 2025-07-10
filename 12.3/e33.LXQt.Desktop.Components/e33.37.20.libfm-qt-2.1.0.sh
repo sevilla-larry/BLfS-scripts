@@ -1,4 +1,4 @@
-# e33.37.18.libfm-qt-2.0.2.sh
+# e33.37.20.libfm-qt-2.1.0.sh
 #
 
 #
@@ -17,8 +17,8 @@
 #               e33.37.34 xdg-desktop-portal-lxqt-1.0.2
 #
 
-export PKG="libfm-qt-2.0.2"
-export PKGLOG_DIR=$LFSLOG/37.18
+export PKG="libfm-qt-2.1.0"
+export PKGLOG_DIR=$LFSLOG/37.20
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
@@ -26,6 +26,7 @@ export PKGLOG_BUILD=$PKGLOG_DIR/build.log
 export PKGLOG_INSTALL=$PKGLOG_DIR/install.log
 export PKGLOG_ERROR=$PKGLOG_DIR/error.log
 export LFSLOG_PROCESS=$LFSLOG/process.log
+export SOURCES=`pwd`
 
 rm -r $PKGLOG_DIR 2> /dev/null
 mkdir $PKGLOG_DIR
@@ -59,9 +60,9 @@ echo "4. Make Install ..." >> $PKGLOG_ERROR
 make install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 
-cd ..
-cd ..
+cd $SOURCES
 rm -rf $PKG
+unset SOURCES
 unset LFSLOG_PROCESS
 unset PKGLOG_INSTALL PKGLOG_BUILD PKGLOG_CONFIG
 #unset PKGLOG_CHECK
