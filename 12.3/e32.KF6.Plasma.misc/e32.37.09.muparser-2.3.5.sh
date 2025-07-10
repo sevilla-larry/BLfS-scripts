@@ -1,4 +1,4 @@
-# e32.37.09.muparser-2.3.4.sh
+# e32.37.09.muparser-2.3.5.sh
 #
 
 #
@@ -7,7 +7,7 @@
 #               a.08.9x.?1 CMake-3.31.5
 #
 
-export PKG="muparser-2.3.4"
+export PKG="muparser-2.3.5"
 export PKGLOG_DIR=$LFSLOG/37.09
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log

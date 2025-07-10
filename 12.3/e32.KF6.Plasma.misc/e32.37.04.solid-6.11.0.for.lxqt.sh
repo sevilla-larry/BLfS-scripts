@@ -1,4 +1,4 @@
-# e32.37.04.solid-6.5.0.for.lxqt.sh
+# e32.37.04.solid-6.11.0.for.lxqt
 #
 
 #
@@ -7,8 +7,14 @@
 #               e12.29.02 extra-cmake-modules-6.11.0
 #               e12.25.40 Qt-6.9.1          (errata/svn)
 #
+# Dependencies Optional (runtime):
+#
+#               e13.12.35 UDisks-2.10.1
+#               e10.12.37 UPower-1.90.7
+#
 
-export PKG="solid-6.5.0"
+
+export PKG="solid-6.11.0"
 export PKGLOG_DIR=$LFSLOG/37.04
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log

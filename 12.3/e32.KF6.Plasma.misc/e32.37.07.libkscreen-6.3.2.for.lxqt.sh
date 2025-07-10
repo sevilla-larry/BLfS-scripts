@@ -1,14 +1,15 @@
-# e32.37.07.libkscreen-6.1.4.for.lxqt.sh
+# e32.37.07.libkscreen-6.3.2.for.lxqt.sh
 #
 
 #
 # Dependencies Required:
 #
+#               e32.37.06 kwayland-6.3.2.for.lxqt
 #               e12.29.06 plasma-wayland-protocols-1.16.0
 #               e12.25.40 Qt-6.9.1          (errata/svn)
 #
 
-export PKG="libkscreen-6.1.4"
+export PKG="libkscreen-6.3.2"
 export PKGLOG_DIR=$LFSLOG/37.07
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log

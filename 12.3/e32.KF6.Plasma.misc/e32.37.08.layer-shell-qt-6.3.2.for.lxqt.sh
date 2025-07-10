@@ -1,4 +1,4 @@
-# e32.37.08.layer-shell-qt-6.1.4.for.lxqt.sh
+# e32.37.08.layer-shell-qt-6.3.2.for.lxqt.sh
 #
 
 #
@@ -8,7 +8,7 @@
 #               e12.25.40 Qt-6.9.1          (errata/svn)
 #
 
-export PKG="layer-shell-qt-6.1.4"
+export PKG="layer-shell-qt-6.3.2"
 export PKGLOG_DIR=$LFSLOG/37.08
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log

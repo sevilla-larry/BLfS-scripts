@@ -1,4 +1,4 @@
-# e32.37.02.kwindowsystem-6.5.0.for.lxqt.sh
+# e32.37.02.kwindowsystem-6.11.0.for.lxqt.sh
 #
 
 #
