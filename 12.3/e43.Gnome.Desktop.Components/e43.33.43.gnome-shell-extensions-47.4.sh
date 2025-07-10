@@ -4,7 +4,7 @@
 #
 # Dependencies Required:
 #
-#               e42.33.17 libgtop-2.41.3
+#               e11.33.17 libgtop-2.41.3
 #
 
 export PKG="gnome-shell-extensions-47.4"

@@ -54,6 +54,8 @@ f9f2c6c521948da427f702372e16f826 gnome-themes-extra-3.28.tar.xz
 
 # 33.03 gsettings-desktop-schemas-47.1
 cf4431e4d8ada7a6e73a46f80f553f06 gsettings-desktop-schemas-47.1.tar.xz
+# 33.17 libgtop-2.41.3
+465db9f4f695c298d9c48dcf7f32a9c0 libgtop-2.41.3.tar.xz
 
 # 41.14 XScreenSaver-6.09
 1f0e2b1698bc2a6ecfe9b668e4b75c3d xscreensaver-6.09.tar.gz

@@ -202,19 +202,9 @@ echo "."
 echo "."
 
 ###
-
-echo "e42.33.17.libgtop-2.41.3"
-echo "e42.33.17.libgtop-2.41.3" >> $LFSLOG_PROCESS
-
-time { bash e42.33.17.libgtop-2.41.3.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
-
+#
+#	e11.33.17.libgtop-2.41.3
+#
 ###
 
 echo "e42.33.18.libgweather-4.4.4"

@@ -12,7 +12,7 @@
 #               e43.33.38 gnome-settings-daemon-47.2
 #               e42.33.24 gsound-1.0.3
 #               e41.25.28 libadwaita-1.6.4
-#               e42.33.17 libgtop-2.41.3
+#               e11.33.17 libgtop-2.41.3
 #           ??? xxx.17.12 libnma-1.10.6
 #           ??? xxx.04.14 libpwquality-1.4.5
 #           ??? xxx.04.15 MIT KerberosV5-1.21.3

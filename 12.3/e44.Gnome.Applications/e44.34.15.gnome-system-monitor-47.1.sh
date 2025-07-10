@@ -7,7 +7,7 @@
 #               e41.28.01 adwaita-icon-theme-47.0
 #               e41.25.19 Gtkmm-4.16.0
 #               e11.49.05 itstool-2.0.7
-#               e42.33.17 libgtop-2.41.3
+#               e11.33.17 libgtop-2.41.3
 #               e41.25.28 libadwaita-1.6.4
 #
 # Dependencies Optional:

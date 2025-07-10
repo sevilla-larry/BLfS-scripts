@@ -6,7 +6,7 @@
 #
 #               e11.25.16 GTK-3.24.48
 #               e11.49.05 itstool-2.0.7
-#               e42.33.17 libgtop-2.41.3
+#               e11.33.17 libgtop-2.41.3
 #
 # Dependencies Runtime:
 #
