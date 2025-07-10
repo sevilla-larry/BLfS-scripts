@@ -15,6 +15,8 @@ https://github.com/google/highway/archive/1.2.0/highway-1.2.0.tar.gz
 https://www.gnupg.org/ftp/gcrypt/libassuan/libassuan-3.0.2.tar.bz2
 # 09.41 libdisplay-info-0.2.0
 https://gitlab.freedesktop.org/emersion/libdisplay-info/-/releases/0.2.0/downloads/libdisplay-info-0.2.0.tar.xz
+# 09.46 libgusb-0.4.9
+https://github.com/hughsie/libgusb/releases/download/0.4.9/libgusb-0.4.9.tar.xz
 
 # 10.15 libavif-1.2.0
 https://github.com/AOMediaCodec/libavif/archive/v1.2.0/libavif-1.2.0.tar.gz
@@ -26,6 +28,9 @@ https://download.gnome.org/sources/librsvg/2.59/librsvg-2.59.2.tar.xz
 https://poppler.freedesktop.org/poppler-25.02.0.tar.xz
 https://poppler.freedesktop.org/poppler-data-0.4.12.tar.gz
 
+# 12.08 Colord-1.4.7
+https://www.freedesktop.org/software/colord/releases/colord-1.4.7.tar.xz
+https://www.linuxfromscratch.org/patches/blfs/12.3/colord-1.4.7-upstream_fixes-1.patch
 # 12.21 AccountsService-23.13.9
 https://www.freedesktop.org/software/accountsservice/accountsservice-23.13.9.tar.xz
 

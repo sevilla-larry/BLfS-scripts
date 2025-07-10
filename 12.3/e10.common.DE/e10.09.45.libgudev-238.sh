@@ -12,7 +12,7 @@
 #
 #               e23.35.11 thunar-volman-4.20.0  (NOT installed)
 #               e10.12.37 UPower-1.90.7
-#               e41.12.08 Colord-1.4.7
+#               e11.12.08 Colord-1.4.7
 #               e41.12.35 UDisks-2.10.1
 #               e41.25.45 WebKitGTK-2.46.6
 #               e43.33.45 gnome-tweaks-46.1

@@ -66,6 +66,34 @@ echo "."
 
 ###
 
+echo "e11.09.46.libgusb-0.4.9"
+echo "e11.09.46.libgusb-0.4.9" >> $LFSLOG_PROCESS
+
+time { bash e11.09.46.libgusb-0.4.9.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "e11.12.08.Colord-1.4.7"
+echo "e11.12.08.Colord-1.4.7" >> $LFSLOG_PROCESS
+
+time { bash e11.12.08.Colord-1.4.7.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
 echo "e11.09.41.libdisplay-info-0.2.0"
 echo "e11.09.41.libdisplay-info-0.2.0" >> $LFSLOG_PROCESS
 

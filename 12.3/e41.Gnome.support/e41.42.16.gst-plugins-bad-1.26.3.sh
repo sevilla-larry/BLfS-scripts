@@ -17,7 +17,7 @@
 #               a.08.93.04 cURL-8.14.1
 #               e11.25.16  GTK+-3.24.48
 #               e41.42.16  gst-plugins-good-1.26.3  (errata)
-#               e13.09.29  JSON-Glib-1.10.6
+#               e10.09.29  JSON-Glib-1.10.6
 #               e10.10.14  LittleCMS-2.17
 #               e10.10.16  libexif-0.6.25
 #               e11.10.24  librsvg-2.59.2

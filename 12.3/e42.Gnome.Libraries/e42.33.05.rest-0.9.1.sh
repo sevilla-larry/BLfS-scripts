@@ -4,7 +4,7 @@
 #
 # Dependencies Required:
 #
-#               e13.09.29  JSON-GLib-1.10.6
+#               e10.09.29  JSON-GLib-1.10.6
 #               e41.17.18  libsoup-3.6.5    (errata)
 #               a.08.91.40 make-ca-1.16     (errata)
 #

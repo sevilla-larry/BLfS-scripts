@@ -8,20 +8,6 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
 #####
 
-echo "e13.09.29.JSON-GLib-1.10.6"
-echo "e13.09.29.JSON-GLib-1.10.6" >> $LFSLOG_PROCESS
-
-time { bash e13.09.29.JSON-GLib-1.10.6.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
-
-###
-
 echo "e13.12.07.Bubblewrap-0.11.0"
 echo "e13.12.07.Bubblewrap-0.11.0" >> $LFSLOG_PROCESS
 

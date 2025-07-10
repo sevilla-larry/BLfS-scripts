@@ -6,7 +6,7 @@
 #
 #               d10.12.12 elogind-255.17
 #               e42.33.12 gnome-desktop-44.1
-#               e13.09.29 JSON-GLib-1.10.6
+#               e10.09.29 JSON-GLib-1.10.6
 #               d20.24.12 Mesa-24.3.4
 #               e10.12.37 UPower-1.90.7
 #

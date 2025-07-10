@@ -11,7 +11,7 @@
 #
 #               e41.12.09  cpio-2.15
 #               d10.11.04  desktop-file-utils-0.28
-#               e13.09.29  JSON-GLib-1.10.6
+#               e10.09.29  JSON-GLib-1.10.6
 #               a.08.91.12 libarchive-3.8.1
 #               e41.25.28  libadwaita-1.6.4
 #               e41.09.55  libportal-0.9.1

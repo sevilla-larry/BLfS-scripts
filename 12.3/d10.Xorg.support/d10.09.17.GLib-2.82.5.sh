@@ -47,13 +47,13 @@
 #               e11.10.33 Poppler-25.02.0
 #               e11.09.13 enchant-2.8.2
 #               e41.42.13 gstreamer-1.24.12
-#               e13.09.29 JSON-GLib-1.10.6
+#               e10.09.29 JSON-GLib-1.10.6
 #               e41.09.19 GLibmm-2.82.0
 #               e41.09.36 libblockdev-3.3.1
 #               e41.09.55 libportal-0.9.1
 #               e41.09.73 libxmlb-0.3.21
 #               e41.11.22 xdg-dbus-proxy-0.1.6
-#               e41.12.08 Colord-1.4.7
+#               e11.12.08 Colord-1.4.7
 #               e41.12.35 UDisks-2.10.1
 #               e41.13.24.06 D-Bus.Python-1.3.2
 #               e41.13.24.23 PyGObject-3.50.0
@@ -89,7 +89,7 @@
 #               e11.42.49 PulseAudio-17.0
 #               g42.34.04 Evince-46.3.1
 #               e44.34.04 Evince-46.3.1
-#               e41.09.46 libgusb-0.4.9
+#               e11.09.46 libgusb-0.4.9
 #               e41.09.47 libical-3.0.19
 #               e41.11.10 ibus-1.5.31
 #               e41.17.18 libsoup-3.6.5 (errata)

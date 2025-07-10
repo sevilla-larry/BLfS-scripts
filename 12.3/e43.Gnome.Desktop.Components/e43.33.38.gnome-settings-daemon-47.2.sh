@@ -19,7 +19,7 @@
 #
 # Dependencies Recommended:
 #
-#               e41.12.08  colord-1.4.7
+#               e11.12.08  colord-1.4.7
 #           ??? xxx.46.01  Cups-2.4.11
 #           ??? xxx.16.03  NetworkManager-1.50.0
 #               a.08.91.32 nss-3.108

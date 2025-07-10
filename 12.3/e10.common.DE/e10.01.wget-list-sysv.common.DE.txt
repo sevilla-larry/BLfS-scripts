@@ -1,3 +1,5 @@
+# 09.29 JSON-GLib-1.10.6
+https://download.gnome.org/sources/json-glib/1.10/json-glib-1.10.6.tar.xz
 # 09.45 libgudev-238
 https://download.gnome.org/sources/libgudev/238/libgudev-238.tar.xz
 # 09.65 libtasn1-4.20.0

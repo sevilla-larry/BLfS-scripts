@@ -20,8 +20,6 @@ e6593766de7d8aa6e3a7e67ebf1e522f json-c-0.18.tar.gz
 b9a24d3a7b576e67cab729195c26f6e5 libbytesize-2.11.tar.gz
 # 09.40 libdaemon-0.14
 509dc27107c21bcd9fbf2f95f5669563 libdaemon-0.14.tar.gz
-# 09.46 libgusb-0.4.9
-354a3227334991ea4e924843c144bd82 libgusb-0.4.9.tar.xz
 # 09.47 libical-3.0.19
 f671e38e804bf467347807d8c8d057f7 libical-3.0.19.tar.gz
 # 09.55 libportal-0.9.1
@@ -55,9 +53,6 @@ e97025dc70178877dbd041776f151947 webp-pixbuf-loader-0.2.7.tar.gz
 # 11.22 xdg-dbus-proxy-0.1.6
 6d38a1b6bba80a3134270204558ba17e xdg-dbus-proxy-0.1.6.tar.xz
 
-# 12.08 Colord-1.4.7
-94bd795efa1931a34990345e4ac439a8 colord-1.4.7.tar.xz
-#								 colord-1.4.7-upstream_fixes-1.patch
 # 12.09 cpio-2.15
 3394d444ca1905ea56c94b628b706a0b cpio-2.15.tar.bz2
 # 12.13 blocaled-0.7

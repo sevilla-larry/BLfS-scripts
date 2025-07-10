@@ -4,7 +4,7 @@
 #
 # Dependencies Required:
 #
-#               e13.09.29 JSON-GLib-1.10.6
+#               e10.09.29 JSON-GLib-1.10.6
 #               e11.13.35 Vala-0.56.17
 #
 # Dependencies Recommended:

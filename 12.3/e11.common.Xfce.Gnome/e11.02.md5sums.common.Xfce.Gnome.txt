@@ -15,6 +15,8 @@
 c6f1bf4bd2aaa79cd1635dcc070ba51a libassuan-3.0.2.tar.bz2
 # 09.41 libdisplay-info-0.2.0
 160d4159a7805823cf0b3b4f86dfa8d4 libdisplay-info-0.2.0.tar.xz
+# 09.46 libgusb-0.4.9
+354a3227334991ea4e924843c144bd82 libgusb-0.4.9.tar.xz
 
 # 10.15 libavif-1.2.0
 ec292cb8d51c0aa02f9fd5ef2419c853 libavif-1.2.0.tar.gz
@@ -26,6 +28,9 @@ ec292cb8d51c0aa02f9fd5ef2419c853 libavif-1.2.0.tar.gz
 feae5e0715ed7738fcb4220730a3ff4c poppler-25.02.0.tar.xz
 67ee4a40aa830b1f6e2560ce5f6471ba poppler-data-0.4.12.tar.gz
 
+# 12.08 Colord-1.4.7
+94bd795efa1931a34990345e4ac439a8 colord-1.4.7.tar.xz
+#								 colord-1.4.7-upstream_fixes-1.patch
 # 12.21 AccountsService-23.13.9
 03dccfe1b306b7ca19743e86d118e64d accountsservice-23.13.9.tar.xz
 

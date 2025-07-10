@@ -1,6 +1,3 @@
-# 09.29 JSON-GLib-1.10.6
-d4bf13ddd1e6d607d039d39286f9e3d0 json-glib-1.10.6.tar.xz
-
 # 12.07 Bubblewrap-0.11.0
 630eec714ea04729efd116ea85a715a3 bubblewrap-0.11.0.tar.xz
 

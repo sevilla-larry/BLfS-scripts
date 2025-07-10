@@ -201,34 +201,6 @@ echo "."
 
 ###
 
-echo "e41.09.46.libgusb-0.4.9"
-echo "e41.09.46.libgusb-0.4.9" >> $LFSLOG_PROCESS
-
-time { bash e41.09.46.libgusb-0.4.9.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
-
-###
-
-echo "e41.12.08.Colord-1.4.7"
-echo "e41.12.08.Colord-1.4.7" >> $LFSLOG_PROCESS
-
-time { bash e41.12.08.Colord-1.4.7.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
-
-###
-
 echo "e42.33.04.libsecret-0.21.6"
 echo "e42.33.04.libsecret-0.21.6" >> $LFSLOG_PROCESS
 

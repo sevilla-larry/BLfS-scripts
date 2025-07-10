@@ -31,9 +31,9 @@
 #               e42.33.07 VTE-0.78.4
 #               f2.26.02  lightdm-1.32.0
 #               e11.25.32 libhandy-1.8.3
-#               e41.09.46 libgusb-0.4.9
+#               e11.09.46 libgusb-0.4.9
 #               e41.09.47 libical-3.0.19
-#               e41.12.08 Colord-1.4.7
+#               e11.12.08 Colord-1.4.7
 #               e41.17.03 GeoClue-2.7.2
 #               e41.17.18 libsoup-3.6.5 (errata)
 #               e41.25.07 colord-gtk-0.3.1

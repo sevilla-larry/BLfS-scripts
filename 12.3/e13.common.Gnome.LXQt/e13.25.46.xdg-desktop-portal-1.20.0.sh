@@ -6,7 +6,7 @@
 #
 #           ??? e10.05.04 Fuse-3.16.2           ???
 #               e10.25.10 gdk-pixbuf-2.42.12
-#               e13.09.29 JSON-Glib-1.10.6
+#               e10.09.29 JSON-Glib-1.10.6
 #           ??? e10.42.48 Pipewire-1.2.7        ???
 #
 # Dependencies Recommended:

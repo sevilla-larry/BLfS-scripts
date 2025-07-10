@@ -1,3 +1,5 @@
+# 09.29 JSON-GLib-1.10.6
+d4bf13ddd1e6d607d039d39286f9e3d0 json-glib-1.10.6.tar.xz
 # 09.45 libgudev-238
 46da30a1c69101c3a13fa660d9ab7b73 libgudev-238.tar.xz
 # 09.65 libtasn1-4.20.0

@@ -20,8 +20,6 @@ https://github.com/storaged-project/libblockdev/releases/download/3.3.1/libblock
 https://github.com/storaged-project/libbytesize/releases/download/2.11/libbytesize-2.11.tar.gz
 # 09.40 libdaemon-0.14
 https://0pointer.de/lennart/projects/libdaemon/libdaemon-0.14.tar.gz
-# 09.46 libgusb-0.4.9
-https://github.com/hughsie/libgusb/releases/download/0.4.9/libgusb-0.4.9.tar.xz
 # 09.47 libical-3.0.19
 https://github.com/libical/libical/releases/download/v3.0.19/libical-3.0.19.tar.gz
 # 09.55 libportal-0.9.1
@@ -55,9 +53,6 @@ https://www.unicode.org/Public/zipped/16.0.0/UCD.zip
 # 11.22 xdg-dbus-proxy-0.1.6
 https://github.com/flatpak/xdg-dbus-proxy/releases/download/0.1.6/xdg-dbus-proxy-0.1.6.tar.xz
 
-# 12.08 Colord-1.4.7
-https://www.freedesktop.org/software/colord/releases/colord-1.4.7.tar.xz
-https://www.linuxfromscratch.org/patches/blfs/12.3/colord-1.4.7-upstream_fixes-1.patch
 # 12.09 cpio-2.15
 https://ftp.gnu.org/gnu/cpio/cpio-2.15.tar.bz2
 # 12.13 blocaled-0.7

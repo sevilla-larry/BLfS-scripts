@@ -27,7 +27,7 @@
 #
 # Dependencies Optional:
 #
-#               e41.12.08 colord-1.4.7
+#               e11.12.08 colord-1.4.7
 #           ??? e41.09.39 libcloudproviders-0.3.6   ???
 #               e42.33.22 tinysparql-3.8.2
 #

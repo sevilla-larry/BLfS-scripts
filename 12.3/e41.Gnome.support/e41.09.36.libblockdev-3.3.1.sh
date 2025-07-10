@@ -18,7 +18,7 @@
 #
 # Dependencies Optional:
 #
-#               e13.09.29 JSON-GLib-1.10.6
+#               e10.09.29 JSON-GLib-1.10.6
 #
 
 #

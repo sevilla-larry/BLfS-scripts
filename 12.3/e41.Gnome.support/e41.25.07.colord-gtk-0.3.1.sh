@@ -4,7 +4,7 @@
 #
 # Dependencies Required:
 #
-#               e41.12.08 colord-1.4.7
+#               e11.12.08 colord-1.4.7
 #               e11.25.16 GTK-3.24.48
 #
 # Dependencies Recommended:
