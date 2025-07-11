@@ -11,10 +11,10 @@
 #
 # Required by:
 #
-#               e33.37.12 lxqt-menu-data-2.0.0
-#               e33.37.14 libsysstat-1.0.0
-#               e33.37.26 lxqt-themes-2.0.0
-#               e33.37.35 obconf-qt-0.16.2
+#               e33.37.14 lxqt-menu-data-2.1.0
+#               e33.37.16 libsysstat-1.1.0
+#               e33.37.27 lxqt-themes-2.1.0
+#               e33.37.36 obconf-qt-0.16.5
 #
 
 export PKG="lxqt-build-tools-2.1.0"

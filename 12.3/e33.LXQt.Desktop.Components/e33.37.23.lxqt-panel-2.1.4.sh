@@ -4,13 +4,19 @@
 #
 # Dependencies Required:
 #
-#               e32.37.08 layer-shell-qt-6.1.4 for lxqt
-#               e33.37.20.libdbusmenu-lxqt-0.1.0
-#               e33.37.13 liblxqt-2.0.0
-#               e33.37.19 lxqt-globalkeys-2.0.0
-#               e33.37.12 lxqt-menu-data-2.0.0
-#               e32.37.04 solid-6.5.0 for lxqt
-#               e32.37.17 menu-cache-1.1.0
+#               e32.37.08 layer-shell-qt-6.3.2 for lxqt
+#               e33.37.12.libdbusmenu-lxqt-0.2.0
+#               e33.37.15 liblxqt-2.1.0
+#               e33.37.21 lxqt-globalkeys-2.1.0
+#               e33.37.14 lxqt-menu-data-2.1.0
+#               e32.37.04 solid-6.11.0 for lxqt
+#               e33.37.19 menu-cache-1.1.1
+#
+# Dependencies Recommended:
+#
+#               e10.42.49 PulseAudio-17.0
+#               e33.37.16 libsysstat-1.1.0
+#               e10.09.71 libxkbcommon-1.8.0
 #
 
 export PKG="lxqt-panel-2.1.4"
@@ -21,7 +27,7 @@ export PKGLOG_BUILD=$PKGLOG_DIR/build.log
 #export PKGLOG_CHECK=$PKGLOG_DIR/check.log
 export PKGLOG_INSTALL=$PKGLOG_DIR/install.log
 export PKGLOG_ERROR=$PKGLOG_DIR/error.log
-export PKGLOG_OTHERS=$PKGLOG_DIR/others.log
+#export PKGLOG_OTHERS=$PKGLOG_DIR/others.log
 export LFSLOG_PROCESS=$LFSLOG/process.log
 export SOURCES=`pwd`
 
@@ -34,10 +40,6 @@ echo "1. Extract tar..." >> $PKGLOG_ERROR
 tar xvf $PKG.tar.xz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
 
-
-sed -e '/lxqt_app_translation_loader/a set(CMAKE_EXECUTABLE_ENABLE_EXPORTS TRUE)' \
-    -i panel/CMakeLists.txt \
-      > $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
 
 mkdir build
 cd    build

@@ -4,7 +4,7 @@
 #
 # Dependencies Required:
 #
-#               e33.37.13 liblxqt-2.0.0
+#               e33.37.15 liblxqt-2.1.0
 #
 
 export PKG="lxqt-sudo-2.1.0"

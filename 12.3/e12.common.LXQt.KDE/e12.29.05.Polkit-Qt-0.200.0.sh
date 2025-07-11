@@ -3,16 +3,17 @@
 #
 # Dependencies Required:
 #
-#               b11.13.03 CMake-3.31.2
+#               a.08.9x.?1 CMake-3.31.5
 #               d10.04.20 Polkit-126
-#               e12.25.42 Qt-6.8.2
+#               e12.25.40 Qt-6.9.1          (errata/svn)
 #
+
 #
 # Required by:
 #
-#            
+#               e33.37.15 liblxqt-2.1.0
+#               e33.37.31 lxqt-policykit-2.1.0
 #
-
 
 export PKG="polkit-qt-0-0.200.0"
 export PKGLOG_DIR=$LFSLOG/29.05
@@ -23,6 +24,7 @@ export PKGLOG_BUILD=$PKGLOG_DIR/build.log
 export PKGLOG_INSTALL=$PKGLOG_DIR/install.log
 export PKGLOG_ERROR=$PKGLOG_DIR/error.log
 export LFSLOG_PROCESS=$LFSLOG/process.log
+export SOURCES=`pwd`
 
 rm -r $PKGLOG_DIR 2> /dev/null
 mkdir $PKGLOG_DIR
@@ -58,9 +60,9 @@ echo "4. Make Install ..." >> $PKGLOG_ERROR
 make install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 
-cd ..
-cd ..
+cd $SOURCES
 rm -rf $PKG
+unset SOURCES
 unset LFSLOG_PROCESS
 unset PKGLOG_INSTALL PKGLOG_BUILD PKGLOG_CONFIG
 #unset PKGLOG_CHECK

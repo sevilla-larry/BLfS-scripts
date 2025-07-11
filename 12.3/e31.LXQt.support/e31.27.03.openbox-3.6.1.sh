@@ -15,8 +15,8 @@
 #
 # Required by:
 #
-#               e33.37.35 obconf-qt-0.16.2
-#               e33.37.36 LXQt Desktop Final Instructions
+#               e33.37.36 obconf-qt-0.16.5
+#               e33.37.40 LXQt Desktop Final Instructions
 #
 
 export PKG="openbox-3.6.1"

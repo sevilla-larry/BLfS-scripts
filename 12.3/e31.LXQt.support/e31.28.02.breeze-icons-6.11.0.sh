@@ -1,25 +1,30 @@
-# e33.37.21.lxqt-globalkeys-2.1.0.sh
+# e31.28.02.breeze-icons-6.11.0.sh
 #
 
 #
 # Dependencies Required:
 #
-#               e33.37.15 liblxqt-2.1.0
+#               e12.29.02 extra-cmake-modules-6.11.0
+#               e12.25.40 Qt-6.9.1          (errata/svn)
+#
+# Dependencies Optional:
+#
+#           ??? Building KDE Frameworks 6.11.0
+#               a.08.91.08 libxml2-2.14.3   (errata)
+#               d10.13.24.12 lxml-5.3.1
 #
 
 #
-# Required by:
+# Recommended by:
 #
-#               e33.37.23 lxqt-panel-2.1.4
-#               e33.37.26 lxqt-runner-2.1.2
+#               e33.37.40 LXQt Desktop Final Instructions
 #
 
-export PKG="lxqt-globalkeys-2.1.0"
-export PKGLOG_DIR=$LFSLOG/37.21
+export PKG="breeze-icons-6.11.0"
+export PKGLOG_DIR=$LFSLOG/28.02
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
-#export PKGLOG_CHECK=$PKGLOG_DIR/check.log
 export PKGLOG_INSTALL=$PKGLOG_DIR/install.log
 export PKGLOG_ERROR=$PKGLOG_DIR/error.log
 export LFSLOG_PROCESS=$LFSLOG/process.log
@@ -35,25 +40,26 @@ tar xvf $PKG.tar.xz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
 
 
-mkdir build
-cd    build
+mkdir build 
+cd    build 
 
 echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
 echo "2. Configure ..." >> $PKGLOG_ERROR
 cmake -D CMAKE_INSTALL_PREFIX=/usr  \
-      -D CMAKE_BUILD_TYPE=Release   \
+      -D BUILD_TESTING=OFF          \
+      -W no-dev                     \
       ..                            \
       > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
-echo "3. Make Build ..."
-echo "3. Make Build ..." >> $LFSLOG_PROCESS
-echo "3. Make Build ..." >> $PKGLOG_ERROR
-make > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
+#echo "3. Make Build ..."
+#echo "3. Make Build ..." >> $LFSLOG_PROCESS
+#echo "3. Make Build ..." >> $PKGLOG_ERROR
+#make > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 
-echo "4. Make Install ..."
-echo "4. Make Install ..." >> $LFSLOG_PROCESS
-echo "4. Make Install ..." >> $PKGLOG_ERROR
+echo "3. Make Install ..."
+echo "3. Make Install ..." >> $LFSLOG_PROCESS
+echo "3. Make Install ..." >> $PKGLOG_ERROR
 make install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 
@@ -62,6 +68,5 @@ rm -rf $PKG
 unset SOURCES
 unset LFSLOG_PROCESS
 unset PKGLOG_INSTALL PKGLOG_BUILD PKGLOG_CONFIG
-#unset PKGLOG_CHECK
 unset PKGLOG_ERROR PKGLOG_TAR
 unset PKGLOG_DIR PKG

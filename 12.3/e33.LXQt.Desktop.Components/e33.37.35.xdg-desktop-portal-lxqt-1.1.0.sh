@@ -4,12 +4,12 @@
 #
 # Dependencies Required:
 #
-#               e33.37.18 libfm-qt-2.0.2
-#               e32.37.02 kwindowsystem-6.5.0 for lxqt
+#               e33.37.20 libfm-qt-2.1.0
+#               e32.37.02 kwindowsystem-6.11.0 for lxqt
 #
 # Dependencies Required (at runtime):
 #
-#               e31.25.48 xdg-desktop-portal-1.18.2
+#               e13.25.46 xdg-desktop-portal-1.20.0
 #
 
 export PKG="xdg-desktop-portal-lxqt-1.1.0"

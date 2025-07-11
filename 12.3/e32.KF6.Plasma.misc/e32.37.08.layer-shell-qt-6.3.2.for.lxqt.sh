@@ -8,6 +8,13 @@
 #               e12.25.40 Qt-6.9.1          (errata/svn)
 #
 
+#
+# Required by:
+#
+#               e33.37.23 lxqt-panel-2.1.4
+#               e33.37.24 pcmanfm-qt-2.1.0
+#
+
 export PKG="layer-shell-qt-6.3.2"
 export PKGLOG_DIR=$LFSLOG/37.08
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log

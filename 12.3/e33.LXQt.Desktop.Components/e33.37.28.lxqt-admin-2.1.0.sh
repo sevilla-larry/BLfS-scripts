@@ -4,8 +4,8 @@
 #
 # Dependencies Required:
 #
-#               e33.37.13 liblxqt-2.0.0
-#               d10.04.20 Polkit-125
+#               e33.37.15 liblxqt-2.1.0
+#               d10.04.20 Polkit-126
 #
 
 export PKG="lxqt-admin-2.1.0"

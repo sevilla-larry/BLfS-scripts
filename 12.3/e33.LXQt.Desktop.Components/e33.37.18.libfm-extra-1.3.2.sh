@@ -10,7 +10,7 @@
 #
 # Required by:
 #
-#               e33.37.17 menu-cache-1.1.0
+#               e33.37.19 menu-cache-1.1.1
 #
 
 export PKG="libfm-1.3.2"

@@ -4,10 +4,10 @@
 #
 # Dependencies Required:
 #
-#               e33.37.13 liblxqt-2.0.0
-#               e32.37.03 kconfig-6.5.0 for lxqt
-#               e32.37.07 libkscreen-6.1.4 for lxqt
-#               d20.24.25.1.4 Xorg Libinput Driver-1.4.0
+#               e33.37.15 liblxqt-2.1.0
+#               e32.37.03 kconfig-6.11.0 for lxqt
+#               e32.37.07 libkscreen-6.3.2 for lxqt
+#               d20.24.21.4 Xorg Libinput Driver-1.5.0
 #
 
 export PKG="lxqt-config-2.1.1"

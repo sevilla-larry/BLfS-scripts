@@ -4,9 +4,9 @@
 #
 # Dependencies Required:
 #
-#               e33.37.19 lxqt-globalkeys-2.0.0
-#               e32.37.02 kwindowsystem-6.5.0 for lxqt
-#               e32.37.09 muparser-2.3.4
+#               e33.37.21 lxqt-globalkeys-2.1.0
+#               e32.37.02 kwindowsystem-6.11.0 for lxqt
+#               e32.37.09 muparser-2.3.5
 #
 
 export PKG="lxqt-runner-2.1.2"

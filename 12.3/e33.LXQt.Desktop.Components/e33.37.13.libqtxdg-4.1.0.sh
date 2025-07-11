@@ -4,19 +4,20 @@
 #
 # Dependencies Required:
 #
-#               b11.13.03 CMake-3.30.2
-#               e12.25.42 Qt-6.7.2
+#               a.08.9x.?1 CMake-3.31.5
+#               e12.25.40 Qt-6.9.1          (errata/svn)
 #
 # Dependencies Optional (runtime):
 #
 #           ??? e21.25.17 GTK+-3.24.43 for gtk-update-icon-cache ???
+#               d20.24.23 xterm-397
 #
 
 #
 # Required by:
 #
-#               e33.37.13 liblxqt-2.0.0
-#               e33.37.15 qtxdg-tools-4.0.0
+#               e33.37.15 liblxqt-2.1.0
+#               e33.37.17 qtxdg-tools-4.1.0
 #
 
 export PKG="libqtxdg-4.1.0"

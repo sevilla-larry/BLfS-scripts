@@ -4,25 +4,26 @@
 #
 # Dependencies Required:
 #
-#               e33.37.11 libqtxdg-4.0.0
-#               e32.37.02 kwindowsystem-6.5.0 for lxqt
+#               e33.37.13 libqtxdg-4.1.0
+#               e32.37.02 kwindowsystem-6.11.0 for lxqt
 #               e12.29.05 Polkit-Qt-0.200.0
 #
 
 #
 # Required by:
 #
-#               e33.37.19 lxqt-globalkeys-2.0.0
-#               e33.37.21 lxqt-qtplugin-2.0.0
-#               e33.37.22 lxqt-panel-2.0.1
-#               e33.37.23 pcmanfm-qt-2.0.0
-#               e33.37.27 lxqt-admin-2.0.0
-#               e33.37.28 lxqt-about-2.0.0
-#               e33.37.29 lxqt-config-2.0.0
-#               e33.37.30 lxqt-policykit-2.0.0
-#               e33.37.31 lxqt-sudo-2.0.0
-#               e33.37.32 lxqt-openssh-askpass-2.0.1
-#               e33.37.33 lxqt-session-2.0.0
+#               e33.37.21 lxqt-globalkeys-2.1.0
+#               e33.37.22 lxqt-qtplugin-2.1.0
+#               e33.37.23 lxqt-panel-2.1.4
+#               e33.37.24 pcmanfm-qt-2.1.0
+#               e33.37.25 lxqt-powermanagement-2.1.0
+#               e33.37.28 lxqt-admin-2.1.0
+#               e33.37.29 lxqt-about-2.1.0
+#               e33.37.30 lxqt-config-2.1.1
+#               e33.37.31 lxqt-policykit-2.1.0
+#               e33.37.32 lxqt-sudo-2.1.0
+#               e33.37.33 lxqt-openssh-askpass-2.1.0
+#               e33.37.34 lxqt-session-2.1.1
 #
 
 export PKG="liblxqt-2.1.0"

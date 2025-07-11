@@ -6,7 +6,6 @@
 # Dependencies Required:
 #
 #               d20.24.08 Xorg Libraries
-
 #
 # Dependencies Recommended:
 #
@@ -41,6 +40,10 @@
 #               e32.37.xx KF6 Plasma misc
 #               e33.37.xx LXQt Desktop Components
 #               e34.38.xx LXQt Applications
+#
+# Recommended by:
+#
+#               e12.29.02 extra-cmake-modules-6.11.0
 #
 
 export PKG="qt-everywhere-src-6.9.1"

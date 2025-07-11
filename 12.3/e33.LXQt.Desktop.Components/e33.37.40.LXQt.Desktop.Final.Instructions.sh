@@ -4,18 +4,16 @@
 #
 # Dependencies Required:
 #
-#   openbox
-#   kwin
+#               e31.27.03 openbox-3.6.1
 #
-# Recommended
+# Dependencies Recommended:
 #
 #   breeze-icons
-#   desktop-file-utils
+#               d10.11.04 desktop-file-utils-0.28
 #
 # Optional:
 #
-#   sddm
-#   XScreenSaver
+#               f3.sddm
 #
 
 export PKGLOG_DIR=$LFSLOG/37.40
@@ -29,10 +27,13 @@ mkdir $PKGLOG_DIR
 
 echo "Final Configuration ..." >> $LFSLOG_PROCESS
 
-ldconfig
-update-mime-database /usr/share/mime
-xdg-icon-resource forceupdate
-update-desktop-database
+ldconfig    >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
+update-mime-database /usr/share/mime    \
+            >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
+xdg-icon-resource forceupdate           \
+            >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
+update-desktop-database                 \
+            >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
 
 
 unset LFSLOG_PROCESS

@@ -4,10 +4,10 @@
 #
 # Dependencies Required:
 #
-#               e10 e21.28.07 hicolor-icon-theme-0.18
-#               e33.37.10 lxqt-build-tools-2.0.0
-#               e31.27.03 openbox-3.6.1                 ???
-#               e12.25.42 Qt-6.7.2
+#               e10.28.07 hicolor-icon-theme-0.18
+#               e33.37.11 lxqt-build-tools-2.1.0
+#               e31.27.03 openbox-3.6.1
+#               e12.25.40 Qt-6.9.1          (errata/svn)
 #
 
 export PKG="obconf-qt-0.16.5"
@@ -18,7 +18,7 @@ export PKGLOG_BUILD=$PKGLOG_DIR/build.log
 #export PKGLOG_CHECK=$PKGLOG_DIR/check.log
 export PKGLOG_INSTALL=$PKGLOG_DIR/install.log
 export PKGLOG_ERROR=$PKGLOG_DIR/error.log
-export PKGLOG_OTHERS=$PKGLOG_DIR/others.log
+#export PKGLOG_OTHERS=$PKGLOG_DIR/others.log
 export LFSLOG_PROCESS=$LFSLOG/process.log
 export SOURCES=`pwd`
 
@@ -31,9 +31,6 @@ echo "1. Extract tar..." >> $PKGLOG_ERROR
 tar xvf $PKG.tar.xz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
 
-
-patch -Np1 -i ../obconf-qt-0.16.4-qt6-1.patch   \
-      > $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
 
 mkdir build
 cd    build
@@ -61,7 +58,7 @@ cd $SOURCES
 rm -rf $PKG
 unset SOURCES
 unset LFSLOG_PROCESS
-unset PKGLOG_OTHERS
+#unset PKGLOG_OTHERS
 unset PKGLOG_INSTALL PKGLOG_BUILD PKGLOG_CONFIG
 #unset PKGLOG_CHECK
 unset PKGLOG_ERROR PKGLOG_TAR

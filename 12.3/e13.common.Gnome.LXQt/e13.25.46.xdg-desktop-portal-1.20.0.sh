@@ -30,7 +30,7 @@
 #
 # Required (at runtime) by:
 #
-#               e33.37.34 xdg-desktop-portal-lxqt-1.0.2
+#               e33.37.35 xdg-desktop-portal-lxqt-1.1.0
 #
 # Recommended (Runtime):
 #

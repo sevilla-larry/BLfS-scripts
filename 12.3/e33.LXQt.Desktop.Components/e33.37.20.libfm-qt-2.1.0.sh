@@ -4,17 +4,18 @@
 #
 # Dependencies Required:
 #
-#               b11.13.03 CMake-3.30.2
-#               e31.10.16 libexif-0.6.24        ???
-#               e33.37.17 menu-cache-1.1.0
-#               e12.25.42 Qt-6.7.2
+#               a.08.9x.?1 CMake-3.31.5
+#               e10.10.16 libexif-0.6.25
+#               e33.37.19 menu-cache-1.1.1
+#               e12.25.40 Qt-6.9.1          (errata/svn)
 #
 
 #
 # Required by:
 #
-#               e33.37.23 pcmanfm-qt-2.0.0
-#               e33.37.34 xdg-desktop-portal-lxqt-1.0.2
+#               e33.37.22 lxqt-qtplugin-2.1.0
+#               e33.37.24 pcmanfm-qt-2.1.0
+#               e33.37.35 xdg-desktop-portal-lxqt-1.1.0
 #
 
 export PKG="libfm-qt-2.1.0"

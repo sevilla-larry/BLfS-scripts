@@ -20,6 +20,10 @@
 #
 #               d20.24.25 xinit-1.4.3
 #
+# Optional (runtime) by:
+#
+#               e33.37.13 libqtxdg-4.1.0
+#
 
 export PKG="xterm-397"
 export PKGLOG_DIR=$LFSLOG/24.23

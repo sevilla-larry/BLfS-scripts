@@ -4,8 +4,8 @@
 #
 # Dependencies Required:
 #
-#               e33.37.13 liblxqt-2.0.0
-#               e33.37.15 qtxdg-tools-4.0.0
+#               e33.37.15 liblxqt-2.1.0
+#               e33.37.17 qtxdg-tools-4.1.0
 #               e31.11.23 Xdg-user-dirs-0.18
 #
 
@@ -33,7 +33,7 @@ cd $PKG
 
 sed -e '/TryExec/s|=|=/usr/bin/|'   \
     -i xsession/lxqt.desktop.in     \
-      > $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
+    > $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
 
 mkdir build
 cd    build

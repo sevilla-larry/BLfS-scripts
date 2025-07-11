@@ -4,10 +4,14 @@
 #
 # Dependencies Required:
 #
-#               e32.37.08 layer-shell-qt-6.1.4 for lxqt
-#               e33.37.13 liblxqt-2.0.0
-#               e33.37.18 libfm-qt-2.0.2
-#               e33.37.12 lxqt-menu-data-2.0.0
+#               e32.37.08 layer-shell-qt-6.3.2 for lxqt
+#               e33.37.15 liblxqt-2.1.0
+#               e33.37.20 libfm-qt-2.1.0
+#               e33.37.14 lxqt-menu-data-2.1.0
+#
+# Dependencies Recommended (runtime)
+#
+#               gvfs
 #
 
 export PKG="pcmanfm-qt-2.1.0"

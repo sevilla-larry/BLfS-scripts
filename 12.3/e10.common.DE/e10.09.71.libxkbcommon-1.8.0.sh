@@ -36,6 +36,7 @@
 #
 #               e10.42.52 SDL2-2.30.11
 #               e12.25.40 Qt-6.9.1          (errata/svn)
+#               e33.37.23 lxqt-panel-2.1.4
 #
 # Optional (required for test) by:
 #

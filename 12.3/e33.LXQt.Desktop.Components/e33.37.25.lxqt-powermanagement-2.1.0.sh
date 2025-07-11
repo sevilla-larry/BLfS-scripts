@@ -4,10 +4,10 @@
 #
 # Dependencies Required:
 #
-#   liblxqt
-#   kidletime
-#   solid
-#   UPower
+#               e33.37.15 liblxqt-2.1.0
+#               e32.37.05 kidletime-6.11.0 for lxqt
+#               e32.37.04 solid-6.11.0 for lxqt
+#               e10.12.37 UPower-1.90.7
 #
 
 export PKG="lxqt-powermanagement-2.1.0"

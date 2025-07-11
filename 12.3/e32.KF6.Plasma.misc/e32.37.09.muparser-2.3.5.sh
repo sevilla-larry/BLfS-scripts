@@ -7,6 +7,12 @@
 #               a.08.9x.?1 CMake-3.31.5
 #
 
+#
+# Required by:
+#
+#               e33.37.26 lxqt-runner-2.1.2
+#
+
 export PKG="muparser-2.3.5"
 export PKGLOG_DIR=$LFSLOG/37.09
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log

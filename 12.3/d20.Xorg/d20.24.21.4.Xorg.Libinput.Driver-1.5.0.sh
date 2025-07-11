@@ -13,6 +13,10 @@
 #
 #               d20.24.20   Xorg-Server-21.1.18 (errata)
 #
+# Required by:
+#
+#               e33.37.30 lxqt-config-2.1.1
+#
 
 export PKG="xf86-input-libinput-1.5.0"
 export PKGLOG_DIR=$LFSLOG/24.21.4

@@ -4,7 +4,7 @@
 #
 # Required by:
 #
-#               ??? 39.23 obconf-qt-0.16.2      ???
+#               e33.37.36 obconf-qt-0.16.5
 #
 # Recommended by:
 #

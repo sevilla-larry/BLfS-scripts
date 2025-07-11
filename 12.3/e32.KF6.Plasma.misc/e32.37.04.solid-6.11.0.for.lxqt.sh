@@ -13,6 +13,12 @@
 #               e10.12.37 UPower-1.90.7
 #
 
+#
+# Required by:
+#
+#               e33.37.23 lxqt-panel-2.1.4
+#               e33.37.25 lxqt-powermanagement-2.1.0
+#
 
 export PKG="solid-6.11.0"
 export PKGLOG_DIR=$LFSLOG/37.04

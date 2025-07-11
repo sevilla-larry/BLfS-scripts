@@ -4,13 +4,13 @@
 #
 # Dependencies Required:
 #
-#               e33.37.13 liblxqt-2.0.0
+#               e33.37.13 liblxqt-2.1.0
 #
 
 #
 # Required by:
 #
-#               e33.37.33 lxqt-session-2.0.0
+#               e33.37.34 lxqt-session-2.1.1
 #
 
 export PKG="qtxdg-tools-4.1.0"

@@ -9,6 +9,12 @@
 #               e12.25.40 Qt-6.9.1          (errata/svn)
 #
 
+#
+# Required by:
+#
+#               e33.37.25 lxqt-powermanagement-2.1.0
+#
+
 export PKG="kidletime-6.11.0"
 export PKGLOG_DIR=$LFSLOG/37.05
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log

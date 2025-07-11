@@ -10,7 +10,7 @@
 #
 # Required by:
 #
-#               e33.37.33 lxqt-session-2.0.0
+#               e33.37.34 lxqt-session-2.1.1
 #
 
 export PKG="xdg-user-dirs-0.18"

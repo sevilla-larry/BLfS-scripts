@@ -4,7 +4,7 @@
 #
 # Dependencies Required:
 #
-#               e33.37.10 lxqt-build-tools-2.0.0
+#               e33.37.11 lxqt-build-tools-2.1.0
 #
 
 export PKG="lxqt-themes-2.1.0"

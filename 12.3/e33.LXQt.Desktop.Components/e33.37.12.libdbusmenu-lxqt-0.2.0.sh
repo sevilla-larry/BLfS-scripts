@@ -1,18 +1,17 @@
 # e33.37.12.libdbusmenu-lxqt-0.2.0.sh
 #
 
-
 #
 # Dependencies Required:
 #
-#               b11.13.03 CMake-3.30.2
+#               a.08.9x.?1 CMake-3.31.5
 #
 
 #
 # Required by:
 #
-#               e33.37.21 lxqt-qtplugin-2.0.0
-#               e33.37.22 lxqt-panel-2.0.1
+#               e33.37.22 lxqt-qtplugin-2.1.0
+#               e33.37.23 lxqt-panel-2.1.4
 #
 
 export PKG="libdbusmenu-lxqt-0.2.0"

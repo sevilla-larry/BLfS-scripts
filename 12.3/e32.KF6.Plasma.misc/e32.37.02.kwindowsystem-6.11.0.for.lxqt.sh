@@ -10,6 +10,14 @@
 #               d20.24.08 Xorg Libraries
 #
 
+#
+# Required by:
+#
+#               e33.37.15 liblxqt-2.1.0
+#               e33.37.26 lxqt-runner-2.1.2
+#               e33.37.35 xdg-desktop-portal-lxqt-1.1.0
+#
+
 export PKG="kwindowsystem-6.11.0"
 export PKGLOG_DIR=$LFSLOG/37.02
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log

@@ -4,7 +4,7 @@
 #
 # Required by:
 #
-#               e33.37.18 libfm-qt-2.0.2
+#               e33.37.20 libfm-qt-2.1.0
 #               e24.36.04 Ristretto-0.13.3
 #
 # Recommended by:

@@ -10,7 +10,10 @@
 #
 # Required by:
 #
-#               
+#               e32.37.02 kwindowsystem-6.11.0 for lxqt
+#               e32.37.05 kidletime-6.11.0 for lxqt
+#               e32.37.06 kwayland-6.3.2 for lxqt
+#               e32.37.07 libkscreen-6.3.2 for lxqt
 #
 
 export PKG="plasma-wayland-protocols-1.16.0"
@@ -22,6 +25,7 @@ export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_INSTALL=$PKGLOG_DIR/install.log
 export PKGLOG_ERROR=$PKGLOG_DIR/error.log
 export LFSLOG_PROCESS=$LFSLOG/process.log
+export SOURCES=`pwd`
 
 rm -r $PKGLOG_DIR 2> /dev/null
 mkdir $PKGLOG_DIR
@@ -49,9 +53,9 @@ echo "3. Make Install ..." >> $PKGLOG_ERROR
 make install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 
-cd ..
-cd ..
+cd $SOURCES
 rm -rf $PKG
+unset SOURCES
 unset LFSLOG_PROCESS
 unset PKGLOG_INSTALL PKGLOG_CONFIG
 #PKGLOG_BUILD

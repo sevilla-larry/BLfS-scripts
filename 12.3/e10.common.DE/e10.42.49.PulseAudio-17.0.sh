@@ -31,6 +31,7 @@
 #
 #               e41.42.15 gst-plugins-good-1.26.3   (errata)
 #               e41.42.48 Pipewire-1.2.7
+#               e33.37.23 lxqt-panel-2.1.4
 #
 # Optionally by:
 #

@@ -4,14 +4,14 @@
 #
 # Dependencies Required:
 #
-#               e33.37.10 lxqt-build-tools-2.0.0
+#               e33.37.11 lxqt-build-tools-2.1.0
 #
 
 #
 # Required by:
 #
-#               e33.37.22 lxqt-panel-2.0.1
-#               e33.37.23 pcmanfm-qt-2.0.0
+#               e33.37.23 lxqt-panel-2.1.4
+#               e33.37.24 pcmanfm-qt-2.1.0
 #
 
 export PKG="lxqt-menu-data-2.1.0"

@@ -4,8 +4,9 @@
 #
 # Dependencies Required:
 #
-#               e33.37.13 liblxqt-2.0.0
-#               e33.37.20 libdbusmenu-lxqt-0.1.0
+#               e33.37.20 libfm-qt-2.1.0
+#               e33.37.15 liblxqt-2.1.0
+#               e33.37.12 libdbusmenu-lxqt-0.2.0
 #
 
 export PKG="lxqt-qtplugin-2.1.0"

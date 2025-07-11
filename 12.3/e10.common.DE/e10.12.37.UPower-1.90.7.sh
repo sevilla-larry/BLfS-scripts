@@ -21,7 +21,7 @@
 #				e43.33.38 gnome-settings-daemon-47.2
 #               e43.33.44 gnome-session-47.0.1
 #               e44.34.13 gnome-power-manager-43.0
-#                         lxqt-powermanagement
+#               e33.37.25 lxqt-powermanagement-2.1.0
 #
 # Recommended by:
 #
