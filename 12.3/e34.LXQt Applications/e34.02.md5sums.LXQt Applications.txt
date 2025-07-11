@@ -1,0 +1,10 @@
+# 38.01 ---> .08
+
+75ee584882996b54ca97b9dd6f083afd lximage-qt-2.1.1.tar.xz
+b552ea9f448a003a9c2f212a8ecdc29f lxqt-archiver-1.1.0.tar.xz
+dc9575b6f5c19f5a812d1e76737cfcb2 lxqt-notificationd-2.1.1.tar.xz
+54d62e1b4dc56c0c6786d8bdfe1079e9 pavucontrol-qt-2.1.0.tar.xz
+6d2e293badc7ca6713e6d3954754adc0 qps-2.10.0.tar.xz
+0c86d45218a71df826b569af5ae00f07 qtermwidget-2.1.0.tar.xz
+bbca04a1eaed5f781732aebdf43ca1e2 qterminal-2.1.0.tar.xz
+b56af6addfdb14a405ed67b1611d6569 screengrab-2.9.0.tar.xz
