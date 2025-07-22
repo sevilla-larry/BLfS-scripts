@@ -1,4 +1,4 @@
-# c13.20.01.Apache-2.4.63.sh
+# c13.20.01.Apache-2.4.64.sh
 #
 
 #
@@ -13,7 +13,7 @@
 #               a.08.91.67 nghttp2-1.64.0
 #
 
-export PKG="httpd-2.4.63"
+export PKG="httpd-2.4.64"
 export PKGLOG_DIR=$LFSLOG/20.01
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
@@ -39,7 +39,7 @@ groupadd -g 25 apache
 useradd -c "Apache Server" -d /srv/www -g apache \
         -s /bin/false -u 25 apache
 
-patch -Np1 -i ../httpd-2.4.63-blfs_layout-1.patch   \
+patch -Np1 -i ../httpd-2.4.64-blfs_layout-1.patch   \
     >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
 
 sed '/dir.*CFG_PREFIX/s@^@#@' -i support/apxs.in    \
@@ -52,7 +52,7 @@ sed -e '/HTTPD_ROOT/s:${ap_prefix}:/etc/httpd:'         \
     >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
 
 sed -e '/encoding.h/a # include <libxml/xmlstring.h>'   \
-    -i modules/filters/mod_xml2enc.c
+    -i modules/filters/mod_xml2enc.c                    \
     >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
 
 echo "2. Configure ..."
@@ -68,9 +68,9 @@ echo "2. Configure ..." >> $PKGLOG_ERROR
             --with-suexec-bin=/usr/lib/httpd/suexec             \
             --with-suexec-caller=apache                         \
             --with-suexec-docroot=/srv/www                      \
-            --with-suexec-logfile=/var/log/httpd/suexec.log     \
             --with-suexec-uidmin=100                            \
             --with-suexec-userdir=public_html                   \
+            --with-suexec-logfile=/var/log/httpd/suexec.log     \
             > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Make Build ..."

@@ -5,5 +5,9 @@
 b6e8c9b31d938fe5797ceb0d1ff2eb69 apr-util-1.6.3.tar.bz2
 
 # 20.01 Apache-2.4.63
-8b5ee2a61d569a3eacec5778e7f20e13 httpd-2.4.63.tar.bz2
-#								 httpd-2.4.63-blfs_layout-1.patch
+# 8b5ee2a61d569a3eacec5778e7f20e13 httpd-2.4.63.tar.bz2
+#								   httpd-2.4.63-blfs_layout-1.patch
+
+# 20.01 Apache-2.4.64	(errata)
+ce84deabcae8d1ebab195f3c4346d1e9 httpd-2.4.64.tar.bz2
+#								 httpd-2.4.64-blfs_layout-1.patch

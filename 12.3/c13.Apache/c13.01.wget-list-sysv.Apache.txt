@@ -5,5 +5,9 @@ https://archive.apache.org/dist/apr/apr-1.7.5.tar.bz2
 https://archive.apache.org/dist/apr/apr-util-1.6.3.tar.bz2
 
 # 20.01 Apache-2.4.63
-https://archive.apache.org/dist/httpd/httpd-2.4.63.tar.bz2
-https://www.linuxfromscratch.org/patches/blfs/12.3/httpd-2.4.63-blfs_layout-1.patch
+# https://archive.apache.org/dist/httpd/httpd-2.4.63.tar.bz2
+# https://www.linuxfromscratch.org/patches/blfs/12.3/httpd-2.4.63-blfs_layout-1.patch
+
+# 20.01 Apache-2.4.64	(errata)
+https://archive.apache.org/dist/httpd/httpd-2.4.64.tar.bz2
+https://www.linuxfromscratch.org/patches/blfs/svn/httpd-2.4.64-blfs_layout-1.patch
