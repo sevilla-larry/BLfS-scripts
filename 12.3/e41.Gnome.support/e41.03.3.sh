@@ -3,6 +3,9 @@
 
 export LFSLOG_PROCESS=$LFSLOG/process.log
 
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
 #####
 
 echo "e41.13.26.Ruby-3.4.2"

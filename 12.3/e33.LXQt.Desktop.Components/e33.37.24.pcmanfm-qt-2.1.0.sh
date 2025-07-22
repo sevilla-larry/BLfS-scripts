@@ -11,7 +11,7 @@
 #
 # Dependencies Recommended (runtime)
 #
-#               gvfs
+#           ??? gvfs    (gnome)
 #
 
 export PKG="pcmanfm-qt-2.1.0"

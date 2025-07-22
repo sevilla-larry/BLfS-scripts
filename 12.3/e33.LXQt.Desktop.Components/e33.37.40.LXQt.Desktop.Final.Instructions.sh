@@ -8,12 +8,12 @@
 #
 # Dependencies Recommended:
 #
-#   breeze-icons
+#               e31.28.02 breeze-icons-6.11.0
 #               d10.11.04 desktop-file-utils-0.28
 #
 # Optional:
 #
-#               f3.sddm
+#               f3.26.03.sddm-0.21.0
 #
 
 export PKGLOG_DIR=$LFSLOG/37.40

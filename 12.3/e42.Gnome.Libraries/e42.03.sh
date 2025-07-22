@@ -5,6 +5,9 @@
 
 export LFSLOG_PROCESS=$LFSLOG/process.log
 
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
 #####
 
 echo "e42.33.01.Gcr-3.41.2"

@@ -17,4 +17,4 @@ bash e11.03.2.sh
 #fi
 
 # Xfce support apps
- bash e21.03.sh
+bash e21.03.sh

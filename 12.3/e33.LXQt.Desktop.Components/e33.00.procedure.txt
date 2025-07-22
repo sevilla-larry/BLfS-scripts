@@ -9,9 +9,12 @@ A. Preparation
         copy all script files from the following to /sources
 
             1. e10.common.DE
-            2. e11.common.Xfce.Gnome
-            3. e21.Xfce.support
-            4. e23.Xfce
+            2. e12.common.LXQt.KDE
+            3. e13.common.Gnome.LXQt
+            4. e31.LXQt.support
+            5. e32.KF6.Plasma.misc
+            6. e33.LXQt.Desktop.Components
+            7. e34.LXQt Applications
 
         copy all script files to /sources
 
@@ -19,17 +22,25 @@ A. Preparation
 
         ###
 
-        wget --input-file=e11.01.wget-list-sysv.common.DE.txt         --continue --directory-prefix=/sources
-        wget --input-file=e11.01.wget-list-sysv.common.Xfce.Gnome.txt --continue --directory-prefix=/sources
-        wget --input-file=e21.01.wget-list-sysv.Xfce.support.txt      --continue --directory-prefix=/sources
-        wget --input-file=e23.01.wget-list-sysv.Xfce.txt              --continue --directory-prefix=/sources
+        wget --input-file=e10.01.wget-list-sysv.common.DE.txt               --continue --directory-prefix=/sources
+        wget --input-file=e12.01.wget-list-sysv.common.LXQt.KDE.txt         --continue --directory-prefix=/sources
+        wget --input-file=e13.01.wget-list-sysv.common.Gnome.LXQt.txt       --continue --directory-prefix=/sources
+        wget --input-file=e31.01.wget-list-sysv.LXQt.support.txt            --continue --directory-prefix=/sources
+        wget --input-file=e32.01.wget-list-sysv.KF6.Plasma.misc.txt         --continue --directory-prefix=/sources
+        wget --input-file=e33.01.wget-list-sysv.LXQt.Desktop.Components.txt --continue --directory-prefix=/sources
+        wget --input-file=e34.01.wget-list-sysv.LXQt Applications.txt       --continue --directory-prefix=/sources
+        wget --input-file=f3.01.wget-list-sysv.SDDM.txt                     --continue --directory-prefix=/sources
 
         ###
 
         md5sum -c e10.02.md5sums.common.DE.txt
-        md5sum -c e11.02.md5sums.common.Xfce.Gnome.txt
-        md5sum -c e21.02.md5sums.Xfce.support.txt
-        md5sum -c e23.02.md5sums.Xfce.txt
+        md5sum -c e12.02.md5sums.common.LXQt.KDE.txt
+        md5sum -c e13.02.md5sums.common.Gnome.LXQt.txt
+        md5sum -c e31.02.md5sums.LXQt.support.txt
+        md5sum -c e32.02.md5sums.KF6.Plasma.misc.txt
+        md5sum -c e33.02.md5sums.LXQt.Desktop.Components.txt
+        md5sum -c e34.02.md5sums.LXQt Applications.txt
+        md5sum -c f3.02.md5sums.SDDM.txt
 
         ###
 
@@ -74,50 +85,94 @@ B.  Generate BLFS - Xfce Support Apps
         ( display )
         root [ /sources ]#
 
-  B.03. Support Applications
+  B.03. Support Applications - Part 1
 
         ###
 
-        bash e23.03.all.support.apps.sh
+        # bash e33.03.8.1.support.apps.sh
+        bash e10.03.1.sh # RustC
+
+        # after RustC
+
+        reboot
 
         ###
 
-C.  Generate BLFS - Xfce
-
-  C.01. [BLFS 35] Xfce Desktop
+  B.04. Support Applications - Part 2
 
         ###
 
-        bash e23.04.all.sh
+        export LFSLOG=/var/log/blfs
+
+        export MAKEFLAGS="-j$(nproc)"
+        export NPROC="$(nproc)"
+
+        export XORG_PREFIX="/usr"
+
+        export XORG_CONFIG="--prefix=$XORG_PREFIX --sysconfdir=/etc \
+                            --localstatedir=/var --disable-static"
+
+        source /etc/profile.d/rustc.sh
 
         ###
 
-  C.02. [BLFS 35] Xfce Desktop - runtime without DM
+        echo $XORG_PREFIX     # /usr
+        echo $XORG_CONFIG     # --prefix=/usr --sysconfdir=/etc --localstatedir=/var --disable-static
+        echo $LFSLOG          # /var/log/blfs
+        echo $MAKEFLAGS       # -j$(nproc)
+        echo $NPROC           # $(nproc)
+        echo $PATH            # /opt/rustc/bin:...
 
-        ### so far NOT working, try with DM
-        #
-        # cat > ~/.xinitrc << "EOF"
-        # dbus-launch --exit-with-x11 startxfce4
-        # EOF
-        #
-        # startx
+        echo $SHELL           # /bin/bash
+        ls -l /bin/sh         # bash
+        ls -l /usr/bin/awk    # gawk
 
-        ### user working withOUT ShutDown nor ReStart, try with DM
-        # but getting GDBuss error
-        #
-        # cat > ~/.xinitrc << "EOF"
-        # dbus-launch startxfce4
-        # EOF
-        #
-        # startx
+        cd /sources
 
-        ### Last Option: so far working
-        # for user: withOUT ShutDown nor ReStart, try with DM
-        # for root: with ShutDown
-        #
-        # as user or root
-        #
+        bash e33.03.8.2.support.apps.sh
 
-        startxfce4
+        ###
+
+C.  Generate BLFS - LXQt
+
+  C.01. [BLFS 37] LXQt Desktop
+
+        ###
+
+        bash e33.03.9.all.main.apps.sh
+
+        ###
+
+        bash e33.03.8.3.support.apps.sh
+
+        ###
+  
+  C.02. [BLFS 26] SDDM bootscripts
+
+        ###
+
+        cd /mnt/Src/lfs.src/blfs-bootscripts-20250225       # VM/VB
+        cd /usr/src/lfs/blfs-bootscripts-20250225           # PC
+
+        make install-sddm
+
+        cp -v /etc/inittab{,-orig}
+        sed -i '/initdefault/ s/3/5/' /etc/inittab
+
+        ###
+
+  C.03. [BLFS] LXQt Desktop - startup
+
+        ###
+
+        exit    # logout as root
+
+        # as user
+
+        cat > ~/.xinitrc << "EOF"
+        exec startlxqt
+        EOF
+
+        sudo reboot
 
         ###

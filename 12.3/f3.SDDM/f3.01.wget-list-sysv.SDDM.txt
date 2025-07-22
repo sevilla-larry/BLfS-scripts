@@ -1,0 +1,2 @@
+# 26.03 sddm-0.21.0
+https://github.com/sddm/sddm/archive/v0.21.0/sddm-0.21.0.tar.gz

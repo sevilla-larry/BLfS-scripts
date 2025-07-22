@@ -9,7 +9,7 @@
 #
 # Dependencies Optional:
 #
-#           ??? xdg-utils
+#               e31.41.13 xdg-utils-1.2.1
 #
 
 #

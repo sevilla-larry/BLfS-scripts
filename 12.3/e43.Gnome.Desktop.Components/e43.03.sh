@@ -5,6 +5,9 @@
 
 export LFSLOG_PROCESS=$LFSLOG/process.log
 
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
 #####
 #
 #	e43.33.31.DConf-0.40.0

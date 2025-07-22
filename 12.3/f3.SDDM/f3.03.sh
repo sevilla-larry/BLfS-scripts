@@ -1,4 +1,6 @@
-# e41.03.3.sh
+# f1.03.sh
+#
+# GDM
 #
 
 export LFSLOG_PROCESS=$LFSLOG/process.log
@@ -8,10 +10,10 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
 #####
 
-echo "e41.11.06.glslc.from.shaderc-2024.4"
-echo "e41.11.06.glslc.from.shaderc-2024.4" >> $LFSLOG_PROCESS
+echo "f1.26.01.GDM-47.0"
+echo "f1.26.01.GDM-47.0" >> $LFSLOG_PROCESS
 
-time { bash e41.11.06.glslc.from.shaderc-2024.4.sh ; }
+time { bash f1.26.01.GDM-47.0.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
