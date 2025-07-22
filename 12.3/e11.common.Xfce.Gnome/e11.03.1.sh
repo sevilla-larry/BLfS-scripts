@@ -262,10 +262,10 @@ echo "."
 
 ###
 
-echo "e11.10.33.Poppler-25.02.0"
-echo "e11.10.33.Poppler-25.02.0" >> $LFSLOG_PROCESS
+echo "e11.10.33.Poppler-25.07.0"
+echo "e11.10.33.Poppler-25.07.0" >> $LFSLOG_PROCESS
 
-time { bash e11.10.33.Poppler-25.02.0.sh ; }
+time { bash e11.10.33.Poppler-25.07.0.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

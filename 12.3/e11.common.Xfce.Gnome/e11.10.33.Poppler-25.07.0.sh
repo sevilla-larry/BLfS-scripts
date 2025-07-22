@@ -1,4 +1,5 @@
-# e11.10.33.Poppler-25.02.0.sh
+# e11.10.33.Poppler-25.07.0.sh
+# errata/svn
 #
 # with    GTK-3.xx
 # withOUT Qt-6.x
@@ -48,7 +49,7 @@
 #               e23.35.12 tumbler-4.20.0
 #
 
-export PKG="poppler-25.02.0"
+export PKG="poppler-25.07.0"
 export PKGLOG_DIR=$LFSLOG/10.33
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
@@ -98,25 +99,25 @@ ninja > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 echo "4.1 Git some Test ..."
 echo "4.1 Git some Test ..." >> $LFSLOG_PROCESS
 echo "4.1 Git some Test ..." >> $PKGLOG_ERROR
- git clone --depth 1    \
+git clone --depth 1     \
         https://gitlab.freedesktop.org/poppler/test.git \
         testfiles       \
-      > $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
+        > $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
 
 echo "4.2 Ninja Test ..."
 echo "4.2 Ninja Test ..." >> $LFSLOG_PROCESS
 echo "4.2 Ninja Test ..." >> $PKGLOG_ERROR
 LC_ALL=en_US.UTF-8 ninja test   \
-      > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
+        > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
 
 echo "5. Ninja Install ..."
 echo "5. Ninja Install ..." >> $LFSLOG_PROCESS
 echo "5. Ninja Install ..." >> $PKGLOG_ERROR
 ninja install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
-install -v -m755 -d           /usr/share/doc/poppler-25.02.0    \
+install -v -m755 -d           /usr/share/doc/poppler-25.07.0    \
         >> $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
-cp -vr ../glib/reference/html /usr/share/doc/poppler-25.02.0    \
+cp -vr ../glib/reference/html /usr/share/doc/poppler-25.07.0    \
         >> $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 echo "6.1. Extract Encoding Data tar ..."

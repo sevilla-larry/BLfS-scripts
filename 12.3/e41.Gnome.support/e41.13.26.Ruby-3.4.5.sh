@@ -1,4 +1,5 @@
-# e41.13.26.Ruby-3.4.2.sh
+# e41.13.26.Ruby-3.4.5.sh
+# errata
 #
 
 #
@@ -18,7 +19,7 @@
 #               e41.25.45 WebKitGTK-2.46.6
 #
 
-export PKG="ruby-3.4.2"
+export PKG="ruby-3.4.5"
 export PKGLOG_DIR=$LFSLOG/13.26
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
@@ -48,7 +49,7 @@ echo "2. Configure ..." >> $PKGLOG_ERROR
             --without-valgrind    \
             --without-baseruby    \
             ac_cv_func_qsort_r=no \
-            --docdir=/usr/share/doc/ruby-3.4.2  \
+            --docdir=/usr/share/doc/ruby-3.4.5  \
             > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Make Build ..."
@@ -56,9 +57,9 @@ echo "3. Make Build ..." >> $LFSLOG_PROCESS
 echo "3. Make Build ..." >> $PKGLOG_ERROR
 make > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 
-echo "4. Make CAPI ..."
-echo "4. Make CAPI ..." >> $LFSLOG_PROCESS
-echo "4. Make CAPI ..." >> $PKGLOG_ERROR
+echo "4. Make C API ..."
+echo "4. Make C API ..." >> $LFSLOG_PROCESS
+echo "4. Make C API ..." >> $PKGLOG_ERROR
 make capi > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 
 echo "5. Make Check ..."

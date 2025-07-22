@@ -19,7 +19,9 @@ https://github.com/hughsie/libgusb/releases/download/0.4.9/libgusb-0.4.9.tar.xz
 # 10.24 librsvg-2.59.2
 https://download.gnome.org/sources/librsvg/2.59/librsvg-2.59.2.tar.xz
 # 10.33 Poppler-25.02.0
-https://poppler.freedesktop.org/poppler-25.02.0.tar.xz
+# https://poppler.freedesktop.org/poppler-25.02.0.tar.xz
+# 10.33 Poppler-25.07.0		(errata/svn)
+https://poppler.freedesktop.org/poppler-25.07.0.tar.xz
 https://poppler.freedesktop.org/poppler-data-0.4.12.tar.gz
 
 # 12.08 Colord-1.4.7

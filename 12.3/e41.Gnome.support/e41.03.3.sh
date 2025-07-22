@@ -8,10 +8,10 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
 #####
 
-echo "e41.13.26.Ruby-3.4.2"
-echo "e41.13.26.Ruby-3.4.2" >> $LFSLOG_PROCESS
+echo "e41.13.26.Ruby-3.4.5"
+echo "e41.13.26.Ruby-3.4.5" >> $LFSLOG_PROCESS
 
-time { bash e41.13.26.Ruby-3.4.2.sh ; }
+time { bash e41.13.26.Ruby-3.4.5.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

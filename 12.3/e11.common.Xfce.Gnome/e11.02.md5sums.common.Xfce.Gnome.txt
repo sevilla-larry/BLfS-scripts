@@ -19,7 +19,9 @@ c6f1bf4bd2aaa79cd1635dcc070ba51a libassuan-3.0.2.tar.bz2
 # 10.24 librsvg-2.59.2
 6d495c8bb2ee0cb0a62856c790a67298 librsvg-2.59.2.tar.xz
 # 10.33 Poppler-25.02.0
-feae5e0715ed7738fcb4220730a3ff4c poppler-25.02.0.tar.xz
+# feae5e0715ed7738fcb4220730a3ff4c poppler-25.02.0.tar.xz
+# 10.33 Poppler-25.07.0		(errata/svn)
+7f8dc7516d3a5daf298aa724dc7cbef9 poppler-25.07.0.tar.xz
 67ee4a40aa830b1f6e2560ce5f6471ba poppler-data-0.4.12.tar.gz
 
 # 12.08 Colord-1.4.7

@@ -55,7 +55,9 @@ cb3edd8c96539fb1042b68cb63e45e12 blocaled-0.7.tar.xz
 b72dbed7159cbeff972e9a20ddcc7388 power-profiles-daemon-0.30.tar.gz
 
 # 13.26 Ruby-3.4.2
-63a56b170246fcf0198a5eaba57dd46c ruby-3.4.2.tar.xz
+# 63a56b170246fcf0198a5eaba57dd46c ruby-3.4.2.tar.xz
+# 13.26 Ruby-3.4.5		(errata)
+7c46a4fbece1073bbef0d7d61bc030cc ruby-3.4.5.tar.xz
 # 13.35 unifdef-2.12
 b225312c110cd2600ca7166bd0419751 unifdef-2.12.tar.gz
 
