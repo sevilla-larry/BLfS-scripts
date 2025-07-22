@@ -28,8 +28,8 @@
 #
 # Optionally by:
 #
-#               e11.10.19 libjxl-0.11.1
-#               e11.44.01 FFmpeg-7.1
+#               e10.10.19 libjxl-0.11.1
+#               e10.44.01 FFmpeg-7.1
 #               e41.42.16 gst-plugins-bad-1.26.3    (errata)
 #
 

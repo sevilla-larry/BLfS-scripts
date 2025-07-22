@@ -82,7 +82,7 @@
 #
 #               e11.28.09 lxde-icon-theme-0.5.1
 #               e11.10.33 Poppler-25.02.0 (GTK)
-#               e11.42.49 PulseAudio-17.0 (GTK)
+#           ??? e11.42.49 PulseAudio-17.0 (GTK) ???
 #               e41.42.13 gstreamer-1.26.3          (errata)
 #               e41.42.14 gst-plugins-base-1.26.3   (errata)
 #               e41.42.15 gst-plugins-good-1.26.3   (errata)

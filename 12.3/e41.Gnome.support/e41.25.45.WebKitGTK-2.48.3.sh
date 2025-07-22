@@ -34,8 +34,8 @@
 #               e41.17.03  GeoClue-2.7.2
 #               d10.09.17  GLib-2.82.5
 #               e10.28.07  hicolor-icon-theme-0.18
-#               e11.10.15  libavif-1.2.0
-#               e11.10.19  libjxl-0.11.1
+#               e10.10.15  libavif-1.2.0
+#               e10.10.19  libjxl-0.11.1
 #               a.08.91.21 libseccomp-2.6.0
 #               e41.11.22  xdg-dbus-proxy-0.1.6
 #

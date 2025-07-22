@@ -9,7 +9,7 @@
 #
 # Dependencies Recommended:
 #
-#               e10.42.02   alsa-lib-1.2.13
+#               e10.42.01   alsa-lib-1.2.13
 #               a.08.91.40  make-ca-1.16         (errata)
 #           ??? e10.46.01   Cups-2.4.11
 #               d20.12.11   dbus-1.16.0
@@ -27,7 +27,7 @@
 #               e10.10.27   libwebp-1.5.0
 #               e10.09.71   libxkbcommon-1.8.0
 #               d20.24.12   Mesa-24.3.4
-#               d10.09.79   mtdev-1.1-7
+#               d10.09.79   mtdev-1.1.7
 #               a.08.91.11  PCRE2-10.45
 #               a.08.91.18  SQLite-3.49.1
 #               d10.09.97   Wayland-1.23.0

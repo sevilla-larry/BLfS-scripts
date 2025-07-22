@@ -23,7 +23,7 @@
 # Optionally by:
 #
 #				e10.25.04 Cairo-1.18.2
-#               e11.44.01 FFmpeg-7.1
+#               e10.44.01 FFmpeg-7.1
 #               e41.42.48 Pipewire-1.2.7
 #
 

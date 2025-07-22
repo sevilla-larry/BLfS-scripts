@@ -1,46 +1,26 @@
-# e11.10.19.libjxl-0.11.1.sh
+# e10.09.24.highway-1.2.0.sh
 #
 
 #
 # Dependencies Required:
 #
-#               a.08.91.22.brotli-1.1.0
 #               a.08.9x.?1 CMake-3.31.5
-#               e10.10.08  giflib-5.2.2
-#               e11.09.24  highway-1.2.0
-#               e10.10.14  LittleCMS-2.17
-#               e10.10.18  libjpeg-turbo-3.0.1
-#               d10.10.22  libpng-1.6.46
-#               
-# Dependencies Recommended:
-#
-#               e10.25.10 gdk-pixbuf-2.42.12
-#
-# Dependencies Optional:
-#
-#               e11.10.15 libavif-1.2.0
-#               e10.10.27 libwebp-1.5.0
-#               e11.44.01 FFmpeg-7.1
 #
 
 #
 # Required by:
 #
-#               e43.33.32 gnome-backgrounds-47.0
-#
-# Recommended by:
-#
-#               e41.25.45 WebKitGTK-2.46.6
+#               e10.10.19 libjxl-0.11.1
 #
 
-export PKG="libjxl-0.11.1"
-export PKGLOG_DIR=$LFSLOG/10.19
+export PKG="highway-1.2.0"
+export PKGLOG_DIR=$LFSLOG/09.24
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
 export PKGLOG_CHECK=$PKGLOG_DIR/check.log
 export PKGLOG_INSTALL=$PKGLOG_DIR/install.log
-export PKGLOG_OTHERS=$PKGLOG_DIR/others.log
+#export PKGLOG_OTHERS=$PKGLOG_DIR/others.log
 export PKGLOG_ERROR=$PKGLOG_DIR/error.log
 export LFSLOG_PROCESS=$LFSLOG/process.log
 export SOURCES=`pwd`
@@ -63,12 +43,8 @@ echo "2. CMake Configure ..." >> $LFSLOG_PROCESS
 echo "2. CMake Configure ..." >> $PKGLOG_ERROR
 cmake -D CMAKE_INSTALL_PREFIX=/usr  \
       -D CMAKE_BUILD_TYPE=Release   \
-      -D BUILD_TESTING=OFF                     \
-      -D BUILD_SHARED_LIBS=ON                  \
-      -D JPEGXL_ENABLE_SKCMS=OFF               \
-      -D JPEGXL_ENABLE_SJPEG=OFF               \
-      -D JPEGXL_ENABLE_PLUGINS=ON              \
-      -D JPEGXL_INSTALL_JARDIR=/usr/share/java \
+      -D BUILD_TESTING=OFF          \
+      -D BUILD_SHARED_LIBS=ON       \
       -G Ninja                      \
       ..                            \
       > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
@@ -83,15 +59,12 @@ echo "4. Ninja Install ..." >> $LFSLOG_PROCESS
 echo "4. Ninja Install ..." >> $PKGLOG_ERROR
 ninja install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
-gdk-pixbuf-query-loaders --update-cache     \
-            > $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
-
 
 cd $SOURCES
 rm -rf $PKG
 unset SOURCES
 unset LFSLOG_PROCESS
-unset PKGLOG_OTHERS
+#unset PKGLOG_OTHERS
 unset PKGLOG_INSTALL PKGLOG_BUILD PKGLOG_CONFIG
 unset PKGLOG_CHECK
 unset PKGLOG_ERROR PKGLOG_TAR

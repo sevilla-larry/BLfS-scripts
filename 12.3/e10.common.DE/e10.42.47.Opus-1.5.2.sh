@@ -5,7 +5,7 @@
 # Recommended by:
 #
 #               e10.42.40 libsndfile-1.2.2
-#               e11.44.01 FFmpeg-7.1
+#               e10.44.01 FFmpeg-7.1
 #
 # Optionally by:
 #

@@ -86,7 +86,7 @@
 #               e11.33.07 VTE-0.78.4
 #               e42.33.07 VTE-0.76.4
 #               f2.26.02  lightdm-1.32.0
-#               e11.42.49 PulseAudio-17.0
+#               e10.42.49 PulseAudio-17.0
 #               g42.34.04 Evince-46.3.1
 #               e44.34.04 Evince-46.3.1
 #               e11.09.46 libgusb-0.4.9

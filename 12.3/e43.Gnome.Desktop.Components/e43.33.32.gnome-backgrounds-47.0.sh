@@ -4,7 +4,7 @@
 #
 # Dependencies Required:
 #
-#               e11.10.19 libjxl-011.1
+#               e10.10.19 libjxl-011.1
 #
 
 export PKG="gnome-backgrounds-47.0"

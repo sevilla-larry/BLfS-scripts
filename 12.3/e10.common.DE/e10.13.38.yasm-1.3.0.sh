@@ -10,13 +10,13 @@
 #
 # Required by:
 #
-#               e11.42.24 libaom-3.12.0
+#               e10.42.24 libaom-3.12.0
 #
 # Recommended by:
 #
 #               e10.10.18 libjpeg-turbo-3.0.1
-#               e11.42.45 libvpx-1.15.2         (errata)
-#               e11.44.01 FFmpeg-7.1
+#               e10.42.45 libvpx-1.15.2         (errata)
+#               e10.44.01 FFmpeg-7.1
 #               e41.42.18 gst-libav-2.26.3      (errata)
 #
 # Optionally by:

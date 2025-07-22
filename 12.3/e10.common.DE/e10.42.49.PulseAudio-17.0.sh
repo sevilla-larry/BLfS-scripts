@@ -36,7 +36,7 @@
 # Optionally by:
 #
 #               e10.42.52 SDL2-2.30.11
-#               e11.44.01 FFmpeg-7.1
+#               e10.44.01 FFmpeg-7.1
 #               e41.25.20 gtk-vnc-1.5.0
 #
 

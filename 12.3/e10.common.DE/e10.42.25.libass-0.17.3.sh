@@ -1,38 +1,39 @@
-# e52.29.02.extra-cmake-modules-6.11.0.sh
+# e10.42.25.libass-0.17.3.sh
 #
 
 #
 # Dependencies Required:
 #
-#               xxx.xx.xx CMake-3.31.5
+#               d10.10.04 FreeType-2.13.3
+#               e10.10.06 FriBidi-1.0.16
 #
 # Dependencies Recommended:
 #
-#               xxx.xx.xx Qt-6.8.2
+#               d10.10.05 Fontconfig-2.16.0
+#               e10.13.17 NASM-2.16.03
 #
 # Dependencies Optional:
 #
-#               xxx.xx.xx xxxxx
+#               d10.10.12 harfBuzz-10.4.0
 #
 
 #
-# Required by:
+# Recommended by:
 #
-#               e23.35.02 Xfconf-4.18.3
-#               e23.35.04 Exo-4.18.0
+#               e10.44.01 FFmpeg-7.1
 #
 
-
-export PKG="extra-cmake-modules-6.11.0"
-export PKGLOG_DIR=$LFSLOG/29.02
+export PKG="libass-0.17.3"
+export PKGLOG_DIR=$LFSLOG/42.25
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
+#export PKGLOG_CHECK=$PKGLOG_DIR/check.log
 export PKGLOG_INSTALL=$PKGLOG_DIR/install.log
 export PKGLOG_ERROR=$PKGLOG_DIR/error.log
-export PKGLOG_OTHERS=$PKGLOG_DIR/others.log
+#export PKGLOG_OTHERS=$PKGLOG_DIR/others.log
 export LFSLOG_PROCESS=$LFSLOG/process.log
-export SOURCES= `pwd`
+export SOURCES=`pwd`
 
 rm -r $PKGLOG_DIR 2> /dev/null
 mkdir $PKGLOG_DIR
@@ -44,23 +45,11 @@ tar xvf $PKG.tar.xz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
 
 
-sed -i '/"lib64"/s/64//' kde-modules/KDEInstallDirsCommon.cmake                 \
-        >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
-
-sed -e '/PACKAGE_INIT/i set(SAVE_PACKAGE_PREFIX_DIR "${PACKAGE_PREFIX_DIR}")'   \
-    -e '/^include/a set(PACKAGE_PREFIX_DIR "${SAVE_PACKAGE_PREFIX_DIR}")'       \
-    -i ECMConfig.cmake.in                                                       \
-        >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
-
-mkdir build
-cd    build
- 
-
 echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
 echo "2. Configure ..." >> $PKGLOG_ERROR
-cmake -D CMAKE_INSTALL_PREFIX=/usr  \
-      -D BUILD_WITH_QT6=ON ..       \
+./configure --prefix=/usr       \
+            --disable-static    \
             > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Make Build ..."
@@ -77,8 +66,8 @@ make install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 cd $SOURCES
 rm -rf $PKG
 unset SOURCES
-unset LFSLOG_PROCESS
-unset PKGLOG_OTHERS
+#unset PKGLOG_OTHERS
 unset PKGLOG_INSTALL PKGLOG_BUILD PKGLOG_CONFIG
+#unset PKGLOG_CHECK
 unset PKGLOG_ERROR PKGLOG_TAR
 unset PKGLOG_DIR PKG

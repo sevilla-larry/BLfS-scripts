@@ -1,4 +1,4 @@
-# 11.42.24.libaom-3.12.0.sh
+# 10.42.24.libaom-3.12.0.sh
 #
 
 #
@@ -19,7 +19,7 @@
 #
 # Recommended by:
 #
-#               e11.44.01 FFmpeg-7.1
+#               e10.44.01 FFmpeg-7.1
 #
 
 export PKG="libaom-3.12.0"

@@ -20,7 +20,7 @@
 #
 #               e10.42.01 alsa-lib-1.2.13
 #               e41.16.01 Avahi-0.8
-#               e11.44.01 FFmpeg-7.1
+#               e10.44.01 FFmpeg-7.1
 #               e11.42.26 libcanberra-0.30
 #               d20.25.33 Libdrm-2.4.124
 #               d20.24.07 libxcb-1.17.0

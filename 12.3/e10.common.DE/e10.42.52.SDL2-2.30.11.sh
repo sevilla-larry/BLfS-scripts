@@ -19,7 +19,7 @@
 # Recommended by:
 #
 #               e10.10.27 libwebp-1.5.0
-#               e11.44.01 FFmpeg-7.1
+#               e10.44.01 FFmpeg-7.1
 #
 # Optionally by:
 #

@@ -22,7 +22,7 @@
 # Recommended by:
 #
 #               d20.24.12 Mesa-24.3.4
-#               e11.44.01 FFmpeg-7.1
+#               e10.44.01 FFmpeg-7.1
 #
 
 export PKG="libvdpau-1.5"

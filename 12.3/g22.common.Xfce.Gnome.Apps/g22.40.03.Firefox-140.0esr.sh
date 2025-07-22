@@ -19,7 +19,7 @@
 #
 #               a.08.91.07 icu-76.1
 #               a.08.91.14 libevent-2.1.12
-#               e11.42.45  libvpx-1.15.2    (errata)
+#               e10.42.45  libvpx-1.15.2    (errata)
 #               e10.10.27  libwebp-1.5.0
 #               e10.13.17  NASM-2.16.03
 #               a.08.91.32 NSS-3.108
@@ -27,7 +27,7 @@
 # Dependencies Optional:
 #
 #               a.08.93.04 cURL-8.14.1      (errata)
-#               e11.44.01  FFmpeg-7.1       (runtime)
+#               e10.44.01  FFmpeg-7.1       (runtime)
 #               a.08.91.71 pciutils-3.13.0
 #               a.08.93.02 WGet-1.25.0
 #               e10.13.38  yasm-1.3.0

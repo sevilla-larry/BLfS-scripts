@@ -7,7 +7,7 @@
 #               d20.24.14 Xorg Applications
 #				e10.25.04 Cairo-1.18.2
 #               e10.25.10 gdk-pixbuf-2.42.12
-#               e11.10.19 libjxl-0.11.1
+#               e10.10.19 libjxl-0.11.1
 #
 # Recommended by:
 #

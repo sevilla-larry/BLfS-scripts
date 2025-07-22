@@ -13,12 +13,12 @@
 # Required by:
 #
 #               d10.10.05 Fontconfig-2.16.0
-#               e21.25.38 Pango-1.54.0
-#               e11.42.25 libass-0.17.3
+#               e10.25.38 Pango-1.54.0
+#               e10.42.25 libass-0.17.3
 #
 # Recommended by:
 #
-#               e11.44.01 FFmpeg-7.1
+#               e10.44.01 FFmpeg-7.1
 #
 
 export PKG="freetype-2.13.3"

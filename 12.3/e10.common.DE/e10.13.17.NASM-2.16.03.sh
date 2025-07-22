@@ -10,15 +10,15 @@
 #
 # Required by:
 #
-#               e11.42.24 libaom-3.12.0
+#               e10.42.24 libaom-3.12.0
 #
 # Recommended by:
 #
-#               e11.42.45 libvpx-1.15.2             (errata)
-#               e11.42.25 libass-0.17.3
-#               e11.42.59 x264-20250212
-#               e11.42.60 x265-4.1
-#               e11.44.01 FFmpeg-7.1
+#               e10.42.45 libvpx-1.15.2             (errata)
+#               e10.42.25 libass-0.17.3
+#               e10.42.59 x264-20250212
+#               e10.42.60 x265-4.1
+#               e10.44.01 FFmpeg-7.1
 #               g22.40.03 Firefox-128.11.0esr       (errata)
 #               e41.42.15 gst-plugins-good-1.26.3   (errata)
 #

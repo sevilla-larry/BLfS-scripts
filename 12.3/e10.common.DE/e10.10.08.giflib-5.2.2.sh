@@ -11,7 +11,7 @@
 #
 # Recommended by:
 #
-#               e11.10.19 libjxl-0.11.1
+#               e10.10.19 libjxl-0.11.1
 #               e42.33.23 localsearch-3.8.2
 #
 # Optionally by:

@@ -1,4 +1,4 @@
-# e11.42.45.libvpx-1.15.2.sh
+# e10.42.45.libvpx-1.15.2.sh
 # (errata)
 #
 
@@ -18,7 +18,7 @@
 #
 # Recommended by:
 #
-#               e11.44.01 FFmpeg-7.1
+#               e10.44.01 FFmpeg-7.1
 #               g22.40.03 Firefox-128.11.0esr   (errata)
 #
 

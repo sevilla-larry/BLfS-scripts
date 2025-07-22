@@ -1,35 +1,42 @@
-# e10.42.40.libsndfile-1.2.2.sh
+# e51.44.03.VLC-3.0.21.sh
 #
 
 #
 # Dependencies Recommended:
 #
-#               e10.42.10 FLAC-1.5.0
-#               e10.42.47 Opus-1.5.2
-#               e10.42.44 libvorbis-1.3.7
-#
-# Dependencies Optional:
-#
-#               e10.42.01  alsa-lib-1.2.13
-#               e10.43.04  LAME-3.100
-#               e10.43.05  mpg123-1.32.10
-#               e10.42.55  Speex-1.2.1
-#               a.08.91.18 SQLite-3.49.1
-#
+#               e10.42.01 alsa-lib-1.2.13
+#               d10.11.04 desktop-file-utils-0.28
+
+
+
+
+
+
+
+
+
+
+
+
 
 #
-# Required by:
+# Dependencies Required (runtime):
 #
-#               e10.42.49 PulseAudio-17.0
+#               d20.24.14 Xorg.Applications
+#
+# Dependencies Optional (runtime):
+#
+#               d20.12.11 dbus-1.16.0
+#
+
 #
 # Optionally by:
 #
-#               e41.42.16 gst-plugins-bad-1.26.3    (errata)
-#               e41.42.48 Pipewire-1.2.7
+#               e33.37.19 menu-cache-1.1.1
 #
 
-export PKG="libsndfile-1.2.2"
-export PKGLOG_DIR=$LFSLOG/42.40
+export PKG="xdg-utils-1.2.1"
+export PKGLOG_DIR=$LFSLOG/41.13
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
@@ -45,26 +52,28 @@ mkdir $PKGLOG_DIR
 echo "1. Extract tar..."
 echo "1. Extract tar..." >> $LFSLOG_PROCESS
 echo "1. Extract tar..." >> $PKGLOG_ERROR
-tar xvf $PKG.tar.xz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
+tar xvf $PKG.tar.gz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
 
+
+mkdir build
+cd    build
 
 echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
 echo "2. Configure ..." >> $PKGLOG_ERROR
-./configure --prefix=/usr    \
-            --docdir=/usr/share/doc/libsndfile-1.2.2    \
-            > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+./configure --prefix=/usr   \
+      > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Make Build ..."
 echo "3. Make Build ..." >> $LFSLOG_PROCESS
 echo "3. Make Build ..." >> $PKGLOG_ERROR
 make > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 
-echo "4. Make Check ..."
-echo "4. Make Check ..." >> $LFSLOG_PROCESS
-echo "4. Make Check ..." >> $PKGLOG_ERROR
-make check > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
+echo "4. Make Test ..."
+echo "4. Make Test ..." >> $LFSLOG_PROCESS
+echo "4. Make Test ..." >> $PKGLOG_ERROR
+make -k test > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
 
 echo "5. Make Install ..."
 echo "5. Make Install ..." >> $LFSLOG_PROCESS

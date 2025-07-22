@@ -18,7 +18,7 @@
 #
 # Recommended by:
 #
-#               e11.44.01 FFmpeg-7.1
+#               e10.44.01 FFmpeg-7.1
 #
 
 export PKG="libvdpau-va-gl-0.4.2"

@@ -1,3 +1,5 @@
+# 09.24 highway-1.2.0
+8b3d090a2d081730b40bca5ae0d65f11 highway-1.2.0.tar.gz
 # 09.29 JSON-GLib-1.10.6
 d4bf13ddd1e6d607d039d39286f9e3d0 json-glib-1.10.6.tar.xz
 # 09.45 libgudev-238
@@ -15,10 +17,14 @@ d4bf13ddd1e6d607d039d39286f9e3d0 json-glib-1.10.6.tar.xz
 #                                giflib-5.2.2-security_fixes-1.patch
 # 10.14 Little CMS-2.17
 9f44275ee8ac122817e94fdc50ecce13 lcms2-2.17.tar.gz
+# 10.15 libavif-1.2.0
+ec292cb8d51c0aa02f9fd5ef2419c853 libavif-1.2.0.tar.gz
 # 10.16 libexif-0.6.25
 eba77b69efac8fa8e8fc53f8c2cdad7c libexif-0.6.25.tar.bz2
 # 10.18 libjpeg-turbo-3.0.1
 1fdc6494521a8724f5f7cf39b0f6aff3 libjpeg-turbo-3.0.1.tar.gz
+# 10.19 libjxl-0.11.1
+8f26fc954c2d9cb377544a5f029182ef libjxl-0.11.1.tar.gz
 # 10.26 libtiff-4.7.0
 3a0fa4a270a4a192b08913f88d0cfbdd tiff-4.7.0.tar.gz
 # 10.27 libwebp-1.5.0
@@ -60,14 +66,24 @@ ef14f3af03bcde9ed134aad626bdbaad hicolor-icon-theme-0.18.tar.xz
 # 42.01 alsa-lib-1.2.13
 dd856a78e0702c3c4c1d8f56bc07bf61 alsa-lib-1.2.13.tar.bz2
 #                                alsa-ucm-conf-1.2.13.tar.bz2
+# 42.09 fdk-aac-2.0.3
+f43e593991caefdce509ad837d3301bd fdk-aac-2.0.3.tar.gz
 # 42.11 FLAC-1.5.0
 0bb45bcf74338b00efeec121fff27367 flac-1.5.0.tar.xz
+# 42.24 libaom-3.12.0
+aabd9c71c7d52c837ec276156d5a953f libaom-3.12.0.tar.gz
+# 42.25 libass-0.17.3
+baed6dfc87bed705c1955cc6b932d7f6 libass-0.17.3.tar.xz
 # 42.37 libogg-1.3.5
 3178c98341559657a15b185bf5d700a5 libogg-1.3.5.tar.xz
 # 42.40 libsndfile-1.2.2
 04e2e6f726da7c5dc87f8cf72f250d04 libsndfile-1.2.2.tar.xz
 # 42.44 libvorbis-1.3.7
 50902641d358135f06a8392e61c9ac77 libvorbis-1.3.7.tar.xz
+# 42.45 libvpx-1.15.0
+# 6d2b7b8e1c06f4b10ae63ca22491f8a4 libvpx-1.15.0.tar.gz
+# 42.45 libvpx-1.15.2	(errata)
+4c7a93808c12b359733430c8377b7fcf libvpx-1.15.2.tar.gz
 # 42.47 Opus-1.5.2
 c40b3a1fbdbb9a7aa178600b88200c76 opus-1.5.2.tar.gz
 # 42.49 PulseAudio-17.0
@@ -77,8 +93,17 @@ bea190b480f6df249db29eb3bacfe41e SDL2-2.30.11.tar.gz
 # 42.55 Speex-1.2.1
 fe7bf610883ff202092b92c72fe0fe3e speex-1.2.1.tar.gz
 e6eb5ddef743a362c8018f260b91dca5 speexdsp-1.2.1.tar.gz
+# 42.59 x264-20250212
+9fc19d8e9641d24639c9f6075add56d2 x264-20250212.tar.xz
+# 42.60 x265-4.1
+f1c3c80248d8574378a4aac8f374f6de x265_4.1.tar.gz
 
 # 43.04 LAME-3.100
 83e260acbe4389b54fe08e0bdbf7cddb lame-3.100.tar.gz
 # 43.05 mpg123-1.32.10
 f6d1a69dbf340c8d889b64772e8e0a61 mpg123-1.32.10.tar.bz2
+
+# 44.01 FFmpeg-7.1
+623aa63a72139a82ccb99cd6ee477b94 ffmpeg-7.1.tar.xz
+#								 ffmpeg-7.1-chromium_method-1.patch
+#								 ffmpeg-7.1-texinfo_fix-1.patch
