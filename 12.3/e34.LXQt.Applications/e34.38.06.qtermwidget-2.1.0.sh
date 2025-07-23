@@ -7,6 +7,12 @@
 #               e12.25.40 Qt-6.9.1          (errata/svn)
 #
 
+#
+# Required by:
+#
+#               e34.38.07 qterminal-2.1.0
+#
+
 export PKG="qtermwidget-2.1.0"
 export PKGLOG_DIR=$LFSLOG/38.06
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log

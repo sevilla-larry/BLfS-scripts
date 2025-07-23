@@ -5,7 +5,7 @@
 # Dependencies Required:
 #
 #               e10.10.18 libjpeg-turbo-3.0.1
-#               e10.10.14 Little CMS-2.1.6
+#               e10.10.14 LittleCMS-2.17
 #
 
 #

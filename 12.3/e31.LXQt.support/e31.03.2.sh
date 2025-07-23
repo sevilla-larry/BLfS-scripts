@@ -23,34 +23,6 @@ echo "." >> $LFSLOG_PROCESS
 echo "."
 echo "."
 
-###
-
-echo "f3.26.03.sddm-0.21.0"
-echo "f3.26.03.sddm-0.21.0" >> $LFSLOG_PROCESS
-
-time { bash f3.26.03.sddm-0.21.0.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
-
-###
-
-echo "e33.37.40.LXQt.Desktop.Final.Instructions"
-echo "e33.37.40.LXQt.Desktop.Final.Instructions" >> $LFSLOG_PROCESS
-
-time { bash e33.37.40.LXQt.Desktop.Final.Instructions.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
-
 #####
 
 unset LFSLOG_PROCESS

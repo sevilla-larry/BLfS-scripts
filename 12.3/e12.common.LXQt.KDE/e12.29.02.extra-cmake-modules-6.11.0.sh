@@ -14,13 +14,13 @@
 #
 # Required by:
 #
+#               e12.29.06 plasma-wayland-protocols-1.16.0
 #               e32.37.02 kwindowsystem-6.11.0 for lxqt
 #               e32.37.03 kconfig-6.11.0 for lxqt
 #               e32.37.04 solid-6.11.0 for lxqt
 #               e32.37.05 kidletime-6.11.0 for lxqt
 #               e32.37.06 kwayland-6.3.2 for lxqt
 #               e32.37.08 layer-shell-qt-6.3.2 for lxqt
-#               e12.29.06 plasma-wayland-protocols-1.16.0
 #
 
 export PKG="extra-cmake-modules-6.11.0"

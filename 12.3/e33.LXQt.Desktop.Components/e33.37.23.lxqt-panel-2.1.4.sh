@@ -5,7 +5,7 @@
 # Dependencies Required:
 #
 #               e32.37.08 layer-shell-qt-6.3.2 for lxqt
-#               e33.37.12.libdbusmenu-lxqt-0.2.0
+#               e33.37.12 libdbusmenu-lxqt-0.2.0
 #               e33.37.15 liblxqt-2.1.0
 #               e33.37.21 lxqt-globalkeys-2.1.0
 #               e33.37.14 lxqt-menu-data-2.1.0
@@ -15,6 +15,7 @@
 # Dependencies Recommended:
 #
 #               e10.42.49 PulseAudio-17.0
+#                           libstatgrab
 #               e33.37.16 libsysstat-1.1.0
 #               e10.09.71 libxkbcommon-1.8.0
 #

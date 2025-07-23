@@ -5,6 +5,7 @@
 # Dependencies Required:
 #
 #               e12.29.02 extra-cmake-modules-6.11.0
+#               d10.09.97 Wayland-1.23.0
 #               d20.24.12 Mesa-24.3.4
 #               e12.29.06 plasma-wayland-protocols-1.16.0
 #               e12.25.40 Qt-6.9.1          (errata/svn)

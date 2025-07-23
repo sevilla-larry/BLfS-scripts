@@ -5,6 +5,7 @@
 # Dependencies Required:
 #
 #               e33.37.15 liblxqt-2.1.0
+#               d10.09.17 GLib-2.82.5
 #               e10.42.49 PulseAudio-17.0
 #
 

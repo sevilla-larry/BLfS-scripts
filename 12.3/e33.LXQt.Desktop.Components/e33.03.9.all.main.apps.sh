@@ -5,7 +5,7 @@
 bash e32.03.sh
 
 # LXQt Desktop Components
-bash e33.03.sh
+bash e33.03.1.sh
 
 # LXQt Applications
 bash e34.03.sh

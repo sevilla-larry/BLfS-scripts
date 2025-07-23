@@ -5,7 +5,7 @@
 # Dependencies Required:
 #
 #               e33.37.15 liblxqt-2.1.0
-#               e12.25.05 Polkit-Qt-0.200.0     ???
+#               e12.29.05 Polkit-Qt-0.200.0
 #
 
 export PKG="lxqt-policykit-2.1.0"
