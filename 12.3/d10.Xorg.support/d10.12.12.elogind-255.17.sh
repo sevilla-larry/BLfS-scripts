@@ -15,7 +15,7 @@
 #
 #               a.08.91.36 docbook-xml-4.5
 #               a.08.91.37 docbook-xsl-nons-1.79.2
-#               a.08.91.38 libxslt-1.1.43 (errata)
+#               a.08.91.38 libxslt-1.1.43           (errata)
 #
 # Dependencies Optional:
 #

@@ -23,6 +23,7 @@
 #               e10.44.01 FFmpeg-7.1
 #               e41.42.15 gst-plugins-base-1.26.3   (errata)
 #               e41.42.57 v4l-utils-1.28.1
+#               e12.25.40 Qt-6.9.1				(errata/svn)
 #
 # Optionally by:
 #

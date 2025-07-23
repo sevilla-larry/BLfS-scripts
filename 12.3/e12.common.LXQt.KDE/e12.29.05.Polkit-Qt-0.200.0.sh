@@ -4,8 +4,8 @@
 # Dependencies Required:
 #
 #               a.08.9x.?1 CMake-3.31.5
-#               d10.04.20 Polkit-126
-#               e12.25.40 Qt-6.9.1          (errata/svn)
+#               d10.04.20  Polkit-126
+#               e12.25.40  Qt-6.9.1         (errata/svn)
 #
 
 #
