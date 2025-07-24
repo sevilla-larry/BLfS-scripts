@@ -12,6 +12,7 @@
 #
 # Required by:
 #
+#               e31.41.13 xdg-utils-1.2.1
 #               ??? RabbitMQ ???
 #
 # Optionally by

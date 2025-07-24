@@ -18,6 +18,7 @@
 #               e42.33.14 gnome-online-accounts-3.52.3.1
 #               e42.33.22 tinysparql-3.8.2
 #               e43.33.44 gnome-session-47.0.1
+#               e34.38.02 lxqt-archiver-1.1.0
 #
 # Recommended by:
 #
@@ -26,7 +27,7 @@
 # Optionally by:
 #
 #               e41.42.16 gst-plugins-bad-1.26.3    (errata)
-#               e13.09.36 libblockdev-3.3.0
+#               e13.09.36 libblockdev-3.3.1         (errata)
 #
 
 export PKG="json-glib-1.10.6"

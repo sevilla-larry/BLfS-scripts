@@ -6,7 +6,7 @@
 # Dependencies Required:
 #
 #           ??? e41.09.34 libatasmart-0.19      (deferred)
-#               e13.09.36 libblockdev-3.3.0
+#               e13.09.36 libblockdev-3.3.1     (errata)
 #               e10.09.45 libgudev-238
 #               d10.04.20 Polkit-126
 #               d10.09.17 GLib-2.82.5
@@ -22,7 +22,7 @@
 #
 # Dependencies Optional:
 #
-#               a.08.91.38   libxslt-1.1.43     (errata)
+#               a.08.91.38 libxslt-1.1.43     (errata)
 #
 # Dependencies Optional Runtime:
 #
@@ -39,6 +39,10 @@
 # Recommended by:
 #
 #               e43.33.33 Gvfs-1.56.1
+#
+# Optional (runtime) by:
+#
+#               e32.37.04 solid-6.11.0 for lxqt
 #
 
 export PKG="udisks-2.10.1"

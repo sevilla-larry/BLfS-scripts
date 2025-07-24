@@ -24,7 +24,7 @@
 #
 # Required by:
 #
-#               e13.12.35 UDisks-2.10.1
+#               e13.12.35 UDisks-2.10.1     (errata sed)
 #
 
 export PKG="libblockdev-3.3.1"

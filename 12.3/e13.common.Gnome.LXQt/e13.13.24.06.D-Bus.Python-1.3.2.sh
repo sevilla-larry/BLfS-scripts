@@ -4,18 +4,16 @@
 #
 # Dependencies Required:
 #
-#               d20.12.10     dbus-1.16.0
+#               d20.12.11     dbus-1.16.0
 #               d10.09.17     GLib-2.82.5
 #               a.08.91.20.13 Meson_python-0.17.1
 #               a.08.91.05    Patchelf-0.18.0
 #
 
 #
-# Recommended by:
-#
 # Optionally (for the integraion tests) by:
 #
-#               e13.12.35 UDisks-2.10.1
+#               e13.12.35 UDisks-2.10.1     (errata sed)
 #
 # Optionally by:
 #

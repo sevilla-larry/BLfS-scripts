@@ -17,7 +17,7 @@
 #               e10.09.45 libgudev-238
 #               e41.17.18 libsoup-3.6.5     (errata)
 #               d10.12.12 elogind-255.17
-#               e13.12.35 UDisks-2.10.1
+#               e13.12.35 UDisks-2.10.1     (errata sed)
 #
 # Dependencies Optional:
 #

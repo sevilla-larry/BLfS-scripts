@@ -54,7 +54,7 @@
 #               e41.09.73 libxmlb-0.3.21
 #               e41.11.22 xdg-dbus-proxy-0.1.6
 #               e11.12.08 Colord-1.4.7
-#               e13.12.35 UDisks-2.10.1
+#               e13.12.35 UDisks-2.10.1     (errata sed)
 #               e13.13.24.06 D-Bus.Python-1.3.2
 #               e13.13.24.23 PyGObject-3.50.0
 #               e41.16.01 Avahi-0.8
@@ -73,7 +73,8 @@
 #               e42.33.19 libpeas-1.36.0
 #               e43.33.31 DConf-0.40.0
 #               e43.33.33 Gvfs-1.56.1
-#               37.02 libfm-extra-1.3.2             ???
+#               e33.37.18 libfm-extra-1.3.2
+#               e34.38.04 pavucontrol-qt-2.1.0
 #               09.07 dbus-glib-0.112               ???
 #               etc
 #
@@ -111,7 +112,8 @@
 #               e43.33.41 Mutter-47.5
 #               e44.34.03 EOG-47.0
 #               e44.34.18 Gucharmap-16.0.2
-#               e12.25.40 Qt-6.9.1          (errata/svn)
+#               e12.25.40 Qt-6.9.1              (errata/svn)
+#               e13.09.36 libblockdev-3.3.1     (errata)
 #
 # Optionally by:
 #

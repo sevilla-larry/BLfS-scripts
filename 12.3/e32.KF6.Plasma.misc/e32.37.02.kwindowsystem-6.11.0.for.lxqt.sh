@@ -16,6 +16,7 @@
 #               e33.37.15 liblxqt-2.1.0
 #               e33.37.26 lxqt-runner-2.1.2
 #               e33.37.35 xdg-desktop-portal-lxqt-1.1.0
+#               e34.38.08 screengrab-2.9.0
 #
 
 export PKG="kwindowsystem-6.11.0"

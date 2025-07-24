@@ -22,7 +22,7 @@
 #               e11.12.08 Colord-1.4.7
 #               e41.12.13 blocaled-0.7
 #               e41.12.27 Power-profiles-daemon-0.30
-#               e13.12.35 UDisks-2.10.1
+#               e13.12.35 UDisks-2.10.1     (errata sed)
 #               e43.33.42 gnome-shell-47.4
 #               e33.37.28 lxqt-admin-2.1.0
 #               e12.29.05 Polkit-Qt-0.200.0

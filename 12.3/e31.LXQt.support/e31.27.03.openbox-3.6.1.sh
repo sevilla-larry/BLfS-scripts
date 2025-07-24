@@ -5,11 +5,11 @@
 # Dependencies Required:
 #
 #               d20.24.xx XOrg
-#               e10.25.38 Pango-1.54.0
+#               e10.25.37 Pango-1.56.1
 #
 # Dependencies Optional:
 #
-#               d10.12.10 dbus-1.14.10
+#               d20.12.11 dbus-1.16.0
 #
 
 #

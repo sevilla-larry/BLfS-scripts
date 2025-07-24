@@ -18,6 +18,7 @@
 # Required by:
 #
 #               d10.09.98 Wayland-Protocols-1.40
+#               e32.37.06 kwayland-6.3.2 for lxqt
 #
 # Recommended by:
 #

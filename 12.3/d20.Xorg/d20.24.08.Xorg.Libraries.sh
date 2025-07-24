@@ -26,6 +26,7 @@
 #               e11.25.36 libxklavier-5.4
 #               e11.33.17 libgtop-2.41.3
 #               e12.25.40 Qt-6.9.1          (errata/svn)
+#               e32.37.02 kwindowsystem-6.11.0 for lxqt
 #
 # Recommended by:
 #

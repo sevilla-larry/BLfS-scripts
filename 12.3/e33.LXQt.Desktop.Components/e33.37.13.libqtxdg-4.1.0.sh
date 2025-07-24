@@ -18,6 +18,7 @@
 #
 #               e33.37.15 liblxqt-2.1.0
 #               e33.37.17 qtxdg-tools-4.1.0
+#               e34.38.08 screengrab-2.9.0
 #
 
 export PKG="libqtxdg-4.1.0"

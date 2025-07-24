@@ -15,7 +15,7 @@
 #
 # Dependencies Recommended:
 #
-#               e13.12.07 bubblewrap-0.11.0
+#               e13.12.07 Bubblewrap-0.11.0
 #               d10.09.17 GLib-2.82.5
 #
 

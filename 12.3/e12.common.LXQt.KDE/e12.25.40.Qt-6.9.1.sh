@@ -38,6 +38,7 @@
 # Required by:
 #
 #               e12.29.05 Polkit-Qt-0.200.0
+#               e31.28.02 breeze-icons-6.11.0
 #               e32.37.xx KF6 Plasma misc
 #               e33.37.xx LXQt Desktop Components
 #               e34.38.xx LXQt Applications

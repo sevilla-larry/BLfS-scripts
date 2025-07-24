@@ -42,11 +42,12 @@
 # Optionally by:
 #
 #               e11.13.36 Vala-0.56.17
-#               e31.27.03 openbox-3.6.1         ???
+#               e31.27.03 openbox-3.6.1
 #
 # Optional (runtime) by:
 #
-#               e13.12.35 UDisks-2.10.1
+#               e13.12.35 UDisks-2.10.1     (errata sed)
+#               e31.41.13 xdg-utils-1.2.1
 #
 
 #

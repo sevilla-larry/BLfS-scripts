@@ -11,6 +11,12 @@
 #               e12.25.40 Qt-6.9.1          (errata/svn)
 #
 
+#
+# Required by:
+#
+#               e32.37.07.libkscreen-6.3.2 for lxqt
+#
+
 export PKG="kwayland-6.3.2"
 export PKGLOG_DIR=$LFSLOG/37.06
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log

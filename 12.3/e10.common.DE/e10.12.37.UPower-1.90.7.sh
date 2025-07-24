@@ -31,6 +31,10 @@
 #
 #               e23.35.15 xfce4-settings-4.20.1
 #
+# Optional (runtime) by:
+#
+#               e32.37.04 solid-6.11.0 for lxqt
+#
 
 export PKG="upower-v1.90.7"
 export PKGLOG_DIR=$LFSLOG/12.37

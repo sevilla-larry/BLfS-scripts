@@ -15,7 +15,7 @@
 # Dependencies Recommended:
 #
 #               e10.42.49 PulseAudio-17.0
-#                           libstatgrab
+#               e31.09.64 libstatgrab-0.92.1
 #               e33.37.16 libsysstat-1.1.0
 #               e10.09.71 libxkbcommon-1.8.0
 #

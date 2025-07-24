@@ -24,6 +24,10 @@
 #               e33.37.32 lxqt-sudo-2.1.0
 #               e33.37.33 lxqt-openssh-askpass-2.1.0
 #               e33.37.34 lxqt-session-2.1.1
+#               e34.38.02 lxqt-archiver-1.1.0
+#               e34.38.03 lxqt-notificationd-2.1.1
+#               e34.38.04 pavucontrol-qt-2.1.0
+#               e34.38.05 qps-2.10.0
 #
 
 export PKG="liblxqt-2.1.0"

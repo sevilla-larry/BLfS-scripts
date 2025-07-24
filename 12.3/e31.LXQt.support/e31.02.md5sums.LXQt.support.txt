@@ -1,3 +1,6 @@
+# 09.64 libstatgrab-0.92.1
+af685494e985229e0ac46365bc0cd50e libstatgrab-0.92.1.tar.gz
+
 # 11.23 Xdg-user-dirs-0.18
 dc7decea7ffb58cd067eff1fe1798cae xdg-user-dirs-0.18.tar.gz
 
@@ -6,3 +9,6 @@ b72794996c6a3ad94634727b95f9d204 openbox-3.6.1.tar.gz
 
 # 28.02 breeze-icons-6.11.0
 8989043ad5c6bae49cb2abb3e88490aa breeze-icons-6.11.0.tar.xz
+
+# 41.13 xdg-utils-1.2.1
+4c72585a98ba8f775cb9e72b066cc0df xdg-utils-v1.2.1.tar.gz

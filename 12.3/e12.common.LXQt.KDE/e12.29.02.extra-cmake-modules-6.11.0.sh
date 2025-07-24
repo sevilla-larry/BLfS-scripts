@@ -15,6 +15,7 @@
 # Required by:
 #
 #               e12.29.06 plasma-wayland-protocols-1.16.0
+#               e31.28.02 breeze-icons-6.11.0
 #               e32.37.02 kwindowsystem-6.11.0 for lxqt
 #               e32.37.03 kconfig-6.11.0 for lxqt
 #               e32.37.04 solid-6.11.0 for lxqt

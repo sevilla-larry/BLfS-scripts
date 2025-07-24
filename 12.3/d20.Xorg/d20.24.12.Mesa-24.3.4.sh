@@ -43,6 +43,7 @@
 #               e11.25.13 GLU-9.0.3
 #               e41.25.45 WebKitGTK-2.46.6
 #               e43.33.44 gnome-session-47.0.1
+#               e32.37.06 kwayland-6.3.2 for lxqt
 #
 # Recommended by:
 #

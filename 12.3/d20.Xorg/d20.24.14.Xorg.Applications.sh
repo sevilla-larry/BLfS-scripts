@@ -24,6 +24,7 @@
 # Runtime Required by:
 #
 #               d20.24.19 Xwayland-24.1.8   (errata)
+#               e31.41.13 xdg-utils-1.2.1
 #
 # Optional (required for test) by:
 #

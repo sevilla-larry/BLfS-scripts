@@ -11,7 +11,7 @@
 #
 # Recommended by:
 #
-#               e13.09.36 libblockdev-3.3.0
+#               e13.09.36 libblockdev-3.3.1     (errata)
 #
 
 export PKG="libbytesize-2.11"

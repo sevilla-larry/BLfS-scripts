@@ -30,7 +30,7 @@
 #
 # Optionally (for the integraion tests) by:
 #
-#               e13.12.35 UDisks-2.10.1
+#               e13.12.35 UDisks-2.10.1     (errata sed)
 #
 # Optionally by:
 #

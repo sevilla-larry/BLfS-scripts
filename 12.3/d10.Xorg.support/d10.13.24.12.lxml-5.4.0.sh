@@ -17,6 +17,7 @@
 # Optional by:
 #
 #               d10.12.12 elogind-255.17
+#               e31.28.02 breeze-icons-6.11.0
 #
 
 export PKG="lxml-5.4.0"

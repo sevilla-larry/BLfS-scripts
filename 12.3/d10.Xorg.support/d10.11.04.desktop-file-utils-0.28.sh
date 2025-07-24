@@ -20,6 +20,7 @@
 #               e43.33.47 Yelp-42.3             (errata)
 #               e44.34.06 File-Roller-44.5
 #               e44.34.08 gnome-color-manager-3.36.2
+#               e33.37.40 LXQt Desktop Final Instructions
 #
 # Runtime needed for test by: ( not implemented )
 #

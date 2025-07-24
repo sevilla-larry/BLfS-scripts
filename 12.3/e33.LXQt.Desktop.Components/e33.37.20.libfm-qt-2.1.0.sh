@@ -16,6 +16,8 @@
 #               e33.37.22 lxqt-qtplugin-2.1.0
 #               e33.37.24 pcmanfm-qt-2.1.0
 #               e33.37.35 xdg-desktop-portal-lxqt-1.1.0
+#               e34.38.01 lximage-qt-2.1.1
+#               e34.38.02 lxqt-archiver-1.1.0
 #
 
 export PKG="libfm-qt-2.1.0"

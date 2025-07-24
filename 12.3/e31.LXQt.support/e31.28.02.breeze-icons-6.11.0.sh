@@ -11,7 +11,7 @@
 #
 #           ??? Building KDE Frameworks 6.11.0
 #               a.08.91.08 libxml2-2.14.5   (errata)
-#               d10.13.24.12 lxml-5.3.1
+#               d10.13.24.12 lxml-5.4.0     (errata)
 #
 
 #
