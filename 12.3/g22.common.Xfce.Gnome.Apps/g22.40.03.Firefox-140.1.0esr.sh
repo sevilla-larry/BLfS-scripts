@@ -1,4 +1,4 @@
-# g22.40.03.Firefox-140.0esr.sh
+# g22.40.03.Firefox-140.1.0esr.sh
 # (errata)
 #
 
@@ -33,7 +33,7 @@
 #               e10.13.38  yasm-1.3.0
 #
 
-export PKG="firefox-140.0"
+export PKG="firefox-140.1.0"
 export PKG0=$PKG"esr.source"
 export PKGLOG_DIR=$LFSLOG/40.03
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log

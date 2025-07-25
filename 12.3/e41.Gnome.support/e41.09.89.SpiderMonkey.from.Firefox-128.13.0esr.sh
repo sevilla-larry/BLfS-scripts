@@ -1,4 +1,4 @@
-# e41.09.89.SpiderMonkey.from.Firefox-128.11.0esr.sh
+# e41.09.89.SpiderMonkey.from.Firefox-128.13.0esr.sh
 # (errata)
 #
 
@@ -20,7 +20,7 @@
 #               e42.33.10 Gjs-1.82.1
 #
 
-export PKG="firefox-128.11.0"
+export PKG="firefox-128.13.0"
 export PKG0=$PKG"esr.source"
 export PKGLOG_DIR=$LFSLOG/09.89
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
@@ -67,23 +67,23 @@ echo "3. Make Build ..." >> $LFSLOG_PROCESS
 echo "3. Make Build ..." >> $PKGLOG_ERROR
 make > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 
-case "$PYVER" in
-    11)
-        # do nothing
-        ;;
-    12)
-        # do nothing
-        ;;
-    13)
-        sed 's/pipes/shlex/'                    \
-            -i ../js/src/tests/lib/results.py   \
-            >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
-        ;;
-    *)
-		echo "Error: PYVER must be 11, 12 or 13"
-		echo "Error: PYVER must be 11, 12 or 13" >> $LFSLOG_PROCESS
-        ;;
-esac
+#case "$PYVER" in
+#    11)
+#        # do nothing
+#        ;;
+#    12)
+#        # do nothing
+#        ;;
+#    13)
+#        sed 's/pipes/shlex/'                    \
+#            -i ../js/src/tests/lib/results.py   \
+#            >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
+#        ;;
+#    *)
+#		echo "Error: PYVER must be 11, 12 or 13"
+#		echo "Error: PYVER must be 11, 12 or 13" >> $LFSLOG_PROCESS
+#        ;;
+#esac
 
 echo "4. Make Check ..."
 echo "4. Make Check ..." >> $LFSLOG_PROCESS

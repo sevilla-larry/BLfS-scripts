@@ -36,7 +36,9 @@ eba77b69efac8fa8e8fc53f8c2cdad7c libexif-0.6.25.tar.bz2
 f4b460577728ba331e078ad8bd246c98 iso-codes-v4.17.0.tar.gz
 
 # 12.01 7zip-24.09
-41d0d31a3b0e39a1cbd848c10574fb0b 7zip-24.09.tar.gz
+# 41d0d31a3b0e39a1cbd848c10574fb0b 7zip-24.09.tar.gz
+# 12.01 7zip-25.00		(errata)
+17bb2208e230fc189865bd9a1aa3075c 7zip-25.00.tar.gz
 # 12.36 UPower-1.90.7
 d5eeb9af086f696bb55bb979a7fb06ca upower-v1.90.7.tar.bz2
 

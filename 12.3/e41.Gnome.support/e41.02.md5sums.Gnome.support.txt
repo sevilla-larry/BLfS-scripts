@@ -29,7 +29,9 @@ b7205d5465ac15fbc0c781d39b4011be libsigc++-3.6.0.tar.xz
 # 09.86 Protobuf-c-1.5.1
 0c02b1bb2b20bb9fc3489fe9e3df354b protobuf-c-1.5.1.tar.gz
 # 09.89 SpiderMonkey from firefox-128.11.0	(errata)
-0c47aafa4d9bf5cd13617343335913b8 firefox-128.11.0esr.source.tar.xz
+# 0c47aafa4d9bf5cd13617343335913b8 firefox-128.11.0esr.source.tar.xz
+# 09.89 SpiderMonkey from firefox-128.13.0	(errata)
+d8d9076132588e326ffea4ea11b7ec40 firefox-128.13.0esr.source.tar.xz
 
 # 10.03 Exiv2-0.28.5
 f8de9495e03f06be5152ecae3a82815c exiv2-0.28.5.tar.gz

@@ -274,10 +274,10 @@ echo "."
 
 ###
 
-echo "e41.09.89.SpiderMonkey.from.Firefox-128.11.0esr"
-echo "e41.09.89.SpiderMonkey.from.Firefox-128.11.0esr" >> $LFSLOG_PROCESS
+echo "e41.09.89.SpiderMonkey.from.Firefox-128.13.0esr"
+echo "e41.09.89.SpiderMonkey.from.Firefox-128.13.0esr" >> $LFSLOG_PROCESS
 
-time { bash e41.09.89.SpiderMonkey.from.Firefox-128.11.0esr.sh ; }
+time { bash e41.09.89.SpiderMonkey.from.Firefox-128.13.0esr.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

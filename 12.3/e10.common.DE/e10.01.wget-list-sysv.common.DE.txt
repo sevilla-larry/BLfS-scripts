@@ -36,7 +36,9 @@ https://github.com/uclouvain/openjpeg/archive/v2.5.3/openjpeg-2.5.3.tar.gz
 https://salsa.debian.org/iso-codes-team/iso-codes/-/archive/v4.17.0/iso-codes-v4.17.0.tar.gz
 
 # 12.01 7zip-24.09
-https://github.com/ip7z/7zip/archive/24.09/7zip-24.09.tar.gz
+# https://github.com/ip7z/7zip/archive/24.09/7zip-24.09.tar.gz
+# 12.01 7zip-25.00		(errata)
+https://github.com/ip7z/7zip/archive/25.00/7zip-25.00.tar.gz
 # 12.36 UPower-1.90.7
 https://gitlab.freedesktop.org/upower/upower/-/archive/v1.90.7/upower-v1.90.7.tar.bz2
 
