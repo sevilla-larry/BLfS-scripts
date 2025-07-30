@@ -7,7 +7,7 @@
 #
 #               e11.33.03 gsettings-desktop-schemas-47.1
 #               e11.25.32 libhandy-1.8.3
-#               e41.25.45 WebKitGTK-2.46.6
+#               e41.25.45 WebKitGTK-2.48.3  (errata)
 #               e42.33.08 yelp-xsl-42.4     (errata)
 #
 # Dependencies Recommended:

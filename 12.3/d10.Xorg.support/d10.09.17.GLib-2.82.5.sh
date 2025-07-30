@@ -46,7 +46,7 @@
 #               e11.33.03 gsettings-desktop-schemas-47.1
 #               e11.10.33 Poppler-25.02.0
 #               e11.09.13 enchant-2.8.2
-#               e41.42.13 gstreamer-1.24.12
+#               e41.42.13 gstreamer-1.26.3          (errata)
 #               e10.09.29 JSON-GLib-1.10.6
 #               e41.09.19 GLibmm-2.82.0
 #               e13.09.36 libblockdev-3.3.1
@@ -93,11 +93,12 @@
 #               e11.09.46 libgusb-0.4.9
 #               e41.09.47 libical-3.0.19
 #               e41.11.10 ibus-1.5.31
-#               e41.17.18 libsoup-3.6.5 (errata)
+#               e41.17.18 libsoup-3.6.5             (errata)
 #               e41.25.07 colord-gtk-0.3.1
+#               e41.25.22 gtksourceview4-4.8.4
 #               e41.25.23 gtksourceview5-5.14.2
-#               e41.25.45 WebKitGTK-2.46.6
-#               e41.42.15 gst-plugins-base-1.26.3   (errata)
+#               e41.25.45 WebKitGTK-2.48.3          (errata)
+#               e41.42.14 gst-plugins-base-1.26.3   (errata)
 #               e42.33.05 rest-0.9.1
 #               e42.33.06 totem-pl-parser-3.26.6
 #               e42.33.09 geocode-glib-3.26.4

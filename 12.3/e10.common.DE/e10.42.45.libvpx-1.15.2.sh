@@ -19,7 +19,8 @@
 # Recommended by:
 #
 #               e10.44.01 FFmpeg-7.1
-#               g22.40.03 Firefox-128.11.0esr   (errata)
+#               g22.40.03 Firefox-140.1.0esr        (errata)
+#               e41.42.15 gst-plugins-good-1.26.3   (errata)
 #
 
 export PKG="libvpx-1.15.2"

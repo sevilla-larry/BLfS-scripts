@@ -18,7 +18,7 @@
 #
 # Recommended by:
 #
-#               e41.25.45 WebKitGTK-2.46.6
+#               e41.25.45 WebKitGTK-2.48.3          (errata)
 #
 
 export PKG="enchant-2.8.2"

@@ -41,7 +41,7 @@
 #               d20.24.20 Xorg-Server-21.1.18   (errata) (implied)
 #               d20.25.34 libepoxy-1.5.10
 #               e11.25.13 GLU-9.0.3
-#               e41.25.45 WebKitGTK-2.46.6
+#               e41.25.45 WebKitGTK-2.48.3          (errata)
 #               e43.33.44 gnome-session-47.0.1
 #               e32.37.06 kwayland-6.3.2 for lxqt
 #
@@ -50,7 +50,7 @@
 #               d20.42.41 libva-2.22.0              for PCs
 #               d20.24.19 Xwayland-24.1.8           (errata)
 #               g22.39.03 LibreOffice-25.2.3	    (errata)
-#               e41.42.15 gst-plugins-base-1.26.3   (errata)
+#               e41.42.14 gst-plugins-base-1.26.3   (errata)
 #               e12.25.40 Qt-6.9.1                  (errata/svn)
 #
 # Recommended Runtime by:

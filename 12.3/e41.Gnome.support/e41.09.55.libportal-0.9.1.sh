@@ -28,6 +28,7 @@
 # Required by:
 #
 #               e43.33.35 Nautilus-47.2
+#               e44.34.11 gnome-maps-47.4
 #
 # Recommended by:
 #

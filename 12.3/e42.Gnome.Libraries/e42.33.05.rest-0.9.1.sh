@@ -23,6 +23,7 @@
 # Required by:
 #
 #               e42.33.14 gnome-online-accounts-3.52.3.1
+#               e44.34.11 gnome-maps-47.4
 #
 
 export PKG="rest-0.9.1"

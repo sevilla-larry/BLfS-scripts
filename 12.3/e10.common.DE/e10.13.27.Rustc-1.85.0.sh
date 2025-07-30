@@ -28,8 +28,8 @@
 #
 # Optionally by:
 #
-#               e41.42.13 gstreamer-1.26.3          (errata)
-#               e41.13.26 Ruby-3.4.2
+#               e41.42.13 gstreamer-1.26.3      (errata)
+#               e41.13.26 Ruby-3.4.5            (errata)
 #
 
 export PKG="rustc-1.85.0-src"

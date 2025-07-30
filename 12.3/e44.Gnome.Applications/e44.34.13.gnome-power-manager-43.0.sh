@@ -1,4 +1,4 @@
-# e43.34.12.gnome-power-manager-43.0.sh
+# e44.34.12.gnome-power-manager-43.0.sh
 #
 
 #

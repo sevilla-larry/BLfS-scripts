@@ -2,10 +2,6 @@
 #
 
 #
-# Required by:
-#
-#               e41.42.16 gst-plugins-bad-1.24.12
-#
 # Recommended by:
 #
 #               e41.42.16 gst-plugins-bad-1.26.3    (errata)

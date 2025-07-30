@@ -1,23 +1,19 @@
-# e43.34.11.gnome-maps-47.4.sh
+# e44.34.11.gnome-maps-47.4.sh
 #
 
 #                        
 #
 # Dependencies Required:
 #
-#                  xxx.xx.xx desktop-file-utils-0.28
-#                  xxx.xx.xx GeoClue-2.7.2
-#                  xxx.xx.xx geocode-glib-3.26.4
-#                  xxx.xx.xx Gjs-1.82.1
-#                  xxx.xx.xx libadwaita-1.6.4
-#                  xxx.xx.xx libportal-0.9.1
-#                  e42.33.20 libshumate-1.3.2
-#                  e42.33.18 libgweather-4.4.4
-#                  xxx.xx.xx rest-0.9.1
-#
-#
-# Required by:
-#
+#               d10.11.04 desktop-file-utils-0.28
+#               e41.17.03 GeoClue-2.7.2
+#               e42.33.09 geocode-glib-3.26.4
+#               e42.33.10 Gjs-1.82.1
+#               e41.25.28 libadwaita-1.6.4
+#               e41.09.55 libportal-0.9.1
+#               e42.33.20 libshumate-1.3.2
+#               e42.33.18 libgweather-4.4.4
+#               e42.33.05 rest-0.9.1
 #
 
 export PKG="gnome-maps-47.4"
@@ -25,6 +21,7 @@ export PKGLOG_DIR=$LFSLOG/34.11
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
+export PKGLOG_CHECK=$PKGLOG_DIR/check.log
 export PKGLOG_INSTALL=$PKGLOG_DIR/install.log
 export PKGLOG_ERROR=$PKGLOG_DIR/error.log
 export LFSLOG_PROCESS=$LFSLOG/process.log
@@ -49,16 +46,21 @@ echo "2. Meson Setup ..." >> $PKGLOG_ERROR
 meson setup --prefix=/usr           \
             --buildtype=release     \
             ..                      \
-    > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+            > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Ninja Build ..."
 echo "3. Ninja Build ..." >> $LFSLOG_PROCESS
 echo "3. Ninja Build ..." >> $PKGLOG_ERROR 
 ninja > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 
-echo "4. Ninja Install ..."
-echo "4. Ninja Install ..." >> $LFSLOG_PROCESS
-echo "4. Ninja Install ..." >> $PKGLOG_ERROR
+echo "4. Ninja Test ..."
+echo "4. Ninja Test ..." >> $LFSLOG_PROCESS
+echo "4. Ninja Test ..." >> $PKGLOG_ERROR
+ninja test > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
+
+echo "5. Ninja Install ..."
+echo "5. Ninja Install ..." >> $LFSLOG_PROCESS
+echo "5. Ninja Install ..." >> $PKGLOG_ERROR
 ninja install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 
@@ -67,5 +69,6 @@ rm -rf $PKG
 unset SOURCES
 unset LFSLOG_PROCESS
 unset PKGLOG_INSTALL PKGLOG_BUILD PKGLOG_CONFIG
+unset PKGLOG_CHECK
 unset PKGLOG_ERROR PKGLOG_TAR
 unset PKGLOG_DIR PKG

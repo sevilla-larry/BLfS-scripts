@@ -17,6 +17,7 @@
 #
 #               e42.33.18 libgweather-4.4.4
 #				e43.33.38 gnome-settings-daemon-47.2
+#               e44.34.11 gnome-maps-47.4
 #
 
 export PKG="geocode-glib-3.26.4"

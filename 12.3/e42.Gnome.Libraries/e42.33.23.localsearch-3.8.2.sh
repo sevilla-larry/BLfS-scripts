@@ -4,7 +4,7 @@
 #
 # Dependencies Required:
 #
-#               e41.09.14 Exempi-2.6.5
+#               e41.09.14 Exempi-2.6.6              (errata)
 #               e43.33.34 gexiv2-0.14.3
 #               e41.42.14 gst-plugins-base-1.26.3   (errata)
 #               e42.33.22 tinysparql-3.8.2
@@ -12,7 +12,6 @@
 # Dependencies Recommended:
 #
 #               e10.10.08  giflib-5.2.2
-#               e41.42.18  gst-libav-2.26.3     (errata)
 #               a.08.91.07 icu-76.1
 #               e10.10.16  libexif-0.6.25
 #               e41.10.17  libgxps-0.3.2
@@ -20,9 +19,16 @@
 #               e11.10.33  Poppler-25.02.0 (GTK)
 #               e10.12.37  UPower-1.90.7
 #
+# Dependencies Recommended (runtime):
+#
+#               e41.42.15  gst-plugins-good-1.26.3  (errata)
+#               e41.42.18  gst-libav-2.26.3         (errata)
+#
 # Dependencies Optional:
 #
-#               e43.33.31 DConf-0.40.0
+#               a.08.9x.?1 CMake-3.31.5
+#               e43.33.31  DConf-0.40.0
+#               e10.44.01  FFmpeg-7.1
 #
 
 #

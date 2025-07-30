@@ -19,7 +19,11 @@
 #               e11.42.26  libcanberra-0.30
 #               e42.33.18  libgweather-4.4.4
 #               e11.13.36  Vala-0.56.17
-#               e41.25.45  WebKitGTK-2.48.3 (GTK-4) (errata)
+#               e41.25.45  WebKitGTK-2.48.3     (errata)
+#
+# Dependencies Recommended (Runtime):
+#
+#               e41.12.13 blocaled-0.7
 #
 
 #

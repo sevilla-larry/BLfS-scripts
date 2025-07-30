@@ -4,7 +4,7 @@
 #
 # Dependencies Required:
 #
-#               e11.25.16  GTK-3.24.48
+#               e41.25.17  GTK-4.16.12
 #               a.08.91.11 PCRE2-10.45
 #
 # Dependencies Recommended:
@@ -12,12 +12,9 @@
 #               d10.09.17  GLib-2.82.5
 #               a.08.91.08 libxml2-2.14.3   (errata)
 #
-# Dependencies Optional (but Required):
-#
-#               e11.13.36 Vala-0.56.17
-#
 # Dependencies Optional:
 #
+#               e11.13.36 Vala-0.56.17
 #               d20.25.44 Vulkan-Loader-1.4.304     (PCs)
 #
 

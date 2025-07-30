@@ -22,7 +22,7 @@
 #
 # Dependencies Optional:
 #
-#           ??? e41.42.15 gst-plugins-base-1.26.2   ???
+#           ??? e41.42.14 gst-plugins-base-1.26.3   ???
 #               e10.10.26 libtiff-4.7.0
 #
 

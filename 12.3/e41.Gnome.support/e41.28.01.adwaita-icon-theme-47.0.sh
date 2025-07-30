@@ -22,14 +22,14 @@
 #               e44.34.04 Evince-46.3.1
 #               e44.34.15 gnome-system-monitor-47.1
 #
-# Recommended by:
+# Recommended (for settings keys) by:
 #
+#               e11.25.16 GTK-3.24.48
 #               e41.25.17 GTK-4.16.12
 #
 # Required/needed Runtime by:
 #
 #               e11.25.16 GTK-3.24.48
-#               e41.25.17 GTK-4.16.12
 #               e43.33.42 gnome-shell-47.4
 #
 # Recommended Runtime by:

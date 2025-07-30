@@ -16,7 +16,6 @@
 #
 # Recommended by:
 #
-#               e41.10.03 Exiv2-0.28.5
 #               e41.42.48 Pipewire-1.2.7
 #
 

@@ -1,4 +1,4 @@
-# e43.34.07.gnome-calculator-47.1.sh
+# e44.34.07.gnome-calculator-47.1.sh
 #
 
 #
@@ -8,7 +8,7 @@
 #               e11.49.05 itstool-2.0.7
 #               e41.25.28 libadwaita-1.6.4
 #               e42.33.16 libgee-0.20.8
-#               e41.17.18 libsoup-3.6.5
+#               e41.17.18 libsoup-3.6.5     (errata)
 #
 # Dependencies Recommended:
 #

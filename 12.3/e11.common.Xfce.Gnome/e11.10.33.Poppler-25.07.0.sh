@@ -38,6 +38,7 @@
 # Recommended by:
 #
 #               g22.39.03 LibreOffice-25.2.3	(errata)
+#               e42.33.23 localsearch-3.8.2
 #
 # Recommended ( but needed ) by:
 #

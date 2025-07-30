@@ -10,7 +10,7 @@
 #
 # Required by:
 #
-#               e41.09.02 AppStream-1.0.4
+#               e41.09.02 AppStream-1.0.5   (errata)
 #
 
 export PKG="libxmlb-0.3.21"

@@ -123,7 +123,19 @@ echo "."
 echo "."
 
 ###
-#	e44.34.11.gnome-maps-47.4
+
+echo "e44.34.11.gnome-maps-47.4"
+echo "e44.34.11.gnome-maps-47.4" >> $LFSLOG_PROCESS
+
+time { bash e44.34.11.gnome-maps-47.4.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
 ###
 
 echo "e44.34.12.gnome-nettool-42.0"

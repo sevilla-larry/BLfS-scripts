@@ -26,12 +26,6 @@
 #               e44.34.16 gnome-terminal-3.54.2
 #               e44.34.17 gnome-weather-47.0
 #               e44.34.18 Gucharmap-16.0.2
-#               e44.34.10 gnome-disk-utility-46.1
-#               e44.34.13 gnome-power-manager-43.0
-#               e44.34.15 gnome-system-monitor-47.1
-#               e44.34.16 gnome-terminal-3.54.2
-#               e44.34.17 gnome-weather-47.0
-#               e44.34.18 Gucharmap-16.0.2
 #
 
 export PKG="appstream-glib-0.8.3"

@@ -19,11 +19,12 @@
 # Required by:
 #
 #				e43.33.38 gnome-settings-daemon-47.2
+#               e44.34.11 gnome-maps-47.4
 #               e44.34.17 gnome-weather-47.0
 #
 # Recommended by:
 #
-#               e41.25.45 WebKitGTK-2.46.6
+#               e41.25.45 WebKitGTK-2.48.3  (errata)
 #
 
 export PKG="geoclue-2.7.2"

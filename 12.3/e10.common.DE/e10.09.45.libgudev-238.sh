@@ -14,13 +14,13 @@
 #               e10.12.37 UPower-1.90.7
 #               e11.12.08 Colord-1.4.7
 #               e13.12.35 UDisks-2.10.1         (errata sed)
-#               e41.25.45 WebKitGTK-2.46.6
+#               e41.25.45 WebKitGTK-2.48.3          (errata)
 #               e43.33.45 gnome-tweaks-46.1
 #
 # Recommended by:
 #
 #               e23.35.10 thunar-4.20.2
-#               e41.42.15 gst-plugins-base-1.26.3   (errata)
+#               e41.42.14 gst-plugins-base-1.26.3   (errata)
 #               e43.33.33 Gvfs-1.56.1
 #
 # Optionally by:

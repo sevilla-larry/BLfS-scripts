@@ -10,6 +10,7 @@
 #
 # Required by:
 #
+#               e44.34.11 gnome-maps-47.4
 #               e44.34.18 Gucharmap-16.0.2
 #
 # Recommended by:

@@ -1,4 +1,4 @@
-# e43.34.08.gnome-color-manager-3.36.2.sh
+# e44.34.08.gnome-color-manager-3.36.2.sh
 #
 
 #
@@ -7,7 +7,7 @@
 #               e11.12.08 Colord-1.4.7
 #               e11.25.16 GTK-3.24.48
 #               e11.49.05 itstool-2.0.7
-#               e10.10.14 Little CMS-2.16
+#               e10.10.14 LittleCMS-2.17
 #
 # Dependencies Recommended:
 #

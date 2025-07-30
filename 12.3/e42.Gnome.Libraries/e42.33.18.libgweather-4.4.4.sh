@@ -20,6 +20,7 @@
 # Required by:
 #
 #				e43.33.38 gnome-settings-daemon-47.2
+#               e44.34.11 gnome-maps-47.4
 #               e44.34.17 gnome-weather-47.0
 #
 # Recommended by:

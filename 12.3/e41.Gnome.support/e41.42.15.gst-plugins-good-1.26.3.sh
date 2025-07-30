@@ -10,11 +10,11 @@
 # Dependencies Recommended:
 #
 #               e10.25.04 Cairo-1.18.2
-#               e10.42.11 FLAC-1.4.3
+#               e10.42.10 FLAC-1.5.0
 #               e10.25.10 gdk-pixbuf-2.42.12
 #               e10.43.04 LAME-3.100
-#               e41.17.18 libsoup-3.6.5 (errata)
-#               e11.42.45 libvpx-1.15.2
+#               e41.17.18 libsoup-3.6.5             (errata)
+#               e10.42.45 libvpx-1.15.2
 #               e10.43.05 mpg123-1.32.10
 #               e10.13.17 NASM-2.16.03
 #               e10.42.49 PulseAudio-17.0
@@ -30,7 +30,8 @@
 #
 # Recommended Runtime by:
 #
-#               e11.25.17 GTK-4.16.12
+#               e41.25.17 GTK-4.16.12
+#               e42.33.23 localsearch-3.8.2
 #
 # Optionally by:
 #

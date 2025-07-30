@@ -25,7 +25,7 @@
 #
 # Required by:
 #
-#               e41.09.02 AppStream-1.0.5
+#               e41.09.02 AppStream-1.0.5       (errata)
 #               e41.25.29 libei-1.3.0
 #               e41.42.58 Wireplumber-0.5.8
 #               e43.33.44 gnome-session-47.0.1

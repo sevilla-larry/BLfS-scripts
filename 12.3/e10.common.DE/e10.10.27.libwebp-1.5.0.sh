@@ -18,11 +18,11 @@
 # Required by:
 #
 #               e41.10.38 webp-pixbuf-loader-0.2.7
-#               e41.25.45 WebKitGTK-2.46.6
+#               e41.25.45 WebKitGTK-2.48.3      (errata)
 #
 # Recommended by:
 #
-#               g22.40.03 Firefox-128.11.0esr   (errata)
+#               g22.40.03 Firefox-140.1.0esr    (errata)
 #               g22.39.03 LibreOffice-25.2.3	(errata)
 #               e12.25.40 Qt-6.9.1          (errata/svn)
 #

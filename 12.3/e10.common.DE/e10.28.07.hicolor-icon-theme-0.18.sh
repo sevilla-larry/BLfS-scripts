@@ -8,7 +8,7 @@
 #
 # Recommended by:
 #
-#               e41.25.45 WebKitGTK-2.46.6
+#               e41.25.45 WebKitGTK-2.48.3          (errata)
 #               ??? 37.10 lxde-common-0.99.2
 #               ??? GTK+-2.24.33                ???
 #
@@ -16,7 +16,7 @@
 #
 #               e23.35.10 thunar-4.20.2
 #
-# Test needed by:
+# Recommended (tests) by:
 #
 #               e11.25.16 GTK-3.24.48
 #               e41.25.17 GTK-4.16.12

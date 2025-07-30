@@ -47,12 +47,13 @@
 #
 # Required by:
 #
-#               e41.42.18 gst-libav-2.26.3     (errata)
+#               e41.42.18 gst-libav-2.26.3      (errata)
 #
 # Optionally by:
 #
-#               g22.40.03 Firefox-128.11.0esr
+#               g22.40.03 Firefox-140.1.0esr    (errata)
 #               e41.42.48 Pipewire-1.2.7
+#               e42.33.23 localsearch-3.8.2
 #
 
 export PKG="ffmpeg-7.1"

@@ -1,4 +1,5 @@
 # g22.39.03.LibreOffice-25.2.3.Part2.sh
+# errata
 #
 # Part2 - as root, "install"
 #
@@ -26,7 +27,7 @@
 #               e11.25.13    GLU-9.0.3
 #               e11.04.08    GPGME-1.24.2
 #               d10.10.11    Graphite2-1.3.14
-#           ??? e41.42.14    gst-plugins-base-1.26.2    ???
+#           ??? e41.42.14    gst-plugins-base-1.26.3    ???
 #               e11.25.16    GTK-3.24.48
 #               d10.10.12    harfBuzz-10.4.0
 #               a.08.91.07   icu-76.1

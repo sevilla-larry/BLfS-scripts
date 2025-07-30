@@ -24,7 +24,7 @@
 #
 # Required by:
 #
-#               g22.40.03 Firefox-128.11.0esr       (errata)
+#               g22.40.03 Firefox-140.1.0esr        (errata)
 #				e43.33.38 gnome-settings-daemon-47.2
 #               e34.38.04 pavucontrol-qt-2.1.0
 #

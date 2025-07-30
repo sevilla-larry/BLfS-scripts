@@ -7,7 +7,7 @@
 #               e10.25.04 Cairo-1.18.2
 #               d20.12.11 dbus-1.16.0
 #               d10.09.17 GLib-2.82.5
-#               e41.09.89 SpiderMonkey (Firefox-128.11.0esr) (errata)
+#				e41.09.89 SpiderMonkey.from.Firefox-128.13.0esr	(errata)
 #
 # Dependencies Recommended:
 #
@@ -19,6 +19,7 @@
 # Required by:
 #
 #               e43.33.42 gnome-shell-47.4
+#               e44.34.11 gnome-maps-47.4
 #               e44.34.17 gnome-weather-47.0
 #
 

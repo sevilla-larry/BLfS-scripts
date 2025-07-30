@@ -13,6 +13,12 @@
 #               d10.09.17 GLib-2.82.5
 #
 
+#
+# Required by:
+#
+#               e44.34.11 gnome-maps-47.4
+#
+
 export PKG="libshumate-1.3.2"
 export PKGLOG_DIR=$LFSLOG/33.20
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log

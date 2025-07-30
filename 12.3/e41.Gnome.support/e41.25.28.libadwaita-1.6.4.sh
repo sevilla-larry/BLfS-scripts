@@ -4,7 +4,7 @@
 #
 # Dependencies Required:
 #
-#               e41.09.02 AppStream-1.0.4
+#               e41.09.02 AppStream-1.0.5   (errata)
 #               e41.25.17 GTK-4.16.12
 #               e41.10.37 sassc-3.6.2
 #
@@ -28,6 +28,7 @@
 #               e43.33.45 gnome-tweaks-46.1
 #               e44.34.01 Baobab-47.0
 #               e44.34.07 gnome-calculator-47.1
+#               e44.34.11 gnome-maps-47.4
 #               e44.34.15 gnome-system-monitor-47.1
 #               e44.34.17 gnome-weather-47.0
 #

@@ -10,13 +10,13 @@
 # Dependencies Optional:
 #
 #               e10.13.27  Rustc-1.85.0
-#               a.08.91.40 make-ca-1.16 (errata)
+#               a.08.91.40 make-ca-1.16     (errata)
 #
 
 #
 # Required by:
 #
-#               e41.25.45 WebKitGTK-2.46.6
+#               e41.25.45 WebKitGTK-2.48.3  (errata)
 #
 
 export PKG="ruby-3.4.5"

@@ -40,21 +40,21 @@
 #               e11.41.14 XScreenSaver-6.09
 #               e11.04.21 polkit-gnome-0.105
 #               e21.28.01 adwaita-icon-theme-47.0
+#               e41.28.01 adwaita-icon-theme-47.0
 #               e11.28.06 gnome-themes-extra-3.28
 #               e21.33.07 VTE-0.78.4
 #               e42.33.07 VTE-0.76.4
 #               g42.41.12 xarchiver-0.5.4.23
 #               g42.34.04 Evince-46.3.1
 #               e44.34.04 Evince-46.3.1
-#               g22.40.03 Firefox-128.11.0esr   (errata)
+#               g22.40.03 Firefox-140.1.0esr        (errata)
 #               e41.09.03 appstream-glib-0.8.3
 #               e41.10.17 libgxps-0.3.2
 #               e41.25.07 colord-gtk-0.3.1
 #               e41.25.20 gtk-vnc-1.5.0
-#               e41.25.23 gtksourceview5-5.14.2
-#               e41.25.45 WebKitGTK-2.46.6
+#               e41.25.22 gtksourceview4-4.8.4
+#               e41.25.45 WebKitGTK-2.48.3          (errata)
 #               e41.25.47 xdg-desktop-portal-gtk-1.15.2
-#               e41.28.01 adwaita-icon-theme-47.0
 #               e42.33.11 gnome-autoar-0.4.5
 #               e42.33.12 gnome-desktop-44.1
 #               e42.33.18 libgweather-4.4.4

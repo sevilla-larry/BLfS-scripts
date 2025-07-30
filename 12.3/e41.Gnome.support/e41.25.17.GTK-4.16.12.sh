@@ -17,17 +17,26 @@
 #
 # Dependencies Recommended:
 #
-#               e41.28.01 adwaita-icon-theme-47.0   (settings keys)
 #               e41.42.16 gst-plugins-bad-1.26.3    (errata)
 #               e41.11.06 glslc from shaderc-2024.4 (PCs)
-#               e41.42.15 gst-plugins-good-1.26.3   (errata) (runtime)
-#               e10.28.07 hicolor-icon-theme-0.18   (test)
 #               e11.10.24 librsvg-2.59.2
 #               d20.25.44 Vulkan-Loader-1.4.304     (PCs)
 #
+# Dependencies Recommended (settings keys):
+#
+#               e41.28.01 adwaita-icon-theme-47.0
+#
+# Dependencies Recommended (runtime):
+#
+#               e41.42.15 gst-plugins-good-1.26.3   (errata)
+#
+# Dependencies Recommended (tests):
+#
+#               e10.28.07 hicolor-icon-theme-0.18
+#
 # Dependencies Optional:
 #
-#               e11.12.08 colord-1.4.7
+#               e11.12.08 Colord-1.4.7
 #           ??? e41.09.39 libcloudproviders-0.3.6   ???
 #               e42.33.22 tinysparql-3.8.2
 #
@@ -35,10 +44,10 @@
 #
 # Required by:
 #
-#               e42.33.07 VTE-0.76.4
 #               e41.25.19 Gtkmm-4.16.0
+#               e41.25.23 gtksourceview5-5.14.2
 #               e41.25.28 libadwaita-1.6.4
-#               e41.25.45 WebKitGTK-2.46.6
+#               e41.25.45 WebKitGTK-2.48.3          (errata)
 #               e41.28.01 adwaita-icon-theme-47.0
 #               e42.33.12 gnome-desktop-44.1
 #               e42.33.20 libshumate-1.3.2
@@ -49,6 +58,7 @@
 #
 # Recommended by:
 #
+#               e42.33.07 VTE-0.78.4
 #               e41.09.55 libportal-0.9.1
 #               e41.11.10 ibus-1.5.31
 #               e42.33.02 Gcr-4.3.1

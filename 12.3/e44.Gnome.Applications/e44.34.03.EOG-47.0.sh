@@ -1,11 +1,11 @@
-# e43.34.03.EOG-47.0.sh
+# e44.34.03.EOG-47.0.sh
 #
 
 #
 # Dependencies Required:
 #
 #               e41.28.01 adwaita-icon-theme-47.0
-#               e41.09.14 Exempi-2.6.5
+#               e41.09.14 Exempi-2.6.6              (errata)
 #               e42.33.12 gnome-desktop-44.1
 #               e11.25.32 libhandy-1.8.3
 #               e10.10.18 libjpeg-turbo-3.0.1
@@ -15,7 +15,7 @@
 # Dependencies Recommended:
 #
 #               d10.09.17 GLib-2.82.5
-#               e10.10.14 Little CMS-2.16
+#               e10.10.14 LittleCMS-2.17
 #               e10.10.16 libexif-0.6.25
 #               e11.10.24 librsvg-2.59.2
 #               e41.10.38 webp-pixbuf-loader-0.2.7

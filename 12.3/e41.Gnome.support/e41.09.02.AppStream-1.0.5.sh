@@ -8,7 +8,7 @@
 #               a.08.93.04 cURL-8.14.1      (errata)
 #               d10.12.12  elogind-255.17
 #               e11.49.05  itstool-2.0.7
-#               a.08.91.08 libxml2-2.14.3   (errata)
+#               a.08.91.08 libxml2-2.14.5   (errata)
 #               e41.09.73  libxmlb-0.3.21
 #               b10.09.76  libyaml-0.2.5
 #
@@ -18,6 +18,10 @@
 #
 #               e41.25.28 libadwaita-1.6.4
 #               e44.34.09 gnome-connections-46.0
+#
+# Optionally by:
+#
+#               e44.34.10 gnome-disk-utility-46.1
 #
 
 export PKG="AppStream-1.0.5"

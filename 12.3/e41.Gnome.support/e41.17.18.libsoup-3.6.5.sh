@@ -30,7 +30,7 @@
 # Required by:
 #
 #               e41.17.03 GeoClue-2.7.2
-#               e41.25.45 WebKitGTK-2.46.6
+#               e41.25.45 WebKitGTK-2.48.3  (errata)
 #               e42.33.05 rest-0.9.1
 #               e42.33.09 geocode-glib-3.26.4
 #               e42.33.18 libgweather-4.4.4
@@ -39,8 +39,9 @@
 #
 # Recommended by:
 #
-#               e41.42.15 gst-plugins-good-1.24.12
+#               e41.42.15 gst-plugins-good-1.26.3   (errata)
 #               e42.33.22 tinysparql-3.8.2.sh
+#               e43.33.33 Gvfs-1.56.1
 #
 
 export PKG="libsoup-3.6.5"

@@ -5,7 +5,7 @@
 #
 # Dependencies Required:
 #
-#               e41.42.13 gstreamer-1.26.3
+#               e41.42.13 gstreamer-1.26.3          (errata)
 #
 # Dependencies Recommended:
 #
@@ -35,20 +35,20 @@
 #
 #               e41.42.15 gst-plugins-good-1.26.3   (errata)
 #               e41.42.16 gst-plugins-bad-1.26.3    (errata)
-#               e41.25.45 WebKitGTK-2.46.6
-#               e41.42.18 gst-libav-2.26.3          (errata)
+#               e41.25.45 WebKitGTK-2.48.3          (errata)
+#               e41.42.18 gst-libav-1.26.3          (errata)
 #               e42.33.23 localsearch-3.8.2
 #
 # Recommended by:
 #
-#               g22.39.03 LibreOffice-25.2.1    (errata)
+#           ??? g22.39.03 LibreOffice-25.2.3        (errata) (not used)
 #               e41.42.48 Pipewire-1.2.7
 #               e43.33.35 Nautilus-47.2
 #               e43.33.42 gnome-shell-47.4
 #
 # Optionally by:
 #
-#               g42.34.04 Evince-46.3.1
+#           ??? g42.34.04 Evince-46.3.1     (not used)
 #               e44.34.04 Evince-46.3.1
 #
 

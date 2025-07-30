@@ -8,7 +8,7 @@
 #
 # Dependencies Recommended:
 #
-#               a.08.91.22.brotli-1.1.0
+#               a.08.91.22 brotli-1.1.0
 #               a.08.93.04 cURL-8.14.1      (errata)
 #               e41.09.26  inih-58
 #

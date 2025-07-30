@@ -1,10 +1,10 @@
-# e43.34.09.gnome-connections-46.0.sh
+# e44.34.09.gnome-connections-46.0.sh
 #
 
 #
 # Dependencies Required:
 #
-#               e41.09.02 AppStream-1.0.4
+#               e41.09.02 AppStream-1.0.5   (errata)
 #           ??? e41.41.04 FreeRDP-3.12.0
 #               e41.25.20 gtk-vnc-1.5.0
 #               e11.49.05 itstool-2.0.7

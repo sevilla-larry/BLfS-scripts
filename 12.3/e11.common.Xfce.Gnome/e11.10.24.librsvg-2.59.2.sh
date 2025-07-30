@@ -25,8 +25,8 @@
 # Required by:
 #
 #               e21.28.01 adwaita-icon-theme-47.0
-#               e11.28.06 gnome-themes-extra-3.28
 #               e41.28.01 adwaita-icon-theme-47.0
+#               e11.28.06 gnome-themes-extra-3.28
 #
 # Recommended by:
 #

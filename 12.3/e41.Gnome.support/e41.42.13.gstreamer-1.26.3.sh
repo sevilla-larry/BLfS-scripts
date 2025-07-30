@@ -16,7 +16,7 @@
 #
 # Required by:
 #
-#               e41.42.15 gst-plugins-base-1.26.3   (errata)
+#               e41.42.14 gst-plugins-base-1.26.3   (errata)
 #
 # Recommended by:
 #

@@ -17,7 +17,7 @@
 #
 #               e13.25.46 xdg-desktop-portal-1.20.0
 #               e42.33.12 gnome-desktop-44.1
-#               e41.25.45 WebKitGTK-2.46.6
+#               e41.25.45 WebKitGTK-2.48.3          (errata)
 #
 
 #

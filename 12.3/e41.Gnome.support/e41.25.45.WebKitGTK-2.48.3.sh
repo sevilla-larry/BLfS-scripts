@@ -1,6 +1,5 @@
 # e41.25.45.WebKitGTK-2.48.3.sh
 # errata
-# GTK-4 versioin
 #
 
 #
@@ -21,7 +20,7 @@
 #               e10.10.27  libwebp-1.5.0
 #               d20.24.12  Mesa-24.3.4
 #               e10.10.31  OpenJPEG-2.5.3
-#               e41.13.26  Ruby-3.4.2
+#               e41.13.26  Ruby-3.4.5                (errata)
 #               a.08.91.18 SQLite-3.49.1
 #               e41.13.35  unifdef-2.12
 #               a.08.91.03 Which-2.23

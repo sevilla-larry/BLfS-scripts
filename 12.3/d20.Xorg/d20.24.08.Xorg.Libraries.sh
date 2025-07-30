@@ -36,7 +36,7 @@
 #               e10.25.37 Pango-1.56.1
 #               e10.42.49 PulseAudio-17.0
 #               e10.42.52 SDL2-2.30.11
-#               e41.42.15 gst-plugins-base-1.26.3   (errata)
+#               e41.42.14 gst-plugins-base-1.26.3   (errata)
 #
 # Optionally by:
 #

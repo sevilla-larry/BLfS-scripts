@@ -10,6 +10,10 @@
 #
 
 #
+# Required by:
+#
+#               e41.11.06 glslc.from.shaderc-2024.4
+#
 # Recommended by:
 #
 #               d20.24.12 Mesa-24.3.4

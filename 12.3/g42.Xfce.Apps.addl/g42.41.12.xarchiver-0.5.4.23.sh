@@ -8,7 +8,7 @@
 #
 # Dependencies Optional:
 #
-#               e10.12.01  7zip-24.09
+#               e10.12.01  7zip-25.00   (errata)
 #               cpio
 #               a.08.91.09 LZO-2.10
 #               unrar

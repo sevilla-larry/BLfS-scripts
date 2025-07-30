@@ -8,7 +8,7 @@
 #               e42.33.02 Gcr-4.3.1
 #               e42.33.10 Gjs-1.82.1
 #               e42.33.12 gnome-desktop-44.1
-#               d41.11.10 ibus-1.5.31
+#               e41.11.10 ibus-1.5.31
 #               e43.33.41 Mutter-47.5
 #               d10.04.20 Polkit-126
 #               e11.25.42 startup-notification-0.12

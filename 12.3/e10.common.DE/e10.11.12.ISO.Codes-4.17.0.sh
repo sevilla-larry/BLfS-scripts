@@ -12,7 +12,7 @@
 # Recommended by:
 #
 #               e11.25.16 GTK-3.24.48
-#               e41.42.15 gst-plugins-base-1.26.3   (errata)
+#               e41.42.14 gst-plugins-base-1.26.3   (errata)
 #
 
 export PKG="iso-codes-v4.17.0"

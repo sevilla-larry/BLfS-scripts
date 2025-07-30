@@ -13,6 +13,7 @@
 # Required by:
 #
 #               d20.25.12 Glslang-15.1.0
+#               e41.11.06 glslc.from.shaderc-2024.4
 #
 
 export PKG="SPIRV-Tools-vulkan-sdk-1.4.304.1"

@@ -5,7 +5,7 @@
 # Dependencies Required:
 #
 #               e43.33.38 gnome-settings-daemon-47.2
-#               e41.25.15 graphene-1.10.8
+#               e41.25.15 Graphene-1.10.8
 #               e41.25.29 libei-1.3.0
 #               d20.24.09 libxcvt-0.1.3
 #               e10.09.71 libxkbcommon-1.8.0
