@@ -43,8 +43,8 @@ tar xvf $PKG.tar.gz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
 
                   
-mkdir build
-cd    build
+mkdir aom-build
+cd    aom-build
 
 echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
