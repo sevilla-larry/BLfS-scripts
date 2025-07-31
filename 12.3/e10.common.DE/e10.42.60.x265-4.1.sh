@@ -39,8 +39,8 @@ tar xvf $PKG.tar.gz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
 
 
-mkdir build
-cd    build
+mkdir bld
+cd    bld
 
 echo "2. CMake Configure ..."
 echo "2. CMake Configure ..." >> $LFSLOG_PROCESS
