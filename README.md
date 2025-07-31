@@ -34,7 +34,7 @@
 #
 # Groupings
 #
-# Group a - LfS
+# Group a - LfS base
 #
 #
 # Group b - Common apps & Libraries
@@ -53,20 +53,21 @@
 #       c19 - QEmu/KVM			- pending
 # 
 #
-# Group d - XOrg
+# Group d - XOrg & Xwayland
 #
-#		d10 - Xorg ( & Xwayland ) Support
+#		d10 - Xorg & Xwayland Support
 #
-#		d20	- Xorg ( & Xwayland )
+#		d20	- Xorg & Xwayland
 #
 #
 # Group e - Desktop Environment
 #
-#       e00	- Common to DE's & DMs
+#   ??? e00	- Common to DE's & DMs
 #
 #		e10 - Common to all DE's
+#
 #		e11 - Common to Xfce & Gnome
-#	??	e12 - Common to LXQt & KDE
+#	  	e12 - Common to LXQt & KDE
 #	 	e13 - Common to Gnome & LXQt
 #	???	e14 - Common to Xfce, Gnome & KDE
 #
@@ -74,10 +75,10 @@
 #		e23 - Xfce Desktop
 #		e24 - Xfce Applications
 #
-#	?	e31	- LXQt support
-#	?	e32 - KF6, Plasma, & Misc Dependecies
-#	?	e33	- LXQt Desktop Components
-#	?	e34 - LXQt Applications
+#		e31	- LXQt support
+#		e32 - KF6, Plasma, & Misc Dependecies
+#		e33	- LXQt Desktop Components
+#		e34 - LXQt Applications
 #
 #		e41	- Gnome support
 #		e42	- Gnome Libraries
@@ -85,7 +86,7 @@
 #		e44 - Gnome Applications
 #
 #   ?	e51	- KDE support
-#	?	e52 - KDE Preliminaries
+#		e52 - KDE Preliminaries
 #	?	e53 - KDE Frameworks 6
 #	?	e54	- KDE Frameworks 6 Based Applications
 #	?	e55 - KDE Plasma
@@ -98,9 +99,9 @@
 # Group f - Display Manager
 #
 #   ???	f0	- Common to DM's
-#	???	f1	- GDM
+#		f1	- GDM
 #		f2	- LightDM			compiled in e23.Xfce.Desktop
-#   ?	f3	- SDDM
+#   	f3	- SDDM
 #   ???	f4	- LXDM			??? (from 11.3)	???
 #
 #

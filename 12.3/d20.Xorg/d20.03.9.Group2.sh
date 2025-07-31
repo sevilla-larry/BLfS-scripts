@@ -3,11 +3,11 @@
 # Graphical Environments
 #
 # Part 04:	09 & 10
-# Part 05:          XCB Utilities
+# Part 05:  11	XCB Utilities
 # Part 06:	25.33
-# Part 07:	42.xx	sub 1 for PC
+# Part 07:	42.xx & ply		sub 1 for PC
 # Part 08:	12.Mesa
-# Part 09:	42.xx	sub 2 for PC
+# Part 09:	42.xx			sub 2 for PC
 # Part 10:	13
 # Part 11:	14	Xorg Applications
 # Part 12:	15 ---> 16
