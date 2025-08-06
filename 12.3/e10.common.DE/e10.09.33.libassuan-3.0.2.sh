@@ -1,4 +1,5 @@
-# e11.09.33.libassuan-3.0.2.sh
+# e10.09.33.libassuan-3.0.2.sh
+# Xfce Gnome KDE
 #
 
 #
@@ -10,7 +11,7 @@
 #
 # Required by:
 #
-#               e11.04.08 GPGME-1.24.2
+#               e10.04.08 GPGME-1.24.2
 #
 
 

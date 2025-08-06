@@ -1,5 +1,6 @@
 # e10.09.71.libxkbcommon-1.8.0.sh
 # Pass 2 with Xvfb
+# Xfce LXQt Gnome KDE
 #
 
 #

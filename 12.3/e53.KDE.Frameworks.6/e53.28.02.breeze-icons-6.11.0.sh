@@ -1,4 +1,5 @@
-# e31.28.02.breeze-icons-6.11.0.sh
+# e53.28.02.breeze-icons-6.11.0.sh
+# reBuild with KDE Frameworks 6
 #
 
 #
@@ -9,19 +10,19 @@
 #
 # Dependencies Optional:
 #
-#           ??? Building KDE Frameworks 6.11.0
-#               a.08.91.08 libxml2-2.14.5   (errata)
+#               e53.30.02    Building KDE Frameworks 6.11.0
+#               a.08.91.08   libxml2-2.14.5 (errata)
 #               d10.13.24.12 lxml-5.4.0     (errata)
 #
 
 #
 # Recommended by:
 #
-#               e33.37.40 LXQt Desktop Final Instructions
+#           ??? e33.37.40 LXQt Desktop Final Instructions
 #
 
 export PKG="breeze-icons-6.11.0"
-export PKGLOG_DIR=$LFSLOG/28.02
+export PKGLOG_DIR=$LFSLOG/28.02.2
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
@@ -47,10 +48,11 @@ echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
 echo "2. Configure ..." >> $PKGLOG_ERROR
 cmake -D CMAKE_INSTALL_PREFIX=/usr  \
-      -D BUILD_TESTING=OFF          \
+      -D BUILD_TESTING=ON           \
       -W no-dev                     \
       ..                            \
       > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+#      -D BUILD_TESTING=OFF          \
 
 #echo "3. Make Build ..."
 #echo "3. Make Build ..." >> $LFSLOG_PROCESS

@@ -1,4 +1,5 @@
 # e10.10.18.libjpeg-turbo-3.0.1.sh
+# Xfce LXQt Gnome KDE
 #
 
 #

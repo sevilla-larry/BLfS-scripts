@@ -1,4 +1,5 @@
-# e13.12.35.UDisks-2.10.1.sh
+# e10.12.35.UDisks-2.10.1.sh
+# LXQt Gnome KDE
 # errata sed fix
 #
 
@@ -39,6 +40,10 @@
 # Recommended by:
 #
 #               e43.33.33 Gvfs-1.56.1
+#
+# Optionally by:
+#
+#               e53.30.02 Building KDE Frameworks 6.11.0
 #
 # Optional (runtime) by:
 #

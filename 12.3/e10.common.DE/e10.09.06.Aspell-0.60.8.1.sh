@@ -1,4 +1,5 @@
-# e11.09.06.Aspell-0.60.8.1.sh
+# e10.09.06.Aspell-0.60.8.1.sh
+# Xfce Gnome KDE
 #
 
 #
@@ -11,6 +12,7 @@
 # Recommended by:
 #
 #               e11.09.13 enchant-2.8.2
+#               e53.30.02 Building KDE Frameworks 6.11.0
 #
 
 export PKG="aspell-0.60.8.1"

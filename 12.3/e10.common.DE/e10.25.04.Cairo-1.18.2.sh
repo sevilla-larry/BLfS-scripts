@@ -1,4 +1,5 @@
 # e10.25.04.Cairo-1.18.2.sh
+# Xfce LXQt Gnome KDE
 #
 
 #
@@ -25,7 +26,7 @@
 #
 #               e23.35.09    xfce4-panel-4.20.3
 #               e11.10.24    librsvg-2.59.2
-#               e13.13.24.20 PyCairo-1.26.1
+#               e10.13.24.20 PyCairo-1.26.1
 #               e41.25.06    libcairomm-1.18.0
 #               e41.25.45    WebKitGTK-2.48.3       (errata)
 #               e42.33.10    Gjs-1.82.1

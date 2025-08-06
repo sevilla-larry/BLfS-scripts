@@ -1,4 +1,5 @@
 # e10.44.01.FFmpeg-7.1.sh
+# Xfce Gnome KDE
 #
 
 #
@@ -48,6 +49,7 @@
 # Required by:
 #
 #               e41.42.18 gst-libav-2.26.3      (errata)
+#               e51.44.03 VLC-3.0.21
 #
 # Optionally by:
 #

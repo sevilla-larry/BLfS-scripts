@@ -220,48 +220,6 @@ echo "."
 
 ###
 
-echo "e10.10.15.libavif-1.2.0"
-echo "e10.10.15.libavif-1.2.0" >> $LFSLOG_PROCESS
-
-time { bash e10.10.15.libavif-1.2.0.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
-
-###
-
-echo "e10.09.24.highway-1.2.0"
-echo "e10.09.24.highway-1.2.0" >> $LFSLOG_PROCESS
-
-time { bash e10.09.24.highway-1.2.0.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
-
-###
-
-echo "e10.10.19.libjxl-0.11.1"
-echo "e10.10.19.libjxl-0.11.1" >> $LFSLOG_PROCESS
-
-time { bash e10.10.19.libjxl-0.11.1.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
-
-###
-
 echo "e10.42.60.x265-4.1"
 echo "e10.42.60.x265-4.1" >> $LFSLOG_PROCESS
 

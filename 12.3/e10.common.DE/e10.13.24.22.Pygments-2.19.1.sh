@@ -1,4 +1,4 @@
-# e41.13.24.22.Pygments-2.19.1.sh
+# e10.13.24.22.Pygments-2.19.1.sh
 #
 
 #
@@ -14,7 +14,7 @@
 #
 # Required by:
 #
-#               e13.09.37 libbytesize-2.11
+#               e10.09.37 libbytesize-2.11
 #
 
 export PKG="pygments-2.19.1"

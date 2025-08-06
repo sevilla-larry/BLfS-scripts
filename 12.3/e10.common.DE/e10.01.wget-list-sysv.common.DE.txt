@@ -1,9 +1,27 @@
+# 04.08 GPGME-1.24.2
+https://www.gnupg.org/ftp/gcrypt/gpgme/gpgme-1.24.2.tar.bz2
+
+# 09.06 Aspell-0.60.8.1
+https://ftp.gnu.org/gnu/aspell/aspell-0.60.8.1.tar.gz
+https://ftp.gnu.org/gnu/aspell/dict/en/aspell6-en-2020.12.07-0.tar.bz2
 # 09.24 highway-1.2.0
 https://github.com/google/highway/archive/1.2.0/highway-1.2.0.tar.gz
 # 09.29 JSON-GLib-1.10.6
 https://download.gnome.org/sources/json-glib/1.10/json-glib-1.10.6.tar.xz
+# 09.30 keyutils-1.6.3
+https://git.kernel.org/pub/scm/linux/kernel/git/dhowells/keyutils.git/snapshot/keyutils-1.6.3.tar.gz
+# 09.33 libassuan-3.0.2
+https://www.gnupg.org/ftp/gcrypt/libassuan/libassuan-3.0.2.tar.bz2
+# 09.36 libblockdev-3.3.1		(errata)
+https://github.com/storaged-project/libblockdev/releases/download/3.3.1/libblockdev-3.3.1.tar.gz
+# 09.37 libbytesize-2.11
+https://github.com/storaged-project/libbytesize/releases/download/2.11/libbytesize-2.11.tar.gz
+# 09.40 libdaemon-0.14
+https://0pointer.de/lennart/projects/libdaemon/libdaemon-0.14.tar.gz
 # 09.45 libgudev-238
 https://download.gnome.org/sources/libgudev/238/libgudev-238.tar.xz
+# 09.47 libical-3.0.19
+https://github.com/libical/libical/releases/download/v3.0.19/libical-3.0.19.tar.gz
 # 09.65 libtasn1-4.20.0
 https://ftp.gnu.org/gnu/libtasn1/libtasn1-4.20.0.tar.gz
 # 09.69 libusb-1.0.27
@@ -39,6 +57,10 @@ https://salsa.debian.org/iso-codes-team/iso-codes/-/archive/v4.17.0/iso-codes-v4
 # https://github.com/ip7z/7zip/archive/24.09/7zip-24.09.tar.gz
 # 12.01 7zip-25.00		(errata)
 https://github.com/ip7z/7zip/archive/25.00/7zip-25.00.tar.gz
+# 12.07 Bubblewrap-0.11.0
+https://github.com/containers/bubblewrap/releases/download/v0.11.0/bubblewrap-0.11.0.tar.xz
+# 12.35 UDisks-2.10.1
+https://github.com/storaged-project/udisks/releases/download/udisks-2.10.1/udisks-2.10.1.tar.bz2
 # 12.36 UPower-1.90.7
 https://gitlab.freedesktop.org/upower/upower/-/archive/v1.90.7/upower-v1.90.7.tar.bz2
 
@@ -49,6 +71,14 @@ https://github.com/mozilla/cbindgen/archive/v0.28.0/cbindgen-0.28.0.tar.gz
 # 13.17 NASM-2.16.03
 https://www.nasm.us/pub/nasm/releasebuilds/2.16.03/nasm-2.16.03.tar.xz
 https://www.nasm.us/pub/nasm/releasebuilds/2.16.03/nasm-2.16.03-xdoc.tar.xz
+# 13.24.06 D-Bus Python-1.3.2
+https://dbus.freedesktop.org/releases/dbus-python/dbus-python-1.3.2.tar.gz
+# 13.24.20 PyCairo-1.26.1
+https://github.com/pygobject/pycairo/releases/download/v1.26.1/pycairo-1.26.1.tar.gz
+# 13.24.22 Pygments-2.19.1
+https://files.pythonhosted.org/packages/source/P/Pygments/pygments-2.19.1.tar.gz
+# 13.24.23 PyGObject-3.50.0
+https://download.gnome.org/sources/pygobject/3.50/pygobject-3.50.0.tar.xz
 # 13.26 Rustc-1.85.0
 https://static.rust-lang.org/dist/rustc-1.85.0-src.tar.xz
 # 13.38 yasm-1.3.0
@@ -61,6 +91,8 @@ https://www.linuxfromscratch.org/patches/blfs/12.3/cairo-1.18.2-upstream_fixes-1
 https://download.gnome.org/sources/gdk-pixbuf/2.42/gdk-pixbuf-2.42.12.tar.xz
 # 25.38 Pango-1.56.1
 https://download.gnome.org/sources/pango/1.56/pango-1.56.1.tar.xz
+# 25.48 xdg-desktop-portal-1.18.4
+https://github.com/flatpak/xdg-desktop-portal/releases/download/1.18.4/xdg-desktop-portal-1.18.4.tar.xz
 
 # 28.07 hicolor-icon-theme-0.18
 https://icon-theme.freedesktop.org/releases/hicolor-icon-theme-0.18.tar.xz
@@ -76,6 +108,9 @@ https://github.com/xiph/flac/releases/download/1.5.0/flac-1.5.0.tar.xz
 https://storage.googleapis.com/aom-releases/libaom-3.12.0.tar.gz
 # 42.25 libass-0.17.3
 https://github.com/libass/libass/releases/download/0.17.3/libass-0.17.3.tar.xz
+# 42.27 libcanberra-0.30
+https://0pointer.de/lennart/projects/libcanberra/libcanberra-0.30.tar.xz
+https://www.linuxfromscratch.org/patches/blfs/12.2/libcanberra-0.30-wayland-1.patch
 # 42.37 libogg-1.3.5
 https://downloads.xiph.org/releases/ogg/libogg-1.3.5.tar.xz
 # 42.40 libsndfile-1.2.2

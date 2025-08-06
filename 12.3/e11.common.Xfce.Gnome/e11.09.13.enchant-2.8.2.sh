@@ -8,7 +8,7 @@
 #
 # Dependencies Recommended:
 #
-#               e11.09.06 Aspell-0.60.8.1
+#               e14.09.06 Aspell-0.60.8.1
 #
 
 #

@@ -1,4 +1,4 @@
-# e13.13.24.06.D-Bus.Python-1.3.2.sh
+# e10.13.24.06.D-Bus.Python-1.3.2.sh
 #
 
 #
@@ -13,7 +13,7 @@
 #
 # Optionally (for the integraion tests) by:
 #
-#               e13.12.35 UDisks-2.10.1     (errata sed)
+#               e10.12.35 UDisks-2.10.1     (errata sed)
 #
 # Optionally by:
 #

@@ -1,4 +1,5 @@
 # e10.10.15.libavif-1.2.0.sh
+# Gnome KDE
 #
 
 #
@@ -20,6 +21,7 @@
 # Recommended by:
 #
 #               e41.25.45 WebKitGTK-2.48.3          (errata)
+#               e53.30.02 Building.KDE.Frameworks-6.11.0
 #
 # Optionally by:
 #

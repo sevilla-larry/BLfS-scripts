@@ -1,4 +1,5 @@
 # e10.09.45.libgudev-238.sh
+# Xfce LXQt Gnome KDE
 #
 
 #
@@ -12,8 +13,8 @@
 #
 #               e23.35.11 thunar-volman-4.20.0  (NOT installed)
 #               e10.12.37 UPower-1.90.7
-#               e11.12.08 Colord-1.4.7
-#               e13.12.35 UDisks-2.10.1         (errata sed)
+#               e41.12.08 Colord-1.4.7
+#               e10.12.35 UDisks-2.10.1         (errata sed)
 #               e41.25.45 WebKitGTK-2.48.3          (errata)
 #               e43.33.45 gnome-tweaks-46.1
 #

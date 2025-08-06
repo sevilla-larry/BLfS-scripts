@@ -18,7 +18,7 @@
 # Required by:
 #
 #               e11.10.24 librsvg-2.59.2
-#               g11.13.01 Cbindgen-0.27.0           ???
+#               e10.13.02 Cbindgen-0.28.0
 #
 
 export PKG="cargo-c-0.10.11"

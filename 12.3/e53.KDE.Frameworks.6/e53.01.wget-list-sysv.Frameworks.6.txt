@@ -1,0 +1,9 @@
+url=https://download.kde.org/stable/frameworks/6.11/
+wget -r -nH -nd -A '*.xz' -np $url
+
+# The options used here are:
+#   -r            recurse through child directories
+#   -nH           disable generation of host-prefixed directories
+#   -nd           do not create a hierarchy of directories
+#   -A '*.xz'     just get the *.xz files
+#   -np           don't get parent directories

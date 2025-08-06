@@ -1,4 +1,4 @@
-# e11.42.26.libcanberra-0.30.sh
+# e10.42.26.libcanberra-0.30.sh
 #
 
 #
@@ -14,7 +14,7 @@
 #
 # Dependencies Optional:
 #
-#               e11.42.49 PulseAudio-17.0
+#               e10.42.49 PulseAudio-17.0
 #
 # Dependencies Recommended ( Run Time ):
 #
@@ -28,6 +28,7 @@
 #               e42.33.24 GSound-1.0.3
 #				e43.33.38 gnome-settings-daemon-47.2
 #               e44.34.14 gnome-screenshot-41.0
+#               e53.30.02 Building KDE Frameworks 6.11.0
 #
 # Recommended by:
 #

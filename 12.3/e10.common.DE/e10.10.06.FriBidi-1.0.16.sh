@@ -1,4 +1,5 @@
 # e10.10.06.FriBidi-1.0.16.sh
+# Xfce LXQt Gnome KDE
 #
 
 #

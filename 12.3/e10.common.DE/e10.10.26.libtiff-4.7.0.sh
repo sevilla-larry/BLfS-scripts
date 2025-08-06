@@ -1,4 +1,5 @@
 # e10.10.26.libtiff-4.7.0.sh
+# Xfce LXQt Gnome KDE
 #
 
 #

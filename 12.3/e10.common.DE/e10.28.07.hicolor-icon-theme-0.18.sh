@@ -1,4 +1,5 @@
 # e10.28.07.hicolor-icon-theme-0.18.sh
+# Xfce LXQt Gnome
 #
 
 #

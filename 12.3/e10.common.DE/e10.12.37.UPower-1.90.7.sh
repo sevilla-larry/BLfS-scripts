@@ -1,4 +1,5 @@
 # e10.12.37.UPower-1.90.7.sh
+# Xfce LXQt Gnome KDE
 #
 
 #
@@ -30,6 +31,7 @@
 # Optionally by:
 #
 #               e23.35.15 xfce4-settings-4.20.1
+#               e53.30.02 Building KDE Frameworks 6.11.0
 #
 # Optional (runtime) by:
 #

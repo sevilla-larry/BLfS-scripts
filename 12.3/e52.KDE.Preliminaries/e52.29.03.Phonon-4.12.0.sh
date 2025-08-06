@@ -4,30 +4,22 @@
 #
 # Dependencies Required:
 #
-#               xxx.xx.xx CMake-3.31.5
-#               xxx.xx.xx e52.29.03.Phonon-4.12.0
-#               xxx.xx.xx Glib-2.82.5
-#               xxx.xx.xx Qt-6.8.2
-#               xxx.xx.xx phonon-backend-vlc-0.12.0
+#               a.08.9x.?1 CMake-3.31.5
+#               e12.29.02  extra-cmake-modules-6.11.0
+#               d10.09.17  GLib-2.82.5
+#               e12.25.40  Qt-6.9.1
 #
-# Dependencies Recommended:
+# Dependencies (runtime):
 #
-#               xxx.xx.xx Qt-6.8.2
-#
-# Dependencies Optional:
-#
-#               xxx.xx.xx xxxxx
+#               e52.29.04 Phonon-backend-vlc-0.12.0
 #
 
 #
 # Required by:
 #
-#               e23.35.02 Xfconf-4.18.3
-#               e23.35.04 Exo-4.18.0
 #
 
-
-export PKG="Phonon-4.12.0"
+export PKG="phonon-4.12.0"
 export PKGLOG_DIR=$LFSLOG/29.03
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log

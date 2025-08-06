@@ -1,4 +1,5 @@
 # e10.10.08.giflib-5.2.2.sh
+# Xfce LXQt Gnome KDE
 # errata patch
 #
 

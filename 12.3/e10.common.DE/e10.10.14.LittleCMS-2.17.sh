@@ -1,4 +1,5 @@
 # e10.10.14.LittleCMS-2.17.sh
+# Xfce LXQt Gnome KDE
 #
 
 #
@@ -12,7 +13,7 @@
 # Required by:
 #
 #               e41.10.17 libgxps-0.3.2
-#               e11.12.08 Colord-1.4.7
+#               e41.12.08 Colord-1.4.7
 #               e41.25.45 WebKitGTK-2.48.3          (errata)
 #               e10.10.19 libjxl-0.11.1
 #               e44.34.08 gnome-color-manager-3.36.2

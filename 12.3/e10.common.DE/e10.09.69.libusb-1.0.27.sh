@@ -1,4 +1,5 @@
 # e10.09.69.libusb-1.0.27.sh
+# Xfce LXQt Gnome KDE
 #
 
 #

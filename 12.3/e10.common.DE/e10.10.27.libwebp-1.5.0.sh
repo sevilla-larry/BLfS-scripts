@@ -1,4 +1,5 @@
 # e10.10.27.libwebp-1.5.0.sh
+# Xfce LXQt Gnome KDE
 #
 
 #

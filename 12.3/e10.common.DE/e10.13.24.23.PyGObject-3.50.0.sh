@@ -1,48 +1,45 @@
-# e13.25.46.xdg-desktop-portal-1.20.0.sh
+# e10.13.24.23.PyGObject-3.50.0.sh
 #
 
 #
 # Dependencies Required:
 #
-#           ??? e10.05.04 Fuse-3.16.2           ???
-#               e10.25.10 gdk-pixbuf-2.42.12
-#               e10.09.29 JSON-Glib-1.10.6
-#           ??? e41.42.48 Pipewire-1.2.7        ???
+#               d10.09.17 GLib-2.80.4
 #
 # Dependencies Recommended:
 #
-#               e13.12.07 Bubblewrap-0.11.0
+#               e10.13.24.20 PyCairo-1.26.1
 #
-# Dependencies Required (at runtime):
+# Dependencies Optional:
 #
-#               d20.12.11 dbus-1.16.0
-#
-# Needed at runtime:
-#
-#               xxx.xx.xx xdg-desktop-portal-{gtk,gnome,lxqt}
+#               a.08.91.20.10 Pytest-8.3.4
 #
 
 #
 # Required by:
 #
-#               e41.25.47 xdg-desktop-portal-gtk-1.15.2
-#               e42.33.25 xdg-desktop-portal-gnome-47.3
+#               e41.25.17 GTK-4.16.12
+#               e41.12.27 Power-profiles-daemon-0.30
+#               e42.33.18 libgweather-4.4.4
+#               e43.33.45 gnome-tweaks-46.1
 #
-# Required (at runtime) by:
+# Recommended by:
 #
-#               e33.37.35 xdg-desktop-portal-lxqt-1.1.0
+#               e42.33.19 libpeas-1.36.0
+#               e42.33.22 tinysparql-3.8.2
 #
-# Recommended (Runtime):
+# Optionally (for the integraion tests) by:
 #
-#               e41.09.55 libportal-0.9.1
+#               e13.12.35 UDisks-2.10.1     (errata sed)
 #
-# Opionally by:
+# Optionally by:
 #
-#               e41.25.28 libadwaita-1.6.4
+#               e41.09.47 libical-3.0.19
+#               e41.11.10 ibus-1.5.31
 #
 
-export PKG="xdg-desktop-portal-1.20.0"
-export PKGLOG_DIR=$LFSLOG/25.46
+export PKG="pygobject-3.50.0"
+export PKGLOG_DIR=$LFSLOG/13.24.23
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
@@ -63,32 +60,36 @@ tar xvf $PKG.tar.xz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
 
 
-mkdir build 
-cd    build 
+mv -v tests/test_gdbus.py{,.nouse}          \
+    >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
+mv -v tests/test_overrides_gtk.py{,.nouse}  \
+    >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
+
+mkdir build
+cd    build
 
 echo "2. Meson Setup ..."
 echo "2. Meson Setup ..." >> $LFSLOG_PROCESS
 echo "2. Meson Setup ..." >> $PKGLOG_ERROR
 meson setup --prefix=/usr       \
             --buildtype=release \
-            -D tests=disabled   \
             ..                  \
             > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Ninja Build ..."
 echo "3. Ninja Build ..." >> $LFSLOG_PROCESS
-echo "3. Ninja Build ..." >> $PKGLOG_ERROR
+echo "3. Ninja Build ..." >> $PKGLOG_ERROR 
 ninja > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 
-# No test
+echo "4. Ninja Test ..."
+echo "4. Ninja Test ..." >> $LFSLOG_PROCESS
+echo "4. Ninja Test ..." >> $PKGLOG_ERROR
+ninja test > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
 
-echo "4. Ninja Install ..."
-echo "4. Ninja Install ..." >> $LFSLOG_PROCESS
-echo "4. Ninja Install ..." >> $PKGLOG_ERROR
+echo "5. Ninja Install ..."
+echo "5. Ninja Install ..." >> $LFSLOG_PROCESS
+echo "5. Ninja Install ..." >> $PKGLOG_ERROR
 ninja install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
-
-rm -rvf /usr/lib/systemd    \
-    > $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
 
 
 cd $SOURCES

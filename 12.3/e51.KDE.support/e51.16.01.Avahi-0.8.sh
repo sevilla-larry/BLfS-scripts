@@ -1,5 +1,5 @@
-# e41.16.01.Avahi-0.8.sh
-# GTK version
+# e51.16.01.Avahi-0.8.sh
+# Qt version
 #
 
 #
@@ -9,7 +9,7 @@
 #
 # Dependencies Recommended:
 #
-#               e11.25.16 GTK-3.24.48
+#       hidden  e12.25.40 Qt-6.9.1          (errata/svn)
 #               e41.09.40 libdaemon-0.14
 #
 # Dependencies Optional:
@@ -21,6 +21,7 @@
 # Recommended by:
 #
 #               e41.17.03 GeoClue-2.7.2
+#               e53.30.02 Building KDE Frameworks 6.11.0
 #
 # Optionally by:
 #
@@ -75,8 +76,8 @@ echo "2. Configure ..." >> $PKGLOG_ERROR
     --disable-python        \
     --disable-qt3           \
     --disable-qt4           \
-    --disable-qt5           \
     --disable-gtk           \
+    --disable-gtk3          \
     --disable-core-docs     \
     --with-distro=none      \
     --with-systemdsystemunitdir=no  \

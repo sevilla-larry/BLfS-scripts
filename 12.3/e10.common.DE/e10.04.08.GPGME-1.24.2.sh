@@ -1,27 +1,33 @@
-# e13.09.37.libbytesize-2.11.sh
+# e10.04.08.GPGME-1.24.2.sh
+# Xfce Gnome KDE
 #
 
 #
 # Dependencies Required:
 #
-#               a.08.91.11   PCRE2-10.45
-#               e13.13.24.22 Pygments-2.19.1
+#               e10.09.33 libassuan-3.0.2
 #
 
 #
 # Recommended by:
 #
-#               e13.09.36 libblockdev-3.3.1     (errata)
+#               e11.10.33 Poppler-25.02.0
+#               g22.39.03 LibreOffice-25.2.3	(errata)
+#
+# Dependencies Optional:
+#
+#               e53.30.02 Building KDE Frameworks 6.11.0
 #
 
-export PKG="libbytesize-2.11"
-export PKGLOG_DIR=$LFSLOG/09.37
+export PKG="gpgme-1.24.2"
+export PKGLOG_DIR=$LFSLOG/04.08
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
 export PKGLOG_CHECK=$PKGLOG_DIR/check.log
 export PKGLOG_INSTALL=$PKGLOG_DIR/install.log
 export PKGLOG_ERROR=$PKGLOG_DIR/error.log
+export PKGLOG_OTHERS=$PKGLOG_DIR/others.log
 export LFSLOG_PROCESS=$LFSLOG/process.log
 export SOURCES=`pwd`
 
@@ -31,31 +37,38 @@ mkdir $PKGLOG_DIR
 echo "1. Extract tar..."
 echo "1. Extract tar..." >> $LFSLOG_PROCESS
 echo "1. Extract tar..." >> $PKGLOG_ERROR
-tar xvf $PKG.tar.gz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
+tar xvf $PKG.tar.bz2 > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
 
+
+mkdir    build
+cd       build
 
 echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
 echo "2. Configure ..." >> $PKGLOG_ERROR
-../configure --prefix=/usr     \
-          > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+../configure    --prefix=/usr       \
+                --disable-gpg-test  \
+                > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Make Build ..."
 echo "3. Make Build ..." >> $LFSLOG_PROCESS
 echo "3. Make Build ..." >> $PKGLOG_ERROR
-make > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
+make PYTHONS= > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
+
+# Testing is complex
 
 echo "4. Make Install ..."
 echo "4. Make Install ..." >> $LFSLOG_PROCESS
 echo "4. Make Install ..." >> $PKGLOG_ERROR
-make install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
+make install PYTHONS= > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 
 cd $SOURCES
 rm -rf $PKG
 unset SOURCES
 unset LFSLOG_PROCESS
+unset PKGLOG_OTHERS
 unset PKGLOG_INSTALL PKGLOG_BUILD PKGLOG_CONFIG
 unset PKGLOG_CHECK
 unset PKGLOG_ERROR PKGLOG_TAR

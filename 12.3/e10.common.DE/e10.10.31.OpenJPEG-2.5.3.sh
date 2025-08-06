@@ -1,4 +1,5 @@
 # e10.10.31.OpenJPEG-2.5.3.sh
+# Xfce LXQt Gnome KDE
 #
 
 #

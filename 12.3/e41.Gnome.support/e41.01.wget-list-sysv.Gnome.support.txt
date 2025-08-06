@@ -12,10 +12,6 @@ https://download.gnome.org/sources/glibmm/2.82/glibmm-2.82.0.tar.xz
 https://github.com/benhoyt/inih/archive/r58/inih-r58.tar.gz
 # 09.28 JSON-C-0.18
 https://s3.amazonaws.com/json-c_releases/releases/json-c-0.18.tar.gz
-# 09.40 libdaemon-0.14
-https://0pointer.de/lennart/projects/libdaemon/libdaemon-0.14.tar.gz
-# 09.47 libical-3.0.19
-https://github.com/libical/libical/releases/download/v3.0.19/libical-3.0.19.tar.gz
 # 09.55 libportal-0.9.1
 https://github.com/flatpak/libportal/releases/download/0.9.1/libportal-0.9.1.tar.xz
 # 09.61 libsigc++-3.6.0

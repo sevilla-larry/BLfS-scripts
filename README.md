@@ -68,8 +68,11 @@
 #
 #		e11 - Common to Xfce & Gnome
 #	  	e12 - Common to LXQt & KDE
-#	 	e13 - Common to Gnome & LXQt
+#
+#	??? e13 - Common to Gnome & LXQt
 #	???	e14 - Common to Xfce, Gnome & KDE
+#	???	e15 - Common to Gnome, LXQt & KDE
+#	???	e16 - Common to Gnome & KDE
 #
 #		e21	- Xfce support
 #		e23 - Xfce Desktop

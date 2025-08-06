@@ -1,10 +1,11 @@
-# e13.09.30.keyutils-1.6.3.sh
+# e10.09.30.keyutils-1.6.3.sh
+# LXQt Gnome KDE
 #
 
 #
 # Recommended by:
 #
-#               e13.09.36 libblockdev-3.3.1     (errata)
+#               e10.09.36 libblockdev-3.3.1     (errata)
 #
 
 #

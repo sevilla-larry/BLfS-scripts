@@ -1,4 +1,5 @@
 # e10.10.19.libjxl-0.11.1.sh
+# Gnome KDE
 #
 
 #
@@ -7,7 +8,7 @@
 #               a.08.91.22.brotli-1.1.0
 #               a.08.9x.?1 CMake-3.31.5
 #               e10.10.08  giflib-5.2.2
-#               e10.09.24  highway-1.2.0
+#               e15.09.24  highway-1.2.0
 #               e10.10.14  LittleCMS-2.17
 #               e10.10.18  libjpeg-turbo-3.0.1
 #               d10.10.22  libpng-1.6.46
@@ -31,6 +32,7 @@
 # Recommended by:
 #
 #               e41.25.45 WebKitGTK-2.48.3          (errata)
+#               e53.30.02 Building.KDE.Frameworks-6.11.0
 #
 
 export PKG="libjxl-0.11.1"

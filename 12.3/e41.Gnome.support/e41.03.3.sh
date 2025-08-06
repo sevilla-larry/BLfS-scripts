@@ -330,20 +330,6 @@ echo "."
 
 ###
 
-echo "e41.09.47.libical-3.0.19"
-echo "e41.09.47.libical-3.0.19" >> $LFSLOG_PROCESS
-
-time { bash e41.09.47.libical-3.0.19.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
-
-###
-
 echo "e41.17.03.GeoClue-2.7.2"
 echo "e41.17.03.GeoClue-2.7.2" >> $LFSLOG_PROCESS
 

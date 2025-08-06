@@ -1,4 +1,5 @@
 # e10.25.37.Pango-1.56.1.sh
+# Xfce LXQt Gnome KDE
 #
 
 #
@@ -17,7 +18,7 @@
 #
 # Required by:
 #
-#               e21.25.16 GTK-3.24.48
+#               e11.25.16 GTK-3.24.48
 #               e11.10.24 librsvg-2.59.2
 #               e41.25.17 GTK-4.16.12
 #               e41.25.39 Pangomm-2.56.1

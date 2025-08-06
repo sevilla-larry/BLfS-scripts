@@ -1,16 +1,9 @@
-# 04.08 GPGME-1.24.2
-2e0cc1df9f3da8c2a7d7c9dc33b7f0bf gpgme-1.24.2.tar.bz2
 # 04.21 polkit-gnome-0.105
 50ecad37c8342fb4a52f590db7530621 polkit-gnome-0.105.tar.xz
 #								 polkit-gnome-0.105-consolidated_fixes-1.patch
 
-# 09.06 Aspell-0.60.8.1
-187bd142f522ada555c7aa6b9cbf56e6 aspell-0.60.8.1.tar.gz
-#								 aspell6-en-2020.12.07-0.tar.bz2
 # 09.13 enchant-2.8.2
 92dcfe06febc92a3d4bbff4e08b08d3d enchant-2.8.2.tar.gz
-# 09.33 libassuan-3.0.2
-c6f1bf4bd2aaa79cd1635dcc070ba51a libassuan-3.0.2.tar.bz2
 # 09.41 libdisplay-info-0.2.0
 160d4159a7805823cf0b3b4f86dfa8d4 libdisplay-info-0.2.0.tar.xz
 # 09.46 libgusb-0.4.9
@@ -61,9 +54,6 @@ cf4431e4d8ada7a6e73a46f80f553f06 gsettings-desktop-schemas-47.1.tar.xz
 # 41.14 XScreenSaver-6.09
 1f0e2b1698bc2a6ecfe9b668e4b75c3d xscreensaver-6.09.tar.gz
 
-# 42.27 libcanberra-0.30
-34cb7e4430afaf6f447c4ebdb9b42072 libcanberra-0.30.tar.xz
-#patch
 # 42.53 sound-theme-freedesktop-0.8
 d7387912cfd275282d1ec94483cb2f62 sound-theme-freedesktop-0.8.tar.bz2
 

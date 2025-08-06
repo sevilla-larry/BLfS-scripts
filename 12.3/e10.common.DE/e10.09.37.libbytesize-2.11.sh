@@ -1,24 +1,22 @@
-# e41.09.40.libdaemon-0.14.sh
+# e10.09.37.libbytesize-2.11.sh
+# LXQt Gnome KDE
 #
 
 #
-# Dependencies Optional:
+# Dependencies Required:
 #
-#               a.08.93.03 Lynx-2.9.2
+#               a.08.91.11   PCRE2-10.45
+#               e10.13.24.22 Pygments-2.19.1
 #
 
-#
-# Required by:
-#
-#               e41.12.13 blocaled-0.7
 #
 # Recommended by:
 #
-#               e41.16.01 Avahi-0.8
+#               e10.09.36 libblockdev-3.3.1     (errata)
 #
 
-export PKG="libdaemon-0.14"
-export PKGLOG_DIR=$LFSLOG/09.40
+export PKG="libbytesize-2.11"
+export PKGLOG_DIR=$LFSLOG/09.37
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
@@ -41,9 +39,8 @@ cd $PKG
 echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
 echo "2. Configure ..." >> $PKGLOG_ERROR
-./configure --prefix=/usr          \
-            --disable-static       \
-            > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+../configure --prefix=/usr     \
+          > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Make Build ..."
 echo "3. Make Build ..." >> $LFSLOG_PROCESS
@@ -53,8 +50,7 @@ make > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 echo "4. Make Install ..."
 echo "4. Make Install ..." >> $LFSLOG_PROCESS
 echo "4. Make Install ..." >> $PKGLOG_ERROR
-make docdir=/usr/share/doc/libdaemon-0.14 install   \
-            > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
+make install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 
 cd $SOURCES

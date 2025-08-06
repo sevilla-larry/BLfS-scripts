@@ -1,4 +1,5 @@
 # e10.25.10.gdk-pixbuf-2.42.12.sh
+# Xfce LXQt Gnome KDE
 #
 
 #
@@ -22,9 +23,9 @@
 #
 # Required by:
 #
-#               e21.25.16 GTK-3.24.48
+#               e11.25.16 GTK-3.24.48
 #               e11.10.24 librsvg-2.59.2
-#               e13.25.46 xdg-desktop-portal-1.20.0
+#               e10.25.46 xdg-desktop-portal-1.20.0
 #               e41.09.03 appstream-glib-0.8.3
 #               e41.10.38 webp-pixbuf-loader-0.2.7
 #               e41.25.17 GTK-4.16.12

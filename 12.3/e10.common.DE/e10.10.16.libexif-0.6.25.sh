@@ -1,4 +1,5 @@
 # e10.10.16.libexif-0.6.25.sh
+# Xfce LXQt Gnome
 #
 
 #

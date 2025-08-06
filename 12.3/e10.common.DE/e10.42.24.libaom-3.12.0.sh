@@ -15,7 +15,7 @@
 #
 # Required by:
 #
-#               e41.10.15 libavif-1.2.0
+#               e10.10.15 libavif-1.2.0
 #
 # Recommended by:
 #

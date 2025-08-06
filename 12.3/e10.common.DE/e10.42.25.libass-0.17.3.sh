@@ -18,6 +18,10 @@
 #
 
 #
+# Required by:
+#
+#               e10.10.06 FriBidi-1.0.16
+#
 # Recommended by:
 #
 #               e10.44.01 FFmpeg-7.1

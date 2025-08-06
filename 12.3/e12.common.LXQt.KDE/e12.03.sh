@@ -104,6 +104,20 @@ echo "." >> $LFSLOG_PROCESS
 echo "."
 echo "."
 
+###
+
+echo "e12.28.02.breeze-icons-6.11.0"
+echo "e12.28.02.breeze-icons-6.11.0" >> $LFSLOG_PROCESS
+
+time { bash e12.28.02.breeze-icons-6.11.0.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
 #####
 
 unset LFSLOG_PROCESS

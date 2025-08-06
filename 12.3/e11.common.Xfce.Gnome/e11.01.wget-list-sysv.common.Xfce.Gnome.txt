@@ -1,16 +1,9 @@
-# 04.08 GPGME-1.24.2
-https://www.gnupg.org/ftp/gcrypt/gpgme/gpgme-1.24.2.tar.bz2
 # 04.21 polkit-gnome-0.105
 https://download.gnome.org/sources/polkit-gnome/0.105/polkit-gnome-0.105.tar.xz
 https://www.linuxfromscratch.org/patches/blfs/12.3/polkit-gnome-0.105-consolidated_fixes-1.patch
 
-# 09.06 Aspell-0.60.8.1
-https://ftp.gnu.org/gnu/aspell/aspell-0.60.8.1.tar.gz
-https://ftp.gnu.org/gnu/aspell/dict/en/aspell6-en-2020.12.07-0.tar.bz2
 # 09.13 enchant-2.8.2
 https://github.com/rrthomas/enchant/releases/download/v2.8.2/enchant-2.8.2.tar.gz
-# 09.33 libassuan-3.0.2
-https://www.gnupg.org/ftp/gcrypt/libassuan/libassuan-3.0.2.tar.bz2
 # 09.41 libdisplay-info-0.2.0
 https://gitlab.freedesktop.org/emersion/libdisplay-info/-/releases/0.2.0/downloads/libdisplay-info-0.2.0.tar.xz
 # 09.46 libgusb-0.4.9
@@ -61,9 +54,6 @@ https://download.gnome.org/sources/libgtop/2.41/libgtop-2.41.3.tar.xz
 # 41.14 XScreenSaver-6.09
 https://www.jwz.org/xscreensaver/xscreensaver-6.09.tar.gz
 
-# 42.27 libcanberra-0.30
-https://0pointer.de/lennart/projects/libcanberra/libcanberra-0.30.tar.xz
-https://www.linuxfromscratch.org/patches/blfs/12.2/libcanberra-0.30-wayland-1.patch
 # 42.53 sound-theme-freedesktop-0.8
 https://people.freedesktop.org/~mccann/dist/sound-theme-freedesktop-0.8.tar.bz2
 
