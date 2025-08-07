@@ -1,4 +1,5 @@
 # e51.42.26.libcanberra-0.30.sh
+# KDE
 #
 
 #

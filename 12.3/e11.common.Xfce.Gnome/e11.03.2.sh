@@ -52,38 +52,10 @@ echo "."
 
 ###
 
-echo "e11.10.24.librsvg-2.59.2"
-echo "e11.10.24.librsvg-2.59.2" >> $LFSLOG_PROCESS
+echo "e11.09.13.enchant-2.8.2"
+echo "e11.09.13.enchant-2.8.2" >> $LFSLOG_PROCESS
 
-time { bash e11.10.24.librsvg-2.59.2.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
-
-###
-
-echo "e11.09.46.libgusb-0.4.9"
-echo "e11.09.46.libgusb-0.4.9" >> $LFSLOG_PROCESS
-
-time { bash e11.09.46.libgusb-0.4.9.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
-
-###
-
-echo "e11.12.08.Colord-1.4.7"
-echo "e11.12.08.Colord-1.4.7" >> $LFSLOG_PROCESS
-
-time { bash e11.12.08.Colord-1.4.7.sh ; }
+time { bash e11.09.13.enchant-2.8.2.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
@@ -154,6 +126,20 @@ echo "e11.33.03.gsettings-desktop-schemas-47.1"
 echo "e11.33.03.gsettings-desktop-schemas-47.1" >> $LFSLOG_PROCESS
 
 time { bash e11.33.03.gsettings-desktop-schemas-47.1.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "e11.10.24.librsvg-2.59.2"
+echo "e11.10.24.librsvg-2.59.2" >> $LFSLOG_PROCESS
+
+time { bash e11.10.24.librsvg-2.59.2.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
@@ -280,20 +266,6 @@ echo "e10.42.26.libcanberra-0.30"
 echo "e10.42.26.libcanberra-0.30" >> $LFSLOG_PROCESS
 
 time { bash e10.42.26.libcanberra-0.30.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
-
-###
-
-echo "e11.09.13.enchant-2.8.2"
-echo "e11.09.13.enchant-2.8.2" >> $LFSLOG_PROCESS
-
-time { bash e11.09.13.enchant-2.8.2.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

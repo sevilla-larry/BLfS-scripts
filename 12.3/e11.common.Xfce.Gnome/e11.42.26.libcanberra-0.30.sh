@@ -1,4 +1,5 @@
 # e11.42.26.libcanberra-0.30.sh
+# Xfce Gnome
 #
 
 #

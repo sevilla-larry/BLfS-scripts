@@ -50,9 +50,6 @@ f9f2c6c521948da427f702372e16f826 gnome-themes-extra-3.28.tar.xz
 # 33.03 gsettings-desktop-schemas-47.1
 cf4431e4d8ada7a6e73a46f80f553f06 gsettings-desktop-schemas-47.1.tar.xz
 
-# 41.14 XScreenSaver-6.09
-1f0e2b1698bc2a6ecfe9b668e4b75c3d xscreensaver-6.09.tar.gz
-
 # 42.27 libcanberra-0.30
 34cb7e4430afaf6f447c4ebdb9b42072 libcanberra-0.30.tar.xz
 #patch

@@ -12,3 +12,6 @@ https://downloads.sourceforge.net/lxde/lxde-icon-theme-0.5.1.tar.xz
 
 # 33.07 VTE-0.78.4
 https://gitlab.gnome.org/GNOME/vte/-/archive/0.78.4/vte-0.78.4.tar.gz
+
+# 41.14 XScreenSaver-6.09
+https://www.jwz.org/xscreensaver/xscreensaver-6.09.tar.gz
