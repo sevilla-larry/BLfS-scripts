@@ -12,6 +12,8 @@ b24b3ee3e7943c779f1193cce6dda34e glibmm-2.82.0.tar.xz
 5c9725320ad2c79e0b1f76568bd0ff24 inih-r58.tar.gz
 # 09.28 JSON-C-0.18
 e6593766de7d8aa6e3a7e67ebf1e522f json-c-0.18.tar.gz
+# 09.47 libical-3.0.19
+f671e38e804bf467347807d8c8d057f7 libical-3.0.19.tar.gz
 # 09.55 libportal-0.9.1
 0c63ee25d2e2986ce4df544fe8149046 libportal-0.9.1.tar.xz
 # 09.61 libsigc++-3.6.0

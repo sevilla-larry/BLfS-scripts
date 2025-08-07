@@ -1,6 +1,5 @@
-# e10.09.47.libical-3.0.19.sh
-# after E11, if available
-# Gnome KDE
+# e41.09.47.libical-3.0.19.sh
+# for Gnome
 #
 
 #
@@ -23,7 +22,7 @@
 # Required by:
 #
 #               e42.33.21 evolution-data-server-3.54.3
-#               e53.30.02 Building KDE Frameworks 6.11.0
+#           ??? e53.30.02 Building KDE Frameworks 6.11.0
 #
 
 export PKG="libical-3.0.19"

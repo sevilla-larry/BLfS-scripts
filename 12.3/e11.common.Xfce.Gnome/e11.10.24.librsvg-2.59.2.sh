@@ -8,7 +8,7 @@
 #               e10.13.01  cargo-c-0.10.11
 #               e10.25.10  gdk-pixbuf-2.42.12
 #               e10.25.37  Pango-1.56.1
-#               e10.13.27  Rustc-1.85.0
+#               e11.13.27  Rustc-1.85.0
 #               a.08.91.40 make-ca-1.16
 #
 # Dependencies Recommended:

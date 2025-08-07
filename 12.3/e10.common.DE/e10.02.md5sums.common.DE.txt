@@ -20,10 +20,6 @@ b9a24d3a7b576e67cab729195c26f6e5 libbytesize-2.11.tar.gz
 509dc27107c21bcd9fbf2f95f5669563 libdaemon-0.14.tar.gz
 # 09.45 libgudev-238
 46da30a1c69101c3a13fa660d9ab7b73 libgudev-238.tar.xz
-# 09.47 libical-3.0.19
-f671e38e804bf467347807d8c8d057f7 libical-3.0.19.tar.gz
-# 09.65 libtasn1-4.20.0
-930f71d788cf37505a0327c1b84741be libtasn1-4.20.0.tar.gz
 # 09.69 libusb-1.0.27
 1fb61afe370e94f902a67e03eb39c51f libusb-1.0.27.tar.bz2
 
@@ -37,6 +33,8 @@ f671e38e804bf467347807d8c8d057f7 libical-3.0.19.tar.gz
 9f44275ee8ac122817e94fdc50ecce13 lcms2-2.17.tar.gz
 # 10.15 libavif-1.2.0
 ec292cb8d51c0aa02f9fd5ef2419c853 libavif-1.2.0.tar.gz
+# 10.16 libexif-0.6.25
+eba77b69efac8fa8e8fc53f8c2cdad7c libexif-0.6.25.tar.bz2
 # 10.18 libjpeg-turbo-3.0.1
 1fdc6494521a8724f5f7cf39b0f6aff3 libjpeg-turbo-3.0.1.tar.gz
 # 10.19 libjxl-0.11.1
@@ -47,9 +45,6 @@ ec292cb8d51c0aa02f9fd5ef2419c853 libavif-1.2.0.tar.gz
 8f659e426eaa2aeec4b36bc9ea43b3f3 libwebp-1.5.0.tar.gz
 # 10.31 OpenJPEG-2.5.3
 12ae257cb21738c41b5f6ca977d01081 openjpeg-2.5.3.tar.gz
-
-# 11.11 ISO Codes-4.17.0
-f4b460577728ba331e078ad8bd246c98 iso-codes-v4.17.0.tar.gz
 
 # 12.01 7zip-24.09
 # 41d0d31a3b0e39a1cbd848c10574fb0b 7zip-24.09.tar.gz
@@ -62,10 +57,6 @@ f4b460577728ba331e078ad8bd246c98 iso-codes-v4.17.0.tar.gz
 # 12.36 UPower-1.90.7
 d5eeb9af086f696bb55bb979a7fb06ca upower-v1.90.7.tar.bz2
 
-# 13.01 cargo-c-0.10.11
-727bcba75cf4e65313bb3a1b084bb57e cargo-c-0.10.11.tar.gz
-# 13.02 Cbindgen-0.28.0
-0712d991fc8e65121924265d738db71d cbindgen-0.28.0.tar.gz
 # 13.17 NASM-2.16.03
 2b8c72c52eee4f20085065e68ac83b55 nasm-2.16.03.tar.xz
 #                                nasm-2.16.03-xdoc.tar.xz
@@ -77,8 +68,6 @@ d5eeb9af086f696bb55bb979a7fb06ca upower-v1.90.7.tar.bz2
 5e6e00a0f63b9f3b63edfa260f71b1b5 pygments-2.19.1.tar.gz
 # 13.24.23 PyGObject-3.50.0
 8f34e4bc1d7d57faf558180b0051c9ef pygobject-3.50.0.tar.xz
-# 13.26 Rustc-1.85.0
-a0193e0a4925f772bd50f8d12e47860c rustc-1.85.0-src.tar.xz
 # 13.38 yasm-1.3.0
 fc9e586751ff789b34b1f21d572d96af yasm-1.3.0.tar.gz
 
@@ -106,9 +95,6 @@ f43e593991caefdce509ad837d3301bd fdk-aac-2.0.3.tar.gz
 aabd9c71c7d52c837ec276156d5a953f libaom-3.12.0.tar.gz
 # 42.25 libass-0.17.3
 baed6dfc87bed705c1955cc6b932d7f6 libass-0.17.3.tar.xz
-# 42.27 libcanberra-0.30
-34cb7e4430afaf6f447c4ebdb9b42072 libcanberra-0.30.tar.xz
-#patch
 # 42.37 libogg-1.3.5
 3178c98341559657a15b185bf5d700a5 libogg-1.3.5.tar.xz
 # 42.40 libsndfile-1.2.2
@@ -125,6 +111,8 @@ c40b3a1fbdbb9a7aa178600b88200c76 opus-1.5.2.tar.gz
 c4a3596a26ff4b9dcd0c394dd1d4f8ee pulseaudio-17.0.tar.xz
 # 42.52 SDL2-2.30.11
 bea190b480f6df249db29eb3bacfe41e SDL2-2.30.11.tar.gz
+# 42.53 sound-theme-freedesktop-0.8
+d7387912cfd275282d1ec94483cb2f62 sound-theme-freedesktop-0.8.tar.bz2
 # 42.55 Speex-1.2.1
 fe7bf610883ff202092b92c72fe0fe3e speex-1.2.1.tar.gz
 e6eb5ddef743a362c8018f260b91dca5 speexdsp-1.2.1.tar.gz

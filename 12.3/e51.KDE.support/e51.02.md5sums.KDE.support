@@ -1,0 +1,10 @@
+# 09.47 libical-3.0.19
+f671e38e804bf467347807d8c8d057f7 libical-3.0.19.tar.gz
+
+# 16.01 Avahi-0.8
+229c6aa30674fc43c202b22c5f8c2be7 avahi-0.8.tar.gz
+#								 avahi-0.8-ipv6_race_condition_fix-1.patch
+
+# 42.27 libcanberra-0.30
+34cb7e4430afaf6f447c4ebdb9b42072 libcanberra-0.30.tar.xz
+#patch

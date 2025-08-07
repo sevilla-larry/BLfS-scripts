@@ -1,6 +1,6 @@
-# e11.03.1.sh
+# e11.03.2.sh
 #
-# RustC only
+# called after E14
 #
 
 export LFSLOG_PROCESS=$LFSLOG/process.log
@@ -10,10 +10,10 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
 #####
 
-echo "e11.13.27.Rustc-1.85.0"
-echo "e11.13.27.Rustc-1.85.0" >> $LFSLOG_PROCESS
+echo "e11.09.13.enchant-2.8.2"
+echo "e11.09.13.enchant-2.8.2" >> $LFSLOG_PROCESS
 
-time { bash e11.13.27.Rustc-1.85.0.sh ; }
+time { bash e11.09.13.enchant-2.8.2.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

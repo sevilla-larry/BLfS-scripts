@@ -17,12 +17,21 @@ https://download.gnome.org/sources/librsvg/2.59/librsvg-2.59.2.tar.xz
 https://poppler.freedesktop.org/poppler-25.07.0.tar.xz
 https://poppler.freedesktop.org/poppler-data-0.4.12.tar.gz
 
+# 11.11 ISO Codes-4.17.0
+https://salsa.debian.org/iso-codes-team/iso-codes/-/archive/v4.17.0/iso-codes-v4.17.0.tar.gz
+
 # 12.08 Colord-1.4.7
 https://www.freedesktop.org/software/colord/releases/colord-1.4.7.tar.xz
 https://www.linuxfromscratch.org/patches/blfs/12.3/colord-1.4.7-upstream_fixes-1.patch
 # 12.21 AccountsService-23.13.9
 https://www.freedesktop.org/software/accountsservice/accountsservice-23.13.9.tar.xz
 
+# 13.01 cargo-c-0.10.11
+https://github.com/lu-zero/cargo-c/archive/v0.10.11/cargo-c-0.10.11.tar.gz
+# 13.02 Cbindgen-0.28.0
+https://github.com/mozilla/cbindgen/archive/v0.28.0/cbindgen-0.28.0.tar.gz
+# 13.26 Rustc-1.85.0
+https://static.rust-lang.org/dist/rustc-1.85.0-src.tar.xz
 # 13.36 Vala-0.56.17
 https://download.gnome.org/sources/vala/0.56/vala-0.56.17.tar.xz
 
@@ -54,8 +63,9 @@ https://download.gnome.org/sources/libgtop/2.41/libgtop-2.41.3.tar.xz
 # 41.14 XScreenSaver-6.09
 https://www.jwz.org/xscreensaver/xscreensaver-6.09.tar.gz
 
-# 42.53 sound-theme-freedesktop-0.8
-https://people.freedesktop.org/~mccann/dist/sound-theme-freedesktop-0.8.tar.bz2
+# 42.27 libcanberra-0.30
+https://0pointer.de/lennart/projects/libcanberra/libcanberra-0.30.tar.xz
+https://www.linuxfromscratch.org/patches/blfs/12.2/libcanberra-0.30-wayland-1.patch
 
 # 49.05 itstool-2.0.7
 https://files.itstool.org/itstool/itstool-2.0.7.tar.bz2

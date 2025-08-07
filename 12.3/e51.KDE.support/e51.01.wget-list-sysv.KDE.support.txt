@@ -1,0 +1,10 @@
+# 09.47 libical-3.0.19
+https://github.com/libical/libical/releases/download/v3.0.19/libical-3.0.19.tar.gz
+
+# 16.01 Avahi-0.8
+https://github.com/lathiat/avahi/releases/download/v0.8/avahi-0.8.tar.gz
+https://www.linuxfromscratch.org/patches/blfs/12.3/avahi-0.8-ipv6_race_condition_fix-1.patch
+
+# 42.27 libcanberra-0.30
+https://0pointer.de/lennart/projects/libcanberra/libcanberra-0.30.tar.xz
+https://www.linuxfromscratch.org/patches/blfs/12.2/libcanberra-0.30-wayland-1.patch

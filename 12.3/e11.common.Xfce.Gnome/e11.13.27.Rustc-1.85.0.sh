@@ -1,4 +1,4 @@
-# e10.13.27.Rustc-1.85.0.sh
+# e11.13.27.Rustc-1.85.0.sh
 #
 
 #
@@ -23,8 +23,8 @@
 # Required by:
 #
 #               e11.10.24 librsvg-2.59.2
-#               e10.13.01 cargo-c-0.10.11
-#               e10.13.02 Cbindgen-0.28.0
+#               e11.13.01 cargo-c-0.10.11
+#               e11.13.02 Cbindgen-0.28.0
 #
 # Optionally by:
 #
