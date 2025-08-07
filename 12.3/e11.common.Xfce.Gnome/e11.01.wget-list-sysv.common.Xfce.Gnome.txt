@@ -1,7 +1,3 @@
-# 04.21 polkit-gnome-0.105
-https://download.gnome.org/sources/polkit-gnome/0.105/polkit-gnome-0.105.tar.xz
-https://www.linuxfromscratch.org/patches/blfs/12.3/polkit-gnome-0.105-consolidated_fixes-1.patch
-
 # 09.13 enchant-2.8.2
 https://github.com/rrthomas/enchant/releases/download/v2.8.2/enchant-2.8.2.tar.gz
 # 09.41 libdisplay-info-0.2.0
@@ -45,20 +41,14 @@ https://download.gnome.org/sources/gtk/3.24/gtk-3.24.48.tar.xz
 https://download.gnome.org/sources/libhandy/1.8/libhandy-1.8.3.tar.xz
 # 25.35 libnotify-0.8.4
 https://download.gnome.org/sources/libnotify/0.8/libnotify-0.8.4.tar.xz
-# 25.36 libxklavier-5.4
-https://people.freedesktop.org/~svu/libxklavier-5.4.tar.bz2
 # 25.42 startup-notification-0.12
 https://www.freedesktop.org/software/startup-notification/releases/startup-notification-0.12.tar.gz
 
 # 28.06 gnome-themes-extra-3.28
 https://download.gnome.org/sources/gnome-themes-extra/3.28/gnome-themes-extra-3.28.tar.xz
-# 28.09 lxde-icon-theme-0.5.1
-https://downloads.sourceforge.net/lxde/lxde-icon-theme-0.5.1.tar.xz
 
 # 33.03 gsettings-desktop-schemas-47.1
 https://download.gnome.org/sources/gsettings-desktop-schemas/47/gsettings-desktop-schemas-47.1.tar.xz
-# 33.17 libgtop-2.41.3
-https://download.gnome.org/sources/libgtop/2.41/libgtop-2.41.3.tar.xz
 
 # 41.14 XScreenSaver-6.09
 https://www.jwz.org/xscreensaver/xscreensaver-6.09.tar.gz

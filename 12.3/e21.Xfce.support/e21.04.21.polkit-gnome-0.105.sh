@@ -1,29 +1,29 @@
-# e11.33.17.libgtop-2.41.3.sh
+# e21.04.21.polkit-gnome-0.105.sh
 #
 
 #
 # Dependencies Required:
 #
-#               d10.09.17 GLib-2.82.5
-#               d20.24.08 Xorg Libraries
+#               e11.12.02 AccountsService-23.13.9
+#               e11.25.16 GTK-3.24.48
+#               d10.04.20 Polkit-126
 #
 
 #
-# Required by:
+# Recommended by:
 #
-#               e43.33.40 gnome-control-center-47.4
-#               e43.33.43 gnome-shell-extensions-47.4
-#               e44.34.12 gnome-nettool-42.0
-#               e44.34.15 gnome-system-monitor-47.1
+#               e23.35.18 xfce4-session-4.20.0
 #
 
-export PKG="libgtop-2.41.3"
-export PKGLOG_DIR=$LFSLOG/33.17
+export PKG="polkit-gnome-0.105"
+export PKGLOG_DIR=$LFSLOG/04.21
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
+#export PKGLOG_CHECK=$PKGLOG_DIR/check.log
 export PKGLOG_INSTALL=$PKGLOG_DIR/install.log
 export PKGLOG_ERROR=$PKGLOG_DIR/error.log
+export PKGLOG_OTHERS=$PKGLOG_DIR/others.log
 export LFSLOG_PROCESS=$LFSLOG/process.log
 export SOURCES=`pwd`
 
@@ -37,12 +37,14 @@ tar xvf $PKG.tar.xz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
 
 
+patch -Np1 -i ../polkit-gnome-0.105-consolidated_fixes-1.patch  \
+        > $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
+
 echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
 echo "2. Configure ..." >> $PKGLOG_ERROR
-./configure --prefix=/usr       \
-            --disable-static    \
-            > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+./configure --prefix=/usr   \
+        > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 
 echo "3. Make Build ..."
 echo "3. Make Build ..." >> $LFSLOG_PROCESS
@@ -58,7 +60,9 @@ make install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 cd $SOURCES
 rm -rf $PKG
 unset SOURCES
-unset LFSLOG_PROCESS
+unset SOURCES
+unset PKGLOG_OTHERS
 unset PKGLOG_INSTALL PKGLOG_BUILD PKGLOG_CONFIG
+#unset PKGLOG_CHECK
 unset PKGLOG_ERROR PKGLOG_TAR
 unset PKGLOG_DIR PKG

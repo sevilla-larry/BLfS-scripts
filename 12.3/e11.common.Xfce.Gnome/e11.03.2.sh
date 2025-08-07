@@ -1,6 +1,6 @@
-# e11.03.1.sh
+# e11.03.2.sh
 #
-# ending with GTK+3.24.43
+# after RustC
 #
 
 export LFSLOG_PROCESS=$LFSLOG/process.log
@@ -192,20 +192,6 @@ echo "."
 
 ###
 
-echo "e11.28.09.lxde-icon-theme-0.5.1"
-echo "e11.28.09.lxde-icon-theme-0.5.1" >> $LFSLOG_PROCESS
-
-time { bash e11.28.09.lxde-icon-theme-0.5.1.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
-
-###
-
 echo "e11.28.06.gnome-themes-extra-3.28"
 echo "e11.28.06.gnome-themes-extra-3.28" >> $LFSLOG_PROCESS
 
@@ -276,34 +262,6 @@ echo "."
 
 ###
 
-echo "e11.41.14.XScreenSaver-6.09"
-echo "e11.41.14.XScreenSaver-6.09" >> $LFSLOG_PROCESS
-
-time { bash e11.41.14.XScreenSaver-6.09.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
-
-###
-
-echo "e11.25.36.libxklavier-5.4"
-echo "e11.25.36.libxklavier-5.4" >> $LFSLOG_PROCESS
-
-time { bash e11.25.36.libxklavier-5.4.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
-
-###
-
 echo "e11.12.02.AccountsService-23.13.9"
 echo "e11.12.02.AccountsService-23.13.9" >> $LFSLOG_PROCESS
 
@@ -318,38 +276,24 @@ echo "."
 
 ###
 
-echo "e11.04.21.polkit-gnome-0.105"
-echo "e11.04.21.polkit-gnome-0.105" >> $LFSLOG_PROCESS
-
-time { bash e11.04.21.polkit-gnome-0.105.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
-
-###
-
-echo "e11.33.17.libgtop-2.41.3"
-echo "e11.33.17.libgtop-2.41.3" >> $LFSLOG_PROCESS
-
-time { bash e11.33.17.libgtop-2.41.3.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
-
-###
-
 echo "e10.42.26.libcanberra-0.30"
 echo "e10.42.26.libcanberra-0.30" >> $LFSLOG_PROCESS
 
 time { bash e10.42.26.libcanberra-0.30.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
+echo "e11.09.13.enchant-2.8.2"
+echo "e11.09.13.enchant-2.8.2" >> $LFSLOG_PROCESS
+
+time { bash e11.09.13.enchant-2.8.2.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
