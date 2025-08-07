@@ -8,21 +8,7 @@ export LFSLOG_PROCESS=$LFSLOG/process.log
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
-#####
-
-echo "e11.42.53.sound-theme-freedesktop-0.8"
-echo "e11.42.53.sound-theme-freedesktop-0.8" >> $LFSLOG_PROCESS
-
-time { bash e11.42.53.sound-theme-freedesktop-0.8.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
-
-###
+##### all
 
 echo "e10.42.01.alsa-lib-1.2.13"
 echo "e10.42.01.alsa-lib-1.2.13" >> $LFSLOG_PROCESS

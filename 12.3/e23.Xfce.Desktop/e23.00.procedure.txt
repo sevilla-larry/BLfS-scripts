@@ -57,6 +57,10 @@ A. Preparation
 
         ###
 
+        export DE=2     # Xfce
+
+        ###
+
 B.  Generate BLFS - Xfce Support Apps
 
   B.01. Setup / Checking Environment - Part 1
@@ -68,6 +72,7 @@ B.  Generate BLFS - Xfce Support Apps
         echo $LFSLOG          # /var/log/blfs
         echo $MAKEFLAGS       # -j$(nproc)
         echo $NPROC           # $(nproc)
+        echo $DE              # 2
 
         echo $SHELL           # /bin/bash
         ls -l /bin/sh         # bash
@@ -84,8 +89,8 @@ B.  Generate BLFS - Xfce Support Apps
 
         ###
 
-        # bash e23.03.8.1.support.apps.sh
-        bash e10.03.1.sh # RustC
+        bash e23.03.8.1.support.apps.sh
+        # includes RustC
 
         # after RustC
 

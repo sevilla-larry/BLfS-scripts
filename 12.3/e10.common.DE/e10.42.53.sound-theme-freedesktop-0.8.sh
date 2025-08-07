@@ -9,6 +9,7 @@
 # Recommended ( Runtime ) by:
 #
 #               e11.42.26 libcanbera-0.30
+#               e51.42.26 libcanbera-0.30
 #
 # Optionally (Runtime) by:
 #

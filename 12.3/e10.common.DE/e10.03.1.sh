@@ -1,12 +1,13 @@
 # e10.03.1.sh
 #
+#!/bin/bash
 
 export LFSLOG_PROCESS=$LFSLOG/process.log
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
-#####
+#####   all
 
 echo "e10.13.17.NASM-2.16.03"
 echo "e10.13.17.NASM-2.16.03" >> $LFSLOG_PROCESS
@@ -48,35 +49,58 @@ echo "." >> $LFSLOG_PROCESS
 echo "."
 echo "."
 
-###
+###### Xfce LXQt Gnome
 
-echo "e10.09.40.libdaemon-0.14"
-echo "e10.09.40.libdaemon-0.14" >> $LFSLOG_PROCESS
+if [ "$DE" -eq 2 ] || [ "$DE" -eq 3 ] || [ "$DE" -eq 4 ]; then
 
-time { bash e10.09.40.libdaemon-0.14.sh ; }
+    ###
 
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
+    echo "e10.09.29.JSON-GLib-1.10.6"
+    echo "e10.09.29.JSON-GLib-1.10.6" >> $LFSLOG_PROCESS
 
-###
+    time { bash e10.09.29.JSON-GLib-1.10.6.sh ; }
 
-echo "e10.09.29.JSON-GLib-1.10.6"
-echo "e10.09.29.JSON-GLib-1.10.6" >> $LFSLOG_PROCESS
+    date +"%Y/%b/%d %H:%M"
+    date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
-time { bash e10.09.29.JSON-GLib-1.10.6.sh ; }
+    echo "." >> $LFSLOG_PROCESS
+    echo "."
+    echo "."
 
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+    ###
 
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
+    echo "e10.10.16.libexif-0.6.25"
+    echo "e10.10.16.libexif-0.6.25" >> $LFSLOG_PROCESS
 
-###
+    time { bash e10.10.16.libexif-0.6.25.sh ; }
+
+    date +"%Y/%b/%d %H:%M"
+    date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+    echo "." >> $LFSLOG_PROCESS
+    echo "."
+    echo "."
+
+    ###
+
+    echo "e10.28.07.hicolor-icon-theme-0.18"
+    echo "e10.28.07.hicolor-icon-theme-0.18" >> $LFSLOG_PROCESS
+
+    time { bash e10.28.07.hicolor-icon-theme-0.18.sh ; }
+
+    date +"%Y/%b/%d %H:%M"
+    date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+    echo "." >> $LFSLOG_PROCESS
+    echo "."
+    echo "."
+
+    ###
+
+fi
+
+######  all
 
 echo "e10.09.45.libgudev-238"
 echo "e10.09.45.libgudev-238" >> $LFSLOG_PROCESS
@@ -148,38 +172,10 @@ echo "."
 
 ###
 
-echo "e10.10.16.libexif-0.6.25"
-echo "e10.10.16.libexif-0.6.25" >> $LFSLOG_PROCESS
-
-time { bash e10.10.16.libexif-0.6.25.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
-
-###
-
 echo "e10.10.18.libjpeg-turbo-3.0.1"
 echo "e10.10.18.libjpeg-turbo-3.0.1" >> $LFSLOG_PROCESS
 
 time { bash e10.10.18.libjpeg-turbo-3.0.1.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
-
-###
-
-echo "e10.28.07.hicolor-icon-theme-0.18"
-echo "e10.28.07.hicolor-icon-theme-0.18" >> $LFSLOG_PROCESS
-
-time { bash e10.28.07.hicolor-icon-theme-0.18.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

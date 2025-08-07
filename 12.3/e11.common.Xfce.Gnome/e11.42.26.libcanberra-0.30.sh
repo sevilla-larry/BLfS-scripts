@@ -18,7 +18,7 @@
 #
 # Dependencies Recommended ( Run Time ):
 #
-#               e11.42.53 sound-theme-freedesktop-0.8
+#               e10.42.53 sound-theme-freedesktop-0.8
 #
 
 #
