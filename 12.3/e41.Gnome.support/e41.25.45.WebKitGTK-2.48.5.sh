@@ -1,4 +1,4 @@
-# e41.25.45.WebKitGTK-2.48.3.sh
+# e41.25.45.WebKitGTK-2.48.5.sh
 # errata
 #
 
@@ -54,7 +54,7 @@
 #               e42.33.21 evolution-data-server-3.54.3
 #
 
-export PKG="webkitgtk-2.48.3"
+export PKG="webkitgtk-2.48.5"
 export PKGLOG_DIR=$LFSLOG/25.45
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
@@ -85,7 +85,6 @@ echo "2. CMake Configure ..." >> $PKGLOG_ERROR
 cmake -D CMAKE_BUILD_TYPE=Release       \
       -D CMAKE_INSTALL_PREFIX=/usr      \
       -D CMAKE_SKIP_INSTALL_RPATH=ON    \
-      -D CMAKE_CXX_FLAGS_RELEASE="-O2 -DNDEBUG" \
       -D PORT=GTK                       \
       -D LIB_INSTALL_DIR=/usr/lib       \
       -D USE_LIBBACKTRACE=OFF           \
@@ -98,11 +97,13 @@ cmake -D CMAKE_BUILD_TYPE=Release       \
       -D ENABLE_JOURNALD_LOG=OFF        \
       -D ENABLE_BUBBLEWRAP_SANDBOX=ON   \
       -D USE_SYSPROF_CAPTURE=NO         \
-      -D ENABLE_GEOLOCATION=OFF         \
+      -D ENABLE_SPEECH_SYNTHESIS=OFF    \
+      -D CMAKE_CXX_FLAGS_RELEASE="-O2 -DNDEBUG" \
       -W no-dev                         \
       -G Ninja                          \
       ..                                \
       > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+#      -D ENABLE_GEOLOCATION=OFF         \
 
 echo "3. Ninja Build ..."
 echo "3. Ninja Build ..." >> $LFSLOG_PROCESS

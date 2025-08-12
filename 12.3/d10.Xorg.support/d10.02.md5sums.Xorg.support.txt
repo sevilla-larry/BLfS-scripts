@@ -7,9 +7,12 @@ b3200b02ab80125b694bae887d7c1ca6 duktape-2.7.0.tar.xz
 87c7641e80b23a05b8ab506d52c970e3 glib-2.82.5.tar.xz
 50beb465bc81f33395b5e0e3bbe364ec gobject-introspection-1.82.0.tar.xz
 #patch
+# 09.17 GLib-2.84.3		(errata)
+8f61227d9a981f435841dca7666715fe glib-2.84.3.tar.xz
+2a62fb1c584616a8ebcd9dd4d045f27e gobject-introspection-1.84.0.tar.xz
+#								 glib-skip_warnings-1.patch
 # 09.79 mtdev-1.1.7
 483ed7fdf7c1e7b7375c05a62848cce7 mtdev-1.1.7.tar.bz2
-
 # 09.97 Wayland-1.23.0
 23ad991e776ec8cf7e58b34cbd2efa75 wayland-1.23.0.tar.xz
 # 09.98 Wayland-Protocols-1.40 (svn)

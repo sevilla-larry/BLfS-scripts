@@ -1,4 +1,4 @@
-# e10.12.01.7zip-25.00.sh
+# e10.12.01.7zip-25.01.sh
 # errata
 #
 
@@ -8,7 +8,7 @@
 #               g42.41.12 xarchiver-0.5.4.23
 #
 
-export PKG="7zip-25.00"
+export PKG="7zip-25.01"
 export PKGLOG_DIR=$LFSLOG/12.01
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 #export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
@@ -46,9 +46,9 @@ install -vDm755 CPP/7zip/Bundles/Alone{/b/g/7za,7z/b/g/7zr} \
                 -t /usr/lib/7zip/                           \
                 >> $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
-#install -vm755  CPP/7zip/Bundles/SFXCon/b/g/7zCon   \
-#                /usr/lib/7zip/7zCon.sfx             \
-#                >> $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
+install -vm755  CPP/7zip/Bundles/SFXCon/b/g/7zCon   \
+                /usr/lib/7zip/7zCon.sfx             \
+                >> $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 (for i in 7z 7za 7zr; do
     cat > /usr/bin/$i << EOF 2>> $PKGLOG_ERROR || exit
@@ -58,7 +58,7 @@ EOF
     chmod -v 755 /usr/bin/$i >> $PKGLOG_INSTALL 2>> $PKGLOG_ERROR || exit
 done)
 
-cp -rv DOC -T /usr/share/doc/7zip-25.00 >> $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
+cp -rv DOC -T /usr/share/doc/7zip-25.01 >> $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 
 cd $SOURCES

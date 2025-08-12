@@ -386,10 +386,10 @@ echo "."
 
 ###
 
-echo "e41.25.45.WebKitGTK-2.48.3"
-echo "e41.25.45.WebKitGTK-2.48.3" >> $LFSLOG_PROCESS
+echo "e41.25.45.WebKitGTK-2.48.5"
+echo "e41.25.45.WebKitGTK-2.48.5" >> $LFSLOG_PROCESS
 
-time { bash e41.25.45.WebKitGTK-2.48.3.sh ; }
+time { bash e41.25.45.WebKitGTK-2.48.5.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

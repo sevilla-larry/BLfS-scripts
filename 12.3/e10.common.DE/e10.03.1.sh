@@ -37,10 +37,10 @@ echo "."
 
 ###
 
-echo "e10.12.01.7zip-25.00"
-echo "e10.12.01.7zip-25.00" >> $LFSLOG_PROCESS
+echo "e10.12.01.7zip-25.01"
+echo "e10.12.01.7zip-25.01" >> $LFSLOG_PROCESS
 
-time { bash e10.12.01.7zip-25.00.sh ; }
+time { bash e10.12.01.7zip-25.01.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

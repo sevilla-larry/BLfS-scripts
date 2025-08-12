@@ -49,7 +49,9 @@ https://github.com/uclouvain/openjpeg/archive/v2.5.3/openjpeg-2.5.3.tar.gz
 # 12.01 7zip-24.09
 # https://github.com/ip7z/7zip/archive/24.09/7zip-24.09.tar.gz
 # 12.01 7zip-25.00		(errata)
-https://github.com/ip7z/7zip/archive/25.00/7zip-25.00.tar.gz
+# https://github.com/ip7z/7zip/archive/25.00/7zip-25.00.tar.gz
+# 12.01 7zip-25.01		(errata)
+https://github.com/ip7z/7zip/archive/25.01/7zip-25.01.tar.gz
 # 12.07 Bubblewrap-0.11.0
 https://github.com/containers/bubblewrap/releases/download/v0.11.0/bubblewrap-0.11.0.tar.xz
 # 12.35 UDisks-2.10.1
