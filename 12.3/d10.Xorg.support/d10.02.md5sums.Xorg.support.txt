@@ -8,7 +8,9 @@ b3200b02ab80125b694bae887d7c1ca6 duktape-2.7.0.tar.xz
 # 50beb465bc81f33395b5e0e3bbe364ec gobject-introspection-1.82.0.tar.xz
 #patch
 # 09.17 GLib-2.84.3		(errata)
-8f61227d9a981f435841dca7666715fe glib-2.84.3.tar.xz
+# 8f61227d9a981f435841dca7666715fe glib-2.84.3.tar.xz
+# 09.17 GLib-2.84.3		(errata)
+5655d0ff809b98dd77c02490609fadde glib-2.84.4.tar.xz
 2a62fb1c584616a8ebcd9dd4d045f27e gobject-introspection-1.84.0.tar.xz
 #								 glib-skip_warnings-1.patch
 # 09.79 mtdev-1.1.7

@@ -1,4 +1,5 @@
-# d10.09.17.GLib-2.82.5.sh
+# d10.09.17.GLib-2.84.4.sh
+# errata
 #
 
 #
@@ -122,7 +123,7 @@
 #               e10.12.37 UPower-1.90.7
 #
 
-export PKG="glib-2.82.5"
+export PKG="glib-2.84.4"
 export PKGLOG_DIR=$LFSLOG/09.17
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
@@ -180,14 +181,14 @@ echo "2. GObject Introspection ..." >> $PKGLOG_ERROR
 echo "2.1. Extract tar GI ..."
 echo "2.1. Extract tar GI ..." >> $LFSLOG_PROCESS
 echo "2.1. Extract tar GI ..." >> $PKGLOG_ERROR
-tar xvf ../../gobject-introspection-1.82.0.tar.xz   \
+tar xvf ../../gobject-introspection-1.84.0.tar.xz   \
         >> $PKGLOG_TAR 2>> $PKGLOG_ERROR
 
 echo "2.2. Meson Setup GI ..."
 echo "2.2. Meson Setup GI ..." >> $LFSLOG_PROCESS
 echo "2.2. Meson Setup GI ..." >> $PKGLOG_ERROR
 meson setup                             \
-        gobject-introspection-1.82.0    \
+        gobject-introspection-1.84.0    \
         gi-build                        \
         --prefix=/usr                   \
         --buildtype=release             \

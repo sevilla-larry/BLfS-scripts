@@ -11,10 +11,10 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
 #####
 
-echo "d10.09.17.GLib-2.84.3"
-echo "d10.09.17.GLib-2.84.3" >> $LFSLOG_PROCESS
+echo "d10.09.17.GLib-2.84.4"
+echo "d10.09.17.GLib-2.84.4" >> $LFSLOG_PROCESS
 
-time { bash d10.09.17.GLib-2.84.3.sh ; }
+time { bash d10.09.17.GLib-2.84.4.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

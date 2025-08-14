@@ -8,7 +8,9 @@ https://duktape.org/duktape-2.7.0.tar.xz
 # https://download.gnome.org/sources/gobject-introspection/1.82/gobject-introspection-1.82.0.tar.xz
 # https://www.linuxfromscratch.org/patches/blfs/12.3/glib-skip_warnings-1.patch
 # 09.17 GLib-2.84.3		(errata)
-https://download.gnome.org/sources/glib/2.84/glib-2.84.3.tar.xz
+# https://download.gnome.org/sources/glib/2.84/glib-2.84.3.tar.xz
+# 09.17 GLib-2.84.4		(errata)
+https://download.gnome.org/sources/glib/2.84/glib-2.84.4.tar.xz
 https://download.gnome.org/sources/gobject-introspection/1.84/gobject-introspection-1.84.0.tar.xz
 https://www.linuxfromscratch.org/patches/blfs/svn/glib-skip_warnings-1.patch
 # 09.79 mtdev-1.1.7
