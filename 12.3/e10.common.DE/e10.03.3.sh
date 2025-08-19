@@ -54,10 +54,10 @@ if [ "$DE" -eq 2 ] || [ "$DE" -eq 4 ] || [ "$DE" -eq 5 ]; then
 
 	###
 
-	echo "e11.42.53.sound-theme-freedesktop-0.8"
-	echo "e11.42.53.sound-theme-freedesktop-0.8" >> $LFSLOG_PROCESS
+	echo "e10.42.53.sound-theme-freedesktop-0.8"
+	echo "e10.42.53.sound-theme-freedesktop-0.8" >> $LFSLOG_PROCESS
 
-	time { bash e11.42.53.sound-theme-freedesktop-0.8.sh ; }
+	time { bash e10.42.53.sound-theme-freedesktop-0.8.sh ; }
 
 	date +"%Y/%b/%d %H:%M"
 	date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
