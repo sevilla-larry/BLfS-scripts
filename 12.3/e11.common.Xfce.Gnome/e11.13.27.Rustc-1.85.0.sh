@@ -123,23 +123,23 @@ echo "2. Python3 Build ..." >> $PKGLOG_ERROR
 [ ! -e /usr/include/sqlite3.h ] || export LIBSQLITE3_SYS_USE_PKG_CONFIG=1
 ./x.py build > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 
-echo "4. Python3 Test ..."
-echo "4. Python3 Test ..." >> $LFSLOG_PROCESS
-echo "4. Python3 Test ..." >> $PKGLOG_ERROR
-./x.py test --verbose --no-fail-fast | tee rustc-testlog    2>> $PKGLOG_ERROR
-cat rustc-testlog   > $PKGLOG_CHECK
+echo "3. Python3 Test ..."
+echo "3. Python3 Test ..." >> $LFSLOG_PROCESS
+echo "3. Python3 Test ..." >> $PKGLOG_ERROR
+./x.py test --verbose --no-fail-fast > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
+#cat rustc-testlog   > $PKGLOG_CHECK
 
 # Note 6 tests in the bootstrap are known to fail
 # check for SIGSEGV or signal 11
 # see https://www.linuxfromscratch.org/blfs/view/12.3/general/rust.html
 
-grep '^test result:' rustc-testlog |
- awk '{sum1 += $4; sum2 += $6} END { print sum1 " passed; " sum2 " failed" }'   \
- >> $PKGLOG_CHECK 2>> $PKGLOG_ERROR
+grep '^test result:' $PKGLOG_CHECK |                                                \
+    awk '{sum1 += $4; sum2 += $6} END { print sum1 " passed; " sum2 " failed" }'    \
+    >> $PKGLOG_CHECK 2>> $PKGLOG_ERROR
 
-echo "5. Python3 Install ..."
-echo "5. Python3 Install ..." >> $LFSLOG_PROCESS
-echo "5. Python3 Install ..." >> $PKGLOG_ERROR
+echo "4. Python3 Install ..."
+echo "4. Python3 Install ..." >> $LFSLOG_PROCESS
+echo "4. Python3 Install ..." >> $PKGLOG_ERROR
 ./x.py install rustc std                        \
      > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 ./x.py install --stage=1 cargo clippy rustfmt   \
