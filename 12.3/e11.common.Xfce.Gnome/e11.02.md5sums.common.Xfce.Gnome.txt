@@ -29,7 +29,9 @@ f4b460577728ba331e078ad8bd246c98 iso-codes-v4.17.0.tar.gz
 # 13.26 Rustc-1.85.0
 a0193e0a4925f772bd50f8d12e47860c rustc-1.85.0-src.tar.xz
 # 13.36 Vala-0.56.17
-134075855867fdd9c51ca7555c4951bb vala-0.56.17.tar.xz
+# 134075855867fdd9c51ca7555c4951bb vala-0.56.17.tar.xz
+# 13.36 Vala-0.56.18	(svn)
+14238ac89810b932db9fd75999739494 vala-0.56.18.tar.xz
 
 # 25.03 at-spi2-core-2.54.1
 a05ad6cf4a49b19964cc5eec363d2310 at-spi2-core-2.54.1.tar.xz

@@ -38,10 +38,10 @@ echo "."
 
 ###
 
-echo "e11.13.36.Vala-0.56.17"
-echo "e11.13.36.Vala-0.56.17" >> $LFSLOG_PROCESS
+echo "e11.13.36.Vala-0.56.18"
+echo "e11.13.36.Vala-0.56.18" >> $LFSLOG_PROCESS
 
-time { bash e11.13.36.Vala-0.56.17.sh ; }
+time { bash e11.13.36.Vala-0.56.18.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

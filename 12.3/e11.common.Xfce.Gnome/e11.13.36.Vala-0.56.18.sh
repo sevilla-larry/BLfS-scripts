@@ -1,5 +1,6 @@
-# e11.13.36.Vala-0.56.17.sh
-#
+# e11.13.36.Vala-0.56.18.sh
+# svn due to <doc:format>
+# 
 
 #
 # Dependencies Required:
@@ -65,7 +66,7 @@
 #               e42.33.05 rest-0.9.1
 #
 
-export PKG="vala-0.56.17"
+export PKG="vala-0.56.18"
 export PKGLOG_DIR=$LFSLOG/13.36
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
