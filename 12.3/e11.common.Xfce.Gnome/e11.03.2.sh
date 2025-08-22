@@ -66,10 +66,10 @@ echo "."
 
 ###
 
-echo "e10.11.12.ISO.Codes-4.17.0"
-echo "e10.11.12.ISO.Codes-4.17.0" >> $LFSLOG_PROCESS
+echo "e11.11.12.ISO.Codes-4.17.0"
+echo "e11.11.12.ISO.Codes-4.17.0" >> $LFSLOG_PROCESS
 
-time { bash e10.11.12.ISO.Codes-4.17.0.sh ; }
+time { bash e11.11.12.ISO.Codes-4.17.0.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
@@ -262,10 +262,10 @@ echo "."
 
 ###
 
-echo "e10.42.26.libcanberra-0.30"
-echo "e10.42.26.libcanberra-0.30" >> $LFSLOG_PROCESS
+echo "e11.42.26.libcanberra-0.30"
+echo "e11.42.26.libcanberra-0.30" >> $LFSLOG_PROCESS
 
-time { bash e10.42.26.libcanberra-0.30.sh ; }
+time { bash e11.42.26.libcanberra-0.30.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

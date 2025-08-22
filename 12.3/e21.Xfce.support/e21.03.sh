@@ -80,10 +80,10 @@ echo "."
 
 ###
 
-echo "e42.41.14.XScreenSaver-6.09"
-echo "e42.41.14.XScreenSaver-6.09" >> $LFSLOG_PROCESS
+echo "e21.41.14.XScreenSaver-6.09"
+echo "e21.41.14.XScreenSaver-6.09" >> $LFSLOG_PROCESS
 
-time { bash e42.41.14.XScreenSaver-6.09.sh ; }
+time { bash e21.41.14.XScreenSaver-6.09.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
