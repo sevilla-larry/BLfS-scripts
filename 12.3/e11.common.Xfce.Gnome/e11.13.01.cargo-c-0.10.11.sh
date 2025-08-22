@@ -53,14 +53,14 @@ echo "2. Cargo Build ..." >> $PKGLOG_ERROR
 [ ! -e /usr/include/sqlite3.h ] || export LIBSQLITE3_SYS_USE_PKG_CONFIG=1
 cargo build --release > $PKGLOG_BUILD 2>> $PKGLOG_ERROR
 
-echo "4. Cargo Test ..."
-echo "4. Cargo Test ..." >> $LFSLOG_PROCESS
-echo "4. Cargo Test ..." >> $PKGLOG_ERROR
+echo "3. Cargo Test ..."
+echo "3. Cargo Test ..." >> $LFSLOG_PROCESS
+echo "3. Cargo Test ..." >> $PKGLOG_ERROR
 cargo test --release > $PKGLOG_CHECK 2>> $PKGLOG_ERROR
 
-echo "5. Install ..."
-echo "5. Install ..." >> $LFSLOG_PROCESS
-echo "5. Install ..." >> $PKGLOG_ERROR
+echo "4. Install ..."
+echo "4. Install ..." >> $LFSLOG_PROCESS
+echo "4. Install ..." >> $PKGLOG_ERROR
 install -vm755 target/release/cargo-{capi,cbuild,cinstall,ctest}    \
         /usr/bin/                                                   \
         > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
