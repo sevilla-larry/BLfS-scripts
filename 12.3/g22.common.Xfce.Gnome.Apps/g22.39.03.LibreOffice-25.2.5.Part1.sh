@@ -1,4 +1,4 @@
-# g22.39.03.LibreOffice-25.2.3.Part1.sh
+# g22.39.03.LibreOffice-25.2.5.Part1.sh
 # errata
 #
 # Part1 - as user, up to "build"
@@ -60,7 +60,7 @@
 #               ???        Qt-6.x                       ???
 #
 
-export PKG="libreoffice-25.2.3.2"
+export PKG="libreoffice-25.2.5.2"
 export PKGLOG_DIR=$LFSLOG/39.03
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
@@ -82,38 +82,42 @@ tar xvf $PKG.tar.xz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
 
 
-patch -Np1 -i ../libreoffice-25.2.3.2-icu76_fixes-1.patch   \
+patch -Np1 -i ../libreoffice-25.2.5.2-icu76_fixes-1.patch   \
             >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
-patch -Np1 -i ../libreoffice-25.2.3.2-poppler_fixes-1.patch \
-            >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
+# patch -Np1 -i ../libreoffice-25.2.3.2-poppler_fixes-1.patch \
+#            >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
 
-sed -i '/icuuc \\/a zlib\\'						    \
-			writerperfect/Library_wpftdraw.mk	    \
+sed -i 's/-Djava.security.manager=allow//'              \
+            external/hsqldb/ExternalProject_hsqldb.mk   \
 			>> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
-sed -i "/distro-install-file-lists/d" Makefile.in   \
+
+sed -i '/icuuc \\/a zlib\\'						        \
+			writerperfect/Library_wpftdraw.mk	        \
 			>> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
-sed -e "/gzip -f/d"                                 \
-    -e "s|.1.gz|.1|g"                               \
-    -i bin/distro-install-desktop-integration       \
+sed -i "/distro-install-file-lists/d" Makefile.in       \
+			>> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
+sed -e "/gzip -f/d"                                     \
+    -e "s|.1.gz|.1|g"                                   \
+    -i bin/distro-install-desktop-integration           \
 			>> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
 
 install -v -dm755 external/tarballs	                        \
 			>> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
-ln -sv ../../../libreoffice-dictionaries-25.2.3.2.tar.xz    \
+ln -sv ../../../libreoffice-dictionaries-25.2.5.2.tar.xz    \
                 external/tarballs/                          \
 			>> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
-ln -sv ../../../libreoffice-help-25.2.3.2.tar.xz            \
+ln -sv ../../../libreoffice-help-25.2.5.2.tar.xz            \
                 external/tarballs/                          \
 			>> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
-ln -sv ../../../libreoffice-translations-25.2.3.2.tar.xz    \
+ln -sv ../../../libreoffice-translations-25.2.5.2.tar.xz    \
                 external/tarballs/                          \
 			>> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
 
-ln -sv src/libreoffice-help-25.2.3.2/helpcontent2/			\
+ln -sv src/libreoffice-help-25.2.5.2/helpcontent2/			\
 			>> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
-ln -sv src/libreoffice-dictionaries-25.2.3.2/dictionaries/	\
+ln -sv src/libreoffice-dictionaries-25.2.5.2/dictionaries/	\
 			>> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
-ln -sv src/libreoffice-translations-25.2.3.2/translations/	\
+ln -sv src/libreoffice-translations-25.2.5.2/translations/	\
 			>> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
 
 echo "2. Autogen Configure ..."

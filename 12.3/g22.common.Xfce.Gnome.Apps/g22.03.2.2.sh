@@ -8,10 +8,10 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
 #####
 
-echo "g22.39.03.LibreOffice-25.2.1.Part2"
-echo "g22.39.03.LibreOffice-25.2.1.Part2" >> $LFSLOG_PROCESS
+echo "g22.39.03.LibreOffice-25.2.5.Part2"
+echo "g22.39.03.LibreOffice-25.2.5.Part2" >> $LFSLOG_PROCESS
 
-time { bash g22.39.03.LibreOffice-25.2.1.Part2.sh ; }
+time { bash g22.39.03.LibreOffice-25.2.5.Part2.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

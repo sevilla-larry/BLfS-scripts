@@ -7,13 +7,19 @@ e017e3544751c2442020f4d10a39e24d evince-46.3.1.tar.xz
 # 186ce73aeec67abcd1493095c89c947e libreoffice-help-25.2.1.2.tar.xz
 # ff2232d569cc9d6ad6a59eea2e57dc86 libreoffice-translations-25.2.1.2.tar.xz
 # patch icu
-# 39.03 LibreOffice-25.2.3
-19c450d4777bf169761ed190eac7c841 libreoffice-25.2.3.2.tar.xz
-770a3ad86a4c68754a611056c55cb83c libreoffice-dictionaries-25.2.3.2.tar.xz
-43b27eae3d79f98f73c7a207bb4e0cb0 libreoffice-help-25.2.3.2.tar.xz
-8255a08a0cbbf133724a0da1d6f0d95c libreoffice-translations-25.2.3.2.tar.xz
+# 39.03 LibreOffice-25.2.3	(not tested)
+# 19c450d4777bf169761ed190eac7c841 libreoffice-25.2.3.2.tar.xz
+# 770a3ad86a4c68754a611056c55cb83c libreoffice-dictionaries-25.2.3.2.tar.xz
+# 43b27eae3d79f98f73c7a207bb4e0cb0 libreoffice-help-25.2.3.2.tar.xz
+# 8255a08a0cbbf133724a0da1d6f0d95c libreoffice-translations-25.2.3.2.tar.xz
 # patch icu
 # patch poppler
+# 39.03 LibreOffice-25.2.5	(errata/svn)
+f215c051d230755251e32b4112459950 libreoffice-25.2.5.2.tar.xz
+ad9f78b23c0d1321ba478d574416660f libreoffice-dictionaries-25.2.5.2.tar.xz
+f91a96cc0b3bc2f60d95e5cd5fc28630 libreoffice-help-25.2.5.2.tar.xz
+a4425c16a73f098a3d6a57abca754abc libreoffice-translations-25.2.5.2.tar.xz
+#								 libreoffice-25.2.5.2-icu76_fixes-1.patch
 
 # 40.03 Firefox-128.7.0esr
 # aab1f335242b809813d1d4b754d10c0b firefox-128.7.0esr.source.tar.xz
@@ -22,4 +28,6 @@ e017e3544751c2442020f4d10a39e24d evince-46.3.1.tar.xz
 # 40.03 Firefox-140.0esr	(errata)
 # 4d50cef9d5df6aa4e27afcfc23147a71 firefox-140.0esr.source.tar.xz
 # 40.03 Firefox-140.1.0esr	(errata)
-20522833dabb50dce12504fe2c03d818 firefox-140.1.0esr.source.tar.xz
+# 20522833dabb50dce12504fe2c03d818 firefox-140.1.0esr.source.tar.xz
+# 40.03 Firefox-140.2.0esr	(errata)
+64773387a541a2ed5c1ce9f247469ba3 firefox-140.2.0esr.source.tar.xz

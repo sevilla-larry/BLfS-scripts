@@ -7,13 +7,19 @@ https://download.gnome.org/sources/evince/46/evince-46.3.1.tar.xz
 # https://download.documentfoundation.org/libreoffice/src/25.2.1/libreoffice-help-25.2.1.2.tar.xz
 # https://download.documentfoundation.org/libreoffice/src/25.2.1/libreoffice-translations-25.2.1.2.tar.xz
 # https://www.linuxfromscratch.org/patches/blfs/12.3/libreoffice-25.2.1.2-icu76_fixes-1.patch
-# 39.03 LibreOffice-25.2.3
-https://download.documentfoundation.org/libreoffice/src/25.2.3/libreoffice-25.2.3.2.tar.xz
-https://download.documentfoundation.org/libreoffice/src/25.2.3/libreoffice-dictionaries-25.2.3.2.tar.xz
-https://download.documentfoundation.org/libreoffice/src/25.2.3/libreoffice-help-25.2.3.2.tar.xz
-https://download.documentfoundation.org/libreoffice/src/25.2.3/libreoffice-translations-25.2.3.2.tar.xz
-https://www.linuxfromscratch.org/patches/blfs/svn/libreoffice-25.2.3.2-icu76_fixes-1.patch
-https://www.linuxfromscratch.org/patches/blfs/svn/libreoffice-25.2.3.2-poppler_fixes-1.patch
+# 39.03 LibreOffice-25.2.3	(not tested)
+# https://download.documentfoundation.org/libreoffice/src/25.2.3/libreoffice-25.2.3.2.tar.xz
+# https://download.documentfoundation.org/libreoffice/src/25.2.3/libreoffice-dictionaries-25.2.3.2.tar.xz
+# https://download.documentfoundation.org/libreoffice/src/25.2.3/libreoffice-help-25.2.3.2.tar.xz
+# https://download.documentfoundation.org/libreoffice/src/25.2.3/libreoffice-translations-25.2.3.2.tar.xz
+# https://www.linuxfromscratch.org/patches/blfs/svn/libreoffice-25.2.3.2-icu76_fixes-1.patch
+# https://www.linuxfromscratch.org/patches/blfs/svn/libreoffice-25.2.3.2-poppler_fixes-1.patch
+# 39.03 LibreOffice-25.2.5
+https://download.documentfoundation.org/libreoffice/src/25.2.5/libreoffice-25.2.5.2.tar.xz
+https://download.documentfoundation.org/libreoffice/src/25.2.5/libreoffice-dictionaries-25.2.5.2.tar.xz
+https://download.documentfoundation.org/libreoffice/src/25.2.5/libreoffice-help-25.2.5.2.tar.xz
+https://download.documentfoundation.org/libreoffice/src/25.2.5/libreoffice-translations-25.2.5.2.tar.xz
+https://www.linuxfromscratch.org/patches/blfs/svn/libreoffice-25.2.5.2-icu76_fixes-1.patch
 
 # 40.03 Firefox-128.7.0esr
 # https://archive.mozilla.org/pub/firefox/releases/128.7.0esr/source/firefox-128.7.0esr.source.tar.xz
@@ -22,4 +28,6 @@ https://www.linuxfromscratch.org/patches/blfs/svn/libreoffice-25.2.3.2-poppler_f
 # 40.03 Firefox-140.0esr	(errata)
 # https://archive.mozilla.org/pub/firefox/releases/140.0esr/source/firefox-140.0esr.source.tar.xz
 # 40.03 Firefox-140.1.0esr	(errata)
-https://archive.mozilla.org/pub/firefox/releases/140.1.0esr/source/firefox-140.1.0esr.source.tar.xz
+# https://archive.mozilla.org/pub/firefox/releases/140.1.0esr/source/firefox-140.1.0esr.source.tar.xz
+# 40.03 Firefox-140.2.0esr	(errata)
+https://archive.mozilla.org/pub/firefox/releases/140.2.0esr/source/firefox-140.2.0esr.source.tar.xz

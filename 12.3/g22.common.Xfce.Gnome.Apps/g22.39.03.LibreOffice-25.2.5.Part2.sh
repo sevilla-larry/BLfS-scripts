@@ -1,4 +1,4 @@
-# g22.39.03.LibreOffice-25.2.3.Part2.sh
+# g22.39.03.LibreOffice-25.2.5.Part2.sh
 # errata
 #
 # Part2 - as root, "install"
@@ -60,7 +60,7 @@
 #               ???        Qt-6.x                       ???
 #
 
-export PKG="libreoffice-25.2.1.2"
+export PKG="libreoffice-25.2.5.2"
 export PKGLOG_DIR=$LFSLOG/39.03
 #export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 #export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
