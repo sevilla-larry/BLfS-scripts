@@ -25,9 +25,11 @@ a4425c16a73f098a3d6a57abca754abc libreoffice-translations-25.2.5.2.tar.xz
 # aab1f335242b809813d1d4b754d10c0b firefox-128.7.0esr.source.tar.xz
 # 40.03 Firefox-128.11.0esr (errata)
 # 0c47aafa4d9bf5cd13617343335913b8 firefox-128.11.0esr.source.tar.xz
+# 40.03 Firefox-128.14.0esr (latest version compatible with NSS-3.108)
+#								 firefox-128.14.0esr.source.tar.xz
 # 40.03 Firefox-140.0esr	(errata)
 # 4d50cef9d5df6aa4e27afcfc23147a71 firefox-140.0esr.source.tar.xz
 # 40.03 Firefox-140.1.0esr	(errata)
 # 20522833dabb50dce12504fe2c03d818 firefox-140.1.0esr.source.tar.xz
 # 40.03 Firefox-140.2.0esr	(errata)
-64773387a541a2ed5c1ce9f247469ba3 firefox-140.2.0esr.source.tar.xz
+# 64773387a541a2ed5c1ce9f247469ba3 firefox-140.2.0esr.source.tar.xz
