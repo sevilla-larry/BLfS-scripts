@@ -156,13 +156,13 @@ MOZ_APP_REMOTINGNAME=firefox
 EOF
 
 # ICU was installed
-# for i in {43..47}; do
-#   sed -i '/ZWJ/s/}/,CLASS_CHARACTER&/' intl/lwbrk/LineBreaker.cpp  \
-#        >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
-# done
+for i in {43..47}; do
+  sed -i '/ZWJ/s/}/,CLASS_CHARACTER&/' intl/lwbrk/LineBreaker.cpp  \
+       >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
+done
 
-# sed -i 's/icu-i18n/icu-uc &/' js/moz.configure  \
-#        >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
+sed -i 's/icu-i18n/icu-uc &/' js/moz.configure  \
+       >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
 
 # if GLS was installed
 # echo "AIzaSyDxKL42zsPjbke5O8_rPVpVrLrJ8aeE9rQ" > google-key
