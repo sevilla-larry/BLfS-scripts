@@ -152,7 +152,7 @@ mk_add_options MOZ_OBJDIR=@TOPSRCDIR@/firefox-build-dir
 # support the X11 property  class header. Change the remoting name to fix this.
 # This is also reflected in the .desktop file where StartupWMClass is set to
 # firefox.
-MOZ_APP_REMOTINGNAME=firefox
+# MOZ_APP_REMOTINGNAME=firefox
 EOF
 
 # ICU was installed
