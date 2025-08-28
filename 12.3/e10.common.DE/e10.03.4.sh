@@ -24,6 +24,20 @@ echo "."
 
 ###
 
+echo "e10.42.03.alsa-utils-1.2.13"
+echo "e10.42.03.alsa-utils-1.2.13" >> $LFSLOG_PROCESS
+
+time { bash e10.42.03.alsa-utils-1.2.13.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
 echo "e10.42.37.libogg-1.3.5"
 echo "e10.42.37.libogg-1.3.5" >> $LFSLOG_PROCESS
 
