@@ -106,19 +106,19 @@ echo "." >> $LFSLOG_PROCESS
 echo "."
 echo "."
 
-###
+### in LfS
 
-echo "b10.15.04.Net-tools-2.10"
-echo "b10.15.04.Net-tools-2.10" >> $LFSLOG_PROCESS
+# echo "b10.15.04.Net-tools-2.10"
+# echo "b10.15.04.Net-tools-2.10" >> $LFSLOG_PROCESS
 
-time { bash b10.15.04.Net-tools-2.10.sh ; }
+# time { bash b10.15.04.Net-tools-2.10.sh ; }
 
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+# date +"%Y/%b/%d %H:%M"
+# date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
+# echo "." >> $LFSLOG_PROCESS
+# echo "."
+# echo "."
 
 ###
 
