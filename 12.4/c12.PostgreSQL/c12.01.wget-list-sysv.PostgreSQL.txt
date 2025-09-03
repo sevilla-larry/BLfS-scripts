@@ -1,0 +1,2 @@
+# 22.04 PostgreSQL-17.6
+https://ftp.postgresql.org/pub/source/v17.6/postgresql-17.6.tar.bz2

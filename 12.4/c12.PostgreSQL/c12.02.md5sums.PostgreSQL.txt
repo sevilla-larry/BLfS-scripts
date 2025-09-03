@@ -1,0 +1,2 @@
+# 22.04 PostgreSQL-17.6
+e72b7e5dc22d44d56b113ed1f74e4084 postgresql-17.6.tar.bz2
