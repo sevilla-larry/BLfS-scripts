@@ -1,0 +1,43 @@
+III. General Libraries and Utilities
+
+13. Programming
+
+13.25 Python Dependencies
+
+13.25.01 alabaster-1.0.0
+13.25.02 attrs-25.3.0
+13.25.03 babel-2.17.0
+13.25.04 certifi-2025.8.3
+13.25.05 chardet-5.2.0
+13.25.06 charset-normalizer-3.4.3
+13.25.07 commonmark-0.9.1
+13.25.08 editables-0.5
+13.25.09 hatchling-1.27.0
+13.25.10 hatch-fancy-pypi-readme-25.1.0
+13.25.11 hatch_vcs-0.5.0
+13.25.12 idna-3.10
+13.25.13 imagesize-1.4.1
+13.25.14 iniconfig-2.1.0
+13.25.15 Markdown-3.8.2
+13.25.16 meson_python-0.18.0
+13.25.17 msgpack-1.1.1
+13.25.18 pathspec-0.12.1
+13.25.19 pluggy-1.6.0
+13.25.20 pyproject_hooks-1.2.0
+13.25.21 pyproject-metadata-0.9.1
+13.25.22 pytz-2025.2
+13.25.23 roman-numerals-py-3.1.0
+13.25.24 setuptools_scm-8.3.1
+13.25.25 smartypants-2.0.2
+13.25.26 snowballstemmer-3.0.1
+13.25.27 sphinxcontrib-applehelp-2.0.0
+13.25.28 sphinxcontrib-devhelp-2.0.0
+13.25.29 sphinxcontrib-htmlhelp-2.1.0
+13.25.30 sphinxcontrib-jquery-4.1
+13.25.31 sphinxcontrib-jsmath-1.0.1
+13.25.32 sphinxcontrib-qthelp-2.0.0
+13.25.33 sphinxcontrib-serializinghtml-2.0.0
+13.25.34 trove-classifiers-2025.8.6.13
+13.25.35 typogrify-2.1.0
+13.25.36 urllib3-2.5.0
+13.25.37 webencodings-0.5.1

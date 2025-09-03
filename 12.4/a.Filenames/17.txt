@@ -1,0 +1,26 @@
+IV. Networking
+
+17. Networking Libraries
+
+17.01 c-ares-1.34.5
+17.02 cURL-8.15.0
+17.03 GeoClue-2.7.2
+17.04 glib-networking-2.80.1
+17.05 kdsoap-2.2.0
+17.06 kdsoap-ws-discovery-client-0.4.0
+17.07 ldns-1.8.4
+17.08 libevent-2.1.12
+17.09 libmnl-1.0.5
+17.10 libndp-1.9
+17.11 libnl-3.11.0
+17.12 libnma-1.10.6
+17.13 libnsl-2.0.1
+17.14 libpcap-1.10.5
+17.15 libpsl-0.21.5
+17.16 libslirp-4.9.1
+17.17 libsoup-3.6.5
+17.18 libtirpc-1.3.6
+17.19 neon-0.35.0
+17.20 nghttp2-1.66.0
+17.21 rpcsvc-proto-1.4.4
+17.22 Serf-1.3.10

@@ -7,25 +7,26 @@
 #
 # based on: https://www.linuxfromscratch.org/blfs/
 #
-# BLfS version: 12.3
-# Started: 2025/March/29
+# BLfS version: 12.4
+# Started: 2025/Sept/03
 # arch: x64, UEFI (same with LfS-Scripts)
-# Status: current
+# Status: Current
+#
 #
 # about Python
-#	LfS 12.3 uses Python 3.13.x
+#	LfS 12.4 uses Python 3.13.x
 #		but will use Python 3.12.x due to OpenStack 2025.1 Epoxy
 #
-# a: LfS			- working
+# a: LfS			- testing
 #
-# c11: MariaDB		- working
-# c12: PostgreSQL	- working
-# c13: Apache		- working
-# c14: ProFTPD		- working
+# c11: MariaDB		- 
+# c12: PostgreSQL	- 
+# c13: Apache		- 
+# c14: ProFTPD		- 
 #
-# d20: Xorg			- working
+# d20: Xorg			- 
 #
-# e23: Xfce	with LightDM	- working
+# e23: Xfce	with LightDM	- 
 #
 # g42: Xfce Apps    - 
 #
@@ -137,6 +138,31 @@
 #	?	g71 - KDE Applications support
 #	?	g72 - KDE Applications Additional
 #	?	g73 - KDE Applications Others / External
+#
+
+
+
+# BLfS version: 12.3
+# Started: 2025/March/29
+# arch: x64, UEFI (same with LfS-Scripts)
+# Status: working
+#
+# about Python
+#	LfS 12.3 uses Python 3.13.x
+#		but will use Python 3.12.x due to OpenStack 2025.1 Epoxy
+#
+# a: LfS			- working
+#
+# c11: MariaDB		- working
+# c12: PostgreSQL	- working
+# c13: Apache		- working
+# c14: ProFTPD		- working
+#
+# d20: Xorg			- working
+#
+# e23: Xfce	with LightDM	- working
+#
+# g42: Xfce Apps	- working, but Firefox, no sound
 #
 
 
