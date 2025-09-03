@@ -1,0 +1,2 @@
+# 22.04 MariaDB-11.8.3
+https://downloads.mariadb.org/interstitial/mariadb-11.8.3/source/mariadb-11.8.3.tar.gz
