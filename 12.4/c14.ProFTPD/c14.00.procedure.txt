@@ -1,0 +1,171 @@
+A. Preparation
+
+  A.01.
+  
+        #
+        # Option #1
+        #
+        # Assumming LfS is already running
+        # Neither MariaDB nor PostgreSQL was installed
+        #
+
+        ###
+
+        rm -v /sources
+
+        ###
+
+        # (a) VM & VB
+
+            mkdir -v /mnt/Src/blfs.{src,log}
+
+            chmod -v a+wt /mnt/Src/blfs.{src,log}
+
+            ln -sfv /mnt/Src/blfs.src /sources
+
+            ln -sfv /mnt/Src/blfs.log /var/log/blfs
+
+        # (b) PC
+
+            mkdir -pv /usr/src/blfs
+
+            mkdir -pv /var/log/blfs
+
+            chmod -v a+wt /usr/src/blfs
+
+            chmod -v a+wt /var/log/blfs
+
+            ln -sfv /usr/src/blfs /sources
+
+        ###
+
+        cd /sources
+
+        ###
+
+  A.01.
+
+        #
+        # Option #2
+        #
+        # Assuming either MariaDB or PostgreSQL is already installed and running
+        #
+
+        ###
+
+        cd /sources
+
+        ###
+
+  A.02. Copy all script files
+
+        copy all script files from the following to /sources
+
+     #      1. b10.common.Xorg.and.servers
+            2. c14.ProFTPD
+
+  A.03. Download packages
+
+        ###
+
+     #  wget --input-file=b10.01.wget-list-sysv.common.Xorg.and.servers.txt --continue --directory-prefix=/sources
+        wget --input-file=c14.01.wget-list-sysv.ProFTPD.txt                 --continue --directory-prefix=/sources
+
+        ###
+
+     #  md5sum -c b10.02.md5sums.common.Xorg.and.servers.txt
+        md5sum -c c14.02.md5sums.ProFTPD.txt
+
+        ###
+
+  A.04. Setting Up the Environment
+        ( Note: change the MAKEFLAGS based on the number of threads )
+
+        ###
+
+        export LFSLOG=/var/log/blfs
+
+        export MAKEFLAGS="-j$(nproc)"
+        export NPROC="$(nproc)"
+
+        ###
+        # for VBs
+        #
+        export CFLAGS="-O2 -march=nehalem -mtune=generic -pipe -fomit-frame-pointer -msse4.2"
+        #
+        ###
+        # for VMs
+        #   and
+        # for PCs
+        #
+        export CFLAGS="-O2 -march=native -mtune=native -pipe -fomit-frame-pointer -mavx2 -mfma"
+        #
+        ###
+
+        export CXXFLAGS=$CFLAGS" -std=c++20"
+        export LDFLAGS="-Wl,--as-needed -Wl,-O1 -Wl,--strip-all"
+
+        ###
+
+B.  Generate BLFS - Support Files
+
+  B.01. Checking Environment
+
+        ###
+
+        echo $LFSLOG          # /var/log/blfs
+        echo $MAKEFLAGS       # -j$(nproc)
+        echo $NPROC           # $(nproc)
+
+        echo $CFLAGS
+        echo $CXXFLAGS
+        echo $LDFLAGS
+
+        echo $SHELL           # /bin/bash
+        ls -l /bin/sh         # bash
+        ls -l /usr/bin/awk    # gawk
+
+        cd /sources
+
+        ###
+
+        ( display )
+        root [ /sources ]#
+
+  B.02. Support Applications
+
+        ###
+
+        # bash c14.03.8.proftpd.support.apps.sh
+
+        ###
+
+C.  Generate BLFS
+
+  C.01. ProFTPD Compile/Install
+
+        ###
+
+        bash c14.03.9.main.app.sh
+
+        ###
+
+  C.02. ProFTPD bootscript
+
+        ###
+
+        cd /mnt/Src/lfs.src/blfs-bootscripts-20250225       # VM/VB
+        cd /usr/src/lfs/blfs-bootscripts-20250225           # PC
+
+        make install-proftpd
+
+        #
+        # update:
+        #   /etc/hosts
+        #
+        #         www.xxx.yyy.zzz   <serverName>
+        #
+        
+        reboot
+
+        ###
