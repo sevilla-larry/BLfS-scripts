@@ -76,8 +76,6 @@ echo "2. CMake Configure ..." >> $PKGLOG_ERROR
 cmake -D CMAKE_BUILD_TYPE=Release                       \
       -D CMAKE_INSTALL_PREFIX=/usr                      \
       -D GRN_LOG_PATH=/var/log/groonga.log              \
-      -D INSTALL_DOCDIR=share/doc/mariadb-11.8.3        \
-      -D INSTALL_DOCREADMEDIR=share/doc/mariadb-11.8.3  \
       -D INSTALL_MANDIR=share/man                       \
       -D INSTALL_MYSQLSHAREDIR=share/mariadb            \
       -D INSTALL_MYSQLTESTDIR=share/mariadb/test        \
@@ -94,9 +92,12 @@ cmake -D CMAKE_BUILD_TYPE=Release                       \
       -D WITH_EMBEDDED_SERVER=ON                        \
       -D SKIP_TESTS=ON                                  \
       -D TOKUDB_OK=0                                    \
+      -D WITHOUT_DOCS=ON                                \
       -W no-dev                                         \
       ..                                                \
       > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+#      -D INSTALL_DOCDIR=share/doc/mariadb-11.8.3        \
+#      -D INSTALL_DOCREADMEDIR=share/doc/mariadb-11.8.3  \
 
 echo "3. Make Build ..."
 echo "3. Make Build ..." >> $LFSLOG_PROCESS

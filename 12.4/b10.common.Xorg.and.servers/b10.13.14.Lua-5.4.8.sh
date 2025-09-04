@@ -75,12 +75,12 @@ make INSTALL_TOP=/usr                   \
      TO_LIB="liblua.so liblua.so.5.4 liblua.so.5.4.8"   \
      install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
-mkdir -pv                           \
-        /usr/share/doc/lua-5.4.8    \
-            >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
-cp -v doc/*.{html,css,gif,png}      \
-        /usr/share/doc/lua-5.4.8    \
-            >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
+#mkdir -pv                           \
+#        /usr/share/doc/lua-5.4.8    \
+#            >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
+#cp -v doc/*.{html,css,gif,png}      \
+#        /usr/share/doc/lua-5.4.8    \
+#            >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
 
 install -v -m644 -D lua.pc /usr/lib/pkgconfig/lua.pc    \
             >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR

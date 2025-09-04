@@ -63,10 +63,10 @@ echo "4. Make Install ..." >> $LFSLOG_PROCESS
 echo "4. Make Install ..." >> $PKGLOG_ERROR
 make install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
-install -d -m755 /usr/share/doc/proftpd-1.3.9   \
-    >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
-cp -Rv doc/*     /usr/share/doc/proftpd-1.3.9   \
-    >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
+#install -d -m755 /usr/share/doc/proftpd-1.3.9   \
+#    >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
+#cp -Rv doc/*     /usr/share/doc/proftpd-1.3.9   \
+#    >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
 
 # simple, download-only sample configuration
 cat > /etc/proftpd.conf << "EOF"    2>> $PKGLOG_ERROR

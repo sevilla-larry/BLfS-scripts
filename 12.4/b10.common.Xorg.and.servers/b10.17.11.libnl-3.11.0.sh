@@ -62,7 +62,7 @@ export PKGLOG_BUILD=$PKGLOG_DIR/build.log
 export PKGLOG_CHECK=$PKGLOG_DIR/check.log
 export PKGLOG_INSTALL=$PKGLOG_DIR/install.log
 export PKGLOG_ERROR=$PKGLOG_DIR/error.log
-export PKGLOG_OTHERS=$PKGLOG_DIR/others.log
+#export PKGLOG_OTHERS=$PKGLOG_DIR/others.log
 export LFSLOG_PROCESS=$LFSLOG/process.log
 export SOURCES=`pwd`
 
@@ -99,20 +99,20 @@ echo "5. Make Install ..." >> $LFSLOG_PROCESS
 echo "5. Make Install ..." >> $PKGLOG_ERROR
 make install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
-mkdir -vp /usr/share/doc/libnl-3.11.0   \
-    >> $PKGLOG_OTHERS 2>> PKGLOG_ERROR
-tar -xf ../libnl-doc-3.11.0.tar.gz      \
-    --strip-components=1                \
-    --no-same-owner                     \
-    -C /usr/share/doc/libnl-3.11.0      \
-    >> $PKGLOG_OTHERS 2>> PKGLOG_ERROR
+#mkdir -vp /usr/share/doc/libnl-3.11.0   \
+#    >> $PKGLOG_OTHERS 2>> PKGLOG_ERROR
+#tar -xf ../libnl-doc-3.11.0.tar.gz      \
+#    --strip-components=1                \
+#    --no-same-owner                     \
+#    -C /usr/share/doc/libnl-3.11.0      \
+#    >> $PKGLOG_OTHERS 2>> PKGLOG_ERROR
 
 
 cd $SOURCES
 rm -rf $PKG
 unset SOURCES
 unset LFSLOG_PROCESS
-unset PKGLOG_OTHERS
+#unset PKGLOG_OTHERS
 unset PKGLOG_INSTALL PKGLOG_BUILD PKGLOG_CONFIG
 unset PKGLOG_CHECK
 unset PKGLOG_ERROR PKGLOG_TAR

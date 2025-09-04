@@ -58,9 +58,10 @@ sed -i '/DEFAULT_PGSOCKET_DIR/s@/tmp@/run/postgresql@'  \
 echo "2. Configure ..."
 echo "2. Configure ..." >> $LFSLOG_PROCESS
 echo "2. Configure ..." >> $PKGLOG_ERROR
-./configure --prefix=/usr          \
-            --docdir=/usr/share/doc/postgresql-17.6 \
+./configure --prefix=/usr   \
+            --disable-docs  \
             > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
+#            --docdir=/usr/share/doc/postgresql-17.6 \
 
 echo "3. Make Build ..."
 echo "3. Make Build ..." >> $LFSLOG_PROCESS
