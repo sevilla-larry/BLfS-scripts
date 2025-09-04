@@ -1,0 +1,9 @@
+# 09.04 Apr-1.7.6
+2ebb58910e426e5a83af97bc94cae66d apr-1.7.6.tar.bz2
+
+# 09.05 Apr-Util-1.6.3
+b6e8c9b31d938fe5797ceb0d1ff2eb69 apr-util-1.6.3.tar.bz2
+
+# 20.01 Apache-2.4.65
+7274bb6fa215925fd697451a0f133483 httpd-2.4.65.tar.bz2
+#								 httpd-blfs_layout-1.patch
