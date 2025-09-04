@@ -7,7 +7,7 @@
 #               a.08.92.03 Libcap-2.76.with.PAM
 #               a.08.91.68 libssh2-1.11.1
 #               a.08.92.01 Linux-PAM-1.7.1
-#               c11.22.03  MariaDB-11.4.7
+#               c11.22.03  MariaDB-11.8.3
 #               a.08.91.11 PCRE2-10.45
 #               c12.22.04  PostgreSQL-17.6
 #
