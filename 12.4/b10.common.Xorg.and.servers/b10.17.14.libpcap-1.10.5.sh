@@ -4,13 +4,13 @@
 #
 # Dependencies Optional:
 #
-#               b10.17.10 libnl-3.11.0
+#               b10.17.11 libnl-3.11.0
 #
 
 #
 # Recommended by:
 #
-#               b10.16.05 Nmap-7.95
+#               b10.16.05 Nmap-7.98
 #
 
 export PKG="libpcap-1.10.5"

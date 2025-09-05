@@ -4,7 +4,7 @@
 #
 # Recommended by:
 #
-#               b30.16.05 Nmap-7.95
+#               b10.16.05 Nmap-7.98
 #               e13.42.58 Wireplumber-0.5.8
 #
 

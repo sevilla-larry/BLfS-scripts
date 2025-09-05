@@ -6,7 +6,6 @@
 #
 #               a.08.91.20.10 Pytest-8.4.1
 #
-#
 
 #
 # Required by:
@@ -16,7 +15,7 @@
 #
 # Optionally Required for tests:
 #
-#               d10.13.13 LLVM-19.1.7
+#               d10.13.13 LLVM-20.1.8
 #
 
 export PKG="psutil-7.0.0"

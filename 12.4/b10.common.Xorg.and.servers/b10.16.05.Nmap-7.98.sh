@@ -3,6 +3,10 @@
 #
 
 #
+# Dependencies Required:
+#
+#               b10.13.24.02 build-1.3.0
+#
 # Dependencies Recommended:
 #
 #               b10.09.52  liblinear-249
@@ -20,6 +24,7 @@
 #
 # Optionally by:
 #
+#               b30 lsof ??
 #               memcached
 #
 
