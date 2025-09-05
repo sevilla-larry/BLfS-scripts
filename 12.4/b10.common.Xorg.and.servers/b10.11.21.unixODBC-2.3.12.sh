@@ -8,7 +8,7 @@
 #
 # Optionally by:
 #
-#               c11.22.03 MariaDB-11.4.7
+#               c11.22.03 MariaDB-11.8.3
 #               c13.09.05 Apr-Util-1.6.3
 #
 

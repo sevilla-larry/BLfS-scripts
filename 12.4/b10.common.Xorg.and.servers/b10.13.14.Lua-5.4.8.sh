@@ -7,6 +7,10 @@
 #               b10.16.05 Nmap-7.98
 #               e13.42.58 Wireplumber-0.5.8
 #
+# Optionally by:
+#
+#               c13.20.01 Apache-2.4.65
+#
 
 export PKG="lua-5.4.8"
 export PKGLOG_DIR=$LFSLOG/13.14

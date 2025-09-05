@@ -13,12 +13,12 @@
 #
 # Recommended by:
 #
-#               g22.39.03 LibreOffice-25.2.3	(errata) (not used)
+#               g22.39.03 LibreOffice-25.2.3	(not used)
 #
-# Optional by:
+# Optionally by:
 #
-#               c13.09.05 Apr-Util-1.6.3    (Apache)
-#               c14.20.04 ProFTPD-1.3.8b
+#               c13.09.05 Apr-Util-1.6.3        (Apache)
+#               c14.20.04 ProFTPD-1.3.9
 #
 
 export PKG="postgresql-17.6"

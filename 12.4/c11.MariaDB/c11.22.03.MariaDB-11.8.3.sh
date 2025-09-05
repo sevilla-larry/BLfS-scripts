@@ -4,7 +4,7 @@
 #
 # Dependencies Required:
 #
-#               a.08.9x CMake-3.31.5
+#               a.08.9x CMake-4.1.0
 #               libfmt ( downloaded by MariaDB )
 #
 # Dependencies Recommended:
@@ -26,11 +26,11 @@
 #
 
 #
-# Optional by:
+# Optionally by:
 #
-#               c13.09.05 Apr-Util-1.6.3    (Apache)
-#               c14.20.04 ProFTPD-1.3.8b
-#               g22.39.03 LibreOffice-25.2.3	(errata) (not used)
+#               c13.09.05 Apr-Util-1.6.3        (Apache)
+#               c14.20.04 ProFTPD-1.3.9
+#               g22.39.03 LibreOffice-25.2.3	(not used)
 #
 
 export PKG="mariadb-11.8.3"
