@@ -13,7 +13,7 @@
 #               i080.9.11 oslo.reports-3.4.0
 #               i090.9.11 os_brick-6.9.1
 #
-# Optionally Required for tests:
+# Optionally (for tests) by:
 #
 #               d10.13.13 LLVM-20.1.8
 #

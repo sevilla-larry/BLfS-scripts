@@ -13,7 +13,7 @@
 #               d20.24.12 Mesa-24.3.4
 #               ?.??      alembic-1.13.3
 #
-# Optional by:
+# Optionally by:
 #
 #               d10.09.18 GLib-2.84.4
 #

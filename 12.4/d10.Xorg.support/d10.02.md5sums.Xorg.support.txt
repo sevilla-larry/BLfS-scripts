@@ -1,0 +1,58 @@
+# 04.20 Polkit-126
+db4ce0a42d5bf8002061f8e34ee9bdd0 polkit-126.tar.gz
+
+# 09.12 duktape-2.7.0
+b3200b02ab80125b694bae887d7c1ca6 duktape-2.7.0.tar.xz
+# 09.18 GLib-2.84.4
+5655d0ff809b98dd77c02490609fadde glib-2.84.4.tar.xz
+2a62fb1c584616a8ebcd9dd4d045f27e gobject-introspection-1.84.0.tar.xz
+#								 glib-skip_warnings-1.patch
+# 09.81 mtdev-1.1.7
+483ed7fdf7c1e7b7375c05a62848cce7 mtdev-1.1.7.tar.bz2
+# 09.99 Wayland-1.24.0
+fda0b2a73ea2716f61d75767e02008e1 wayland-1.24.0.tar.xz
+# 09.A0 Wayland-Protocols-1.45
+a235baeab3f1c6d57ac4c7c00ecd7e48 wayland-protocols-1.45.tar.xz
+
+# 10.04 FreeType-2.13.3
+f3b4432c4212064c00500e1ad63fbc64 freetype-2.13.3.tar.xz
+6affe0d431939398cc3c7cdd58d824f8 freetype-doc-2.13.3.tar.xz
+# 10.05 Fontconfig-2.17.1
+f68f95052c7297b98eccb7709d817f6a fontconfig-2.17.1.tar.xz
+# 10.11 Graphite2-1.3.14
+1bccb985a7da01092bfb53bb5041e836 graphite2-1.3.14.tgz
+# 10.12 HarfBuzz-11.4.1
+0f2f8fe443032019b5ca9598c8e2b912 harfbuzz-11.4.1.tar.xz
+# 10.22 libpng-1.6.50
+e583e61455c4f40d565d85c0e9a2fbf9 libpng-1.6.50.tar.xz
+5c4a639b227ac60a0e438840bcf1cf5f libpng-1.6.47-apng.patch.gz
+# 10.32 Pixman-0.46.4
+c08173c8e1d2cc79428d931c13ffda59 pixman-0.46.4.tar.gz
+
+# 11.04 desktop-file-utils-0.28
+dec5d7265c802db1fde3980356931b7b desktop-file-utils-0.28.tar.xz
+# 11.16 shared-mime-info-2.4
+aac56db912b7b12a04fb0018e28f2f36 shared-mime-info-2.4.tar.gz
+7dfb4446705d345d3acd672024049e86 xdgmime.tar.xz
+
+# 12.11 dbus-1.16.2
+97832e6f0a260936d28536e5349c22e5 dbus-1.16.2.tar.xz
+# 12.11 elogind-255.17
+3cd76e1a71e13c4810f6e80e176a8fa7 elogind-255.17.tar.gz
+
+# 13.13 LLVM-20.1.8
+78040509eb91309b4ec2edfe12cd20d8 llvm-20.1.8.src.tar.xz
+5bfb8f4b4a2b3ccffca0d2406e4cdcc6 llvm-cmake-20.1.8.src.tar.xz
+2ffd8624b3cbddf55a4e74a7d8ea89fa llvm-third-party-20.1.8.src.tar.xz
+62a0500bb932868061607cde0c01f584 clang-20.1.8.src.tar.xz
+3869861662d173ca8303b9f1524d1e91 compiler-rt-20.1.8.src.tar.xz
+
+# 13.24.07 docutils-0.21.2
+c4064e1e0e3cd142951fd2b95b830874 docutils-0.21.2.tar.gz
+# 13.24.13 lxml-6.0.0
+3f6f87e9b333b68070210668f0831618 lxml-6.0.0.tar.gz
+
+
+
+# 49.06 xmlto-0.0.29
+556f2642cdcd005749bd4c08bc621c37 xmlto-0.0.29.tar.gz

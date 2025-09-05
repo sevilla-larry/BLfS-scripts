@@ -1,36 +1,26 @@
-# b10.13.24.28.PyYAML-6.0.2.sh
+# d10.13.24.13.lxml-6.0.0.sh
 #
 
 #
 # Dependencies Required:
 #
-#               a.08.91.20.11 Cython-3.1.3
-#               b10.09.78     libyaml-0.2.5
-#
-# Dependencies Optional:
-#
-#               a.08.91.20.10 Pytest-8.4.1
+#               a.08.91.38 libxslt-1.1.43
 #
 
 #
-# Required by:
+# Recommended by:
 #
-#               d20.24.12 Mesa-24.3.4
-#               LLVM (hidden?)
-#               i?.??     cliff-4.7.0
-#               i?.??     openstacksdk-4.0.1
-#               i?.??     oslo.utils-7.3.0
-#               i?.??     oslo.config-9.6.0
-#               i?.??     oslo.messaging-14.9.1
-#               i?.??     oslo.policy-4.4.0
+#               g22.39.03 LibreOffice-25.2.3
+#               e41.42.58 Wireplumber-0.5.8
 #
-# Optionally (for tests) by:
+# Optionally by:
 #
-#               d10.13.13 LLVM-20.1.8
+#               d10.12.12 elogind-255.17
+#               e31.28.02 breeze-icons-6.11.0
 #
 
-export PKG="pyyaml-6.0.2"
-export PKGLOG_DIR=$LFSLOG/13.24.28
+export PKG="lxml-6.0.0"
+export PKGLOG_DIR=$LFSLOG/13.24.13
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
 export PKGLOG_CHECK=$PKGLOG_DIR/check.log
@@ -66,13 +56,8 @@ pip3 install    --no-index              \
                 --no-user               \
                 --find-links dist       \
                 --no-cache-dir          \
-                PyYAML                  \
+                lxml                    \
                 > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
-
-echo "4. pyTest ..."
-echo "4. pyTest ..." >> $LFSLOG_PROCESS
-echo "4. pyTest ..." >> $PKGLOG_ERROR
-pytest >  $PKGLOG_CHECK 2>> $PKGLOG_ERROR
 
 
 cd $SOURCES

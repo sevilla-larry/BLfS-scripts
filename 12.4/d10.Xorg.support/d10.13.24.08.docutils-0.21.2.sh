@@ -1,36 +1,14 @@
-# b10.13.24.28.PyYAML-6.0.2.sh
+# d10.13.24.08.docutils-0.21.2.sh
 #
 
 #
-# Dependencies Required:
+# Recommended by:
 #
-#               a.08.91.20.11 Cython-3.1.3
-#               b10.09.78     libyaml-0.2.5
-#
-# Dependencies Optional:
-#
-#               a.08.91.20.10 Pytest-8.4.1
+#               d10.09.18 GLib-2.84.4
 #
 
-#
-# Required by:
-#
-#               d20.24.12 Mesa-24.3.4
-#               LLVM (hidden?)
-#               i?.??     cliff-4.7.0
-#               i?.??     openstacksdk-4.0.1
-#               i?.??     oslo.utils-7.3.0
-#               i?.??     oslo.config-9.6.0
-#               i?.??     oslo.messaging-14.9.1
-#               i?.??     oslo.policy-4.4.0
-#
-# Optionally (for tests) by:
-#
-#               d10.13.13 LLVM-20.1.8
-#
-
-export PKG="pyyaml-6.0.2"
-export PKGLOG_DIR=$LFSLOG/13.24.28
+export PKG="docutils-0.21.2"
+export PKGLOG_DIR=$LFSLOG/13.24.08
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
 export PKGLOG_CHECK=$PKGLOG_DIR/check.log
@@ -66,13 +44,13 @@ pip3 install    --no-index              \
                 --no-user               \
                 --find-links dist       \
                 --no-cache-dir          \
-                PyYAML                  \
+                docutils                \
                 > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
-echo "4. pyTest ..."
-echo "4. pyTest ..." >> $LFSLOG_PROCESS
-echo "4. pyTest ..." >> $PKGLOG_ERROR
-pytest >  $PKGLOG_CHECK 2>> $PKGLOG_ERROR
+echo "4. All Test ..."
+echo "4. All Test ..." >> $LFSLOG_PROCESS
+echo "4. All Test ..." >> $PKGLOG_ERROR
+test/alltests.py >  $PKGLOG_CHECK 2>> $PKGLOG_ERROR
 
 
 cd $SOURCES

@@ -1,0 +1,47 @@
+III. General Libraries and Utilities
+
+12. System Utilities
+
+12.01 7zip-25.01
+12.02 AccountsService-23.13.9
+12.03 acpid-2.0.34
+12.04 at-3.2.5
+12.05 autofs-5.1.9
+12.06 BlueZ-5.83
+12.07 Bubblewrap-0.11.0
+12.08 Colord-1.4.8
+12.09 cpio-2.15
+12.10 cups-pk-helper-0.2.7
+12.11 dbus-1.16.2
+12.12 elogind-255.17
+12.13 blocaled-0.7
+12.14 Fcron-3.4.0
+12.15 GPM-1.20.7
+12.16 hwdata-0.398
+12.17 LSB-Tools-0.12
+12.18 Logrotate-3.22.0
+12.19 MC-4.8.33
+12.20 ModemManager-1.24.2
+12.21 notification-daemon-3.20.0
+12.22 Pax-20240817
+12.23 pm-utils-1.4.1
+12.24 Power-profiles-daemon-0.30
+12.25 Raptor-2.0.16
+12.26 Rasqal-0.9.33
+12.27 Redland-1.0.17
+12.28 Sysstat-12.7.8
+12.29 UDisks-2.10.2
+12.30 UnRar-7.1.10
+12.31 UPower-1.90.9
+12.32 Which-2.23 and Alternatives
+12.33 xdotool-3.20211022.1
+12.34 Zip-3.0
+
+Hardware Utilities
+12.41 Hdparm-9.65
+12.42 lm-sensors-3-6-2
+12.43 pciutils-3.14.0
+12.44 sg3_utils-1.48
+12.45 sysmond-1.0.0
+12.46 sysmon3-3.0.1
+12.47 usbutils-018
