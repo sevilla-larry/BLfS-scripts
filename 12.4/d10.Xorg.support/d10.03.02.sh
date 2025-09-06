@@ -10,10 +10,10 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
 #####
 
-echo "d10.13.13.LLVM-19.1.7"
-echo "d10.13.13.LLVM-19.1.7" >> $LFSLOG_PROCESS
+echo "d10.13.13.LLVM-20.1.8"
+echo "d10.13.13.LLVM-20.1.8" >> $LFSLOG_PROCESS
 
-time { bash d10.13.13.LLVM-19.1.7.sh ; }
+time { bash d10.13.13.LLVM-20.1.8.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

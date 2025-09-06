@@ -10,10 +10,10 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
 #####
 
-echo "d10.10.22.libpng-1.6.46"
-echo "d10.10.22.libpng-1.6.46" >> $LFSLOG_PROCESS
+echo "d10.10.22.libpng-1.6.50"
+echo "d10.10.22.libpng-1.6.50" >> $LFSLOG_PROCESS
 
-time { bash d10.10.22.libpng-1.6.46.sh ; }
+time { bash d10.10.22.libpng-1.6.50.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
@@ -52,10 +52,10 @@ echo "."
 
 ###
 
-echo "d10.10.12.harfBuzz-10.4.0"
-echo "d10.10.12.harfBuzz-10.4.0" >> $LFSLOG_PROCESS
+echo "d10.10.12.harfBuzz-11.4.1"
+echo "d10.10.12.harfBuzz-11.4.1" >> $LFSLOG_PROCESS
 
-time { bash d10.10.12.harfBuzz-10.4.0.sh ; }
+time { bash d10.10.12.harfBuzz-11.4.1.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
@@ -94,10 +94,10 @@ echo "."
 
 ###
 
-echo "d10.10.05.Fontconfig-2.16.0"
-echo "d10.10.05.Fontconfig-2.16.0" >> $LFSLOG_PROCESS
+echo "d10.10.05.Fontconfig-2.17.1"
+echo "d10.10.05.Fontconfig-2.17.1" >> $LFSLOG_PROCESS
 
-time { bash d10.10.05.Fontconfig-2.16.0.sh ; }
+time { bash d10.10.05.Fontconfig-2.17.1.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
@@ -108,10 +108,10 @@ echo "."
 
 ###
 
-echo "d10.10.32.Pixman-0.44.2"
-echo "d10.10.32.Pixman-0.44.2" >> $LFSLOG_PROCESS
+echo "d10.10.33.Pixman-0.46.4"
+echo "d10.10.33.Pixman-0.46.4" >> $LFSLOG_PROCESS
 
-time { bash d10.10.32.Pixman-0.44.2.sh ; }
+time { bash d10.10.33.Pixman-0.46.4.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

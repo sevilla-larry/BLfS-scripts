@@ -10,10 +10,10 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
 #####
 
-echo "d10.04.20.Polkit-126"
-echo "d10.04.20.Polkit-126" >> $LFSLOG_PROCESS
+echo "d10.04.21.Polkit-126"
+echo "d10.04.21.Polkit-126" >> $LFSLOG_PROCESS
 
-time { bash d10.04.20.Polkit-126.sh ; }
+time { bash d10.04.21.Polkit-126.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

@@ -10,10 +10,10 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
 #####
 
-echo "d10.09.97.Wayland-1.23.0"
-echo "d10.09.97.Wayland-1.23.0" >> $LFSLOG_PROCESS
+echo "d10.09.99.Wayland-1.24.0"
+echo "d10.09.99.Wayland-1.24.0" >> $LFSLOG_PROCESS
 
-time { bash d10.09.97.Wayland-1.23.0.sh ; }
+time { bash d10.09.99.Wayland-1.24.0.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
@@ -24,10 +24,10 @@ echo "."
 
 ###
 
-echo "d10.09.98.Wayland-Protocols-1.40"
-echo "d10.09.98.Wayland-Protocols-1.40" >> $LFSLOG_PROCESS
+echo "d10.09.A0.Wayland-Protocols-1.45"
+echo "d10.09.A0.Wayland-Protocols-1.45" >> $LFSLOG_PROCESS
 
-time { bash d10.09.98.Wayland-Protocols-1.40.sh ; }
+time { bash d10.09.A0.Wayland-Protocols-1.45.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
