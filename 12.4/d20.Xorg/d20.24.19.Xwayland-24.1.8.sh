@@ -5,13 +5,13 @@
 # Dependencies Required:
 #
 #               d20.24.09 libxcvt-0.1.3
-#               d10.10.32 Pixman-0.46.4
+#               d10.10.33 Pixman-0.46.4
 #               d10.09.A0 Wayland-Protocols-1.45
 #               d20.24.17 Xorg Fonts - font-util
 #
 # Dependencies Recommended:
 #
-#               d20.25.34  libepoxy-1.5.10
+#               d20.25.32  libepoxy-1.5.10
 #               a.08.91.15 libtirpc-1.3.6
 #               d20.24.12  Mesa-25.1.8
 #

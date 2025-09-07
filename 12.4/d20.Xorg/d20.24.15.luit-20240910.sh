@@ -10,7 +10,7 @@
 #
 # Required by:
 #
-#               d20.24.23 xterm-397
+#               d20.24.23 xterm-401
 #
 
 export PKG="luit-20240910"

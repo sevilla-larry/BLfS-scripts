@@ -25,13 +25,10 @@
 #
 # Recommended by:
 #
+#               d20.24.12 Mesa-25.1.8   (needed by non-PCs)
 #               e10.13.27 Rustc-1.85.0
-#               g22.39.03 LibreOffice-25.2.3	(errata)
-#				e41.09.89 SpiderMonkey.from.Firefox-128.13.0esr	(errata)
-#
-# Recommended ( but needed ) by:
-#
-#               d20.24.12 Mesa-24.3.4
+#               g22.39.03 LibreOffice-25.2.3
+#				e41.09.89 SpiderMonkey.from.Firefox-128.13.0esr
 #
 
 export PKG="llvm-20.1.8.src"

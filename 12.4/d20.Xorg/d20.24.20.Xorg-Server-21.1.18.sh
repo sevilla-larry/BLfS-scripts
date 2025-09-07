@@ -1,19 +1,18 @@
 # d20.24.20.Xorg-Server-21.1.18.sh
-# errata
 #
 
 #
 # Dependencies Required:
 #
 #               d20.24.09 libxcvt-0.1.3
-#               d10.10.32 Pixman-0.46.4
+#               d10.10.33 Pixman-0.46.4
 #               d20.24.17 Xorg Fonts - font-util
 #               d20.24.12 Mesa-25.1.8           (implied)
 #
 # Dependencies Recommended (but neeeded):
 #
-#               d20.12.11  dbus-1.16.2.Pass2
-#               d20.25.34  libepoxy-1.5.10
+#               d20.12.11  dbus-1.16.2 Pass2
+#               d20.25.32  libepoxy-1.5.10
 #               a.08.91.15 libtirpc-1.3.6
 #
 # Dependencies Runtime Required:
@@ -38,7 +37,7 @@
 #
 #               d20.24.21.2 Xorg Evdev Driver 2.11.0
 #               d20.24.21.4 Xorg Libinput Driver 1.5.0
-#               d20.24.22   twm-1.0.12
+#               d20.24.22   twm-1.0.13.1
 #               f2.26.02    lightdm-1.32.0
 #
 # Required Runtime by:

@@ -10,7 +10,7 @@
 #
 #               d20.09.73     libxkbcommon-1.11.0
 #               a.08.91.20.10 Pytest-8.4.1
-#               d20.24.14     Xorg.Applications
+#               d20.24.14     Xorg Applications
 #
 
 #

@@ -23,12 +23,12 @@
 #
 # Runtime Required by:
 #
-#               d20.24.19 Xwayland-24.1.8   (errata)
+#               d20.24.19 Xwayland-24.1.8
 #               e31.41.13 xdg-utils-1.2.1
 #
 # Optional (required for test) by:
 #
-#               d20.24.18 XKeyboardConfig-2.44
+#               d20.24.18 XKeyboardConfig-2.45
 #
 
 #

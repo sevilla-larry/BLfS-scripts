@@ -6,7 +6,7 @@
 # Dependencies Required:
 #
 #               a.08.94   CMake-4.1.0
-#               d20.09.91 SPIRV-Tools-1.4.321.0
+#               d20.09.93 SPIRV-Tools-1.4.321.0
 #
 
 #

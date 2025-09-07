@@ -8,7 +8,7 @@
 #
 # Dependencies Required Runtime:
 #
-#               d20.24.28.04 Dejavu-fonts-ttf-2.37
+#               d20.24.28.05 Dejavu-fonts-ttf-2.37
 #
 # Dependencies Optional:
 #
@@ -18,7 +18,7 @@
 #
 # Runtime Recommended by:
 #
-#               d20.24.25 xinit-1.4.3
+#               d20.24.25 xinit-1.4.4
 #
 # Optional (runtime) by:
 #

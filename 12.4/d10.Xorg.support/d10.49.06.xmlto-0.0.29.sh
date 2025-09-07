@@ -22,11 +22,12 @@
 # Optionally by
 #
 #               d10.11.16 shared-mime-info-2.4
-#               d10.12.11 dbus-1.16.2
+#               d10.12.11 dbus-1.16.2 Pass 1
+#               d20.12.11 dbus-1.16.2 Pass 2
 #               d10.09.99 Wayland-1.24.0
 #               d20.24.03 xorgproto-2024.1
 #               d20.24.05 libXdmcp-1.1.5
-#               d20.24.08 Xorg.Libraries
+#               d20.24.08 Xorg Libraries
 #               d20.12.11 dbus-1.16.0
 #               d20.24.19 Xwayland-24.1.8
 #               d20.24.20 Xorg-Server-21.1.18

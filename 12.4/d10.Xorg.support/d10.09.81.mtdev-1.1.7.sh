@@ -4,12 +4,12 @@
 #
 # Required by:
 #
-#               d20.24.25.1.2 Evdev Driver-2.10.6
-#               d20.24.25.1.3 libinput-1.26.1
+#               d20.24.25.1.2 Xorg Evdev Driver-2.11.0
+#               d20.24.25.1.3 libinput-1.29.0
 #
 # Recommended by:
 #
-#               e12.25.40 Qt-6.9.1          (errata/svn)
+#               e12.25.40 Qt-6.9.1
 #
 
 export PKG="mtdev-1.1.7"

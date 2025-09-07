@@ -10,8 +10,8 @@
 #
 # Required by:
 #
-#               d20.24.19 Xwayland-24.1.8       (errata) ( font-util )
-#               d20.24.20 Xorg-Server-21.1.18   (errata) ( font-util )
+#               d20.24.19 Xwayland-24.1.8       ( font-util )
+#               d20.24.20 Xorg-Server-21.1.18   ( font-util )
 #
 # Optionally by:
 #

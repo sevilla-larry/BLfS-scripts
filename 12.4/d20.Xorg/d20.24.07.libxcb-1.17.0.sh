@@ -25,6 +25,7 @@
 #
 # Recommended by:
 #
+#               d20.09.73 libxkbcommon-1.11.0
 #               e10.09.73 libxkbcommon-1.11.0
 #
 # Optionally by:

@@ -22,7 +22,9 @@
 #
 # Recommended by:
 #
-#               e10.09.71 libxkbcommon-1.8.0
+#               d20.09.73 libxkbcommon-1.11.0
+#               e10.09.73 libxkbcommon-1.11.0
+#               d20.25.42 Vulkan-Loader-1.4.321
 #				e43.33.38 gnome-settings-daemon-47.2
 #               e43.33.41 Mutter-47.5
 #               e12.25.40 Qt-6.9.1          (errata/svn)

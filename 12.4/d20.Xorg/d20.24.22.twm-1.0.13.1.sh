@@ -10,7 +10,7 @@
 #
 # Runtime Recommended by:
 #
-#               d20.24.25 xinit-1.4.3
+#               d20.24.25 xinit-1.4.4
 #
 
 export PKG="twm-1.0.13.1"

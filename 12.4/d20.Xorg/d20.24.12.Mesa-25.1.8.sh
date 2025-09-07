@@ -20,7 +20,7 @@
 # Dependencies Required:
 #
 #               d20.24.08    Xorg Libraries
-#               d20.25.33    Libdrm-2.4.124
+#               d20.25.31    Libdrm-2.4.125
 #               b10.13.24.14 Mako-1.3.10
 #               b10.13.24.28 PyYAML-6.0.2
 #
@@ -30,7 +30,7 @@
 #               d20.42.41    libva-2.22.0           for PCs
 #               d10.13.13    LLVM-20.1.8
 #               d10.09.A0    Wayland-Protocols-1.45
-#               d20.25.44    Vulkan-Loader-1.4.304  for PCs
+#               d20.25.42    Vulkan-Loader-1.4.321  for PCs
 #               d20.13.24.16 ply-3.11               for PCs
 #
 # Dependencies Optional:
@@ -43,7 +43,8 @@
 #
 #               d20.24.14 Xorg Applications
 #               d20.24.20 Xorg-Server-21.1.18       (implied)
-#               d20.25.34 libepoxy-1.5.10
+#               d20.25.32 libepoxy-1.5.10
+#               d20.42.43 libvdpau-va-gl-0.4.2
 #               e11.25.13 GLU-9.0.3
 #               e41.25.45 WebKitGTK-2.48.3
 #               e43.33.44 gnome-session-47.0.1
@@ -59,7 +60,9 @@
 #
 # Recommended Runtime by:
 #
+#               d20.25.42 Vulkan-Loader-1.4.321
 #               d20.42.41 libva-2.22.0              for PCs
+#               d20.42.42 libvdpau-1.5
 #
 
 #

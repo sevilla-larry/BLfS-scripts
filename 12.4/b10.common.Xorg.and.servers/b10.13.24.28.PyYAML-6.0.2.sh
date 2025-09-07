@@ -15,7 +15,7 @@
 #
 # Required by:
 #
-#               d20.24.12 Mesa-24.3.4
+#               d20.24.12 Mesa-25.1.8
 #               LLVM (hidden?)
 #               i?.??     cliff-4.7.0
 #               i?.??     openstacksdk-4.0.1

@@ -15,8 +15,9 @@
 #
 # Recommended by:
 #
-#               d20.24.12 Mesa-24.3.4
-#               e10.09.71 libxkbcommon-1.8.0
+#               d20.24.12 Mesa-25.1.8
+#               d20.09.73 libxkbcommon-1.11.0
+#               e10.09.73 libxkbcommon-1.11.0
 #               e10.42.52 SDL2-2.30.11
 #               e41.42.14 gst-plugins-base-1.26.3
 #               e43.33.41 Mutter-47.5

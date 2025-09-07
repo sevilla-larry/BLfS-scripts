@@ -11,8 +11,8 @@
 #
 # Required by:
 #
-#               d20.24.19 Xwayland-24.1.8		(errata)
-#               d20.24.20 Xorg-Server-21.1.18	(errata)
+#               d20.24.19 Xwayland-24.1.8
+#               d20.24.20 Xorg-Server-21.1.18
 #				e10.25.04 Cairo-1.18.2
 #
 

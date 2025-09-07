@@ -16,10 +16,11 @@
 #
 # Required by:
 #
-#               d20.24.12 Mesa-24.3.4
-#               d20.24.18 XKeyboardConfig-2.44
+#               d20.24.12 Mesa-25.1.8
+#               d20.24.18 XKeyboardConfig-2.45
 #               d20.24.24 xclock-1.1.1
-#               d20.24.25 xinit-1.4.3
+#               d20.24.25 xinit-1.4.4
+#               d20.25.42 Vulkan-Loader-1.4.321
 #               d20.42.42 libvdpau-1.5
 #               e11.25.03 at-spi2-core-2.54.1
 #               e10.25.10 gdk-pixbuf-xlib-2.42.12
@@ -31,7 +32,7 @@
 #
 # Recommended by:
 #
-#               d20.25.33 Libdrm-2.4.124
+#               d20.25.31 Libdrm-2.4.125
 #               d20.12.11 dbus-1.16.0.Pass2 ( dbus-launch )
 #				e10.25.04 Cairo-1.18.2
 #               e10.25.37 Pango-1.56.1

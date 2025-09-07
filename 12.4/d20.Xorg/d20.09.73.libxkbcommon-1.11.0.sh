@@ -33,7 +33,7 @@
 #
 # Optional (required for test) by:
 #
-#               d20.24.18 XKeyboardConfig-2.44
+#               d20.24.18 XKeyboardConfig-2.45
 #
 
 export PKG="libxkbcommon-1.11.0"

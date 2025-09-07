@@ -5,14 +5,14 @@
 #
 # Dependencies Required:
 #
-#               a.08.94 CMake-4.1.0
+#               a.08.94   CMake-4.1.0
 #               d20.09.92 SPIRV-Headers-1.4.321.0
 #
 
 #
 # Required by:
 #
-#               d20.25.12 Glslang-15.1.0
+#               d20.25.12 Glslang-15.4.0
 #               e41.11.06 glslc.from.shaderc-2024.4
 #
 

@@ -11,7 +11,7 @@
 #
 # Runtime Recommended by:
 #
-#               d20.24.20   Xorg-Server-21.1.18
+#               d20.24.20 Xorg-Server-21.1.18
 #
 # Required by:
 #
