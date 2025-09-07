@@ -1,0 +1,12 @@
+VI. Graphical Components
+
+24. Graphical Environments
+
+24.21 Xorg Input Drivers
+
+24.21.1 libevdev-1.13.4
+24.21.2 Xorg Evdev Driver-2.11.0
+24.21.3 libinput-1.29.0
+24.21.4 xorg-libinput-1.5.0
+24.21.5 Xorg Synaptics Driver-1.10.0
+24.21.6 Xorg Wacom Driver-1.2.3

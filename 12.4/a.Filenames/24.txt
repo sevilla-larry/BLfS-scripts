@@ -1,0 +1,33 @@
+VI. Graphical Components
+
+24. Graphical Environments
+
+24.01 Introduction to Xorg-7
+24.02 util-macros-1.20.2
+24.03 xorgproto-2024.1
+24.04 libXau-1.0.12
+24.05 libXdmcp-1.1.5
+24.06 xcb-proto-1.17.0
+24.07 libxcb-1.17.0
+24.08 Xorg Libraries
+24.09 libxcvt-0.1.3
+24.10 xcb-util-0.4.1
+24.11 XCB Utilities
+24.12 Mesa-25.1.8
+24.13 xbitmaps-1.1.3
+24.14 Xorg Applications
+24.15 luit-20240910
+24.16 xcursor-themes-1.0.7
+24.17 Xorg Fonts
+24.18 XKeyboardConfig-2.45
+24.19 Xwayland-24.1.8
+24.20 Xorg-Server-21.1.18
+24.21 Xorg Input Drivers
+24.22 twm-1.0.13.1
+24.23 xterm-401
+24.24 xclock-1.1.1
+24.25 xinit-1.4.4
+24.26 Xorg-7 Testing and Configuration
+24.27 Tuning Fontconfig
+24.28 TTF and OTF fonts
+24.29 Xorg Legacy

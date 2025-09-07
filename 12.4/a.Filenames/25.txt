@@ -1,0 +1,49 @@
+VI. Graphical Components
+
+25. Graphical Environment Libraries
+
+25.01 Atkmm-2.28.4
+25.02 Atkmm-2.36.3
+25.03 at-spi2-core-2.56.4
+25.04 Cairo-1.18.4
+25.05 libcairomm-1.0 (cairomm-1.14.5)
+25.06 libcairomm-1.16 (cairomm-1.18.0)
+25.07 colord-gtk-0.3.1
+25.08 FLTK-1.4.4
+25.09 Freeglut-3.6.0
+25.10 gdk-pixbuf-2.42.12
+25.11 GLEW-2.2.0
+25.12 glslang-15.4.0
+25.13 GLU-9.0.3
+25.14 GOffice-0.10.59
+25.15 Graphene-1.10.8
+25.16 GTK-3.24.50
+25.17 GTK-4.18.6
+25.18 Gtkmm-3.24.10
+25.19 Gtkmm-4.18.0
+25.20 gtk-vnc-1.5.0
+25.21 gtksourceview-3.24.11
+25.22 gtksourceview4-4.8.4
+25.23 gtksourceview5-5.16.0
+25.24 imlib2-1.12.5
+25.25 kColorPicker-0.3.1
+25.26 kImageAnnotator-0.7.1
+25.27 keybinder-3.0-0.3.2
+25.28 libadwaita-1.7.6
+25.29 libei-1.4.1
+25.30 libhandy-1.8.3
+25.31 Libdrm-2.4.125
+25.32 libepoxy-1.5.10
+25.33 libnotify-0.8.6
+25.34 libxklavier-5.4
+25.35 Pango-1.56.4
+25.36 Pangomm-2.46.4
+25.37 Pangomm-2.56.1
+25.38 Qt-6.9.2
+25.39 QtWebEngine-6.9.2
+25.40 startup-notification-0.12
+25.41 Vulkan-Headers-1.4.321
+25.42 Vulkan-Loader-1.4.321
+25.43 WebKitGTK-2.48.5
+25.44 xdg-desktop-portal-1.20.3
+25.45 xdg-desktop-portal-gtk-1.15.3
