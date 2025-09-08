@@ -38,11 +38,10 @@
 #               d20.24.21.2 Xorg Evdev Driver 2.11.0
 #               d20.24.21.4 Xorg Libinput Driver 1.5.0
 #               d20.24.22   twm-1.0.13.1
-#               f2.26.02    lightdm-1.32.0
 #
 # Required Runtime by:
 #
-#               f2.26.02    lightdm-1.32.0
+#               f2.26.02 lightdm-1.32.0
 #
 # Optionally by:
 #

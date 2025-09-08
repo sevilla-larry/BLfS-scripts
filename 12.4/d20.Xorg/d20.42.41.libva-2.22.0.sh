@@ -11,7 +11,7 @@
 #
 # Dependencies Recommended:
 #
-#               d20.24.12 Mesa-25.1.8   (Pass #2)
+#               d20.24.12 Mesa-25.1.8   (Pass 2)
 #
 #
 # Dependencies Runtime:

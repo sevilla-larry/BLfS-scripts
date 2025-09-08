@@ -37,7 +37,7 @@
 # Optionally by:
 #
 #               e10.09.73 libxkbcommon-1.11.0
-#				e43.33.38 gnome-settings-daemon-47.2
+#               e43.33.38 gnome-settings-daemon-47.2
 #               e43.33.40 gnome-control-center-47.4
 #
 
