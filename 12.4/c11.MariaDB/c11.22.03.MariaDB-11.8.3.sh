@@ -26,6 +26,10 @@
 #
 
 #
+# Recommended by:
+#
+#               OpenStack
+#
 # Optionally by:
 #
 #               c13.09.05 Apr-Util-1.6.3        (Apache)

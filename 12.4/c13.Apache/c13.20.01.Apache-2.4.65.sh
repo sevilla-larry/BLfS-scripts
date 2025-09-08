@@ -17,6 +17,12 @@
 #               a.08.91.67 nghttp2-1.66.0
 #
 
+#
+# Required by:
+#
+#               OpenStack
+#
+
 export PKG="httpd-2.4.65"
 export PKGLOG_DIR=$LFSLOG/20.01
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
