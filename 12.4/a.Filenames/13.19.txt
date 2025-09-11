@@ -1,0 +1,55 @@
+III. General Libraries and Utilities
+
+13. Programming
+
+13.19 Perl Modules
+
+13.19.01 Archive-Zip-1.68
+13.19.02 autovivification-0.18
+13.19.03 Business-ISBN-3.012
+13.19.04 Business-ISMN-1.205
+13.19.05 Business-ISSN-1.008
+13.19.06 Class-Accessor-0.51
+13.19.07 Data-Compare-1.29
+13.19.08 Data-Dump-1.25
+13.19.09 Data-Uniqid-0.12
+13.19.10 DateTime-Calendar-Julian-0.107
+13.19.11 DateTime-Format-Builder-0.83
+13.19.12 Encode-EUCJPASCII-0.03
+13.19.13 Encode-HanExtra-0.23
+13.19.14 Encode-JIS2K-0.05
+13.19.15 File-FcntlLock-0.22
+13.19.16 File-Slurper-0.014
+13.19.17 File-Which-1.27
+13.19.18 HTML-Parser-3.83
+13.19.19 HTTP-Daemon-6.16
+13.19.20 IO-Socket-SSL-2.095
+13.19.21 IO-String-1.08
+13.19.22 IPC-Run3-0.049
+13.19.23 libwww-perl-6.79
+13.19.24 Lingua-Translit-0.29
+13.19.25 List-AllUtils-0.19
+13.19.26 List-MoreUtils-0.430
+13.19.27 Log-Log4perl-1.57
+13.19.28 LWP-Protocol-https-6.14
+13.19.29 Module-Build-0.4234
+13.19.30 Net-DNS-1.52
+13.19.31 Parse-RecDescent-1.967015
+13.19.32 Parse-Yapp-1.21
+13.19.33 PerlIO-utf8_strict-0.010
+13.19.34 Regexp-Common-2024080801
+13.19.35 SGMLSpm-1.1
+13.19.36 Sort-Key-1.33
+13.19.37 Test-Command-0.11
+13.19.38 Test-Differences-0.72
+13.19.39 Text-BibTeX-0.91
+13.19.40 Text-CSV-2.06
+13.19.41 Text-Roman-3.5
+13.19.42 Unicode-Collate-1.31
+13.19.43 Unicode-LineBreak-2019.001
+13.19.44 URI-5.32
+13.19.45 XML-LibXML-Simple-1.01
+13.19.46 XML-LibXSLT-2.003000
+13.19.47 XML-Simple-2.25
+13.19.48 XML-Writer-0.900
+13.19.49 CPAN automated install of perl modules
