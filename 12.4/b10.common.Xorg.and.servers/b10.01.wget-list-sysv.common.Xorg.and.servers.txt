@@ -27,8 +27,8 @@ https://files.pythonhosted.org/packages/source/P/PyYAML/pyyaml-6.0.2.tar.gz
 # 16.05 Nmap-7.98
 https://nmap.org/dist/nmap-7.98.tar.bz2
 
-# 17.11 libnl-3.10.0
-https://github.com/thom311/libnl/releases/download/libnl3_11_0/libnl-3.11.0.tar.gz
-https://github.com/thom311/libnl/releases/download/libnl3_11_0/libnl-doc-3.11.0.tar.gz
+# 17.11 libnl-3.11.0
+# https://github.com/thom311/libnl/releases/download/libnl3_11_0/libnl-3.11.0.tar.gz
+# https://github.com/thom311/libnl/releases/download/libnl3_11_0/libnl-doc-3.11.0.tar.gz
 # 17.14 libpcap-1.10.5
 https://www.tcpdump.org/release/libpcap-1.10.5.tar.gz

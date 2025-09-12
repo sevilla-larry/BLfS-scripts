@@ -120,19 +120,19 @@ echo "."
 #echo "."
 #echo "."
 
-###
+### to LfS
 
-echo "b10.17.11.libnl-3.11.0"
-echo "b10.17.11.libnl-3.11.0" >> $LFSLOG_PROCESS
+#echo "b10.17.11.libnl-3.11.0"
+#echo "b10.17.11.libnl-3.11.0" >> $LFSLOG_PROCESS
 
-time { bash b10.17.11.libnl-3.11.0.sh ; }
+#time { bash b10.17.11.libnl-3.11.0.sh ; }
 
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+#date +"%Y/%b/%d %H:%M"
+#date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
+#echo "." >> $LFSLOG_PROCESS
+#echo "."
+#echo "."
 
 ###
 
