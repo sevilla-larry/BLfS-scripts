@@ -115,7 +115,8 @@ B.  Generate BLFS - Support Files
 
         ###
 
-        bash c11.03.8.all.support.apps.sh
+      # bash c11.03.8.all.support.apps.sh
+        bash b10.03.1.sh
 
         ###
 
