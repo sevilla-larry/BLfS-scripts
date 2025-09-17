@@ -4,7 +4,7 @@
 #
 # Dependencies Optional:
 #
-#               b10.17.11 libnl-3.11.0
+#               a.08.95.1 libnl-3.11.0
 #
 
 #
