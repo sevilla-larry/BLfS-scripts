@@ -8,8 +8,10 @@
 # common with MariaDB
 # bash b10.03.1.sh	- called in g63 - libreoffice support
 
-# common with OpenStack
+# common with Apache (OpenStack)
 bash b10.03.5.sh
+# common with OpenStack
+bash b10.03.6.sh
 
 ###
 
