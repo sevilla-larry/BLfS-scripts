@@ -28,7 +28,7 @@
 #               memcached
 #
 
-export PKG="nmap-7.95"
+export PKG="nmap-7.98"
 export PKGLOG_DIR=$LFSLOG/16.05
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
