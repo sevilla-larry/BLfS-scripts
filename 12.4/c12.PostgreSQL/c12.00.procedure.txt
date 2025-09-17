@@ -157,9 +157,9 @@ C.  Generate BLFS
   
         ###
 
-        https://www.linuxfromscratch.org/blfs/view/12.3/server/postgresql.html
+        https://www.linuxfromscratch.org/blfs/view/12.4/server/postgresql.html
 
-        Execute: Starting the PostgreSQL Server and Creating a Sample Database
+        As root, execute: Starting the PostgreSQL Server and Creating a Sample Database
 
   C.04. Configuration for Remote Access
 
