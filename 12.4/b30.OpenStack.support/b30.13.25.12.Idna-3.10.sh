@@ -4,13 +4,13 @@
 #
 # Dependencies Optional:
 #
-#               b10.13.23.26 Pytest-8.3.2
+#               a.08.91.20.10 Pytest-8.4.1
 #
 
 #
 # Required by:
 #
-#               b30.13.23.30 Requests-2.32.3
+#               b30.13.24.30 Requests-2.32.5
 #
 
 export PKG="idna-3.10"

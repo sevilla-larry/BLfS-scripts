@@ -1,25 +1,20 @@
-# b30.13.25.34.Urllib3-2.3.0.sh
+# b30.13.25.06.Charset-normalizer-3.4.3.sh
 #
 
 #
-# Dependencies Required:
-#
-#               b10.13.24.09 Hatchling-1.25.0
-#
-#
 # Dependencies Optional:
 #
-#               b10.13.23.26 Pytest-8.3.2
+#               a.08.91.20.10 Pytest-8.4.1
 #
 
 #
 # Required by:
 #
-#               b30.13.23.30 Requests-2.32.3
+#               b30.13.24.30 Requests-2.32.5
 #
 
-export PKG="urllib3-2.3.0"
-export PKGLOG_DIR=$LFSLOG/13.25.34
+export PKG="charset-normalizer-3.4.3"
+export PKGLOG_DIR=$LFSLOG/13.25.06
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
 export PKGLOG_CHECK=$PKGLOG_DIR/check.log
@@ -55,7 +50,7 @@ pip3 install    --no-index              \
                 --no-user               \
                 --find-links dist       \
                 --no-cache-dir          \
-                urllib3                 \
+                charset-normalizer      \
                 > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
 echo "4. pyTest ..."
@@ -65,23 +60,11 @@ python3 -m venv --system-site-packages testenv  \
             >>  $PKGLOG_CHECK 2>> $PKGLOG_ERROR
 source testenv/bin/activate                     \
             >>  $PKGLOG_CHECK 2>> $PKGLOG_ERROR
-pip3 install trustme         \
-             tornado         \
-             python-dateutil \
-             mock            \
-             pysocks         \
-             pytest-timeout  \
-             trio            \
-             hypercorn       \
-             quart           \
-             quart_trio      \
-             httpx           \
+pip3 install pytest-cov                         \
             >>  $PKGLOG_CHECK 2>> $PKGLOG_ERROR
-python3 /usr/bin/pytest      \
+python3 /usr/bin/pytest                         \
             >>  $PKGLOG_CHECK 2>> $PKGLOG_ERROR
 deactivate  >>  $PKGLOG_CHECK 2>> $PKGLOG_ERROR
-
-# A few errors are known to occur.
 
 
 cd $SOURCES

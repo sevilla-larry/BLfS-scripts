@@ -1,5 +1,7 @@
 # b30.03.1.sh
 #
+# OpenStack Support Apps
+#
 
 export LFSLOG_PROCESS=$LFSLOG/process.log
 
@@ -33,20 +35,6 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 echo "." >> $LFSLOG_PROCESS
 echo "."
 echo "."
-
-###
-
-# echo "b10.49.06.xmlto-0.0.29"
-# echo "b10.49.06.xmlto-0.0.29" >> $LFSLOG_PROCESS
-#
-# time { bash b10.49.06.xmlto-0.0.29.sh ; }
-#
-# date +"%Y/%b/%d %H:%M"
-# date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-# 
-# echo "." >> $LFSLOG_PROCESS
-# echo "."
-# echo "."
 
 #####
 

@@ -4,11 +4,11 @@
 #
 # Dependencies Required:
 #
-#               a.08.94A libtirpc-1.3.5
+#               a.08.91.15 libtirpc-1.3.6
 #
 # Dependencies Recommended:
 #
-#               b30.16.05 Nmap-7.95     (note: nc is a linked to ncat)
+#               b10.16.05 Nmap-7.98     (note: nc is a linked to ncat)
 #
 
 #

@@ -4,9 +4,9 @@
 #
 # Dependencies Required:
 #
-#               b30.13.25.06 Charset-normalizer-3.4.1
+#               b30.13.25.06 Charset-normalizer-3.4.3
 #               b30.13.25.12 Idna-3.10
-#               b30.13.25.34 Urllib3-2.3.0
+#               b30.13.25.34 Urllib3-2.5.0
 #
 # Dependencies Recommended:
 #
@@ -16,7 +16,7 @@
 #
 # Dependencies Optional:
 #
-#               b10.13.23.26 Pytest-8.3.2
+#               a.08.91.20.10 Pytest-8.4.1
 #
 
 #

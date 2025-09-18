@@ -1,34 +1,22 @@
 # 04.09 iptables-1.8.11
 https://www.netfilter.org/projects/iptables/files/iptables-1.8.11.tar.xz
 
-# 09.76 libyaml-0.2.5
-https://github.com/yaml/libyaml/releases/download/0.2.5/yaml-0.2.5.tar.gz
-
 # 11.12 lsof-4.99.0
 https://github.com/lsof-org/lsof/releases/download/4.99.0/lsof-4.99.0.tar.gz
 
-# 13.21 Python-3.11.1
-https://www.python.org/ftp/python/3.11.11/Python-3.11.1.tar.xz
-https://www.python.org/ftp/python/doc/3.11.1/python-3.11.1-docs-html.tar.bz2
-# 13.23    Python Modules
+# 13.24    Python Modules
 # 13.24.30 Requests-2.32.5
 https://files.pythonhosted.org/packages/source/r/requests/requests-2.32.5.tar.gz
 https://www.linuxfromscratch.org/patches/blfs/12.4/requests-use_system_certs-1.patch
 # 13.24.33 six-1.17.0
 https://files.pythonhosted.org/packages/source/s/sphinx/sphinx-8.2.1.tar.gz
 
-# 13.24    Python Dependencies
-# 13.25.02 Attrs-25.1.0
-https://files.pythonhosted.org/packages/source/a/attrs/attrs-25.1.0.tar.gz
-# 13.25.06 Charset-normalizer-3.4.1
-https://files.pythonhosted.org/packages/source/c/charset-normalizer/charset_normalizer-3.4.1.tar.gz
-# 13.25.10 Hatch-Fancy-Pypi-Readme-24.1.0
-https://files.pythonhosted.org/packages/source/h/hatch-fancy-pypi-readme/hatch_fancy_pypi_readme-24.1.0.tar.gz
+# 13.25    Python Dependencies
+# 13.25.06 Charset-normalizer-3.4.3
+https://files.pythonhosted.org/packages/source/c/charset-normalizer/charset_normalizer-3.4.3.tar.gz
 # 13.25.12 Idna-3.10
 https://files.pythonhosted.org/packages/source/i/idna/idna-3.10.tar.gz
 # 13.25.17 Msgpack-1.1.0
-https://files.pythonhosted.org/packages/source/m/msgpack/msgpack-1.1.0.tar.gz
-# 13.25.21 Pytz-2025.1
-https://files.pythonhosted.org/packages/source/n/numpy/numpy-2.2.3.tar.gz
-# 13.25.34 Urllib3-2.3.0
-https://files.pythonhosted.org/packages/source/u/urllib3/urllib3-2.3.0.tar.gz
+#https://files.pythonhosted.org/packages/source/m/msgpack/msgpack-1.1.0.tar.gz
+# 13.25.36 Urllib3-2.5.0
+https://files.pythonhosted.org/packages/source/u/urllib3/urllib3-2.5.0.tar.gz

@@ -4,12 +4,12 @@
 #
 # Dependencies Required:
 #
-#               b30.13.23.04 Cython-3.0.12
-#               b10.13.24.22 Setuptools_scm-8.1.0
+#               a.08.91.20.11 Cython-3.1.3
+#               a.08.91.20.01 Setuptools_scm-8.3.1
 #
 # Dependencies Optional:
 #
-#               b10.13.23.26 Pytest-8.3.2
+#               a.08.91.20.10 Pytest-8.4.1
 #
 
 #
