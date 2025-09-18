@@ -1,0 +1,34 @@
+# 04.09 iptables-1.8.11
+44191ce12055da9790a92429c771ba50 iptables-1.8.11.tar.xz
+
+# 09.76 libyaml-0.2.5
+bb15429d8fb787e7d3f1c83ae129a999 yaml-0.2.5.tar.gz
+
+# 11.12 lsof-4.99.0
+8c858675f6d6e137df9b4e26ad6c46e8 lsof-4.99.0.tar.gz
+
+# 13.21 Python-3.11.1
+4efe92adf28875c77d3b9b2e8d3bc44a Python-3.11.11.tar.xz
+05959e9b8e5d392ca7c8c873245c6bdd python-3.11.11-docs-html.tar.bz2
+# 13.23    Python Modules
+# 13.24.30 Requests-2.32.5
+cb3d3c58f07cf23f12c345f2c96a6f12 requests-2.32.5.tar.gz
+#                                requests-use_system_certs-1.patch
+# 13.24.33 six-1.17.0
+c4e340fa7b1c85898dcb72b5ea8bb8f7 six-1.17.0.tar.gz
+
+# 13.25   Python Dependencies
+# 13.25.02 Attrs-25.1.0
+338069d6f69126086d589b2cb44f4c73 attrs-25.1.0.tar.gz
+# 13.25.06 Charset-normalizer-3.4.1
+1d808eb9efaf70bf0ec3b800f3c7dca8 charset-normalizer-3.4.1.tar.gz
+# 13.25.10 Hatch-Fancy-Pypi-Readme-24.1.0
+f5f9e639f066c91f8e623ec6231beae9 hatch_fancy_pypi_readme-24.1.0.tar.gz
+# 13.25.12 Idna-3.10
+28448b00665099117b6daa9887812cc4 idna-3.10.tar.gz
+# 13.25.17 Msgpack-1.1.0
+e5769d4ab610491ac561c84fde4cf4a7 msgpack-1.1.0.tar.gz
+# 13.25.21 Pytz-2025.1
+c6ee254bcdf1e2fdb13d87e0ee4166ba pytz-2025.1.tar.gz
+# 13.25.34 Urllib3-2.3.0
+6388afd062cf2e1ef27843738629dbc1 urllib3-2.3.0.tar.gz
