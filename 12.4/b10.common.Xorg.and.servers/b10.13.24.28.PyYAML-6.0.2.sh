@@ -17,9 +17,9 @@
 #
 #               d20.24.12 Mesa-25.1.8
 #               LLVM (hidden?)
-#               i?.??     cliff-4.7.0
-#               i?.??     openstacksdk-4.0.1
-#               i?.??     oslo.utils-7.3.0
+#               i4.1.03 cliff-4.9.1
+#               i4.2.14 openstacksdk-4.4.0
+#               i4.1.49 oslo.utils-8.2.0
 #               i?.??     oslo.config-9.6.0
 #               i?.??     oslo.messaging-14.9.1
 #               i?.??     oslo.policy-4.4.0

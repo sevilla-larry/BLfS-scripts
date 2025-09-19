@@ -23,7 +23,7 @@
 # Required by:
 #
 #               i4.1.06 keystoneauth1-5.10.0
-#               i040.9.03 osc-lib-3.1.0
+#               i4.2.18 osc-lib-3.2.0
 #               i030.9.03 oslo.config-9.6.0
 #               i040.9.11 python-keystoneclient-5.5.0
 #               i040.9.12 python-cinderclient-9.6.0
