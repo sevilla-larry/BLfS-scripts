@@ -5,6 +5,8 @@
 8c858675f6d6e137df9b4e26ad6c46e8 lsof-4.99.0.tar.gz
 
 # 13.24    Python Modules
+# 13.24.24 pyparsing-3.2.3
+cc302d3f74bd1c56b4895d7186e4dd68 pyparsing-3.2.3.tar.gz
 # 13.24.30 Requests-2.32.5
 cb3d3c58f07cf23f12c345f2c96a6f12 requests-2.32.5.tar.gz
 #                                requests-use_system_certs-1.patch

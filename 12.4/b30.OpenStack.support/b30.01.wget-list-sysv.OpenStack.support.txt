@@ -5,6 +5,8 @@ https://www.netfilter.org/projects/iptables/files/iptables-1.8.11.tar.xz
 https://github.com/lsof-org/lsof/releases/download/4.99.0/lsof-4.99.0.tar.gz
 
 # 13.24    Python Modules
+# 13.24.24 pyparsing-3.2.3
+https://files.pythonhosted.org/packages/source/p/pyparsing/pyparsing-3.2.3.tar.gz
 # 13.24.30 Requests-2.32.5
 https://files.pythonhosted.org/packages/source/r/requests/requests-2.32.5.tar.gz
 https://www.linuxfromscratch.org/patches/blfs/12.4/requests-use_system_certs-1.patch
