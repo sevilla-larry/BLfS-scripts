@@ -67,24 +67,24 @@ echo "."
 
 ###
 
+echo "b30.13.24.24.pyparsing-3.2.3"
+echo "b30.13.24.24.pyparsing-3.2.3" >> $LFSLOG_PROCESS
+
+time { bash b30.13.24.24.pyparsing-3.2.3.sh ; }
+
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
+
+###
+
 # echo "b30.13.25.17.Msgpack-1.1.0"
 # echo "b30.13.25.17.Msgpack-1.1.0" >> $LFSLOG_PROCESS
 
 # time { bash b30.13.25.17.Msgpack-1.1.0.sh ; }
-
-# date +"%Y/%b/%d %H:%M"
-# date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-# echo "." >> $LFSLOG_PROCESS
-# echo "."
-# echo "."
-
-# ###
-
-# echo "b30.13.24.24.pyparsing-3.1.2"
-# echo "b30.13.24.24.pyparsing-3.1.2" >> $LFSLOG_PROCESS
-
-# time { bash b30.13.24.24.pyparsing-3.1.2.sh ; }
 
 # date +"%Y/%b/%d %H:%M"
 # date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
