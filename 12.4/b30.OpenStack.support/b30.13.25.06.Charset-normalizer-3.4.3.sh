@@ -13,7 +13,7 @@
 #               b30.13.24.30 Requests-2.32.5
 #
 
-export PKG="charset-normalizer-3.4.3"
+export PKG="charset_normalizer-3.4.3"
 export PKGLOG_DIR=$LFSLOG/13.25.06
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
