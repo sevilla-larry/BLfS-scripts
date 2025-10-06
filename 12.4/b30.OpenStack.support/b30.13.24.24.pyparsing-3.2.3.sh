@@ -10,7 +10,7 @@
 #
 
 export PKG="pyparsing-3.2.3"
-export PKGLOG_DIR=$OSLOG/13.24.24
+export PKGLOG_DIR=$LFSLOG/13.24.24
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
 export PKGLOG_CHECK=$PKGLOG_DIR/check.log
