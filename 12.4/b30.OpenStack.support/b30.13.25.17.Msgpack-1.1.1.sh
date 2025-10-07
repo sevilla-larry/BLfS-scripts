@@ -1,4 +1,4 @@
-# b30.13.25.17.Msgpack-1.1.0.sh
+# b30.13.25.17.Msgpack-1.1.1.sh
 #
 
 #
@@ -21,7 +21,7 @@
 #               i151.9.3  KeyStone-26.0.0
 #
 
-export PKG="msgpack-1.1.0"
+export PKG="msgpack-1.1.1"
 export PKGLOG_DIR=$LFSLOG/13.25.17
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log

@@ -81,19 +81,19 @@ echo "."
 
 ###
 
-# echo "b30.13.25.17.Msgpack-1.1.0"
-# echo "b30.13.25.17.Msgpack-1.1.0" >> $LFSLOG_PROCESS
+echo "b30.13.25.17.Msgpack-1.1.1"
+echo "b30.13.25.17.Msgpack-1.1.1" >> $LFSLOG_PROCESS
 
-# time { bash b30.13.25.17.Msgpack-1.1.0.sh ; }
+time { bash b30.13.25.17.Msgpack-1.1.1.sh ; }
 
-# date +"%Y/%b/%d %H:%M"
-# date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
+date +"%Y/%b/%d %H:%M"
+date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
-# echo "." >> $LFSLOG_PROCESS
-# echo "."
-# echo "."
+echo "." >> $LFSLOG_PROCESS
+echo "."
+echo "."
 
-# ###
+###
 
 # echo "b30.13.24.33.six-1.17.0"
 # echo "b30.13.24.33.six-1.17.0" >> $LFSLOG_PROCESS
