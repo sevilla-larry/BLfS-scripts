@@ -5,7 +5,6 @@
 # Dependencies Required:
 #
 #               a.08.91.20.11 Cython-3.1.3
-#               a.08.91.20.01 Setuptools_scm-8.3.1
 #
 # Dependencies Optional:
 #
