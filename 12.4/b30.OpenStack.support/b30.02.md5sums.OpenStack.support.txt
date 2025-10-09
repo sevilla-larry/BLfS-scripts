@@ -11,7 +11,7 @@ cc302d3f74bd1c56b4895d7186e4dd68 pyparsing-3.2.3.tar.gz
 cb3d3c58f07cf23f12c345f2c96a6f12 requests-2.32.5.tar.gz
 #                                requests-use_system_certs-1.patch
 # 13.24.33 six-1.17.0
-c4e340fa7b1c85898dcb72b5ea8bb8f7 six-1.17.0.tar.gz
+a0387fe15662c71057b4fb2b7aa9056a six-1.17.0.tar.gz
 
 # 13.25   Python Dependencies
 # 13.25.06 Charset-normalizer-3.4.3
