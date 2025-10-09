@@ -50,6 +50,11 @@ pip3 install    --no-index              \
                 six                     \
                 > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
+echo "4. pyTest ..."
+echo "4. pyTest ..." >> $LFSLOG_PROCESS
+echo "4. pyTest ..." >> $PKGLOG_ERROR
+pytest >  $PKGLOG_CHECK 2>> $PKGLOG_ERROR
+
 
 cd $SOURCES
 rm -rf $PKG
