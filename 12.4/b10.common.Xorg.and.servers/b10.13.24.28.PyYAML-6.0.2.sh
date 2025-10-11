@@ -19,10 +19,10 @@
 #               LLVM (hidden?)
 #               i4.1.03 cliff-4.9.1
 #               i4.2.14 openstacksdk-4.4.0
+#               i4.1.33 oslo.config-9.7.1
 #               i4.1.49 oslo.utils-8.2.0
-#               i?.??     oslo.config-9.6.0
-#               i?.??     oslo.messaging-14.9.1
-#               i?.??     oslo.policy-4.4.0
+#               i4.1.39 oslo.messaging-16.1.0
+#               i4.1.42 oslo.policy-4.5.1
 #
 # Optionally (for tests) by:
 #
