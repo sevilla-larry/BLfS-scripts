@@ -10,10 +10,10 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
 #####
 
-echo "b30.11.12.lsof-4.99.0"
-echo "b30.11.12.lsof-4.99.0" >> $LFSLOG_PROCESS
+echo "b30.04.10.iptables-1.8.11"
+echo "b30.04.10.iptables-1.8.11" >> $LFSLOG_PROCESS
 
-time { bash b30.11.12.lsof-4.99.0.sh ; }
+time { bash b30.04.10.iptables-1.8.11.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
@@ -24,10 +24,10 @@ echo "."
 
 ###
 
-echo "b30.04.09.iptables-1.8.11"
-echo "b30.04.09.iptables-1.8.11" >> $LFSLOG_PROCESS
+echo "b30.11.13.lsof-4.99.5"
+echo "b30.11.13.lsof-4.99.5" >> $LFSLOG_PROCESS
 
-time { bash b30.04.09.iptables-1.8.11.sh ; }
+time { bash b30.11.13.lsof-4.99.5.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
