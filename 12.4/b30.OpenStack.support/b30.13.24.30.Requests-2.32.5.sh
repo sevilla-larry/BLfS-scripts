@@ -28,16 +28,16 @@
 #               i5.16   python-keystoneclient-5.6.0
 #               i5.07   python-cinderclient-9.7.0
 #               i8.23   python-openstackclient-7.5.0
+#               i1.1.55 pysaml2-7.5.4 whl
 #               i040.9.13 python-glanceclient-4.7.0
 #               i040.9.14 python-barbicanclient-7.0.0
 #               i040.9.15 python-neutronclient-11.3.1
 #               i080.9.08 oslo.policy-4.4.0
 #               i070.9.02 castellan-5.1.1
 #               i090.9.02 keystonemiddleware-10.7.1
-#               i090.9.03 osprofiler-4.2.0
+#               i3.2.02 osprofiler-4.2.0
 #               i090.9.06 glance_store-4.8.1
 #               i090.9.11 os_brick-6.9.1
-#               i095.9.14 pysaml2-7.5.0
 #               i095.9.26 websockify-0.12.0
 #
 

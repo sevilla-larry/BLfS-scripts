@@ -11,7 +11,7 @@
 # Required by:
 #
 #               d20.24.12 Mesa-25.1.8
-#               ?.??      alembic-1.13.3
+#               i1.1.49   alembic-1.14.1
 #
 # Optionally by:
 #
