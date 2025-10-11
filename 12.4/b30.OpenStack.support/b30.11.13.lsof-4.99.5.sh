@@ -18,8 +18,8 @@
 #   [*] POSIX Message Queues                                        [POSIX_MQUEUE]
 #
 
-export PKG="lsof-4.99.0"
-export PKGLOG_DIR=$LFSLOG/11.12
+export PKG="lsof-4.99.5"
+export PKGLOG_DIR=$LFSLOG/11.13
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log

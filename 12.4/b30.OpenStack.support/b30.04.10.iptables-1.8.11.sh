@@ -1,4 +1,4 @@
-# b30.04.09.iptables-1.8.11.sh
+# b30.04.10.iptables-1.8.11.sh
 #
 
 #
@@ -19,7 +19,7 @@
 #
 
 export PKG="iptables-1.8.11"
-export PKGLOG_DIR=$LFSLOG/04.09
+export PKGLOG_DIR=$LFSLOG/04.10
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log

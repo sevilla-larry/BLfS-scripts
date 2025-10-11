@@ -1,8 +1,8 @@
-# 04.09 iptables-1.8.11
+# 04.10 iptables-1.8.11
 https://www.netfilter.org/projects/iptables/files/iptables-1.8.11.tar.xz
 
-# 11.12 lsof-4.99.0
-https://github.com/lsof-org/lsof/releases/download/4.99.0/lsof-4.99.0.tar.gz
+# 11.13 lsof-4.99.5
+https://github.com/lsof-org/lsof/releases/download/4.99.5/lsof-4.99.5.tar.gz
 
 # 13.24    Python Modules
 # 13.24.24 pyparsing-3.2.3
