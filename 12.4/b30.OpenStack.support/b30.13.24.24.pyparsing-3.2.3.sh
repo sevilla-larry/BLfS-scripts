@@ -4,9 +4,9 @@
 #
 # Required by:
 #
+#               i1.1.61 httplib2-0.22.0
+#               i1.1.64 pydot-3.0.4
 #               i4.1.49 oslo.utils-8.2.0
-#               i060.9.28 pydot-3.0.4
-#               i095.9.15 httplib2-0.22.0
 #
 
 export PKG="pyparsing-3.2.3"
