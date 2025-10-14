@@ -10,9 +10,9 @@
 #
 # Required by:
 #
-#               i4.1.49 oslo.utils-8.2.0
 #               i4.2.14 openstacksdk-4.4.0
-#               i080.9.11 oslo.reports-3.4.0
+#               i4.1.44 oslo.reports-3.5.1
+#               i4.1.49 oslo.utils-8.2.0
 #               i090.9.11 os_brick-6.9.1
 #
 # Optionally (for tests) by:
