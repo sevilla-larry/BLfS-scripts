@@ -24,6 +24,8 @@
 #
 #               i1.1.55 pysaml2-7.5.4 whl
 #               i3.2.02 osprofiler-4.2.0
+#               i4.2.01 castellan-5.2.1
+#               i4.2.04 glance_store-4.9.1
 #               i4.1.06 keystoneauth1-5.10.0
 #               i4.2.07 keystonemiddleware-10.9.0
 #               i4.2.18 osc-lib-3.2.0
@@ -35,8 +37,6 @@
 #               i040.9.13 python-glanceclient-4.7.0
 #               i040.9.14 python-barbicanclient-7.0.0
 #               i040.9.15 python-neutronclient-11.3.1
-#               i070.9.02 castellan-5.1.1
-#               i090.9.06 glance_store-4.8.1
 #               i090.9.11 os_brick-6.9.1
 #               i095.9.26 websockify-0.12.0
 #

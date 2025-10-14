@@ -8,7 +8,7 @@
 #               i1.1.31 python-dateutil-2.9.0.post0
 #               i1.1.40 Routes-2.5.1
 #               i090.9.01 pycadf-3.1.1
-#               i095.9.20 retrying-1.3.4
+#               i1.1.69 retrying-1.3.4
 #
 
 export PKG="six-1.17.0"

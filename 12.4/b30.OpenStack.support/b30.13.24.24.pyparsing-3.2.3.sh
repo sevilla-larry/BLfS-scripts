@@ -6,6 +6,7 @@
 #
 #               i1.1.61 httplib2-0.22.0
 #               i1.1.64 pydot-3.0.4
+#               i1.1.65 simplegeneric-0.8.1
 #               i4.1.49 oslo.utils-8.2.0
 #
 
