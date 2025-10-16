@@ -22,20 +22,6 @@ echo "."
 
 ###
 
-echo "d10.13.24.13.lxml-6.0.0"
-echo "d10.13.24.13.lxml-6.0.0" >> $LFSLOG_PROCESS
-
-time { bash d10.13.24.13.lxml-6.0.0.sh ; }
-
-date +"%Y/%b/%d %H:%M"
-date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
-
-echo "." >> $LFSLOG_PROCESS
-echo "."
-echo "."
-
-###
-
 echo "d10.13.24.08.docutils-0.21.2"
 echo "d10.13.24.08.docutils-0.21.2" >> $LFSLOG_PROCESS
 

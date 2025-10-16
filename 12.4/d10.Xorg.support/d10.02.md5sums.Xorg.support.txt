@@ -49,10 +49,6 @@ aac56db912b7b12a04fb0018e28f2f36 shared-mime-info-2.4.tar.gz
 
 # 13.24.07 docutils-0.21.2
 c4064e1e0e3cd142951fd2b95b830874 docutils-0.21.2.tar.gz
-# 13.24.13 lxml-6.0.0
-3f6f87e9b333b68070210668f0831618 lxml-6.0.0.tar.gz
-
-
 
 # 49.06 xmlto-0.0.29
 556f2642cdcd005749bd4c08bc621c37 xmlto-0.0.29.tar.gz

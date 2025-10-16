@@ -1,4 +1,4 @@
-# d10.13.24.13.lxml-6.0.0.sh
+# b10.13.24.13.lxml-6.0.0.sh
 #
 
 #
@@ -7,6 +7,10 @@
 #               a.08.91.38 libxslt-1.1.43
 #
 
+#
+# Required by:
+#
+#               i6.22.1 Nova-31.1.0
 #
 # Recommended by:
 #
