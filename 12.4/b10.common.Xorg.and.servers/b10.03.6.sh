@@ -10,10 +10,10 @@ date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS
 
 #####
 
-echo "b10.13.24.13.lxml-6.0.0"
-echo "b10.13.24.13.lxml-6.0.0" >> $LFSLOG_PROCESS
+echo "b10.13.24.13.lxml-6.0.2"
+echo "b10.13.24.13.lxml-6.0.2" >> $LFSLOG_PROCESS
 
-time { bash b10.13.24.13.lxml-6.0.0.sh ; }
+time { bash b10.13.24.13.lxml-6.0.2.sh ; }
 
 date +"%Y/%b/%d %H:%M"
 date +"%Y/%b/%d %H:%M" >> $LFSLOG_PROCESS

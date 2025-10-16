@@ -1,4 +1,4 @@
-# b10.13.24.13.lxml-6.0.0.sh
+# b10.13.24.13.lxml-6.0.2.sh
 #
 
 #
@@ -23,7 +23,7 @@
 #               e31.28.02 breeze-icons-6.11.0
 #
 
-export PKG="lxml-6.0.0"
+export PKG="lxml-6.0.2"
 export PKGLOG_DIR=$LFSLOG/13.24.13
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_BUILD=$PKGLOG_DIR/build.log
