@@ -14,10 +14,10 @@
 #
 # Required by:
 #
+#               i3.2.04 tooz-7.0.0
+#               i4.1.43 oslo.privsep-3.6.0
 #               i4.1.46 oslo.serialization-5.7.0
-#               i6.16   KeyStone-27.0.0
-#               i080.9.13 oslo.privsep-3.4.0
-#               i090.9.14 tooz-6.3.0
+#               i6.16.1 KeyStone-27.0.0
 #
 
 export PKG="msgpack-1.1.1"

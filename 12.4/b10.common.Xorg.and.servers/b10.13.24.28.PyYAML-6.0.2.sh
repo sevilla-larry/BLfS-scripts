@@ -20,9 +20,10 @@
 #               i4.1.03 cliff-4.9.1
 #               i4.2.14 openstacksdk-4.4.0
 #               i4.1.33 oslo.config-9.7.1
-#               i4.1.49 oslo.utils-8.2.0
 #               i4.1.39 oslo.messaging-16.1.0
 #               i4.1.42 oslo.policy-4.5.1
+#               i4.1.49 oslo.utils-8.2.0
+#               i6.22.1 Nova-31.1.0
 #
 # Optionally (for tests) by:
 #

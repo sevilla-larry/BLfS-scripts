@@ -7,7 +7,6 @@
 #               i1.1.28 Flask-RESTful-0.3.10
 #               i1.1.31 python-dateutil-2.9.0.post0
 #               i1.1.40 Routes-2.5.1
-#               i090.9.01 pycadf-3.1.1
 #               i1.1.69 retrying-1.3.4
 #
 

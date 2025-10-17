@@ -23,11 +23,13 @@
 # Required by:
 #
 #               i1.1.55 pysaml2-7.5.4 whl
+#               i1.1.76 websockify-0.13.0
 #               i3.2.02 osprofiler-4.2.0
 #               i4.2.01 castellan-5.2.1
 #               i4.2.04 glance_store-4.9.1
 #               i4.1.06 keystoneauth1-5.10.0
 #               i4.3.07 keystonemiddleware-10.9.0
+#               i4.2.15 os-brick-6.11.0
 #               i4.2.18 osc-lib-3.2.0
 #               i4.1.33 oslo.config-9.7.1
 #               i4.1.42 oslo.policy-4.5.1
@@ -35,11 +37,10 @@
 #               i5.1.07 python-cinderclient-9.7.0
 #               i5.1.12 python-glanceclient-4.8.0
 #               i5.1.16 python-keystoneclient-5.6.0
+#               i5.2.21 python-neutronclient-11.4.0
+#               i6.22.1 Nova-31.1.0
 #               i6.24.1 Openstack-Placement-13.0.0
 #               i8.23   python-openstackclient-7.5.0
-#               i040.9.15 python-neutronclient-11.3.1
-#               i090.9.11 os_brick-6.9.1
-#               i095.9.26 websockify-0.12.0
 #
 
 export PKG="requests-2.32.5"
