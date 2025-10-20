@@ -215,8 +215,17 @@ write_buffer = 2M
 [mariadbhotcopy]
 interactive-timeout
 
+!includedir /etc/mariadb/mariadb.conf.d/
+
 # End /etc/mariadb/my.cnf
 EOF
+
+# Note: added the !includedir for OpenStack
+
+mkdir -v /etc/mariadb/mariadb.conf.d    \
+    >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
+chown -v -R mariadb:mariadb /etc/mariadb                                  \
+    >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
 
 echo "   Install a database and change the ownership to the unprivileged user and group..."
 echo "   Install a database and change the ownership to the unprivileged user and group..." >> $LFSLOG_PROCESS
