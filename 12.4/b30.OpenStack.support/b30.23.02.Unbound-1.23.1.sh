@@ -57,7 +57,7 @@ echo "2. Configure ..." >> $PKGLOG_ERROR
             --with-pyunbound                \
             PYTHON_VERSION=3.${PYVER}       \
             > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
-# last line suggestion by Grok
+# --with-run-dir suggestion by Grok
 
 echo "3. Make Build ..."
 echo "3. Make Build ..." >> $LFSLOG_PROCESS
