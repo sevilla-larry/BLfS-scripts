@@ -4,6 +4,9 @@
 # 11.13 lsof-4.99.5
 00f5844ae3520b5699c249dd424500c2 lsof-4.99.5.tar.gz
 
+# 13.33 SWIG-4.3.1
+4929864e1b040a51370160d17669d6f1 swig-4.3.1.tar.gz
+
 # 13.24    Python Modules
 # 13.24.24 pyparsing-3.2.3
 cc302d3f74bd1c56b4895d7186e4dd68 pyparsing-3.2.3.tar.gz

@@ -4,6 +4,9 @@ https://www.netfilter.org/projects/iptables/files/iptables-1.8.11.tar.xz
 # 11.13 lsof-4.99.5
 https://github.com/lsof-org/lsof/releases/download/4.99.5/lsof-4.99.5.tar.gz
 
+# 13.33 SWIG-4.3.1
+https://downloads.sourceforge.net/swig/swig-4.3.1.tar.gz
+
 # 13.24    Python Modules
 # 13.24.24 pyparsing-3.2.3
 https://files.pythonhosted.org/packages/source/p/pyparsing/pyparsing-3.2.3.tar.gz

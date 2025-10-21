@@ -51,8 +51,11 @@ echo "2. Configure ..." >> $PKGLOG_ERROR
 ./configure --prefix=/usr       \
             --sysconfdir=/etc   \
             --disable-static    \
+            --with-libevent     \
             --with-pidfile=/run/unbound.pid \
             --with-run-dir=/run/unbound     \
+            --with-pyunbound                \
+            PYTHON_VERSION=3.${PYVER}       \
             > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
 # last line suggestion by Grok
 
