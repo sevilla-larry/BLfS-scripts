@@ -53,11 +53,10 @@ echo "2. Configure ..." >> $PKGLOG_ERROR
             --disable-static    \
             --with-libevent     \
             --with-pidfile=/run/unbound.pid \
-            --with-run-dir=/run/unbound     \
             --with-pyunbound                \
             PYTHON_VERSION=3.${PYVER}       \
             > $PKGLOG_CONFIG 2>> $PKGLOG_ERROR
-# --with-run-dir suggestion by Grok
+# --with-run-dir=/run/unbound suggestion by Grok but seems problematic
 
 echo "3. Make Build ..."
 echo "3. Make Build ..." >> $LFSLOG_PROCESS
@@ -77,6 +76,17 @@ make install > $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 mv -v /usr/sbin/unbound-host /usr/bin/  \
         >> $PKGLOG_INSTALL 2>> $PKGLOG_ERROR
 
+mkdir -vp /var/lib/unbound /etc/unbound \
+        >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
+
+chown -vR unbound:unbound               \
+        /var/lib/unbound /etc/unbound   \
+        >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
+
+unbound-anchor  \
+        >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
+
+
 echo "."
 echo "."                                                >> $LFSLOG_PROCESS
 echo "."                                                >> $PKGLOG_ERROR
@@ -92,6 +102,15 @@ echo "Configure Unbound after installing this package"  >> $PKGLOG_ERROR
 echo "."
 echo "."                                                >> $LFSLOG_PROCESS
 echo "."                                                >> $PKGLOG_ERROR
+
+# Edit /etc/unbound/unbound.conf if needed
+# (e.g., set auto-trust-anchor-file: "/etc/unbound/root.key"
+# explicitly under the server: section to override
+
+# For DNS resolution,
+# update /etc/resolv.conf
+# to nameserver 127.0.0.1
+# if using Unbound locally.
 
 
 cd $SOURCES
