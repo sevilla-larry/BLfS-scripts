@@ -79,11 +79,11 @@ mv -v /usr/sbin/unbound-host /usr/bin/  \
 mkdir -vp /var/lib/unbound /etc/unbound \
         >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
 
-chown -vR unbound:unbound               \
-        /var/lib/unbound /etc/unbound   \
+unbound-anchor  \
         >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
 
-unbound-anchor  \
+chown -vR unbound:unbound       \
+        /{etc,var/lib}/unbound  \
         >> $PKGLOG_OTHERS 2>> $PKGLOG_ERROR
 
 
