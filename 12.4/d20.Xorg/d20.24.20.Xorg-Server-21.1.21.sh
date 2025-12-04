@@ -1,4 +1,5 @@
-# d20.24.20.Xorg-Server-21.1.18.sh
+# d20.24.20.Xorg-Server-21.1.21.sh
+# errata
 #
 
 #
@@ -79,7 +80,7 @@
 #   read NOTES at: https://www.linuxfromscratch.org/blfs/view/12.4/x/xorg-server.html
 #
 
-export PKG="xorg-server-21.1.18"
+export PKG="xorg-server-21.1.21"
 export PKGLOG_DIR=$LFSLOG/24.20
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log

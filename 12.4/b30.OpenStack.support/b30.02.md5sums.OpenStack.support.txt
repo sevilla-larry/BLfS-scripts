@@ -27,4 +27,6 @@ abcd18fded80a89c486c0446f112eb06 msgpack-1.1.1.tar.gz
 2b8a86438e4d35fbc90572dbdb424759 urllib3-2.5.0.tar.gz
 
 # 23.02 Unbound-1.23.1
-63f13e96ee2b609d6d0aeb119d539210 unbound-1.23.1.tar.gz
+#63f13e96ee2b609d6d0aeb119d539210 unbound-1.23.1.tar.gz
+# 23.02 Unbound-1.24.2
+dfa7175de7a5cab0e8deb43a304795de unbound-1.24.2.tar.gz

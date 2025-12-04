@@ -1,6 +1,6 @@
-# e10.44.01.FFmpeg-7.1.sh
+# e10.44.01.FFmpeg-7.1.3.sh
 # Xfce Gnome KDE
-#
+# errata
 
 #
 # Dependencies Recommended:
@@ -58,7 +58,7 @@
 #               e42.33.23 localsearch-3.8.2
 #
 
-export PKG="ffmpeg-7.1"
+export PKG="ffmpeg-7.1.3"
 export PKGLOG_DIR=$LFSLOG/44.01
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log

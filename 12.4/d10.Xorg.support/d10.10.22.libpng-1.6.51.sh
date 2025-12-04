@@ -1,4 +1,5 @@
-# d10.10.22.libpng-1.6.50.sh
+# d10.10.22.libpng-1.6.51.sh
+# errata
 #
 
 #
@@ -24,7 +25,7 @@
 #               e10.10.31 OpenJPEG-2.5.3
 #
 
-export PKG="libpng-1.6.50"
+export PKG="libpng-1.6.51"
 export PKGLOG_DIR=$LFSLOG/10.22
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log

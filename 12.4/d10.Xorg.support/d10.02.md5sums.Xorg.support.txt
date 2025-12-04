@@ -26,6 +26,9 @@ f68f95052c7297b98eccb7709d817f6a fontconfig-2.17.1.tar.xz
 # 10.22 libpng-1.6.50
 e583e61455c4f40d565d85c0e9a2fbf9 libpng-1.6.50.tar.xz
 5c4a639b227ac60a0e438840bcf1cf5f libpng-1.6.47-apng.patch.gz
+# 10.22 libpng-1.6.51
+8781d5eb8285ac70100b75a1d2a5fc5e libpng-1.6.51.tar.xz
+c0e913c8f84b3ea64577e11bb7f93cb5 libpng-1.6.51-apng.patch.gz
 # 10.32 Pixman-0.46.4
 c08173c8e1d2cc79428d931c13ffda59 pixman-0.46.4.tar.gz
 

@@ -1,4 +1,5 @@
-# b30.23.02.Unbound-1.23.1.sh
+# b30.23.02.Unbound-1.24.2.sh
+# errata
 #
 
 #
@@ -14,7 +15,7 @@
 #               i2.4.2 openvswitch-3.3.6
 #
 
-export PKG="unbound-1.23.1"
+export PKG="unbound-1.24.2"
 export PKGLOG_DIR=$LFSLOG/23.02
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log

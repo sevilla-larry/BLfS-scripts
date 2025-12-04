@@ -1,4 +1,5 @@
-# 10.42.24.libaom-3.12.0.sh
+# 10.42.24.libaom-3.13.1.sh
+# errata
 #
 
 #
@@ -22,7 +23,7 @@
 #               e10.44.01 FFmpeg-7.1
 #
 
-export PKG="libaom-3.12.0"
+export PKG="libaom-3.13.1"
 export PKGLOG_DIR=$LFSLOG/42.24
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
@@ -42,6 +43,8 @@ echo "1. Extract tar..." >> $PKGLOG_ERROR
 tar xvf $PKG.tar.gz > $PKGLOG_TAR 2>> $PKGLOG_ERROR
 cd $PKG
 
+# if using Nasm 3.x
+# patch -Np1 -i ../libaom-3.13.1-nasm3-1.patch
                   
 mkdir aom-build
 cd    aom-build

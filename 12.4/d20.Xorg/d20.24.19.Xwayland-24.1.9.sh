@@ -1,4 +1,5 @@
-# d20.24.19.Xwayland-24.1.8.sh
+# d20.24.19.Xwayland-24.1.9.sh
+# errata
 #
 
 #
@@ -42,7 +43,7 @@
 #
 
 
-export PKG="xwayland-24.1.8"
+export PKG="xwayland-24.1.9"
 export PKGLOG_DIR=$LFSLOG/24.19
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log

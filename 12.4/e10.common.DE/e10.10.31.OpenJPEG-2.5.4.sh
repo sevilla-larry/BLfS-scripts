@@ -1,5 +1,6 @@
-# e10.10.31.OpenJPEG-2.5.3.sh
+# e10.10.31.OpenJPEG-2.5.4.sh
 # Xfce LXQt Gnome KDE
+# errata
 #
 
 #
@@ -32,7 +33,7 @@
 #               e41.42.16 gst-plugins-bad-1.26.3    (errata)
 #
 
-export PKG="openjpeg-2.5.3"
+export PKG="openjpeg-2.5.4"
 export PKGLOG_DIR=$LFSLOG/10.31
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log

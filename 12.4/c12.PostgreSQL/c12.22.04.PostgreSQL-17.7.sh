@@ -1,4 +1,5 @@
-# c12.22.04.PostgreSQL-17.6.sh
+# c12.22.04.PostgreSQL-17.7.sh
+# errata
 #
 
 #
@@ -21,7 +22,7 @@
 #               c14.20.04 ProFTPD-1.3.9
 #
 
-export PKG="postgresql-17.6"
+export PKG="postgresql-17.7"
 export PKGLOG_DIR=$LFSLOG/22.04
 export PKGLOG_TAR=$PKGLOG_DIR/tar.log
 export PKGLOG_CONFIG=$PKGLOG_DIR/config.log
